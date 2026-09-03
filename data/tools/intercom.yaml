@@ -1,0 +1,166 @@
+slug: intercom
+vendor: Intercom
+product: Intercom
+category: live_chat
+url: https://www.intercom.com/pricing
+free_trial: "14-day free trial with no credit card, covering all features, Fin and add-ons (stated 2026-09-03)."
+
+# Per Full seat per month with the "Billed annually" toggle active. The seat
+# prices render through an odometer widget; they were read from the widgets'
+# aria-labels ($29, $19, $85, $132) rather than from visible text. The $19
+# is a 35%-off new-customer offer on Essential and is recorded as a promo,
+# not as the plan price. Lite seats (20 on Advanced, 50 on Expert) are free.
+# Monthly-billing seat prices were not captured.
+tiers:
+  - plan: Essential
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 29
+    seat_label: seat
+    billing: annual
+    promo: "New customer offer on 2026-09-03: 35% off Essential, shown as $19 per seat per month."
+    provenance:
+      source_url: https://www.intercom.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch; price read from the odometer aria-label "$29" with "Billed annually" aria-checked=true; a second widget on the card reads "$19" under "New customer offer: Save 35%".'
+  - plan: Advanced
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 85
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://www.intercom.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Odometer aria-label "$85" per seat/mo, billed annually. Includes 20 free Lite seats.'
+  - plan: Expert
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 132
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://www.intercom.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Odometer aria-label "$132" per seat/mo, billed annually. Includes 50 free Lite seats.'
+  - plan: Copilot add-on
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 29
+    seat_label: agent
+    billing: annual
+    provenance:
+      source_url: https://www.intercom.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'FAQ: "$29 per agent/month billed annually, or $35 per agent/month billed monthly, for unlimited usage."'
+
+fees:
+  - name: Fin AI Agent
+    amount_usd: 0.99
+    unit: per outcome (resolution, no further help requested, or completed workflow); once per conversation
+    provenance:
+      source_url: https://www.intercom.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Pro add-on
+    amount_usd: 99
+    unit: per month, "from"; 1,000 analysed conversations and 2,000 Operator credits, extra credits $0.01 each
+    provenance:
+      source_url: https://www.intercom.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Proactive Support Plus add-on
+    amount_usd: 99
+    unit: per month for 500 outbound messages; additional messages charged per unit
+    provenance:
+      source_url: https://www.intercom.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Intercom's self-serve Essential and Advanced plans need no contract on
+      monthly or annual billing; plans and seats can be changed in the
+      workspace and downgrades typically take effect at renewal (2026-09-03).
+    quote: "Monthly or annual self-serve plans are available (Essential, Advanced). Contracts are optional."
+    provenance:
+      source_url: https://www.intercom.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Intercom bills per Full seat with a 1-seat minimum plus usage: Fin at
+      $0.99 per outcome, WhatsApp per conversation, SMS per message, bulk
+      email per send and phone by usage; inbound live chat and email are
+      included (2026-09-03).
+    provenance:
+      source_url: https://www.intercom.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Intercom's pricing page states no data-export terms (2026-09-03).
+    provenance:
+      source_url: https://www.intercom.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+findings:
+  - id: intercom-seat-prices-annual
+    claim: >-
+      On 2026-09-03 Intercom listed Essential at $29, Advanced at $85 and
+      Expert at $132 per seat per month billed annually, with a new-customer
+      offer of 35% off Essential shown as $19.
+    provenance:
+      source_url: https://www.intercom.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: intercom-fin-per-outcome
+    claim: >-
+      Intercom's Fin AI agent costs $0.99 per outcome on every plan, counted
+      once per conversation when the customer confirms resolution, stops
+      asking, or Fin completes a workflow (2026-09-03).
+    provenance:
+      source_url: https://www.intercom.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: intercom-copilot-addon
+    claim: >-
+      Intercom's Copilot costs $29 per agent per month annually or $35
+      monthly beyond 10 free uses per agent, so an Advanced seat with
+      Copilot is $114 per month (2026-09-03).
+    provenance:
+      source_url: https://www.intercom.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: intercom-lite-seats-free
+    claim: >-
+      Intercom includes 20 free Lite seats on Advanced and 50 on Expert for
+      internal collaborators who do not message customers, with a 1 Full
+      seat minimum to start (2026-09-03).
+    provenance:
+      source_url: https://www.intercom.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: intercom-five-seat-cost
+    claim: >-
+      At Intercom's 2026-09-03 annual rates 5 Full seats cost $145 per month
+      on Essential, $425 on Advanced or $660 on Expert before Fin usage,
+      against $245 on LiveChat Team.
+    provenance:
+      source_url: https://www.intercom.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: intercom-startup-discount
+    claim: >-
+      Intercom advertises up to 93% off plus 1 year of Fin free for startups
+      through its Early Stage program (2026-09-03).
+    provenance:
+      source_url: https://www.intercom.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch

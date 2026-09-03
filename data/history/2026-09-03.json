@@ -610,6 +610,61 @@
    "tiers": [],
    "vendor": "Kit (formerly ConvertKit)"
   },
+  "livechat": {
+   "category": "live_chat",
+   "fees": [
+    {
+     "amount_usd": 52.0,
+     "fetched_at": "2026-09-03",
+     "name": "ChatBot.com AI chatbot add-on",
+     "unit": "per month billed annually, \"starts at\"; separate Text product"
+    }
+   ],
+   "product": "LiveChat",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 19.0,
+     "plan": "Starter",
+     "source_url": "https://www.livechat.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 49.0,
+     "plan": "Team",
+     "source_url": "https://www.livechat.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 79.0,
+     "plan": "Business",
+     "source_url": "https://www.livechat.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 25.0,
+     "plan": "Starter (monthly billing)",
+     "source_url": "https://www.livechat.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Text"
+  },
   "mailchimp": {
    "category": "email_marketing",
    "fees": [],
@@ -1136,6 +1191,67 @@
     }
    ],
    "vendor": "Square"
+  },
+  "tidio": {
+   "category": "live_chat",
+   "fees": [
+    {
+     "amount_usd": 32.5,
+     "fetched_at": "2026-09-03",
+     "name": "Lyro AI Agent add-on",
+     "unit": "per month \"starting at\" for 50 AI conversations (EUR render, \u20ac32.50; USD figure not captured); also sold stand-alone"
+    },
+    {
+     "amount_usd": 16.67,
+     "fetched_at": "2026-09-03",
+     "name": "Remove Tidio branding",
+     "unit": "per month (EUR render, 16.67 EUR/mo; USD figure not captured)"
+    }
+   ],
+   "product": "Tidio",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": 10,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://www.tidio.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 24.17,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": 10,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter",
+     "source_url": "https://www.tidio.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 49.17,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": 10,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Growth",
+     "source_url": "https://www.tidio.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 300.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Plus",
+     "source_url": "https://www.tidio.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Tidio"
   },
   "trello": {
    "category": "project_management",
