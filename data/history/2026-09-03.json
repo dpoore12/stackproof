@@ -453,6 +453,61 @@
    "tiers": [],
    "vendor": "MailerLite"
   },
+  "monday": {
+   "category": "project_management",
+   "fees": [
+    {
+     "amount_usd": 10.0,
+     "fetched_at": "2026-09-03",
+     "name": "AI credits bundle (Basic)",
+     "unit": "per month for 1,000 AI credits at 10 seats; shown as charged then discounted in full at fetch time"
+    }
+   ],
+   "product": "monday work management",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": 2,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://monday.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 9.0,
+     "plan": "Basic",
+     "source_url": "https://monday.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 12.0,
+     "plan": "Standard",
+     "source_url": "https://monday.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 19.0,
+     "plan": "Pro",
+     "source_url": "https://monday.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "monday.com"
+  },
   "nextiva": {
    "category": "business_phone",
    "fees": [],

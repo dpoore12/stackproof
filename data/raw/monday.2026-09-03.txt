@@ -1,0 +1,12 @@
+URL: https://monday.com/pricing
+STATUS: 200
+FETCHED: 2026-09-03 23:42:52 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main> (pricing excerpt). Team-size selector read "Choose team size: 10 Seats"; billing toggle "Yearly SAVE 18% | Monthly" with Yearly totals shown ("billed annually").
+---
+Plans for every team, people and agents included. Start free, no credit card needed.
+Free — $0 free forever. Up to 2 seats. Up to 3 boards, up to 3 Docs, 200+ templates, 8 column types, iOS and Android apps. AI features available from Basic.
+Basic — $9 seat / month. "Total of $90. $9 x 10 seats = $90. 1,000 credits = $10. Special monthly discount = -$10. Total = $90 / month, billed annually." Special offer: $10 off / month. Basic AI: 3 tools · 1,000 AI credits / month. Includes Free, plus: unlimited free viewers, unlimited items.
+Standard — $12 seat / month. "Total of $120 [$140 struck]. $12 x 10 seats = $120. 2,000 credits = $20. Special monthly discount = -$20. Total = $120 / month, billed annually." Special offer: $20 off / month. AI essentials: 5 tools · 2,000 AI credits / month. Includes Basic, plus: 3 workflows, automations (250 actions / month), integrations (250 actions / month), timeline & Gantt, calendar, guest access, API calls (1,000 / day).
+Pro (Most Popular) — $19 seat / month. "Total of $190 [$220 struck]. $19 x 10 seats = $190. 3,000 credits = $30. Special monthly discount = -$30. Total = $190 / month, billed annually." Special offer: $30 off / month. Premium AI: 6 tools · 3,000 AI credits / month. Includes Standard, plus: 20 workflows, automations (25,000 actions / month), integrations (25,000 actions / month), private boards, advanced views, time tracking, advanced columns, API calls (10,000 / day).
+Enterprise — custom price. 250 workflows, enterprise security, up to 250,000 automation/integration actions per month, portfolio & resource management, multi-level permissions, API calls (25,000 / day), 24/7 support, 99.9% uptime SLA.
+Meta description: "Starting from $9 per user per month".
