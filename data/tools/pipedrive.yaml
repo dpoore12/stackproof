@@ -3,29 +3,163 @@ vendor: Pipedrive
 product: Pipedrive
 category: crm
 url: https://www.pipedrive.com/en/pricing
-free_trial: null
-pricing_note: "pipedrive.com/en/pricing returned no parseable content to an automated fetch on 2026-09-03 (script-rendered); pricing pending a rendered fetch or verification on an account."
+free_trial: "Free 14-day trial on every plan, no credit card required (stated 2026-09-03)."
 
-tiers: []
+# Per seat per month, billed annually (the page's default toggle). Monthly
+# billing exists ("Save up to 42%" on annual) but the monthly figures are
+# behind a toggle and were not captured.
+tiers:
+  - plan: Lite
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 14
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://www.pipedrive.com/en/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch. "US$14 … One payment of US$ 168 per seat/year. Per seat per month, billed annually".'
+  - plan: Growth
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 39
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://www.pipedrive.com/en/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"US$39 … One payment of US$ 468 per seat/year".'
+  - plan: Premium
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 59
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://www.pipedrive.com/en/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"US$59 … One payment of US$ 708 per seat/year". Marked MOST POPULAR.'
+  - plan: Ultimate
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 79
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://www.pipedrive.com/en/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"US$79 … One payment of US$ 948 per seat/year".'
+
+fees:
+  - name: LeadBooster add-on
+    amount_usd: 32.5
+    unit: per month, "starting from"; billing unit not stated on the pricing page
+    provenance:
+      source_url: https://www.pipedrive.com/en/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Projects add-on
+    amount_usd: 16
+    unit: per month, "starting from"
+    provenance:
+      source_url: https://www.pipedrive.com/en/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Campaigns add-on
+    amount_usd: 13.33
+    unit: per month, "starting from"
+    provenance:
+      source_url: https://www.pipedrive.com/en/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Web Visitors add-on
+    amount_usd: 41
+    unit: per month, "starting from"
+    provenance:
+      source_url: https://www.pipedrive.com/en/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Smart Docs add-on
+    amount_usd: 32.5
+    unit: per month, "starting from"
+    provenance:
+      source_url: https://www.pipedrive.com/en/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
 
 clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Pipedrive states there is no commitment and the plan can be changed at
+      any time; annual plans are paid as one payment for the year
+      (2026-09-03).
+    quote: "No commitment – you can make changes anytime."
+    provenance:
+      source_url: https://www.pipedrive.com/en/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Monthly billing charges on the same day each month; annual billing is
+      charged once for the whole year and is advertised as saving up to 42%
+      (2026-09-03).
+    provenance:
+      source_url: https://www.pipedrive.com/en/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
   - topic: data_export
     status: needs_account
     finding: >-
-      Pipedrive's pricing page returned no parseable content on 2026-09-03;
-      pricing, export and cancellation terms are pending.
+      Data-export terms are not on Pipedrive's pricing page (2026-09-03);
+      pending verification on an account.
     provenance:
       source_url: https://www.pipedrive.com/en/pricing
       fetched_at: 2026-09-03
       method: not_available
 
 findings:
-  - id: pipedrive-pricing-page-empty-to-fetch
+  - id: pipedrive-per-seat-prices-annual
     claim: >-
-      On 2026-09-03 an automated fetch of pipedrive.com/en/pricing with
-      JavaScript enabled returned no page content, so Pipedrive's published
-      per-seat prices could not be machine-recorded.
+      On 2026-09-03 Pipedrive listed Lite at $14, Growth at $39, Premium at
+      $59 and Ultimate at $79 per seat per month, each billed annually as one
+      payment of $168, $468, $708 or $948 per seat per year.
     provenance:
       source_url: https://www.pipedrive.com/en/pricing
       fetched_at: 2026-09-03
-      method: not_available
+      method: live_fetch
+  - id: pipedrive-annual-discount-42
+    claim: >-
+      Pipedrive advertises annual billing as saving up to 42% versus monthly,
+      which implies its monthly rates run well above the $14–$79 annual
+      figures shown by default (2026-09-03).
+    provenance:
+      source_url: https://www.pipedrive.com/en/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: pipedrive-addons-stack
+    claim: >-
+      Pipedrive sells five add-ons priced "starting from" $13.33 (Campaigns),
+      $16 (Projects), $32.50 (LeadBooster), $32.50 (Smart Docs) and $41 (Web
+      Visitors) per month on top of any plan (2026-09-03).
+    provenance:
+      source_url: https://www.pipedrive.com/en/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: pipedrive-five-seat-cost
+    claim: >-
+      At Pipedrive's 2026-09-03 annual-billed rates a 5-seat team pays $70 per
+      month on Lite, $195 on Growth, $295 on Premium or $395 on Ultimate.
+    provenance:
+      source_url: https://www.pipedrive.com/en/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: pipedrive-trial-no-card
+    claim: >-
+      Pipedrive's 14-day free trial requires no credit card and the plan can
+      be changed at any time with no commitment (stated 2026-09-03).
+    provenance:
+      source_url: https://www.pipedrive.com/en/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch

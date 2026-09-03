@@ -3,53 +3,171 @@ vendor: Help Scout
 product: Help Scout
 category: helpdesk
 url: https://www.helpscout.com/pricing/
-free_trial: "15-day free trial of Standard or Plus, no credit card; Pro trial via sales (stated 2026-09-03)."
-pricing_note: "Plan prices are rendered by script and were not captured; the page's dollar figures are an ROI calculator, not prices. Plan limits and trial terms were captured. Amounts pending verification on an account."
+free_trial: "15-day trial of Standard or Plus, no credit card required; Pro trials go through sales. AI Answers is free for the first 3 months (stated 2026-09-03)."
 
-tiers: []
+# Per user per month with the page's default "Annual" toggle active (the
+# annual button carried the is-active class on 2026-09-03; the toggle is
+# labelled "-16%"). Monthly-billed prices are behind the toggle and were not
+# captured. A Free plan covers up to 5 users.
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    max_seats: 5
+    billing: monthly
+    provenance:
+      source_url: https://www.helpscout.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"The Free plan gives you 5 users, 1 Inbox, and 1 Docs site." Contacts capped at 100/mo.'
+  - plan: Standard
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 25
+    seat_label: user
+    max_seats: 25
+    billing: annual
+    provenance:
+      source_url: https://www.helpscout.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch; Annual toggle active. "$25 per user/mo". Users "Up to 25".'
+  - plan: Plus
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 45
+    seat_label: user
+    max_seats: 50
+    billing: annual
+    provenance:
+      source_url: https://www.helpscout.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$45 per user/mo", marked Popular. Users "Up to 50".'
+  - plan: Pro
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 75
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.helpscout.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$75 per user/mo". Users "Unlimited (minimum 10)" — a 10-seat floor applies; the cost table does not model minimums, so 1–5 seat Pro figures understate the real bill.'
+
+fees:
+  - name: AI Answers add-on
+    amount_usd: 0.75
+    unit: per AI resolution, billed monthly; monthly spending cap can be set; first 3 months free
+    provenance:
+      source_url: https://www.helpscout.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Additional Inbox
+    amount_usd: 10
+    unit: per Inbox per month paid annually ($12 on monthly billing), beyond the plan's included Inboxes
+    provenance:
+      source_url: https://www.helpscout.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Additional Docs site
+    amount_usd: 20
+    unit: per site per month paid annually ($24 on monthly billing)
+    provenance:
+      source_url: https://www.helpscout.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
 
 clauses:
   - topic: billing_timing
     status: stated
     finding: >-
-      Help Scout accepts major credit cards, offers wire or ACH for some annual
-      payments, and requires no payment method on the Free plan (2026-09-03).
+      Help Scout accepts Visa, American Express, Mastercard and Discover, with
+      wire or ACH available for some annual payments; its inbox and docs
+      add-ons cost 20% more on monthly billing than annual (2026-09-03).
+    provenance:
+      source_url: https://www.helpscout.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Help Scout's pricing page states no cancellation or refund terms
+      (2026-09-03).
     provenance:
       source_url: https://www.helpscout.com/pricing/
       fetched_at: 2026-09-03
       method: live_fetch
   - topic: data_export
-    status: needs_account
+    status: stated
     finding: >-
-      Data-export and cancellation terms are not on Help Scout's pricing page
-      (2026-09-03); pending verification on an account.
+      Reporting data can be exported to CSV or Excel on the Plus and Pro
+      plans per the feature table; export of conversations is not addressed
+      on the pricing page (2026-09-03).
     provenance:
       source_url: https://www.helpscout.com/pricing/
       fetched_at: 2026-09-03
-      method: not_available
+      method: live_fetch
+
+support:
+  channels: [email]
+  hours: "Email support on every plan; priority email on Standard, Plus and Pro; onboarding specialist and CSM sold as add-ons (per feature table)"
+  provenance:
+    source_url: https://www.helpscout.com/pricing/
+    fetched_at: 2026-09-03
+    method: live_fetch
 
 findings:
-  - id: helpscout-free-plan-limits
+  - id: helpscout-per-user-prices-annual
     claim: >-
-      Help Scout's Free plan on 2026-09-03 includes 5 users, 1 shared Inbox
-      and 1 Docs site, with no payment method required.
+      On 2026-09-03 Help Scout listed Standard at $25, Plus at $45 and Pro at
+      $75 per user per month with annual billing selected; the page labels
+      the annual toggle as a 16% saving over monthly.
     provenance:
       source_url: https://www.helpscout.com/pricing/
       fetched_at: 2026-09-03
       method: live_fetch
-  - id: helpscout-inbox-caps-by-plan
+  - id: helpscout-free-plan-five-users
     claim: >-
-      Help Scout caps shared inboxes by plan — 1 on Free, 20 on Standard, 50
-      on Plus, unlimited on Pro (stated 2026-09-03).
+      Help Scout's Free plan includes 5 users, 1 Inbox, 1 Docs site and 100
+      contacts per month, with a 30-day reporting history cap on Standard
+      above it (2026-09-03).
     provenance:
       source_url: https://www.helpscout.com/pricing/
       fetched_at: 2026-09-03
       method: live_fetch
-  - id: helpscout-trial-terms
+  - id: helpscout-seat-caps-and-pro-minimum
     claim: >-
-      Help Scout's Standard and Plus plans carry a 15-day free trial with no
-      credit card; the Pro plan is trialled only through its sales team
+      Help Scout caps Standard at 25 users and Plus at 50, and Pro carries a
+      10-user minimum, so a team of 26 to 50 must be on Plus or above and a
+      Pro team pays for at least 10 seats (2026-09-03).
+    provenance:
+      source_url: https://www.helpscout.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: helpscout-ai-answers-per-resolution
+    claim: >-
+      Help Scout's AI Answers costs $0.75 per resolved conversation billed
+      monthly, is free for the first 3 months, and can be capped at a monthly
+      spend (2026-09-03).
+    provenance:
+      source_url: https://www.helpscout.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: helpscout-addon-monthly-premium
+    claim: >-
+      Extra Help Scout Inboxes cost $10 per month on annual billing or $12
+      monthly, and extra Docs sites $20 or $24, a 20% month-to-month premium
       (2026-09-03).
+    provenance:
+      source_url: https://www.helpscout.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: helpscout-five-user-cost
+    claim: >-
+      At Help Scout's 2026-09-03 annual-billed rates a 5-user team pays $125
+      per month on Standard or $225 on Plus, or $0 on the Free plan within
+      its 100-contact monthly cap.
     provenance:
       source_url: https://www.helpscout.com/pricing/
       fetched_at: 2026-09-03

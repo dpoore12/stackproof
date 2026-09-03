@@ -1,0 +1,15 @@
+URL: https://www.freshworks.com/freshsales-crm/pricing/ (final: https://www.freshworks.com/crm/pricing/)
+STATUS: 200
+FETCHED: 2026-09-03 23:27:00 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (pricing excerpt)
+---
+Plans for Freshsales. Save 20% Annually / Monthly [toggle; annual shown]
+Growth — $9/user/month, billed annually — For startups and SMBs. Kanban view; Contact lifecycle stages; Chat, Email, and phone; Email templates; Custom fields; Basic workflows. Available add-ons: Branded documents $19/user/month; Freddy AI Agent $49/100 sessions. Try it Free
+Pro — $39/user/month, billed annually — For growing and mid-sized businesses. Everything in Growth, plus: Contact scoring; Deal insights; Custom sales activities; Custom fields; Territory management; Sales sequences. Same add-ons.
+Enterprise — $59/user/month, billed annually — For mid to large-sized businesses. Everything in Pro, plus: Forecasting insights; Field-level permissions; Custom modules; Sandbox; Audit logs. Same add-ons.
+Embedded page data (Growth plan): planUnit "/user/month, billed monthly", planUnitAnnual "/user/month, billed annually", priceUsd "11", priceUsdAnnual "9". Branded documents add-on: USD monthly 19, annual 19.
+Meta description: "Freshsales pricing starts from $9 USD, with a free plan and enterprise plan available."
+FAQ: How does the 21-day trial work? When you sign up, you instantly get access to the fully-loaded CRM for 21 days. We will email you when your trial expires. You can then select a plan and pay by credit card to continue using the product. If you choose not to continue, your account will be suspended.
+FAQ: What types of payment do you accept? Visa, Mastercard, Discover, and American Express credit cards are accepted across currencies (American Express and Discover cards are not accepted for INR currency). We accept check payments in USD currency and this applies only for US and Canada customers.
+FAQ: Do I get free AI agent sessions? We offer 500 sessions with all paid plans to try out chatbots. This is limited to once per account. Once exhausted, you can buy additional sessions based on your requirements.
+FAQ: How can I buy additional bot sessions? The validity of bot sessions aligns with your payment cycle.
