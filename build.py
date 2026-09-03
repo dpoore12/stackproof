@@ -26,6 +26,7 @@ from pathlib import Path
 import yaml
 
 from schema import SEAT_POINTS, Finding, Tool, seat_points_for
+from snapshot import HISTORY
 
 ROOT = Path(__file__).parent
 DATA = ROOT / "data" / "tools"
@@ -236,6 +237,7 @@ ul.fees li,ul.clauses li{background:#fff;border:1px solid var(--rule);padding:10
 .clause.not_stated .status{background:#fef3c7;color:var(--warn)}.clause.stated .status{background:#dcfce7;color:var(--accent)}
 blockquote{margin:8px 0;padding-left:12px;border-left:2px solid var(--rule);color:var(--muted);font-size:14px}.muted{color:var(--muted)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}.card{background:#fff;border:1px solid var(--rule);padding:16px}.card a{color:var(--ink);font-weight:600;text-decoration:none}
+.cta{margin:0 0 8px}.cta .go{display:inline-block;background:var(--accent);color:#fff;padding:9px 14px;text-decoration:none;font-weight:600;border-radius:3px}
 footer{margin-top:60px;border-top:1px solid var(--rule);padding-top:14px;font-size:13px;color:var(--muted)}
 """
 
@@ -246,7 +248,7 @@ def page(title: str, body: str, path: str, description: str = "", extra_head: st
         "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\">"
         f"<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>{e(title)} — {SITE_NAME}</title>"
         f'<meta name="description" content="{e(description)}">{canon}{extra_head}<style>{CSS}</style></head><body><div class="wrap">'
-        f'<header class="top"><a href="/">{SITE_NAME}</a><nav><a href="/payroll/">Payroll</a><a href="/email_marketing/">Email</a><a href="/methodology/">Methodology</a></nav></header>'
+        f'<header class="top"><a href="/">{SITE_NAME}</a><nav><a href="/payroll/">Payroll</a><a href="/email_marketing/">Email</a><a href="/changes/">Price changes</a><a href="/dataset/">Dataset</a><a href="/methodology/">Methodology</a></nav></header>'
         f'<p class="disclosure">{DISCLOSURE}</p>{body}'
         f"<footer>{SITE_NAME} — {TAGLINE}. Every figure links to its source and shows the date it was recorded.</footer>"
         "</div></body></html>"
@@ -257,15 +259,154 @@ def tool_page(tool: Tool) -> str:
     verified = "Some figures verified on a real account." if tool.any_verified_on_account else "Figures recorded from the vendor's published pages; not yet verified on an account."
     findings = "".join(finding_block(f, tool) for f in tool.findings)
     trial = f"<p><b>Free trial:</b> {e(tool.free_trial)}</p>" if tool.free_trial else ""
+    cta = (
+        f'<p class="cta"><a class="go" href="/go/{e(tool.slug)}/" rel="sponsored nofollow noopener">'
+        f"Go to {e(tool.vendor)}'s pricing page →</a> "
+        f'<span class="muted">(affiliate link where a program has accepted us; otherwise the vendor\'s page)</span></p>'
+    )
     body = (
         f"<h1>{e(tool.product)}: measured pricing and terms</h1>"
         f'<p class="lede">{e(tool.vendor)} · {e(tool.category)} · last recorded {tool.last_fetched} · {verified}</p>'
-        f"<h2>What we found</h2>{findings}"
+        f"{cta}<h2>What we found</h2>{findings}"
         f"<h2>What it costs by team size</h2>{cost_table(tool)}{trial}"
         f"{fees_list(tool)}{clauses_list(tool)}{support_block(tool)}"
     )
     desc = tool.findings[0].claim if tool.findings else f"{tool.product} pricing and terms, measured."
     return page(f"{tool.product} pricing, measured", body, f"/tools/{tool.slug}/", desc, jsonld_tool(tool))
+
+
+def go_page(tool: Tool) -> str:
+    """Redirect stub. One place to swap in a tracking URL per vendor.
+
+    Marked noindex; every link into it carries rel="sponsored" per Google's
+    affiliate-link guidance, and the disclosure is on the page itself.
+    """
+    target = tool.url
+    if tool.affiliate and tool.affiliate.url and tool.affiliate.status == "accepted":
+        target = tool.affiliate.url
+    return (
+        "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\">"
+        f"<meta name=\"robots\" content=\"noindex,nofollow\">"
+        f"<meta http-equiv=\"refresh\" content=\"0;url={e(target)}\">"
+        f"<title>Redirecting to {e(tool.vendor)}</title></head><body>"
+        f"<p>Taking you to {e(tool.vendor)}. {e(DISCLOSURE)}</p>"
+        f"<p><a href=\"{e(target)}\" rel=\"sponsored nofollow noopener\">Continue to {e(tool.vendor)}</a></p>"
+        "</body></html>"
+    )
+
+
+def _load_history() -> list[dict]:
+    if not HISTORY.exists():
+        return []
+    snaps = []
+    for p in sorted(HISTORY.glob("*.json")):
+        snaps.append(json.loads(p.read_text()))
+    return snaps
+
+
+def _tier_key(t: dict) -> str:
+    return t["plan"]
+
+
+def price_changes() -> list[dict]:
+    """Diff consecutive snapshots into change events."""
+    snaps = _load_history()
+    events: list[dict] = []
+    for prev, cur in zip(snaps, snaps[1:]):
+        for slug, cur_tool in cur["tools"].items():
+            prev_tool = prev["tools"].get(slug)
+            if prev_tool is None:
+                events.append({"date": cur["date"], "slug": slug, "vendor": cur_tool["vendor"],
+                               "what": "added to the dataset", "from": None, "to": None})
+                continue
+            prev_tiers = {_tier_key(t): t for t in prev_tool["tiers"]}
+            for t in cur_tool["tiers"]:
+                pt = prev_tiers.get(_tier_key(t))
+                if pt is None:
+                    events.append({"date": cur["date"], "slug": slug, "vendor": cur_tool["vendor"],
+                                   "what": f"new plan: {t['plan']}", "from": None, "to": None})
+                    continue
+                for field, label in (("base_monthly_usd", "base"), ("per_seat_monthly_usd", "per-seat"), ("steps", "steps")):
+                    if pt.get(field) != t.get(field):
+                        events.append({"date": cur["date"], "slug": slug, "vendor": cur_tool["vendor"],
+                                       "what": f"{t['plan']} {label}", "from": pt.get(field), "to": t.get(field)})
+            prev_fees = {f["name"]: f for f in prev_tool["fees"]}
+            for f in cur_tool["fees"]:
+                pf = prev_fees.get(f["name"])
+                if pf is None:
+                    events.append({"date": cur["date"], "slug": slug, "vendor": cur_tool["vendor"],
+                                   "what": f"new fee: {f['name']}", "from": None, "to": f["amount_usd"]})
+                elif pf["amount_usd"] != f["amount_usd"]:
+                    events.append({"date": cur["date"], "slug": slug, "vendor": cur_tool["vendor"],
+                                   "what": f"fee: {f['name']}", "from": pf["amount_usd"], "to": f["amount_usd"]})
+    return events
+
+
+def changes_page() -> str:
+    snaps = _load_history()
+    events = price_changes()
+    since = snaps[0]["date"] if snaps else "—"
+    latest = snaps[-1]["date"] if snaps else "—"
+    if events:
+        rows = "".join(
+            f'<tr><td class="n">{e(ev["date"])}</td><td><a href="/tools/{e(ev["slug"])}/">{e(ev["vendor"])}</a></td>'
+            f'<td>{e(ev["what"])}</td><td class="n">{money(ev["from"]) if isinstance(ev["from"], (int, float)) else e(ev["from"] or "—")}</td>'
+            f'<td class="n">{money(ev["to"]) if isinstance(ev["to"], (int, float)) else e(ev["to"] or "—")}</td></tr>'
+            for ev in sorted(events, key=lambda x: x["date"], reverse=True)
+        )
+        table = (
+            '<div class="scroll"><table><caption>Every change between consecutive snapshots. A vendor\'s own page shows only today\'s price; this shows what it used to be.</caption>'
+            "<thead><tr><th>Date</th><th>Vendor</th><th>What changed</th><th>From</th><th>To</th></tr></thead>"
+            f"<tbody>{rows}</tbody></table></div>"
+        )
+    else:
+        table = (
+            f'<p class="muted">Tracking since {e(since)}. {len(snaps)} snapshot{"s" if len(snaps) != 1 else ""} recorded; '
+            "no price or fee has changed between snapshots yet. Changes appear here as soon as one does.</p>"
+        )
+    body = (
+        "<h1>Price changes over time</h1>"
+        f'<p class="lede">Prices are re-recorded from each vendor\'s page and kept as dated snapshots. Latest snapshot {e(latest)}; tracking since {e(since)}.</p>'
+        f"{table}"
+        '<p>The raw snapshots are in the <a href="/dataset/">dataset download</a>.</p>'
+    )
+    return page("Price changes", body, "/changes/", "Software price and fee changes over time, from dated snapshots of vendor pages.")
+
+
+def dataset_files(tools: list[Tool]) -> tuple[str, str]:
+    """JSON and CSV of the whole dataset. Machine-readable is the point."""
+    rows = []
+    for t in tools:
+        for ti in t.tiers:
+            rows.append({
+                "slug": t.slug, "vendor": t.vendor, "product": t.product, "category": t.category,
+                "plan": ti.plan, "base_monthly_usd": ti.base_monthly_usd, "per_seat_monthly_usd": ti.per_seat_monthly_usd,
+                "seat_label": ti.seat_label, "billing": ti.billing, "max_seats": ti.max_seats,
+                "standalone": ti.standalone, "compare": ti.compare,
+                "fetched_at": ti.provenance.fetched_at.isoformat(), "method": ti.provenance.method,
+                "verified_on_account": ti.provenance.verified_on_account, "source_url": ti.provenance.source_url,
+            })
+    js = json.dumps({"generated": date.today().isoformat(), "tools": [t.model_dump(mode="json") for t in tools]}, indent=1)
+    cols = list(rows[0].keys()) if rows else []
+    def cell(v):
+        s_ = "" if v is None else str(v)
+        return '"' + s_.replace('"', '""') + '"' if ("," in s_ or '"' in s_ or "\n" in s_) else s_
+    csv = ",".join(cols) + "\n" + "\n".join(",".join(cell(r[c]) for c in cols) for r in rows) + "\n"
+    return js, csv
+
+
+def dataset_page(tools: list[Tool]) -> str:
+    n_find = sum(len(t.findings) for t in tools)
+    body = (
+        "<h1>Dataset</h1>"
+        f'<p class="lede">{len(tools)} vendors, {sum(len(t.tiers) for t in tools)} priced plans, {n_find} dated findings. Every row carries its source URL, fetch date, and whether it has been verified on an account.</p>'
+        '<ul><li><a href="/dataset/stackproof.json">stackproof.json</a> — full records, including findings, clauses and provenance</li>'
+        '<li><a href="/dataset/stackproof.csv">stackproof.csv</a> — one row per priced plan</li></ul>'
+        "<h2>Terms of use</h2>"
+        "<p>Use it. Cite the page you took it from. The figures are recorded from vendors' own published pages on the date shown; check the date before relying on a number.</p>"
+        '<p>Schema and method: <a href="/methodology/">methodology</a>.</p>'
+    )
+    return page("Dataset", body, "/dataset/", "Download the StackProof software pricing dataset as JSON or CSV.")
 
 
 def category_page(category: str, tools: list[Tool]) -> str:
@@ -371,6 +512,12 @@ def build() -> list[str]:
         write(f"/{cat}/", category_page(cat, [t for t in tools if t.category == cat])); paths.append(f"/{cat}/")
     for t in tools:
         write(f"/tools/{t.slug}/", tool_page(t)); paths.append(f"/tools/{t.slug}/")
+        write(f"/go/{t.slug}/", go_page(t))  # not in sitemap: noindex
+    write("/changes/", changes_page()); paths.append("/changes/")
+    write("/dataset/", dataset_page(tools)); paths.append("/dataset/")
+    js, csv = dataset_files(tools)
+    (SITE / "dataset" / "stackproof.json").write_text(js)
+    (SITE / "dataset" / "stackproof.csv").write_text(csv)
 
     urls = "".join(f"<url><loc>{e(ORIGIN + p)}</loc></url>" for p in paths)
     (SITE / "sitemap.xml").write_text(f'<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>')

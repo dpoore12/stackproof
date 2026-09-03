@@ -21,10 +21,38 @@ Thesis and evidence: `docs/thesis.md`. Short version of why it is shaped this wa
 ```
 schema.py          measurement records (pydantic). Provenance is mandatory.
 data/tools/*.yaml  one record per product
-build.py           renders site/ — tool pages, category compare, methodology
+data/history/      dated snapshots of every price and fee — the time series
+snapshot.py        writes today's snapshot; run after records change
+build.py           renders site/ — tool pages, category compare, /changes/,
+                   /dataset/ (JSON + CSV), /go/ redirects, methodology
+tools/             extract_prices.py — read a saved vendor fetch cheaply
 tests/             provenance rules + build invariants
 site/              output (ignored; built in CI and deployed)
 ```
+
+## Why it reads as a database and not a content farm
+
+Google's scaled-content rule targets many pages of reworded prose across
+one or many domains. This is one domain, and every page is rendered from
+fields with a source and a date. Three things farms never have:
+
+- **Price history.** `data/history/YYYY-MM-DD.json` is committed after each
+  re-fetch; `/changes/` diffs consecutive snapshots. A vendor's page shows
+  today's price; this shows what it used to be.
+- **A dataset download.** `/dataset/stackproof.json` and `.csv`, with
+  provenance on every row.
+- **A public methodology** and a disclosure on every page.
+
+Do not spread this across multiple domains; that is the exact pattern the
+rule names.
+
+## Affiliate links
+
+Every vendor link goes through `/go/<slug>/` with `rel="sponsored"`. The
+redirect target is `affiliate.url` when `affiliate.status: accepted`,
+otherwise the vendor's own page. Accepting a program means editing one field
+in one record; no page is touched by hand. Until a program accepts us, every
+`affiliate` is empty and the links earn nothing — that is the honest state.
 
 ## Run
 
