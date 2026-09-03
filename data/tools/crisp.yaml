@@ -1,0 +1,143 @@
+slug: crisp
+vendor: Crisp
+product: Crisp
+category: live_chat
+url: https://crisp.chat/en/pricing/
+free_trial: "14-day free trial of any plan with full feature access, plus a Free plan with 2 seats (stated 2026-09-03)."
+
+# Flat price per workspace with a seat allowance, then $10 per extra agent
+# per month. Cards read "Per month, per workspace" and no billing toggle was
+# present, so the figures are recorded as monthly billing; a yearly rate is
+# mentioned in the comparison table but not shown.
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: agent
+    max_seats: 2
+    billing: monthly
+    provenance:
+      source_url: https://crisp.chat/en/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"Free forever … 2 seats included … No AI credits included". 100 customer profiles.'
+  - plan: Mini
+    base_monthly_usd: 45
+    per_seat_monthly_usd: 10
+    included_seats: 4
+    seat_label: agent
+    billing: monthly
+    provenance:
+      source_url: https://crisp.chat/en/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch. "$45 Per month, per workspace … 4 seats included"; compare table "Additional agents (per month) $10". $5 of AI credits included.'
+  - plan: Essentials
+    base_monthly_usd: 95
+    per_seat_monthly_usd: 10
+    included_seats: 10
+    seat_label: agent
+    billing: monthly
+    provenance:
+      source_url: https://crisp.chat/en/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$95 Per month, per workspace … 10 seats included". $25 of AI credits included.'
+  - plan: Plus
+    base_monthly_usd: 295
+    per_seat_monthly_usd: 10
+    included_seats: 20
+    seat_label: agent
+    billing: monthly
+    provenance:
+      source_url: https://crisp.chat/en/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$295 Per month, per workspace … 20+ seats (and more)". Marked Best value. $75 of AI credits included.'
+
+fees:
+  - name: Additional agent
+    amount_usd: 10
+    unit: per agent per month beyond the seats included in a plan
+    provenance:
+      source_url: https://crisp.chat/en/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Crisp charges a flat monthly price per workspace regardless of
+      conversation volume, with 2, 4, 10 or 20 agents included and $10 per
+      month for each extra agent (2026-09-03).
+    quote: "you pay a single, consistent price regardless of the number of conversations you have each month"
+    provenance:
+      source_url: https://crisp.chat/en/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Crisp's pricing page states no cancellation or refund terms in the
+      captured section (2026-09-03).
+    provenance:
+      source_url: https://crisp.chat/en/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: stated
+    finding: >-
+      Crisp lists conversation-transcript export as a team inbox feature and
+      unlimited data retention from the Mini plan up (2026-09-03).
+    provenance:
+      source_url: https://crisp.chat/en/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+findings:
+  - id: crisp-flat-workspace-prices
+    claim: >-
+      On 2026-09-03 Crisp listed Mini at $45, Essentials at $95 and Plus at
+      $295 per month per workspace, including 4, 10 and 20 agents
+      respectively, with unlimited conversations on every plan.
+    provenance:
+      source_url: https://crisp.chat/en/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: crisp-extra-agent-fee
+    claim: >-
+      Crisp adds agents at $10 per month each beyond a plan's allowance, so
+      a 5-agent team on Mini pays $55 per month, against $95 for the same
+      team on Essentials with 10 seats (2026-09-03).
+    provenance:
+      source_url: https://crisp.chat/en/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: crisp-ai-credits-included
+    claim: >-
+      Crisp bundles $5, $25 or $75 of AI credits per month into Mini,
+      Essentials and Plus, which it equates to roughly 90, 450 and 1,350
+      automated conversations (2026-09-03).
+    provenance:
+      source_url: https://crisp.chat/en/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: crisp-profile-caps
+    claim: >-
+      Crisp caps customer profiles at 100 on Free, 5,000 on Mini, 50,000 on
+      Essentials and 200,000 on Plus (2026-09-03).
+    provenance:
+      source_url: https://crisp.chat/en/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: crisp-vs-per-seat-ten-agents
+    claim: >-
+      For 10 agents Crisp Essentials costs $95 per month flat, against $290
+      on Intercom Essential or $490 on LiveChat Team at their 2026-09-03
+      annual rates.
+    provenance:
+      source_url: https://crisp.chat/en/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
