@@ -179,6 +179,61 @@
    ],
    "vendor": "ClickUp"
   },
+  "crisp": {
+   "category": "live_chat",
+   "fees": [
+    {
+     "amount_usd": 10.0,
+     "fetched_at": "2026-09-03",
+     "name": "Additional agent",
+     "unit": "per agent per month beyond the seats included in a plan"
+    }
+   ],
+   "product": "Crisp",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": 2,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://crisp.chat/en/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 45.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 10.0,
+     "plan": "Mini",
+     "source_url": "https://crisp.chat/en/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 95.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 10.0,
+     "plan": "Essentials",
+     "source_url": "https://crisp.chat/en/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 295.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 10.0,
+     "plan": "Plus",
+     "source_url": "https://crisp.chat/en/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Crisp"
+  },
   "dialpad": {
    "category": "business_phone",
    "fees": [],
@@ -603,12 +658,134 @@
    "tiers": [],
    "vendor": "HubSpot"
   },
+  "intercom": {
+   "category": "live_chat",
+   "fees": [
+    {
+     "amount_usd": 0.99,
+     "fetched_at": "2026-09-03",
+     "name": "Fin AI Agent",
+     "unit": "per outcome (resolution, no further help requested, or completed workflow); once per conversation"
+    },
+    {
+     "amount_usd": 99.0,
+     "fetched_at": "2026-09-03",
+     "name": "Pro add-on",
+     "unit": "per month, \"from\"; 1,000 analysed conversations and 2,000 Operator credits, extra credits $0.01 each"
+    },
+    {
+     "amount_usd": 99.0,
+     "fetched_at": "2026-09-03",
+     "name": "Proactive Support Plus add-on",
+     "unit": "per month for 500 outbound messages; additional messages charged per unit"
+    }
+   ],
+   "product": "Intercom",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 29.0,
+     "plan": "Essential",
+     "source_url": "https://www.intercom.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 85.0,
+     "plan": "Advanced",
+     "source_url": "https://www.intercom.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 132.0,
+     "plan": "Expert",
+     "source_url": "https://www.intercom.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 29.0,
+     "plan": "Copilot add-on",
+     "source_url": "https://www.intercom.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Intercom"
+  },
   "kit": {
    "category": "email_marketing",
    "fees": [],
    "product": "Kit",
    "tiers": [],
    "vendor": "Kit (formerly ConvertKit)"
+  },
+  "livechat": {
+   "category": "live_chat",
+   "fees": [
+    {
+     "amount_usd": 52.0,
+     "fetched_at": "2026-09-03",
+     "name": "ChatBot.com AI chatbot add-on",
+     "unit": "per month billed annually, \"starts at\"; separate Text product"
+    }
+   ],
+   "product": "LiveChat",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 19.0,
+     "plan": "Starter",
+     "source_url": "https://www.livechat.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 49.0,
+     "plan": "Team",
+     "source_url": "https://www.livechat.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 79.0,
+     "plan": "Business",
+     "source_url": "https://www.livechat.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 25.0,
+     "plan": "Starter (monthly billing)",
+     "source_url": "https://www.livechat.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Text"
   },
   "mailchimp": {
    "category": "email_marketing",
@@ -685,6 +862,34 @@
    "product": "Nextiva",
    "tiers": [],
    "vendor": "Nextiva"
+  },
+  "olark": {
+   "category": "live_chat",
+   "fees": [],
+   "product": "Olark",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 29.0,
+     "plan": "Live chat (human only)",
+     "source_url": "https://www.olark.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 400.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 29.0,
+     "plan": "Standard AI Website Agent",
+     "source_url": "https://www.olark.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Olark"
   },
   "onpay": {
    "category": "payroll",
@@ -1136,6 +1341,67 @@
     }
    ],
    "vendor": "Square"
+  },
+  "tidio": {
+   "category": "live_chat",
+   "fees": [
+    {
+     "amount_usd": 32.5,
+     "fetched_at": "2026-09-03",
+     "name": "Lyro AI Agent add-on",
+     "unit": "per month \"starting at\" for 50 AI conversations (EUR render, \u20ac32.50; USD figure not captured); also sold stand-alone"
+    },
+    {
+     "amount_usd": 16.67,
+     "fetched_at": "2026-09-03",
+     "name": "Remove Tidio branding",
+     "unit": "per month (EUR render, 16.67 EUR/mo; USD figure not captured)"
+    }
+   ],
+   "product": "Tidio",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": 10,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://www.tidio.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 24.17,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": 10,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter",
+     "source_url": "https://www.tidio.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 49.17,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": 10,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Growth",
+     "source_url": "https://www.tidio.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 300.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Plus",
+     "source_url": "https://www.tidio.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Tidio"
   },
   "trello": {
    "category": "project_management",

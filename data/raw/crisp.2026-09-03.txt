@@ -1,0 +1,13 @@
+URL: https://crisp.chat/en/pricing/
+STATUS: 200
+FETCHED: 2026-09-03 23:54:42 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main> (US-side gateway 68.183.149.129; prices in $). No billing toggle detected; cards read "Per month, per workspace" and the compare table calls it "the monthly or yearly cost".
+---
+H1: Try any plan for free for 14 days. Every new account unlocks full access to all Crisp features.
+Free — Free forever. Website chat widget, 2 seats included, no AI credits, shared inbox, mobile apps, chat SDKs, contact form, e-commerce integrations, push notifications.
+Mini — $45 Per month, per workspace. All free features plus shared email inbox, 4 seats included, around 90 automated conversations ($5 included AI credits), shortcuts, chat triggers, private notes, custom email domain, unlimited data retention, internal search.
+Essentials — $95 Per month, per workspace. All Mini features plus customer data management, 10 seats included, around 450 automated conversations ($25 included AI credits), omnichannel inbox (WhatsApp Business, Instagram, SMS, Line, Viber), workflow automation builder, omnichannel AI chatbot, knowledge base, analytics, routing rules & assignment.
+Plus (Best value) — $295 Per month, per workspace. All Essentials features plus AI-First Support Suite, 20+ seats (and more), around 1350 automated conversations ($75 included AI credits), unlimited task automations, ticketing system, 100+ integrations, white labelling, enhanced rate limits, advanced analytics.
+"A flat pricing per workspace … you pay a single, consistent price regardless of the number of conversations you have each month."
+Enterprise — dedicated onboarding, personalized SLA, enhanced rate limits, custom features, unique pricing, team training. Ask for a demo.
+Compare table: Plan Price (per month) $0 / $45 / $95 / $295. Agents included 2 / 4 / 10 / 20+. Additional agents (per month) $10. Customer Profiles 100 / 5000 / 50000 / 200000. Sub-inboxes 0 / 0 / 2 / 5. AI Credits $0 / $5 / $25 / $75. Unlimited conversations. Conversation transcript export.

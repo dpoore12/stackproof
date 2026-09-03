@@ -1,0 +1,12 @@
+URL: https://www.olark.com/pricing
+STATUS: 200
+FETCHED: 2026-09-03 23:55:34 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main>. No billing toggle.
+---
+H1: Pricing you can understand. "No token costs, ever. Unlimited AI conversations. Pay for agents, not usage." Trusted by 12,000+ businesses since 2009.
+Standard AI Website Agent (powered by Aiden) — $400 /month · billed annually ($4,800/yr). Answers unlimited visitor questions, automatic FAQ & knowledge updates, lead capture & qualification, proactive engagement, white glove support, no token limits, no overages. One human agent seat included. Additional human agents — +$29/agent/month. Talk to sales.
+Need even more? Custom packages for power users & enterprise: regional routing, advanced integrations, custom workflows, custom SLAs, legal reviews and side letters, SSO. Talk to sales.
+"One product, sized to your team: the Standard AI Website Agent ($400/month, billed annually) includes unlimited AI conversations and one human agent seat. Need more people for live handoff? Add seats at +$29 each."
+"Just want live chat with humans, no AI? Our classic live-chat-only plan is $29/agent/month — start free trial."
+FAQ: What happens if we go over our conversation limit? There isn't one; unlimited conversations, no overages. Do human agent seats cost extra? One seat included with the $400/month plan; additional seats +$29/agent/month; two agents on AI = $429/month; three = $458/month. Can we get live chat without the AI? Yes — human-only live chat is $29/agent/month. Can we start small and upgrade? Yes; free trial, no credit card required on the first two.
+"Try it before you pay for anything … Free · one minute · no credit card."
