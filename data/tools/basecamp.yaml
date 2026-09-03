@@ -1,0 +1,150 @@
+slug: basecamp
+vendor: 37signals
+product: Basecamp
+category: project_management
+url: https://basecamp.com/pricing
+free_trial: "30-day free trial on paid packages, plus a Free plan limited to 1 project and 5 users (stated 2026-09-03)."
+
+# Fixed price per account with no per-user fees. Freelancer caps users at 20;
+# Studio and above are unlimited. The $25/$59/$99 figures carry no billing
+# qualifier on the page while Unlimited is labelled "billed annually", so
+# the three are recorded as monthly-billed. Active-project caps (3/10/25)
+# are the real limiter and are not modelled in the cost table.
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    max_seats: 5
+    billing: monthly
+    provenance:
+      source_url: https://basecamp.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"The free plan is limited to one project." 1 GB storage, 5 users max.'
+  - plan: Freelancer
+    base_monthly_usd: 25
+    per_seat_monthly_usd: 0
+    seat_label: user
+    max_seats: 20
+    billing: monthly
+    provenance:
+      source_url: https://basecamp.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch. "Freelancer, $25/mo … Up to 3 active projects … 20 users max, no per-user fees". No billing qualifier shown.'
+  - plan: Studio
+    base_monthly_usd: 59
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://basecamp.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"Studio, $59/mo … Up to 10 active projects … UNLIMITED users, no per-user fees".'
+  - plan: Pro
+    base_monthly_usd: 99
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://basecamp.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"Pro, $99/mo … Up to 25 active projects … 100 GB storage … UNLIMITED users".'
+  - plan: Unlimited
+    base_monthly_usd: 299
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://basecamp.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Page heading "Unlimited, $299 /mo, billed annually"; card details not in the captured window.'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Basecamp advertises risk-free, cancel-anytime terms with no long-term
+      lock-in and a 30-day free trial on every paid package (2026-09-03).
+    quote: "Risk-free, cancel anytime, no long-term lock-in"
+    provenance:
+      source_url: https://basecamp.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Basecamp charges a fixed price per account with no per-user fees;
+      packages are limited by active projects (3, 10 or 25) and storage
+      rather than seats, and the top package is billed annually (2026-09-03).
+    provenance:
+      source_url: https://basecamp.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Basecamp's pricing page states no data-export terms in the captured
+      section (2026-09-03).
+    provenance:
+      source_url: https://basecamp.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+support:
+  channels: [email]
+  hours: "24/7/365 support on paid packages (per plan cards)"
+  provenance:
+    source_url: https://basecamp.com/pricing
+    fetched_at: 2026-09-03
+    method: live_fetch
+
+findings:
+  - id: basecamp-fixed-prices-no-per-user
+    claim: >-
+      On 2026-09-03 Basecamp listed Freelancer at $25, Studio at $59 and Pro
+      at $99 per month and Unlimited at $299 per month billed annually, all
+      fixed per account with no per-user fees.
+    provenance:
+      source_url: https://basecamp.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: basecamp-project-caps
+    claim: >-
+      Basecamp's packages are capped by active projects, 3 on Freelancer, 10
+      on Studio and 25 on Pro, with archived projects not counted
+      (2026-09-03).
+    provenance:
+      source_url: https://basecamp.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: basecamp-freelancer-20-users
+    claim: >-
+      Basecamp's Freelancer package caps an account at 20 users; Studio at
+      $59 and above allow unlimited users at no extra cost (2026-09-03).
+    provenance:
+      source_url: https://basecamp.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: basecamp-vs-per-seat-25-users
+    claim: >-
+      For 25 users Basecamp Studio costs $59 per month flat, against $125 on
+      Trello Standard, $175 on ClickUp Unlimited or $225 on monday.com Basic
+      at their 2026-09-03 annual rates.
+    provenance:
+      source_url: https://basecamp.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: basecamp-free-plan-limits
+    claim: >-
+      Basecamp's Free plan allows 1 project, 5 users and 1 GB of storage,
+      and every paid package starts with a 30-day free trial (2026-09-03).
+    provenance:
+      source_url: https://basecamp.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
