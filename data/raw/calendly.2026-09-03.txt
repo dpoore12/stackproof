@@ -1,0 +1,10 @@
+URL: https://calendly.com/pricing
+STATUS: 200
+FETCHED: 2026-09-03 23:56:29 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main>. Currency selector "$ USD". "Billing period" switch aria-checked=true with "Billed yearly · Save up to 20%" label. JSON-LD also carries EUR offers (e.g. Teams 16 EUR seat/month, billingDuration P1Y).
+---
+Free — Always free. One event type, one calendar connection, one-on-one scheduling, customizable booking page, browser extension.
+Standard — $10/seat/mo, "Save 17%". "Seats are required for users to connect calendars and host Calendly meetings - meeting invitees do not require a seat." Everything in Free plus unlimited event types, connect multiple calendars (6), automations & reminders, HubSpot and Mailchimp, Stripe and PayPal payments. Notetaker: not included (Standard Plus tier adds it). Callie (beta) AI email scheduling.
+Teams (Popular plan) — $16/seat/mo, "Save 20%". Everything in Standard plus round-robin & team scheduling, qualify/route/schedule leads, centrally managed event types, Marketo and Pardot, send meetings to Salesforce, SSO security add-on (optional). Notetaker: not included; advanced admin controls on Teams Plus.
+Enterprise — Starts at $15k/yr. Starts at 50 seats. Available in USD only. Route with Salesforce lookup, Microsoft Dynamics, SSO & SAML, domain control, audit log, data deletion API, onboarding, dedicated account support. Talk to sales.
+Compare: connect calendars 1 / 6 / 6 / 6; unlimited one-on-one meetings on all; multi-person meeting types from Standard; round-robin from Teams; forms/lead routing on Teams and above. Notetaker and Callie are only available in English.
