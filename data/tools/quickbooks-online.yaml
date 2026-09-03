@@ -11,6 +11,7 @@ free_trial: null
 # limits per plan were not captured in the parsed page.
 tiers:
   - plan: Free
+    compare: false
     base_monthly_usd: 0
     per_seat_monthly_usd: null
     seat_label: user

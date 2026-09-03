@@ -12,6 +12,7 @@ free_trial: "14-day free trial; a Free plan is available indefinitely while annu
 # the promo note so the table compares like with like.
 tiers:
   - plan: Free
+    compare: false
     base_monthly_usd: 0
     per_seat_monthly_usd: null
     included_seats: 1

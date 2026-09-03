@@ -220,3 +220,13 @@ def test_included_seats_offsets_per_seat_pricing():
     assert t.cost_at(3) == 20
     assert t.cost_at(5) == 26
     assert seat_points_for("accounting") == (1, 3, 5, 10, 25)
+
+
+def test_free_tiers_never_rank_as_cheapest_in_a_category():
+    """Regression: QuickBooks Online's $0 Free tier (2 invoices/month) ranked
+    as the cheapest accounting plan at every team size. A free tier is shown
+    on the vendor page but is not the price of the product for a business."""
+    for t in B.load_tools():
+        for n in seat_points_for(t.category):
+            c = t.cheapest_tier_cost_at(n)
+            assert c is None or c[1] > 0, f"{t.slug} ranks a $0 plan ({c}) at {n} seats"
