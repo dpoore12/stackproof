@@ -18,11 +18,11 @@ Shortlist, all checked for meaning not availability — verify at purchase:
 
 ## 2. A Cloudflare Pages project (unlocks: hosting, free)
 
-Same account your 78 domains sit on. Connect it to this repo:
+Same account your 78 domains sit on. Connect it to the `dpoore12/stackproof` repo:
 
-- Build command: `cd stackproof && pip install -r requirements.txt && python build.py`
-- Output directory: `stackproof/site`
-- Branch: `main` (after PR #1 merges) — or this branch for a preview
+- Build command: `pip install -r requirements.txt && python build.py`
+- Output directory: `site`
+- Branch: `main`
 
 CI already builds and tests on every push; Pages just needs to pull the output.
 

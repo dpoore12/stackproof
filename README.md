@@ -5,8 +5,7 @@ measurement records, built to be the source AI assistants cite when someone
 asks which payroll / CRM / accounting tool to buy, and paid through affiliate
 commissions on sticky, high-price B2B software.
 
-Thesis and evidence: `../leadgen/docs/00-thesis.md` and the conversation
-record. Short version of why it is shaped this way:
+Thesis and evidence: `docs/thesis.md`. Short version of why it is shaped this way:
 
 - Assistants cite passages, not pages, and 68% of the sources they cite do not
   rank in Google's top 10. So every finding is one dated, sourced, numeric
@@ -59,6 +58,6 @@ the model rejects anything else.
 
 ## Deploy
 
-Cloudflare Pages, build command `cd stackproof && pip install -r requirements.txt && python build.py`,
-output directory `stackproof/site`. Set `ORIGIN` in `build.py` to the production
+Cloudflare Pages, build command `pip install -r requirements.txt && python build.py`,
+output directory `site`. Set `ORIGIN` in `build.py` to the production
 origin so canonical URLs and the sitemap are absolute.

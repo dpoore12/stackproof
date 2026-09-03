@@ -1,0 +1,7 @@
+# build output — produced in CI and by Cloudflare Pages
+site/
+
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
