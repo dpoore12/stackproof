@@ -1,0 +1,109 @@
+slug: olark
+vendor: Olark
+product: Olark
+category: live_chat
+url: https://www.olark.com/pricing
+free_trial: "Free trial with no credit card on the human-only plan and the Standard AI Website Agent (stated 2026-09-03); length not stated."
+
+# Two shapes on one page: a human-only live chat plan at $29 per agent per
+# month (no billing period stated, recorded as monthly), and the Standard
+# AI Website Agent at $400 per month billed annually with one human seat
+# included and $29 per additional agent.
+tiers:
+  - plan: Live chat (human only)
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 29
+    seat_label: agent
+    billing: monthly
+    provenance:
+      source_url: https://www.olark.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch. "Our classic live-chat-only plan is $29/agent/month"; billing period not stated.'
+  - plan: Standard AI Website Agent
+    base_monthly_usd: 400
+    per_seat_monthly_usd: 29
+    included_seats: 1
+    seat_label: agent
+    billing: annual
+    provenance:
+      source_url: https://www.olark.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$400 /month · billed annually ($4,800/yr) … One human agent seat included. Additional human agents — +$29/agent/month." FAQ: "Two agents on AI = $429/month; three = $458/month."'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Olark charges no usage or token fees: the AI agent plan is a flat $400
+      per month billed annually for unlimited conversations, and cost rises
+      only by $29 per added human agent (2026-09-03).
+    quote: "No token costs, ever. Unlimited AI conversations. Pay for agents, not usage."
+    provenance:
+      source_url: https://www.olark.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Olark's pricing page states no cancellation or refund terms
+      (2026-09-03).
+    provenance:
+      source_url: https://www.olark.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Olark's pricing page states no data-export terms (2026-09-03).
+    provenance:
+      source_url: https://www.olark.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+support:
+  channels: [email, live chat]
+  hours: "White glove support and account management on the AI agent plan (per plan card)"
+  provenance:
+    source_url: https://www.olark.com/pricing
+    fetched_at: 2026-09-03
+    method: live_fetch
+
+findings:
+  - id: olark-human-only-29-per-agent
+    claim: >-
+      On 2026-09-03 Olark priced its human-only live chat at $29 per agent
+      per month, the same product it says it has sold since 2009, with a
+      free trial and no card required.
+    provenance:
+      source_url: https://www.olark.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: olark-ai-agent-flat-400
+    claim: >-
+      Olark's Standard AI Website Agent costs $400 per month billed annually
+      ($4,800 a year) for unlimited AI conversations with 1 human seat
+      included and $29 per extra agent, so 3 agents cost $458 (2026-09-03).
+    provenance:
+      source_url: https://www.olark.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: olark-no-usage-fees
+    claim: >-
+      Olark states it charges no token or per-conversation fees and has no
+      conversation limit, unlike Intercom's $0.99 per Fin outcome or Tidio's
+      billable-conversation quotas (2026-09-03).
+    provenance:
+      source_url: https://www.olark.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: olark-five-agent-cost
+    claim: >-
+      At Olark's 2026-09-03 rates 5 human-only agents cost $145 per month,
+      or $516 with the AI agent plan, against $145 on Intercom Essential
+      and $245 on LiveChat Team for 5 seats.
+    provenance:
+      source_url: https://www.olark.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
