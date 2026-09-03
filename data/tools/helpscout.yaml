@@ -1,0 +1,56 @@
+slug: helpscout
+vendor: Help Scout
+product: Help Scout
+category: helpdesk
+url: https://www.helpscout.com/pricing/
+free_trial: "15-day free trial of Standard or Plus, no credit card; Pro trial via sales (stated 2026-09-03)."
+pricing_note: "Plan prices are rendered by script and were not captured; the page's dollar figures are an ROI calculator, not prices. Plan limits and trial terms were captured. Amounts pending verification on an account."
+
+tiers: []
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Help Scout accepts major credit cards, offers wire or ACH for some annual
+      payments, and requires no payment method on the Free plan (2026-09-03).
+    provenance:
+      source_url: https://www.helpscout.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Data-export and cancellation terms are not on Help Scout's pricing page
+      (2026-09-03); pending verification on an account.
+    provenance:
+      source_url: https://www.helpscout.com/pricing/
+      fetched_at: 2026-09-03
+      method: not_available
+
+findings:
+  - id: helpscout-free-plan-limits
+    claim: >-
+      Help Scout's Free plan on 2026-09-03 includes 5 users, 1 shared Inbox
+      and 1 Docs site, with no payment method required.
+    provenance:
+      source_url: https://www.helpscout.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: helpscout-inbox-caps-by-plan
+    claim: >-
+      Help Scout caps shared inboxes by plan — 1 on Free, 20 on Standard, 50
+      on Plus, unlimited on Pro (stated 2026-09-03).
+    provenance:
+      source_url: https://www.helpscout.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: helpscout-trial-terms
+    claim: >-
+      Help Scout's Standard and Plus plans carry a 15-day free trial with no
+      credit card; the Pro plan is trialled only through its sales team
+      (2026-09-03).
+    provenance:
+      source_url: https://www.helpscout.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch

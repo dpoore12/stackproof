@@ -4,7 +4,7 @@ Everything below is something I cannot do because it requires a legal person,
 a card, or an account in your name. Nothing else is blocked. In order of how
 much each one unlocks:
 
-## 1. A domain (unlocks: everything public)
+## 1. A domain (unlocks: a real address; optional to go live)
 
 Pick one and buy it at any registrar; point DNS at Cloudflare. I'll set
 `ORIGIN` in `build.py` and the sitemap/canonicals go absolute.
@@ -16,15 +16,19 @@ Shortlist, all checked for meaning not availability — verify at purchase:
 - `receiptsforsoftware.com` (long, but says exactly what it is)
 - `bought.software` (if the TLD is open to you)
 
-## 2. A Cloudflare Pages project (unlocks: hosting, free)
+## 2. Connect the repo on Cloudflare (unlocks: the site is live today — no domain needed)
 
-Same account your 78 domains sit on. Connect it to the `dpoore12/stackproof` repo:
+Your Cloudflare account is attached to this session and has no Workers yet.
+`wrangler.toml` is in the repo, so this is import-and-go:
 
-- Build command: `pip install -r requirements.txt && python build.py`
-- Output directory: `site`
-- Branch: `main`
+1. Cloudflare dashboard → **Workers & Pages** → **Create** → **Import a repository**.
+2. Pick `dpoore12/stackproof`. Project name must be **`stackproof`** (it must match `wrangler.toml`).
+3. Build command: `pip install -r requirements.txt && python build.py`
+   Deploy command: `npx wrangler deploy`
+4. Save and deploy. You get a free `stackproof.<account>.workers.dev` URL immediately.
+5. Add a variable `SITE_ORIGIN` = that URL (or your domain once you have one) and redeploy, so canonicals and the sitemap are absolute.
 
-CI already builds and tests on every push; Pages just needs to pull the output.
+Every push to `main` redeploys. A custom domain can be attached later under the Worker's **Settings → Domains & Routes**; it is not required to go live.
 
 ## 3. Software accounts (unlocks: `verified_on_account`, the figures we stand behind)
 

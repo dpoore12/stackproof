@@ -15,6 +15,92 @@
    "tiers": [],
    "vendor": "FreshBooks"
   },
+  "freshdesk": {
+   "category": "helpdesk",
+   "fees": [
+    {
+     "amount_usd": 49.0,
+     "fetched_at": "2026-09-03",
+     "name": "Additional Freddy AI Agent sessions",
+     "unit": "per 100 sessions, beyond the 500 included once per account; validity matches the payment cycle"
+    },
+    {
+     "amount_usd": 2.0,
+     "fetched_at": "2026-09-03",
+     "name": "Day pass (Growth)",
+     "unit": "per agent per day"
+    },
+    {
+     "amount_usd": 7.0,
+     "fetched_at": "2026-09-03",
+     "name": "Day pass (Pro)",
+     "unit": "per agent per day"
+    },
+    {
+     "amount_usd": 12.0,
+     "fetched_at": "2026-09-03",
+     "name": "Day pass (Enterprise)",
+     "unit": "per agent per day"
+    },
+    {
+     "amount_usd": 80.0,
+     "fetched_at": "2026-09-03",
+     "name": "Connector app tasks",
+     "unit": "per 5,000 tasks"
+    }
+   ],
+   "product": "Freshdesk",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 19.0,
+     "plan": "Growth",
+     "source_url": "https://www.freshworks.com/freshdesk/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 55.0,
+     "plan": "Pro",
+     "source_url": "https://www.freshworks.com/freshdesk/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 89.0,
+     "plan": "Enterprise",
+     "source_url": "https://www.freshworks.com/freshdesk/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 29.0,
+     "plan": "Freddy AI Copilot add-on",
+     "source_url": "https://www.freshworks.com/freshdesk/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Freshworks"
+  },
+  "freshsales": {
+   "category": "crm",
+   "fees": [],
+   "product": "Freshsales",
+   "tiers": [],
+   "vendor": "Freshworks"
+  },
   "getresponse": {
    "category": "email_marketing",
    "fees": [],
@@ -39,6 +125,13 @@
     }
    ],
    "vendor": "Gusto"
+  },
+  "helpscout": {
+   "category": "helpdesk",
+   "fees": [],
+   "product": "Help Scout",
+   "tiers": [],
+   "vendor": "Help Scout"
   },
   "homebase": {
    "category": "payroll",
@@ -86,6 +179,13 @@
     }
    ],
    "vendor": "Homebase"
+  },
+  "hubspot-crm": {
+   "category": "crm",
+   "fees": [],
+   "product": "HubSpot CRM",
+   "tiers": [],
+   "vendor": "HubSpot"
   },
   "kit": {
    "category": "email_marketing",
@@ -195,6 +295,13 @@
     }
    ],
    "vendor": "Patriot Software"
+  },
+  "pipedrive": {
+   "category": "crm",
+   "fees": [],
+   "product": "Pipedrive",
+   "tiers": [],
+   "vendor": "Pipedrive"
   },
   "quickbooks-online": {
    "category": "accounting",
@@ -376,6 +483,13 @@
    ],
    "vendor": "Xero"
   },
+  "zendesk": {
+   "category": "helpdesk",
+   "fees": [],
+   "product": "Zendesk Suite",
+   "tiers": [],
+   "vendor": "Zendesk"
+  },
   "zoho-books": {
    "category": "accounting",
    "fees": [
@@ -449,6 +563,13 @@
      "steps": null
     }
    ],
+   "vendor": "Zoho"
+  },
+  "zoho-crm": {
+   "category": "crm",
+   "fees": [],
+   "product": "Zoho CRM",
+   "tiers": [],
    "vendor": "Zoho"
   }
  }

@@ -96,9 +96,20 @@ DataForSEO `on_page/content_parsing/live` returns the vendor page as
 structured text. `tools/extract_prices.py <saved.json>` prints only the
 lines that look like a price, fee, trial or term, so the page never has to be
 read in full. Some vendors (Gusto, Kit) return HTTP 403 to fetches; some
-(Brevo, Mailchimp, GetResponse, MailerLite) render amounts client-side. Both
-cases are recorded as such with `pricing_note` — never filled from a third
-party.
+(Brevo, Mailchimp, GetResponse, MailerLite) render amounts client-side; CRM
+and helpdesk vendors (HubSpot, Pipedrive, Zendesk, Freshsales, Zoho CRM,
+Help Scout) almost all do, and the parsing fetch sees nothing. Those
+categories need a real browser session or a real account. Every such case
+is recorded with `pricing_note` — never filled from a third party.
+
+## Deploy
+
+`wrangler.toml` configures Cloudflare Workers Static Assets. Connect the
+repo in the Cloudflare dashboard (Workers & Pages → Create → Import a
+repository; project name `stackproof`), build command
+`pip install -r requirements.txt && python build.py`, deploy command
+`npx wrangler deploy`. Set `SITE_ORIGIN` to the production URL so canonicals
+and the sitemap are absolute. Every push to `main` redeploys.
 
 ## Adding a vendor
 
@@ -108,8 +119,3 @@ party.
 4. `not_stated` is a publishable result for any clause topic.
 5. Run the tests. If a finding has no number, it will not build.
 
-## Deploy
-
-Cloudflare Pages, build command `pip install -r requirements.txt && python build.py`,
-output directory `site`. Set `ORIGIN` in `build.py` to the production
-origin so canonical URLs and the sitemap are absolute.

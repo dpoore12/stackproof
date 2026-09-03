@@ -1,0 +1,31 @@
+slug: pipedrive
+vendor: Pipedrive
+product: Pipedrive
+category: crm
+url: https://www.pipedrive.com/en/pricing
+free_trial: null
+pricing_note: "pipedrive.com/en/pricing returned no parseable content to an automated fetch on 2026-09-03 (script-rendered); pricing pending a rendered fetch or verification on an account."
+
+tiers: []
+
+clauses:
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Pipedrive's pricing page returned no parseable content on 2026-09-03;
+      pricing, export and cancellation terms are pending.
+    provenance:
+      source_url: https://www.pipedrive.com/en/pricing
+      fetched_at: 2026-09-03
+      method: not_available
+
+findings:
+  - id: pipedrive-pricing-page-empty-to-fetch
+    claim: >-
+      On 2026-09-03 an automated fetch of pipedrive.com/en/pricing with
+      JavaScript enabled returned no page content, so Pipedrive's published
+      per-seat prices could not be machine-recorded.
+    provenance:
+      source_url: https://www.pipedrive.com/en/pricing
+      fetched_at: 2026-09-03
+      method: not_available

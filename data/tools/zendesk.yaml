@@ -1,0 +1,31 @@
+slug: zendesk
+vendor: Zendesk
+product: Zendesk Suite
+category: helpdesk
+url: https://www.zendesk.com/pricing/
+free_trial: null
+pricing_note: "zendesk.com/pricing returned no parseable content to an automated fetch on 2026-09-03 (script-rendered); pricing pending a rendered fetch or verification on an account."
+
+tiers: []
+
+clauses:
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Zendesk's pricing page returned no parseable content on 2026-09-03;
+      pricing, export and cancellation terms are pending.
+    provenance:
+      source_url: https://www.zendesk.com/pricing/
+      fetched_at: 2026-09-03
+      method: not_available
+
+findings:
+  - id: zendesk-pricing-page-empty-to-fetch
+    claim: >-
+      On 2026-09-03 an automated fetch of zendesk.com/pricing with JavaScript
+      enabled returned no page content, so Zendesk's published plan prices
+      could not be machine-recorded.
+    provenance:
+      source_url: https://www.zendesk.com/pricing/
+      fetched_at: 2026-09-03
+      method: not_available
