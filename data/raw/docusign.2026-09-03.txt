@@ -1,0 +1,13 @@
+URL: https://www.docusign.com/pricing (final: https://ecom.docusign.com/plans-and-pricing/esignature)
+STATUS: 200
+FETCHED: 2026-09-03 23:31:36 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (pricing excerpt)
+---
+eSignature Plans. "You're saving up to 33%". Subscription Type: Annual | Billed monthly [shown state]
+Personal — For individuals and sole proprietors with basic e-signature needs. $11/month, Annual | Billed monthly. "This is an annual commitment of $132." *Additional tax may apply. Send 5 envelopes per month. Single user.
+Standard (MOST POPULAR) — For small to medium teams. $30/user/month, Annual | Billed monthly. "This is an annual commitment of $360." Send a total of 100 envelopes per user per year. Shared templates, commenting, branding, delegated signing, 5 SMS deliveries (one-time bonus), 5 identity verifications (one-time bonus). Up to 50 users.
+Business Pro — $45/user/month, Annual | Billed monthly. "This is an annual commitment of $540." Send a total of 100 envelopes per user per year. Web forms, payment collection, bulk send, PowerForms, signer attachments. Up to 50 users.
+Enhanced plans — Contact Sales, 1 (877) 720-2040. Custom envelope limits, org management, 24/7 live support, SSO. 50+ users.
+Compare table: Envelope sends — Personal 5 per month; Standard 100/user/year; Business Pro 100/user/year; Enhanced custom limit. Add multiple users — Single user / Up to 50 users / Up to 50 users / 50+ users.
+Add-ons (Standard or Business Pro only): Send with SMS starting at $0.36/delivery; Verify recipient identity starting at $2.40/ID verification attempt (additional tax may apply).
+FAQ: An 'envelope' is an electronic record containing one or more documents uploaded for signature; counts once regardless of documents, fields and signers. Add-ons cannot be purchased without a base plan; some recurring, some pay-as-you-go.

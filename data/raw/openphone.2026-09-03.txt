@@ -1,0 +1,13 @@
+URL: https://www.openphone.com/pricing (final: https://www.quo.com/pricing)
+STATUS: 200
+FETCHED: 2026-09-03 23:35:30 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (pricing excerpt). Tab "Yearly Pay less" has class w--current and aria-selected=true.
+---
+Monthly tab: Starter $19 Per user/per month; Business $33 Per user/per month; Scale $47 Per user/per month. Try for free.
+Yearly tab (active): Starter Save $48/year — $15 Per user/per month, Billed annually at $180. Business Save $120/year — $23 Per user/per month, Billed annually at $276. Scale Save $144/year — $35 Per user/per month, Billed annually at $420.
+All plans include: One new or ported phone number (local or toll-free) per user; Calling and messaging to US and Canadian numbers*; Voicemail transcripts; Quo API; Email ticket support; Sona AI agent (now included); ChatGPT / Claude MCP.
+Business adds: AI call summaries and transcripts, group calling, custom ring orders, call transfers, HubSpot and Salesforce integrations, phone menus, analytics, auto call recording, live chat support.
+Scale adds: AI call tags, dedicated onboarding, priority support, inbound phone support.
+Sona credits: 1 Call = 100 credits; 1,000 free automation credits (10 calls) included on every plan. Need more credits? Tier 1 $0/mo 1,000 credits (10 calls); Tier 2 $25/mo 4,000 (40 calls); Tier 3 $49/mo 10,000 (100 calls); Tier 4 $99/mo 25,000 (250 calls); Tier 5 $199/mo 60,000 (600 calls). Overage rate per call $1.00 / $0.75 / $0.65 / $0.55 / $0.45.
+"All prices in USD. Applicable taxes and fees added at checkout. *Subject to our Fair Usage Policy."
+Compare: Calling (US & Canada) Unlimited*; Messaging (US & Canada) Unlimited*, registration required. Carrier review and setup fees: The Campaign Registry one-time fee of $19.50. Messaging fee: $1.50 - $3/month based on use case. International calling & messaging: Add-on, per-minute and per-message rates.

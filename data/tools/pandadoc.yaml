@@ -1,0 +1,31 @@
+slug: pandadoc
+vendor: PandaDoc
+product: PandaDoc
+category: esignature
+url: https://www.pandadoc.com/pricing/
+free_trial: null
+pricing_note: "pandadoc.com/pricing answered two browser-rendered fetches on 2026-09-03 with HTTP 429 (rate-limited) and no page content; no prices were captured. Pending a fetch from a non-datacenter address or verification on an account."
+
+tiers: []
+
+clauses:
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      PandaDoc's pricing page returned HTTP 429 to automated fetches on
+      2026-09-03; pricing, export and cancellation terms are pending.
+    provenance:
+      source_url: https://www.pandadoc.com/pricing/
+      fetched_at: 2026-09-03
+      method: not_available
+
+findings:
+  - id: pandadoc-pricing-page-429
+    claim: >-
+      On 2026-09-03 pandadoc.com/pricing returned HTTP 429 to 2 automated
+      browser fetches, so PandaDoc's plan prices could not be
+      machine-recorded.
+    provenance:
+      source_url: https://www.pandadoc.com/pricing/
+      fetched_at: 2026-09-03
+      method: not_available

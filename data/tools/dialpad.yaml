@@ -1,0 +1,32 @@
+slug: dialpad
+vendor: Dialpad
+product: Dialpad Connect
+category: business_phone
+url: https://www.dialpad.com/pricing/
+free_trial: null
+pricing_note: "Three browser-rendered fetches of dialpad.com/pricing on 2026-09-03 returned a page with about 370 words of visible text (an AI-agent 'conversation-based pricing' section) and no per-user plan prices; the Support, Sell and Connect plan figures the page's own description promises are loaded elsewhere. Pending a fetch of the plan pages or verification on an account."
+
+tiers: []
+
+clauses:
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Dialpad's pricing page carried no plan prices on 2026-09-03; pricing,
+      export and cancellation terms are pending.
+    provenance:
+      source_url: https://www.dialpad.com/pricing/
+      fetched_at: 2026-09-03
+      method: not_available
+
+findings:
+  - id: dialpad-pricing-page-no-plan-prices
+    claim: >-
+      On 2026-09-03 dialpad.com/pricing rendered roughly 370 words of visible
+      text describing conversation-based AI-agent pricing and no per-user
+      prices for its Support, Sell or Connect plans, so none could be
+      machine-recorded.
+    provenance:
+      source_url: https://www.dialpad.com/pricing/
+      fetched_at: 2026-09-03
+      method: not_available

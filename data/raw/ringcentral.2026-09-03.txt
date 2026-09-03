@@ -1,0 +1,11 @@
+URL: https://www.ringcentral.com/office/plansandpricing.html
+STATUS: 200
+FETCHED: 2026-09-03 23:38:37 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main> (pricing excerpt). Monthly/Annually switcher buttons present; neither exposes a checked attribute. Each card prints two figures; the page's h3 headings carry $20, $25, $35 and the card text reads "$20 … $30 /user/month * paid annually" (the smaller figure with "paid annually").
+---
+RingEX
+Core — Unify calls, meetings, and chat in an all-in-one, professional app. $20 [$30] /user/month * paid annually. Buy now / Try free / Contact sales. Included: Unlimited domestic calling; On-demand call recording; 100 toll-free minutes; 25 SMS user/month; HD meetings (300 participants). AI: AI Receptionist (AIR) Add-on; AI Virtual Assistant; captions & transcriptions; notes & summaries.
+Advanced (Most popular) — $25 [$35] /user/month * paid annually. Everything in Core PLUS: CRM integrations; Connect multiple sites; Core reporting and insights; 1,000 toll-free minutes; 100 SMS user/month*; AI Writer.
+Ultra — $35 [$45] /user/month * paid annually. Everything in Advanced PLUS: 10,000 toll-free minutes; 200 SMS user/month*; RingCentral Webinar; Historical and real-time insights; Unlimited storage**; Device analytics & alerts; All AI Virtual Assistant features.
+Customer Engagement Bundle (New!) — Contact us for pricing. Everything in Ultra PLUS: Business SMS Booster, shared SMS inbox, reply templates, SMS compliance management; Call Queues Booster, call back from queue, wait time alerts, Live Reports.
+FAQ headings: "Is RingEX free to use? How long is RingEX free Trial?"; "Can I make unlimited calls with my RingCentral phone number?"; "Important details and disclaimers" (body not captured in this excerpt).
