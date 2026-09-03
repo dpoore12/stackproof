@@ -1,0 +1,171 @@
+slug: clickup
+vendor: ClickUp
+product: ClickUp
+category: project_management
+url: https://clickup.com/pricing
+free_trial: "Free Forever plan with no time limit; paid plans carry a 30-day full-refund satisfaction guarantee rather than a stated trial (2026-09-03)."
+
+# Per user per month billed yearly. The Business card printed both billing
+# prices; Unlimited's monthly-billed price was not in the captured window.
+# Every member of a Workspace must be on the same plan.
+tiers:
+  - plan: Free Forever
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://clickup.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Compare table: "Free Forever — Free". 60MB storage, 5 Spaces, 100 automation executions per month.'
+  - plan: Unlimited
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 7
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://clickup.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch. Compare table "Unlimited $7 User/Month" alongside Business at its yearly price, so read as billed yearly. Monthly-billed price not captured.'
+  - plan: Business
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 12
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://clickup.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"business yearly price: $12 Per user/month, billed yearly". Marked Popular.'
+  - plan: Business (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 19
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://clickup.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"business monthly price: $19 Per user/month, billed monthly".'
+  - plan: Brain AI add-on
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 9
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://clickup.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"Brain AI $9 Per user/month" under "Save up to 20% with yearly"; includes 1,500 AI Super Credits per user per month.'
+  - plan: Everything AI add-on
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 28
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://clickup.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"Everything AI $28 Per user/month", marked RECOMMENDED; includes 5,000 AI Super Credits per user per month.'
+
+fees:
+  - name: AI Super Credits
+    amount_usd: 10
+    unit: per 10,000 credits ($0.001 each), beyond the allowance in an AI plan
+    provenance:
+      source_url: https://clickup.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      ClickUp offers a full refund within 30 days of purchase under a 100%
+      satisfaction guarantee (2026-09-03).
+    quote: "If for any reason, you're not satisfied with your purchase, simply let us know within 30 days and we'll be happy to issue you a full refund."
+    provenance:
+      source_url: https://clickup.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Upgrading ClickUp upgrades the whole Workspace, so every member becomes
+      a paid seat, and users added mid-cycle are billed pro rata for the
+      remaining time (2026-09-03).
+    provenance:
+      source_url: https://clickup.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: stated
+    finding: >-
+      Custom exporting is listed as a Business-plan feature in ClickUp's
+      comparison table; export terms on account closure are not stated
+      (2026-09-03).
+    provenance:
+      source_url: https://clickup.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+findings:
+  - id: clickup-per-user-prices-yearly
+    claim: >-
+      On 2026-09-03 ClickUp listed Unlimited at $7 and Business at $12 per
+      user per month billed yearly, with Business at $19 on monthly billing,
+      a 58% premium.
+    provenance:
+      source_url: https://clickup.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: clickup-whole-workspace-upgrade
+    claim: >-
+      ClickUp requires an entire Workspace to upgrade together, so a team
+      with 2 heavy users and 8 occasional ones pays for 10 Business seats at
+      $120 per month rather than 2 (2026-09-03).
+    provenance:
+      source_url: https://clickup.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: clickup-ai-addons
+    claim: >-
+      ClickUp's AI is sold as add-ons at $9 (Brain AI) or $28 (Everything
+      AI) per user per month, which more than triples a $12 Business seat
+      at the top tier, with extra credits at $10 per 10,000 (2026-09-03).
+    provenance:
+      source_url: https://clickup.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: clickup-automation-caps
+    claim: >-
+      ClickUp caps automation executions at 100 per month on Free, 1,000 on
+      Unlimited, 5,000 on Business and 250,000 on Enterprise, with API calls
+      at 100 per minute below Enterprise (2026-09-03).
+    provenance:
+      source_url: https://clickup.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: clickup-30-day-refund
+    claim: >-
+      ClickUp states a 30-day full-refund guarantee on paid plans, unlike
+      Asana, which states it offers no refunds (2026-09-03).
+    provenance:
+      source_url: https://clickup.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: clickup-five-user-cost
+    claim: >-
+      At ClickUp's 2026-09-03 yearly rates a 5-user Workspace pays $35 per
+      month on Unlimited or $60 on Business, against $45 on monday.com Basic
+      and $54.95 on Asana Starter.
+    provenance:
+      source_url: https://clickup.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
