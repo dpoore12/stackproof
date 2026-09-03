@@ -1,0 +1,54 @@
+slug: gusto
+vendor: Gusto
+product: Gusto Payroll
+category: payroll
+url: https://gusto.com/pricing
+free_trial: "Gusto states it is free until the first payroll is run (per Gusto's comparison page)."
+
+tiers:
+  - plan: Simple
+    base_monthly_usd: 49
+    per_seat_monthly_usd: 6
+    seat_label: person
+    provenance:
+      source_url: https://gusto.com/product/compare/gusto-vs-quickbooks-payroll
+      fetched_at: 2026-09-03
+      method: vendor_page_via_search
+      note: >-
+        Direct fetch of gusto.com returned HTTP 403 (bot-blocked). Figures are
+        as published on Gusto's own comparison page as surfaced in search on
+        2026-09-03, which also states the base price was raised in March 2026.
+        Not yet verified on an account.
+
+clauses:
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Gusto's terms could not be fetched on 2026-09-03 (HTTP 403); data-export
+      and retention terms are pending verification on a real account.
+    provenance:
+      source_url: https://gusto.com/about/terms
+      fetched_at: 2026-09-03
+      method: not_available
+      note: "Fetch blocked."
+
+findings:
+  - id: gusto-simple-plan-2026
+    claim: >-
+      Gusto's own comparison page, as published on 2026-09-03, lists the Simple
+      plan at $49 per month plus $6 per person, and notes the base price was
+      raised in March 2026.
+    provenance:
+      source_url: https://gusto.com/product/compare/gusto-vs-quickbooks-payroll
+      fetched_at: 2026-09-03
+      method: vendor_page_via_search
+      note: "Direct fetch blocked (403). Verify on account before treating as first-hand."
+  - id: gusto-pricing-page-blocks-bots
+    claim: >-
+      On 2026-09-03 gusto.com/pricing returned HTTP 403 to an automated
+      fetch, so its pricing cannot be machine-verified without a browser
+      session or an account.
+    provenance:
+      source_url: https://gusto.com/pricing
+      fetched_at: 2026-09-03
+      method: not_available

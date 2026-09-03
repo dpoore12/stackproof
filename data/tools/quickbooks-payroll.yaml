@@ -1,0 +1,50 @@
+slug: quickbooks-payroll
+vendor: Intuit
+product: QuickBooks Payroll (QuickBooks Workforce)
+category: payroll
+url: https://quickbooks.intuit.com/payroll/pricing/
+
+# No per-seat public price could be extracted on 2026-09-03; that absence is
+# the finding. Tiers are deliberately empty rather than guessed.
+tiers: []
+
+clauses:
+  - topic: price_change
+    status: not_stated
+    finding: >-
+      On 2026-09-03 QuickBooks' payroll pricing page presented payroll as
+      "included with all QuickBooks Workforce plans" and directed buyers to a
+      sales phone line rather than publishing a per-seat price.
+    quote: "Payroll is included with all QuickBooks Workforce plans. Simply sign in to QuickBooks and add Workforce or call 1‑888‑857‑3710."
+    provenance:
+      source_url: https://quickbooks.intuit.com/payroll/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+fees:
+  - name: Background check (integrated into applicant recruiting)
+    amount_usd: 29.99
+    unit: per report, starting price
+    provenance:
+      source_url: https://quickbooks.intuit.com/payroll/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+findings:
+  - id: quickbooks-payroll-bundled-no-public-seat-price
+    claim: >-
+      As of 2026-09-03, QuickBooks no longer publishes a standalone per-seat
+      payroll price on its payroll pricing page; payroll is bundled into
+      "QuickBooks Workforce" plans and the page routes buyers to a sales line.
+    provenance:
+      source_url: https://quickbooks.intuit.com/payroll/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: quickbooks-background-check-fee
+    claim: >-
+      QuickBooks' payroll pricing page on 2026-09-03 lists integrated background
+      checks starting at $29.99 per report.
+    provenance:
+      source_url: https://quickbooks.intuit.com/payroll/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch

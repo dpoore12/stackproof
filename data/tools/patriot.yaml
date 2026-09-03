@@ -1,0 +1,130 @@
+slug: patriot
+vendor: Patriot Software
+product: Patriot Payroll
+category: payroll
+url: https://www.patriotsoftware.com/pricing/
+free_trial: "30 days free + 50% off for 6 months (stated on pricing page, 2026-09-03)."
+
+# Base monthly fees for Basic and Full Service were not machine-extractable
+# from the page on 2026-09-03 (not present in parsed text). Recorded as null
+# so the cost table shows unknown rather than a per-seat-only understatement.
+tiers:
+  - plan: Basic Payroll
+    base_monthly_usd: null
+    per_seat_monthly_usd: 4
+    seat_label: worker
+    promo: "Per-worker shown struck through to $2 for the promo period; 30 days free + 50% off 6 months."
+    provenance:
+      source_url: https://www.patriotsoftware.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: "Page reads 'plus $4 $2 per worker paid' (regular / promo). Base monthly fee not captured in parsed text."
+
+  - plan: Full Service Payroll
+    base_monthly_usd: null
+    per_seat_monthly_usd: 5
+    seat_label: worker
+    promo: "Per-worker shown struck through to $2.50 for the promo period; 30 days free + 50% off 6 months."
+    provenance:
+      source_url: https://www.patriotsoftware.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: "Page reads 'plus $5 $2.50 per worker paid' (regular / promo). Base monthly fee not captured in parsed text."
+
+fees:
+  - name: Additional state tax filing (Full Service)
+    amount_usd: 12
+    unit: per month, per additional state
+    provenance:
+      source_url: https://www.patriotsoftware.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Time & Attendance add-on
+    amount_usd: 6
+    unit: per month, plus $2 per employee (promo $3 + $1)
+    provenance:
+      source_url: https://www.patriotsoftware.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: HR Software add-on
+    amount_usd: 6
+    unit: per month, plus $2 per employee (promo $3 + $1)
+    provenance:
+      source_url: https://www.patriotsoftware.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Patriot bills payroll in arrears each month as a flat fee plus a
+      per-worker-paid fee, with unlimited payroll runs.
+    quote: "Our payroll is a flat monthly fee + per worker paid fee. Run as many payrolls as you need. We'll bill you in arrears each month."
+    provenance:
+      source_url: https://www.patriotsoftware.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: accuracy_guarantee
+    status: stated
+    finding: >-
+      Patriot's Full Service plan states "tax filing reliability guaranteed"
+      and year-end payroll tax filings at no additional fee.
+    provenance:
+      source_url: https://www.patriotsoftware.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Data-export and post-cancellation retention terms were not on Patriot's
+      pricing page on 2026-09-03; pending a read of the terms and verification
+      on an account.
+    provenance:
+      source_url: https://www.patriotsoftware.com/pricing/
+      fetched_at: 2026-09-03
+      method: not_available
+
+support:
+  channels: [phone, email, chat]
+  hours: "9am–7pm ET, Monday–Friday, US-based (per pricing page)"
+  provenance:
+    source_url: https://www.patriotsoftware.com/pricing/
+    fetched_at: 2026-09-03
+    method: live_fetch
+
+findings:
+  - id: patriot-extra-state-fee
+    claim: >-
+      On 2026-09-03 Patriot's pricing page stated that Full Service Payroll
+      charges $12 per month for each additional state it files in beyond the
+      first.
+    provenance:
+      source_url: https://www.patriotsoftware.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: patriot-per-worker-rates
+    claim: >-
+      Patriot's per-worker rate on 2026-09-03 was $4 (Basic) or $5 (Full
+      Service) per worker paid in the month, shown struck through to $2 and
+      $2.50 under a 30-days-free plus 50%-off-for-6-months promotion.
+    provenance:
+      source_url: https://www.patriotsoftware.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: patriot-addon-per-employee-fees
+    claim: >-
+      Patriot's Time & Attendance and HR add-ons each cost $6 per month plus
+      $2 per employee per product at regular price on 2026-09-03.
+    provenance:
+      source_url: https://www.patriotsoftware.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: patriot-billed-in-arrears
+    claim: >-
+      Patriot bills monthly in arrears, so the first invoice arrives after the
+      first month of use rather than at signup (stated 2026-09-03).
+    provenance:
+      source_url: https://www.patriotsoftware.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch

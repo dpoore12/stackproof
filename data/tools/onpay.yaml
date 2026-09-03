@@ -1,0 +1,114 @@
+slug: onpay
+vendor: OnPay
+product: OnPay Payroll
+category: payroll
+url: https://onpay.com/payroll/software/costs-pricing/
+free_trial: "One month free (stated on pricing page)."
+
+tiers:
+  - plan: Payroll Essentials
+    base_monthly_usd: 49
+    per_seat_monthly_usd: 6
+    seat_label: worker
+    provenance:
+      source_url: https://onpay.com/payroll/software/costs-pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: >-
+        Calculator on the page reads "$49 base + $6/worker". The same page's
+        headline reads "$55 per month", which is the base plus one worker seat.
+
+  - plan: HR add-on
+    standalone: false
+    base_monthly_usd: 15
+    per_seat_monthly_usd: 2
+    seat_label: worker
+    provenance:
+      source_url: https://onpay.com/payroll/software/costs-pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: "Listed as '+ $15 base and $2/worker per month' on top of Payroll Essentials."
+
+fees:
+  - name: Compliance Resources add-on
+    amount_usd: 10
+    unit: per month, base
+    provenance:
+      source_url: https://onpay.com/payroll/software/costs-pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Live HR Support add-on
+    amount_usd: 75
+    unit: per month, base
+    provenance:
+      source_url: https://onpay.com/payroll/software/costs-pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+clauses:
+  - topic: accuracy_guarantee
+    status: stated
+    finding: >-
+      OnPay states an error-free guarantee: if it makes a payroll tax mistake it
+      will deal with the tax agency on the client's behalf.
+    quote: "With our error-free guarantee, we promise things will be done right (and If we make a mistake, we'll take care of the tax agency for you)."
+    provenance:
+      source_url: https://onpay.com/payroll/software/costs-pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      OnPay's published Terms of Service, fetched 2026-09-03, do not state a
+      data-export right or a post-cancellation data-retention period.
+    provenance:
+      source_url: https://onpay.com/terms-of-service/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: "The published terms are an ACH origination agreement; export and retention are not addressed. Verify on account."
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      OnPay's published Terms of Service, fetched 2026-09-03, do not state a
+      cancellation notice period.
+    provenance:
+      source_url: https://onpay.com/terms-of-service/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: "Verify on account."
+
+support:
+  channels: [phone, email, chat]
+  hours: "9am–8pm weekdays (extended hours, per pricing page)"
+  provenance:
+    source_url: https://onpay.com/payroll/software/costs-pricing/
+    fetched_at: 2026-09-03
+    method: live_fetch
+
+findings:
+  - id: onpay-headline-is-base-plus-one
+    claim: >-
+      On 2026-09-03 OnPay's pricing page showed "$55 per month" as the headline
+      and "$49 base + $6/worker" in its calculator; the $55 is the base plus a
+      single worker seat.
+    provenance:
+      source_url: https://onpay.com/payroll/software/costs-pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: onpay-no-implementation-fees
+    claim: >-
+      As of 2026-09-03 OnPay's pricing page states no implementation or
+      integration fees, free setup and data migration, and that W-2s, 1099s,
+      year-end filings, and federal, state and local filings are included.
+    provenance:
+      source_url: https://onpay.com/payroll/software/costs-pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: onpay-ten-workers-cost
+    claim: >-
+      At OnPay's published 2026-09-03 rates, payroll for 10 workers costs $109
+      per month ($49 base + 10 × $6) before add-ons.
+    provenance:
+      source_url: https://onpay.com/payroll/software/costs-pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
