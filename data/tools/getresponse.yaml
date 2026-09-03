@@ -1,0 +1,65 @@
+slug: getresponse
+vendor: GetResponse
+product: GetResponse
+category: email_marketing
+url: https://www.getresponse.com/pricing
+free_trial: "Free trial stated on pricing page; a free plan also exists with usage caps (2026-09-03)."
+pricing_note: "Priced by list size behind a slider; entry rates captured, list-size steps not. Pending verification on an account."
+
+# GetResponse prices by list size (1k, 2.5k, 5k, 10k, 25k, 50k, 100k) behind a
+# slider. The fetch captured the entry per-month rates but not the list size
+# they apply to, so no step table is recorded until verified on an account.
+tiers: []
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      GetResponse offers a standard plan billed monthly or a 12-month prepay at
+      an 18% discount; the headline per-month prices on the pricing page are
+      the annual-prepay rates (2026-09-03).
+    quote: "Choose your subscription plan: standard plan billed monthly (every month) or 12-month prepay with 18% discount."
+    provenance:
+      source_url: https://www.getresponse.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Data-export and cancellation terms are not on GetResponse's pricing page
+      (2026-09-03); pending verification on an account.
+    provenance:
+      source_url: https://www.getresponse.com/pricing
+      fetched_at: 2026-09-03
+      method: not_available
+
+findings:
+  - id: getresponse-entry-prices-annual
+    claim: >-
+      On 2026-09-03 GetResponse's pricing page listed Starter at $15.58/mo,
+      Marketer at $48.38/mo and Creator at $56.58/mo, each labelled "billed
+      annually", plus an Enterprise tier with custom pricing; the list size
+      those entry rates apply to was not captured.
+    provenance:
+      source_url: https://www.getresponse.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: "Rates are the 12-month-prepay per-month figures. Monthly billing is higher by the stated 18%."
+  - id: getresponse-list-size-steps
+    claim: >-
+      GetResponse states all plans are priced across seven list sizes — 1k,
+      2.5k, 5k, 10k, 25k, 50k and 100k contacts — so the per-month price
+      steps up at each threshold rather than scaling per contact (2026-09-03).
+    provenance:
+      source_url: https://www.getresponse.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: getresponse-free-plan-caps
+    claim: >-
+      GetResponse's free plan (2026-09-03) allows unlimited landing pages but
+      caps them at 1,000 unique visitors per month, and allows course
+      creation for up to 250 students but not selling them.
+    provenance:
+      source_url: https://www.getresponse.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch

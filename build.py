@@ -25,13 +25,14 @@ from pathlib import Path
 
 import yaml
 
-from schema import SEAT_POINTS, Finding, Tool
+from schema import SEAT_POINTS, Finding, Tool, seat_points_for
 
 ROOT = Path(__file__).parent
 DATA = ROOT / "data" / "tools"
 SITE = ROOT / "site"
 
 SITE_NAME = "StackProof"
+COLUMN_LABEL = {"payroll": "number of people paid", "email_marketing": "contacts on the list"}
 TAGLINE = "Business software, actually bought and measured."
 # Set to the production origin once a domain is chosen. Used for canonical
 # URLs, sitemap, and JSON-LD. A relative origin keeps local builds honest.
@@ -95,18 +96,31 @@ def finding_block(f: Finding, tool: Tool) -> str:
 
 def cost_table(tool: Tool) -> str:
     if not tool.tiers:
+        if tool.pricing_note:
+            return f'<p class="muted">{e(tool.pricing_note)}</p>'
         return '<p class="muted">No per-seat price is published; see findings.</p>'
-    head = "".join(f"<th>{n} {e(tool.tiers[0].seat_label)}{'s' if n != 1 else ''}</th>" for n in SEAT_POINTS)
+    pts = seat_points_for(tool.category)
+    head = "".join(f"<th>{n:,} {e(tool.tiers[0].seat_label)}{'s' if n != 1 else ''}</th>" for n in pts)
     rows = []
     for t in tool.tiers:
-        cells = "".join(f'<td class="n">{money(t.cost_at(n))}</td>' for n in SEAT_POINTS)
-        base = money(t.base_monthly_usd)
-        seat = money(t.per_seat_monthly_usd)
-        formula = f"{base} base + {seat} per {e(t.seat_label)}"
-        if t.base_monthly_usd is None:
-            formula += " — base fee not captured; cost not computed"
+        cells = "".join(f'<td class="n">{money(t.cost_at(n))}</td>' for n in pts)
+        if t.steps:
+            formula = "stepped by " + e(t.seat_label) + " count: " + ", ".join(
+                f"{money(st.monthly_usd)} to {st.up_to:,}" for st in sorted(t.steps, key=lambda x: x.up_to))
+        else:
+            base = money(t.base_monthly_usd)
+            seat = money(t.per_seat_monthly_usd)
+            formula = f"{base} base + {seat} per {e(t.seat_label)}"
+            if t.base_monthly_usd is None:
+                formula += " — base fee not captured; cost not computed"
+        if t.billing == "annual":
+            formula += " — per-month rate when prepaid annually"
+        if t.max_seats is not None:
+            formula += f" — sold for teams up to {t.max_seats}; larger teams need another plan"
         if not t.standalone:
             formula += " — add-on, priced on top of a plan"
+        if not t.compare:
+            formula += " — different product from the category comparison; not ranked against other vendors"
         promo = f'<div class="promo">Promo: {e(t.promo)}</div>' if t.promo else ""
         label = e(t.plan) + ("" if t.standalone else ' <span class="muted">(add-on)</span>')
         rows.append(
@@ -232,7 +246,7 @@ def page(title: str, body: str, path: str, description: str = "", extra_head: st
         "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\">"
         f"<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>{e(title)} — {SITE_NAME}</title>"
         f'<meta name="description" content="{e(description)}">{canon}{extra_head}<style>{CSS}</style></head><body><div class="wrap">'
-        f'<header class="top"><a href="/">{SITE_NAME}</a><nav><a href="/payroll/">Payroll</a><a href="/methodology/">Methodology</a></nav></header>'
+        f'<header class="top"><a href="/">{SITE_NAME}</a><nav><a href="/payroll/">Payroll</a><a href="/email_marketing/">Email</a><a href="/methodology/">Methodology</a></nav></header>'
         f'<p class="disclosure">{DISCLOSURE}</p>{body}'
         f"<footer>{SITE_NAME} — {TAGLINE}. Every figure links to its source and shows the date it was recorded.</footer>"
         "</div></body></html>"
@@ -255,16 +269,20 @@ def tool_page(tool: Tool) -> str:
 
 
 def category_page(category: str, tools: list[Tool]) -> str:
-    head = "".join(f"<th>{n}</th>" for n in SEAT_POINTS)
+    pts = seat_points_for(category)
+    mid = pts[len(pts) // 2]
+    head = "".join(f"<th>{n:,}</th>" for n in pts)
     rows = []
-    for t in sorted(tools, key=lambda x: (x.cheapest_tier_cost_at(10) or (None, 1e9))[1]):
+    for t in sorted(tools, key=lambda x: (x.cheapest_tier_cost_at(mid) or (None, 1e9))[1]):
         cells = []
-        for n in SEAT_POINTS:
+        for n in pts:
             c = t.cheapest_tier_cost_at(n)
             cells.append(f'<td class="n">{money(c[1]) if c else "—"}</td>')
-        plan = t.cheapest_tier_cost_at(10)
+        plan = t.cheapest_tier_cost_at(mid)
         if plan:
             label = f'<div class="formula">{e(plan[0])}</div>'
+        elif t.pricing_note:
+            label = f'<div class="formula">{e(t.pricing_note)}</div>'
         elif t.tiers:
             # Tiers exist but the base fee was not captured; the per-seat
             # rate alone must not be shown as a cost. Say what is missing.
@@ -277,24 +295,25 @@ def category_page(category: str, tools: list[Tool]) -> str:
         )
     table = (
         '<div class="scroll"><table class="cost"><caption>Cheapest published plan for each vendor at each team size, before add-ons and fees. '
-        "A dash means the vendor does not publish a per-seat price.</caption>"
+        "A dash means no cost could be computed from the vendor's page; the row says why.</caption>"
         f"<thead><tr><th>Vendor</th>{head}</tr></thead><tbody>{''.join(rows)}</tbody></table></div>"
     )
     # Cross-vendor findings: every finding from every tool, so the category page
     # is itself a dense, citable surface rather than a list of links.
     findings = "".join(finding_block(f, t) for t in tools for f in t.findings)
     body = (
-        f"<h1>{e(category.title())} software: measured pricing side by side</h1>"
-        f'<p class="lede">Every number below was recorded from the vendor\'s own page on the date shown. Columns are team size.</p>'
+        f"<h1>{e(category.replace('_', ' ').title())} software: measured pricing side by side</h1>"
+        f'<p class="lede">Every number below was recorded from the vendor\'s own page on the date shown. Columns are {e(COLUMN_LABEL.get(category, "team size"))}.</p>'
         f"{table}<h2>Findings across vendors</h2>{findings}"
     )
-    return page(f"{category.title()} software compared", body, f"/{category}/", f"{category.title()} software pricing measured side by side.")
+    label = category.replace("_", " ").title()
+    return page(f"{label} software compared", body, f"/{category}/", f"{label} software pricing measured side by side.")
 
 
 def index_page(tools: list[Tool]) -> str:
     cats = sorted({t.category for t in tools})
     cards = "".join(
-        f'<div class="card"><a href="/{e(c)}/">{e(c.title())}</a><p class="muted">{sum(1 for t in tools if t.category == c)} vendors measured</p></div>'
+        f'<div class="card"><a href="/{e(c)}/">{e(c.replace("_", " ").title())}</a><p class="muted">{sum(1 for t in tools if t.category == c)} vendors measured</p></div>'
         for c in cats
     )
     body = (

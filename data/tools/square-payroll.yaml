@@ -1,0 +1,95 @@
+slug: square-payroll
+vendor: Square
+product: Square Payroll
+category: payroll
+url: https://squareup.com/us/en/payroll/pricing
+free_trial: null
+
+tiers:
+  - plan: Full-service payroll (employees and contractors)
+    base_monthly_usd: 35
+    per_seat_monthly_usd: 6
+    seat_label: person paid
+    provenance:
+      source_url: https://squareup.com/us/en/payroll/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"For full-service payroll, the cost is $35 per month, plus $6 per person paid per month."'
+
+  - plan: Contractor-only payroll
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 6
+    seat_label: person paid
+    provenance:
+      source_url: https://squareup.com/us/en/payroll/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"For contractor-only payroll, the cost is $6 per person paid per month." No base fee.'
+
+fees:
+  - name: Paper W-2 / 1099 mailing (opt-in)
+    amount_usd: 3
+    unit: per employee or contractor per year, if you opt in to mailed paper forms
+    provenance:
+      source_url: https://squareup.com/us/en/payroll/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Square Payroll states no commitment and no long-term contracts are
+      required (2026-09-03).
+    quote: "No commitment, no long-term contracts required"
+    provenance:
+      source_url: https://squareup.com/us/en/payroll/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Data-export and post-cancellation retention terms are not on Square
+      Payroll's pricing page (2026-09-03); pending verification on an account.
+    provenance:
+      source_url: https://squareup.com/us/en/payroll/pricing
+      fetched_at: 2026-09-03
+      method: not_available
+
+findings:
+  - id: square-payroll-formula
+    claim: >-
+      On 2026-09-03 Square priced full-service payroll at $35 per month plus
+      $6 per person paid per month, with unlimited pay runs.
+    provenance:
+      source_url: https://squareup.com/us/en/payroll/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: square-contractor-only-no-base
+    claim: >-
+      Square's contractor-only payroll has no monthly base fee — $6 per
+      contractor paid per month — so paying 3 contractors costs $18 per month
+      (stated 2026-09-03).
+    provenance:
+      source_url: https://squareup.com/us/en/payroll/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: square-paper-form-fee
+    claim: >-
+      Square charges $3 per employee or contractor per year if you opt in to
+      mailed paper W-2s or 1099s (stated 2026-09-03); electronic delivery has
+      no such fee.
+    provenance:
+      source_url: https://squareup.com/us/en/payroll/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: square-ten-person-cost
+    claim: >-
+      At Square's published 2026-09-03 rates, full-service payroll for 10
+      people costs $95 per month ($35 + 10 × $6), $14 less than OnPay's $109
+      and $4 less than Homebase's $99 at the same size.
+    provenance:
+      source_url: https://squareup.com/us/en/payroll/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch

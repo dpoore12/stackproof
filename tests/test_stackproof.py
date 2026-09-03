@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 import build as B  # noqa: E402
-from schema import SEAT_POINTS, Finding, PriceTier, Provenance, Tool  # noqa: E402
+from schema import SEAT_POINTS, Finding, PriceTier, Provenance, Step, Tool, seat_points_for  # noqa: E402
 
 DATA = ROOT / "data" / "tools"
 
@@ -123,3 +123,46 @@ def test_unverified_figures_are_labelled(tmp_path, monkeypatch):
     html = (tmp_path / "site" / "tools" / "gusto" / "index.html").read_text()
     assert "not yet verified on an account" in html
     assert "vendor page via search" in html
+
+
+def test_seat_cap_never_extrapolates():
+    """A tier sold only up to N seats prices nothing beyond N. Homebase's free
+    plan caps at 10 employees; its $39 + $6 payroll add-on must not be shown
+    as the cost for 25 or 50 people."""
+    prov = Provenance(source_url="https://x.test", fetched_at=date(2026, 9, 3), method="live_fetch")
+    capped = PriceTier(plan="small", base_monthly_usd=39, per_seat_monthly_usd=6, max_seats=10, provenance=prov)
+    assert capped.cost_at(10) == 99
+    assert capped.cost_at(11) is None
+    bigger = PriceTier(plan="big", base_monthly_usd=69, per_seat_monthly_usd=6, provenance=prov)
+    t = Tool(slug="x", vendor="X", product="X", category="payroll", url="https://x.test",
+             tiers=[capped, bigger],
+             findings=[Finding(id="f1", claim="Costs $99 at 10.", provenance=prov)])
+    assert t.cheapest_tier_cost_at(10) == ("small", 99)
+    assert t.cheapest_tier_cost_at(25) == ("big", 219)
+
+
+def test_stepped_pricing_reads_covering_step_and_never_extrapolates():
+    prov = Provenance(source_url="https://x.test", fetched_at=date(2026, 9, 3), method="live_fetch")
+    t = PriceTier(plan="p", seat_label="contact", billing="annual", provenance=prov,
+                  steps=[Step(up_to=1000, monthly_usd=15.58), Step(up_to=2500, monthly_usd=25.0), Step(up_to=5000, monthly_usd=45.0)])
+    assert t.cost_at(1) == 15.58
+    assert t.cost_at(1000) == 15.58
+    assert t.cost_at(1001) == 25.0
+    assert t.cost_at(5000) == 45.0
+    assert t.cost_at(5001) is None
+
+
+def test_category_seat_points():
+    assert seat_points_for("payroll") == (1, 5, 10, 25, 50)
+    assert seat_points_for("email_marketing")[0] == 500
+    assert seat_points_for("unknown") == SEAT_POINTS
+
+
+def test_non_comparable_plans_never_rank_in_category():
+    """Regression: Square's contractor-only payroll ($0 + $6) was ranking as
+    Square's cheapest plan in the employee-payroll comparison, showing $60
+    for 10 people against OnPay's $109 for a different product."""
+    t = Tool.model_validate(yaml.safe_load((DATA / "square-payroll.yaml").read_text()))
+    plan, cost = t.cheapest_tier_cost_at(10)
+    assert plan.startswith("Full-service")
+    assert cost == 95

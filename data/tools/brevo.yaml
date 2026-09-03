@@ -1,0 +1,106 @@
+slug: brevo
+vendor: Brevo (formerly Sendinblue)
+product: Brevo Marketing Platform
+category: email_marketing
+url: https://www.brevo.com/pricing/
+free_trial: "Free plan forever, no credit card; up to 300 emails per day once the account is approved for sending (2026-09-03)."
+pricing_note: "Prices are rendered by script and were not captured in the fetch; plan structure and terms were. Amounts pending verification on an account."
+
+# Dollar amounts on brevo.com/pricing are injected client-side and did not
+# appear in the parsed page. Plan tiers and volume thresholds did.
+tiers: []
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Brevo states a plan can be cancelled at any time from within the account,
+      and that data is retained for possible return unless the customer
+      requests deletion of all records.
+    quote: "If you change your mind, you can cancel your plan at any time directly from your account. Your data will be stored if you wish to use our services again, or we can delete all of your records upon your request."
+    provenance:
+      source_url: https://www.brevo.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_retention
+    status: stated
+    finding: >-
+      After cancellation Brevo keeps the account's data by default and deletes
+      all records only on request (stated 2026-09-03).
+    provenance:
+      source_url: https://www.brevo.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Brevo's monthly plans run in 30-day periods charged at the start of each
+      period; email and SMS credits are charged at purchase, and pay-as-you-go
+      credits do not expire.
+    quote: "If you subscribe to a monthly plan, the subscription period is 30 days and charges are processed at the beginning of each period."
+    provenance:
+      source_url: https://www.brevo.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: auto_renew
+    status: stated
+    finding: >-
+      Brevo states the commitment period (monthly or yearly) is chosen at
+      signup and that there are no hidden fees (2026-09-03).
+    provenance:
+      source_url: https://www.brevo.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+support:
+  channels: [email]
+  hours: "Email support in 6 languages on Starter/Standard; phone support only on Professional; a deliverability specialist (3 hours/year) on Professional (per pricing page)"
+  provenance:
+    source_url: https://www.brevo.com/pricing/
+    fetched_at: 2026-09-03
+    method: live_fetch
+
+findings:
+  - id: brevo-free-plan-daily-cap
+    claim: >-
+      Brevo's free plan (2026-09-03) needs no credit card and allows up to 300
+      emails per day once the account is approved for sending.
+    provenance:
+      source_url: https://www.brevo.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: brevo-plan-volume-thresholds
+    claim: >-
+      Brevo's paid tiers on 2026-09-03 are priced by monthly email volume, not
+      contact count: Starter from 5,000 emails per month, Professional from
+      150,000 emails per month with 10 user seats included.
+    provenance:
+      source_url: https://www.brevo.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: brevo-phone-support-professional-only
+    claim: >-
+      Phone support at Brevo is available only on the Professional tier; Starter
+      and Standard get email support in 6 languages (2026-09-03).
+    provenance:
+      source_url: https://www.brevo.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: brevo-payg-credits-never-expire
+    claim: >-
+      Brevo's pay-as-you-go email credits do not expire, at one credit per
+      email sent, and can be topped up or converted to a monthly plan at any
+      time (2026-09-03); PAYG excludes phone support.
+    provenance:
+      source_url: https://www.brevo.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: brevo-keeps-data-after-cancel
+    claim: >-
+      Brevo retains an account's data after cancellation by default and
+      deletes all records only when asked (stated 2026-09-03) — useful if you
+      may return, worth requesting if you will not.
+    provenance:
+      source_url: https://www.brevo.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch

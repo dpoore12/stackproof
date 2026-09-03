@@ -48,6 +48,29 @@ Serve locally with `python -m http.server -d site 8000`.
 `Finding.claim` must contain a number or a date and be under 320 characters;
 the model rejects anything else.
 
+## Pricing shapes the schema can express
+
+| field | use |
+|---|---|
+| `base_monthly_usd` + `per_seat_monthly_usd` | linear formula (payroll: base + per worker). `base: null` means *not captured* and no cost is computed; a vendor with no base fee records `0`. |
+| `steps: [{up_to, monthly_usd}]` | stepped list (email: price per list-size band). Beyond the last step the cost is unknown, never extrapolated. |
+| `max_seats` | tier sold only up to N seats (a free plan capped at 10 employees). Larger teams get `—`, not an extrapolation. |
+| `standalone: false` | an add-on priced on top of a plan. Shown in the table, never competes for "cheapest plan". |
+| `billing: annual` | the recorded rate is the per-month figure when prepaid annually. Vendors headline this one; it is labelled. |
+| `pricing_note` (tool-level) | why no cost is shown — "behind a script, not captured" is a different fact from "not published". |
+
+Column headers come from `CATEGORY_SEAT_POINTS` in `schema.py`: payroll compares 1/5/10/25/50 people paid, email marketing compares 500–25,000 contacts.
+
+## Fetching vendor pages
+
+DataForSEO `on_page/content_parsing/live` returns the vendor page as
+structured text. `tools/extract_prices.py <saved.json>` prints only the
+lines that look like a price, fee, trial or term, so the page never has to be
+read in full. Some vendors (Gusto, Kit) return HTTP 403 to fetches; some
+(Brevo, Mailchimp, GetResponse, MailerLite) render amounts client-side. Both
+cases are recorded as such with `pricing_note` — never filled from a third
+party.
+
 ## Adding a vendor
 
 1. Fetch the pricing page and the terms. Record the formula, not the headline.

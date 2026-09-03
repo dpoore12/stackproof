@@ -1,0 +1,100 @@
+slug: mailchimp
+vendor: Intuit Mailchimp
+product: Mailchimp Marketing
+category: email_marketing
+url: https://mailchimp.com/pricing/marketing/
+free_trial: "14-day free trial of Standard or Essentials; a 1-month Premium trial for qualified new customers via sales; a basic Free plan (2026-09-03)."
+pricing_note: "Prices are rendered by script from an audience-size selector and were not captured; contact allowances and send-limit multipliers were. Amounts pending verification on an account."
+
+# Dollar amounts on the page are computed client-side ("Then, starts at
+# /month") and did not appear in the parsed text. The structural terms did.
+tiers: []
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Mailchimp states a paid plan can be cancelled or downgraded to the Free
+      plan at any time, and the account can be paused or deleted from
+      Settings; cancelling during the trial incurs no charge.
+    quote: "If you cancel your subscription during the free trial, you won't be charged for any services. You can pause your subscription or delete your Mailchimp account at any time using the Settings tab in Account & Billing."
+    provenance:
+      source_url: https://mailchimp.com/pricing/marketing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: auto_renew
+    status: stated
+    finding: >-
+      When the 14-day trial ends Mailchimp charges the then-current monthly or
+      annual fee for the selected plan, after sending billing-estimate
+      reminders (2026-09-03).
+    quote: "When the free trial ends, you'll be charged the then-current monthly or annual fee for the plan you selected."
+    provenance:
+      source_url: https://mailchimp.com/pricing/marketing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Data-export terms are not on Mailchimp's marketing pricing page
+      (2026-09-03); pending verification on an account.
+    provenance:
+      source_url: https://mailchimp.com/pricing/marketing/
+      fetched_at: 2026-09-03
+      method: not_available
+
+findings:
+  - id: mailchimp-send-limit-multipliers
+    claim: >-
+      On 2026-09-03 Mailchimp capped monthly email sends as a multiple of the
+      plan's maximum contact count: 10× on Essentials, 12× on Standard and
+      15× on Premium — so a 5,000-contact Essentials plan can send at most
+      50,000 emails a month.
+    provenance:
+      source_url: https://mailchimp.com/pricing/marketing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: mailchimp-free-plan-limits
+    claim: >-
+      Mailchimp's Free plan (2026-09-03) includes 1 seat, 1 audience with a
+      maximum of 250 contacts, and up to 500 sends per month with a daily
+      limit of 250.
+    provenance:
+      source_url: https://mailchimp.com/pricing/marketing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: mailchimp-included-contacts-by-plan
+    claim: >-
+      Mailchimp's Essentials and Standard plans each include 500 contacts at
+      the entry price and Premium includes 10,000, with the price rising by
+      selected audience size (2026-09-03).
+    provenance:
+      source_url: https://mailchimp.com/pricing/marketing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: mailchimp-10k-discount-and-annual
+    claim: >-
+      Businesses with 10,000+ contacts can save 15% for the first 12 months,
+      and annual plans exist only for Premium and for Standard at 10,000+
+      contacts, via sales (stated 2026-09-03).
+    provenance:
+      source_url: https://mailchimp.com/pricing/marketing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: mailchimp-trial-converts-to-then-current-price
+    claim: >-
+      Mailchimp's 14-day trial converts to a paid plan at the "then-current"
+      fee rather than a locked price, after emailed billing-estimate reminders
+      (stated 2026-09-03).
+    provenance:
+      source_url: https://mailchimp.com/pricing/marketing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: mailchimp-payg-credits
+    claim: >-
+      Mailchimp offers pay-as-you-go email credits as an alternative to a
+      monthly or annual plan for infrequent senders (2026-09-03).
+    provenance:
+      source_url: https://mailchimp.com/pricing/marketing/
+      fetched_at: 2026-09-03
+      method: live_fetch

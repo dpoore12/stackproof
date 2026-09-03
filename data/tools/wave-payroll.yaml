@@ -1,0 +1,111 @@
+slug: wave-payroll
+vendor: Wave
+product: Wave Payroll
+category: payroll
+url: https://www.waveapps.com/payroll
+free_trial: "Free for 30 days (stated on payroll page, 2026-09-03)."
+
+tiers:
+  - plan: Payroll (United States)
+    base_monthly_usd: 40
+    per_seat_monthly_usd: 6
+    seat_label: active employee
+    provenance:
+      source_url: https://www.waveapps.com/payroll
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: >-
+        "$40 USD base fee + $6 per active employee". The page's FAQ is titled
+        "Why did the base price change for some US states?", so the base may
+        differ by state; only the $40 figure is shown on the page. Prices
+        stated to apply to customers who signed up after April 2, 2025.
+
+fees:
+  - name: Independent contractor paid
+    amount_usd: 6
+    unit: per contractor paid per month, in addition to employees
+    provenance:
+      source_url: https://www.waveapps.com/payroll
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+clauses:
+  - topic: price_change
+    status: stated
+    finding: >-
+      Wave states its payroll prices apply to new customers who signed up after
+      April 2, 2025, and that earlier customers "will be notified of any changes
+      to their current plan if applicable" — the base price changed for some US
+      states.
+    quote: "Prices apply to new payroll customers who signed up after April 2, 2025. Payroll customers who joined Wave before April 2, 2025, will be notified of any changes to their current plan if applicable."
+    provenance:
+      source_url: https://www.waveapps.com/payroll
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: accuracy_guarantee
+    status: stated
+    finding: >-
+      Wave states "100% payroll accuracy guaranteed" and that it automatically
+      transfers tax payments and files with state agencies and the IRS,
+      excluding 1099 filings, noting tax payments "in rare cases" may not be
+      transferable automatically.
+    provenance:
+      source_url: https://www.waveapps.com/payroll
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Data-export and post-cancellation retention terms are not on Wave's
+      payroll page (2026-09-03); pending verification on an account. The page
+      does link a help article on moving data between Wave accounts.
+    provenance:
+      source_url: https://www.waveapps.com/payroll
+      fetched_at: 2026-09-03
+      method: not_available
+
+support:
+  channels: [live chat, email]
+  hours: "Live chat Monday–Friday (priority for payroll customers); email otherwise (per payroll page)"
+  provenance:
+    source_url: https://www.waveapps.com/payroll
+    fetched_at: 2026-09-03
+    method: live_fetch
+
+findings:
+  - id: wave-payroll-formula-us
+    claim: >-
+      On 2026-09-03 Wave priced US payroll at a $40 base fee per month plus $6
+      per active employee, with $6 per independent contractor paid, unlimited
+      free direct deposits, and no set-up fees.
+    provenance:
+      source_url: https://www.waveapps.com/payroll
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: wave-base-price-varies-by-state
+    claim: >-
+      Wave's payroll page (2026-09-03) shows a single $40 base fee but carries
+      an FAQ titled "Why did the base price change for some US states?",
+      indicating the base is not uniform across states; the page dates the
+      current prices to customers joining after April 2, 2025.
+    provenance:
+      source_url: https://www.waveapps.com/payroll
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: wave-ten-employee-cost
+    claim: >-
+      At Wave's published 2026-09-03 US rates, payroll for 10 employees costs
+      $100 per month ($40 + 10 × $6) — $5 more than Square's $95 and $9 less
+      than OnPay's $109 at the same size.
+    provenance:
+      source_url: https://www.waveapps.com/payroll
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: wave-excludes-1099-filing
+    claim: >-
+      Wave's automatic tax filing, as stated on 2026-09-03, excludes 1099
+      filings even though it generates 1099-NEC forms.
+    provenance:
+      source_url: https://www.waveapps.com/payroll
+      fetched_at: 2026-09-03
+      method: live_fetch

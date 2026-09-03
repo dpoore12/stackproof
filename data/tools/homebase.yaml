@@ -1,0 +1,139 @@
+slug: homebase
+vendor: Homebase
+product: Homebase Payroll
+category: payroll
+url: https://www.joinhomebase.com/pricing
+free_trial: "14-day free trial of the All-in-One plan, no credit card; auto-downgrades to the free Basic plan after (stated 2026-09-03)."
+
+# Payroll is an add-on to a Homebase plan. The plan is free only for one
+# location and up to 10 employees, so the true payroll cost changes at 11.
+tiers:
+  - plan: Payroll add-on on free Basic plan (1 location, up to 10 employees)
+    base_monthly_usd: 39
+    per_seat_monthly_usd: 6
+    seat_label: employee
+    max_seats: 10
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: >-
+        "Payroll is available as an add-on product on all plans for a standard
+        $39 base fee / month + $6 per employee paid / month". Basic plan is
+        "$0 /mo" and "free for teams up to 10 employees and operating in one
+        location".
+
+  - plan: Payroll add-on on Essentials plan (unlimited employees, per location)
+    base_monthly_usd: 69
+    per_seat_monthly_usd: 6
+    seat_label: employee
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: >-
+        $39 payroll base + $30/month Essentials plan (one location). Essentials
+        is the cheapest plan without the 10-employee cap. Page shows "Save
+        $72/year" on Essentials, implying an annual-billing discount not
+        itemised here.
+
+fees:
+  - name: Essentials plan (required above 10 employees or for a second location)
+    amount_usd: 30
+    unit: per location per month
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Background check
+    amount_usd: 30
+    unit: each
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Tip Manager add-on
+    amount_usd: 25
+    unit: per location per month
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Homebase states plans can be changed or cancelled at any time, with a
+      newly chosen plan taking effect at the start of the next billing cycle.
+    quote: "You can change your Homebase plan at any time – and the newly chosen plan will get activated at the start of the next billing cycle."
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: auto_renew
+    status: stated
+    finding: >-
+      After the 14-day All-in-One trial, Homebase automatically moves the
+      account to the free Basic plan rather than a paid plan, unless the team
+      exceeds 10 employees or one location.
+    quote: "If you don't have any plan selected at the end of your 14-day free All-in-One trial, you will automatically be switched to the free Basic Plan."
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Data-export and post-cancellation retention terms are not on Homebase's
+      pricing page (2026-09-03); pending a read of the terms and verification
+      on an account.
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-03
+      method: not_available
+
+support:
+  channels: [phone, contact form]
+  hours: "not stated on pricing page; 'Homebase advisors and on-call HR experts'"
+  provenance:
+    source_url: https://www.joinhomebase.com/pricing
+    fetched_at: 2026-09-03
+    method: live_fetch
+
+findings:
+  - id: homebase-payroll-formula
+    claim: >-
+      On 2026-09-03 Homebase priced payroll as a flat add-on to any plan at
+      $39 per month plus $6 per employee paid per month.
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: homebase-free-plan-cap-changes-payroll-cost
+    claim: >-
+      Homebase's free Basic plan is limited to 10 employees at one location, so
+      as of 2026-09-03 an 11-person team's payroll cost is at least $69 base
+      ($39 payroll + $30 Essentials) plus $6 per employee, not the $39 shown on
+      the payroll add-on.
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: homebase-ten-employee-cost
+    claim: >-
+      At Homebase's published 2026-09-03 rates, payroll for 10 employees at one
+      location costs $99 per month ($39 + 10 × $6) on the free Basic plan.
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: homebase-trial-downgrades-to-free
+    claim: >-
+      Homebase's 14-day trial requires no credit card and, as stated on
+      2026-09-03, ends by moving the account to the free plan rather than
+      converting to a paid one.
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
