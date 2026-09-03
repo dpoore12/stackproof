@@ -1,0 +1,117 @@
+slug: xero
+vendor: Xero
+product: Xero
+category: accounting
+url: https://www.xero.com/us/pricing-plans/
+free_trial: null
+
+# Priced per organization per month. The page shows each plan as a promo
+# price followed by "Then $X per month"; the regular price is recorded as
+# the tier and the promo in the note. No per-user price appears on the page;
+# the cost is therefore flat across team sizes here, with user limits
+# pending verification on an account.
+tiers:
+  - plan: Early
+    base_monthly_usd: 25
+    per_seat_monthly_usd: null
+    seat_label: user
+    promo: "90% off for the first 6 months when bought by 30 September 2026 (stated 2026-09-03)."
+    provenance:
+      source_url: https://www.xero.com/us/pricing-plans/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Page reads "Then $25 per month" under Early after the promo period. No per-user pricing on the page; user limits not captured.'
+
+  - plan: Growing
+    base_monthly_usd: 55
+    per_seat_monthly_usd: null
+    seat_label: user
+    promo: "90% off for the first 6 months when bought by 30 September 2026 (stated 2026-09-03)."
+    provenance:
+      source_url: https://www.xero.com/us/pricing-plans/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"Then $55 per month".'
+
+  - plan: Established
+    base_monthly_usd: 90
+    per_seat_monthly_usd: null
+    seat_label: user
+    promo: "90% off for the first 6 months when bought by 30 September 2026 (stated 2026-09-03)."
+    provenance:
+      source_url: https://www.xero.com/us/pricing-plans/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"Then $90 per month".'
+
+  - plan: Payroll add-on
+    standalone: false
+    base_monthly_usd: 36
+    per_seat_monthly_usd: 6
+    seat_label: employee or contractor
+    provenance:
+      source_url: https://www.xero.com/us/pricing-plans/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"Optional $36 a month + $6 per employee/contractor", listed under optional add-ons on every plan.'
+
+clauses:
+  - topic: auto_renew
+    status: stated
+    finding: >-
+      Xero states its subscriptions auto-renew monthly until cancelled
+      (2026-09-03).
+    quote: "Xero subscriptions auto-renew monthly until they are cancelled."
+    provenance:
+      source_url: https://www.xero.com/us/pricing-plans/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: price_change
+    status: stated
+    finding: >-
+      Xero's headline prices on 2026-09-03 are a 90%-off promotion for the
+      first 6 months for purchases by 30 September 2026; the plan then bills
+      at $25, $55 or $90 per month.
+    provenance:
+      source_url: https://www.xero.com/us/pricing-plans/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Data-export and cancellation-notice terms are not on Xero's pricing page
+      (2026-09-03); pending verification on an account.
+    provenance:
+      source_url: https://www.xero.com/us/pricing-plans/
+      fetched_at: 2026-09-03
+      method: not_available
+
+findings:
+  - id: xero-regular-prices-after-promo
+    claim: >-
+      On 2026-09-03 Xero's US plans billed at $25 (Early), $55 (Growing) and
+      $90 (Established) per month after a promotional first 6 months at 90%
+      off for purchases made by 30 September 2026.
+    provenance:
+      source_url: https://www.xero.com/us/pricing-plans/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: xero-payroll-addon-undercuts-gusto
+    claim: >-
+      Xero's optional payroll add-on was $36 per month plus $6 per employee or
+      contractor on 2026-09-03 — $13 a month less at the base than Gusto's
+      $49 + $6 Simple plan for the same per-person rate.
+    provenance:
+      source_url: https://www.xero.com/us/pricing-plans/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: "Gusto figure is from Gusto's own comparison page, fetch blocked; see the Gusto record."
+  - id: xero-auto-renews-monthly
+    claim: >-
+      Xero subscriptions auto-renew monthly until cancelled, per its pricing
+      page on 2026-09-03, so the 90%-off promotional rate rolls into the full
+      price after month 6 without a new decision.
+    provenance:
+      source_url: https://www.xero.com/us/pricing-plans/
+      fetched_at: 2026-09-03
+      method: live_fetch

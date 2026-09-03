@@ -1,0 +1,128 @@
+slug: quickbooks-online
+vendor: Intuit
+product: QuickBooks Online
+category: accounting
+url: https://quickbooks.intuit.com/pricing/
+free_trial: null
+
+# Priced per company per month. The page shows each paid plan as a regular
+# price struck through to a 50%-off promotional price ("$38 $19/mo"); the
+# regular price is recorded as the tier and the promo in the note. User
+# limits per plan were not captured in the parsed page.
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: null
+    seat_label: user
+    provenance:
+      source_url: https://quickbooks.intuit.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Page lists "Free $0/mo". A nearby line reads "Send 2 invoices per month", which appears to be a Free-plan limit; verify on account.'
+
+  - plan: Simple Start
+    base_monthly_usd: 38
+    per_seat_monthly_usd: null
+    seat_label: user
+    promo: "Shown as $38 struck through to $19/mo (50% off); promo duration not captured (stated 2026-09-03)."
+    provenance:
+      source_url: https://quickbooks.intuit.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Page reads "Simple Start $38 $19/mo".'
+
+  - plan: Essentials
+    base_monthly_usd: 74
+    per_seat_monthly_usd: null
+    seat_label: user
+    promo: "Shown as $74 struck through to $37/mo (50% off); promo duration not captured."
+    provenance:
+      source_url: https://quickbooks.intuit.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Page reads "Essentials $74 $37/mo".'
+
+  - plan: Plus
+    base_monthly_usd: 115
+    per_seat_monthly_usd: null
+    seat_label: user
+    promo: "Shown as $115 struck through to $57.50/mo (50% off); promo duration not captured."
+    provenance:
+      source_url: https://quickbooks.intuit.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Page reads "Plus $115 $57.50/mo".'
+
+  - plan: Advanced
+    base_monthly_usd: 275
+    per_seat_monthly_usd: null
+    seat_label: user
+    promo: "Shown as $275 struck through to $137.50/mo (50% off); promo duration not captured."
+    provenance:
+      source_url: https://quickbooks.intuit.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Page reads "Advanced $275 $137.50/mo".'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      QuickBooks Online's pricing page states "Cancel anytime" and asks "Can I
+      switch plans or cancel at any time?" in its FAQ (2026-09-03).
+    quote: "Cancel anytime"
+    provenance:
+      source_url: https://quickbooks.intuit.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: price_change
+    status: stated
+    finding: >-
+      Every paid QuickBooks Online plan on 2026-09-03 was displayed at 50% off
+      its regular price; the regular prices ($38 to $275 per month) are what
+      the plans bill at once the promotion ends.
+    provenance:
+      source_url: https://quickbooks.intuit.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Data-export terms and per-plan user limits are not in the parsed pricing
+      page (2026-09-03); pending verification on an account.
+    provenance:
+      source_url: https://quickbooks.intuit.com/pricing/
+      fetched_at: 2026-09-03
+      method: not_available
+
+findings:
+  - id: quickbooks-online-regular-prices
+    claim: >-
+      On 2026-09-03 QuickBooks Online listed regular prices of $38 (Simple
+      Start), $74 (Essentials), $115 (Plus) and $275 (Advanced) per month,
+      each shown struck through to a 50%-off promotional rate of $19, $37,
+      $57.50 and $137.50.
+    provenance:
+      source_url: https://quickbooks.intuit.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: quickbooks-online-free-tier
+    claim: >-
+      QuickBooks Online's pricing page on 2026-09-03 listed a Free plan at
+      $0/month alongside the paid tiers, with a nearby limit of 2 invoices
+      per month.
+    provenance:
+      source_url: https://quickbooks.intuit.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: "The 2-invoice limit's association with the Free plan is inferred from page position; verify on account."
+  - id: quickbooks-online-vs-xero-vs-zoho-entry
+    claim: >-
+      At regular 2026-09-03 prices, the entry paid accounting plans were $20
+      (Zoho Books Standard), $25 (Xero Early) and $38 (QuickBooks Simple
+      Start) per month, before any promotion.
+    provenance:
+      source_url: https://quickbooks.intuit.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch

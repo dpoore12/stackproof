@@ -1,0 +1,34 @@
+slug: freshbooks
+vendor: FreshBooks
+product: FreshBooks
+category: accounting
+url: https://www.freshbooks.com/pricing
+free_trial: null
+pricing_note: "freshbooks.com/pricing timed out twice on 2026-09-03 (fetch service reported 'Target page took too long to respond'); pricing pending a successful fetch or verification on an account."
+
+# Two fetch attempts on 2026-09-03 returned status 50402 from the fetch
+# service. Nothing is recorded from memory or third parties.
+tiers: []
+
+clauses:
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      FreshBooks' pricing page could not be fetched on 2026-09-03 (two
+      timeouts); pricing, export and cancellation terms are pending a
+      successful fetch or verification on an account.
+    provenance:
+      source_url: https://www.freshbooks.com/pricing
+      fetched_at: 2026-09-03
+      method: not_available
+
+findings:
+  - id: freshbooks-pricing-page-timed-out
+    claim: >-
+      On 2026-09-03 two automated fetches of freshbooks.com/pricing timed out
+      at the vendor's server (status 50402), so FreshBooks' published pricing
+      is not yet recorded here.
+    provenance:
+      source_url: https://www.freshbooks.com/pricing
+      fetched_at: 2026-09-03
+      method: not_available
