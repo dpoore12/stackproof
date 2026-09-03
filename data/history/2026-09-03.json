@@ -8,6 +8,13 @@
    "tiers": [],
    "vendor": "Brevo (formerly Sendinblue)"
   },
+  "freshbooks": {
+   "category": "accounting",
+   "fees": [],
+   "product": "FreshBooks",
+   "tiers": [],
+   "vendor": "FreshBooks"
+  },
   "getresponse": {
    "category": "email_marketing",
    "fees": [],
@@ -189,6 +196,64 @@
    ],
    "vendor": "Patriot Software"
   },
+  "quickbooks-online": {
+   "category": "accounting",
+   "fees": [],
+   "product": "QuickBooks Online",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Free",
+     "source_url": "https://quickbooks.intuit.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 38.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Simple Start",
+     "source_url": "https://quickbooks.intuit.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 74.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Essentials",
+     "source_url": "https://quickbooks.intuit.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 115.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Plus",
+     "source_url": "https://quickbooks.intuit.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 275.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Advanced",
+     "source_url": "https://quickbooks.intuit.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Intuit"
+  },
   "quickbooks-payroll": {
    "category": "payroll",
    "fees": [
@@ -262,6 +327,129 @@
     }
    ],
    "vendor": "Wave"
+  },
+  "xero": {
+   "category": "accounting",
+   "fees": [],
+   "product": "Xero",
+   "tiers": [
+    {
+     "base_monthly_usd": 25.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Early",
+     "source_url": "https://www.xero.com/us/pricing-plans/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 55.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Growing",
+     "source_url": "https://www.xero.com/us/pricing-plans/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 90.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Established",
+     "source_url": "https://www.xero.com/us/pricing-plans/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 36.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Payroll add-on",
+     "source_url": "https://www.xero.com/us/pricing-plans/",
+     "steps": null
+    }
+   ],
+   "vendor": "Xero"
+  },
+  "zoho-books": {
+   "category": "accounting",
+   "fees": [
+    {
+     "amount_usd": 3.0,
+     "fetched_at": "2026-09-03",
+     "name": "Additional user",
+     "unit": "per user per month ($2.50 billed annually), beyond the users included in the plan"
+    }
+   ],
+   "product": "Zoho Books",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Free",
+     "source_url": "https://www.zoho.com/us/books/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 20.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 3.0,
+     "plan": "Standard",
+     "source_url": "https://www.zoho.com/us/books/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 50.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 3.0,
+     "plan": "Professional",
+     "source_url": "https://www.zoho.com/us/books/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 70.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 3.0,
+     "plan": "Premium",
+     "source_url": "https://www.zoho.com/us/books/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 150.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 3.0,
+     "plan": "Elite",
+     "source_url": "https://www.zoho.com/us/books/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 275.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 3.0,
+     "plan": "Ultimate",
+     "source_url": "https://www.zoho.com/us/books/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Zoho"
   }
  }
 }

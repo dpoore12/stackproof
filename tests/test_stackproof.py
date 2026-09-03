@@ -209,3 +209,14 @@ def test_price_changes_diff(tmp_path, monkeypatch):
     kinds = {(x["what"], x["from"], x["to"]) for x in ev}
     assert ("Core base", 40, 49) in kinds
     assert ("new fee: Extra state", None, 12) in kinds
+
+
+def test_included_seats_offsets_per_seat_pricing():
+    """Zoho Books: $20/org with 3 users included, $3 per additional user.
+    3 users = $20, 5 users = $26, 1 user = $20 (never below base)."""
+    prov = Provenance(source_url="https://x.test", fetched_at=date(2026, 9, 3), method="live_fetch")
+    t = PriceTier(plan="Standard", base_monthly_usd=20, per_seat_monthly_usd=3, included_seats=3, seat_label="user", provenance=prov)
+    assert t.cost_at(1) == 20
+    assert t.cost_at(3) == 20
+    assert t.cost_at(5) == 26
+    assert seat_points_for("accounting") == (1, 3, 5, 10, 25)

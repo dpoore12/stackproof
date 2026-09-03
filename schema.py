@@ -70,6 +70,12 @@ class PriceTier(BaseModel):
     )
     seat_label: str = "worker"
     promo: str | None = Field(default=None, description="Promotional terms, verbatim from source.")
+    included_seats: int = Field(
+        default=0,
+        description="Seats covered by the base price. Per-seat pricing applies "
+        "only beyond this (accounting: 'per organization, 3 users included, "
+        "$3 per additional user').",
+    )
     max_seats: int | None = Field(
         default=None,
         description="Largest team this tier is sold for. Beyond it the cost is "
@@ -107,7 +113,8 @@ class PriceTier(BaseModel):
             return None
         if self.base_monthly_usd is None:
             return None
-        return self.base_monthly_usd + (self.per_seat_monthly_usd or 0.0) * seats
+        extra = max(0, seats - self.included_seats)
+        return self.base_monthly_usd + (self.per_seat_monthly_usd or 0.0) * extra
 
 
 class Fee(BaseModel):
@@ -231,6 +238,7 @@ SEAT_POINTS = (1, 5, 10, 25, 50)
 CATEGORY_SEAT_POINTS: dict[str, tuple[int, ...]] = {
     "payroll": (1, 5, 10, 25, 50),
     "email_marketing": (500, 1000, 2500, 5000, 10000, 25000),
+    "accounting": (1, 3, 5, 10, 25),
 }
 
 

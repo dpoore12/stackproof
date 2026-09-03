@@ -112,6 +112,8 @@ def cost_table(tool: Tool) -> str:
             base = money(t.base_monthly_usd)
             seat = money(t.per_seat_monthly_usd)
             formula = f"{base} base + {seat} per {e(t.seat_label)}"
+            if t.included_seats:
+                formula = f"{base} for up to {t.included_seats} {e(t.seat_label)}s, then {seat} per {e(t.seat_label)}"
             if t.base_monthly_usd is None:
                 formula += " — base fee not captured; cost not computed"
         if t.billing == "annual":
@@ -248,7 +250,7 @@ def page(title: str, body: str, path: str, description: str = "", extra_head: st
         "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\">"
         f"<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>{e(title)} — {SITE_NAME}</title>"
         f'<meta name="description" content="{e(description)}">{canon}{extra_head}<style>{CSS}</style></head><body><div class="wrap">'
-        f'<header class="top"><a href="/">{SITE_NAME}</a><nav><a href="/payroll/">Payroll</a><a href="/email_marketing/">Email</a><a href="/changes/">Price changes</a><a href="/dataset/">Dataset</a><a href="/methodology/">Methodology</a></nav></header>'
+        f'<header class="top"><a href="/">{SITE_NAME}</a><nav><a href="/payroll/">Payroll</a><a href="/accounting/">Accounting</a><a href="/email_marketing/">Email</a><a href="/changes/">Price changes</a><a href="/dataset/">Dataset</a><a href="/methodology/">Methodology</a></nav></header>'
         f'<p class="disclosure">{DISCLOSURE}</p>{body}'
         f"<footer>{SITE_NAME} — {TAGLINE}. Every figure links to its source and shows the date it was recorded.</footer>"
         "</div></body></html>"

@@ -82,12 +82,13 @@ the model rejects anything else.
 |---|---|
 | `base_monthly_usd` + `per_seat_monthly_usd` | linear formula (payroll: base + per worker). `base: null` means *not captured* and no cost is computed; a vendor with no base fee records `0`. |
 | `steps: [{up_to, monthly_usd}]` | stepped list (email: price per list-size band). Beyond the last step the cost is unknown, never extrapolated. |
+| `included_seats` | seats covered by the base price; per-seat applies only beyond it (accounting: per organization, 3 users included, $3 per additional). |
 | `max_seats` | tier sold only up to N seats (a free plan capped at 10 employees). Larger teams get `—`, not an extrapolation. |
 | `standalone: false` | an add-on priced on top of a plan. Shown in the table, never competes for "cheapest plan". |
 | `billing: annual` | the recorded rate is the per-month figure when prepaid annually. Vendors headline this one; it is labelled. |
 | `pricing_note` (tool-level) | why no cost is shown — "behind a script, not captured" is a different fact from "not published". |
 
-Column headers come from `CATEGORY_SEAT_POINTS` in `schema.py`: payroll compares 1/5/10/25/50 people paid, email marketing compares 500–25,000 contacts.
+Column headers come from `CATEGORY_SEAT_POINTS` in `schema.py`: payroll compares 1/5/10/25/50 people paid, accounting 1/3/5/10/25 users, email marketing 500–25,000 contacts.
 
 ## Fetching vendor pages
 

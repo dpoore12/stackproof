@@ -1,0 +1,171 @@
+slug: zoho-books
+vendor: Zoho
+product: Zoho Books
+category: accounting
+url: https://www.zoho.com/us/books/pricing/
+free_trial: "14-day free trial; a Free plan is available indefinitely while annual revenue stays under $50K (stated 2026-09-03)."
+
+# Priced per organization per month, with a number of users included per
+# plan and additional users charged separately. Two prices are shown per
+# plan: month-to-month and the per-month rate when billed annually. The
+# month-to-month rate is recorded as the tier price; the annual rate is in
+# the promo note so the table compares like with like.
+tiers:
+  - plan: Free
+    base_monthly_usd: 0
+    per_seat_monthly_usd: null
+    included_seats: 1
+    max_seats: 1
+    seat_label: user
+    provenance:
+      source_url: https://www.zoho.com/us/books/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: "Free indefinitely while revenue for the financial year does not exceed $50K. Add-ons not supported on Free except document autoscans. Up to 1,000 invoices and 1,000 expenses per year."
+
+  - plan: Standard
+    base_monthly_usd: 20
+    per_seat_monthly_usd: 3
+    included_seats: 3
+    seat_label: user
+    promo: "$15/org/month when billed annually; additional users $2.50/user/month billed annually."
+    provenance:
+      source_url: https://www.zoho.com/us/books/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: "Page shows '$ 20' and '$ 15' under STANDARD with 'Price/Org/Month Billed Annually'; 3 users included per the FAQ. Up to 5,000 invoices/year."
+
+  - plan: Professional
+    base_monthly_usd: 50
+    per_seat_monthly_usd: 3
+    included_seats: 5
+    seat_label: user
+    promo: "$40/org/month when billed annually."
+    provenance:
+      source_url: https://www.zoho.com/us/books/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: "5 users included per the FAQ. Up to 10,000 invoices/year."
+
+  - plan: Premium
+    base_monthly_usd: 70
+    per_seat_monthly_usd: 3
+    included_seats: 10
+    seat_label: user
+    promo: "$60/org/month when billed annually."
+    provenance:
+      source_url: https://www.zoho.com/us/books/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: "10 users included per the FAQ. Up to 25,000 invoices/year."
+
+  - plan: Elite
+    base_monthly_usd: 150
+    per_seat_monthly_usd: 3
+    included_seats: 10
+    seat_label: user
+    promo: "$120/org/month when billed annually."
+    provenance:
+      source_url: https://www.zoho.com/us/books/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: "Included-user count for Elite not captured in the parsed FAQ (truncated after Premium); recorded as 10 pending verification. Up to 100,000 invoices/year."
+
+  - plan: Ultimate
+    base_monthly_usd: 275
+    per_seat_monthly_usd: 3
+    included_seats: 10
+    seat_label: user
+    promo: "$240/org/month when billed annually."
+    provenance:
+      source_url: https://www.zoho.com/us/books/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: "Included-user count for Ultimate not captured in the parsed FAQ; recorded as 10 pending verification. Up to 100,000 invoices/year."
+
+fees:
+  - name: Additional user
+    amount_usd: 3
+    unit: per user per month ($2.50 billed annually), beyond the users included in the plan
+    provenance:
+      source_url: https://www.zoho.com/us/books/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Zoho Books shows two prices per plan — month-to-month and a lower
+      per-month rate when billed annually — and prices per organization, not
+      per user, with a fixed number of users included (2026-09-03).
+    provenance:
+      source_url: https://www.zoho.com/us/books/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Data-export and cancellation terms are not on Zoho Books' pricing page
+      (2026-09-03); pending verification on an account.
+    provenance:
+      source_url: https://www.zoho.com/us/books/pricing/
+      fetched_at: 2026-09-03
+      method: not_available
+
+support:
+  channels: [email]
+  hours: "Monday–Friday, 9am–9pm ET; email support on all plans including Free (per pricing FAQ)"
+  provenance:
+    source_url: https://www.zoho.com/us/books/pricing/
+    fetched_at: 2026-09-03
+    method: live_fetch
+
+findings:
+  - id: zoho-books-plan-prices
+    claim: >-
+      On 2026-09-03 Zoho Books listed US pricing per organization per month
+      at $20 Standard, $50 Professional, $70 Premium, $150 Elite and $275
+      Ultimate month-to-month, or $15 / $40 / $60 / $120 / $240 when billed
+      annually.
+    provenance:
+      source_url: https://www.zoho.com/us/books/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: zoho-books-free-plan-revenue-cap
+    claim: >-
+      Zoho Books' Free plan stays free indefinitely as long as the
+      organization's revenue for the financial year does not exceed $50K
+      (stated 2026-09-03), with 1,000 invoices and 1,000 expenses per year.
+    provenance:
+      source_url: https://www.zoho.com/us/books/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: zoho-books-users-included
+    claim: >-
+      Zoho Books includes 3 users on Standard, 5 on Professional and 10 on
+      Premium, charging $3 per additional user per month ($2.50 billed
+      annually) beyond that (2026-09-03).
+    provenance:
+      source_url: https://www.zoho.com/us/books/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: zoho-books-five-user-cost
+    claim: >-
+      At Zoho Books' published 2026-09-03 rates a 5-user company pays $26 per
+      month on Standard ($20 + 2 × $3) or $50 on Professional with all 5
+      users included.
+    provenance:
+      source_url: https://www.zoho.com/us/books/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: zoho-books-invoice-caps
+    claim: >-
+      Zoho Books caps invoices per year by plan — 1,000 Free, 5,000 Standard,
+      10,000 Professional, 25,000 Premium, 100,000 Elite and Ultimate — and
+      caps document autoscans at 50, 200 or 1,000 per month by tier
+      (2026-09-03).
+    provenance:
+      source_url: https://www.zoho.com/us/books/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
