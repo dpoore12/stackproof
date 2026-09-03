@@ -1,0 +1,162 @@
+slug: tidio
+vendor: Tidio
+product: Tidio
+category: live_chat
+url: https://www.tidio.com/pricing/
+free_trial: "7-day free trial of any plan without a credit card, then automatic downgrade to the Free plan (stated 2026-09-03)."
+
+# Priced per account by monthly "billable conversations", not per seat; the
+# self-serve plans all include 10 seats. The USD figures carry .17 cents,
+# consistent with an annual total divided by 12, and the toggle reads
+# "Annually (2 months free)"; the toggle state itself was not read, so the
+# billing label is inferred from the figures.
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: agent
+    max_seats: 10
+    billing: monthly
+    provenance:
+      source_url: https://www.tidio.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"Free Plan 50 Billable conversations $0/mo." 10 seats per comparison table.'
+  - plan: Starter
+    base_monthly_usd: 24.17
+    per_seat_monthly_usd: 0
+    seat_label: agent
+    max_seats: 10
+    billing: annual
+    provenance:
+      source_url: https://www.tidio.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered USD fetch. "Starter $24.17/mo. 100 Billable conversations." EUR render showed €24.17. Billing inferred as annual from the .17 figure under "Annually (2 months free)".'
+  - plan: Growth
+    base_monthly_usd: 49.17
+    per_seat_monthly_usd: 0
+    seat_label: agent
+    max_seats: 10
+    billing: annual
+    provenance:
+      source_url: https://www.tidio.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"Growth Starts at $49.17/mo. From 250 Billable conversations." Higher conversation quotas (to 2,000) cost more; those prices were not captured.'
+  - plan: Plus
+    compare: false
+    base_monthly_usd: 300
+    per_seat_monthly_usd: 0
+    seat_label: agent
+    billing: monthly
+    provenance:
+      source_url: https://www.tidio.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'EUR render: "Plus starts at €300/mo + monthly usage", custom conversations, contact sales. USD figure not captured; excluded from comparison.'
+
+fees:
+  - name: Lyro AI Agent add-on
+    amount_usd: 32.5
+    unit: per month "starting at" for 50 AI conversations (EUR render, €32.50; USD figure not captured); also sold stand-alone
+    provenance:
+      source_url: https://www.tidio.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Remove Tidio branding
+    amount_usd: 16.67
+    unit: per month (EUR render, 16.67 EUR/mo; USD figure not captured)
+    provenance:
+      source_url: https://www.tidio.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Tidio allows upgrades or downgrades at any time, taking effect at the
+      start of the next billing cycle with premium features kept until then;
+      no refund terms are stated (2026-09-03).
+    quote: "Any subscription changes will come into effect at the start of your next billing cycle meaning that you will keep your premium features until the end of the existing cycle."
+    provenance:
+      source_url: https://www.tidio.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Tidio bills by "billable conversations", any chat, ticket, email or
+      social thread with a human agent reply; unanswered visitor messages
+      and AI or Flows replies are not counted, and a conversation counts once
+      however many messages it holds (2026-09-03).
+    provenance:
+      source_url: https://www.tidio.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: auto_renew
+    status: stated
+    finding: >-
+      Tidio's 7-day trial ends with an automatic downgrade to the Free plan
+      rather than a charge (2026-09-03).
+    provenance:
+      source_url: https://www.tidio.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Tidio's pricing page states no data-export terms (2026-09-03).
+    provenance:
+      source_url: https://www.tidio.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+findings:
+  - id: tidio-conversation-priced-plans
+    claim: >-
+      On 2026-09-03 Tidio listed Starter at $24.17 per month for 100
+      billable conversations and Growth from $49.17 for 250, each including
+      10 agent seats, with a Free plan of 50 conversations.
+    provenance:
+      source_url: https://www.tidio.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: tidio-billable-conversation-definition
+    claim: >-
+      Tidio counts a conversation as billable only when a human agent
+      replies or starts it, so spam and unanswered messages cost $0 and AI
+      replies do not consume the quota (2026-09-03).
+    provenance:
+      source_url: https://www.tidio.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: tidio-ten-seats-included
+    claim: >-
+      Tidio's Free, Starter and Growth plans each include 10 seats, so a
+      5-agent team pays $24.17 per month on Starter against $245 on LiveChat
+      Team, subject to Starter's 100-conversation monthly cap (2026-09-03).
+    provenance:
+      source_url: https://www.tidio.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: tidio-eur-figures
+    claim: >-
+      Tidio's European page on 2026-09-03 showed Starter at €24.17, Growth
+      from €49.17, Plus from €300 plus usage, Lyro AI from €32.50 and
+      branding removal at €16.67 per month, matching the USD figures
+      digit for digit where both were captured.
+    provenance:
+      source_url: https://www.tidio.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: tidio-trial-downgrades
+    claim: >-
+      Tidio's 7-day trial needs no card and drops to the Free plan when it
+      ends, and plan changes apply from the next billing cycle (2026-09-03).
+    provenance:
+      source_url: https://www.tidio.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch

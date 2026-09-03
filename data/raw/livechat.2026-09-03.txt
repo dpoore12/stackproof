@@ -1,0 +1,11 @@
+URL: https://www.livechat.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-03 23:50:30 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main> (comparison-table window). Meta description: "Start with the 14-day free trial".
+---
+Compare LiveChat plans: Starter from $19/mo; Team from $49/mo; Business from $79/mo; Enterprise — Request a call.
+Pricing (all prices in USD). Price / month (billed annually): Starter $19; Team $49 per person; Business $79 per person; Enterprise Request a call.
+Price / month (billed monthly): Starter $25; Team $59 per person; Business $89 per person.
+Enterprise: everything in Business plus Text Intelligence, customize tracking limit, support from Product Expert, dedicated onboarding, white label chat widget, software engineer support, SSO, HIPAA compliance, alternative payment terms, professional services, SLAs.
+Add-on: "Solve up to 80% of cases with AI chatbots. Add ChatBot.com for routine tasks." ChatBot.com starts at $52/mo billed annually.
+Feature table: Reply suggestions — Starter: none shown; Team 3 sources; Business 10 sources; Enterprise 10 sources.

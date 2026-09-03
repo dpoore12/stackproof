@@ -1,0 +1,138 @@
+slug: livechat
+vendor: Text
+product: LiveChat
+category: live_chat
+url: https://www.livechat.com/pricing/
+free_trial: "14-day free trial (stated in the page description, 2026-09-03)."
+
+# "Pricing (all prices in USD)". The comparison table prints both a "billed
+# annually" and a "billed monthly" row. Team and Business are "per person";
+# Starter is printed without that qualifier and its seat cap was not
+# captured, so it is recorded per seat with that caveat.
+tiers:
+  - plan: Starter
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 19
+    seat_label: agent
+    billing: annual
+    provenance:
+      source_url: https://www.livechat.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch. Table row "Price / month (billed annually)": "$19" for Starter, shown without the "per person" the other plans carry.'
+  - plan: Team
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 49
+    seat_label: agent
+    billing: annual
+    provenance:
+      source_url: https://www.livechat.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$49 per person" billed annually.'
+  - plan: Business
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 79
+    seat_label: agent
+    billing: annual
+    provenance:
+      source_url: https://www.livechat.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$79 per person" billed annually.'
+  - plan: Starter (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 25
+    seat_label: agent
+    billing: monthly
+    provenance:
+      source_url: https://www.livechat.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Table row "Price / month (billed monthly)": $25 Starter, $59 per person Team, $89 per person Business.'
+
+fees:
+  - name: ChatBot.com AI chatbot add-on
+    amount_usd: 52
+    unit: per month billed annually, "starts at"; separate Text product
+    provenance:
+      source_url: https://www.livechat.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      LiveChat prices in USD with annual billing at $19, $49 and $79 per
+      month and monthly billing at $25, $59 and $89; Team and Business are
+      charged per person (2026-09-03).
+    provenance:
+      source_url: https://www.livechat.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      LiveChat's pricing page states no cancellation or refund terms in the
+      captured section (2026-09-03).
+    provenance:
+      source_url: https://www.livechat.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      LiveChat's pricing page states no data-export terms in the captured
+      section (2026-09-03).
+    provenance:
+      source_url: https://www.livechat.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+findings:
+  - id: livechat-prices-usd-annual-monthly
+    claim: >-
+      On 2026-09-03 LiveChat listed Starter at $19, Team at $49 and Business
+      at $79 per month billed annually, or $25, $59 and $89 billed monthly,
+      all in USD.
+    provenance:
+      source_url: https://www.livechat.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: livechat-monthly-premium
+    claim: >-
+      LiveChat's monthly billing costs $6 to $10 more per month than annual,
+      a 13% to 32% premium across its 3 self-serve plans (2026-09-03).
+    provenance:
+      source_url: https://www.livechat.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: livechat-chatbot-addon
+    claim: >-
+      AI chatbots are not included in LiveChat's plans; the ChatBot.com
+      add-on starts at $52 per month billed annually on top of the seat
+      price (2026-09-03).
+    provenance:
+      source_url: https://www.livechat.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: livechat-reply-suggestion-sources
+    claim: >-
+      LiveChat's AI reply suggestions draw on 3 knowledge sources on Team
+      and 10 on Business and Enterprise, with none listed for Starter
+      (2026-09-03).
+    provenance:
+      source_url: https://www.livechat.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: livechat-five-agent-cost
+    claim: >-
+      At LiveChat's 2026-09-03 annual rates a 5-agent team pays $245 per
+      month on Team or $395 on Business, against $95 on Freshdesk Growth for
+      5 agents.
+    provenance:
+      source_url: https://www.livechat.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
