@@ -1,0 +1,15 @@
+URL: https://trello.com/pricing
+STATUS: 200
+FETCHED: 2026-09-03 23:47:41 / 23:48:08 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main> (two windows: plan cards, then feature table + FAQ). Prices carry an explicit "USD" label; no billing toggle exists — each card prints both billing prices.
+---
+Free — $0 USD. Free for up to 10 collaborators per Workspace. Unlimited cards, up to 10 boards per Workspace, unlimited Power-Ups per board, unlimited storage (10MB/file), 250 Workspace command runs per month, unlimited activity log, 2FA.
+Standard — $5 USD Per user/month if billed annually ($6 billed monthly). Everything in Free plus AI, unlimited boards, advanced checklists, card mirroring, custom fields, 250MB/file, 1,000 Workspace command runs per month, single board guests, saved searches.
+Premium — $10 USD Per user/month if billed annually ($12.50 billed monthly). Everything in Standard plus views (Calendar, Timeline, Table, Dashboard, Map), Workspace views, unlimited command runs, admin and security features, Workspace-level templates, collections, observers, simple data export.
+Enterprise — $17.50 USD Per user/month - billed annually ($210.00 annual price per user). Includes Atlassian Guard Standard and 24/7 Enterprise Admin support. Unlimited Workspaces, org-wide permissions, multi-board guests, attachment permissions, Power-Up administration, free SSO and user provisioning with Atlassian Guard. Contact sales.
+Feature table (Free / Standard / Premium / Enterprise): Workspace table view F/F/T/T; Workspace calendar view F/F/T/T; Workspace-level templates F/F/T/T; Board collections F/F/T/T; Observers F/F/T/T; Domain-restricted invites F/F/T/T; Deactivate members F/F/T/T; Simple data export F/F/T/T; Unlimited command runs F/F/T/T; SAML SSO via Atlassian Guard (separate subscription, starts at $4/month/user) Available/Available/Available/True; Unlimited workspaces Enterprise only; Power-up administration, attachment restrictions, organization-wide permissions Enterprise only. Support: Community Support / Local Business Hours / 24/5 Premium Support / 24/7 Enterprise Admin Support.
+FAQ: Does Trello offer a Premium free trial? All users can enroll their Workspace in a free trial of Trello Premium.
+FAQ: Payment methods: monthly or annual Standard or Premium subscription with any major credit card; more options for Enterprise.
+FAQ: How do I cancel? If you aren't 100% satisfied you may downgrade at any time. When a team downgrades from Standard or Premium, it retains its features and unlimited boards until the end of its prepaid service period. At the end of its prepaid service period, it becomes a free Trello Workspace that can hold 10 boards.
+FAQ: How are users counted? A user added as a member to a Workspace (normal member or team admin) is a billable team member. Any Guest on more than one board within the Workspace is a Multi-Board Guest billed at the same rate as members.
+FAQ: Standard and Premium are designed for all teams, even teams of one; upgrade a Workspace.
