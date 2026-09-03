@@ -1,0 +1,267 @@
+{
+ "date": "2026-09-03",
+ "tools": {
+  "brevo": {
+   "category": "email_marketing",
+   "fees": [],
+   "product": "Brevo Marketing Platform",
+   "tiers": [],
+   "vendor": "Brevo (formerly Sendinblue)"
+  },
+  "getresponse": {
+   "category": "email_marketing",
+   "fees": [],
+   "product": "GetResponse",
+   "tiers": [],
+   "vendor": "GetResponse"
+  },
+  "gusto": {
+   "category": "payroll",
+   "fees": [],
+   "product": "Gusto Payroll",
+   "tiers": [
+    {
+     "base_monthly_usd": 49.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Simple",
+     "source_url": "https://gusto.com/product/compare/gusto-vs-quickbooks-payroll",
+     "steps": null
+    }
+   ],
+   "vendor": "Gusto"
+  },
+  "homebase": {
+   "category": "payroll",
+   "fees": [
+    {
+     "amount_usd": 30.0,
+     "fetched_at": "2026-09-03",
+     "name": "Essentials plan (required above 10 employees or for a second location)",
+     "unit": "per location per month"
+    },
+    {
+     "amount_usd": 30.0,
+     "fetched_at": "2026-09-03",
+     "name": "Background check",
+     "unit": "each"
+    },
+    {
+     "amount_usd": 25.0,
+     "fetched_at": "2026-09-03",
+     "name": "Tip Manager add-on",
+     "unit": "per location per month"
+    }
+   ],
+   "product": "Homebase Payroll",
+   "tiers": [
+    {
+     "base_monthly_usd": 39.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": 10,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Payroll add-on on free Basic plan (1 location, up to 10 employees)",
+     "source_url": "https://www.joinhomebase.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 69.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Payroll add-on on Essentials plan (unlimited employees, per location)",
+     "source_url": "https://www.joinhomebase.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Homebase"
+  },
+  "kit": {
+   "category": "email_marketing",
+   "fees": [],
+   "product": "Kit",
+   "tiers": [],
+   "vendor": "Kit (formerly ConvertKit)"
+  },
+  "mailchimp": {
+   "category": "email_marketing",
+   "fees": [],
+   "product": "Mailchimp Marketing",
+   "tiers": [],
+   "vendor": "Intuit Mailchimp"
+  },
+  "mailerlite": {
+   "category": "email_marketing",
+   "fees": [],
+   "product": "MailerLite",
+   "tiers": [],
+   "vendor": "MailerLite"
+  },
+  "onpay": {
+   "category": "payroll",
+   "fees": [
+    {
+     "amount_usd": 10.0,
+     "fetched_at": "2026-09-03",
+     "name": "Compliance Resources add-on",
+     "unit": "per month, base"
+    },
+    {
+     "amount_usd": 75.0,
+     "fetched_at": "2026-09-03",
+     "name": "Live HR Support add-on",
+     "unit": "per month, base"
+    }
+   ],
+   "product": "OnPay Payroll",
+   "tiers": [
+    {
+     "base_monthly_usd": 49.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Payroll Essentials",
+     "source_url": "https://onpay.com/payroll/software/costs-pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 15.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 2.0,
+     "plan": "HR add-on",
+     "source_url": "https://onpay.com/payroll/software/costs-pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "OnPay"
+  },
+  "patriot": {
+   "category": "payroll",
+   "fees": [
+    {
+     "amount_usd": 12.0,
+     "fetched_at": "2026-09-03",
+     "name": "Additional state tax filing (Full Service)",
+     "unit": "per month, per additional state"
+    },
+    {
+     "amount_usd": 6.0,
+     "fetched_at": "2026-09-03",
+     "name": "Time & Attendance add-on",
+     "unit": "per month, plus $2 per employee (promo $3 + $1)"
+    },
+    {
+     "amount_usd": 6.0,
+     "fetched_at": "2026-09-03",
+     "name": "HR Software add-on",
+     "unit": "per month, plus $2 per employee (promo $3 + $1)"
+    }
+   ],
+   "product": "Patriot Payroll",
+   "tiers": [
+    {
+     "base_monthly_usd": null,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 4.0,
+     "plan": "Basic Payroll",
+     "source_url": "https://www.patriotsoftware.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": null,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 5.0,
+     "plan": "Full Service Payroll",
+     "source_url": "https://www.patriotsoftware.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Patriot Software"
+  },
+  "quickbooks-payroll": {
+   "category": "payroll",
+   "fees": [
+    {
+     "amount_usd": 29.99,
+     "fetched_at": "2026-09-03",
+     "name": "Background check (integrated into applicant recruiting)",
+     "unit": "per report, starting price"
+    }
+   ],
+   "product": "QuickBooks Payroll (QuickBooks Workforce)",
+   "tiers": [],
+   "vendor": "Intuit"
+  },
+  "square-payroll": {
+   "category": "payroll",
+   "fees": [
+    {
+     "amount_usd": 3.0,
+     "fetched_at": "2026-09-03",
+     "name": "Paper W-2 / 1099 mailing (opt-in)",
+     "unit": "per employee or contractor per year, if you opt in to mailed paper forms"
+    }
+   ],
+   "product": "Square Payroll",
+   "tiers": [
+    {
+     "base_monthly_usd": 35.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Full-service payroll (employees and contractors)",
+     "source_url": "https://squareup.com/us/en/payroll/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Contractor-only payroll",
+     "source_url": "https://squareup.com/us/en/payroll/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Square"
+  },
+  "wave-payroll": {
+   "category": "payroll",
+   "fees": [
+    {
+     "amount_usd": 6.0,
+     "fetched_at": "2026-09-03",
+     "name": "Independent contractor paid",
+     "unit": "per contractor paid per month, in addition to employees"
+    }
+   ],
+   "product": "Wave Payroll",
+   "tiers": [
+    {
+     "base_monthly_usd": 40.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Payroll (United States)",
+     "source_url": "https://www.waveapps.com/payroll",
+     "steps": null
+    }
+   ],
+   "vendor": "Wave"
+  }
+ }
+}

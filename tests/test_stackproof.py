@@ -166,3 +166,46 @@ def test_non_comparable_plans_never_rank_in_category():
     plan, cost = t.cheapest_tier_cost_at(10)
     assert plan.startswith("Full-service")
     assert cost == 95
+
+
+def test_go_pages_and_sponsored_links(tmp_path, monkeypatch):
+    monkeypatch.setattr(B, "SITE", tmp_path / "site")
+    B.build()
+    for t in B.load_tools():
+        go = (tmp_path / "site" / "go" / t.slug / "index.html").read_text()
+        assert "noindex" in go
+        assert t.url in go or (t.affiliate and t.affiliate.url in go)
+        tool_html = (tmp_path / "site" / "tools" / t.slug / "index.html").read_text()
+        assert f'href="/go/{t.slug}/" rel="sponsored nofollow noopener"' in tool_html
+    sitemap = (tmp_path / "site" / "sitemap.xml").read_text()
+    assert "/go/" not in sitemap
+
+
+def test_dataset_export_matches_records(tmp_path, monkeypatch):
+    import json as _json
+    monkeypatch.setattr(B, "SITE", tmp_path / "site")
+    B.build()
+    js = _json.loads((tmp_path / "site" / "dataset" / "stackproof.json").read_text())
+    tools = B.load_tools()
+    assert len(js["tools"]) == len(tools)
+    csv = (tmp_path / "site" / "dataset" / "stackproof.csv").read_text().splitlines()
+    assert csv[0].startswith("slug,vendor,product,category,plan,")
+    assert len(csv) - 1 == sum(len(t.tiers) for t in tools)
+
+
+def test_price_changes_diff(tmp_path, monkeypatch):
+    import json as _json
+    monkeypatch.setattr(B, "HISTORY", tmp_path / "history")
+    (tmp_path / "history").mkdir()
+    a = {"date": "2026-08-01", "tools": {"x": {"vendor": "X", "product": "X", "category": "payroll",
+         "tiers": [{"plan": "Core", "base_monthly_usd": 40, "per_seat_monthly_usd": 6, "steps": None, "billing": "monthly", "max_seats": None, "fetched_at": "2026-08-01", "source_url": "https://x.test"}],
+         "fees": []}}}
+    b = {"date": "2026-09-01", "tools": {"x": {"vendor": "X", "product": "X", "category": "payroll",
+         "tiers": [{"plan": "Core", "base_monthly_usd": 49, "per_seat_monthly_usd": 6, "steps": None, "billing": "monthly", "max_seats": None, "fetched_at": "2026-09-01", "source_url": "https://x.test"}],
+         "fees": [{"name": "Extra state", "amount_usd": 12, "unit": "per month", "fetched_at": "2026-09-01"}]}}}
+    (tmp_path / "history" / "2026-08-01.json").write_text(_json.dumps(a))
+    (tmp_path / "history" / "2026-09-01.json").write_text(_json.dumps(b))
+    ev = B.price_changes()
+    kinds = {(x["what"], x["from"], x["to"]) for x in ev}
+    assert ("Core base", 40, 49) in kinds
+    assert ("new fee: Extra state", None, 12) in kinds
