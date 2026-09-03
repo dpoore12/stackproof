@@ -1,0 +1,31 @@
+slug: nextiva
+vendor: Nextiva
+product: Nextiva
+category: business_phone
+url: https://www.nextiva.com/pricing
+free_trial: null
+pricing_note: "nextiva.com/pricing answered a browser-rendered fetch on 2026-09-03 with HTTP 403 (bot protection) and no page content; no prices were captured. Pending a fetch from a non-datacenter address or verification on an account."
+
+tiers: []
+
+clauses:
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Nextiva's pricing page returned HTTP 403 to an automated fetch on
+      2026-09-03; pricing, export and cancellation terms are pending.
+    provenance:
+      source_url: https://www.nextiva.com/pricing
+      fetched_at: 2026-09-03
+      method: not_available
+
+findings:
+  - id: nextiva-pricing-page-403
+    claim: >-
+      On 2026-09-03 nextiva.com/pricing returned HTTP 403 to an automated
+      browser fetch, so Nextiva's per-user prices could not be
+      machine-recorded; 1 fetch was made.
+    provenance:
+      source_url: https://www.nextiva.com/pricing
+      fetched_at: 2026-09-03
+      method: not_available

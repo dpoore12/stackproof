@@ -453,6 +453,13 @@
    "tiers": [],
    "vendor": "MailerLite"
   },
+  "nextiva": {
+   "category": "business_phone",
+   "fees": [],
+   "product": "Nextiva",
+   "tiers": [],
+   "vendor": "Nextiva"
+  },
   "onpay": {
    "category": "payroll",
    "fees": [
@@ -560,6 +567,13 @@
     }
    ],
    "vendor": "Quo"
+  },
+  "pandadoc": {
+   "category": "esignature",
+   "fees": [],
+   "product": "PandaDoc",
+   "tiers": [],
+   "vendor": "PandaDoc"
   },
   "patriot": {
    "category": "payroll",

@@ -117,12 +117,22 @@ a "browser-rendered" note.
 machines that can reach vendor sites; it does not work inside the build
 container.
 
-Results on 2026-09-03: Pipedrive, Freshsales and Help Scout rendered with
-full prices. HubSpot's pages render without price figures (loaded after
-render). Zendesk answers the rendering browser with a Cloudflare 403. Zoho
-geo-routes the German gateway to EUR pricing. A toggle's active state can be
-read in the same `custom_js` (Help Scout's annual button carries
-`is-active`), which is how billing periods are labelled.
+Results on 2026-09-03: Pipedrive, Freshsales, Help Scout, Docusign, SignNow,
+Quo (formerly OpenPhone), RingCentral and Grasshopper rendered with full
+prices. HubSpot's pages render without price figures (loaded after render),
+and Dialpad's pricing page carries no plan prices at all. Zendesk and
+Nextiva answer the rendering browser with a 403, PandaDoc with a 429.
+Zoho geo-routes the German gateway to EUR pricing and Jotform localises
+its currency the same way. Dropbox Sign's pricing URL 404s. A toggle's
+active state can be read in the same `custom_js` (Help Scout's annual
+button carries `is-active`, Quo's yearly tab `aria-selected`), which is
+how billing periods are labelled. Odometer-style price widgets
+(Grasshopper) leave placeholder digits in `innerText`; resolve them from
+the annual total or the page's JSON-LD.
+
+The sandbox that runs `custom_js` is not a full DOM: `createTreeWalker`
+and `element.style` are unavailable, so keep scripts to `querySelector`,
+`innerText`, attributes and string work.
 
 ## Deploy
 
