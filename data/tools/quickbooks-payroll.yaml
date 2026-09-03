@@ -2,6 +2,7 @@ slug: quickbooks-payroll
 vendor: Intuit
 product: QuickBooks Payroll (QuickBooks Workforce)
 category: payroll
+pricing_note: "Payroll is bundled into QuickBooks Workforce plans; no per-seat price is published — the page routes to a sales line."
 url: https://quickbooks.intuit.com/payroll/pricing/
 
 # No per-seat public price could be extracted on 2026-09-03; that absence is

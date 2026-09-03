@@ -44,12 +44,44 @@ class Provenance(BaseModel):
         return self
 
 
+class Step(BaseModel):
+    """One rung of a stepped price list: `monthly_usd` applies up to `up_to` seats."""
+
+    up_to: int
+    monthly_usd: float
+
+
 class PriceTier(BaseModel):
     plan: str
     base_monthly_usd: float | None = None
     per_seat_monthly_usd: float | None = None
+    steps: list[Step] | None = Field(
+        default=None,
+        description="Stepped price list by seat/contact count, as email platforms "
+        "price. When set, base/per-seat are ignored and cost_at() reads the "
+        "smallest step that covers the requested count; beyond the last step "
+        "the cost is unknown, never extrapolated.",
+    )
+    billing: Literal["monthly", "annual"] = Field(
+        default="monthly",
+        description="Which price is recorded: the month-to-month rate or the "
+        "per-month rate when prepaid annually. Vendors headline the annual "
+        "one; it must be labelled.",
+    )
     seat_label: str = "worker"
     promo: str | None = Field(default=None, description="Promotional terms, verbatim from source.")
+    max_seats: int | None = Field(
+        default=None,
+        description="Largest team this tier is sold for. Beyond it the cost is "
+        "unknown here (another plan is required), never extrapolated — a free "
+        "plan capped at 10 employees must not price a 50-person team.",
+    )
+    compare: bool = Field(
+        default=True,
+        description="False for a plan that prices a different thing than the "
+        "category compares — contractor-only payroll next to employee payroll. "
+        "Still shown on the vendor's page; never ranked in the category table.",
+    )
     standalone: bool = Field(
         default=True,
         description="False for add-ons priced on top of another plan. Add-ons are "
@@ -66,6 +98,13 @@ class PriceTier(BaseModel):
         publish an understated number. A vendor with genuinely no base fee
         records `base_monthly_usd: 0`.
         """
+        if self.max_seats is not None and seats > self.max_seats:
+            return None
+        if self.steps:
+            for st in sorted(self.steps, key=lambda x: x.up_to):
+                if seats <= st.up_to:
+                    return st.monthly_usd
+            return None
         if self.base_monthly_usd is None:
             return None
         return self.base_monthly_usd + (self.per_seat_monthly_usd or 0.0) * seats
@@ -155,6 +194,12 @@ class Tool(BaseModel):
     clauses: list[Clause] = []
     support: Support | None = None
     free_trial: str | None = None
+    pricing_note: str | None = Field(
+        default=None,
+        description="Shown in place of a computed cost when no tier can be "
+        "priced — e.g. the vendor publishes prices behind a script the fetch "
+        "could not read. Distinguishes 'not captured' from 'not published'.",
+    )
     affiliate: Affiliate | None = None
     findings: list[Finding] = []
 
@@ -174,9 +219,20 @@ class Tool(BaseModel):
         return any(p.verified_on_account for p in provs)
 
     def cheapest_tier_cost_at(self, seats: int) -> tuple[str, float] | None:
-        costs = [(t.plan, t.cost_at(seats)) for t in self.tiers if t.standalone]
+        costs = [(t.plan, t.cost_at(seats)) for t in self.tiers if t.standalone and t.compare]
         costs = [(p, c) for p, c in costs if c is not None]
         return min(costs, key=lambda pc: pc[1]) if costs else None
 
 
 SEAT_POINTS = (1, 5, 10, 25, 50)
+
+# Team sizes worth comparing differ by category: payroll is priced per worker,
+# email marketing per contact on the list.
+CATEGORY_SEAT_POINTS: dict[str, tuple[int, ...]] = {
+    "payroll": (1, 5, 10, 25, 50),
+    "email_marketing": (500, 1000, 2500, 5000, 10000, 25000),
+}
+
+
+def seat_points_for(category: str) -> tuple[int, ...]:
+    return CATEGORY_SEAT_POINTS.get(category, SEAT_POINTS)

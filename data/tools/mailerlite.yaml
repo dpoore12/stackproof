@@ -1,0 +1,83 @@
+slug: mailerlite
+vendor: MailerLite
+product: MailerLite
+category: email_marketing
+url: https://www.mailerlite.com/pricing
+free_trial: "14-day free trial of paid features, with 24/7 live chat during the trial; a free plan with 2,500 emails/month also exists (2026-09-03)."
+pricing_note: "Priced by subscriber count behind a slider; entry rates captured, subscriber steps not. Pending verification on an account."
+
+# MailerLite prices by active-subscriber count behind a slider. The fetch
+# captured the entry per-month rates but not the subscriber count they apply
+# to, so no step table is recorded until verified on an account.
+tiers: []
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      MailerLite states a downgrade does not take effect until the current
+      billing cycle ends — monthly or annual — so an annual subscriber who
+      downgrades keeps paying the higher plan until the year is up.
+    quote: "When downgrading your plan, you will need to wait until the billing cycle (monthly or annual) ends for the current plan, and the new (lesser) plan will start at the next billing cycle"
+    provenance:
+      source_url: https://www.mailerlite.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      MailerLite bills on active subscribers only; unsubscribed and bounced
+      contacts do not count toward the price (2026-09-03).
+    quote: "Billing is based on the number of active subscribers in your account. This includes anyone with an \"active\" status. Subscribers who have unsubscribed or bounced don't count."
+    provenance:
+      source_url: https://www.mailerlite.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Data-export terms are not on MailerLite's pricing page (2026-09-03);
+      pending verification on an account.
+    provenance:
+      source_url: https://www.mailerlite.com/pricing
+      fetched_at: 2026-09-03
+      method: not_available
+
+findings:
+  - id: mailerlite-entry-prices
+    claim: >-
+      On 2026-09-03 MailerLite's pricing page listed Comfort at $10.80 per
+      month and Power at $22.50 per month, with Power described elsewhere on
+      the page as "starting $25/month"; the subscriber count those rates
+      apply to was not captured.
+    provenance:
+      source_url: https://www.mailerlite.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: "The $10.80/$22.50 figures appear to be annual-billed rates and $25 the monthly Power rate; billing basis to be confirmed on account."
+  - id: mailerlite-free-plan-emails
+    claim: >-
+      MailerLite's free plan includes 2,500 emails per month (2026-09-03),
+      where one email to one subscriber counts as one send, so a single
+      campaign to 500 people uses 500 of the allowance.
+    provenance:
+      source_url: https://www.mailerlite.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: mailerlite-downgrade-waits-for-cycle-end
+    claim: >-
+      As of 2026-09-03 MailerLite applies plan downgrades only at the end of
+      the current billing cycle, monthly or annual, so annual billing locks
+      in the higher price for up to 12 months after a downgrade request.
+    provenance:
+      source_url: https://www.mailerlite.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: mailerlite-one-discount-at-a-time
+    claim: >-
+      MailerLite states only one discount can be applied at a time, so its
+      annual and nonprofit discounts (2026-09-03) do not stack.
+    provenance:
+      source_url: https://www.mailerlite.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch

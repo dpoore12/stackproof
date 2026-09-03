@@ -1,0 +1,36 @@
+slug: kit
+vendor: Kit (formerly ConvertKit)
+product: Kit
+category: email_marketing
+url: https://kit.com/pricing
+free_trial: null
+pricing_note: "kit.com returned HTTP 403 to fetches; pricing pending verification on an account."
+
+# kit.com/pricing returned HTTP 403 to automated fetches on 2026-09-03.
+# Tiers are deliberately empty rather than copied from a third party; they
+# will be recorded from a real account.
+tiers: []
+
+clauses:
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Kit's pricing and terms could not be fetched on 2026-09-03 (HTTP 403);
+      pricing, export and cancellation terms are pending verification on a
+      real account.
+    provenance:
+      source_url: https://kit.com/pricing
+      fetched_at: 2026-09-03
+      method: not_available
+      note: "Cloudflare bot block, same behaviour as gusto.com."
+
+findings:
+  - id: kit-pricing-page-blocks-bots
+    claim: >-
+      On 2026-09-03 kit.com/pricing returned HTTP 403 to an automated fetch
+      with browser rendering enabled, so Kit's published pricing cannot be
+      machine-verified without a browser session or an account.
+    provenance:
+      source_url: https://kit.com/pricing
+      fetched_at: 2026-09-03
+      method: not_available
