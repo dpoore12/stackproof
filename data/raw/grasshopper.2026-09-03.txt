@@ -1,0 +1,15 @@
+URL: https://grasshopper.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-03 23:39:57 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main>. Price digits render through an odometer widget, so innerText reads "$8184/mo", "$8285/mo", "$8585/mo" (placeholder 8s interleaved); the annual totals and the page's JSON-LD (price 14, 25, 55 USD) resolve them to $14, $25, $55. Cards read "billed annually", so the annual view was active.
+---
+Choose your perfect plan. Get up to $75 off your first purchase. Backed by a 7-day money-back guarantee and 24/7 support. Billed Monthly / Billed Annually (Annual savings over 20%).
+True Solo — Starter plan for the single-person business. $14/mo billed annually at $168*. Included: 1 User, 1 Phone Number, 1 Extension. *Pricing subject to sales tax. Get an additional $20 off at checkout.
+Solo Plus — Best plan for sharing a single inbox among your whole team, no per user costs. $25/mo billed annually at $300*. Included: Unlimited Users, 1 Phone Number, 3 Extensions. Get an additional $75 off at checkout.
+Small Business — $55/mo billed annually at $660*. Included: Unlimited Users, 4 Phone Numbers, Unlimited Extensions. Get an additional $75 off at checkout.
+Compare: Number of Users 1 / Unlimited / Unlimited. Business Phone Number 1 / 1 / 4. Additional Phone Numbers: Add-on $9/month each (all plans). Calling minutes Unlimited. Extensions 1 / 3 / Unlimited. Additional Extensions: – / $3/month each / Unlimited. Business Texting: Registration Required, Unlimited. Registration Fee $19.50 one-time. Messaging Fee $1.50/month. Mobile + Desktop Apps. 24/7 Support.
+FAQ: Do I have to sign a contract, and can I change my plan in the future? Grasshopper service is provided on a monthly or annual basis. You can make changes to your plan at any time; upgrades take effect immediately, and downgrades take effect starting the following billing cycle. You are responsible for all usage charges incurred before a change takes effect.
+FAQ: Are international calls included in my unlimited minutes? International calls are not included at this time. International and off-shore calls are billed at per minute rates based on location.
+FAQ: Can I get a professional voice recording for my greetings? Voice Studio: up to 250 words for a one-time fee of $75.
+Try Grasshopper free for 7 days. No credit card required.
+JSON-LD offers: True Solo 14 USD; Solo Plus 25 USD; Small Business 55 USD.

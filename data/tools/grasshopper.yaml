@@ -1,0 +1,169 @@
+slug: grasshopper
+vendor: Grasshopper (GoTo)
+product: Grasshopper
+category: business_phone
+url: https://grasshopper.com/pricing/
+free_trial: "7-day free trial, no credit card required, plus a 7-day money-back guarantee (stated 2026-09-03)."
+
+# Flat monthly price per account, not per user: Solo Plus and Small Business
+# carry unlimited users. Shown with annual billing active ("billed annually
+# at $168 / $300 / $660"); monthly-billing prices were not captured. The
+# page advertised up to $75 off the first purchase at fetch time.
+tiers:
+  - plan: True Solo
+    base_monthly_usd: 14
+    per_seat_monthly_usd: 0
+    seat_label: user
+    max_seats: 1
+    billing: annual
+    provenance:
+      source_url: https://grasshopper.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch. "$14/mo billed annually at $168". 1 user, 1 number, 1 extension. Confirmed by JSON-LD price 14 USD.'
+  - plan: Solo Plus
+    base_monthly_usd: 25
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://grasshopper.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$25/mo billed annually at $300". Unlimited users, 1 number, 3 extensions. JSON-LD price 25 USD.'
+  - plan: Small Business
+    base_monthly_usd: 55
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://grasshopper.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$55/mo billed annually at $660". Unlimited users, 4 numbers, unlimited extensions. JSON-LD price 55 USD.'
+
+fees:
+  - name: Additional phone number
+    amount_usd: 9
+    unit: per number per month, any plan
+    provenance:
+      source_url: https://grasshopper.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Additional extension (Solo Plus)
+    amount_usd: 3
+    unit: per extension per month
+    provenance:
+      source_url: https://grasshopper.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Business texting registration
+    amount_usd: 19.5
+    unit: one-time carrier registration fee, required before texting
+    provenance:
+      source_url: https://grasshopper.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Messaging fee
+    amount_usd: 1.5
+    unit: per month, all plans
+    provenance:
+      source_url: https://grasshopper.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Voice Studio greeting recording
+    amount_usd: 75
+    unit: one-time, up to 250 words
+    provenance:
+      source_url: https://grasshopper.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Grasshopper is sold monthly or annually with no contract; plan changes
+      are allowed any time, upgrades apply immediately and downgrades from
+      the next billing cycle; a 7-day money-back guarantee applies
+      (2026-09-03).
+    quote: "Grasshopper service is provided on a monthly or annual basis. You can make changes to your plan at any time."
+    provenance:
+      source_url: https://grasshopper.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Annual plans are billed up front at $168, $300 or $660; prices are
+      subject to sales tax; international calls are excluded from unlimited
+      minutes and billed per minute (2026-09-03).
+    provenance:
+      source_url: https://grasshopper.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Grasshopper's pricing page states no data-export or number-porting-out
+      terms (2026-09-03).
+    provenance:
+      source_url: https://grasshopper.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+support:
+  channels: [phone, live chat]
+  hours: "24/7 support on every plan (per pricing page)"
+  provenance:
+    source_url: https://grasshopper.com/pricing/
+    fetched_at: 2026-09-03
+    method: live_fetch
+
+findings:
+  - id: grasshopper-flat-plans-annual
+    claim: >-
+      On 2026-09-03 Grasshopper listed True Solo at $14, Solo Plus at $25
+      and Small Business at $55 per month billed annually ($168, $300 and
+      $660 a year), with Solo Plus and Small Business covering unlimited
+      users.
+    provenance:
+      source_url: https://grasshopper.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: grasshopper-per-account-vs-per-user
+    claim: >-
+      Because Grasshopper's Solo Plus is $25 per month for unlimited users,
+      a 5-person team pays $25 against $75 on Quo Starter or $100 on RingEX
+      Core, though it shares 1 number and 3 extensions (2026-09-03).
+    provenance:
+      source_url: https://grasshopper.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: grasshopper-texting-fees
+    claim: >-
+      Grasshopper business texting requires a $19.50 one-time carrier
+      registration and a $1.50 monthly messaging fee on every plan
+      (2026-09-03).
+    provenance:
+      source_url: https://grasshopper.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: grasshopper-extra-numbers-extensions
+    claim: >-
+      Extra Grasshopper phone numbers cost $9 per month each on any plan and
+      extra extensions $3 per month on Solo Plus; Small Business includes 4
+      numbers and unlimited extensions (2026-09-03).
+    provenance:
+      source_url: https://grasshopper.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: grasshopper-trial-and-guarantee
+    claim: >-
+      Grasshopper offers a 7-day free trial without a credit card and a
+      7-day money-back guarantee, and advertised up to $75 off a first
+      purchase on 2026-09-03.
+    provenance:
+      source_url: https://grasshopper.com/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
