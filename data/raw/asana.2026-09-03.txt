@@ -1,0 +1,12 @@
+URL: https://asana.com/pricing (also ?locale=en-US)
+STATUS: 200
+FETCHED: 2026-09-03 23:43:30 / 23:43:52 / 23:45:13 / 23:45:44 +00:00 (4 fetches)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main>. Billing toggle switch aria-checked=true (Yearly). Three fetches routed through a German gateway rendered EUR; one (68.183.157.22) rendered USD.
+---
+USD fetch (23:45:13): Pick the plan that fits your team. Monthly / Yearly Save up to 18%. Personal $0 Free forever, 2 users, unlimited tasks and projects, list/board/calendar views, unlimited storage 100MB per file, 100+ integrations. Starter $10.99 Per user, per month billed annually. Everything in Personal plus AI Studio Basic w/50K credits per billing account per month, no user seat limits, timeline & Gantt, reporting dashboards, unlimited automations, forms, custom templates, custom fields, unlimited free guests. [window ended before Advanced]
+EUR fetches: Starter €10.99 per user per month billed annually, €13.49 billed monthly. Advanced €24.99 per user per month billed annually, €30.49 billed monthly. Advanced: AI Studio Basic w/75K credits, unlimited portfolios, goals, workload, approvals and proofing, Salesforce/Tableau/Power BI, forms branching, time tracking, scaled security, formulas. Enterprise: contact sales; AI Studio Basic w/200K credits, SAML, SCIM, universal workload, capacity planning, view-only licenses. Enterprise+ available.
+Add-ons (page data): Timesheets and Budgets "$5.99 per user, per month billed annually. Available on Starter, Advanced, Enterprise, and Enterprise+ plans". Compliance management and Permissions management: Enterprise plans, contact sales.
+FAQ: How many users are included in my plan? For smaller teams, we have plans designed for 2 members.
+FAQ: How can I add people to my plan? Between 2 and 5 total users: add seats in increments of 1. Up to 30 total users: increments of 5. Up to 100: increments of 10. Up to 500: increments of 25. More than 500: increments of 50.
+FAQ: How do I cancel my Asana subscription or trial? To cancel a paid plan, go to the billing tab in your admin console and select Cancel plan.
+FAQ: What is your refund policy? We do not offer refunds. If you cancel your plan before the next renewal cycle, you will retain access to paid features until the end of your subscription period. When your subscription expires, you will lose access to paid features and all data associated with those features.

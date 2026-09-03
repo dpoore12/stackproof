@@ -118,8 +118,9 @@ machines that can reach vendor sites; it does not work inside the build
 container.
 
 Results on 2026-09-03: Pipedrive, Freshsales, Help Scout, Docusign, SignNow,
-Quo (formerly OpenPhone), RingCentral and Grasshopper rendered with full
-prices. HubSpot's pages render without price figures (loaded after render),
+Quo (formerly OpenPhone), RingCentral, Grasshopper, monday.com, ClickUp,
+Trello and Basecamp rendered with full prices; Asana rendered USD only
+once in four tries (the other three were routed to EUR). HubSpot's pages render without price figures (loaded after render),
 and Dialpad's pricing page carries no plan prices at all. Zendesk and
 Nextiva answer the rendering browser with a 403, PandaDoc with a 429.
 Zoho geo-routes the German gateway to EUR pricing and Jotform localises

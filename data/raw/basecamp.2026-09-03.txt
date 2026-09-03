@@ -1,0 +1,12 @@
+URL: https://basecamp.com/pricing
+STATUS: 200
+FETCHED: 2026-09-03 23:48:55 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main> (plan cards window). Page h2 headings: "Free", "Freelancer, $25 /mo", "Studio, $59 /mo", "Pro, $99 /mo", "Unlimited, $299 /mo, billed annually".
+---
+H1: No per-user fees, everyone's included. Simple fixed prices — another Basecamp exclusive. H3: Risk-free, cancel anytime, no long-term lock-in.
+Free — limited to one project (can always upgrade), 1 GB storage, 5 users max, bring your own AI agents, ChatGPT and Claude AI connectors, project templates, multiple tools per project, time tracking, enhanced admin features.
+Freelancer, $25/mo — Start a 30-day free trial. Up to 3 active projects (archived or deleted projects don't count), 5 GB storage, 20 users max, no per-user fees ("If you want to invite more than 20 people, you'll need to upgrade to a higher package. STUDIO and higher include unlimited people."), 24/7/365 support, project templates, multiple tools per project, time tracking, enhanced admin features, annual billing.
+Studio, $59/mo — Start a 30-day free trial. Up to 10 active projects, 25 GB storage, UNLIMITED users, no per-user fees, UNLIMITED tools per project, project templates, 24/7/365 support, time tracking, enhanced admin features, annual billing.
+Pro, $99/mo — Start a 30-day free trial. Up to 25 active projects, 100 GB storage, UNLIMITED users, no per-user fees, unlimited tools per project, project templates, time tracking.
+Unlimited, $299/mo, billed annually (per h2).
+Meta description: "Start free with Basecamp — one project, five users, forever free. Paid plans run … all fixed price with no per-user fees."

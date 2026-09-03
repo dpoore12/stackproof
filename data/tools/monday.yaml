@@ -1,0 +1,141 @@
+slug: monday
+vendor: monday.com
+product: monday work management
+category: project_management
+url: https://monday.com/pricing
+free_trial: "Free plan for up to 2 seats with no credit card; paid plans offer a free trial (\"Try for free\") of unstated length (2026-09-03)."
+
+# Per seat per month, billed annually, as displayed with the page's team-size
+# selector at 10 seats and the Yearly toggle ("SAVE 18%"). The page bundles a
+# monthly AI-credit charge ($10 / $20 / $30 at 10 seats) and then shows a
+# "special monthly discount" of the same amount, so the per-seat figure is
+# the net price. Monthly-billing prices were not captured. monday.com sells
+# seats in bundles; per-seat prices at other team sizes were not captured.
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: seat
+    max_seats: 2
+    billing: monthly
+    provenance:
+      source_url: https://monday.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"Free $0 free forever. Up to 2 seats." Up to 3 boards and 3 docs.'
+  - plan: Basic
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 9
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://monday.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch at 10 seats, Yearly toggle. "$9 seat / month. $9 x 10 seats = $90. 1,000 credits = $10. Special monthly discount = -$10. Total = $90 / month, billed annually."'
+  - plan: Standard
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 12
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://monday.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$12 seat / month. Total of $120 (was $140). 2,000 credits = $20. Special monthly discount = -$20."'
+  - plan: Pro
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 19
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://monday.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$19 seat / month. Total of $190 (was $220). 3,000 credits = $30. Special monthly discount = -$30." Marked Most Popular.'
+
+fees:
+  - name: AI credits bundle (Basic)
+    amount_usd: 10
+    unit: per month for 1,000 AI credits at 10 seats; shown as charged then discounted in full at fetch time
+    provenance:
+      source_url: https://monday.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      monday.com's displayed prices are per seat per month billed annually,
+      with the Yearly toggle advertised as saving 18% over monthly and totals
+      computed for the selected seat bundle (2026-09-03).
+    provenance:
+      source_url: https://monday.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      monday.com's pricing cards state no cancellation or refund terms
+      (2026-09-03); the FAQ section was not captured.
+    provenance:
+      source_url: https://monday.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      monday.com's pricing cards state no data-export terms (2026-09-03).
+    provenance:
+      source_url: https://monday.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+findings:
+  - id: monday-per-seat-prices-annual
+    claim: >-
+      On 2026-09-03 monday.com listed Basic at $9, Standard at $12 and Pro at
+      $19 per seat per month billed annually for a 10-seat team, with the
+      Yearly toggle labelled as an 18% saving over monthly.
+    provenance:
+      source_url: https://monday.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: monday-ai-credit-line-item
+    claim: >-
+      monday.com's price breakdown adds an AI-credit charge of $10, $20 or
+      $30 per month (1,000 to 3,000 credits) and then subtracts a "special
+      monthly discount" of the same amount, so the struck-through totals of
+      $140 and $220 include AI credits the discount removes (2026-09-03).
+    provenance:
+      source_url: https://monday.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: monday-automation-caps
+    claim: >-
+      monday.com Standard caps automations and integrations at 250 actions
+      per month each and 1,000 API calls per day, against 25,000 actions and
+      10,000 calls on Pro (2026-09-03).
+    provenance:
+      source_url: https://monday.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: monday-free-two-seats
+    claim: >-
+      monday.com's Free plan is capped at 2 seats, 3 boards and 3 docs, so a
+      team of 3 starts at $27 per month on Basic (2026-09-03).
+    provenance:
+      source_url: https://monday.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: monday-ten-seat-cost
+    claim: >-
+      At monday.com's 2026-09-03 annual rates a 10-seat team pays $90 per
+      month on Basic, $120 on Standard or $190 on Pro, billed as $1,080,
+      $1,440 or $2,280 a year.
+    provenance:
+      source_url: https://monday.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch

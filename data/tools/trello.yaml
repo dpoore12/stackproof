@@ -1,0 +1,169 @@
+slug: trello
+vendor: Atlassian
+product: Trello
+category: project_management
+url: https://trello.com/pricing
+free_trial: "Free plan for up to 10 collaborators per Workspace; any Workspace can enroll in a free trial of Premium of unstated length (2026-09-03)."
+
+# Per user per month; each card prints the annual and the monthly price with
+# an explicit USD label, so no toggle state had to be inferred. Members and
+# multi-board guests are billable; single-board guests are not.
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    max_seats: 10
+    billing: monthly
+    provenance:
+      source_url: https://trello.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$0 USD. Free for up to 10 collaborators per Workspace." 10 boards per Workspace, 250 command runs per month.'
+  - plan: Standard
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 5
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://trello.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch. "$5 USD Per user/month if billed annually ($6 billed monthly)".'
+  - plan: Standard (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 6
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://trello.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"($6 billed monthly)".'
+  - plan: Premium
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 10
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://trello.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$10 USD Per user/month if billed annually ($12.50 billed monthly)".'
+  - plan: Enterprise
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 17.5
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://trello.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$17.50 USD Per user/month - billed annually ($210.00 annual price per user)". Includes Atlassian Guard Standard. Contact sales.'
+
+fees:
+  - name: Atlassian Guard (SSO) for non-Enterprise plans
+    amount_usd: 4
+    unit: per user per month, "starts at"; separate Atlassian subscription; included in Trello Enterprise
+    provenance:
+      source_url: https://trello.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Trello lets a Workspace downgrade at any time; it keeps its paid
+      features and unlimited boards until the end of the prepaid period,
+      then becomes a free Workspace limited to 10 boards (2026-09-03).
+    quote: "When a team downgrades from Standard or Premium, it retains its Standard or Premium features and unlimited boards until the end of its prepaid service period."
+    provenance:
+      source_url: https://trello.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Every Workspace member and admin is billable, and a guest on more than
+      one board is billed at the same rate as a member; monthly or annual
+      plans are bought with any major credit card (2026-09-03).
+    provenance:
+      source_url: https://trello.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: stated
+    finding: >-
+      "Simple data export" is listed as a Premium and Enterprise feature and
+      not available on Free or Standard (2026-09-03).
+    provenance:
+      source_url: https://trello.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+support:
+  channels: [email]
+  hours: "Community support on Free; local business hours on Standard; 24/5 on Premium; 24/7 admin support on Enterprise (per comparison table)"
+  provenance:
+    source_url: https://trello.com/pricing
+    fetched_at: 2026-09-03
+    method: live_fetch
+
+findings:
+  - id: trello-per-user-prices-usd
+    claim: >-
+      On 2026-09-03 Trello listed Standard at $5, Premium at $10 and
+      Enterprise at $17.50 per user per month billed annually, with Standard
+      at $6 and Premium at $12.50 on monthly billing.
+    provenance:
+      source_url: https://trello.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: trello-free-ten-collaborators
+    claim: >-
+      Trello's Free plan allows up to 10 collaborators and 10 boards per
+      Workspace with 250 automation runs a month, more free seats than
+      monday.com (2) or Asana (2) (2026-09-03).
+    provenance:
+      source_url: https://trello.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: trello-multi-board-guests-billable
+    claim: >-
+      A Trello guest on more than 1 board counts as a billable member at the
+      full Standard or Premium rate, while single-board guests are free
+      (2026-09-03).
+    provenance:
+      source_url: https://trello.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: trello-export-premium-only
+    claim: >-
+      Trello's "simple data export" is available only on Premium ($10) and
+      Enterprise, so Standard users at $5 have no listed export feature
+      (2026-09-03).
+    provenance:
+      source_url: https://trello.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: trello-downgrade-keeps-prepaid-period
+    claim: >-
+      Trello downgrades take effect at the end of the prepaid period, after
+      which the Workspace reverts to a 10-board free plan; no refund is
+      mentioned (2026-09-03).
+    provenance:
+      source_url: https://trello.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: trello-five-user-cost
+    claim: >-
+      At Trello's 2026-09-03 annual rates a 5-user team pays $25 per month
+      on Standard or $50 on Premium, the lowest paid entry in the category
+      beside ClickUp Unlimited at $35.
+    provenance:
+      source_url: https://trello.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch

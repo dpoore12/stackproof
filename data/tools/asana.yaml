@@ -1,0 +1,134 @@
+slug: asana
+vendor: Asana
+product: Asana
+category: project_management
+url: https://asana.com/pricing
+free_trial: "Personal plan is free for up to 2 users; the FAQ refers to a trial of paid plans without stating its length (2026-09-03)."
+pricing_note: "Only the Starter plan's USD price was captured; 3 of 4 fetches were geo-routed to EUR pricing and the one USD render was cut before the Advanced card. Advanced is recorded from the EUR page as a finding, not a tier."
+
+# Per user per month billed annually with the Yearly toggle active. Seats are
+# sold in increments of 1 up to 5 users, then 5 up to 30, 10 up to 100, 25
+# up to 500; the cost table multiplies by exact seats and so understates
+# bills at sizes between bundle steps.
+tiers:
+  - plan: Personal
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    max_seats: 2
+    billing: monthly
+    provenance:
+      source_url: https://asana.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$0 Free forever … 2 users".'
+  - plan: Starter
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 10.99
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://asana.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered USD fetch; Yearly switch aria-checked=true. "$10.99 Per user, per month billed annually". EUR render showed €13.49 billed monthly.'
+  - plan: Timesheets and Budgets add-on
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 5.99
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://asana.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Page data: "$5.99 per user, per month billed annually. Available on Starter, Advanced, Enterprise, and Enterprise+ plans".'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Asana offers no refunds; cancelling before renewal keeps paid features
+      until the period ends, after which access to paid features and their
+      data is lost (2026-09-03).
+    quote: "We do not offer refunds. If you cancel your plan before the next renewal cycle, you will retain access to paid features until the end of your subscription period."
+    provenance:
+      source_url: https://asana.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Asana sells seats in bundles: increments of 1 up to 5 users, of 5 up
+      to 30, of 10 up to 100, of 25 up to 500 and of 50 beyond, so a team of
+      7 pays for 10 seats (2026-09-03).
+    provenance:
+      source_url: https://asana.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: stated
+    finding: >-
+      Asana's refund FAQ states that when a subscription expires, data
+      associated with paid features is lost along with access to those
+      features (2026-09-03).
+    provenance:
+      source_url: https://asana.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+findings:
+  - id: asana-starter-usd-annual
+    claim: >-
+      On 2026-09-03 Asana listed Starter at $10.99 per user per month billed
+      annually, with the Yearly toggle labelled as saving up to 18% over
+      monthly.
+    provenance:
+      source_url: https://asana.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: asana-eur-prices-and-monthly
+    claim: >-
+      Asana's European pricing page on 2026-09-03 listed Starter at €10.99
+      and Advanced at €24.99 per user per month billed annually, or €13.49
+      and €30.49 billed monthly; the USD Advanced price was not captured.
+    provenance:
+      source_url: https://asana.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: asana-seat-bundles
+    claim: >-
+      Asana adds seats in steps of 1 up to 5 users, 5 up to 30, 10 up to
+      100 and 25 up to 500, so teams between steps pay for unused seats
+      (2026-09-03).
+    provenance:
+      source_url: https://asana.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: asana-no-refunds
+    claim: >-
+      Asana states it offers no refunds and that paid-feature data is lost
+      when a subscription expires, with cancellation done from the admin
+      console's billing tab (2026-09-03).
+    provenance:
+      source_url: https://asana.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: asana-timesheets-addon
+    claim: >-
+      Asana's Timesheets and Budgets add-on costs $5.99 per user per month
+      billed annually on Starter and above, raising Starter to $16.98 per
+      user (2026-09-03).
+    provenance:
+      source_url: https://asana.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: asana-five-user-cost
+    claim: >-
+      At Asana's 2026-09-03 annual rate a 5-user team pays $54.95 per month
+      on Starter, against $45 on monday.com Basic for the same 5 seats.
+    provenance:
+      source_url: https://asana.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
