@@ -1,0 +1,33 @@
+slug: hubspot-crm
+vendor: HubSpot
+product: HubSpot CRM
+category: crm
+url: https://www.hubspot.com/pricing/crm
+free_trial: null
+pricing_note: "HubSpot's pricing page rendered the message 'Something went wrong loading pricing data' on 2026-09-03 and offered a sales phone number instead; no prices were captured. Pending a successful fetch or verification on an account."
+
+tiers: []
+
+clauses:
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      HubSpot's CRM pricing could not be recorded on 2026-09-03 because the
+      page's pricing data failed to load; pricing, export and cancellation
+      terms are pending.
+    provenance:
+      source_url: https://www.hubspot.com/pricing/crm
+      fetched_at: 2026-09-03
+      method: not_available
+
+findings:
+  - id: hubspot-pricing-data-failed-to-load
+    claim: >-
+      On 2026-09-03 hubspot.com/pricing/crm returned HTTP 200 but rendered
+      "Something went wrong loading pricing data" in place of its plans,
+      alongside a sales line (+1 888-482-7768), so no HubSpot price could be
+      machine-recorded.
+    provenance:
+      source_url: https://www.hubspot.com/pricing/crm
+      fetched_at: 2026-09-03
+      method: not_available

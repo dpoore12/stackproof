@@ -1,0 +1,76 @@
+slug: zoho-crm
+vendor: Zoho
+product: Zoho CRM
+category: crm
+url: https://www.zoho.com/crm/zohocrm-pricing.html
+free_trial: "A Free edition for up to 3 users, permanently, with leads, deals, workflows, reports and the mobile app (stated 2026-09-03)."
+pricing_note: "The fetch was geo-routed to Zoho's German pricing page and plan prices are rendered by script; no USD figures were captured. Plan structure and terms were. Amounts pending a US-region fetch or verification on an account."
+
+tiers: []
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Zoho CRM states there is no contractual commitment: it is pay-as-you-go
+      billed monthly or annually, and the plan can be changed at any time
+      (2026-09-03).
+    provenance:
+      source_url: https://www.zoho.com/crm/zohocrm-pricing.html
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: "Stated on the German-language page the fetch was routed to."
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Zoho CRM accepts Visa, Mastercard, American Express and PayPal, and bank
+      or check transfer for annual subscriptions; annual billing is advertised
+      as saving up to 34% (2026-09-03).
+    provenance:
+      source_url: https://www.zoho.com/crm/zohocrm-pricing.html
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Data-export terms are not on Zoho CRM's pricing page (2026-09-03);
+      pending verification on an account.
+    provenance:
+      source_url: https://www.zoho.com/crm/zohocrm-pricing.html
+      fetched_at: 2026-09-03
+      method: not_available
+
+support:
+  channels: [live chat, email]
+  hours: "Live chat around the clock on working days; paid editions get Classic support with optional paid support plans (per pricing FAQ)"
+  provenance:
+    source_url: https://www.zoho.com/crm/zohocrm-pricing.html
+    fetched_at: 2026-09-03
+    method: live_fetch
+
+findings:
+  - id: zoho-crm-free-three-users
+    claim: >-
+      Zoho CRM's Free edition supports up to 3 users permanently and includes
+      leads, deals, workflows, reports and mobile apps (stated 2026-09-03).
+    provenance:
+      source_url: https://www.zoho.com/crm/zohocrm-pricing.html
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: zoho-crm-annual-discount
+    claim: >-
+      Zoho CRM advertises savings of up to 34% for annual over monthly billing
+      and states no contractual commitment on either (2026-09-03).
+    provenance:
+      source_url: https://www.zoho.com/crm/zohocrm-pricing.html
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: zoho-crm-pricing-page-geo-routed
+    claim: >-
+      On 2026-09-03 an automated fetch of zoho.com/crm/zohocrm-pricing.html
+      was served the German-language version with plan prices rendered by
+      script, so USD plan prices could not be machine-recorded.
+    provenance:
+      source_url: https://www.zoho.com/crm/zohocrm-pricing.html
+      fetched_at: 2026-09-03
+      method: not_available

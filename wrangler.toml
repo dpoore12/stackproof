@@ -1,0 +1,21 @@
+# Cloudflare Workers Static Assets. The site is pure static HTML in ./site,
+# built by `python build.py`. No Worker script is needed; Cloudflare serves
+# the directory. Connect this repo in the dashboard (Workers & Pages →
+# Create → Import a repository) and it deploys on every push to main.
+#
+# The Worker name in the dashboard must match `name` here or the build fails.
+name = "stackproof"
+compatibility_date = "2026-09-01"
+
+[assets]
+directory = "./site"
+not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"
+
+# Workers Builds settings (set in the dashboard when connecting the repo):
+#   Build command:  pip install -r requirements.txt && python build.py
+#   Deploy command: npx wrangler deploy
+#   Root directory: /
+#   Environment variable SITE_ORIGIN = https://<your-domain> (or the
+#   *.workers.dev URL shown after the first deploy) so canonicals and the
+#   sitemap are absolute.

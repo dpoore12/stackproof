@@ -1,0 +1,180 @@
+slug: freshdesk
+vendor: Freshworks
+product: Freshdesk
+category: helpdesk
+url: https://www.freshworks.com/freshdesk/pricing/
+free_trial: "14-day trial of the Enterprise plan on signup; account is suspended if no plan is chosen after (stated 2026-09-03)."
+
+# Priced per agent per month, billed annually. No monthly-billing price was
+# shown on the page.
+tiers:
+  - plan: Growth
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 19
+    seat_label: agent
+    billing: annual
+    provenance:
+      source_url: https://www.freshworks.com/freshdesk/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$19 /agent/month, billed annually". Includes first 500 Freddy AI Agent sessions.'
+
+  - plan: Pro
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 55
+    seat_label: agent
+    billing: annual
+    provenance:
+      source_url: https://www.freshworks.com/freshdesk/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$55 /agent/month, billed annually". Marked "Most popular".'
+
+  - plan: Enterprise
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 89
+    seat_label: agent
+    billing: annual
+    provenance:
+      source_url: https://www.freshworks.com/freshdesk/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$89 /agent/month, billed annually".'
+
+  - plan: Freddy AI Copilot add-on
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 29
+    seat_label: agent
+    billing: annual
+    provenance:
+      source_url: https://www.freshworks.com/freshdesk/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$29 /agent/month billed annually"; available on Pro and Enterprise; can be assigned to any number of agents.'
+
+fees:
+  - name: Additional Freddy AI Agent sessions
+    amount_usd: 49
+    unit: per 100 sessions, beyond the 500 included once per account; validity matches the payment cycle
+    provenance:
+      source_url: https://www.freshworks.com/freshdesk/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Day pass (Growth)
+    amount_usd: 2
+    unit: per agent per day
+    provenance:
+      source_url: https://www.freshworks.com/freshdesk/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Day pass (Pro)
+    amount_usd: 7
+    unit: per agent per day
+    provenance:
+      source_url: https://www.freshworks.com/freshdesk/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Day pass (Enterprise)
+    amount_usd: 12
+    unit: per agent per day
+    provenance:
+      source_url: https://www.freshworks.com/freshdesk/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Connector app tasks
+    amount_usd: 80
+    unit: per 5,000 tasks
+    provenance:
+      source_url: https://www.freshworks.com/freshdesk/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Freshdesk has no cancellation fee, but a cancellation or downgrade takes
+      effect only at the end of the current term — on annual billing, that is
+      the end of the year.
+    quote: "You can cancel whenever you want, but your cancellation will come into effect only after the end of your term."
+    provenance:
+      source_url: https://www.freshworks.com/freshdesk/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: auto_renew
+    status: stated
+    finding: >-
+      Freshdesk's 14-day trial is of the Enterprise plan; if no plan is chosen
+      when it ends the account is suspended rather than charged (2026-09-03).
+    quote: "If you choose not to continue, your account will be suspended."
+    provenance:
+      source_url: https://www.freshworks.com/freshdesk/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Freshdesk accepts Visa, Mastercard, Discover and American Express, does
+      not accept PayPal or phone purchase orders, and prices offline payments in
+      USD (2026-09-03).
+    provenance:
+      source_url: https://www.freshworks.com/freshdesk/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Data-export terms are not on Freshdesk's pricing page (2026-09-03);
+      pending verification on an account.
+    provenance:
+      source_url: https://www.freshworks.com/freshdesk/pricing/
+      fetched_at: 2026-09-03
+      method: not_available
+
+findings:
+  - id: freshdesk-per-agent-prices-annual
+    claim: >-
+      On 2026-09-03 Freshdesk listed Growth at $19, Pro at $55 and Enterprise
+      at $89 per agent per month, each billed annually; no month-to-month
+      price was shown.
+    provenance:
+      source_url: https://www.freshworks.com/freshdesk/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: freshdesk-cancel-only-at-term-end
+    claim: >-
+      Freshdesk states cancellations and downgrades take effect only at the end
+      of the term, so on its annual-billed plans a mid-year cancellation still
+      pays through the year (stated 2026-09-03).
+    provenance:
+      source_url: https://www.freshworks.com/freshdesk/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: freshdesk-ai-copilot-addon
+    claim: >-
+      Freshdesk's Freddy AI Copilot is a $29 per agent per month add-on billed
+      annually on Pro and Enterprise, which raises Pro from $55 to $84 per
+      agent for teams that use it (2026-09-03).
+    provenance:
+      source_url: https://www.freshworks.com/freshdesk/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: freshdesk-ai-sessions-and-day-passes
+    claim: >-
+      Beyond 500 free Freddy AI Agent sessions per account, Freshdesk charges
+      $49 per 100 sessions, and sells occasional-agent day passes at $2
+      (Growth), $7 (Pro) or $12 (Enterprise) per day (2026-09-03).
+    provenance:
+      source_url: https://www.freshworks.com/freshdesk/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: freshdesk-five-agent-cost
+    claim: >-
+      At Freshdesk's 2026-09-03 annual-billed rates, a 5-agent team pays $95
+      per month on Growth, $275 on Pro, or $420 on Pro with AI Copilot for all
+      five.
+    provenance:
+      source_url: https://www.freshworks.com/freshdesk/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch

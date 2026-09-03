@@ -1,0 +1,32 @@
+slug: freshsales
+vendor: Freshworks
+product: Freshsales
+category: crm
+url: https://www.freshworks.com/crm/sales/pricing/
+free_trial: null
+pricing_note: "freshworks.com/crm/sales/pricing returned no parseable content to an automated fetch on 2026-09-03 (script-rendered, unlike the Freshdesk pricing page); pricing pending a rendered fetch or verification on an account."
+
+tiers: []
+
+clauses:
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      Freshsales' pricing page returned no parseable content on 2026-09-03;
+      pricing, export and cancellation terms are pending.
+    provenance:
+      source_url: https://www.freshworks.com/crm/sales/pricing/
+      fetched_at: 2026-09-03
+      method: not_available
+
+findings:
+  - id: freshsales-pricing-page-empty-to-fetch
+    claim: >-
+      On 2026-09-03 an automated fetch of freshworks.com/crm/sales/pricing
+      with JavaScript enabled returned no page content, while the same
+      vendor's Freshdesk pricing page parsed fully, so Freshsales' per-user
+      prices could not be machine-recorded.
+    provenance:
+      source_url: https://www.freshworks.com/crm/sales/pricing/
+      fetched_at: 2026-09-03
+      method: not_available
