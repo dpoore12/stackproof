@@ -1,0 +1,140 @@
+slug: docusign
+vendor: Docusign
+product: Docusign eSignature
+category: esignature
+url: https://ecom.docusign.com/plans-and-pricing/esignature
+free_trial: "A free trial is advertised on the pricing page; its length is not stated there (2026-09-03)."
+
+# Prices shown with "Annual | Billed monthly" selected: an annual commitment
+# paid in monthly instalments. The page says annual saves "up to 33%" versus
+# month-to-month; the month-to-month figures were not captured.
+tiers:
+  - plan: Personal
+    base_monthly_usd: 11
+    per_seat_monthly_usd: 0
+    seat_label: user
+    max_seats: 1
+    billing: annual
+    provenance:
+      source_url: https://ecom.docusign.com/plans-and-pricing/esignature
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch. "$11/month … This is an annual commitment of $132." Single user; 5 envelopes per month.'
+  - plan: Standard
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 30
+    seat_label: user
+    max_seats: 50
+    billing: annual
+    provenance:
+      source_url: https://ecom.docusign.com/plans-and-pricing/esignature
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$30/user/month … annual commitment of $360." Marked MOST POPULAR. 100 envelopes per user per year; up to 50 users.'
+  - plan: Business Pro
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 45
+    seat_label: user
+    max_seats: 50
+    billing: annual
+    provenance:
+      source_url: https://ecom.docusign.com/plans-and-pricing/esignature
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$45/user/month … annual commitment of $540." 100 envelopes per user per year; up to 50 users. Enhanced plans (50+ users) are contact-sales.'
+
+fees:
+  - name: Send with SMS add-on
+    amount_usd: 0.36
+    unit: per SMS delivery, "starting at"; Standard and Business Pro only; tax may apply
+    provenance:
+      source_url: https://ecom.docusign.com/plans-and-pricing/esignature
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Identity verification add-on
+    amount_usd: 2.4
+    unit: per ID verification attempt, "starting at"; Standard and Business Pro only
+    provenance:
+      source_url: https://ecom.docusign.com/plans-and-pricing/esignature
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Docusign's displayed prices are an annual commitment paid monthly ($132,
+      $360 or $540 per user per year); month-to-month costs up to 33% more
+      (2026-09-03).
+    quote: "This is an annual commitment of $360."
+    provenance:
+      source_url: https://ecom.docusign.com/plans-and-pricing/esignature
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Envelope allowances are 5 per month on Personal and 100 per user per
+      year on Standard and Business Pro; an envelope counts once however many
+      documents or signers it holds (2026-09-03).
+    provenance:
+      source_url: https://ecom.docusign.com/plans-and-pricing/esignature
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Docusign's pricing page states no data-export or account-closure terms
+      (2026-09-03).
+    provenance:
+      source_url: https://ecom.docusign.com/plans-and-pricing/esignature
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+findings:
+  - id: docusign-plan-prices-annual-commitment
+    claim: >-
+      On 2026-09-03 Docusign eSignature listed Personal at $11 per month,
+      Standard at $30 and Business Pro at $45 per user per month, each an
+      annual commitment billed monthly, with annual advertised as up to 33%
+      below month-to-month.
+    provenance:
+      source_url: https://ecom.docusign.com/plans-and-pricing/esignature
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: docusign-envelope-caps
+    claim: >-
+      Docusign caps sending at 5 envelopes per month on Personal and 100 per
+      user per year on Standard and Business Pro, so a Standard user who sends
+      more than about 8 documents a month needs an Enhanced plan (2026-09-03).
+    provenance:
+      source_url: https://ecom.docusign.com/plans-and-pricing/esignature
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: docusign-user-caps
+    claim: >-
+      Docusign's Personal plan is single-user and Standard and Business Pro
+      stop at 50 users; teams above 50 are routed to contact sales
+      (2026-09-03).
+    provenance:
+      source_url: https://ecom.docusign.com/plans-and-pricing/esignature
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: docusign-sms-and-idv-addons
+    claim: >-
+      Docusign's SMS delivery add-on starts at $0.36 per delivery and identity
+      verification at $2.40 per attempt, sold only on Standard and Business
+      Pro after 5 one-time bonus uses of each (2026-09-03).
+    provenance:
+      source_url: https://ecom.docusign.com/plans-and-pricing/esignature
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: docusign-five-user-cost
+    claim: >-
+      At Docusign's 2026-09-03 annual-commitment rates a 5-user team pays
+      $150 per month on Standard or $225 on Business Pro, which is $1,800 or
+      $2,700 committed for the year.
+    provenance:
+      source_url: https://ecom.docusign.com/plans-and-pricing/esignature
+      fetched_at: 2026-09-03
+      method: live_fetch

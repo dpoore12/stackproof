@@ -1,0 +1,139 @@
+slug: signnow
+vendor: airSlate
+product: SignNow
+category: esignature
+url: https://www.signnow.com/pricing
+free_trial: "A free trial is offered on the Business, Business Premium and Enterprise plans; its length is not stated on the pricing page (2026-09-03)."
+
+# Flat price per account with unlimited users on every plan (stated on the
+# page), so cost does not rise with team size. Shown with the annual toggle
+# on; the page prints the month-to-month price beside each annual price.
+tiers:
+  - plan: Business
+    base_monthly_usd: 8
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://snseats.signnow.com/purchase/business_plans/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch; annual toggle aria-checked=true. "$8/per month. Instead of $20 billed monthly. Save $144." Unlimited users; 100 invites per year.'
+  - plan: Business (monthly billing)
+    compare: false
+    base_monthly_usd: 20
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://snseats.signnow.com/purchase/business_plans/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"Instead of $20 billed monthly".'
+  - plan: Business Premium
+    base_monthly_usd: 15
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://snseats.signnow.com/purchase/business_plans/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$15/per month. Instead of $30 billed monthly. Save $180." Marked MOST POPULAR. Unlimited users; 100 invites per year.'
+  - plan: Enterprise
+    base_monthly_usd: 30
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://snseats.signnow.com/purchase/business_plans/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$30/per month. Instead of $50 billed monthly. Save $240." Unlimited users; 100 invites per year.'
+
+fees:
+  - name: Site License
+    amount_usd: 1.5
+    unit: per signature invite, volume-discounted; contact sales; includes full API access and premium integrations
+    provenance:
+      source_url: https://snseats.signnow.com/purchase/business_plans/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      SignNow prices each subscription plan per account with unlimited users,
+      at $8, $15 or $30 per month on annual billing versus $20, $30 or $50
+      month-to-month, and includes 100 signature invites per year with more
+      sold separately (2026-09-03).
+    provenance:
+      source_url: https://snseats.signnow.com/purchase/business_plans/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      SignNow's pricing page states no cancellation or refund terms
+      (2026-09-03).
+    provenance:
+      source_url: https://snseats.signnow.com/purchase/business_plans/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      SignNow's pricing page states no data-export terms (2026-09-03).
+    provenance:
+      source_url: https://snseats.signnow.com/purchase/business_plans/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+findings:
+  - id: signnow-flat-price-unlimited-users
+    claim: >-
+      On 2026-09-03 SignNow listed Business at $8, Business Premium at $15 and
+      Enterprise at $30 per month on annual billing, each for unlimited users
+      per account rather than per seat.
+    provenance:
+      source_url: https://snseats.signnow.com/purchase/business_plans/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: signnow-monthly-premium
+    claim: >-
+      SignNow's month-to-month prices are $20, $30 and $50 against $8, $15
+      and $30 annually, so monthly billing costs 2.5×, 2× and 1.67× the
+      annual rate (2026-09-03).
+    provenance:
+      source_url: https://snseats.signnow.com/purchase/business_plans/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: signnow-100-invites-per-year
+    claim: >-
+      Every SignNow subscription plan includes 100 signature invites per year
+      per account, with additional invites sold separately at a price not
+      shown on the pricing page (2026-09-03).
+    provenance:
+      source_url: https://snseats.signnow.com/purchase/business_plans/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: signnow-site-license-per-invite
+    claim: >-
+      SignNow's Site License replaces the subscription with a $1.50 per
+      signature invite rate that falls with volume and adds API access and
+      Salesforce or NetSuite integrations (2026-09-03).
+    provenance:
+      source_url: https://snseats.signnow.com/purchase/business_plans/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: signnow-vs-docusign-five-users
+    claim: >-
+      For a 5-person team SignNow's Business Premium costs $15 per month
+      total on annual billing, against Docusign Standard's $150 for the same
+      five users, though SignNow's 100 invites per year are per account and
+      Docusign's are per user (2026-09-03).
+    provenance:
+      source_url: https://snseats.signnow.com/purchase/business_plans/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch

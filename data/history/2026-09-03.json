@@ -8,6 +8,57 @@
    "tiers": [],
    "vendor": "Brevo (formerly Sendinblue)"
   },
+  "docusign": {
+   "category": "esignature",
+   "fees": [
+    {
+     "amount_usd": 0.36,
+     "fetched_at": "2026-09-03",
+     "name": "Send with SMS add-on",
+     "unit": "per SMS delivery, \"starting at\"; Standard and Business Pro only; tax may apply"
+    },
+    {
+     "amount_usd": 2.4,
+     "fetched_at": "2026-09-03",
+     "name": "Identity verification add-on",
+     "unit": "per ID verification attempt, \"starting at\"; Standard and Business Pro only"
+    }
+   ],
+   "product": "Docusign eSignature",
+   "tiers": [
+    {
+     "base_monthly_usd": 11.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Personal",
+     "source_url": "https://ecom.docusign.com/plans-and-pricing/esignature",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": 50,
+     "per_seat_monthly_usd": 30.0,
+     "plan": "Standard",
+     "source_url": "https://ecom.docusign.com/plans-and-pricing/esignature",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": 50,
+     "per_seat_monthly_usd": 45.0,
+     "plan": "Business Pro",
+     "source_url": "https://ecom.docusign.com/plans-and-pricing/esignature",
+     "steps": null
+    }
+   ],
+   "vendor": "Docusign"
+  },
   "freshbooks": {
    "category": "accounting",
    "fees": [],
@@ -367,6 +418,73 @@
    ],
    "vendor": "OnPay"
   },
+  "openphone": {
+   "category": "business_phone",
+   "fees": [
+    {
+     "amount_usd": 19.5,
+     "fetched_at": "2026-09-03",
+     "name": "Campaign Registry review (US messaging registration)",
+     "unit": "one-time, charged by The Campaign Registry to send texts to US carriers"
+    },
+    {
+     "amount_usd": 1.5,
+     "fetched_at": "2026-09-03",
+     "name": "Campaign Registry messaging fee",
+     "unit": "per month, $1.50 to $3 depending on use case"
+    },
+    {
+     "amount_usd": 25.0,
+     "fetched_at": "2026-09-03",
+     "name": "Sona AI credits, Tier 2",
+     "unit": "per month for 4,000 credits (40 AI calls); tiers run $0, $25, $49, $99, $199 for 10 to 600 calls; overage $1.00 down to $0.45 per call"
+    }
+   ],
+   "product": "Quo (formerly OpenPhone)",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 15.0,
+     "plan": "Starter",
+     "source_url": "https://www.quo.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 19.0,
+     "plan": "Starter (monthly billing)",
+     "source_url": "https://www.quo.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 23.0,
+     "plan": "Business",
+     "source_url": "https://www.quo.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 35.0,
+     "plan": "Scale",
+     "source_url": "https://www.quo.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Quo"
+  },
   "patriot": {
    "category": "payroll",
    "fees": [
@@ -564,6 +682,61 @@
    "product": "QuickBooks Payroll (QuickBooks Workforce)",
    "tiers": [],
    "vendor": "Intuit"
+  },
+  "signnow": {
+   "category": "esignature",
+   "fees": [
+    {
+     "amount_usd": 1.5,
+     "fetched_at": "2026-09-03",
+     "name": "Site License",
+     "unit": "per signature invite, volume-discounted; contact sales; includes full API access and premium integrations"
+    }
+   ],
+   "product": "SignNow",
+   "tiers": [
+    {
+     "base_monthly_usd": 8.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Business",
+     "source_url": "https://snseats.signnow.com/purchase/business_plans/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 20.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Business (monthly billing)",
+     "source_url": "https://snseats.signnow.com/purchase/business_plans/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 15.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Business Premium",
+     "source_url": "https://snseats.signnow.com/purchase/business_plans/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 30.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-03",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Enterprise",
+     "source_url": "https://snseats.signnow.com/purchase/business_plans/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "airSlate"
   },
   "square-payroll": {
    "category": "payroll",

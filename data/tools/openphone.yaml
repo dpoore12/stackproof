@@ -1,0 +1,160 @@
+slug: openphone
+vendor: Quo
+product: Quo (formerly OpenPhone)
+category: business_phone
+url: https://www.quo.com/pricing
+free_trial: "A free trial is offered on every plan (\"Try for free\"); its length is not stated on the pricing page (2026-09-03)."
+
+# openphone.com/pricing now redirects to quo.com/pricing. Per user per month;
+# the page's Yearly tab was active on fetch, and the Monthly tab prices were
+# also captured from the page text.
+tiers:
+  - plan: Starter
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 15
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.quo.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch; Yearly tab aria-selected=true. "$15 Per user/per month. Billed annually at $180. Save $48/year." One number per user; unlimited US/Canada calling and messaging subject to fair use.'
+  - plan: Starter (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 19
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.quo.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Monthly tab: "$19 Per user/per month".'
+  - plan: Business
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 23
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.quo.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$23 Per user/per month. Billed annually at $276." Marked Most popular. Monthly tab: $33.'
+  - plan: Scale
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 35
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.quo.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$35 Per user/per month. Billed annually at $420." Monthly tab: $47.'
+
+fees:
+  - name: Campaign Registry review (US messaging registration)
+    amount_usd: 19.5
+    unit: one-time, charged by The Campaign Registry to send texts to US carriers
+    provenance:
+      source_url: https://www.quo.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Campaign Registry messaging fee
+    amount_usd: 1.5
+    unit: per month, $1.50 to $3 depending on use case
+    provenance:
+      source_url: https://www.quo.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - name: Sona AI credits, Tier 2
+    amount_usd: 25
+    unit: per month for 4,000 credits (40 AI calls); tiers run $0, $25, $49, $99, $199 for 10 to 600 calls; overage $1.00 down to $0.45 per call
+    provenance:
+      source_url: https://www.quo.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Quo prices are in USD with taxes and fees added at checkout; annual
+      billing is charged up front at $180, $276 or $420 per user per year
+      (2026-09-03).
+    quote: "All prices in USD. Applicable taxes and fees added at checkout."
+    provenance:
+      source_url: https://www.quo.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Quo's pricing page states no cancellation or refund terms (2026-09-03).
+    provenance:
+      source_url: https://www.quo.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Quo's pricing page states no data-export or number-porting-out terms
+      (2026-09-03).
+    provenance:
+      source_url: https://www.quo.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+support:
+  channels: [email, live chat, phone]
+  hours: "Email ticket support on Starter; live chat on Business; priority chat, email and inbound phone support on Scale (per plan cards)"
+  provenance:
+    source_url: https://www.quo.com/pricing
+    fetched_at: 2026-09-03
+    method: live_fetch
+
+findings:
+  - id: openphone-now-quo-redirect
+    claim: >-
+      On 2026-09-03 openphone.com/pricing redirected to quo.com/pricing; the
+      product sells as Quo with 3 plans at $15, $23 and $35 per user per
+      month on annual billing.
+    provenance:
+      source_url: https://www.quo.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: openphone-monthly-vs-annual
+    claim: >-
+      Quo's month-to-month prices are $19, $33 and $47 per user against $15,
+      $23 and $35 annually, so monthly billing costs 21% to 43% more
+      (2026-09-03).
+    provenance:
+      source_url: https://www.quo.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: openphone-tcr-fees
+    claim: >-
+      Sending texts to US numbers on Quo requires Campaign Registry
+      registration with a $19.50 one-time review fee and a $1.50 to $3 monthly
+      fee on top of the plan price (2026-09-03).
+    provenance:
+      source_url: https://www.quo.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: openphone-sona-credit-tiers
+    claim: >-
+      Quo's Sona AI agent includes 1,000 credits (10 calls) per plan, with
+      credit packs from $25 per month for 40 calls to $199 for 600 and
+      overage from $1.00 down to $0.45 per call (2026-09-03).
+    provenance:
+      source_url: https://www.quo.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: openphone-five-user-cost
+    claim: >-
+      At Quo's 2026-09-03 annual rates a 5-user team pays $75 per month on
+      Starter, $115 on Business or $175 on Scale, plus carrier registration
+      fees if it texts US customers.
+    provenance:
+      source_url: https://www.quo.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
