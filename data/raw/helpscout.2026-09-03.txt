@@ -1,0 +1,28 @@
+URL: https://www.helpscout.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-03 23:24:55 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (pricing excerpt; full text 30,513 chars)
+---
+Deliver delightful support at every stage of growth
+Monthly / Annual -16%
+Standard $25 per user/mo — For growing teams looking to automate more tasks and move beyond email. Try for Free. Multiple Inboxes; Live chat and SMS; WhatsApp, Instagram, and Messenger; Multiple knowledge bases; One basic SLA policy; Basic workflows; Unlimited tags and saved replies; AI Inbox assistant
+Plus (Popular) $45 per user/mo — Everything in Standard and... Advanced workflows; Two advanced SLA policies; Secure customer portal; Unlimited AI Drafts; Round robin routing; Salesforce, Jira, and HubSpot; Internal teams; Group conversations by company
+Pro $75 per user/mo — Book a Demo. Everything in Plus and... Unlimited workflows; Unlimited SLA policies; Multiple routing types; SSO/SAML; HIPAA compliance; Up to 50 light users; Dedicated onboarding specialist; Strategic account manager
+AI Answers Add-on $0.75/resolution — Pay per resolution on a monthly basis. 3-month free trial. Pre-paid discounts available.
+The Free plan gives you 5 users, 1 Inbox, and 1 Docs site.
+Users: Free up to 5; Standard up to 25; Plus up to 50; Pro Unlimited (minimum 10)
+Light users: Plus 5 included (max 25); Pro 15 included (max 50)
+Inboxes: Free 1; Standard 2 (additional Inboxes $10/mo); Plus 5 (additional $10/mo); Pro 10 (additional $10/mo). Maximums: Standard 20, Plus 50, Pro unlimited
+Docs sites: Free 1; Standard 2 (additional sites $20/mo); Plus 3; Pro 5
+Contacts: Free 100/mo; others Unlimited
+Reporting history: Standard 30-day; Plus 2-year; Pro All-time. Exports: reporting data to CSV or Excel (Plus and Pro)
+HIPAA compliance: Add-on (Pro). SSO/SAML: Add-on. IP restrictions: Add-on.
+API access: 200 / 400 / 800 calls per minute
+Support: Email Standard; Priority on Standard/Plus/Pro. Onboarding specialist Add-on; CSM Add-on
+FAQ: Can I add more Inboxes or Docs sites to my plan? Yes — additional Inboxes beyond the number included in your plan are available for $10 per month when paid annually (or $12 per month). Additional Docs sites are available for $20 per month when paid annually (or $24 per month). The Free plan is limited to just 1 Inbox and 1 Docs site.
+FAQ: What counts as an AI resolution? A resolution is a single conversation that is resolved by AI Answers without human assistance... You'll only be charged for one resolution per conversation.
+FAQ: Can I set caps on AI resolution spending? Yes — you can set a monthly cap on AI Answers resolutions. If you hit your spending cap, AI Answers will be disabled automatically for the remainder of the monthly cycle.
+FAQ: How does the free trial work? When you sign up for a free trial of the Standard or Plus plan, you'll get 15 days to take all of the plan's features for a test drive — no credit card required. Want to trial the Pro plan? Talk to our sales team.
+FAQ: How does the 3-month AI Answers trial work? When you create your Help Scout account, you will get 3 months of free, unlimited AI Answers resolutions.
+FAQ: What payment methods does Help Scout accept? We accept major credit cards, including Visa, American Express, Mastercard, and Discover. For some annual payments, wire or ACH transfer is also available.
+JSON-LD Product offers: Free 0, Standard 25, Plus 45, Pro 75 USD, billingPeriod P1M, unitText user.

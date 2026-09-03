@@ -2,31 +2,158 @@ slug: freshsales
 vendor: Freshworks
 product: Freshsales
 category: crm
-url: https://www.freshworks.com/crm/sales/pricing/
-free_trial: null
-pricing_note: "freshworks.com/crm/sales/pricing returned no parseable content to an automated fetch on 2026-09-03 (script-rendered, unlike the Freshdesk pricing page); pricing pending a rendered fetch or verification on an account."
+url: https://www.freshworks.com/crm/pricing/
+free_trial: "21-day trial of the full CRM on signup; account is suspended if no plan is chosen after (stated 2026-09-03)."
 
-tiers: []
+# Per user per month, billed annually (page default; "Save 20% Annually").
+# The page's embedded data gives Growth's monthly-billed price as $11; Pro
+# and Enterprise monthly figures were not captured.
+tiers:
+  - plan: Growth
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 9
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.freshworks.com/crm/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch. "$9/user/month, billed annually". Page data: priceUsd 11 monthly, priceUsdAnnual 9.'
+  - plan: Growth (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 11
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.freshworks.com/crm/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'From the page''s embedded plan data (priceUsd "11", planUnit "/user/month, billed monthly"); not displayed by default.'
+  - plan: Pro
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 39
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.freshworks.com/crm/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$39/user/month, billed annually".'
+  - plan: Enterprise
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 59
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.freshworks.com/crm/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$59/user/month, billed annually".'
+  - plan: Branded documents add-on
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 19
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.freshworks.com/crm/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"Branded documents $19/user/month"; embedded data lists the same $19 for monthly and annual.'
+
+fees:
+  - name: Freddy AI Agent sessions
+    amount_usd: 49
+    unit: per 100 sessions, beyond the 500 included once per account; validity matches the payment cycle
+    provenance:
+      source_url: https://www.freshworks.com/crm/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
 
 clauses:
+  - topic: auto_renew
+    status: stated
+    finding: >-
+      Freshsales' 21-day trial ends with the account suspended unless a plan
+      is chosen and paid by credit card; it does not auto-convert to a paid
+      plan (stated 2026-09-03).
+    quote: "If you choose not to continue, your account will be suspended."
+    provenance:
+      source_url: https://www.freshworks.com/crm/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Freshsales accepts Visa, Mastercard, Discover and American Express, and
+      USD check payments for US and Canada customers only; annual billing is
+      advertised as saving 20% (2026-09-03).
+    provenance:
+      source_url: https://www.freshworks.com/crm/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Freshsales' pricing page states no cancellation or refund terms
+      (2026-09-03).
+    provenance:
+      source_url: https://www.freshworks.com/crm/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
   - topic: data_export
     status: needs_account
     finding: >-
-      Freshsales' pricing page returned no parseable content on 2026-09-03;
-      pricing, export and cancellation terms are pending.
+      Data-export terms are not on Freshsales' pricing page (2026-09-03);
+      pending verification on an account.
     provenance:
-      source_url: https://www.freshworks.com/crm/sales/pricing/
+      source_url: https://www.freshworks.com/crm/pricing/
       fetched_at: 2026-09-03
       method: not_available
 
 findings:
-  - id: freshsales-pricing-page-empty-to-fetch
+  - id: freshsales-per-user-prices-annual
     claim: >-
-      On 2026-09-03 an automated fetch of freshworks.com/crm/sales/pricing
-      with JavaScript enabled returned no page content, while the same
-      vendor's Freshdesk pricing page parsed fully, so Freshsales' per-user
-      prices could not be machine-recorded.
+      On 2026-09-03 Freshsales listed Growth at $9, Pro at $39 and Enterprise
+      at $59 per user per month billed annually, with annual billing
+      advertised as a 20% saving.
     provenance:
-      source_url: https://www.freshworks.com/crm/sales/pricing/
+      source_url: https://www.freshworks.com/crm/pricing/
       fetched_at: 2026-09-03
-      method: not_available
+      method: live_fetch
+  - id: freshsales-growth-monthly-11
+    claim: >-
+      Freshsales' page data prices Growth at $11 per user per month on
+      monthly billing versus $9 annually, a 22% premium for month-to-month
+      (2026-09-03).
+    provenance:
+      source_url: https://www.freshworks.com/crm/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: freshsales-addons-and-ai-sessions
+    claim: >-
+      Freshsales sells Branded documents at $19 per user per month and Freddy
+      AI Agent sessions at $49 per 100 beyond 500 free sessions per account
+      (2026-09-03).
+    provenance:
+      source_url: https://www.freshworks.com/crm/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: freshsales-five-user-cost
+    claim: >-
+      At Freshsales' 2026-09-03 annual-billed rates a 5-user team pays $45
+      per month on Growth, $195 on Pro or $295 on Enterprise.
+    provenance:
+      source_url: https://www.freshworks.com/crm/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: freshsales-trial-21-days-suspends
+    claim: >-
+      Freshsales' trial runs 21 days on the full CRM and the account is
+      suspended, not charged, if no plan is selected at the end (stated
+      2026-09-03).
+    provenance:
+      source_url: https://www.freshworks.com/crm/pricing/
+      fetched_at: 2026-09-03
+      method: live_fetch

@@ -102,6 +102,28 @@ Help Scout) almost all do, and the parsing fetch sees nothing. Those
 categories need a real browser session or a real account. Every such case
 is recorded with `pricing_note` — never filled from a third party.
 
+## Rendered fetches (script-rendered pricing pages)
+
+CRM and helpdesk vendors render prices client-side, and the build container
+cannot reach vendor sites directly (egress policy). The working path is
+DataForSEO's `on_page/instant_pages` with `enable_browser_rendering: true`
+and a `custom_js` that returns `document.body.innerText`; the response's
+`custom_js_response.text` is the rendered page. `tools/save_render.py <slug>
+<result.json>` writes it to `data/raw/<slug>.<date>.txt` and prints the
+price and term lines. Records built this way cite `method: live_fetch` with
+a "browser-rendered" note.
+
+`tools/render_fetch.py` does the same with local Playwright/Chromium for
+machines that can reach vendor sites; it does not work inside the build
+container.
+
+Results on 2026-09-03: Pipedrive, Freshsales and Help Scout rendered with
+full prices. HubSpot's pages render without price figures (loaded after
+render). Zendesk answers the rendering browser with a Cloudflare 403. Zoho
+geo-routes the German gateway to EUR pricing. A toggle's active state can be
+read in the same `custom_js` (Help Scout's annual button carries
+`is-active`), which is how billing periods are labelled.
+
 ## Deploy
 
 `wrangler.toml` configures Cloudflare Workers Static Assets. Connect the

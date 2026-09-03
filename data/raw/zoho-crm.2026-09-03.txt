@@ -1,0 +1,12 @@
+URL: https://www.zoho.com/crm/zohocrm-pricing.html (final: https://www.zoho.com/de/crm/zohocrm-pricing.html?sredirect=true, lang=de)
+STATUS: 200
+FETCHED: 2026-09-03 23:29:04 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (pricing excerpt). Gateway IP was in Germany; Zoho geo-redirected to the DE page with an EUR/GBP currency selector and no USD option.
+---
+Monatlich / Jährlich — Sparen Sie bis zu 34 % [annual toggle]
+Standard €14 /Benutzer/Monat
+Professional €23 /Benutzer/Monat
+Enterprise €40 /Benutzer/Monat (Am beliebtesten)
+Ultimate €52 /Benutzer/Monat
+CRM Plus bundle: Starter €0 /Benutzer/Monat; Enterprise €57 /Benutzer/Monat
+Für immer 100 % kostenlos (free edition)

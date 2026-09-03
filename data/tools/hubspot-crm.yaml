@@ -4,7 +4,7 @@ product: HubSpot CRM
 category: crm
 url: https://www.hubspot.com/pricing/crm
 free_trial: null
-pricing_note: "HubSpot's pricing page rendered the message 'Something went wrong loading pricing data' on 2026-09-03 and offered a sales phone number instead; no prices were captured. Pending a successful fetch or verification on an account."
+pricing_note: "Two fetches on 2026-09-03 captured no HubSpot prices: hubspot.com/pricing/crm rendered 'Something went wrong loading pricing data', and a browser-rendered fetch of hubspot.com/pricing/sales returned the page shell with no price figures (prices load after render). Pending a longer-wait render or verification on an account."
 
 tiers: []
 

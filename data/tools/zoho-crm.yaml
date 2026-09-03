@@ -4,7 +4,7 @@ product: Zoho CRM
 category: crm
 url: https://www.zoho.com/crm/zohocrm-pricing.html
 free_trial: "A Free edition for up to 3 users, permanently, with leads, deals, workflows, reports and the mobile app (stated 2026-09-03)."
-pricing_note: "The fetch was geo-routed to Zoho's German pricing page and plan prices are rendered by script; no USD figures were captured. Plan structure and terms were. Amounts pending a US-region fetch or verification on an account."
+pricing_note: "Both a plain and a browser-rendered fetch on 2026-09-03 were geo-routed to Zoho's German page, which offers only EUR and GBP; USD plan prices were not captured. The EUR figures are recorded as a finding. Pending a US-region fetch or verification on an account."
 
 tiers: []
 
@@ -67,9 +67,18 @@ findings:
       method: live_fetch
   - id: zoho-crm-pricing-page-geo-routed
     claim: >-
-      On 2026-09-03 an automated fetch of zoho.com/crm/zohocrm-pricing.html
-      was served the German-language version with plan prices rendered by
-      script, so USD plan prices could not be machine-recorded.
+      On 2026-09-03 two automated fetches of zoho.com/crm/zohocrm-pricing.html
+      were redirected to the German-language page with EUR and GBP as the only
+      currencies, so USD plan prices could not be machine-recorded.
+    provenance:
+      source_url: https://www.zoho.com/crm/zohocrm-pricing.html
+      fetched_at: 2026-09-03
+      method: not_available
+  - id: zoho-crm-eur-prices-annual
+    claim: >-
+      Zoho CRM's European pricing page on 2026-09-03 listed Standard at €14,
+      Professional at €23, Enterprise at €40 and Ultimate at €52 per user per
+      month on annual billing, with annual advertised as up to 34% off.
     provenance:
       source_url: https://www.zoho.com/crm/zohocrm-pricing.html
       fetched_at: 2026-09-03
