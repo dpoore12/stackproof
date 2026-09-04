@@ -1,0 +1,48 @@
+slug: zenmaid
+vendor: ZenMaid
+product: ZenMaid
+category: cleaning_management
+url: https://www.zenmaid.com/pricing/
+pricing_note: 'ZenMaid''s pricing page includes a "Calculate your price" widget asking "How many cleaners and office managers do you have on your team?", but its interactive result was not captured in this static snapshot, and no plan''s feature list mentions a headcount cap or a per-cleaner dollar rate anywhere in the rendered text -- tiers are differentiated only by feature set (appointment limits, automation depth). The $19/$39/$49 figures are recorded as flat base prices; whether the calculator actually changes the checkout price by team size was not confirmed.'
+
+tiers:
+  - plan: Starter
+    base_monthly_usd: 19
+    per_seat_monthly_usd: 0
+    seat_label: cleaner
+    billing: monthly
+    provenance:
+      source_url: https://www.zenmaid.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Perfect for new cleaning businesses just getting started." "$19/month* (*SMS charges not included)." "Up to 40 appointments per month."'
+  - plan: Pro
+    base_monthly_usd: 39
+    per_seat_monthly_usd: 0
+    seat_label: cleaner
+    billing: monthly
+    provenance:
+      source_url: https://www.zenmaid.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Marked "MOST POPULAR," used by 2000+ owners. "Ideal for established businesses ready to scale." "$39/month*." "Unlimited appointments per month."'
+  - plan: Pro Max
+    base_monthly_usd: 49
+    per_seat_monthly_usd: 0
+    seat_label: cleaner
+    billing: monthly
+    provenance:
+      source_url: https://www.zenmaid.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Our most comprehensive solution with full features and priority support." "$49/month*." "Unlimited appointments per month."'
+
+findings:
+  - id: zenmaid-customer-base
+    claim: >-
+      More than 3,000 cleaning service owners have switched to ZenMaid,
+      per the vendor's own pricing page (2026-09-04).
+    provenance:
+      source_url: https://www.zenmaid.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

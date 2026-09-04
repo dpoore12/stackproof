@@ -1,0 +1,10 @@
+URL: https://zenbooker.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 19:03:15 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "$29" anchor).
+
+"Try Zenbooker free for 14 days, no credit card required. All plans come with unlimited bookings and unlimited staff member accounts." Zenbooker serves home-service businesses broadly (cleaning included); tiers are differentiated by number of "service territories," not staff headcount.
+
+Standard -- "For local service businesses operating in 1 or 2 locations." "$29 USD/month." 2 service territories.
+Professional -- "For growing service businesses with multiple locations." "$79 USD/month." 8 service territories. Adds bookable estimates, price adjustment rules, API access, email whitelabeling, hide-branding, field app branding.
+Enterprise -- "For national home service businesses and franchises." "$149 USD/month." 36 service territories. Adds drive-time-aware availability/auto-assign, drive-time and distance limits between jobs.
