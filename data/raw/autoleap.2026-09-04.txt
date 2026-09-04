@@ -1,0 +1,21 @@
+source: https://autoleap.com/pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+h3 tier names: Essentials, Pro, Elite, Enterprise.
+h2 price pairs (in DOM order, matching each card): Essentials "$179 /month"
+/ "$199/month Billed annually"; Pro "$309 /month" / "$349/month Billed
+annually"; Elite "$409 /month" / "$449/month Billed annually"; Enterprise
+"Custom Pricing".
+
+No mention of "unlimited users" anywhere on the page (0 matches for that
+phrase) and no per-seat cap or count is stated for any tier — the tiers
+differentiate purely by feature bundle (Workflows & Shop Management,
+Digital Vehicle Inspections, Customer Communication, Parts & Tire Ordering,
+Catalog & Inventory Management, Repair Data, Reporting, Tire Suite,
+Support & Onboarding), not by team size.
+
+FAQ: "Are there any setup fees? Yes! There is a one-time fee to help you
+get set up which includes your dedicated implementation plan, full data
+migration, hands-on team training, and priority support throughout your
+setup."

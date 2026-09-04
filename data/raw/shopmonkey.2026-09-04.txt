@@ -1,0 +1,25 @@
+source: https://www.shopmonkey.io/pricing
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+"Monthly Plans / Annual Savings — Save up to 10% with annual pricing."
+Basic "$239/mo." (monthly) / "$215/mo." (annual). "For shops ready to
+simplify their day-to-day and get a clearer view of their business."
+Clever "$399/mo." (monthly) / "$359/mo." (annual). "For growing shops
+ready to manage more work, improve efficiency, and stay in control."
+Genius "$499/mo." (monthly) / "$449/mo." (annual). "Our full shop
+management package for shops ready to optimize every part of their
+business and keep growing."
+Multi-Shop: "Custom" / "Contact us for pricing." "For multi-location
+businesses ready to standardize operations and track performance across
+every shop."
+
+Tagline: "Powering everything from single-bay shops to 100+ location
+franchises." FAQ list includes "How many users can our shop have on
+Shopmonkey?" but the answer text is rendered inside a collapsed accordion
+panel not present in the static page text captured here — the question
+itself confirms user count is a live topic for buyers, but no digit is
+captured from this fetch. No per-tier seat cap or count appears anywhere
+in the visible tier cards or feature lists; tiers differentiate by feature
+bundle (Workflow & Operations, Shop Communication, CRM Basics, Parts &
+Labor, Integration, Payments, Reporting, Support & Onboarding).
