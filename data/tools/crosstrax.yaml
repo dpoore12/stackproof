@@ -1,0 +1,46 @@
+slug: crosstrax
+vendor: CROSStrax
+product: CROSStrax
+category: private_investigation_agency_management
+url: https://www.crosstrax.co/pricing/
+pricing_note: 'CROSStrax prices flat tiers capped at a stated number of investigators, rather than a genuine per-seat increment — each tier also includes a separate, smaller cap on admin users. Only the three lowest tiers had their exact figures captured in this fetch; Elite and Enterprise (visible as tier names but not reached in the captured text) are not recorded.'
+
+tiers:
+  - plan: Entry
+    base_monthly_usd: 35
+    max_seats: 2
+    seat_label: investigator
+    provenance:
+      source_url: https://www.crosstrax.co/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Entry — $35 per month. Starter includes: 1 Admin User, 2 Investigators, Unlimited Clients, Unlimited Cases, 250 GB storage."'
+  - plan: Essential
+    base_monthly_usd: 65
+    max_seats: 5
+    seat_label: investigator
+    provenance:
+      source_url: https://www.crosstrax.co/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Essential — $65 per month. Starter includes: 2 Admin Users, 5 Investigators, Unlimited Clients, Unlimited Cases, 500 GB storage."'
+  - plan: Executive
+    base_monthly_usd: 105
+    max_seats: 10
+    seat_label: investigator
+    provenance:
+      source_url: https://www.crosstrax.co/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Executive — $105 per month. Starter includes: 3 Admin Users, 10 Investigators, Unlimited Clients, Unlimited Cases."'
+
+findings:
+  - id: crosstrax-unlimited-clients-and-cases-every-tier
+    claim: >-
+      CROSStrax includes unlimited clients and unlimited cases on every
+      tier from Entry through Executive, scaling only by investigator
+      count and storage, per its own pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://www.crosstrax.co/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

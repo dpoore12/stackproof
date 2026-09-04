@@ -1146,6 +1146,44 @@
    ],
    "vendor": "CARET Legal"
   },
+  "casejacket": {
+   "category": "private_investigation_agency_management",
+   "fees": [],
+   "product": "Case Jacket",
+   "tiers": [
+    {
+     "base_monthly_usd": 40.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": null,
+     "plan": "Standard",
+     "source_url": "https://casejacket.com/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 100.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 10,
+     "per_seat_monthly_usd": null,
+     "plan": "Professional",
+     "source_url": "https://casejacket.com/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 250.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 50,
+     "per_seat_monthly_usd": null,
+     "plan": "Enterprise",
+     "source_url": "https://casejacket.com/",
+     "steps": null
+    }
+   ],
+   "vendor": "Case Jacket"
+  },
   "clickup": {
    "category": "project_management",
    "fees": [
@@ -1801,6 +1839,44 @@
     }
    ],
    "vendor": "Cronometer"
+  },
+  "crosstrax": {
+   "category": "private_investigation_agency_management",
+   "fees": [],
+   "product": "CROSStrax",
+   "tiers": [
+    {
+     "base_monthly_usd": 35.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 2,
+     "per_seat_monthly_usd": null,
+     "plan": "Entry",
+     "source_url": "https://www.crosstrax.co/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 65.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": null,
+     "plan": "Essential",
+     "source_url": "https://www.crosstrax.co/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 105.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 10,
+     "per_seat_monthly_usd": null,
+     "plan": "Executive",
+     "source_url": "https://www.crosstrax.co/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "CROSStrax"
   },
   "dashlane": {
    "category": "password_manager",
@@ -9352,6 +9428,44 @@
     }
    ],
    "vendor": "TownSq"
+  },
+  "trackops": {
+   "category": "private_investigation_agency_management",
+   "fees": [],
+   "product": "Trackops",
+   "tiers": [
+    {
+     "base_monthly_usd": 99.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 39.0,
+     "plan": "Basic",
+     "source_url": "https://www.trackops.com/pricing.html",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 149.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 49.0,
+     "plan": "Plus",
+     "source_url": "https://www.trackops.com/pricing.html",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 199.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 59.0,
+     "plan": "Premium",
+     "source_url": "https://www.trackops.com/pricing.html",
+     "steps": null
+    }
+   ],
+   "vendor": "Trackops"
   },
   "tradify": {
    "category": "field_service_management",
