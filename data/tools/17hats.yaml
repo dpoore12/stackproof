@@ -1,0 +1,25 @@
+slug: 17hats
+vendor: 17hats
+product: 17hats
+category: photography_studio_management
+url: https://www.17hats.com/pricing
+pricing_note: '17hats sells a single all-inclusive plan rather than tiers, and its pricing page was captured mid a "Cyber Monday Sale" promotion offering "Save 50%" plus a further trial-skip discount, with no separate clean non-promotional baseline price stated anywhere -- only "Save $X" deltas relative to an unstated regular price. No tier is recorded for this reason; publishing the promotional price as the standing rate would misrepresent a temporary sale as the ongoing price.'
+
+findings:
+  - id: 17hats-promo-pricing-observed
+    claim: >-
+      17hats offered a "Cyber Monday Sale" promotion at time of fetch:
+      $60/month, $600/year, or $800 for two years, each marked "Save
+      50%" off an unstated regular price (2026-09-04).
+    provenance:
+      source_url: https://www.17hats.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: 17hats-bank-connect-addon
+    claim: >-
+      17hats charges an additional $5/month for its Bank Connect
+      add-on, which automatically imports expenses (2026-09-04).
+    provenance:
+      source_url: https://www.17hats.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

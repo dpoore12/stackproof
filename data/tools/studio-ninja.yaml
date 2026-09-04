@@ -1,0 +1,85 @@
+slug: studio-ninja
+vendor: Studio Ninja
+product: Studio Ninja
+category: photography_studio_management
+url: https://www.studioninja.co/pricing/
+pricing_note: 'Studio Ninja''s pricing page offers a currency toggle ($ USD / £ GBP / $ AUD); USD figures are used throughout. Regular annual prices (divided to a per-month figure) are recorded as primary tiers; monthly prices are `compare: false` secondary tiers, per this site''s standing convention.'
+
+tiers:
+  - plan: Starter
+    base_monthly_usd: 13.33
+    per_seat_monthly_usd: 0
+    max_seats: 1
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.studioninja.co/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$160/year" ($13.33/mo equivalent), billed annually (save 17%). "1 Brand, 1 User, 1 Contact Form, 5 Active Jobs."'
+  - plan: Starter (monthly billing)
+    compare: false
+    base_monthly_usd: 16
+    per_seat_monthly_usd: 0
+    max_seats: 1
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.studioninja.co/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$16/month."'
+  - plan: Pro
+    base_monthly_usd: 22.50
+    per_seat_monthly_usd: 0
+    max_seats: 3
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.studioninja.co/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$270/year" ($22.50/mo equivalent), billed annually. "1 Brand, 3 Users, 3 Contact Forms, Unlimited Jobs, 3 Online Booking Forms."'
+  - plan: Pro (monthly billing)
+    compare: false
+    base_monthly_usd: 27
+    per_seat_monthly_usd: 0
+    max_seats: 3
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.studioninja.co/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$27/month."'
+  - plan: Master
+    base_monthly_usd: 33.33
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.studioninja.co/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$400/year" ($33.33/mo equivalent), billed annually. "3 Brands, Unlimited Users, Unlimited Contact Forms, Unlimited Jobs, Unlimited Online Booking Forms."'
+  - plan: Master (monthly billing)
+    compare: false
+    base_monthly_usd: 40
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.studioninja.co/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$40/month."'
+
+findings:
+  - id: studio-ninja-no-credit-card-trial
+    claim: >-
+      Studio Ninja offers a 7-day free trial with no credit card
+      required and no lock-in contract on any plan (2026-09-04).
+    provenance:
+      source_url: https://www.studioninja.co/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

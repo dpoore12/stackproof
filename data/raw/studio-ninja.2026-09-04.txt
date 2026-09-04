@@ -1,0 +1,10 @@
+URL: https://www.studioninja.co/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 19:21:43 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "Pricing and subscriptions" anchor). Page offers a currency toggle ($ USD / £ GBP / $ AUD); USD figures used throughout. Default-rendered tab is Monthly (a Yearly tab exists, "save 17%").
+
+Starter -- "$16/month, $160/year." "1 Brand, 1 User, 1 Contact Form, 5 Active Jobs, Online Booking Forms, Workflow Automation."
+Pro -- "$27/month, $270/year." "1 Brand, 3 Users, 3 Contact Forms, Unlimited Jobs, 3 Online Booking Forms, Workflow Automation."
+Master -- "$40/month, $400/year." "3 Brands, Unlimited Users, Unlimited Contact Forms, Unlimited Jobs, Unlimited Online Booking Forms, Workflow Automation."
+
+Comparison table confirms: Users -- Starter: 1, Pro: 3, Master: Unlimited.

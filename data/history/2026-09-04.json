@@ -39,6 +39,13 @@
    ],
    "vendor": "15Five"
   },
+  "17hats": {
+   "category": "photography_studio_management",
+   "fees": [],
+   "product": "17hats",
+   "tiers": [],
+   "vendor": "17hats"
+  },
   "1password": {
    "category": "password_manager",
    "fees": [],
@@ -5494,6 +5501,34 @@
    ],
    "vendor": "Pipedrive"
   },
+  "pixifi": {
+   "category": "photography_studio_management",
+   "fees": [],
+   "product": "Pixifi",
+   "tiers": [
+    {
+     "base_monthly_usd": 39.95,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Essential",
+     "source_url": "https://www.pixifi.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 59.95,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 4.95,
+     "plan": "Studio",
+     "source_url": "https://www.pixifi.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Pixifi"
+  },
   "proton-business": {
    "category": "productivity_suite",
    "fees": [],
@@ -6606,6 +6641,74 @@
     }
    ],
    "vendor": "StatusCake"
+  },
+  "studio-ninja": {
+   "category": "photography_studio_management",
+   "fees": [],
+   "product": "Studio Ninja",
+   "tiers": [
+    {
+     "base_monthly_usd": 13.33,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter",
+     "source_url": "https://www.studioninja.co/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 16.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter (monthly billing)",
+     "source_url": "https://www.studioninja.co/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 22.5,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 3,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro",
+     "source_url": "https://www.studioninja.co/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 27.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 3,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro (monthly billing)",
+     "source_url": "https://www.studioninja.co/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 33.33,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Master",
+     "source_url": "https://www.studioninja.co/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 40.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Master (monthly billing)",
+     "source_url": "https://www.studioninja.co/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Studio Ninja"
   },
   "sync-teams": {
    "category": "cloud_storage",

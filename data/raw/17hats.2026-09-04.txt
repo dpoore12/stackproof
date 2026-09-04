@@ -1,0 +1,10 @@
+URL: https://www.17hats.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 19:22:26 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "All Features" anchor).
+
+17hats sells a single all-inclusive plan (not tiered by feature set) and the page was captured mid a "Cyber Monday Sale" promotion offering "Save 50%" plus a further trial-skip discount, with no separate clean non-promotional baseline price stated anywhere on the page -- only "Save $X" deltas relative to an unstated regular price. As a result no tier is recorded; the promotional prices seen are captured as findings instead of a price, since publishing them as the standing rate would misrepresent a temporary sale as the ongoing price.
+
+Promotional prices observed at fetch time: "Monthly $60/month" (Save $120, "BUY NOW - Save 50%"), "Yearly $600/year" (Save $120), "Bi-Yearly $800/two years" (Save $400). A further trial-skip promo: "Buy a Yearly Plan for $300 or a Bi-Yearly Plan for $400" for the first year/two years.
+
+FAQ: "Bank connect is an additional fee of $5/month... You can also buy additional users and brands for your business" (exact per-seat add-on rate not stated in the rendered text).
