@@ -1,0 +1,101 @@
+slug: pcloud-business
+vendor: pCloud
+product: pCloud Business
+category: cloud_storage
+url: https://www.pcloud.com/business.html
+free_trial: "30-day free trial stated on both plans (stated 2026-09-04)."
+pricing_note: "Per-user pricing with a stated 3-user minimum, billed monthly by default on the rendered page (an Annual tab is present but did not re-render on click, so any annual-billed rate is not machine-recorded). Business Pro's shown price is a new-account promo; the standard rate is recorded as the tier and the promo noted separately."
+
+tiers:
+  - plan: Business
+    base_monthly_usd: 29.97
+    per_seat_monthly_usd: 9.99
+    included_seats: 3
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.pcloud.com/business.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch on a US gateway, "Monthly" billing tab active by default. "Business 3 USERS / 3 TB STORAGE 29.97 USD MONTH 9.99 USD PER USER". 1 TB storage per user, 3+ user minimum, pCloud Encryption, teams and access control, secure file sharing, 180 days file versioning.'
+  - plan: Business Pro
+    base_monthly_usd: 59.94
+    per_seat_monthly_usd: 19.98
+    included_seats: 3
+    seat_label: user
+    billing: monthly
+    promo: "Rendered page showed a 25% new-account discount: $44.94/month for 3 users ($14.98/user), struck through from $59.94. Terms: \"The discount is only for new pCloud Business Pro accounts. It excludes existing accounts, renewals, plan changes, seat additions, or reactivations\" (2026-09-04)."
+    provenance:
+      source_url: https://www.pcloud.com/business.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Business Pro DISCOUNT 25% 3 USERS / 6 TB STORAGE 59.94 USD struck, 44.94 USD MONTH 14.98 USD PER USER". 2 TB storage per user, priority support.'
+
+clauses:
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      pCloud's Business pricing page states no cancellation terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.pcloud.com/business.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      pCloud's Business pricing page states no data-export terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.pcloud.com/business.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: auto_renew
+    status: not_stated
+    finding: >-
+      pCloud's Business pricing page states no auto-renewal terms outside
+      the Business Pro promo exclusions (2026-09-04).
+    provenance:
+      source_url: https://www.pcloud.com/business.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: pcloud-eur-usd-parity
+    claim: >-
+      pCloud renders identical numerals for EUR and USD on its Business
+      pricing page (9.99, 29.97, 14.98, 44.94 under both currency labels
+      depending on gateway region), so the price is not FX-converted
+      between the two currencies as measured on 2026-09-04.
+    provenance:
+      source_url: https://www.pcloud.com/business.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: pcloud-seat-minimum
+    claim: >-
+      pCloud Business requires a minimum of 3 users at $9.99 per user a
+      month billed monthly, so the cheapest possible Business plan costs
+      $29.97 a month regardless of team size below 3 (2026-09-04).
+    provenance:
+      source_url: https://www.pcloud.com/business.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: pcloud-pro-promo-gate
+    claim: >-
+      pCloud's advertised Business Pro price of $14.98 per user a month is
+      a new-account-only promo; the page states it excludes existing
+      accounts, renewals, plan changes, seat additions, and reactivations,
+      which stand at $19.98 per user a month (2026-09-04).
+    provenance:
+      source_url: https://www.pcloud.com/business.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: pcloud-compliance-marks
+    claim: >-
+      pCloud advertises an EU data center with GDPR, ISO 27001 and ISO
+      9001 as Business-plan selling points, alongside client-side
+      encryption (2026-09-04).
+    provenance:
+      source_url: https://www.pcloud.com/business.html
+      fetched_at: 2026-09-04
+      method: live_fetch

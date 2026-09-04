@@ -1,0 +1,22 @@
+URL: https://www.sharefile.com/plans (redirect target of https://www.sharefile.com/plans-pricing)
+STATUS: 200
+FETCHED: 2026-09-04 12:53:26 +00:00 (US gateway 68.183.49.222, pricing) and 12:54:58 +00:00 (DE gateway 168.119.99.193, FAQ JSON-LD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed) for pricing cards; a targeted query of script[type="application/ld+json"] for FAQPage schema (the FAQ accordion answers are not in the rendered innerText, same pattern as Sprout Social/Slite/GoTo/Later this session).
+---
+Toggle: "Pay Monthly | Pay Annually" (governs all 4 cards at once).
+Advanced — "Secure File Sharing for Teams" — $18.15 monthly-billed / $16.50 annual-billed, per user/month, minimum of 3 users. Buy Now / Try Free. Encrypted file storage and sharing, secure email integrations and real-time co-editing, granular access controls, basic reporting.
+Premium (Most Popular) — "End-to-End Document Workflows for Teams and Clients" — $28.59 monthly / $26.00 annual, per user/month, minimum of 3 users. All Advanced features plus client portal, e-signature, requests/tasks/forms/workflow automation, HIPAA/FINRA/SEC compliance support, AI-powered document automation, 3,000 AI units per license/month.
+Industry Advantage (For Accounting) — "Pre-Built, Accounting-Specific Document Workflow Automation" — $45.83 monthly / $41.66 annual, per user/month, minimum of 3 users. All Premium features plus pre-built tax engagement templates, bulk client onboarding, centralized engagement view.
+Virtual Data Room — "Confidential Document Sharing with Granular Access Control" — $77.00 monthly / $69.30 annual, per user/month, minimum of 5 users. Granular permissions, real-time activity tracking/analytics, watermarking, NDA enforcement.
+Ratio check: annual/monthly = 0.909-0.910 across all 4 tiers (consistent ~9.1% annual discount, i.e. roughly 1 month free).
+Enterprise: "Looking for Enterprise Options?" — contact sales, no price shown.
+FAQPage JSON-LD (7 questions):
+1. "What billing options does ShareFile offer, and can I change them later?" — "choose from monthly or annual at the time of sign-up. Your selected billing cycle remains fixed for the term of the subscription. If you begin with a monthly plan, you can upgrade to an annual or multi-year plan at any time to take advantage of cost savings. However, downgrading from annual or multi-year billing back to monthly is not currently supported."
+2. "How long will it take to set up?" — cloud-based, no downloads/installs; on-premises/hybrid available on Enterprise.
+3. "How does ShareFile secure my files?" — up to 256-bit encryption in transit and at rest.
+4. "What's the difference between a client user and an employee user?" — "Employee users manage the account and can request and send files to client users. Client users are able to upload and download files... All ShareFile plans have unlimited client users." (only employee users count toward the seat price)
+5. Email/search/sync integrations (Outlook, Google Workspace, mapped drive).
+6. Encrypted email — recipients don't need to be ShareFile customers to view/respond.
+7. "Can I send files for e-signature from ShareFile?" — "The ShareFile Premium plans includes integrated electronic signature at no extra cost."
+No cancellation, refund, or data-export language found in the FAQ or pricing cards.
+Page title: "ShareFile Plans & Pricing | Get Free Trial | ShareFile". ShareFile is part of Progress Software Corporation.

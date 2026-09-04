@@ -1,0 +1,192 @@
+slug: sharefile
+vendor: Citrix (Progress Software)
+product: ShareFile
+category: cloud_storage
+url: https://www.sharefile.com/plans
+free_trial: "Free trial offered on every priced plan (\"Try Free\" button on each card, stated 2026-09-04)."
+pricing_note: "Per-employee-user pricing with a 3-user minimum on Advanced, Premium and Industry Advantage, and a 5-user minimum on Virtual Data Room. Every plan includes unlimited external client users at no charge; only internal employee users count toward the seat price. Annual billing is shown alongside monthly billing on the same card at a consistent ~9% discount; standard (annual) figures are the compare tiers, with a monthly-billed variant recorded separately. Enterprise is quote-only and not priced here."
+
+tiers:
+  - plan: Advanced
+    base_monthly_usd: 49.50
+    per_seat_monthly_usd: 16.50
+    included_seats: 3
+    seat_label: employee user
+    billing: annual
+    provenance:
+      source_url: https://www.sharefile.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Advanced Secure File Sharing for Teams $18.15 $16.50 Per user/month Minimum of 3 users." Encrypted file storage and sharing, secure email integrations, real-time co-editing, granular access controls, basic reporting.'
+  - plan: Advanced (monthly)
+    base_monthly_usd: 54.45
+    per_seat_monthly_usd: 18.15
+    included_seats: 3
+    seat_label: employee user
+    billing: monthly
+    compare: false
+    provenance:
+      source_url: https://www.sharefile.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "Monthly-billed figure shown on the same card as the annual-billed figure."
+  - plan: Premium
+    base_monthly_usd: 78.00
+    per_seat_monthly_usd: 26.00
+    included_seats: 3
+    seat_label: employee user
+    billing: annual
+    provenance:
+      source_url: https://www.sharefile.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Premium End-to-End Document Workflows for Teams and Clients $28.59 $26.00 Per user/month Minimum of 3 users." All Advanced features plus client portal, e-signature, HIPAA/FINRA/SEC compliance support, AI document automation, 3,000 AI units per license/month. Marked "Most Popular".'
+  - plan: Premium (monthly)
+    base_monthly_usd: 85.77
+    per_seat_monthly_usd: 28.59
+    included_seats: 3
+    seat_label: employee user
+    billing: monthly
+    compare: false
+    provenance:
+      source_url: https://www.sharefile.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "Monthly-billed figure shown on the same card as the annual-billed figure."
+  - plan: Industry Advantage
+    base_monthly_usd: 124.98
+    per_seat_monthly_usd: 41.66
+    included_seats: 3
+    seat_label: employee user
+    billing: annual
+    standalone: false
+    provenance:
+      source_url: https://www.sharefile.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Industry Advantage Pre-Built, Accounting-Specific Document Workflow Automation $45.83 $41.66 Per user/month Minimum of 3 users." Accounting-specific: pre-built tax engagement templates, bulk client onboarding.'
+  - plan: Industry Advantage (monthly)
+    base_monthly_usd: 137.49
+    per_seat_monthly_usd: 45.83
+    included_seats: 3
+    seat_label: employee user
+    billing: monthly
+    compare: false
+    standalone: false
+    provenance:
+      source_url: https://www.sharefile.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "Monthly-billed figure shown on the same card as the annual-billed figure."
+  - plan: Virtual Data Room
+    base_monthly_usd: 346.50
+    per_seat_monthly_usd: 69.30
+    included_seats: 5
+    seat_label: employee user
+    billing: annual
+    standalone: false
+    provenance:
+      source_url: https://www.sharefile.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Virtual Data Room Confidential Document Sharing with Granular Access Control $77.00 $69.30 Per user/month Minimum of 5 users." For M&A, audits, litigation: granular permissions, real-time activity tracking, watermarking, NDA enforcement.'
+  - plan: Virtual Data Room (monthly)
+    base_monthly_usd: 385.00
+    per_seat_monthly_usd: 77.00
+    included_seats: 5
+    seat_label: employee user
+    billing: monthly
+    compare: false
+    standalone: false
+    provenance:
+      source_url: https://www.sharefile.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "Monthly-billed figure shown on the same card as the annual-billed figure."
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "Your selected billing cycle remains fixed for the term of the subscription... If you begin with a monthly plan, you can upgrade to an annual or multi-year plan at any time to take advantage of cost savings. However, downgrading from annual or multi-year billing back to monthly is not currently supported."
+    finding: >-
+      ShareFile's FAQ states customers can upgrade from monthly to annual
+      billing at any time but cannot downgrade from annual back to monthly
+      (2026-09-04).
+    provenance:
+      source_url: https://www.sharefile.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      ShareFile's plans page and FAQ state no cancellation terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.sharefile.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      ShareFile's plans page and FAQ state no data-export terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.sharefile.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      ShareFile's plans page and FAQ state no refund terms (2026-09-04).
+    provenance:
+      source_url: https://www.sharefile.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: sharefile-client-users-free
+    claim: >-
+      ShareFile's FAQ states all plans include unlimited external client
+      users at no charge; only internal employee users count toward the
+      3-to-5-user minimum and per-seat price (2026-09-04).
+    provenance:
+      source_url: https://www.sharefile.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: sharefile-no-annual-downgrade
+    claim: >-
+      ShareFile allows upgrading from monthly to annual billing at any
+      time but does not support downgrading from annual or multi-year
+      billing back to monthly, per its own FAQ (2026-09-04).
+    provenance:
+      source_url: https://www.sharefile.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: sharefile-price-ladder
+    claim: >-
+      ShareFile prices Advanced at $16.50, Premium at $26.00, Industry
+      Advantage at $41.66 and Virtual Data Room at $69.30 per employee user
+      a month billed annually, so the top priced tier costs over 4 times
+      the entry tier (2026-09-04).
+    provenance:
+      source_url: https://www.sharefile.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: sharefile-esignature-gate
+    claim: >-
+      ShareFile includes integrated e-signature "at no extra cost" starting
+      at the Premium plan, alongside HIPAA, FINRA and SEC compliance
+      support (2026-09-04).
+    provenance:
+      source_url: https://www.sharefile.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: sharefile-accounting-tier
+    claim: >-
+      ShareFile sells a dedicated Industry Advantage tier priced above
+      Premium specifically for accounting firms, with pre-built tax
+      engagement templates and bulk client onboarding (2026-09-04).
+    provenance:
+      source_url: https://www.sharefile.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch

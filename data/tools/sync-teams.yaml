@@ -1,0 +1,170 @@
+slug: sync-teams
+vendor: Sync.com
+product: Sync Teams
+category: cloud_storage
+url: https://www.sync.com/pricing/
+free_trial: "30-day free trial ('zero-risk... start now and cancel anytime') and a separate 'Full 30-day money back guarantee' stated on the pricing page (2026-09-04)."
+pricing_note: "Per-user pricing with a stated 3-user minimum on every Teams tier, priced by storage (1/2/10 TB). The page shows both monthly-billed and annual-billed figures for each tier at once, plus a sitewide 'Save 50% off for 1 year' promo struck through every price; standard prices are recorded as tiers with the promo noted per tier. Enterprise is quote-only with a stated 100-user minimum and is not priced here."
+
+tiers:
+  - plan: Teams 1TB
+    base_monthly_usd: 18
+    per_seat_monthly_usd: 6
+    included_seats: 3
+    seat_label: user
+    billing: annual
+    promo: "Sitewide 'Save 50% off for 1 year' banner struck this to $3/user/month billed annually as of 2026-09-04."
+    provenance:
+      source_url: https://www.sync.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Teams 1TB For your small business or team $8 $4 $6 $3 per user, per month / per user, per month, billed annually... 1 TB secure storage, Advanced sharing, Administrator account, 3 user minimum."'
+  - plan: Teams 1TB (monthly)
+    base_monthly_usd: 24
+    per_seat_monthly_usd: 8
+    included_seats: 3
+    seat_label: user
+    billing: monthly
+    compare: false
+    promo: "Sitewide promo struck this to $4/user/month billed monthly as of 2026-09-04."
+    provenance:
+      source_url: https://www.sync.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "Monthly-billed figure shown alongside the annual figure on the same card."
+  - plan: Teams 2TB
+    base_monthly_usd: 27
+    per_seat_monthly_usd: 9
+    included_seats: 3
+    seat_label: user
+    billing: annual
+    promo: "Sitewide promo struck this to $4.50/user/month billed annually as of 2026-09-04."
+    provenance:
+      source_url: https://www.sync.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Teams 2TB For teams needing more control $12 $6 $9 $4.50 per user, per month / billed annually... 2 TB secure storage, Advanced sharing, Custom branding, Role-based access control, Admin delegation, 3 user minimum."'
+  - plan: Teams 2TB (monthly)
+    base_monthly_usd: 36
+    per_seat_monthly_usd: 12
+    included_seats: 3
+    seat_label: user
+    billing: monthly
+    compare: false
+    promo: "Sitewide promo struck this to $6/user/month billed monthly as of 2026-09-04."
+    provenance:
+      source_url: https://www.sync.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "Monthly-billed figure shown alongside the annual figure on the same card."
+  - plan: Teams 10TB
+    base_monthly_usd: 45
+    per_seat_monthly_usd: 15
+    included_seats: 3
+    seat_label: user
+    billing: annual
+    promo: "Sitewide promo struck this to $7.50/user/month billed annually as of 2026-09-04."
+    provenance:
+      source_url: https://www.sync.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Teams 10TB For teams needing massive storage and enhanced support $18 $9 $15 $7.50 per user, per month / billed annually... 10 TB secure storage, VIP support, 3 user minimum. Start 30-day trial" (only tier whose button says trial rather than "Buy now").'
+  - plan: Teams 10TB (monthly)
+    base_monthly_usd: 54
+    per_seat_monthly_usd: 18
+    included_seats: 3
+    seat_label: user
+    billing: monthly
+    compare: false
+    promo: "Sitewide promo struck this to $9/user/month billed monthly as of 2026-09-04."
+    provenance:
+      source_url: https://www.sync.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "Monthly-billed figure shown alongside the annual figure on the same card."
+
+clauses:
+  - topic: cancellation
+    status: stated
+    quote: "You can start now and cancel anytime."
+    finding: >-
+      Sync.com's pricing FAQ states customers on its 30-day free trial "can
+      start now and cancel anytime" (2026-09-04).
+    provenance:
+      source_url: https://www.sync.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: stated
+    quote: "Full 30-day money back guarantee."
+    finding: >-
+      Sync.com states a full 30-day money-back guarantee on its compare-plans
+      section, separate from the 30-day free trial (2026-09-04).
+    provenance:
+      source_url: https://www.sync.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    quote: "There are no hidden costs or setup fees, and you can upgrade or change plans at any time (upgrades are always pro-rated for fair billing)."
+    finding: >-
+      Sync.com states plan upgrades are always pro-rated and that there are
+      no hidden costs or setup fees (2026-09-04).
+    provenance:
+      source_url: https://www.sync.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Sync.com's pricing page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://www.sync.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: auto_renew
+    status: not_stated
+    finding: >-
+      Sync.com's pricing page states no auto-renewal notice terms beyond
+      "cancel anytime" (2026-09-04).
+    provenance:
+      source_url: https://www.sync.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: sync-half-off-year-one
+    claim: >-
+      Sync.com runs a sitewide "Save 50% off for 1 year" promo across every
+      Teams tier, so a Teams 1TB seat lists at $6 a month billed annually
+      but strikes to $3 for new customers' first year (2026-09-04).
+    provenance:
+      source_url: https://www.sync.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: sync-seat-minimum
+    claim: >-
+      Every Sync.com Teams tier requires a minimum of 3 users, so the
+      cheapest Teams 1TB plan costs $18 a month billed annually (standard
+      rate) regardless of team size below 3 (2026-09-04).
+    provenance:
+      source_url: https://www.sync.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: sync-enterprise-gate
+    claim: >-
+      Sync Enterprise requires a minimum of 100 users and is quote-only,
+      positioned above the priced Teams 10TB tier for "org-wide controls"
+      (2026-09-04).
+    provenance:
+      source_url: https://www.sync.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: sync-no-setup-fees
+    claim: >-
+      Sync.com states there are no hidden costs or setup fees on any Teams
+      plan, and that plan upgrades are pro-rated (2026-09-04).
+    provenance:
+      source_url: https://www.sync.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
