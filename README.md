@@ -1268,6 +1268,31 @@ mismatch with the rest of this category.
 
 Database is now 232 tools across 57 categories.
 
+### Notary & signing business management software (2026-09-04)
+
+Three vendors: CloseWise, NotaryAssist, NotaryGadget. Seat axis is
+"notaries" (1, 3, 5, 10, 25).
+
+CloseWise sells two tracks from one pricing page: solo-notary plans (Pro
+$15/mo, Pro+ $40/mo, both capped at one seat) and signing-service/title-
+company plans that scale by a flat rate good for a team-member cap rather
+than a genuine per-seat increment (Starter $20/mo for up to 5 team
+members, Professional $100/mo for up to 10; each also carries a per-order
+fee not modeled here). NotaryAssist and NotaryGadget are both
+single-notary tools with no team plan disclosed — NotaryAssist at
+$7.92/mo annual ($8.99/mo monthly), NotaryGadget at $11.95/mo monthly
+only (its annual price is rendered as an image rather than text and
+could not be read).
+
+Two other categories were researched and abandoned this session before
+landing on this one: real estate appraisal software (a la mode/ACI,
+Bradford ClickForms, and other major players all returned broken or
+quote-gated pricing pages) and driving school management software (most
+candidates surfaced by search either don't resolve to a real domain or
+price per-student rather than per-seat, an axis mismatch).
+
+Database is now 235 tools across 58 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

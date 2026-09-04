@@ -1,0 +1,40 @@
+slug: notaryassist
+vendor: NotaryAssist
+product: NotaryAssist
+category: notary_signing_business_management
+url: https://notaryassist.com/
+pricing_note: 'NotaryAssist is a single-notary business-management tool with no team/multi-seat plan disclosed. Annual billing is recorded as primary per this site''s policy of treating a headlined prepaid-annual rate as primary; monthly is recorded separately.'
+
+tiers:
+  - plan: NotaryAssist (annual)
+    base_monthly_usd: 7.92
+    max_seats: 1
+    billing: annual
+    seat_label: notary
+    provenance:
+      source_url: https://notaryassist.com/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Annual — $95.00/Year" on the homepage''s Pricing Plan section. Computed as $95/12 = $7.92/mo.'
+  - plan: NotaryAssist (monthly)
+    base_monthly_usd: 8.99
+    max_seats: 1
+    billing: monthly
+    seat_label: notary
+    compare: false
+    provenance:
+      source_url: https://notaryassist.com/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Monthly — $8.99/Monthly" on the homepage''s Pricing Plan section. Both plans include Assignment Information, Auto Mileage Calculator, Business and Tax Reports, Customer Manager, Schedule Manager, Business Expenses, Account Invoices, Driving Directions.'
+
+findings:
+  - id: notaryassist-no-published-team-plan
+    claim: >-
+      NotaryAssist publishes only single-notary Monthly and Annual plans on
+      its homepage pricing section, with no multi-seat or team plan
+      disclosed, as of 2026-09-04.
+    provenance:
+      source_url: https://notaryassist.com/
+      fetched_at: 2026-09-04
+      method: live_fetch

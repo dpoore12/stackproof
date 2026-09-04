@@ -1,0 +1,16 @@
+Source: https://www.closewise.com/pricing
+Fetched: 2026-09-04
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+For Notaries (solo):
+Always Free — Free — Basic tools to get you started
+Pro — $15/month — Enhanced tools for growing businesses
+Pro+ — $40/month — Complete toolkit for professional agents (adds website
+  builder, custom domain, online booking)
+
+For Signing Services & Title Companies (team, "Built for Teams That Move
+Volume"):
+Starter — $20/month — $2 per order — Up to 5 team members
+Professional — $100/month — $1.50 per order — Up to 10 team members
+Enterprise — Custom — Unlimited team members, custom pricing per order,
+  full CRM suite (Contact Sales)

@@ -1,0 +1,29 @@
+slug: notarygadget
+vendor: NotaryGadget
+product: NotaryGadget
+category: notary_signing_business_management
+url: https://www.notarygadget.com/pricing
+pricing_note: 'NotaryGadget is a single-notary business-management tool (no team/multi-seat plan disclosed). Its annual-billing price is rendered as an image ("Graphics/Website/999.png") rather than as text, so it could not be confidently read from static page content; only the monthly rate, which is present as plain text, is recorded.'
+
+tiers:
+  - plan: NotaryGadget
+    base_monthly_usd: 11.95
+    max_seats: 1
+    billing: monthly
+    seat_label: notary
+    provenance:
+      source_url: https://www.notarygadget.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$11.95 per month billed monthly, cancel anytime." A cheaper annual-billed rate is advertised ("Per month billed annually") but its digit is rendered as an image rather than text and was not captured.'
+
+findings:
+  - id: notarygadget-free-first-15-signings
+    claim: >-
+      NotaryGadget offers full access to all its features free for a
+      user's first 15 signings, with no credit card required to start,
+      per its own pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://www.notarygadget.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
