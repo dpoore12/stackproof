@@ -1,0 +1,103 @@
+slug: wellnessliving
+vendor: WellnessLiving
+product: WellnessLiving
+category: gym_management
+url: https://www.wellnessliving.com/pricing/
+pricing_note: 'WellnessLiving''s own feature table confirms "Client Database: Unlimited" on every tier (Starter, Business, BusinessPro, Enterprise) -- the differentiator between tiers is staff count ("Staff Management: 1 / Unlimited / Unlimited / Unlimited"), not active-member count, so no tier caps this category''s active-member axis. Regular (non-promotional) prices are recorded as tiers; a site-wide "80% off for 2 months" promo active at fetch time is captured as a finding instead.'
+
+tiers:
+  - plan: Starter
+    base_monthly_usd: 62
+    per_seat_monthly_usd: 0
+    seat_label: active member
+    billing: annual
+    provenance:
+      source_url: https://www.wellnessliving.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$62/mo" billed annually (Save 10%). 1 staff member; unlimited clients. Classes & appointments booking, POS, email/SMS notifications.'
+  - plan: Starter (monthly billing)
+    compare: false
+    base_monthly_usd: 69
+    per_seat_monthly_usd: 0
+    seat_label: active member
+    billing: monthly
+    provenance:
+      source_url: https://www.wellnessliving.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$69/mo" month-to-month.'
+  - plan: Business
+    base_monthly_usd: 179
+    per_seat_monthly_usd: 0
+    seat_label: active member
+    billing: annual
+    provenance:
+      source_url: https://www.wellnessliving.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$179/mo" billed annually (regular price; a temporary "$35/mo" promo was active at fetch time). Unlimited staff, unlimited clients. Adds rewards/loyalty, events scheduling, email & text marketing, lead management over Starter.'
+  - plan: Business (monthly billing)
+    compare: false
+    base_monthly_usd: 199
+    per_seat_monthly_usd: 0
+    seat_label: active member
+    billing: monthly
+    provenance:
+      source_url: https://www.wellnessliving.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$199/mo" month-to-month (regular price; a temporary "$39/mo" promo was active at fetch time).'
+  - plan: BusinessPro
+    base_monthly_usd: 314
+    per_seat_monthly_usd: 0
+    seat_label: active member
+    billing: annual
+    provenance:
+      source_url: https://www.wellnessliving.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$314/mo" billed annually (regular price; a temporary "$62/mo" promo was active at fetch time). Marked "MOST POPULAR." Adds White Label Achieve client app over Business.'
+  - plan: BusinessPro (monthly billing)
+    compare: false
+    base_monthly_usd: 349
+    per_seat_monthly_usd: 0
+    seat_label: active member
+    billing: monthly
+    provenance:
+      source_url: https://www.wellnessliving.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$349/mo" month-to-month (regular price; a temporary "$69/mo" promo was active at fetch time).'
+  - plan: API Access
+    standalone: false
+    compare: false
+    base_monthly_usd: 19
+    per_seat_monthly_usd: 0
+    seat_label: active member
+    billing: monthly
+    provenance:
+      source_url: https://www.wellnessliving.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Add-on available on all four tiers: "$19/mo."'
+
+findings:
+  - id: wellnessliving-promo-active
+    claim: >-
+      WellnessLiving was running a site-wide "Get 80% off your
+      subscription for 2 months!" promotion at time of fetch, expiring
+      September 18th, 2026, discounting Business to $39/mo and
+      BusinessPro to $69/mo for the first two months (2026-09-04).
+    provenance:
+      source_url: https://www.wellnessliving.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: wellnessliving-veteran-discount
+    claim: >-
+      WellnessLiving offers a 15% discount to veterans with quick
+      verification (2026-09-04).
+    provenance:
+      source_url: https://www.wellnessliving.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

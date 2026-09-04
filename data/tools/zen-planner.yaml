@@ -1,0 +1,74 @@
+slug: zen-planner
+vendor: Zen Planner
+product: Zen Planner Studio
+category: gym_management
+url: https://zenplanner.com/pricing/
+pricing_note: 'Zen Planner''s FAQ confirms pricing is "tiered based on Active Members" but the actual per-tier breakdown loads through an interactive tool not present in the static page -- only the entry "Starting at $99/month" figure is rendered. Recorded as compare: false since the real scaling formula by active-member count is not captured.'
+
+tiers:
+  - plan: Zen Planner Studio
+    compare: false
+    base_monthly_usd: 99
+    per_seat_monthly_usd: 0
+    seat_label: active member
+    billing: monthly
+    provenance:
+      source_url: https://zenplanner.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Starting at $99/month." "The essential toolkit for your day-to-day." Full access to 100% of Studio package features at every price level -- pricing scales only with active-member tier, never with feature access.'
+  - plan: Studio Extensions -- Website
+    standalone: false
+    compare: false
+    base_monthly_usd: 99
+    per_seat_monthly_usd: 0
+    seat_label: active member
+    billing: monthly
+    provenance:
+      source_url: https://zenplanner.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Add-on: "$99/month." Customizable design, SEO optimization, integrated lead capture.'
+  - plan: Studio Extensions -- Engage
+    standalone: false
+    compare: false
+    base_monthly_usd: 249
+    per_seat_monthly_usd: 0
+    seat_label: active member
+    billing: monthly
+    provenance:
+      source_url: https://zenplanner.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Add-on: "$249/month." Advanced marketing automation, AI-powered campaigns, lead management.'
+  - plan: Branded App
+    standalone: false
+    compare: false
+    base_monthly_usd: 39
+    per_seat_monthly_usd: 0
+    seat_label: active member
+    billing: monthly
+    provenance:
+      source_url: https://zenplanner.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Add-on: "$39/month." Custom-branded mobile app for member engagement.'
+
+findings:
+  - id: zen-planner-active-member-definition
+    claim: >-
+      Zen Planner defines an Active Member as "anyone with a Membership
+      or who has attended an Event in the past month," and states "We'll
+      never charge you for prospects or staff" (2026-09-04).
+    provenance:
+      source_url: https://zenplanner.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: zen-planner-contract-terms
+    claim: >-
+      Zen Planner is billed month-to-month by default, with annual
+      contracts available on request (2026-09-04).
+    provenance:
+      source_url: https://zenplanner.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

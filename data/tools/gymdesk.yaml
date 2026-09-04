@@ -1,0 +1,90 @@
+slug: gymdesk
+vendor: Gymdesk
+product: Gymdesk
+category: gym_management
+url: https://gymdesk.com/pricing
+
+tiers:
+  - plan: Gymdesk
+    seat_label: active member
+    billing: monthly
+    steps:
+      - up_to: 50
+        monthly_usd: 75
+      - up_to: 100
+        monthly_usd: 100
+      - up_to: 200
+        monthly_usd: 150
+      - up_to: 400
+        monthly_usd: 200
+    provenance:
+      source_url: https://gymdesk.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Interactive "Build Your Price" calculator, tier table embedded in the page''s own JavaScript: Micro Gym (up to 50 active members) $75/mo, Small Gym (up to 100) $100/mo, Medium Gym (up to 200) $150/mo, Large Gym (up to 400) $200/mo. Every tier includes the full platform, no feature gating. Month-to-month, no contract. Beyond 400 active members (Enterprise) the calculator states "no published rate to show."'
+
+fees:
+  - name: Additional location
+    amount_usd: 50
+    unit: per month, per location beyond the first
+    provenance:
+      source_url: https://gymdesk.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - name: Door access add-on
+    amount_usd: 100
+    unit: per month, covers up to 3 doors ($29/mo per additional door)
+    provenance:
+      source_url: https://gymdesk.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - name: Branded member app add-on
+    amount_usd: 100
+    unit: per month (first month free)
+    provenance:
+      source_url: https://gymdesk.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: gymdesk-active-member-definition
+    claim: >-
+      Gymdesk excludes visitors, frozen members, cancelled clients, and
+      prospects from its active-member count used to determine pricing
+      tier (2026-09-04).
+    provenance:
+      source_url: https://gymdesk.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: gymdesk-no-exit-fee
+    claim: >-
+      Gymdesk charges no fee to cancel and no fee to export data on the
+      way out, and offers a 30-day free trial with no credit card
+      required (2026-09-04).
+    provenance:
+      source_url: https://gymdesk.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: data_export
+    status: stated
+    quote: "Members, attendance history, payment records, waivers and documents, in standard files you can open anywhere. Self serve from your account, not a support ticket."
+    finding: >-
+      Gymdesk allows self-service export of all member and business
+      data in standard file formats at any time, without a support
+      ticket (2026-09-04).
+    provenance:
+      source_url: https://gymdesk.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: stated
+    quote: "We do not charge you to cancel and we do not charge you to take your records with you. Cancel from inside your account whenever you want."
+    finding: >-
+      Gymdesk allows self-service cancellation at any time with no exit
+      fee (2026-09-04).
+    provenance:
+      source_url: https://gymdesk.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -1,0 +1,9 @@
+URL: https://www.pushpress.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 18:07:16 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText directly.
+
+Three tiers, no monthly/annual billing distinction stated (single price shown for each): Free $0 -- "Small gyms and studios ready to lay the foundation for growth and success." "No monthly fees." Pro $159/mo -- "Mid-size gyms and studios ready to scale their business and optimize operations." Max $229/mo -- "Established gyms and studios ready to streamline operations and accelerate growth."
+Feature comparison table confirms every tier is genuinely unlimited on every headcount dimension: "Users: Leads... Unlimited Unlimited Unlimited. Admins... Unlimited Unlimited Unlimited. Members... Unlimited Unlimited Unlimited. Staff... Unlimited Unlimited Unlimited," identical across Free/Pro/Max -- tiers differ only by feature set (AI support, automations, marketing/CRM), never by headcount of any kind.
+Payment processing rates fall by tier: Free 4.99%+$0.30 (credit card) / 2.89%+$0.30 (ACH); Pro and Max 2.89%+$0.30 credit / 0.79%+$0.30 ACH (Max also has a lower 2.75% credit card rate).
+Note: the page's own FAQ prose describes a different, apparently stale set of plan names/prices ("Core (Free)... Core Pro ($159/month)... Train (starting at $79/month)... Grow ($329/month)... Full Stack (~$559/month)") that do not match the visible Free/Pro/Max pricing cards -- disregarded in favor of the rendered cards, which are the site's actual current self-serve checkout flow ("Book a Demo" CTA on all three).

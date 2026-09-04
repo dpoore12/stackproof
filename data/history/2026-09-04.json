@@ -2536,6 +2536,60 @@
    ],
    "vendor": "Gusto"
   },
+  "gymdesk": {
+   "category": "gym_management",
+   "fees": [
+    {
+     "amount_usd": 50.0,
+     "fetched_at": "2026-09-04",
+     "name": "Additional location",
+     "unit": "per month, per location beyond the first"
+    },
+    {
+     "amount_usd": 100.0,
+     "fetched_at": "2026-09-04",
+     "name": "Door access add-on",
+     "unit": "per month, covers up to 3 doors ($29/mo per additional door)"
+    },
+    {
+     "amount_usd": 100.0,
+     "fetched_at": "2026-09-04",
+     "name": "Branded member app add-on",
+     "unit": "per month (first month free)"
+    }
+   ],
+   "product": "Gymdesk",
+   "tiers": [
+    {
+     "base_monthly_usd": null,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Gymdesk",
+     "source_url": "https://gymdesk.com/pricing",
+     "steps": [
+      {
+       "monthly_usd": 75.0,
+       "up_to": 50
+      },
+      {
+       "monthly_usd": 100.0,
+       "up_to": 100
+      },
+      {
+       "monthly_usd": 150.0,
+       "up_to": 200
+      },
+      {
+       "monthly_usd": 200.0,
+       "up_to": 400
+      }
+     ]
+    }
+   ],
+   "vendor": "Gymdesk"
+  },
   "harvest": {
    "category": "time_tracking",
    "fees": [],
@@ -5189,6 +5243,44 @@
    ],
    "vendor": "Publer"
   },
+  "pushpress": {
+   "category": "gym_management",
+   "fees": [],
+   "product": "PushPress",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://www.pushpress.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 159.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro",
+     "source_url": "https://www.pushpress.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 229.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Max",
+     "source_url": "https://www.pushpress.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "PushPress"
+  },
   "quickbooks-online": {
    "category": "accounting",
    "fees": [],
@@ -6976,6 +7068,84 @@
    ],
    "vendor": "ProProfs"
   },
+  "wellnessliving": {
+   "category": "gym_management",
+   "fees": [],
+   "product": "WellnessLiving",
+   "tiers": [
+    {
+     "base_monthly_usd": 62.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter",
+     "source_url": "https://www.wellnessliving.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 69.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter (monthly billing)",
+     "source_url": "https://www.wellnessliving.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 179.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Business",
+     "source_url": "https://www.wellnessliving.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 199.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Business (monthly billing)",
+     "source_url": "https://www.wellnessliving.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 314.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "BusinessPro",
+     "source_url": "https://www.wellnessliving.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 349.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "BusinessPro (monthly billing)",
+     "source_url": "https://www.wellnessliving.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 19.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "API Access",
+     "source_url": "https://www.wellnessliving.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "WellnessLiving"
+  },
   "when-i-work": {
    "category": "shift_scheduling",
    "fees": [],
@@ -7251,6 +7421,54 @@
     }
    ],
    "vendor": "YouCanBookMe"
+  },
+  "zen-planner": {
+   "category": "gym_management",
+   "fees": [],
+   "product": "Zen Planner Studio",
+   "tiers": [
+    {
+     "base_monthly_usd": 99.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Zen Planner Studio",
+     "source_url": "https://zenplanner.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 99.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Studio Extensions -- Website",
+     "source_url": "https://zenplanner.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 249.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Studio Extensions -- Engage",
+     "source_url": "https://zenplanner.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 39.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Branded App",
+     "source_url": "https://zenplanner.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Zen Planner"
   },
   "zendesk": {
    "category": "helpdesk",
