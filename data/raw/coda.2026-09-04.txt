@@ -1,0 +1,16 @@
+URL: https://superhuman.com/plans/docs (coda.io/pricing redirects here)
+STATUS: 200
+FETCHED: 2026-09-04 00:48:19 +00:00 and 00:49:29 +00:00 (German gateway 168.119.141.170) — both rendered EUR
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed). The request to coda.io/pricing was redirected to superhuman.com/plans/docs?source=coda.io; Coda is now sold as Superhuman Docs. Cards print the annual per-Doc-Maker rate and the monthly rate.
+---
+Coda https://coda.io/pricing — fetch 1, 2026-09-04 00:48:19 +00:00, German gateway 168.119.141.170 — redirected to https://superhuman.com/plans/docs?source=coda.io ("Superhuman Docs | Pricing & Plans"); EUR rendered.
+Free — €0 — collaborative docs, Docs AI trial, MCP trial, connected tables/views/forms, formulas and automations.
+Pro — €12 / month per Doc Maker, billed annually; €15 when billed monthly — unlimited doc size, AI write/edit/ask (beta), 30-day version history, hidden pages, custom icons/branding/domains, Grammarly, Go.
+Business (Best value) — €33 / month per Doc Maker, billed annually; €40 when billed monthly — Databases (beta), unlimited automations, unlimited version history, private folders, subfolders, locking, cross-doc actions, group trainings, Grammarly, Go, Mail.
+Enterprise — Custom — SAML SSO, SCIM, AI admin controls, governance, audit events, SOC 2 Type 2, HIPAA.
+Features table: attachments 1 GB per doc (Free), 5 GB per doc (Pro), unlimited; version history 7 days / 30 days / unlimited; connectors manual / daily / hourly refresh. "Grammarly … Included on annual. $15/mo per Maker on monthly."
+FAQ — Who do I pay for and why? "each member can be either a Doc Maker (Admin), a Doc Maker, or an Editor … Editors and Viewers are always free. At the end of each billing cycle, you will be billed for the workspace based on the number of Doc Makers in it. Any changes to the number of Doc Makers in the workspace mid-cycle are automatically prorated."
+FAQ — Docs AI: included in any paid plan with unlimited access during beta (fair use); Free plan gets limited trials.
+FAQ (fetch 2) — When will I get billed? "you will be billed up front for all the users in your workspace. Whenever you add a new paid user to your workspace (or upgrade an existing one), we'll prorate them for the remainder of your billing cycle. On the annual plan, you will be charged monthly for these additional membership changes … Additionally, you will be charged whenever your bill exceeds $1,000 from adding new members."
+FAQ — Do I get a refund if I remove members or cancel? "When you remove members or cancel your plan, we'll apply a prorated credit onto your account you can use for future charges in your workspace."
+FAQ — Enterprise: "Even on Enterprise, you pay only for Doc Makers."

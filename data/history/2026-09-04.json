@@ -444,6 +444,51 @@
    ],
    "vendor": "CAKE.com"
   },
+  "coda": {
+   "category": "wiki",
+   "fees": [],
+   "product": "Superhuman Docs",
+   "tiers": [],
+   "vendor": "Superhuman (formerly Coda)"
+  },
+  "confluence": {
+   "category": "wiki",
+   "fees": [],
+   "product": "Confluence Cloud",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 10,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://www.atlassian.com/software/confluence/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 5.42,
+     "plan": "Standard",
+     "source_url": "https://www.atlassian.com/software/confluence/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 10.44,
+     "plan": "Premium",
+     "source_url": "https://www.atlassian.com/software/confluence/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Atlassian"
+  },
   "crisp": {
    "category": "live_chat",
    "fees": [
@@ -1802,6 +1847,89 @@
    "tiers": [],
    "vendor": "Nord Security"
   },
+  "notion": {
+   "category": "wiki",
+   "fees": [
+    {
+     "amount_usd": 10.0,
+     "fetched_at": "2026-09-04",
+     "name": "Custom Agents credits",
+     "unit": "per 1,000 monthly Notion credits"
+    }
+   ],
+   "product": "Notion",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://www.notion.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 10.0,
+     "plan": "Plus",
+     "source_url": "https://www.notion.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 20.0,
+     "plan": "Business",
+     "source_url": "https://www.notion.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Notion"
+  },
+  "nuclino": {
+   "category": "wiki",
+   "fees": [],
+   "product": "Nuclino",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://www.nuclino.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Starter",
+     "source_url": "https://www.nuclino.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 10.0,
+     "plan": "Business",
+     "source_url": "https://www.nuclino.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Nuclino"
+  },
   "olark": {
    "category": "live_chat",
    "fees": [],
@@ -2338,6 +2466,34 @@
     }
    ],
    "vendor": "airSlate"
+  },
+  "slite": {
+   "category": "wiki",
+   "fees": [],
+   "product": "Slite",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 10.0,
+     "plan": "Basic",
+     "source_url": "https://slite.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 20.0,
+     "plan": "Pro",
+     "source_url": "https://slite.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Slite"
   },
   "sprout-social": {
    "category": "social_scheduling",

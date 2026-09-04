@@ -143,6 +143,16 @@ rendered at its 1-20 default; JazzHR prints yearly totals only; Breezy HR
 returns 403 to the renderer. Add-ons priced on the page are recorded as
 fees.
 
+### Team wikis (2026-09-04)
+
+coda.io/pricing now redirects to superhuman.com/plans/docs, which rendered
+EUR on both fetches and is findings-only. Notion, Confluence and Slite
+rendered USD everywhere; Nuclino localizes by gateway (EUR on German
+gateways, USD on US ones). Notion's and Nuclino's billing switches do not
+re-render on a scripted click, so those records carry the default (yearly)
+figures; Confluence rendered its monthly switch by default. Seat points are
+1, 3, 5, 10, 25 members who edit.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

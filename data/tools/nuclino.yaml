@@ -1,0 +1,116 @@
+slug: nuclino
+vendor: Nuclino
+product: Nuclino
+category: wiki
+url: https://www.nuclino.com/pricing
+free_trial: "14-day free trial of Starter without a credit card, plus a Free plan capped at 50 items (stated 2026-09-04)."
+pricing_note: "Per-user pricing with no base fee; every team member including guests and read-only members counts as a paid user. The page rendered yearly billing ('up to 25% off') and the monthly rates did not render in the automated fetch. Prices localize by region: German gateways showed the same digits in euros."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.nuclino.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free $0/user/month … Up to 50 items, Up to 3 canvases, 2GB total storage".'
+  - plan: Starter
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 6
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.nuclino.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch on a US gateway with the yearly checkbox checked. "Starter $6/user/month … Unlimited items, Unlimited canvases, Admin tools, Publishing, 30-day version history, 10GB storage per user".'
+  - plan: Business
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 10
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.nuclino.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Business $10/user/month … Sidekick (AI), Audit log, SAML single sign-on (SSO), Unlimited version history, 20GB storage per user".'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Nuclino charges a prorated fee for each user added during a
+      subscription period and bills the whole team, guests and read-only
+      members included, on upgrade (2026-09-04).
+    quote: "Any additional user will be charged a prorated fee for the remainder of the subscription period."
+    provenance:
+      source_url: https://www.nuclino.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_retention
+    status: stated
+    finding: >-
+      Nuclino drops a workspace back to the Free plan after the trial with
+      paid-plan benefits removed but the workspace kept (2026-09-04).
+    quote: "If you decide to stay on the free plan, access to the benefits of the paid plans will be lost."
+    provenance:
+      source_url: https://www.nuclino.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Nuclino's pricing page states no cancellation or refund terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.nuclino.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Nuclino's pricing page states no export terms; its Business plan lets
+      admins restrict item and workspace export (2026-09-04).
+    provenance:
+      source_url: https://www.nuclino.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: nuclino-all-members-paid
+    claim: >-
+      Nuclino counts guests and read-only members as paid users, so a team
+      of 10 with 4 readers pays for 10 seats at $6 or $10 each on yearly
+      billing (2026-09-04).
+    provenance:
+      source_url: https://www.nuclino.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: nuclino-free-item-cap
+    claim: >-
+      Nuclino's Free plan caps a team at 50 items and 3 canvases across all
+      workspaces with 2 GB of total storage (2026-09-04).
+    provenance:
+      source_url: https://www.nuclino.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: nuclino-geo-currency
+    claim: >-
+      Nuclino showed €6 and €10 per user on a German gateway and $6 and $10
+      on US gateways on 2026-09-04, the same digits in 2 currencies.
+    provenance:
+      source_url: https://www.nuclino.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: nuclino-volume-discount-threshold
+    claim: >-
+      Nuclino offers volume pricing only on request for teams above 100
+      users, and accepts cards or PayPal (2026-09-04).
+    provenance:
+      source_url: https://www.nuclino.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

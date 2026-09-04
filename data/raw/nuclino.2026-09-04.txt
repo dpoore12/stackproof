@@ -1,0 +1,16 @@
+URL: https://www.nuclino.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 00:51:02 +00:00 (German gateway 168.119.99.193, EUR) and 00:51:17 +00:00 (US gateway 68.183.149.129, USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed). "Billed monthly / Billed yearly (up to 25% off)" checkbox rendered checked (yearly); a scripted click on the checkbox did not re-render the prices before the read, so monthly rates were not captured.
+---
+[US gateway, USD] Free $0/user/month — up to 50 items, up to 3 canvases, 2GB total storage. Starter $6/user/month (yearly) — "START 14-DAY FREE TRIAL — No credit card required" — unlimited items and canvases, admin tools, publishing, 30-day version history, 10GB storage per user.
+Nuclino https://www.nuclino.com/pricing — fetch 1, 2026-09-04 00:51:02 +00:00, German gateway 168.119.99.193 — EUR. "Billed monthly / Billed yearly (up to 25% off)"; billing period checkbox=true (yearly).
+Free — €0/user/month — up to 50 items, up to 3 canvases, 2GB total storage.
+Starter — €6/user/month (yearly) — 14-day free trial, no credit card — unlimited items and canvases, admin tools, publishing, 30-day version history, 10GB storage per user.
+Business — €10/user/month (yearly) — Sidekick AI, audit log, team insights, advanced security controls, SAML SSO, custom publishing domain, unlimited version history, 20GB storage per user.
+FAQ — What is a user? "A user is anyone who joins your team in Nuclino, including guests and read-only members. When you upgrade to a paid plan, you upgrade your entire team including all users."
+FAQ — 50 item limit: free plan allows up to 50 documents across all workspaces.
+FAQ — Trial expiry: "you can decide if you want to upgrade or stay on the free plan."
+FAQ — Payment: credit card or PayPal. Adding users: "Any additional user will be charged a prorated fee for the remainder of the subscription period."
+FAQ — Volume discounts for more than 100 users on request.
+[US gateway 68.183.60.80, third fetch 00:51:34 +00:00, USD] Business $10/user/month (yearly) — Sidekick (AI), audit log, team insights, advanced security controls, SAML SSO, custom publishing domain, unlimited version history, 20GB storage per user.

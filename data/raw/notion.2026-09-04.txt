@@ -1,0 +1,22 @@
+URL: https://www.notion.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 00:45:39 +00:00 (US gateway 68.183.60.34) and 00:46:19 +00:00 (German gateway 168.119.99.192) — USD on both
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed). Toggle "Pay monthly / Pay yearly — Save up to 20% with yearly" rendered with yearly active; a scripted click on "Pay monthly" did not re-render before the read, so only yearly per-member rates were captured.
+---
+Notion https://www.notion.com/pricing — fetch 1, 2026-09-04 00:45:39 +00:00, US gateway 68.183.60.34 — USD. Toggle "Pay monthly / Pay yearly — Save up to 20% with yearly" (yearly active). "Price in USD".
+Free — $0 per member/month — trial of Notion AI, basic forms, basic sites, Notion Calendar, databases. Pages & blocks: unlimited for individuals, limited for 2+ members. File uploads up to 5 MB. Page history 7 days. External guest limit 10.
+Plus* — $10 per member/month (yearly) — custom forms, custom sites, unlimited charts, unlimited collaborative blocks, unlimited file uploads (~5GB max per file), basic connections. Page history 30 days. Unlimited guests.
+Business (Recommended) — $20 per member/month (yearly) — Notion Agent, AI Meeting Notes, Enterprise Search (beta), SAML SSO, granular database permissions, verify any page, private teamspaces, domain verification, premium connections. Page history 90 days.
+Enterprise* — Custom pricing — zero data retention with LLM providers, SCIM, advanced security, audit log, CSM, DLP/SIEM connections, domain management. Page history unlimited.
+Custom Agents: "Free to try, then $10 per 1,000 monthly Notion credits." Workers (beta): starts using credits on October 15.
+"* Plans may not be available for every workspace."
+Plans and features table: Free $0 per seat/month; Plus* $10 per seat/month; Business $20 per seat/month; Enterprise contact.
+Fetch 2, 00:46:19 +00:00, German gateway 168.119.99.192 (still USD). A scripted click on "Pay monthly" did not re-render prices before the read; monthly figures not captured.
+Q&A — Accepted payment methods: "all major credit and debit card brands."
+Q&A — Free plan block limit: "If you're using a Free Plan workspace with multiple members, you'll be able to add a limited number of blocks before you have to upgrade. When you reach the limit, you can still read, edit, and organize existing content blocks as usual, but you won't be able to add new content blocks."
+Q&A — Student discount: "The Plus Plan (with a 1-member limit) is free for students and educators."
+Q&A — How is pricing calculated? "you will be charged a fee per member. Guests are free of charge – but they can only access individual pages they are invited to."
+Q&A — Adding members: "Changes in membership that occur mid-month will create prorated charges based on the amount of time remaining in the billing cycle when the paid seat was added. For every member you delete from your workspace, you will open up 1 available paid seat."
+Q&A — Removing members: "If you removed members, you will not receive credit but instead will still have use of that seat for a different user for the remainder of the billing period."
+Q&A — Paid seats: "When your billing cycle renews, either monthly or annually, you will be charged for your plan amount multiplied by the number of members in your workspace, plus any prorated charges for new paid seats added in the past month."
+Q&A — Notion AI data: not used to train models unless opted in; contractual agreements with AI subprocessors.

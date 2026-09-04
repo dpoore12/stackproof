@@ -1,0 +1,89 @@
+slug: coda
+vendor: Superhuman (formerly Coda)
+product: Superhuman Docs
+category: wiki
+url: https://superhuman.com/plans/docs
+free_trial: "Free plan with limited Docs AI and MCP trials; no time-limited trial stated (2026-09-04)."
+pricing_note: "coda.io/pricing now redirects to Superhuman Docs. Pricing is per Doc Maker with editors and viewers free. Both automated fetches were geo-routed to EUR, so USD prices were not captured; the EUR figures are recorded as findings pending a US-region fetch."
+
+tiers: []
+
+clauses:
+  - topic: refund
+    status: stated
+    finding: >-
+      Superhuman Docs gives a prorated account credit, not a cash refund,
+      when members are removed or a plan is cancelled (2026-09-04).
+    quote: "When you remove members or cancel your plan, we'll apply a prorated credit onto your account you can use for future charges in your workspace."
+    provenance:
+      source_url: https://superhuman.com/plans/docs
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Superhuman Docs bills all Doc Makers up front at signup and renewal,
+      prorates added users, bills annual plans monthly for membership
+      changes, and charges immediately once added members exceed $1,000
+      (2026-09-04).
+    quote: "you will be charged whenever your bill exceeds $1,000 from adding new members"
+    provenance:
+      source_url: https://superhuman.com/plans/docs
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Superhuman Docs lets a plan be cancelled with the unused portion
+      converted to a prorated credit for future workspace charges
+      (2026-09-04).
+    provenance:
+      source_url: https://superhuman.com/plans/docs
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Superhuman Docs' plans page states no data-export terms; version
+      history is 7 days on Free and 30 days on Pro (2026-09-04).
+    provenance:
+      source_url: https://superhuman.com/plans/docs
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: coda-redirects-to-superhuman
+    claim: >-
+      On 2026-09-04 coda.io/pricing redirected to superhuman.com/plans/docs,
+      where the product is sold as Superhuman Docs with 4 plans (Free, Pro,
+      Business, Enterprise).
+    provenance:
+      source_url: https://superhuman.com/plans/docs
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: coda-pricing-geo-routed-eur
+    claim: >-
+      On 2026-09-04, 2 of 2 automated fetches of superhuman.com/plans/docs
+      rendered EUR prices, so USD prices are not machine-recorded.
+    provenance:
+      source_url: https://superhuman.com/plans/docs
+      fetched_at: 2026-09-04
+      method: not_available
+  - id: coda-eur-plan-prices
+    claim: >-
+      Superhuman Docs' European page on 2026-09-04 listed Pro at €12 per
+      Doc Maker a month on annual billing (€15 monthly) and Business at
+      €33 (€40 monthly), with editors and viewers free.
+    provenance:
+      source_url: https://superhuman.com/plans/docs
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: coda-doc-maker-billing
+    claim: >-
+      Superhuman Docs charges only for Doc Makers on every plan including
+      Enterprise, and Grammarly is included on annual billing but costs $15
+      a month per Maker on monthly billing (2026-09-04).
+    provenance:
+      source_url: https://superhuman.com/plans/docs
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -1,0 +1,99 @@
+slug: slite
+vendor: Slite
+product: Slite
+category: wiki
+url: https://slite.com/pricing
+free_trial: "14-day free trial of Basic and Pro, no credit card; no free plan after the trial (stated 2026-09-04)."
+pricing_note: "Per-user pricing with no base fee. Cards show yearly-billing rates only; the FAQ confirms a monthly plan exists but its rate did not render. Reader-only seats are Enterprise-only, so every member on Basic and Pro is a paid seat."
+
+tiers:
+  - plan: Basic
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 10
+    seat_label: member
+    billing: annual
+    provenance:
+      source_url: https://slite.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch on a US gateway. "Basic … $10 per user/month Billed yearly". 5 GB storage per user, 200 MB file uploads, 30 AI questions and 30 AI edits per seat a month.'
+  - plan: Pro
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 20
+    seat_label: member
+    billing: annual
+    provenance:
+      source_url: https://slite.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pro … $20 per user/month Billed yearly". Marked Recommended. Slite Agent, 50 monthly credits per seat, OpenID SSO.'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Slite bills extra members on the next invoice on monthly plans and
+      prorates them for the remaining contract months on yearly plans,
+      reviewing the member count monthly on the subscription anniversary
+      (2026-09-04).
+    quote: "If the number of users is higher than your current baseline, we will prorate the extra licenses and bill you for the remaining months on your contract."
+    provenance:
+      source_url: https://slite.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: stated
+    finding: >-
+      Slite includes PDF, Markdown and HTML exports on every plan including
+      Basic (2026-09-04).
+    quote: "PDF, Markdown, HTML exports"
+    provenance:
+      source_url: https://slite.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Slite's pricing page states no cancellation or refund terms; removed
+      members free a licence for reassignment (2026-09-04).
+    provenance:
+      source_url: https://slite.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: slite-no-free-plan
+    claim: >-
+      Slite has no free plan: after the 14-day trial the workspace is locked
+      until an admin buys Basic at $10 or Pro at $20 per user a month on
+      yearly billing (2026-09-04).
+    provenance:
+      source_url: https://slite.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: slite-ai-quotas
+    claim: >-
+      Slite Basic caps AI at 30 questions and 30 edits per seat a month,
+      while Pro is unlimited on writing and gives 50 agent credits per seat
+      (2026-09-04).
+    provenance:
+      source_url: https://slite.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: slite-reader-seats-enterprise-only
+    claim: >-
+      Slite sells reader-only seats only on its quote-based Enterprise
+      plan, so read-only staff on Basic or Pro cost the full $10 or $20
+      seat price (2026-09-04).
+    provenance:
+      source_url: https://slite.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: slite-storage-limits
+    claim: >-
+      Slite provides 5 GB of storage per user on Basic and 10 GB on Pro and
+      Enterprise, with file uploads capped at 200 MB on Basic (2026-09-04).
+    provenance:
+      source_url: https://slite.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
