@@ -1,0 +1,133 @@
+slug: webflow
+vendor: Webflow
+product: Webflow Site plans
+category: website_builder
+url: https://webflow.com/pricing
+free_trial: "Free Starter plan on a webflow.io subdomain with no time limit; paid Site plans add a custom domain (2026-09-04)."
+
+# Priced per site ("All prices in USD, per site, plus applicable taxes"),
+# so the cost table multiplies by sites. The yearly toggle was checked
+# ("Yearly (Save up to 40%)"); monthly-billing figures were not displayed.
+# Premium's higher-bandwidth tiers and the Workspace, Ecommerce and add-on
+# prices were not in the captured window.
+tiers:
+  - plan: Starter
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: site
+    billing: monthly
+    provenance:
+      source_url: https://webflow.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free … Webflow.io domain, limited CMS, 2 static pages, 1 GB bandwidth, 50 form submissions".'
+  - plan: Basic
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 15
+    seat_label: site
+    billing: annual
+    provenance:
+      source_url: https://webflow.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch; yearly toggle checked=true. "$15/mo billed yearly". Custom domain, 300 static pages, 10 GB bandwidth, no CMS.'
+  - plan: Premium
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 25
+    seat_label: site
+    billing: annual
+    provenance:
+      source_url: https://webflow.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$25/mo billed yearly" (marked New). CMS with 20,000 items, 50 GB bandwidth at the base with selectable tiers to 2.5 TB priced above it (not captured).'
+  - plan: Team
+    compare: false
+    base_monthly_usd: 2500
+    per_seat_monthly_usd: 0
+    seat_label: site
+    billing: annual
+    provenance:
+      source_url: https://webflow.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$2,500/mo. Annual contract required. Talk to us." Platform plan covering Site and Workspace; excluded from the per-site comparison.'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Webflow prices Site plans per site in USD plus taxes at checkout, with
+      yearly billing advertised as saving up to 40%; two consecutive months
+      over the bandwidth limit trigger an automatic plan upgrade
+      (2026-09-04).
+    quote: "All prices in USD, per site, plus applicable taxes added at checkout."
+    provenance:
+      source_url: https://webflow.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Webflow's pricing page states no cancellation or refund terms in the
+      captured section (2026-09-04).
+    provenance:
+      source_url: https://webflow.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: stated
+    finding: >-
+      Form submissions can be downloaded as CSV on every plan and backups
+      are unlimited; full site export terms are not on the pricing page
+      (2026-09-04).
+    provenance:
+      source_url: https://webflow.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: webflow-site-plan-prices-yearly
+    claim: >-
+      On 2026-09-04 Webflow listed Basic at $15 and Premium at $25 per site
+      per month billed yearly, with a free Starter plan on a webflow.io
+      subdomain.
+    provenance:
+      source_url: https://webflow.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: webflow-team-platform-floor
+    claim: >-
+      Webflow's Team platform plan starts at $2,500 per month on a required
+      annual contract, 100 times the $25 Premium site plan (2026-09-04).
+    provenance:
+      source_url: https://webflow.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: webflow-bandwidth-surge-upgrade
+    claim: >-
+      Webflow caps bandwidth at 1 GB (Starter), 10 GB (Basic) and 50 GB to
+      2.5 TB (Premium) per month, and 2 consecutive months over the limit
+      trigger an automatic plan upgrade (2026-09-04).
+    provenance:
+      source_url: https://webflow.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: webflow-cms-premium-only
+    claim: >-
+      Webflow's CMS with 20,000 items is on the $25 Premium site plan; the
+      $15 Basic plan has no CMS and is capped at 300 static pages
+      (2026-09-04).
+    provenance:
+      source_url: https://webflow.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: webflow-three-site-cost
+    claim: >-
+      Because Webflow charges per site, 3 Premium sites cost $75 per month
+      at the 2026-09-04 yearly rate, against 1 site's $25.
+    provenance:
+      source_url: https://webflow.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

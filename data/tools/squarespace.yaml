@@ -1,0 +1,86 @@
+slug: squarespace
+vendor: Squarespace
+product: Squarespace
+category: website_builder
+url: https://www.squarespace.com/pricing
+free_trial: "14-day free trial with no credit card; no free plan (stated 2026-09-04)."
+pricing_note: "Both fetches on 2026-09-04 were geo-routed to EUR pricing; USD prices were not captured. The EUR figures and payment-processing fees are recorded as findings. Pending a US-region fetch or verification on an account."
+
+tiers: []
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Squarespace plans can be upgraded, downgraded or cancelled at any
+      time; changes apply at the end of the current billing cycle and a
+      cancelled plan runs through the period already paid (2026-09-04).
+    quote: "Changes take effect at the end of your current billing cycle, and if you cancel, your service will continue through the period you've already paid for."
+    provenance:
+      source_url: https://www.squarespace.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Squarespace sells monthly and annual subscriptions, with annual plans
+      discounted up to 36% and including 1 year of free domain registration
+      for new sites (2026-09-04).
+    provenance:
+      source_url: https://www.squarespace.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Squarespace's pricing page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://www.squarespace.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: squarespace-pricing-geo-routed-eur
+    claim: >-
+      On 2026-09-04 two automated fetches of squarespace.com/pricing
+      rendered EUR prices with the "Pay annually" toggle active, so USD
+      prices could not be machine-recorded.
+    provenance:
+      source_url: https://www.squarespace.com/pricing
+      fetched_at: 2026-09-04
+      method: not_available
+  - id: squarespace-eur-plan-prices
+    claim: >-
+      Squarespace's European page on 2026-09-04 listed Basic at €12, Core at
+      €18, Plus at €32 and Advanced at €69 per month on annual billing, with
+      Core, Plus and Advanced flagged "50% off".
+    provenance:
+      source_url: https://www.squarespace.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: squarespace-transaction-fees-by-plan
+    claim: >-
+      Squarespace's online-store transaction fee is 2% on Basic and 0% above
+      it, and its digital-content and memberships fee falls from 7% on Basic
+      to 5%, 1% and 0% on Core, Plus and Advanced (2026-09-04).
+    provenance:
+      source_url: https://www.squarespace.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: squarespace-card-rates-by-plan
+    claim: >-
+      Squarespace Payments card rates start at 2% plus a fixed fee on Basic
+      and Core, 1.7% on Plus and 1.5% on Advanced, with a 3% international
+      surcharge and 2% currency conversion on all plans (2026-09-04).
+    provenance:
+      source_url: https://www.squarespace.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: squarespace-basic-two-contributors
+    claim: >-
+      Squarespace's Basic plan allows 2 contributors and 30 minutes of video
+      hosting; Core and above allow unlimited contributors (2026-09-04).
+    provenance:
+      source_url: https://www.squarespace.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

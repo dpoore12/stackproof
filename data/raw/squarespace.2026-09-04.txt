@@ -1,0 +1,13 @@
+URL: https://www.squarespace.com/pricing (and ?country=US)
+STATUS: 200
+FETCHED: 2026-09-04 00:07:46 and 00:08:14 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main>. Both fetches routed through German gateways rendered EUR.
+---
+EUR fetch 2026-09-04 00:07:46 +00:00 (German gateway 168.119.99.193). "Pay annually" aria-checked=true; "Free for 14 days. Pay annually to save up to 36%." Promo labels: Basic "Save 10% at checkout"; Core, Plus, Advanced "50% off".
+Basic €12/mo — up to 2 contributors, free custom domain*, built-in AI tools, credit card rates from 2% + €0.25, online store transaction fee 2%, digital content and memberships fee 7%, video hosting 30 min, AI credits 10 one-time.
+Core €18/mo — unlimited contributors, advanced analytics, CSS and JavaScript, professional email from Google Workspace**, online store fee 0%, memberships fee 5%, video 5 hours, 20 AI credits per month.
+Plus €32/mo — card rates from 1.7% + €0.25, memberships fee 1%, video 50 hours, 40 AI credits per month.
+Advanced €69/mo — card rates from 1.5% + €0.25, memberships fee 0%, unlimited video, 120 AI credits per month.
+Fees table (Squarespace Payments): standard cards 2% / 2% / 1.7% / 1.5% + €0.25; premium cards 3% + €0.25; ACH 0%; international card surcharge 3% + €0.25; currency conversion +2%. Unlimited bandwidth on all plans; 24/7 support.
+Second fetch 00:08:14 +00:00 (?country=US, still German gateway, still EUR).
+FAQ: How long is a subscription? Monthly and annual subscriptions; start and stop any time; annual plans discounted and include one year of free domain registration for new websites. Can I change or cancel? Yes — upgrade, downgrade, or cancel at any time; changes take effect at the end of the current billing cycle; if you cancel, service continues through the period already paid for. Is there a free plan? No; every site starts with a 14-day free trial, no credit card required. Hosting included. Promo codes occasionally; student discount available.

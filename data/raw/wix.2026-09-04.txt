@@ -1,0 +1,12 @@
+URL: https://www.wix.com/plans
+STATUS: 200
+FETCHED: 2026-09-04 00:08:38 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main>. German gateway; prices rendered in EUR including VAT. "Displayed prices are for yearly subscriptions, paid in full at the time of purchase. Additional subscription periods are available."
+---
+14-day money-back guarantee. All plans include custom domain, reliable web hosting, AI creation tools, 24/7 customer care.
+Business Elite — €177.31/mo, price includes VAT. Free domain for 1 year, unlimited storage, multi-cloud hosting, advanced marketing suite, accept payments, advanced eCommerce, scheduling and services, advanced developer platform, 100 site collaborators.
+Business (RECOMMENDED) — €40.46/mo incl. VAT. Free domain for 1 year, 100 GB storage, standard marketing suite, accept payments, standard eCommerce, scheduling, 10 site collaborators.
+Core — €29.75/mo incl. VAT. 50 GB storage, basic marketing suite, accept payments, basic eCommerce, 5 site collaborators.
+Light — €16.66/mo incl. VAT. 2 GB storage, light marketing suite, 2 site collaborators.
+Free — €0, no credit card required; hosting, drag and drop editor, templates.
+A hidden "Compare Plan Features" table carried "$159.77 mo", "$39.77 mo", "$29.77 mo", "$17.77 mo … Price includes GST" (Save 50%) — a GST-labelled figure set, not USD; not recorded.
