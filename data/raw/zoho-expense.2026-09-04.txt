@@ -1,0 +1,19 @@
+URL: https://www.zoho.com/us/expense/pricing/ (US locale; https://www.zoho.com/expense/pricing/ geo-redirects to /de-de/ by default)
+STATUS: 200
+FETCHED: 2026-09-04 13:15:09 +00:00 and 13:15:38 +00:00 (US gateway 68.183.149.129 / 68.183.54.131), reached via ?sredirect=false — the same fix used for this dataset's Zoho Workplace record. A plain fetch without that parameter landed on the DE gateway 168.119.141.170 and rendered German text with EUR prices (Standard 4/3 EUR, Premium 6/5 EUR) — same figures, different currency, confirming the page is geo-priced not just geo-translated.
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed), two passes for pricing cards and FAQ.
+---
+Toggle: "Monthly | Yearly, Save up to 25%".
+Free — $0 — "For small businesses looking to start their expense management journey" — Maximum users: 3 — receipt capture (AI OCR), expense reports, expense tracking via personal cards, mileage via GPS, accounting integrations, global tax compliance, MFA, multi-currency expenses, customer/project tracking, basic audit trail, 5 GB receipt storage, email support.
+Standard — $4 (monthly) / $3 (annual) per user/month — "For growing businesses looking to manage expenses end to end" — Free plan plus itemized receipt capture, corporate card management, real-time card feeds, multiple expense policies, multi-level approval, split expenses, custom user roles, expense access delegation, cash advance management, ACH payments, direct bank reimbursements, attendee expense management, email & call support, SSO, ERP/HRMS integrations (add-on).
+Premium — $6 (monthly) / $5 (annual) per user/month — "For enterprises looking for high level customization" — Standard plan plus employee self-booking tool, travel desk management, GSA-compliant automated per diem management, auto mileage capture with live tracking, live budget tracking, advanced approval/policy customization, multi-entity/country expense management.
+Enterprise (implied, "all-in-one business spend management platform") — Get a quote, no price shown.
+"* Prices are exclusive of local taxes."
+Add-ons: Self-booking Travel $9.99 per trip; Premium Support "24/5 support, 45 days onboarding assistance, dedicated call support, live chat/remote assistance — starts from $490/year"; Jumpstart onboarding "starts from $500."
+FAQ: "Can additional users (apart from the purchased active ones) use the application during the billing cycle?" — "You can add as many users as you wish... However, if any of them create expenses or expense reports, they will be charged at a cost."
+FAQ: "What is the cost for an additional user?" — "Standard plan: Monthly: $4 per user, Yearly subscription: $3 per user. Premium plan: Monthly: $6 per user, Yearly subscription: $5 per user."
+FAQ worked example: "if you purchased 10 active user licenses under the Premium annual plan, but 15 people are active users of Zoho Expense in a given month, the cost for the additional 5 users would be at the monthly rate. You would consequently receive an invoice for the additional usage for that month for 5 * 6 = $30."
+FAQ: receipt scanning limits — Free/Trial 20 scans/user/month, Standard 200/user/month, Premium 1,000/user/month.
+FAQ: "How long are your contracts?" — "Zoho Expense is a pay-as-you-go service, so you are not bound by a contract to stay subscribed. You can start and stop your subscription with us any time you want."
+FAQ: payment methods — Visa, Mastercard, American Express; PayPal and bank transfer for yearly subscriptions. Does not store credit card information.
+Page title: "Pricing and Plans | Zoho Expense USA".

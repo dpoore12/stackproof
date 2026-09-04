@@ -1,0 +1,98 @@
+slug: ramp
+vendor: Ramp
+product: Ramp
+category: expense_management
+url: https://ramp.com/pricing
+free_trial: "Ramp Plus offered as a free 30-day trial; Ramp Free itself has no trial to expire (stated 2026-09-04)."
+pricing_note: "Ramp Free has no per-user charge; Ramp Plus adds $15/user/month plus an undisclosed 'platform fee based on team size' on top, so the true cost of Plus for any given team size is not fully computed from the published per-seat figure alone. Enterprise is custom, billed annually."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://ramp.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free $0/mo/user. Best for smaller teams who want to simplify finances." Unlimited cards, card issuing controls, travel & expense via SMS/Slack, AP automation (OCR, approval workflows), Treasury (4.2% investment account, 2% FDIC-insured cash, no fees/minimums), basic accounting automation, budgets & reporting, vendor management.'
+  - plan: Plus
+    base_monthly_usd: 15
+    per_seat_monthly_usd: 15
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://ramp.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Plus $15/mo/user + Platform fee based on team size. Save 20% with annual billing." All Free features plus AI-driven expense reviews and policy insights, 24/7 phone support for travel, auto-coded line items, AI approval recommendations, NetSuite/Sage Intacct integrations, multi-entity support, custom user roles, audit log. Platform fee amount not published on this page.'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "You can upgrade or downgrade anytime within your Ramp dashboard or by contacting us directly."
+    finding: >-
+      Ramp's FAQ states plans can be upgraded or downgraded at any time
+      from the dashboard (2026-09-04).
+    provenance:
+      source_url: https://ramp.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Ramp's pricing page and FAQ state no cancellation terms beyond the
+      ability to downgrade plans (2026-09-04).
+    provenance:
+      source_url: https://ramp.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Ramp's pricing page and FAQ state no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://ramp.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Ramp's pricing page and FAQ state no refund terms (2026-09-04).
+    provenance:
+      source_url: https://ramp.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: ramp-plus-hidden-platform-fee
+    claim: >-
+      Ramp Plus is advertised at "$15/mo/user" but the same pricing card
+      adds "+ Platform fee based on team size" with no published amount,
+      so the per-seat figure alone understates the plan's real monthly
+      cost (2026-09-04).
+    provenance:
+      source_url: https://ramp.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: ramp-treasury-yield
+    claim: >-
+      Ramp's Free plan advertises earning "4.2%* in a Ramp Investment
+      Account" or "2%* on cash in a FDIC-insured account" with "No fees,
+      minimum deposits, or transfer caps," monetizing idle cash rather
+      than charging a software fee (2026-09-04).
+    provenance:
+      source_url: https://ramp.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: ramp-card-pays-subscription
+    claim: >-
+      Ramp's FAQ states a customer "can pay for Ramp Plus with ACH or the
+      rewards you earn from your Ramp card spending," letting card
+      rewards offset the software subscription (2026-09-04).
+    provenance:
+      source_url: https://ramp.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -1,0 +1,11 @@
+URL: https://www.fylehq.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 13:17:17 +00:00 (US gateway 68.183.149.30)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed).
+---
+Page title: "Sage Expense Management (formerly Fyle) | Pricing". Meta description: "Simplified expense management on existing credit cards. Pay only for employees submitting expenses or with active cards. Starts at $11.99/user/month."
+Toggle: "Monthly | Annually" (only the annually-billed figures were captured in the rendered text; a distinct monthly-billed rate, if shown, was not captured).
+Growth — "Unlimited expense tracking and real-time card feeds" — $11.99 per active user*/month, billed annually — Minimum billing: 5 users. *"Users who create at least one expense or have a credit card connected to Sage Expense Management with active transactions." Unlimited receipt scanning (AI extraction), text-message receipt collection, mileage & per diem tracking, Amex virtual cards, personal card management, universal statement parser, single-stage approvals, QuickBooks Online/Xero/QuickBooks Desktop (extra cost)/Sage 50 (beta) integrations, AI Copilot, basic email/knowledge-base support, optional premium live-chat support (extra fee).
+Business — "Unlimited expense tracking and real-time card feeds" — $14.99 per active user*/month, billed annually — Minimum billing: 10 users. All Growth features plus multi-org/multi-stage/policy-driven approvals, ACH reimbursements (US only), project expense tracking, custom MIS data exports, multi-currency/multi-region/multi-entity setup, Sage Intacct/Sage 300 Construction & Real Estate/QuickBooks Desktop integrations (implementation fees apply), premium support with named account manager, optional SSO (extra fee).
+Enterprise — "Best suited for large enterprises" — Custom pricing "for enterprises with 250+ employees" — Contact us.
+No cancellation, refund, or data-export language found on this page.

@@ -1,0 +1,12 @@
+URL: https://www.bill.com/product/pricing (canonical of https://www.bill.com/pricing)
+STATUS: 200
+FETCHED: 2026-09-04 13:13:24 +00:00 (US gateway 68.183.149.129) and 13:14:04 +00:00 (DE gateway 168.119.99.191, plan cards)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed), two passes for the FAQ and the plan-card/compare-table sections of a very long page (~1.3M characters raw).
+---
+FAQ: "Is there a free plan available with BILL?" — "Yes, the BILL Spend & Expense plan is $0 per user per month and includes corporate cards, budgets, expense tracking, and access to credit lines from $1,000-$5M.1 BILL Accounts Payable and Accounts Receivable (AP & AR) are paid subscriptions priced per user, with a free trial available in most cases. Some payment types (like checks, ACH, instant transfers, or international payments) also have per-transaction fees, regardless of plan. 1 Credit lines are not guaranteed and will be determined upon application approval."
+FAQ: "What are BILL's pricing tiers for Accounts Payable and Receivable?" — "offered in subscription plans (such as Essentials, Team, and Corporate) that are priced per user per month for direct customers. Larger or more complex organizations... have custom pricing... BILL Spend & Expense is free from subscription and per-user software fees."
+FAQ: "How much does BILL cost per user?" — "every user on Essentials and Team is billed as a standard user, and Corporate/Enterprise plans distinguish between full feature users and lower-cost approver-only users... There are no per-user subscription fees for BILL Spend & Expense."
+Plan cards (AP/AR product): Essentials $49/user/month; Team $65/user/month; Corporate $89/user/month (Most Popular); Enterprise Custom Pricing.
+International payment fee example seen in FAQ area: "USD invoice payments delivered in GBP — Free (Exchange Rate applies)"; "$19.99 USD" appears near an unspecified payment-delivery fee context.
+No cancellation, refund, or data-export language found for Spend & Expense specifically.
+Page title: "Pricing & Plans | BILL".

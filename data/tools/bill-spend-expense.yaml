@@ -1,0 +1,81 @@
+slug: bill-spend-expense
+vendor: BILL
+product: BILL Spend & Expense
+category: expense_management
+url: https://www.bill.com/product/pricing
+free_trial: "BILL Spend & Expense itself has no trial to expire: it is permanently free of subscription and per-user fees (stated 2026-09-04)."
+pricing_note: "BILL Spend & Expense carries no subscription or per-user software fee at all; BILL monetizes it through card interchange and its credit-line product instead. The same company's Accounts Payable and Accounts Receivable (AP & AR) product is a separate, paid per-user subscription (Essentials $49, Team $65, Corporate $89 per user/month, Enterprise custom) that many customers layer alongside the free Spend & Expense product; those figures are recorded here as findings for bundling context, not as tiers of this record, since they belong to a distinct AP/AR product line."
+
+tiers:
+  - plan: BILL Spend & Expense
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.bill.com/product/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Is there a free plan available with BILL? Yes, the BILL Spend & Expense plan is $0 per user per month and includes corporate cards, budgets, expense tracking, and access to credit lines from $1,000-$5M." "There are no per-user subscription fees for BILL Spend & Expense, so you can add cardholders and submitters without increasing your monthly software bill."'
+
+clauses:
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      BILL's pricing and FAQ page states no cancellation terms for Spend &
+      Expense (2026-09-04).
+    provenance:
+      source_url: https://www.bill.com/product/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      BILL's pricing and FAQ page states no data-export terms for Spend &
+      Expense (2026-09-04).
+    provenance:
+      source_url: https://www.bill.com/product/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      BILL's pricing and FAQ page states no refund terms for Spend &
+      Expense (2026-09-04).
+    provenance:
+      source_url: https://www.bill.com/product/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: bill-spend-expense-free-model
+    claim: >-
+      BILL states "BILL Spend & Expense is free from subscription and
+      per-user software fees," with revenue instead coming from card
+      interchange and access to credit lines from $1,000 to $5M
+      (not guaranteed, subject to application approval) (2026-09-04).
+    provenance:
+      source_url: https://www.bill.com/product/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: bill-ap-ar-price-ladder
+    claim: >-
+      BILL's separate Accounts Payable and Accounts Receivable product
+      prices Essentials at $49, Team at $65 and Corporate at $89 per user
+      a month for direct customers, with Enterprise at custom pricing, and
+      Corporate/Enterprise plans offer lower-cost approver-only seats
+      alongside standard seats (2026-09-04).
+    provenance:
+      source_url: https://www.bill.com/product/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: bill-per-transaction-fees
+    claim: >-
+      BILL states that beyond any subscription fee, "some payment types
+      (like checks, ACH, instant transfers, or international payments)
+      also have per-transaction fees, regardless of plan" (2026-09-04).
+    provenance:
+      source_url: https://www.bill.com/product/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

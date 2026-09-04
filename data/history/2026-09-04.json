@@ -180,6 +180,24 @@
    ],
    "vendor": "37signals"
   },
+  "bill-spend-expense": {
+   "category": "expense_management",
+   "fees": [],
+   "product": "BILL Spend & Expense",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "BILL Spend & Expense",
+     "source_url": "https://www.bill.com/product/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "BILL"
+  },
   "bitwarden": {
    "category": "password_manager",
    "fees": [],
@@ -802,6 +820,13 @@
    ],
    "vendor": "Egnyte"
   },
+  "expensify": {
+   "category": "expense_management",
+   "fees": [],
+   "product": "Expensify",
+   "tiers": [],
+   "vendor": "Expensify"
+  },
   "fastmail": {
    "category": "productivity_suite",
    "fees": [],
@@ -1183,6 +1208,34 @@
     }
    ],
    "vendor": "Freshworks"
+  },
+  "fyle": {
+   "category": "expense_management",
+   "fees": [],
+   "product": "Sage Expense Management (formerly Fyle)",
+   "tiers": [
+    {
+     "base_monthly_usd": 59.95,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 11.99,
+     "plan": "Growth",
+     "source_url": "https://www.fylehq.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 149.9,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 14.99,
+     "plan": "Business",
+     "source_url": "https://www.fylehq.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Sage"
   },
   "getresponse": {
    "category": "email_marketing",
@@ -2940,6 +2993,34 @@
    "tiers": [],
    "vendor": "Intuit"
   },
+  "ramp": {
+   "category": "expense_management",
+   "fees": [],
+   "product": "Ramp",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://ramp.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 15.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 15.0,
+     "plan": "Plus",
+     "source_url": "https://ramp.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Ramp"
+  },
   "recruitee": {
    "category": "recruiting",
    "fees": [],
@@ -4097,6 +4178,64 @@
    "fees": [],
    "product": "Zoho CRM",
    "tiers": [],
+   "vendor": "Zoho"
+  },
+  "zoho-expense": {
+   "category": "expense_management",
+   "fees": [],
+   "product": "Zoho Expense",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 3,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://www.zoho.com/us/expense/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 3.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 3.0,
+     "plan": "Standard",
+     "source_url": "https://www.zoho.com/us/expense/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 4.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 4.0,
+     "plan": "Standard (monthly)",
+     "source_url": "https://www.zoho.com/us/expense/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 5.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 5.0,
+     "plan": "Premium",
+     "source_url": "https://www.zoho.com/us/expense/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 6.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Premium (monthly)",
+     "source_url": "https://www.zoho.com/us/expense/pricing/",
+     "steps": null
+    }
+   ],
    "vendor": "Zoho"
   },
   "zoho-recruit": {

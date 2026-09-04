@@ -212,6 +212,26 @@ price understates the true floor cost. Duo sells licenses in blocks of
 scale further into headcount than most other categories in this
 dataset.
 
+### Expense management (2026-09-04)
+
+Five vendors: Expensify, BILL Spend & Expense, Zoho Expense, Ramp, Fyle
+(now Sage Expense Management). Swapped in for endpoint security this
+session after that category turned out to gate almost every vendor's
+pricing behind a reseller or quote flow with no clean self-serve number;
+expense management kept the audit-trail theme with real published
+pricing instead. Three of five vendors here (BILL Spend & Expense, Ramp
+Free, and Zoho Expense's Free tier) charge no per-seat software fee at
+all and instead monetize through card interchange or credit lines, a
+pricing model this dataset had not recorded before. Zoho Expense and
+Fyle both bill only "active" users (someone who filed an expense or has
+a card with transactions that period) rather than every named seat, and
+Fyle additionally enforces a minimum-billed-user floor under that count.
+Expensify's page geo-routed to a German, EUR-priced locale on every
+fetch and its currency selector could not be switched from the rendered
+DOM, so its figures are recorded as findings only. Seat points are 1, 5,
+10, 25, 50 employees who submit expenses, chosen to land exactly on
+Fyle's 5- and 10-user minimums.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
