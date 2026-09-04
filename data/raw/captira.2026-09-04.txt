@@ -1,0 +1,19 @@
+Source: https://www.captira.com/pages/pricing-bail-management
+Fetched: 2026-09-04
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Bail Software
+Everything you need to run your Bail Agency Business, support included.
+$99 / month
+Incredible Value
+Sign up now
+Unlimited Agents
+Two User Logins
+Standard storage included*
++ Free Surety Forms
++ Free eSign
+$65 Small Agency Promo — Do you have 4 or less agents?
+First 30 days for $1. Credit Card Required.
+
+*Standard storage includes 5,000 bonds with storage tiers applying to
+larger accounts.

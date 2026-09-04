@@ -1,0 +1,46 @@
+slug: bailbooks
+vendor: BailBooks
+product: BailBooks
+category: bail_bonds_agency_management
+url: https://www.bailbooks.com/pricing.aspx
+pricing_note: 'BailBooks prices flat tiers capped at a stated number of "agents" plus a monthly bond-volume cap, rather than a genuine per-seat increment — "Unlimited users" are included free on every tier, only the agent count and bond volume are gated. Only the three lowest tiers (Copper, Bronze, Silver) had their figures captured in this fetch; Gold and Premium are not recorded.'
+
+tiers:
+  - plan: Copper
+    base_monthly_usd: 55
+    max_seats: 1
+    seat_label: agent
+    provenance:
+      source_url: https://www.bailbooks.com/pricing.aspx
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Copper — $55.00/mo — 1 agent, 20 bonds / mo, Unlimited users, 50MB storage."'
+  - plan: Bronze
+    base_monthly_usd: 65
+    max_seats: 2
+    seat_label: agent
+    provenance:
+      source_url: https://www.bailbooks.com/pricing.aspx
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Bronze — $65.00/mo — 2 agents, 250 bonds / mo, Unlimited users, 500MB storage."'
+  - plan: Silver
+    base_monthly_usd: 80
+    max_seats: 4
+    seat_label: agent
+    provenance:
+      source_url: https://www.bailbooks.com/pricing.aspx
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Silver — $80.00/mo — 4 agents, 500 bonds / mo, Unlimited users."'
+
+findings:
+  - id: bailbooks-unlimited-users-every-tier
+    claim: >-
+      BailBooks includes unlimited user accounts on every tier, gating
+      only the number of licensed agents and the monthly bond volume,
+      per its own pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://www.bailbooks.com/pricing.aspx
+      fetched_at: 2026-09-04
+      method: live_fetch

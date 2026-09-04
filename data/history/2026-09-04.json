@@ -534,6 +534,112 @@
    ],
    "vendor": "Azuga"
   },
+  "bailbooks": {
+   "category": "bail_bonds_agency_management",
+   "fees": [],
+   "product": "BailBooks",
+   "tiers": [
+    {
+     "base_monthly_usd": 55.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Copper",
+     "source_url": "https://www.bailbooks.com/pricing.aspx",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 65.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 2,
+     "per_seat_monthly_usd": null,
+     "plan": "Bronze",
+     "source_url": "https://www.bailbooks.com/pricing.aspx",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 80.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 4,
+     "per_seat_monthly_usd": null,
+     "plan": "Silver",
+     "source_url": "https://www.bailbooks.com/pricing.aspx",
+     "steps": null
+    }
+   ],
+   "vendor": "BailBooks"
+  },
+  "bailtec": {
+   "category": "bail_bonds_agency_management",
+   "fees": [],
+   "product": "Bailtec",
+   "tiers": [
+    {
+     "base_monthly_usd": 80.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Standard (annual)",
+     "source_url": "https://bailtec.com/pricing.html",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 89.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Standard (monthly)",
+     "source_url": "https://bailtec.com/pricing.html",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 94.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": null,
+     "plan": "Pro (annual)",
+     "source_url": "https://bailtec.com/pricing.html",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 104.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": null,
+     "plan": "Pro (monthly)",
+     "source_url": "https://bailtec.com/pricing.html",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 118.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 10,
+     "per_seat_monthly_usd": null,
+     "plan": "Enterprise (annual)",
+     "source_url": "https://bailtec.com/pricing.html",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 131.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 10,
+     "per_seat_monthly_usd": null,
+     "plan": "Enterprise (monthly)",
+     "source_url": "https://bailtec.com/pricing.html",
+     "steps": null
+    }
+   ],
+   "vendor": "Bailtec"
+  },
   "basecamp": {
    "category": "project_management",
    "fees": [],
@@ -1107,6 +1213,24 @@
     }
    ],
    "vendor": "Canopy"
+  },
+  "captira": {
+   "category": "bail_bonds_agency_management",
+   "fees": [],
+   "product": "Captira Bail Software",
+   "tiers": [
+    {
+     "base_monthly_usd": 99.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Bail Software",
+     "source_url": "https://www.captira.com/pages/pricing-bail-management",
+     "steps": null
+    }
+   ],
+   "vendor": "Captira"
   },
   "caret-legal": {
    "category": "legal_practice_management",

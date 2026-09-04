@@ -1,0 +1,13 @@
+Source: https://www.bailbooks.com/pricing.aspx
+Fetched: 2026-09-04
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Pricing — Simple plans that grow with your agency.
+Every plan includes the full BailBooks platform — AI bond intake, AI
+phone agents, e-sign packets, and the mobile apps. No long-term contract.
+
+Copper — $55.00/mo — 1 agent, 20 bonds / mo, Unlimited users, 50MB storage
+Bronze — $65.00/mo — 2 agents, 250 bonds / mo, Unlimited users, 500MB storage
+Silver — $80.00/mo — 4 agents, 500 bonds / mo, Unlimited users
+(Gold and Premium tiers exist per site navigation/h3 tags but their
+figures were not present in this fetch's captured text.)
