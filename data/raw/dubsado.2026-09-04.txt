@@ -1,0 +1,23 @@
+source: https://www.dubsado.com/pricing
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+Starter — "The all-you-need basics for organized client management". "$35"
+(monthly) / "$335" (annual, i.e. $27.92/mo). "Unlimited projects & clients.
+Invoicing & payment plans. Form & email templates."
+
+Premier — "Automation for growth and to enhance your client experience".
+"$55" (monthly) / "$525" (annual, i.e. $43.75/mo). "Everything in the Starter
+plan, plus: Scheduling, Automated workflows, Public proposals, Multiple lead
+captures at once, Zapier integration."
+
+Users section (applies to both plans): "Bring your team with you. Customize
+the account access for each user. Enjoy 3 additional users for free.
+4–10 users: $25/mo. 11–20 users: $45/mo. 21–30 users: $60/mo. For 30+ users,
+send us an email." It is not stated on the page whether the "4-10 / 11-20 /
+21-30" bracket counts are additional-user counts (continuing the "3
+additional users free" framing) or total-seat counts — genuinely ambiguous
+from the page text alone.
+
+Both plans explicitly state "Unlimited projects & clients" — Dubsado's own
+comparison table lists this as a shared feature on both Starter and Premier.

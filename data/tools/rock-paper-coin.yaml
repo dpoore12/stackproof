@@ -1,0 +1,75 @@
+slug: rock-paper-coin
+vendor: Rock Paper Coin
+product: Rock Paper Coin
+category: wedding_event_planning
+url: https://rockpapercoin.com/price-tag/
+pricing_note: 'Rock Paper Coin is a CRM built specifically for wedding and event professionals. Both paid tiers explicitly list "Unlimited team members," so there is no seat cap to apply; the free Basic tier is invoicing-only (no proposals, contracts, or lead management) and is `compare: false` since it is a different, lesser product than the other two tiers.'
+
+tiers:
+  - plan: Basic
+    compare: false
+    base_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://rockpapercoin.com/price-tag/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"The perfect plan for simple and professional invoicing." "$0 forever." Features: secure payment processing, 2 day payouts, client enabled auto-pay, branded emails, unlimited payment volume, international payments, Google + Apple Pay — invoicing only, no proposals/contracts/lead management.'
+  - plan: Professional
+    base_monthly_usd: 27
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://rockpapercoin.com/price-tag/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Marked "Most popular." "$27/month" (annual toggle). "All Basic features + the easiest proposals, contracts and invoices." Feature list explicitly includes "Unlimited usage" and "Unlimited team members."'
+  - plan: Professional (monthly billing)
+    compare: false
+    base_monthly_usd: 33
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://rockpapercoin.com/price-tag/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$33/month" shown on the monthly-billing toggle for the Professional plan.'
+  - plan: Premium
+    base_monthly_usd: 33
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://rockpapercoin.com/price-tag/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Marked "Best value." "$33/month" (annual toggle). "All Basic and Professional features + unlimited lead management" — inherits Professional''s "Unlimited team members."'
+  - plan: Premium (monthly billing)
+    compare: false
+    base_monthly_usd: 41
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://rockpapercoin.com/price-tag/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$41/month" shown on the monthly-billing toggle for the Premium plan.'
+
+findings:
+  - id: rock-paper-coin-30-day-trial
+    claim: >-
+      Rock Paper Coin offers a 30-day free trial on any paid plan per its
+      own pricing page (2026-09-04).
+    provenance:
+      source_url: https://rockpapercoin.com/price-tag/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: rock-paper-coin-couples-free
+    claim: >-
+      Rock Paper Coin is free to use for the couples planning a wedding
+      through a vendor's account, per its own pricing messaging (2026-09-04).
+    provenance:
+      source_url: https://rockpapercoin.com/price-tag/
+      fetched_at: 2026-09-04
+      method: vendor_page_via_search
+      note: 'Confirmed via third-party summary of the vendor''s own marketing copy; not independently re-verified against the raw page text in this fetch.'

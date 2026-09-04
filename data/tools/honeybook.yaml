@@ -1,0 +1,77 @@
+slug: honeybook
+vendor: HoneyBook
+product: HoneyBook
+category: wedding_event_planning
+url: https://www.honeybook.com/pricing
+pricing_note: 'HoneyBook is a general small-business CRM (also used by photographers, coaches, and freelancers) rather than a wedding/event-specific tool, but it is one of the most common client-management platforms among wedding and event planners and explicitly states "Unlimited clients and projects" on every tier, so its pricing gates on team seats, not event/project volume. Starter''s own feature list never mentions team members at all, while Essentials adds "Up to 2 team members" and Premium adds "Unlimited team members" as their headline new capability — so Starter is treated as a 1-seat plan by that omission, not a stated digit.'
+
+tiers:
+  - plan: Starter
+    base_monthly_usd: 29
+    max_seats: 1
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.honeybook.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$29/month (billed yearly)." Feature list: "Unlimited clients and projects, Invoices and payments, Proposals and contracts, Calendar, All professional templates, Client portal, Basic reports, Up to 2 live lead forms, HoneyBook AI." No team-member line is listed for this tier.'
+  - plan: Essentials
+    base_monthly_usd: 49
+    max_seats: 2
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.honeybook.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Marked "Most Popular." "$49/month (billed yearly)." Feature list adds: "Scheduler, Automations, QuickBooks Online integration, Up to 2 team members, Up to 10 live lead forms, SMS reminders..."'
+  - plan: Essentials (monthly billing)
+    compare: false
+    base_monthly_usd: 59
+    max_seats: 2
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.honeybook.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'A "$59", "25% off", "$49" badge next to the Essentials annual price is consistent with $59/month being the month-to-month rate and annual billing saving ~25%.'
+  - plan: Premium
+    base_monthly_usd: 109
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.honeybook.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$109/month (billed yearly)." Feature list: "Unlimited team members, Priority support, Multiple companies, Advanced reports, Unlimited live lead forms, HoneyBook AI."'
+  - plan: Premium (monthly billing)
+    compare: false
+    base_monthly_usd: 129
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.honeybook.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'A "$129", "25% off", "$109" badge next to the Premium annual price implies $129/month as the month-to-month rate.'
+
+findings:
+  - id: honeybook-unlimited-clients-projects
+    claim: >-
+      HoneyBook states "Unlimited clients and projects" as an included
+      feature on every one of its 3 pricing tiers, so its pricing scales
+      by team seats rather than by client or event volume (2026-09-04).
+    provenance:
+      source_url: https://www.honeybook.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: honeybook-money-back-guarantee
+    claim: >-
+      HoneyBook advertises a 60-day money-back guarantee on its pricing
+      page (2026-09-04).
+    provenance:
+      source_url: https://www.honeybook.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

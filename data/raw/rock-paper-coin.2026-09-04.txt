@@ -1,0 +1,29 @@
+source: https://rockpapercoin.com/price-tag/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+Basic — "The perfect plan for simple and professional invoicing." "$0
+forever." Features: Secure payment processing, 2 day payouts, Client enabled
+auto-pay, Branded emails, Unlimited payment volume, International payments,
+Google + Apple Pay. No proposals, contracts, workflows, or lead management —
+invoicing only, not the full client-management product the other two tiers
+offer.
+
+Professional (Most Popular badge) — "All Basic features + the easiest
+proposals, contracts and invoices." Annual toggle: "$27 /month". Monthly
+toggle: "$33 /month". Features include "Unlimited usage" and "Unlimited team
+members" (explicitly listed), plus custom proposals, Canva integration,
+branded contracts, choose who pays processing fees, calendar integration,
+shareable folders.
+
+Premium ("Best value" badge) — "All Basic and Professional features +
+unlimited lead management." Annual toggle: "$33 /month". Monthly toggle:
+"$41 /month" (derived: htag price list shows both toggle states as
+[$0, $27, $33] annual and [$0, $33, $41] monthly). Adds custom inquiry form
+builder, lead management, lead reporting, priority support, volume
+processing-fee pricing, industry resources & education, QuickBooks Online
+integration.
+
+Page states a 2.5% payment-processing fee is charged (per third-party
+summaries; not itself re-verified against the page's own fee schedule text
+in this fetch).
