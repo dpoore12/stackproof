@@ -1,0 +1,7 @@
+URL: https://www.pixifi.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 19:20:23 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "Simple, Transparent Pricing" anchor). Default-rendered tab is Monthly (a Yearly tab exists, "Save 16.7%," but its exact dollar figure was not captured).
+
+Essential -- "For solopreneurs who want to eliminate administrative hassles." "$39.95/month." "1 Brand. No Team Collaboration."
+Studio -- "For studios who want to maximize capacity and revenue." "$59.95/month." "3 Active Staff. Staff add-ons available: $4.95 per +1 active staff. 3 Brands. Brand add-ons available: $4.95 per +1 active brand."

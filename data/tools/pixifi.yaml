@@ -1,0 +1,41 @@
+slug: pixifi
+vendor: Pixifi
+product: Pixifi
+category: photography_studio_management
+url: https://www.pixifi.com/pricing
+pricing_note: 'Pixifi''s default-rendered tab is Monthly (a Yearly tab exists, "Save 16.7%," but its exact dollar figure was not captured in this static snapshot).'
+
+tiers:
+  - plan: Essential
+    base_monthly_usd: 39.95
+    per_seat_monthly_usd: 0
+    max_seats: 1
+    seat_label: staff member
+    billing: monthly
+    provenance:
+      source_url: https://www.pixifi.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"For solopreneurs who want to eliminate administrative hassles." "$39.95/month." "1 Brand. No Team Collaboration."'
+  - plan: Studio
+    base_monthly_usd: 59.95
+    per_seat_monthly_usd: 4.95
+    included_seats: 3
+    seat_label: staff member
+    billing: monthly
+    provenance:
+      source_url: https://www.pixifi.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"For studios who want to maximize capacity and revenue." "$59.95/month." "3 Active Staff. Staff add-ons available: $4.95 per +1 active staff."'
+
+findings:
+  - id: pixifi-brand-addon-price
+    claim: >-
+      Pixifi's Studio plan includes 3 brands with additional brands
+      available at $4.95 each per month, the same rate as its
+      additional-staff add-on (2026-09-04).
+    provenance:
+      source_url: https://www.pixifi.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -776,6 +776,32 @@ instead.
 
 Database is now 181 tools across 40 categories.
 
+### Photography studio management software (2026-09-04)
+
+Three vendors: Pixifi, Studio Ninja, 17hats. Seat axis is "users"
+(1, 3, 5, 10, 25). Táve returns a 410 Gone on its pricing page (redirected
+through a "legacy-redirect" path to a VSCO-owned domain, suggesting the
+product is being sunset), so it was dropped.
+
+Pixifi and Studio Ninja are both clean, fully-quantified records. Pixifi
+states an exact base + per-extra-seat formula on its Studio plan ("3
+Active Staff. Staff add-ons available: $4.95 per +1 active staff"), and
+its Essential plan states "No Team Collaboration," recorded as
+`max_seats: 1`. Studio Ninja's own comparison table states an explicit
+user cap per tier (Starter: 1, Pro: 3, Master: Unlimited); regular
+annual prices are recorded as primary tiers with monthly prices as
+`compare: false` secondary tiers, per this site's standing convention.
+17hats sells a single all-inclusive plan rather than tiers, and its
+pricing page was captured mid a "Cyber Monday Sale" promotion offering
+"Save 50%" with no separate non-promotional baseline price stated
+anywhere on the page — only "Save $X" deltas relative to an unstated
+regular price — so no tier is recorded for it; publishing the
+promotional price as the standing rate would have misrepresented a
+temporary sale as the ongoing price, and its findings are recorded
+instead.
+
+Database is now 184 tools across 41 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
