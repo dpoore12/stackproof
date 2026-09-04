@@ -719,6 +719,32 @@ starting figures rather than comparable prices.
 
 Database is now 175 tools across 38 categories.
 
+### Cleaning / maid service business management software (2026-09-04)
+
+Three vendors: ZenMaid, Launch27, Zenbooker. Seat axis is "cleaners"
+(1, 5, 10, 20, 50). Swept prices purely by "locations cleaned" in
+bands (1-15, 16-25, 26-30, 31-59, 60+) with no staff cap or per-cleaner
+figure anywhere on the page — a genuine axis mismatch like Mindbody and
+Wodify in the gym category — so it was dropped entirely rather than
+included as `compare: false`.
+
+Launch27 and Zenbooker are both explicit, clean records: Launch27's own
+feature list states "Unlimited Users" and "Unlimited Bookings" on every
+tier, and Zenbooker's states "unlimited bookings and unlimited staff
+member accounts" on every plan — both differentiate tiers by other
+axes (feature depth for Launch27, "service territories" for Zenbooker)
+while leaving staff headcount flat and uncapped. ZenMaid's pricing page
+includes a "Calculate your price" widget ("How many cleaners and office
+managers do you have on your team?"), but its interactive output was
+not captured in this static snapshot, and no plan's feature list
+mentions a headcount cap or a per-cleaner dollar rate anywhere in the
+rendered text — tiers differ only by feature set (appointment limits,
+automation depth) — so its $19/$39/$49 figures are recorded as flat
+base prices, same as the other two vendors, rather than assumed to
+scale.
+
+Database is now 178 tools across 39 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

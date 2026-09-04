@@ -3792,6 +3792,44 @@
    ],
    "vendor": "Lattice"
   },
+  "launch27": {
+   "category": "cleaning_management",
+   "fees": [],
+   "product": "Launch27",
+   "tiers": [
+    {
+     "base_monthly_usd": 75.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Base",
+     "source_url": "https://www.launch27.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 150.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro",
+     "source_url": "https://www.launch27.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 299.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Plus",
+     "source_url": "https://www.launch27.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Launch27"
+  },
   "learnworlds": {
    "category": "learning_management",
    "fees": [
@@ -7738,12 +7776,88 @@
    ],
    "vendor": "Zen Planner"
   },
+  "zenbooker": {
+   "category": "cleaning_management",
+   "fees": [],
+   "product": "Zenbooker",
+   "tiers": [
+    {
+     "base_monthly_usd": 29.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Standard",
+     "source_url": "https://zenbooker.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 79.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Professional",
+     "source_url": "https://zenbooker.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 149.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Enterprise",
+     "source_url": "https://zenbooker.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Zenbooker"
+  },
   "zendesk": {
    "category": "helpdesk",
    "fees": [],
    "product": "Zendesk Suite",
    "tiers": [],
    "vendor": "Zendesk"
+  },
+  "zenmaid": {
+   "category": "cleaning_management",
+   "fees": [],
+   "product": "ZenMaid",
+   "tiers": [
+    {
+     "base_monthly_usd": 19.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter",
+     "source_url": "https://www.zenmaid.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 39.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro",
+     "source_url": "https://www.zenmaid.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 49.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro Max",
+     "source_url": "https://www.zenmaid.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "ZenMaid"
   },
   "zoho-books": {
    "category": "accounting",

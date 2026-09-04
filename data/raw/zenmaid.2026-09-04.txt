@@ -1,0 +1,10 @@
+URL: https://www.zenmaid.com/pricing/
+STATUS: 200 (redirected to https://get.zenmaid.com/pricing)
+FETCHED: 2026-09-04 19:00:08 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "$19" anchor).
+
+Page includes a "Calculate your price" widget: "How many cleaners and office managers do you have on your team? [slider, default 0] in total." The interactive result of that slider was not captured (this is a static snapshot); no plan's feature list mentions a headcount cap or a "per cleaner" dollar rate anywhere in the rendered text, and each tier is differentiated only by feature set (appointment limits, automation depth), so the $19/$39/$49 figures are recorded as the plans' base prices without an inferred per-seat scale.
+
+ZenMaid Starter -- "Perfect for new cleaning businesses just getting started." "$19/month* (*SMS charges not included)." "Up to 40 appointments per month." Mobile app without cleaner GPS tracking, chat-only support.
+ZenMaid Pro (marked "MOST POPULAR," used by 2000+ owners) -- "Ideal for established businesses ready to scale." "$39/month*." "Unlimited appointments per month." Adds digital checklists, mobile app with cleaner GPS tracking, branded booking forms, reports, payroll, QuickBooks integration (coming soon).
+ZenMaid Pro Max -- "Our most comprehensive solution with full features and priority support." "$49/month*." "Unlimited appointments per month." Adds cleaner availability & PTO tracking, service ratings, data export, Mailchimp/Zapier integrations, priority support.

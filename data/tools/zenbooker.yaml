@@ -1,0 +1,48 @@
+slug: zenbooker
+vendor: Zenbooker
+product: Zenbooker
+category: cleaning_management
+url: https://zenbooker.com/pricing
+pricing_note: 'Zenbooker serves home-service businesses broadly (cleaning included), not cleaning exclusively. Its own page states "All plans come with unlimited bookings and unlimited staff member accounts" -- tiers are differentiated by the number of "service territories," not by staff headcount, so all three are flat fees with no seat cap.'
+
+tiers:
+  - plan: Standard
+    base_monthly_usd: 29
+    per_seat_monthly_usd: 0
+    seat_label: cleaner
+    billing: monthly
+    provenance:
+      source_url: https://zenbooker.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"For local service businesses operating in 1 or 2 locations." "$29 USD/month." 2 service territories.'
+  - plan: Professional
+    base_monthly_usd: 79
+    per_seat_monthly_usd: 0
+    seat_label: cleaner
+    billing: monthly
+    provenance:
+      source_url: https://zenbooker.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"For growing service businesses with multiple locations." "$79 USD/month." 8 service territories. Adds bookable estimates, API access, email whitelabeling.'
+  - plan: Enterprise
+    base_monthly_usd: 149
+    per_seat_monthly_usd: 0
+    seat_label: cleaner
+    billing: monthly
+    provenance:
+      source_url: https://zenbooker.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"For national home service businesses and franchises." "$149 USD/month." 36 service territories. Adds drive-time-aware availability and auto-assignment.'
+
+findings:
+  - id: zenbooker-unlimited-staff-every-plan
+    claim: >-
+      Zenbooker's own pricing page states every plan includes unlimited
+      bookings and unlimited staff member accounts (2026-09-04).
+    provenance:
+      source_url: https://zenbooker.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

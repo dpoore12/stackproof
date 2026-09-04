@@ -1,0 +1,8 @@
+URL: https://www.launch27.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 19:01:44 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "BASE" heading).
+
+Base -- "Everything needed to launch your housecleaning business." "$75/month, $765/year (-15%)." Feature list explicitly includes "Unlimited Users" and "Unlimited Bookings," plus Customer/Cleaner Database, booking form, payroll manager, and more.
+Pro -- "Grow your housecleaning business." "$150/month, $1,530/year (-15%)." "Everything in the Base Plan plus..." premium booking form, integrations (Google Calendar, Zapier, Google Analytics, Twilio, QuickBooks), gift cards, automated text reminders, review requests.
+Plus -- "Fully automate and scale your housecleaning business." "$299/month, $3,049.80/year (-15%)."
