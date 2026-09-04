@@ -3021,6 +3021,54 @@
    ],
    "vendor": "Hootsuite"
   },
+  "hospitable": {
+   "category": "vacation_rental_management",
+   "fees": [],
+   "product": "Hospitable",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Essentials",
+     "source_url": "https://hospitable.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 25.52,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 2,
+     "per_seat_monthly_usd": 10.0,
+     "plan": "Host",
+     "source_url": "https://hospitable.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 51.92,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 15.0,
+     "plan": "Professional",
+     "source_url": "https://hospitable.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 87.12,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 30.0,
+     "plan": "Mogul",
+     "source_url": "https://hospitable.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Hospitable"
+  },
   "housecall-pro": {
    "category": "field_service_management",
    "fees": [],
@@ -4083,6 +4131,74 @@
     }
    ],
    "vendor": "LMN"
+  },
+  "lodgify": {
+   "category": "vacation_rental_management",
+   "fees": [],
+   "product": "Lodgify",
+   "tiers": [
+    {
+     "base_monthly_usd": 14.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Basic",
+     "source_url": "https://www.lodgify.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 18.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Basic (monthly billing)",
+     "source_url": "https://www.lodgify.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 26.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 2,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter",
+     "source_url": "https://www.lodgify.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 33.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 2,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter (monthly billing)",
+     "source_url": "https://www.lodgify.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 42.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Professional",
+     "source_url": "https://www.lodgify.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 62.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Ultimate",
+     "source_url": "https://www.lodgify.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Lodgify"
   },
   "mailchimp": {
    "category": "email_marketing",
@@ -6278,6 +6394,13 @@
     }
    ],
    "vendor": "Slite"
+  },
+  "smoobu": {
+   "category": "vacation_rental_management",
+   "fees": [],
+   "product": "Smoobu",
+   "tiers": [],
+   "vendor": "Smoobu"
   },
   "sprout-social": {
    "category": "social_scheduling",

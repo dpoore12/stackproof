@@ -1,0 +1,12 @@
+URL: https://hospitable.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 19:14:09 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "Essentials" anchor, which also captured the full "Compare features" table).
+
+Compare-features table, "Plan / Maximum Properties / Properties included in base price / Cost per extra property":
+Essentials -- "No monthly fee" ($0). Maximum Properties: Unlimited. Properties included in base price: Unlimited. Cost per extra property: "No additional fee." "Core automation and multi-channel management." Includes Unified Inbox, Airbnb/Vrbo/Booking.com/Agoda sync, Upsells and Guest Portal, self-serve support.
+Host -- "$25.52/month." Maximum Properties: 2. Properties included in base price: 1. Cost per extra property: $10. "Everything a solo host needs to save time and stay organized." Adds Message AI Assistant, Dynamic Pricing, Metrics Dashboard, unlimited secondary users.
+Professional -- "$51.92/month." Maximum Properties: Unlimited. Properties included in base price: 2. Cost per extra property: $15. "Scale your portfolio and coordinate your team with ease." Adds Direct Booking Website, Smart Lock/Thermostat Automations, Guest Payment Collection.
+Mogul -- marked "BEST VALUE." "$87.12/month." Maximum Properties: Unlimited. Properties included in base price: 3. Cost per extra property: $30. "Top-tier AI, smart devices, and full owner management tools." Adds Custom Branding, QuickBooks accounting, Inbox AI, Owner Portal/Payouts/Statements.
+
+"Prices exclude VAT where applicable."

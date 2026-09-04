@@ -1,0 +1,27 @@
+slug: smoobu
+vendor: Smoobu
+product: Smoobu
+category: vacation_rental_management
+url: https://www.smoobu.com/en/pricing/
+pricing_note: 'Smoobu bills in EUR by default; its own page states "All subscriptions are billed in EUR. Prices displayed in GBP/USD are estimates for reference purposes only and may vary depending on exchange rates." No tiers are recorded in USD for this reason, the same treatment given to Squarespace, Wix, and Framer elsewhere on this site when they never reliably render USD pricing. Smoobu''s own FAQ states the real EUR formula: "Begin managing a single unit for as low as EUR28 per month. Each additional unit costs from EUR9.60 per month, and additional writing-access accounts cost upwards of EUR12 per month."'
+
+findings:
+  - id: smoobu-eur-per-unit-formula
+    claim: >-
+      Smoobu's own FAQ states a single-unit plan starts at EUR28/month,
+      with each additional unit costing from EUR9.60/month and each
+      additional writing-access account costing from EUR12/month
+      (2026-09-04).
+    provenance:
+      source_url: https://www.smoobu.com/en/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: smoobu-flex-vs-prepaid-booking-fee
+    claim: >-
+      Smoobu's Professional Flex plan charges a 0.9% booking fee with
+      pay-as-you-go pricing, while Professional Prepaid and Pro+ charge
+      a 0% booking fee (2026-09-04).
+    provenance:
+      source_url: https://www.smoobu.com/en/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
