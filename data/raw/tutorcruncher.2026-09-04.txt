@@ -1,0 +1,30 @@
+source: https://tutorcruncher.com/pricing
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+Page description: "Plans from $30/month (USD). Choose Pay as you go,
+Startup, or Enterprise for your tutoring business."
+
+Three tiers, each labelled "Starting from" rather than a flat
+guaranteed price, and differentiated mainly by payment-processing rate
+and support/feature tier rather than by a stated tutor or staff count:
+
+Pay as you go — "Starting from $30/month." "For tutoring companies
+starting out." Standard card fees 3.85%. 3 months of priority phone
+support, 1 hour platform optimisation call, 1 hour training session.
+
+Startup — "Starting from $80/month." "For scaling tutoring companies."
+Standard card fees 3.5%. 3 months of priority phone support, 1 hour
+platform optimisation call, 3 x 1 hour training sessions. Adds
+customisable/configurable dashboard, customisable email design, user &
+report exports.
+
+Enterprise — "Starting from $240/month." "For large-scale tutoring
+companies." "Competitive rates for high-volume merchants." Unlimited
+technical support including integrations, unlimited chat support, API
+& custom integrations, custom JS/CSS.
+
+No tutor-count, student-count, or other seat figure is stated for any
+tier in the static text; the page instead offers an interactive
+calculator ("Want to estimate which the best price plan would be for
+you...") to recommend a plan. All prices exclusive of tax.

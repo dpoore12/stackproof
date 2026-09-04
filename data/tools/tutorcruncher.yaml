@@ -1,0 +1,43 @@
+slug: tutorcruncher
+vendor: TutorCruncher
+product: TutorCruncher
+category: tutoring_center_management
+url: https://tutorcruncher.com/pricing
+pricing_note: 'All three tiers are labelled "Starting from" rather than a guaranteed flat price, and are differentiated mainly by payment-processing rate and support/feature tier rather than by a stated tutor or staff count — no seat figure is given anywhere in static text. The page instead offers an interactive plan-recommendation calculator. All three are recorded `compare: false` as starting figures only.'
+
+tiers:
+  - plan: Pay as you go
+    compare: false
+    base_monthly_usd: 30
+    provenance:
+      source_url: https://tutorcruncher.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pay as you go — For tutoring companies starting out. Starting from $30/month." Standard card fees 3.85%.'
+  - plan: Startup
+    compare: false
+    base_monthly_usd: 80
+    provenance:
+      source_url: https://tutorcruncher.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Startup — For scaling tutoring companies. Starting from $80/month." Standard card fees 3.5%.'
+  - plan: Enterprise
+    compare: false
+    base_monthly_usd: 240
+    provenance:
+      source_url: https://tutorcruncher.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Enterprise — For large-scale tutoring companies. Starting from $240/month." "Competitive rates for high-volume merchants."'
+
+findings:
+  - id: tutorcruncher-payment-fee-tiers
+    claim: >-
+      TutorCruncher states a standard card processing fee of 3.85% on
+      its "Pay as you go" plan and 3.5% on its "Startup" plan, per its
+      own pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://tutorcruncher.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
