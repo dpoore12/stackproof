@@ -1,0 +1,100 @@
+slug: whimsical
+vendor: Whimsical
+product: Whimsical
+category: whiteboarding
+url: https://whimsical.com/pricing
+free_trial: "No separate paid trial; Free itself runs indefinitely with unlimited workspace members and unlimited guests (2026-09-04)."
+pricing_note: "Whimsical prices per Editor; Viewers and Guests are unlimited and free on every plan, including Free. The page defaulted to \"(Currently viewing) Annual billing\" at fetch time, so the $10/$20 figures recorded here are the annual-billed monthly-equivalent rates; the monthly-billing alternative (17% higher per the page's own \"Save 17%\" annual banner) was not captured as an exact dollar figure by this static fetch."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: editor
+    billing: annual
+    provenance:
+      source_url: https://whimsical.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free. $0 / Month / Editor. For evaluating Whimsical." "Unlimited boards, unlimited workspace members, unlimited guests, 10 AI credits per member." Create up to 50 board objects/month and 50 doc blocks/month, watermark on exports, 7-day version history.'
+  - plan: Pro (annual)
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 10
+    included_seats: 0
+    seat_label: editor
+    billing: annual
+    provenance:
+      source_url: https://whimsical.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pro. $10 / Month / Editor. For individuals and small teams." Unlimited board objects and doc blocks, remove watermark on exports, 90-day version history.'
+  - plan: Business (annual)
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 20
+    included_seats: 0
+    seat_label: editor
+    billing: annual
+    provenance:
+      source_url: https://whimsical.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Business. $20 / Month / Editor. For large teams and entire organizations." Private teams, SAML SSO, SCIM and more security controls, unlimited version history.'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "For Business plan customers with more than 10 editor seats, we also offer invoicing, including wire and ACH transfers."
+    finding: >-
+      Whimsical requires credit-card payment on Free and Pro, and only
+      offers invoicing (wire/ACH) to Business customers with more than 10
+      editor seats (2026-09-04).
+    provenance:
+      source_url: https://whimsical.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Whimsical's pricing FAQ states no cancellation terms (2026-09-04).
+    provenance:
+      source_url: https://whimsical.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Whimsical's pricing FAQ states no refund terms (2026-09-04).
+    provenance:
+      source_url: https://whimsical.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: whimsical-guests-always-free
+    claim: >-
+      Whimsical's FAQ states, "Guests are free and unlimited on every
+      plan, including Free," so only Editors consume a paid seat
+      (2026-09-04).
+    provenance:
+      source_url: https://whimsical.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: whimsical-free-ai-credits
+    claim: >-
+      Whimsical's Free plan includes "10 AI credits per member," with
+      additional AI credits purchasable separately on any plan
+      (2026-09-04).
+    provenance:
+      source_url: https://whimsical.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: whimsical-nonprofit-discount
+    claim: >-
+      Whimsical offers a 20% discount to non-profit organizations, and
+      free access for students and teachers, per its pricing FAQ
+      (2026-09-04).
+    provenance:
+      source_url: https://whimsical.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

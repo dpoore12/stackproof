@@ -1,0 +1,115 @@
+slug: miro
+vendor: Miro
+product: Miro
+category: whiteboarding
+url: https://miro.com/pricing/
+free_trial: "Business plan can be tried free before buying; Free plan itself runs indefinitely with unlimited team members and 3 editable boards (2026-09-04)."
+pricing_note: "Miro prices per seat: only invited collaborators who become full \"Members\" consume a paid seat. Guests (limited access to specific boards) and Visitors (public link access) are free at every plan and do not count toward billing. The page's default toggle showed annual billing (\"Yearly, save 20%\"); the monthly-billing dollar figure exists behind the same toggle but was not captured by this static fetch."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: member (paid seat)
+    billing: monthly
+    provenance:
+      source_url: https://miro.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free. For small teams getting started with Miro. $0." "Miro has a free plan with unlimited team members." 3 editable boards (create/share unlimited, 3 most recent stay editable), templates, Explore AI, 250+ integrations.'
+  - plan: Starter (annual)
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 8
+    included_seats: 0
+    seat_label: member (paid seat)
+    billing: annual
+    provenance:
+      source_url: https://miro.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Starter. For small teams collaborating regularly with unlimited boards. $8/month per member, billed yearly." Unlimited & private boards, visitor editing, high-res exports, unlimited project spaces, timer/voting, 25 AI credits/member/month, 500 MCP calls/day.'
+  - plan: Business (annual)
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 20
+    included_seats: 0
+    seat_label: member (paid seat)
+    billing: annual
+    provenance:
+      source_url: https://miro.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Business. For growing organizations and consultants to streamline workflows with AI. $20/month per member, billed yearly." Everything in Starter, plus unlimited workspaces.'
+  - plan: Enterprise
+    compare: false
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: member
+    billing: annual
+    provenance:
+      source_url: https://miro.com/pricing/
+      fetched_at: 2026-09-04
+      method: not_available
+      note: "Enterprise pricing not published; requires contacting sales."
+
+clauses:
+  - topic: cancellation
+    status: stated
+    quote: "Downgrades and cancellations take effect at the end of your current term. Miro plans auto-renew which means that if you don't want to be charged for the next period, cancel before your renewal date."
+    finding: >-
+      Miro states that plan downgrades and cancellations take effect at
+      the end of the current billing term, and that plans auto-renew
+      unless cancelled before the renewal date (2026-09-04).
+    provenance:
+      source_url: https://miro.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    quote: "Miro plans are priced per seat. On the Free plan, all users are free. If you're on a Starter or Business plan, you're charged for every member added to your workspace. Charges are prorated, so members added mid-cycle are only billed for the remaining days until the next billing cycle starts."
+    finding: >-
+      Miro prorates mid-cycle seat additions, charging only for the
+      remaining days in the current billing cycle (2026-09-04).
+    provenance:
+      source_url: https://miro.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Miro's pricing page and FAQ state no money-back-guarantee or refund
+      terms (2026-09-04).
+    provenance:
+      source_url: https://miro.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: miro-guest-vs-member-seat
+    claim: >-
+      Miro's FAQ defines the billed unit: "Members consume a paid seat...
+      Guests have a free Miro account and do not consume a paid seat, but
+      are only invited to specific boards" (2026-09-04).
+    provenance:
+      source_url: https://miro.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: miro-startup-credit-program
+    claim: >-
+      Miro offers eligible startups $1,000 in credits if connected to a
+      partner accelerator/VC, or $500 for independent startups with fewer
+      than 30 employees (2026-09-04).
+    provenance:
+      source_url: https://miro.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: miro-ai-credits-pooled
+    claim: >-
+      Miro pools each plan's monthly AI-credit allotment across the whole
+      organization rather than per user, and unused credits do not roll
+      over to the next month (2026-09-04).
+    provenance:
+      source_url: https://miro.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

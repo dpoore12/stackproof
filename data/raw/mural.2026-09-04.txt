@@ -1,0 +1,13 @@
+URL: https://www.mural.co/pricing
+STATUS: 200
+FETCHED: 2026-09-04 14:20:54 +00:00 (US gateway 68.183.60.34; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with <script>/<style>/<noscript> nodes stripped before innerText (first attempt using raw document.body.innerText returned ~95,000 chars of leaked inline tracking-script text before any pricing content).
+---
+Free — "Get your team started fast. $0 USD for unlimited members." "Unlimited murals with 3 editable murals at a time. Unlimited visitors with view-only rights. Open rooms for your workspace members."
+Team+ — "Collaborate frequently with your team with unlimited editable murals. $9.99 per month, billed annually" / "$12 per month, billed monthly." Unlimited editable murals, unlimited visitors with editing rights, private rooms, Mural AI, basic integrations (Zoom, Webex, etc.).
+Business (Most popular) — "Collaborate across teams with the security of SSO and unlimited guests. $17.99 USD per member/month billed annually." SSO (SAML 2.0), unlimited external users, advanced integrations (Azure, GitHub, Okta), pay by credit card or invoice, LUMA frameworks, priority support.
+Enterprise — "Level up teamwork across multiple workspaces with enterprise-grade controls and proven transformation expertise. Contact for pricing."
+FAQ: "Do I need to purchase a seat for all of my collaborators?" — "No, Mural offers flexible ways to collaborate so that creative ideas and innovation aren't limited by logins. Purchase seats for your core collaborators who need access to workspaces, rooms, and murals. One-time collaborators to specific murals are always free with every plan; we call them visitors. The Business and Enterprise plans also include guest access..."
+FAQ: "How is Mural's pricing different?" — "Mural is committed to offering flexible and transparent pricing with no catches and no surprises. Never get billed retroactively. Plus, we'll never surprise you with a bill or invoice."
+No cancellation or refund language found in the FAQ.
+Page title: "Mural pricing | From free to enterprise-grade plans".

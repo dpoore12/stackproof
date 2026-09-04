@@ -404,6 +404,54 @@
    "tiers": [],
    "vendor": "Brevo (formerly Sendinblue)"
   },
+  "cacoo": {
+   "category": "whiteboarding",
+   "fees": [],
+   "product": "Cacoo",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://cacoo.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Pro",
+     "source_url": "https://cacoo.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1000,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Team",
+     "source_url": "https://cacoo.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Enterprise",
+     "source_url": "https://cacoo.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Cacoo (Nulab)"
+  },
   "calcom": {
    "category": "scheduling",
    "fees": [],
@@ -1236,6 +1284,64 @@
     }
    ],
    "vendor": "Fastmail"
+  },
+  "figma": {
+   "category": "whiteboarding",
+   "fees": [],
+   "product": "Figma (FigJam whiteboard seat)",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter (Free)",
+     "source_url": "https://www.figma.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 3.0,
+     "plan": "Professional (Collab seat)",
+     "source_url": "https://www.figma.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 16.0,
+     "plan": "Professional (Full seat, reference)",
+     "source_url": "https://www.figma.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 5.0,
+     "plan": "Organization (Collab seat, annual)",
+     "source_url": "https://www.figma.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 5.0,
+     "plan": "Enterprise (Collab seat, annual)",
+     "source_url": "https://www.figma.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Figma"
   },
   "fillout": {
    "category": "forms",
@@ -2742,6 +2848,54 @@
    ],
    "vendor": "Microsoft"
   },
+  "miro": {
+   "category": "whiteboarding",
+   "fees": [],
+   "product": "Miro",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://miro.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 8.0,
+     "plan": "Starter (annual)",
+     "source_url": "https://miro.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 20.0,
+     "plan": "Business (annual)",
+     "source_url": "https://miro.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Enterprise",
+     "source_url": "https://miro.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Miro"
+  },
   "monday": {
    "category": "project_management",
    "fees": [
@@ -2796,6 +2950,64 @@
     }
    ],
    "vendor": "monday.com"
+  },
+  "mural": {
+   "category": "whiteboarding",
+   "fees": [],
+   "product": "Mural",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://www.mural.co/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 9.99,
+     "plan": "Team+ (annual)",
+     "source_url": "https://www.mural.co/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 12.0,
+     "plan": "Team+ (monthly)",
+     "source_url": "https://www.mural.co/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 17.99,
+     "plan": "Business (annual)",
+     "source_url": "https://www.mural.co/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Enterprise",
+     "source_url": "https://www.mural.co/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Mural (Tactivos)"
   },
   "nextiva": {
    "category": "business_phone",
@@ -4682,6 +4894,44 @@
     }
    ],
    "vendor": "Whereby"
+  },
+  "whimsical": {
+   "category": "whiteboarding",
+   "fees": [],
+   "product": "Whimsical",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://whimsical.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 10.0,
+     "plan": "Pro (annual)",
+     "source_url": "https://whimsical.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 20.0,
+     "plan": "Business (annual)",
+     "source_url": "https://whimsical.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Whimsical"
   },
   "wix": {
    "category": "website_builder",

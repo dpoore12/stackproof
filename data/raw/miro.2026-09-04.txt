@@ -1,0 +1,15 @@
+URL: https://miro.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 14:18:44 +00:00 (US gateway 68.183.60.80, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (sliced to 95,000 chars; full custom_js_response was truncated server-side above 100,000 chars on first attempt).
+---
+"Where teams and AI work as one." "Prices in USD" implied (no currency toggle found). Free — "For small teams getting started with Miro. $0." "3 editable boards." "Miro has a free plan with unlimited team members."
+Starter — "For small teams collaborating regularly with unlimited boards. $8/month per member, billed yearly." Unlimited & private boards, visitor editing, high-resolution exports, unlimited project spaces & blueprints, timer and voting, 25 AI credits/member/month, 500 MCP calls/day, custom fonts & styles.
+Business — "For growing organizations and consultants to streamline workflows with AI. $20/month per member, billed yearly." Everything in Starter plus unlimited workspaces.
+Enterprise — contact sales, no price shown in static text.
+FAQ: "Who counts as a paid member?" — "Members consume a paid seat. They have full access to the plan features and can create their own boards and content. Guests have a free Miro account and do not consume a paid seat, but are only invited to specific boards and have limited access to capabilities. Visitors access boards via a shared public link for free as well and don't need an account. Please note that the Free plan has no Guest role."
+FAQ: "How does Miro's pricing work?" — "Miro plans are priced per seat. On the Free plan, all users are free. If you're on a Starter or Business plan, you're charged for every member added to your workspace. Charges are prorated..."
+FAQ: "How do I upgrade, downgrade, or cancel?" — "Upgrades take effect immediately and are prorated for the rest of your billing period. Downgrades and cancellations take effect at the end of your current term. Miro plans auto-renew..."
+FAQ: "Do you offer discounts for startups?" — "eligible startups can receive Miro credits to get started: $1,000 if you're connected to one of our global startup partners... or $500 if you apply as an independent startup. Requirements include fewer than 30 employees..."
+No refund/money-back-guarantee language found.
+Page title: "Pricing".

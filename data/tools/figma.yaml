@@ -1,0 +1,128 @@
+slug: figma
+vendor: Figma
+product: Figma (FigJam whiteboard seat)
+category: whiteboarding
+url: https://www.figma.com/pricing/
+free_trial: "No separate paid trial; Starter (free) itself runs indefinitely with unlimited drafts and 150 AI credits/day (2026-09-04)."
+pricing_note: "Figma sells one unified per-seat price ladder across its whole suite (Design, FigJam, Slides, Draw, etc.), not a standalone whiteboard product, with three seat types: Full seat (everything), Dev seat (Dev Mode + FigJam + Slides + Buzz, view/comment on Design), and Collab seat (full FigJam + Slides + Buzz, view/comment on Design and basic Dev Mode inspection). Because this category is specifically about whiteboarding, the Collab seat -- the cheapest seat type with full FigJam access -- is used as Figma's comparable price here; Full and Dev seat prices are recorded as reference tiers only (compare: false) since they price the entire design suite, not just the whiteboard. The page states \"Prices in USD.\" Professional's price is shown behind a Monthly/Annual toggle; which state this specific fetch captured is not certain from the static text, so it is recorded here as the monthly rate pending disambiguation. Organization and Enterprise are explicitly \"Billed annually.\""
+
+tiers:
+  - plan: Starter (Free)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: seat (any type)
+    billing: monthly
+    provenance:
+      source_url: https://www.figma.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Starter. Free. Free limited access to Figma products." Unlimited drafts, UI kits and templates, 150 AI credits/day up to 500 AI credits/month.'
+  - plan: Professional (Collab seat)
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 3
+    included_seats: 0
+    seat_label: collab seat (full FigJam access)
+    billing: monthly
+    provenance:
+      source_url: https://www.figma.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Professional. Monthly Annual. ... Collab seat $3/mo + 500 AI credits/mo." Choose Professional for a single team needing unlimited files/projects and advanced prototyping.'
+  - plan: Professional (Full seat, reference)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 16
+    included_seats: 0
+    seat_label: full seat (entire Figma suite)
+    billing: monthly
+    provenance:
+      source_url: https://www.figma.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Full seat $16/mo + 3,000 AI credits/mo." Full access to Figma Design, Make, Draw, Sites, Dev Mode, FigJam, Slides and Buzz. Recorded for reference; prices the entire suite, not just whiteboarding.'
+  - plan: Organization (Collab seat, annual)
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 5
+    included_seats: 0
+    seat_label: collab seat (full FigJam access)
+    billing: annual
+    provenance:
+      source_url: https://www.figma.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Organization. Billed annually. ... Collab seat $5/mo + 500 AI credits/mo." Full seat $55/mo, Dev seat $25/mo (recorded as reference only). Shared libraries and fonts, centralized admin tools.'
+  - plan: Enterprise (Collab seat, annual)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 5
+    included_seats: 0
+    seat_label: collab seat (full FigJam access)
+    billing: annual
+    provenance:
+      source_url: https://www.figma.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Enterprise. Billed annually. ... Collab seat $5/mo + 500 AI credits/mo. Contact sales." Full seat $90/mo, Dev seat $35/mo. Marked non-comparable: although a list price is printed, the page still routes purchase through "Contact sales" rather than self-serve checkout.'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    quote: "If you're on the Professional plan, you can downgrade or cancel your plan your Admin Dashboard. If you're on an Organization or Enterprise plan, please contact our Sales team to downgrade or cancel your plan."
+    finding: >-
+      Figma lets Professional-plan customers self-serve cancel from the
+      Admin Dashboard, but Organization and Enterprise customers must
+      contact sales to cancel (2026-09-04).
+    provenance:
+      source_url: https://www.figma.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    quote: "If you're on a Professional plan, if you add new paid seats to your team during your annual subscription term, Figma charges you a separate monthly subscription for those seats at the monthly price."
+    finding: >-
+      Figma bills new seats added mid-term on an annual Professional plan
+      as a separate monthly subscription at the monthly rate, rather than
+      prorating the annual rate (2026-09-04).
+    provenance:
+      source_url: https://www.figma.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Figma's pricing FAQ states no money-back-guarantee or refund terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.figma.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: figma-seat-types
+    claim: >-
+      Figma's FAQ defines three seat types: "Full seat" (entire suite),
+      "Dev seat" (Dev Mode plus FigJam/Slides/Buzz), and "Collab seat"
+      (FigJam/Slides/Buzz plus basic Dev Mode inspection) (2026-09-04).
+    provenance:
+      source_url: https://www.figma.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: figma-unlimited-viewers
+    claim: >-
+      Figma states, "Invite as many people as you want to view, comment,
+      inspect, or export from your Figma files—for free!" independent of
+      seat count (2026-09-04).
+    provenance:
+      source_url: https://www.figma.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: figma-ai-credits-by-seat-type
+    claim: >-
+      Figma's Full seats get 3,000 to 4,250 AI credits/month depending on
+      plan, while Collab, Dev, and View seats all receive a flat 500
+      credits/month (2026-09-04).
+    provenance:
+      source_url: https://www.figma.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

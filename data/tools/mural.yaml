@@ -1,0 +1,114 @@
+slug: mural
+vendor: Mural (Tactivos)
+product: Mural
+category: whiteboarding
+url: https://www.mural.co/pricing
+free_trial: "No separate trial gate found; Free itself runs indefinitely with unlimited members (2026-09-04)."
+pricing_note: "Mural, like Miro, distinguishes paid Members (core collaborators) from free Guests and Visitors: \"Purchase seats for your core collaborators who need access to workspaces, rooms, and murals. One-time collaborators to specific murals are always free with every plan.\""
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: member (paid seat)
+    billing: monthly
+    provenance:
+      source_url: https://www.mural.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free. Get your team started fast. $0 USD for unlimited members." Free features: unlimited murals with 3 editable at a time, unlimited visitors with view-only rights, open rooms.'
+  - plan: Team+ (annual)
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 9.99
+    included_seats: 0
+    seat_label: member (paid seat)
+    billing: annual
+    provenance:
+      source_url: https://www.mural.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Team+. Collaborate frequently with your team with unlimited editable murals. $9.99 per month, billed annually" ($12 per month, billed monthly). Unlimited editable murals, unlimited visitors with editing rights, private rooms, Mural AI, basic integrations.'
+  - plan: Team+ (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 12
+    included_seats: 0
+    seat_label: member (paid seat)
+    billing: monthly
+    provenance:
+      source_url: https://www.mural.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$12 per month, billed monthly", versus $9.99/month billed annually.'
+  - plan: Business (annual)
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 17.99
+    included_seats: 0
+    seat_label: member (paid seat)
+    billing: annual
+    provenance:
+      source_url: https://www.mural.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Business. Most popular. Collaborate across teams with the security of SSO and unlimited guests. $17.99 USD per member/month billed annually." SSO (SAML 2.0), unlimited external users, advanced integrations, pay by card or invoice, priority support.'
+  - plan: Enterprise
+    compare: false
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: member
+    billing: annual
+    provenance:
+      source_url: https://www.mural.co/pricing
+      fetched_at: 2026-09-04
+      method: not_available
+      note: '"Enterprise. Level up teamwork across multiple workspaces... Contact for pricing." No price published.'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "Mural is committed to offering flexible and transparent pricing with no catches and no surprises. Never get billed retroactively. Plus, we'll never surprise you with a bill or invoice."
+    finding: >-
+      Mural's FAQ states customers are never billed retroactively for
+      seat or plan changes (2026-09-04).
+    provenance:
+      source_url: https://www.mural.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Mural's pricing FAQ states no cancellation terms (2026-09-04).
+    provenance:
+      source_url: https://www.mural.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Mural's pricing FAQ states no refund terms (2026-09-04).
+    provenance:
+      source_url: https://www.mural.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: mural-seat-definition
+    claim: >-
+      Mural's FAQ states, "No, Mural offers flexible ways to collaborate
+      so that creative ideas and innovation aren't limited by logins.
+      Purchase seats for your core collaborators" only (2026-09-04).
+    provenance:
+      source_url: https://www.mural.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: mural-guest-access-tiering
+    claim: >-
+      Mural gates ongoing guest access behind plan tier: Free and Team+
+      have no guest role, while Business and Enterprise both include
+      "unlimited guests" for outside collaborators (2026-09-04).
+    provenance:
+      source_url: https://www.mural.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

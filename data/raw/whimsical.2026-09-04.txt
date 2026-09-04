@@ -1,0 +1,15 @@
+URL: https://whimsical.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 14:23:04 +00:00 (US gateway 68.183.54.131; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+---
+"Use Whimsical for free, or upgrade for advanced features and controls. Viewers are always free.(Currently viewing)Annual billingSave 17%Monthly billing"
+Free — "$0 / Month / Editor. For evaluating Whimsical." Create up to 50 board objects/month, 50 doc blocks/month, watermark on exports, 7-day version history.
+Pro — "$10 / Month / Editor. For individuals and small teams." Unlimited board objects and doc blocks, remove watermark on exports, 90-day version history.
+Business — "$20 / Month / Editor. For large teams and entire organizations." Private teams, SAML SSO, SCIM and more security controls, unlimited version history.
+FAQ: "Can I use Whimsical for free?" — "Yes! With our Free plan, you can have unlimited boards, unlimited workspace members, unlimited guests, 10 AI credits per member, and more."
+FAQ: "What types of payment do you accept?" — "We accept all major credit and debit cards. For Business plan customers with more than 10 editor seats, we also offer invoicing, including wire and ACH transfers."
+FAQ: "Can I collaborate with people outside my organization?" — "Yes, you can share a file with anyone using a share link, or invite people into your workspace as guests. Guests are free and unlimited on every plan, including Free."
+FAQ: "Do you offer discounts for non-profits?" — "Yes, we gladly offer a 20% discount to non-profit organizations."
+No cancellation or refund language found.
+Page title: "Whimsical Pricing - Free & Paid Plans".
