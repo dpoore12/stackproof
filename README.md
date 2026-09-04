@@ -691,6 +691,34 @@ starting figure and the full tier table is captured as a finding.
 
 Database is now 172 tools across 37 categories.
 
+### Landscaping / lawn care business management software (2026-09-04)
+
+Three vendors: LMN, SingleOps, Service Autopilot. Seat axis is "team
+members" (1, 5, 10, 20, 50). LMN and SingleOps are sibling products
+under the same parent company, Granum — LMN for general landscape
+crews, SingleOps for tree care/arborist crews — sold through nearly
+identical pricing copy; both are included since they are genuinely
+separate products with separate pricing. Aspire's pricing URL 404s and
+Yardbook's pricing page returns a 403 to the fetch, so both were
+dropped.
+
+LMN prices flat per tier with a bundled license cap (Starter: 1
+office/crew lead + 5 crew = 6 total, $297/mo; Professional: 3 + 15 = 18
+total, $648/mo) — "additional licenses are available for a fee," but no
+per-seat dollar rate is published anywhere on the page, so `max_seats`
+is set to each tier's included count rather than assumed unlimited.
+SingleOps is a genuine base + per-seat formula, but the per-seat rate
+applies only to "office or sales users" per the vendor's own copy, not
+field crew, and the base plan's included office/sales seat count is
+never stated explicitly (1 is assumed as the natural reading). Service
+Autopilot publishes flat prices for its lower two tiers with no stated
+seat count for either one, plus an unquantified one-time "sign up fee"
+on every tier — its FAQ defers to a sales demo "to get the right number
+of licenses" — so all of its tiers are recorded `compare: false` as
+starting figures rather than comparable prices.
+
+Database is now 175 tools across 38 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

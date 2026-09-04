@@ -4018,6 +4018,34 @@
    ],
    "vendor": "Livestorm"
   },
+  "lmn": {
+   "category": "landscaping_management",
+   "fees": [],
+   "product": "LMN",
+   "tiers": [
+    {
+     "base_monthly_usd": 297.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 6,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter",
+     "source_url": "https://golmn.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 648.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 18,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Professional",
+     "source_url": "https://golmn.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "LMN"
+  },
   "mailchimp": {
    "category": "email_marketing",
    "fees": [],
@@ -5810,6 +5838,44 @@
    ],
    "vendor": "Screenly"
   },
+  "service-autopilot": {
+   "category": "landscaping_management",
+   "fees": [],
+   "product": "Service Autopilot",
+   "tiers": [
+    {
+     "base_monthly_usd": 49.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Startup",
+     "source_url": "https://www.serviceautopilot.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 199.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro",
+     "source_url": "https://www.serviceautopilot.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 499.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 6,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro Plus",
+     "source_url": "https://www.serviceautopilot.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Service Autopilot"
+  },
   "service-fusion": {
    "category": "field_service_management",
    "fees": [],
@@ -6020,6 +6086,74 @@
     }
    ],
    "vendor": "airSlate"
+  },
+  "singleops": {
+   "category": "landscaping_management",
+   "fees": [],
+   "product": "SingleOps",
+   "tiers": [
+    {
+     "base_monthly_usd": 200.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 50.0,
+     "plan": "Essential (annual)",
+     "source_url": "https://www.singleops.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 220.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 55.0,
+     "plan": "Essential (monthly billing)",
+     "source_url": "https://www.singleops.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 350.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 100.0,
+     "plan": "Plus (annual)",
+     "source_url": "https://www.singleops.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 385.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 115.0,
+     "plan": "Plus (monthly billing)",
+     "source_url": "https://www.singleops.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 500.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 125.0,
+     "plan": "Premier (annual)",
+     "source_url": "https://www.singleops.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 550.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 150.0,
+     "plan": "Premier (monthly billing)",
+     "source_url": "https://www.singleops.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "SingleOps"
   },
   "sling": {
    "category": "shift_scheduling",

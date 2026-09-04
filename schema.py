@@ -273,6 +273,7 @@ CATEGORY_SEAT_POINTS: dict[str, tuple[int, ...]] = {
     "gym_management": (25, 50, 100, 200, 400),
     "salon_management": (1, 3, 5, 10, 25),
     "construction_management": (1, 3, 5, 10, 25),
+    "landscaping_management": (1, 5, 10, 20, 50),
 }
 
 
