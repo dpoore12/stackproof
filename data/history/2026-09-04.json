@@ -520,6 +520,71 @@
    ],
    "vendor": "Docusign"
   },
+  "duda": {
+   "category": "website_builder",
+   "fees": [],
+   "product": "Duda",
+   "tiers": [
+    {
+     "base_monthly_usd": 19.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Basic",
+     "source_url": "https://www.duda.co/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 25.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Basic (monthly billing)",
+     "source_url": "https://www.duda.co/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 29.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Team",
+     "source_url": "https://www.duda.co/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 52.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 4,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Agency",
+     "source_url": "https://www.duda.co/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 149.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 4,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "White Label",
+     "source_url": "https://www.duda.co/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Duda"
+  },
+  "framer": {
+   "category": "website_builder",
+   "fees": [],
+   "product": "Framer",
+   "tiers": [],
+   "vendor": "Framer"
+  },
   "freshbooks": {
    "category": "accounting",
    "fees": [],
@@ -1643,6 +1708,13 @@
    ],
    "vendor": "Square"
   },
+  "squarespace": {
+   "category": "website_builder",
+   "fees": [],
+   "product": "Squarespace",
+   "tiers": [],
+   "vendor": "Squarespace"
+  },
   "tidio": {
    "category": "live_chat",
    "fees": [
@@ -1793,6 +1865,61 @@
     }
    ],
    "vendor": "Wave"
+  },
+  "webflow": {
+   "category": "website_builder",
+   "fees": [],
+   "product": "Webflow Site plans",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter",
+     "source_url": "https://webflow.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 15.0,
+     "plan": "Basic",
+     "source_url": "https://webflow.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 25.0,
+     "plan": "Premium",
+     "source_url": "https://webflow.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 2500.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Team",
+     "source_url": "https://webflow.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Webflow"
+  },
+  "wix": {
+   "category": "website_builder",
+   "fees": [],
+   "product": "Wix Premium plans",
+   "tiers": [],
+   "vendor": "Wix"
   },
   "xero": {
    "category": "accounting",

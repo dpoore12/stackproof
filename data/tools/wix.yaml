@@ -1,0 +1,77 @@
+slug: wix
+vendor: Wix
+product: Wix Premium plans
+category: website_builder
+url: https://www.wix.com/plans
+free_trial: "Free plan with no credit card; paid plans carry a 14-day money-back guarantee (stated 2026-09-04)."
+pricing_note: "The fetch on 2026-09-04 was geo-routed to EUR pricing including VAT; USD prices were not captured. The EUR figures are recorded as findings. Pending a US-region fetch or verification on an account."
+
+tiers: []
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Wix advertises a 14-day money-back guarantee on its premium plans
+      (2026-09-04).
+    quote: "14-day money-back guarantee"
+    provenance:
+      source_url: https://www.wix.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Wix's displayed prices are for yearly subscriptions paid in full at
+      purchase, with other subscription periods available (2026-09-04).
+    quote: "Displayed prices are for yearly subscriptions, paid in full at the time of purchase. Additional subscription periods are available."
+    provenance:
+      source_url: https://www.wix.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Wix's plans page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://www.wix.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: wix-pricing-geo-routed-eur
+    claim: >-
+      On 2026-09-04 an automated fetch of wix.com/plans rendered EUR prices
+      including VAT for yearly subscriptions, so USD prices could not be
+      machine-recorded.
+    provenance:
+      source_url: https://www.wix.com/plans
+      fetched_at: 2026-09-04
+      method: not_available
+  - id: wix-eur-plan-prices
+    claim: >-
+      Wix's European page on 2026-09-04 listed Light at €16.66, Core at
+      €29.75, Business at €40.46 and Business Elite at €177.31 per month
+      including VAT on yearly subscriptions paid in full.
+    provenance:
+      source_url: https://www.wix.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: wix-storage-and-collaborators
+    claim: >-
+      Wix plans scale storage from 2 GB (Light) to 50 GB, 100 GB and
+      unlimited, and site collaborators from 2 to 5, 10 and 100
+      (2026-09-04).
+    provenance:
+      source_url: https://www.wix.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: wix-free-domain-one-year
+    claim: >-
+      Every paid Wix plan includes a free domain for 1 year and a 14-day
+      money-back guarantee; the Free plan has no custom domain
+      (2026-09-04).
+    provenance:
+      source_url: https://www.wix.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch

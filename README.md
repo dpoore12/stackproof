@@ -120,12 +120,11 @@ container.
 Results on 2026-09-03: Pipedrive, Freshsales, Help Scout, Docusign, SignNow,
 Quo (formerly OpenPhone), RingCentral, Grasshopper, monday.com, ClickUp,
 Trello, Basecamp, LiveChat, Crisp, Olark, Intercom, Calendly, Acuity,
-YouCanBookMe, Cal.com, SavvyCal, Bitwarden, 1Password, Dashlane and Keeper
-rendered
-with full prices (Intercom's odometer seat prices came from the widgets' `aria-label`
+YouCanBookMe, Cal.com, SavvyCal, Bitwarden, 1Password, Dashlane, Keeper, Webflow
+and Duda rendered with full prices (Intercom's odometer seat prices came from the widgets' `aria-label`
 attributes); Asana and Tidio rendered USD only
-on a US-side gateway (the German gateway serves EUR); NordPass never landed
-on one. HubSpot's pages render without price figures (loaded after render),
+on a US-side gateway (the German gateway serves EUR); NordPass, Squarespace, Wix and Framer never landed on one, so those
+records carry EUR findings and no tiers. HubSpot's pages render without price figures (loaded after render),
 and Dialpad's pricing page carries no plan prices at all. Zendesk and
 Nextiva answer the rendering browser with a 403, PandaDoc with a 429.
 Zoho geo-routes the German gateway to EUR pricing and Jotform localises

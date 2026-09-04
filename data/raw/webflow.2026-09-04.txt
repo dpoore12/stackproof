@@ -1,0 +1,12 @@
+URL: https://webflow.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 00:07:04 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main>. Toggle checkbox checked=true with label "Yearly (Save up to 40%)"; tabs "For Site plans" and "For teams" current. "All prices in USD, per site, plus applicable taxes added at checkout."
+---
+Site plans. Starter — Free. webflow.io domain, limited CMS, 2 static pages, 1 GB bandwidth, 50 form submissions, Webflow AI, MCP server, Webflow Cloud app hosting, free Starter Workspace.
+Basic — $15/mo billed yearly. Custom domain, 300 static pages, 10 GB bandwidth, unlimited form submissions, password protection.
+Premium (New) — $25/mo billed yearly. Everything in Basic plus Webflow CMS, bandwidth selectable 50 GB up to 2.5 TB (higher bandwidth tiers priced above the base; those prices not captured), code components, site search, form file upload, well-known files.
+Platform plans. Team (New) — $2,500/mo, annual contract required, Talk to us. Everything in Premium plus Site & Workspace, Webflow Localize, AEO agents, publishing workflows, activity log & API, governance, enhanced security, priority support.
+Enterprise — custom.
+Feature table: CMS items 50 (Starter) / — (Basic) / 20,000 (Premium); static pages 2 / 300; bandwidth 1 GB / 10 GB / up to 2.5 TB per month; surge protection — two consecutive months over the limit triggers an automatic plan upgrade; backups unlimited; remove Webflow badge on paid plans.
+Workspace plans (For teams / For freelancers & agencies) and Ecommerce plans and add-ons (Optimize, Analyze, Localize) exist on the page; their prices were not in the captured window.

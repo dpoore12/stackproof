@@ -1,0 +1,142 @@
+slug: duda
+vendor: Duda
+product: Duda
+category: website_builder
+url: https://www.duda.co/pricing
+free_trial: "14-day free trial with no credit card and a 30-day money-back guarantee (stated 2026-09-04)."
+
+# Flat price per account with a number of included published sites; the
+# annual toggle was checked and each card also printed the monthly-billing
+# figure. Extra published sites beyond the allowance are priced separately
+# and were not captured, so plans are capped at their included count.
+tiers:
+  - plan: Basic
+    base_monthly_usd: 19
+    per_seat_monthly_usd: 0
+    seat_label: site
+    max_seats: 1
+    billing: annual
+    provenance:
+      source_url: https://www.duda.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch; annual toggle checked=true. Card "$25/mo … $19/mo, Billed annually / Billed monthly". 1 included published project.'
+  - plan: Basic (monthly billing)
+    compare: false
+    base_monthly_usd: 25
+    per_seat_monthly_usd: 0
+    seat_label: site
+    max_seats: 1
+    billing: monthly
+    provenance:
+      source_url: https://www.duda.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Monthly-billing figure on the Basic card.'
+  - plan: Team
+    base_monthly_usd: 29
+    per_seat_monthly_usd: 0
+    seat_label: site
+    max_seats: 1
+    billing: annual
+    provenance:
+      source_url: https://www.duda.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$39/mo … $29/mo". 1 included published project, 3 team seats.'
+  - plan: Agency
+    base_monthly_usd: 52
+    per_seat_monthly_usd: 0
+    seat_label: site
+    max_seats: 4
+    billing: annual
+    provenance:
+      source_url: https://www.duda.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$69/mo … $52/mo", marked Best Value. 4 included published projects, 6 team seats, priority support.'
+  - plan: White Label
+    base_monthly_usd: 149
+    per_seat_monthly_usd: 0
+    seat_label: site
+    max_seats: 4
+    billing: annual
+    provenance:
+      source_url: https://www.duda.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$199/mo … $149/mo". 4 included published projects, 6 team seats, advanced white label.'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Duda offers a 14-day free trial without a card and a 30-day money-back
+      guarantee on paid plans (2026-09-04).
+    quote: "Try for free for 14 days. No credit card required. 30-day money-back guarantee."
+    provenance:
+      source_url: https://www.duda.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Duda bills a flat monthly or annual fee per account with 1 or 4
+      published sites included, annual billing saving up to 25%; e-commerce
+      and bookings sites are priced separately (2026-09-04).
+    provenance:
+      source_url: https://www.duda.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Duda's pricing page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://www.duda.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: duda-plan-prices-annual-monthly
+    claim: >-
+      On 2026-09-04 Duda listed Basic at $19, Team at $29, Agency at $52 and
+      White Label at $149 per month billed annually, or $25, $39, $69 and
+      $199 billed monthly.
+    provenance:
+      source_url: https://www.duda.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: duda-included-sites
+    claim: >-
+      Duda's Basic and Team plans include 1 published site and Agency and
+      White Label include 4, so 4 sites cost $52 per month on Agency against
+      $60 for 4 Webflow Basic sites (2026-09-04).
+    provenance:
+      source_url: https://www.duda.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: duda-team-seats
+    claim: >-
+      Duda's Team plan includes 3 team seats and Agency and White Label 6,
+      with unlimited client workspaces on all paid plans (2026-09-04).
+    provenance:
+      source_url: https://www.duda.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: duda-money-back-guarantee
+    claim: >-
+      Duda pairs a 14-day no-card trial with a 30-day money-back guarantee,
+      terms Webflow's pricing page does not state (2026-09-04).
+    provenance:
+      source_url: https://www.duda.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: duda-monthly-premium
+    claim: >-
+      Duda's monthly billing runs $6 to $50 above its annual rates, a 25% to
+      34% premium across the 4 self-serve plans (2026-09-04).
+    provenance:
+      source_url: https://www.duda.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
