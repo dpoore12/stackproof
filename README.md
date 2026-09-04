@@ -1322,6 +1322,27 @@ category.
 
 Database is now 238 tools across 59 categories.
 
+### Bail bonds agency management software (2026-09-04)
+
+Three vendors: Captira, Bailtec, BailBooks. Seat axis is "agents"
+(1, 3, 5, 10, 25).
+
+Captira is a single flat-rate plan with "Unlimited Agents" tracked (two
+user logins included) that does not scale by agent count at all —
+$99/mo, recorded over its "$1 first month" and "$65 small agency" promos
+per this site's policy against publishing promotional prices as the
+standing rate. Bailtec and BailBooks both price flat tiers capped at a
+stated agent/user count rather than a genuine per-seat increment.
+Bailtec scales by user-account cap (Standard 1 user at $80/mo annual,
+Pro 5 users at $94/mo, Enterprise 10 users at $118/mo, each also
+available month-to-month at a ~11-13% premium). BailBooks scales by
+licensed-agent cap paired with a monthly bond-volume cap, with unlimited
+free user accounts on every tier (Copper 1 agent at $55/mo, Bronze 2
+agents at $65/mo, Silver 4 agents at $80/mo; Gold and Premium tiers exist
+but weren't captured in this fetch).
+
+Database is now 241 tools across 60 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

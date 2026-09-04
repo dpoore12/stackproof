@@ -1,0 +1,27 @@
+slug: captira
+vendor: Captira
+product: Captira Bail Software
+category: bail_bonds_agency_management
+url: https://www.captira.com/pages/pricing-bail-management
+pricing_note: 'Captira is a single flat-rate plan with "Unlimited Agents" tracked in the software (two user logins included) — it does not scale by agent count. The page headlines a "$1 first month" promo and a "$65 Small Agency Promo" for agencies with 4 or fewer agents; the standing $99/mo rate is recorded instead of either promotional price, per this site''s policy against publishing promotional prices as the standing rate.'
+
+tiers:
+  - plan: Bail Software
+    base_monthly_usd: 99
+    seat_label: agent
+    provenance:
+      source_url: https://www.captira.com/pages/pricing-bail-management
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Bail Software — $99/month — Everything you need to run your Bail Agency Business, support included. Unlimited Agents. Two User Logins. Standard storage included." "$65 Small Agency Promo" shown separately for agencies with 4 or fewer agents.'
+
+findings:
+  - id: captira-standard-storage-cap
+    claim: >-
+      Captira's standard storage tier, included in its $99/mo flat plan,
+      covers up to 5,000 bonds before a higher storage tier is needed,
+      per its own pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://www.captira.com/pages/pricing-bail-management
+      fetched_at: 2026-09-04
+      method: live_fetch

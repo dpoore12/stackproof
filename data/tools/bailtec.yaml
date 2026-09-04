@@ -1,0 +1,82 @@
+slug: bailtec
+vendor: Bailtec
+product: Bailtec
+category: bail_bonds_agency_management
+url: https://bailtec.com/pricing.html
+pricing_note: 'Bailtec prices flat tiers capped at a stated number of user accounts (and office locations) rather than a genuine per-seat increment. Annual billing is recorded as primary per this site''s policy of treating a headlined prepaid-discount rate as primary; monthly is recorded separately.'
+
+tiers:
+  - plan: Standard (annual)
+    base_monthly_usd: 80
+    max_seats: 1
+    billing: annual
+    seat_label: agent
+    provenance:
+      source_url: https://bailtec.com/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"1 User Account - 1 Office — Standard — $80/mo (10% discount for annual billing). 1 User Account, 1 Office/Company, Cloud Hosting, 15 GB Cloud Storage."'
+  - plan: Standard (monthly)
+    base_monthly_usd: 89
+    max_seats: 1
+    billing: monthly
+    seat_label: agent
+    compare: false
+    provenance:
+      source_url: https://bailtec.com/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Standard — $89/mo. Billing is month to month."'
+  - plan: Pro (annual)
+    base_monthly_usd: 94
+    max_seats: 5
+    billing: annual
+    seat_label: agent
+    provenance:
+      source_url: https://bailtec.com/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"5 User Accounts - 1 Office — Pro — $94/mo (10% discount for annual billing). 5 User Accounts, 1 Office/Company, 25 GB Cloud Storage."'
+  - plan: Pro (monthly)
+    base_monthly_usd: 104
+    max_seats: 5
+    billing: monthly
+    seat_label: agent
+    compare: false
+    provenance:
+      source_url: https://bailtec.com/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pro — $104/mo. Billing is month to month."'
+  - plan: Enterprise (annual)
+    base_monthly_usd: 118
+    max_seats: 10
+    billing: annual
+    seat_label: agent
+    provenance:
+      source_url: https://bailtec.com/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"10 User Accounts - 1 Office — Enterprise — $118/mo (10% discount for annual billing). 10 User Accounts, 1 Office/Company."'
+  - plan: Enterprise (monthly)
+    base_monthly_usd: 131
+    max_seats: 10
+    billing: monthly
+    seat_label: agent
+    compare: false
+    provenance:
+      source_url: https://bailtec.com/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Enterprise — $131/mo. Billing is month to month."'
+
+findings:
+  - id: bailtec-additional-office-addon
+    claim: >-
+      Bailtec sells additional office locations as a separate add-on
+      priced apart from its per-tier user-account cap, per its own
+      pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://bailtec.com/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch

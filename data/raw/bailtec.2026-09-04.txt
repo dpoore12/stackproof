@@ -1,0 +1,25 @@
+Source: https://bailtec.com/pricing.html
+Fetched: 2026-09-04
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Pricing is dependent on the total number of locations you have, and the
+number of users you will need.
+
+1 User Account - 1 Office — Standard
+  $89/mo (Billing is month to month)
+  $80/mo (10% discount for annual billing)
+  1 User Account, 1 Office/Company, Cloud Hosting, Client Text
+  Notifications, Client Push Notifications, Customizable Forms,
+  Flexible Reporting Templates, 15 GB Cloud Storage, Automated Backups,
+  Email and Phone Support
+
+5 User Accounts - 1 Office — Pro
+  $104/mo (Billing is month to month)
+  $94/mo (10% discount for annual billing)
+  5 User Accounts, 1 Office/Company, 25 GB Cloud Storage, (same feature
+  list as Standard)
+
+10 User Accounts - 1 Office — Enterprise
+  $131/mo (Billing is month to month)
+  $118/mo (10% discount for annual billing)
+  10 User Accounts, 1 Office/Company, Co-Signer Text Notifications
