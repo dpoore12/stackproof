@@ -1,0 +1,60 @@
+slug: officernd-flex
+vendor: OfficeRnD
+product: OfficeRnD Flex
+category: coworking_space_management
+url: https://www.officernd.com/pricing/flex/
+pricing_note: 'OfficeRnD Flex''s two priced tiers each state an explicit included-member count ("Includes 100 members" / "Includes 200 members"), recorded as `max_seats`; "Additional members" is listed as an available add-on but no per-additional-member dollar rate is stated, so cost beyond the included count is left unknown rather than guessed. Scale is fully quote-gated. A limited-time "$149/mo" promotional badge elsewhere on the page is not used as the recorded price.'
+
+tiers:
+  - plan: Start
+    base_monthly_usd: 165
+    max_seats: 100
+    seat_label: member
+    billing: annual
+    provenance:
+      source_url: https://www.officernd.com/pricing/flex/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Start — from $185 $165/mo. For newly opened flexible workspaces. Includes 100 members, 1 location."'
+  - plan: Start (monthly billing)
+    compare: false
+    base_monthly_usd: 185
+    max_seats: 100
+    seat_label: member
+    billing: monthly
+    provenance:
+      source_url: https://www.officernd.com/pricing/flex/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"from $185" month-to-month rate on the Start card.'
+  - plan: Grow
+    base_monthly_usd: 259
+    max_seats: 200
+    seat_label: member
+    billing: annual
+    provenance:
+      source_url: https://www.officernd.com/pricing/flex/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Grow — from $289 $259/mo. For growing flexible workspaces. Includes 200 members, 2 locations." Marked "Most popular."'
+  - plan: Grow (monthly billing)
+    compare: false
+    base_monthly_usd: 289
+    max_seats: 200
+    seat_label: member
+    billing: monthly
+    provenance:
+      source_url: https://www.officernd.com/pricing/flex/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"from $289" month-to-month rate on the Grow card.'
+
+findings:
+  - id: officernd-flex-annual-savings
+    claim: >-
+      OfficeRnD Flex states billing annually saves "up to 11%" compared
+      to monthly billing, per its own pricing page (2026-09-04).
+    provenance:
+      source_url: https://www.officernd.com/pricing/flex/
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -1,0 +1,29 @@
+slug: nexudus
+vendor: Nexudus
+product: Nexudus
+category: coworking_space_management
+url: https://nexudus.com/coworking-pricing/
+pricing_note: 'Nexudus states "$150 per month/per location" as its starting price, with an "Active users per location" slider driving the actual formula client-side rather than as static page text — no per-tier breakpoint is captured, so this is recorded as a single starting figure rather than guessed into a step table.'
+
+tiers:
+  - plan: Coworking Professional
+    compare: false
+    base_monthly_usd: 150
+    seat_label: member
+    billing: monthly
+    provenance:
+      source_url: https://nexudus.com/coworking-pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$150 per month/per location." "Active users per location" slider present but its formula is not stated as static text.'
+
+findings:
+  - id: nexudus-500-plus-users-quote-gated
+    claim: >-
+      Nexudus states "500+ active users? Contact our team for more
+      details" — coworking spaces above that size are fully
+      quote-gated per its own pricing page (2026-09-04).
+    provenance:
+      source_url: https://nexudus.com/coworking-pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
