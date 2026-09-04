@@ -1,0 +1,48 @@
+slug: clinicsense
+vendor: ClinicSense
+product: ClinicSense
+category: physical_therapy_allied_health_practice_management
+url: https://clinicsense.com/pricing
+pricing_note: 'Premium is marketed "for clinics & wellness centers" (implying multi-practitioner use) but no additional-practitioner rate was found as static text for it specifically, so it is recorded capped at 1 practitioner like Lite, rather than guessed. Only Standard states an explicit "Additional practitioners: $20/mo" rate.'
+
+tiers:
+  - plan: Lite
+    base_monthly_usd: 39
+    max_seats: 1
+    seat_label: practitioner
+    provenance:
+      source_url: https://clinicsense.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Lite — For part-time practitioners. $39 USD Per month. Up to 20 appointments/mo."'
+  - plan: Standard
+    base_monthly_usd: 69
+    included_seats: 1
+    per_seat_monthly_usd: 20
+    seat_label: practitioner
+    provenance:
+      source_url: https://clinicsense.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Standard — For full-time practitioners. $69 USD Per month. Up to 200 appointments/mo... Additional practitioners: $20/mo."'
+  - plan: Premium
+    base_monthly_usd: 99
+    max_seats: 1
+    seat_label: practitioner
+    provenance:
+      source_url: https://clinicsense.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Premium — For clinics & wellness centers. $99 USD Per month. Unlimited appointments." No per-additional-practitioner rate found in static text for this tier.'
+
+findings:
+  - id: clinicsense-appointment-caps
+    claim: >-
+      ClinicSense caps its Lite plan at 20 appointments/month and its
+      Standard plan at 200 appointments/month, with Premium offering
+      unlimited appointments, per its own pricing page as of
+      2026-09-04.
+    provenance:
+      source_url: https://clinicsense.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

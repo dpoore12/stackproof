@@ -1,0 +1,48 @@
+slug: jane-app
+vendor: Jane
+product: Jane App
+category: physical_therapy_allied_health_practice_management
+url: https://jane.app/pricing
+
+tiers:
+  - plan: Balance
+    base_monthly_usd: 54
+    max_seats: 1
+    seat_label: practitioner
+    provenance:
+      source_url: https://jane.app/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Balance — $54 / month." "Single practitioner profile. Limited to 20 appointments / month."'
+  - plan: Practice
+    base_monthly_usd: 79
+    included_seats: 1
+    per_seat_monthly_usd: 35
+    seat_label: practitioner
+    provenance:
+      source_url: https://jane.app/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Practice — $79 / month. Includes 1 full-time practitioner." Then "$35 / month per full-time practitioner" for each additional (staff working 24+ booked hours/week; a lower $17.50/mo part-time rate also exists and is not modeled here).'
+  - plan: Thrive
+    base_monthly_usd: 99
+    included_seats: 1
+    per_seat_monthly_usd: 40
+    seat_label: practitioner
+    provenance:
+      source_url: https://jane.app/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Thrive — $99 / month. Everything in Practice. Includes 1 full-time practitioner." Then "$40 / month per full-time practitioner" for each additional (a lower $20/mo part-time rate also exists and is not modeled here).'
+
+findings:
+  - id: jane-app-insurance-billing-addon
+    claim: >-
+      Jane App's Insurance Billing add-on (available on Practice and
+      Thrive) costs $20/month plus $5/mo per additional full-time or
+      $2.50/mo per additional part-time practitioner, per its own
+      pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://jane.app/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -1,0 +1,24 @@
+source: https://www.cliniko.com/pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+Page description: "Cliniko is practice management software that's
+free to try for the first 30 days. After that, your subscription is
+based on how many practitioners work at your clinic." A single
+unified plan, priced entirely by a genuine, complete stepped table by
+practitioner-count range — confirmed in full as static page text under
+the heading "Monthly price by number of practitioners":
+
+  1 practitioner: $45/mo
+  2 to 5 practitioners: $95/mo
+  6 to 8 practitioners: $145/mo
+  9 to 12 practitioners: $195/mo
+  13 to 25 practitioners: $295/mo
+  26 to 200 practitioners: $395/mo
+
+"Prices are in United States dollars (USD). SMS credits are 10¢ per
+message." All subscriptions include every Cliniko feature, 100% free
+support, unlimited admin users, unlimited reception users, unlimited
+locations, unlimited file storage, unlimited patients, and HIPAA
+compliance — there are no separate feature tiers, only the
+practitioner-count step table above.

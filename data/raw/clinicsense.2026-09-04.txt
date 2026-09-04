@@ -1,0 +1,28 @@
+source: https://clinicsense.com/pricing
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+Page meta description: "ClinicSense offers three unique pricing
+package tiers: Lite, Standard and Premium. Their flexible packages
+range between $39 and $99." "Monthly / Annual (1 month free/year!)"
+billing toggle present; figures below are the "Monthly" column.
+
+Lite — "For part-time practitioners. $39 USD Per month." "Up to 20
+appointments/mo." No additional-practitioner rate stated in static
+text; treated as single-practitioner.
+
+Standard (marked "Most popular") — "For full-time practitioners. $69
+USD Per month." "Up to 200 appointments/mo." "Additional practitioners:
+$20/mo" — a genuine, explicitly stated per-additional-practitioner
+add-on rate.
+
+Premium — "For clinics & wellness centers. $99 USD Per month."
+"Unlimited appointments." The page's feature list for Premium was cut
+off in this fetch immediately after "Unlimited appointments" (a
+tooltip script began there); no additional-practitioner rate was
+confirmed as static text for Premium specifically, so it is not
+modeled with per-seat scaling despite being marketed at multi-provider
+clinics.
+
+A "Lock in an exclusive offer for 50% off your first 2 months" banner
+is present; not used as the recorded price.

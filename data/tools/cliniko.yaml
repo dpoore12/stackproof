@@ -1,0 +1,40 @@
+slug: cliniko
+vendor: Cliniko
+product: Cliniko
+category: physical_therapy_allied_health_practice_management
+url: https://www.cliniko.com/pricing/
+pricing_note: 'Cliniko has a single unified plan priced entirely by a genuine, complete step table by practitioner-count range, confirmed in full as static page text — not a "starting at" figure.'
+
+tiers:
+  - plan: Cliniko
+    seat_label: practitioner
+    steps:
+      - {up_to: 1, monthly_usd: 45}
+      - {up_to: 5, monthly_usd: 95}
+      - {up_to: 8, monthly_usd: 145}
+      - {up_to: 12, monthly_usd: 195}
+      - {up_to: 25, monthly_usd: 295}
+      - {up_to: 200, monthly_usd: 395}
+    provenance:
+      source_url: https://www.cliniko.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Monthly price by number of practitioners: 1 practitioner $45/mo, 2 to 5 practitioners $95/mo, 6 to 8 practitioners $145/mo, 9 to 12 practitioners $195/mo, 13 to 25 practitioners $295/mo, 26 to 200 practitioners $395/mo."'
+
+findings:
+  - id: cliniko-prices-unchanged-since-2011
+    claim: >-
+      Cliniko states its prices have not changed since the company
+      started in June 2011, per its own pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://www.cliniko.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: cliniko-charity-donation
+    claim: >-
+      Cliniko donates a minimum of 2% of all subscription revenue to
+      charity, per its own pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://www.cliniko.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
