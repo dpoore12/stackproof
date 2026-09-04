@@ -1,0 +1,10 @@
+URL: https://www.pcloud.com/business.html
+STATUS: 200
+FETCHED: 2026-09-04 01:13:58 +00:00 (US gateway 134.209.42.109); 01:13:35 (DE gateway 168.119.141.170) rendered EUR; 01:15:31 (US gateway 134.209.42.109) toggle-state read.
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed). Billing toggle default state read from DOM: "Monthly" tab carries class "active", "Annual" does not. Users input defaults to 3. NOT YET WRITTEN TO A RECORD — WIP.
+---
+"Built for Business. Cloud storage that keeps your business moving and your data safe. Monthly | Annual | Users"
+Business — 3 USERS / 3 TB STORAGE — 29.97 USD / MONTH — 9.99 USD PER USER — TRY FOR FREE — 1 TB storage per user, 3+ users, pCloud Encryption, teams and access control, secure file sharing, 180 days file versioning.
+Business Pro — DISCOUNT 25% — 3 USERS / 6 TB STORAGE — 59.94 USD struck, 44.94 USD / MONTH — 14.98 USD PER USER — 2 TB storage per user, 3+ users, priority support.
+"Final price with 30-day free trial. No setup or hidden fees. The discount is only for new pCloud Business Pro accounts. It excludes existing accounts, renewals, plan changes, seat additions, or reactivations."
+DE gateway render printed the same figures in EUR (29.97 EUR, 9.99 EUR, 44.94 EUR, 14.98 EUR).

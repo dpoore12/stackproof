@@ -172,6 +172,14 @@ equivalent. Seat points are 1, 5, 10, 25, 50 licensed hosts; participants
 are free on every vendor and are not seats. dialpad.com/pricing/meetings/
 returned 404; Microsoft Teams Essentials was used as the fifth vendor.
 
+### Cloud storage (2026-09-04)
+
+Box returned HTTP 429 to the renderer. Dropbox's comparison page renders
+USD and prints the yearly-billing rate; Egnyte prints "Paid annually*"
+with a footnote whose text is not in the DOM. Seat points are 1, 3, 5,
+10, 25 users with a seat; minimum-seat rules (Dropbox Advanced 3, Egnyte
+per plan) are modelled as base fees or noted.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

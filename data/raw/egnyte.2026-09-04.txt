@@ -1,0 +1,12 @@
+URL: https://www.egnyte.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 01:09:44 +00:00 (US gateway 68.183.149.129) and 01:10:39 +00:00 (68.183.49.222)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main> (whitespace-collapsed). Each paid card prints "$X / User / Month, Paid annually*"; a regex search for the "*" footnote text found nothing in the rendered body, so the footnote's terms are not captured. No billing switch was found.
+---
+Egnyte https://www.egnyte.com/pricing — fetch 1, 2026-09-04 01:09:44 +00:00, US gateway 68.183.149.129 — USD. "AI Included in Every Plan. Select the Best Plan For Your Organization."
+Business — $22 / User / Month, Paid annually* — Start Free Trial — single document AI Q&A, secure collaboration, discretionary permissions, Google Workspace integration, M365 co-editing.
+Enterprise Lite — $39 / User / Month, Paid annually* — ransomware detection (artifact-based), suspicious login detection, content lifecycle management, advanced workflows.
+Elite (MOST POPULAR, Advanced AI) — $48 / User / Month, Paid annually* — AI Assistant, AI Search, AI Workflow, PDF markup, e-signature, dynamic watermarking, auto-remediation.
+Ultimate (Advanced AI) — Contact Us for a custom quote — document type classification, sensitive data classification, ransomware detection & snapshot recovery, DLP integration, bulk metadata extraction.
+Link: "View Team Plan". Page title: "Egnyte Pricing From $22 Per User/Month | Start Free Trial". Footnote "*" text not yet captured.
+Compare-features table rows (headings only captured): Upload files up to; number of account domains; maximum number of users; maximum number of power users; compliant storage (HIPAA, FINRA, SOC2, ISO/IEC 27001); edge caching; data residency options; user authentication (AD and SSO/SAML).

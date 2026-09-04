@@ -1,0 +1,10 @@
+URL: https://www.dropbox.com/business/plans-comparison
+STATUS: 200
+FETCHED: 2026-09-04 01:08:12 +00:00 (US gateway 134.209.42.109)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main> (whitespace-collapsed). "Choose your billing cycle: Billed monthly / Billed yearly" rendered with yearly checked; monthly-billing figures were not captured.
+---
+Dropbox Business https://www.dropbox.com/business/plans-comparison — fetch 1, 2026-09-04 01:08:12 +00:00, US gateway 134.209.42.109 — USD. "Choose your billing cycle: Billed monthly / Billed yearly" (toggle states "=false|=true" → yearly checked).
+Standard — $15 / user / month — Buy now or try for free — For 1 person or more — starts at 3 TB for the team — 180 days to restore deleted files — transfer files up to 100 GB — PDF editing and signatures — team folders, groups and roles, admin control.
+Advanced — $24 / user / month — For 3 people or more — starts at 15 TB for the team — 1 year to restore deleted files — tiered-admin management, end-to-end encryption, advanced key management, compliance tracking, SSO.
+Enterprise — Contact sales — customize users and storage, transfer up to 250 GB, 24/7 phone support.
+Compare table: Storage "Starts at 3,000 GB for the team" / "Starts at 15,000 GB for the team"; version history 180-day / 1-year / 1-year; signature requests 3 per month on all; file transfer up to 100 GB / 100 GB / 250 GB; ransomware detection, end-to-end encryption, SSO, tiered admin, audit logs from Advanced; 24/7 phone support Enterprise only.

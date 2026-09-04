@@ -1,0 +1,97 @@
+slug: egnyte
+vendor: Egnyte
+product: Egnyte
+category: cloud_storage
+url: https://www.egnyte.com/pricing
+free_trial: "Free trial offered on Business, Enterprise Lite and Elite (stated 2026-09-04)."
+pricing_note: "Per-user pricing with no base fee, paid annually. The cards carry an asterisk whose footnote text did not render, so any minimum user count or storage allotment behind it is not machine-recorded. Ultimate is quote-only."
+
+tiers:
+  - plan: Business
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 22
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.egnyte.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch on a US gateway. "Business … $22 / User / Month Paid annually*". Page title "Egnyte Pricing From $22 Per User/Month".'
+  - plan: Enterprise Lite
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 39
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.egnyte.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Enterprise Lite … $39 / User / Month Paid annually*". Ransomware detection, content lifecycle management.'
+  - plan: Elite
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 48
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.egnyte.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Elite … $48 / User / Month Paid annually*". Marked MOST POPULAR; AI Assistant, e-signature, dynamic watermarking.'
+
+clauses:
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Egnyte's pricing page states no cancellation or refund terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.egnyte.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Egnyte's pricing page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://www.egnyte.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: needs_account
+    finding: >-
+      Egnyte's prices are marked "Paid annually*" but the footnote behind
+      the asterisk did not render, so the minimum term, seat minimum and
+      storage terms are unverified (2026-09-04).
+    provenance:
+      source_url: https://www.egnyte.com/pricing
+      fetched_at: 2026-09-04
+      method: not_available
+
+findings:
+  - id: egnyte-price-ladder
+    claim: >-
+      Egnyte prices Business at $22, Enterprise Lite at $39 and Elite at $48
+      per user a month paid annually, with Ultimate quote-only, so the top
+      self-serve tier costs 118% more than the entry tier (2026-09-04).
+    provenance:
+      source_url: https://www.egnyte.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: egnyte-footnote-missing
+    claim: >-
+      Egnyte's 3 priced plans each carry an asterisk after "Paid annually"
+      whose footnote text was absent from the rendered page on 2 fetches
+      on 2026-09-04.
+    provenance:
+      source_url: https://www.egnyte.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: egnyte-ai-tiering
+    claim: >-
+      Egnyte includes single-document AI Q&A on every plan but reserves the
+      AI Assistant, AI Search and AI Workflow for Elite at $48 and above
+      (2026-09-04).
+    provenance:
+      source_url: https://www.egnyte.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
