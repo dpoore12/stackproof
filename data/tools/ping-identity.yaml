@@ -1,0 +1,89 @@
+slug: ping-identity
+vendor: Ping Identity
+product: PingOne for Workforce
+category: identity_sso
+url: https://www.pingidentity.com/en/platform/pricing.html
+free_trial: "\"Try PingOne for Workforce for Free\" offered on the pricing page (stated 2026-09-04)."
+pricing_note: "Per-user pricing for PingOne for Workforce; the page also sells PingOne for Customers (CIAM), which is priced separately by annual flat fee (e.g. a $50k/year starting figure seen for one CIAM add-on) rather than per user, and is not covered by this record since it targets external customers rather than employees. Both priced Workforce tiers carry an asterisk on the page; the footnote text was not located in the rendered page, so any minimum term or seat count behind it is not machine-recorded."
+
+tiers:
+  - plan: Essential
+    base_monthly_usd: 3
+    per_seat_monthly_usd: 3
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.pingidentity.com/en/platform/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"PingOne for Workforce Essential. Centralized SSO, MFA and Directory for SaaS apps. Integration with your Microsoft environment. $3 per user per month*." Includes no-code Identity Orchestration Engine, SSO, Directory, standards support (OAuth 2.0, OIDC, SAML, SCIM), Employee Dock.'
+  - plan: Plus
+    base_monthly_usd: 6
+    per_seat_monthly_usd: 6
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.pingidentity.com/en/platform/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Plus. Enhanced security & experience with intelligent, adaptive authentication. $6 per user per month*. Everything in Essential, plus Adaptive Multi-Factor Authentication..." (feature list truncated in the rendered capture).'
+
+clauses:
+  - topic: billing_timing
+    status: needs_account
+    finding: >-
+      Every PingOne for Workforce price carries an asterisk footnote whose
+      text was not present in the rendered page, so billing period
+      (monthly vs. annual) and any minimum term are unverified
+      (2026-09-04).
+    provenance:
+      source_url: https://www.pingidentity.com/en/platform/pricing.html
+      fetched_at: 2026-09-04
+      method: not_available
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Ping Identity's pricing page states no cancellation terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.pingidentity.com/en/platform/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Ping Identity's pricing page states no data-export terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.pingidentity.com/en/platform/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Ping Identity's pricing page states no refund terms (2026-09-04).
+    provenance:
+      source_url: https://www.pingidentity.com/en/platform/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: ping-workforce-two-tiers-only
+    claim: >-
+      PingOne for Workforce publishes only 2 self-serve tiers, Essential
+      at $3 and Plus at $6 per user a month, with no published price for
+      any tier above Plus on the pricing page (2026-09-04).
+    provenance:
+      source_url: https://www.pingidentity.com/en/platform/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: ping-customers-flat-annual-fee
+    claim: >-
+      Ping Identity prices its PingOne for Customers (CIAM) product line
+      by annual flat fee rather than per user, with one add-on starting
+      "at: $50k annually" as observed on the same pricing page
+      (2026-09-04).
+    provenance:
+      source_url: https://www.pingidentity.com/en/platform/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch

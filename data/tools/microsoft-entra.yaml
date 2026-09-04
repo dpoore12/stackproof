@@ -1,0 +1,110 @@
+slug: microsoft-entra
+vendor: Microsoft
+product: Microsoft Entra ID
+category: identity_sso
+url: https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing
+free_trial: "\"Try for free\" offered on Entra ID P1 and P2 (stated 2026-09-04)."
+pricing_note: "Per-user pricing, paid yearly under an explicit annual commitment (not just an annual-billing discount). Entra ID P1 is also included free within Microsoft 365 E3 and Business Premium; P2 is included free within Microsoft 365 E5 (see the productivity_suite category's microsoft-365 record). Entra Suite requires an existing Entra ID P1 subscription (or a bundle that includes it) and is not usable standalone, so it is recorded as standalone: false; its true cost floor for a customer without P1 is $12 + $7 = $19/user/month, not the $12 headline figure."
+
+tiers:
+  - plan: Entra ID P1
+    base_monthly_usd: 7
+    per_seat_monthly_usd: 7
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Microsoft Entra ID P1 ... $7.00 user/month, paid yearly (annual commitment). ... available as a standalone or included with Microsoft 365 E3 ... and Microsoft 365 Business Premium." (formerly Azure Active Directory P1)'
+  - plan: Entra ID P2
+    base_monthly_usd: 10
+    per_seat_monthly_usd: 10
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Microsoft Entra ID P2 ... $10.00 user/month, paid yearly (annual commitment). ... available as a standalone or included with Microsoft 365 E5." (formerly Azure Active Directory P2)'
+  - plan: Entra Suite
+    base_monthly_usd: 12
+    per_seat_monthly_usd: 12
+    seat_label: user
+    billing: annual
+    standalone: false
+    provenance:
+      source_url: https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Microsoft Entra Suite ... $12.00 user/month, paid yearly (annual commitment). ... combines network access, identity protection, governance, and identity verification. A subscription to Microsoft Entra ID P1 or a package that includes Microsoft Entra ID P1 is required. Special pricing is available for Microsoft Entra ID P2 and Microsoft 365 E5 customers."'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "$7.00 user/month, paid yearly (annual commitment)"
+    finding: >-
+      Microsoft states Entra ID P1, P2 and Entra Suite are each "paid
+      yearly (annual commitment)," an explicit lock-in rather than just an
+      annual-billing discount option (2026-09-04).
+    provenance:
+      source_url: https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Microsoft's Entra pricing page states no cancellation terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Microsoft's Entra pricing page states no data-export terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Microsoft's Entra pricing page states no refund terms (2026-09-04).
+    provenance:
+      source_url: https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: entra-suite-requires-p1
+    claim: >-
+      Microsoft Entra Suite is priced at $12/user/month but requires an
+      existing Entra ID P1 subscription ($7/user/month) as a prerequisite,
+      so a customer without P1 pays $19/user/month to use it, not the
+      $12 headline figure (2026-09-04).
+    provenance:
+      source_url: https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: entra-bundled-in-m365
+    claim: >-
+      Entra ID P1 is included at no extra cost within Microsoft 365 E3 and
+      Business Premium, and Entra ID P2 within Microsoft 365 E5, so many
+      Microsoft 365 business customers already hold an identity tier
+      without buying it standalone (2026-09-04).
+    provenance:
+      source_url: https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: entra-annual-lockin
+    claim: >-
+      Every priced Microsoft Entra tier is sold under an explicit "annual
+      commitment," not merely an annual-billing discount, per the vendor's
+      own pricing table (2026-09-04).
+    provenance:
+      source_url: https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

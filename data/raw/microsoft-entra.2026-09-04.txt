@@ -1,0 +1,13 @@
+URL: https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing
+STATUS: 200
+FETCHED: 2026-09-04 12:59:42 +00:00 (DE gateway 168.119.141.170)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed).
+---
+"Microsoft Entra plans and pricing. Select the best option for your identity needs. Featured plans | Standalones | Additional products."
+Microsoft Entra ID P1 — "Originally starting from $7.00 now starting from $7.00" — $7.00 user/month, paid yearly (annual commitment) — "Microsoft Entra ID P1 (formerly Azure Active Directory P1) is available as a standalone or included with Microsoft 365 E3 for enterprise customers and Microsoft 365 Business Premium for small to medium businesses." Buy now / Try for free.
+Microsoft Entra ID P2 — $10.00 user/month, paid yearly (annual commitment) — "available as a standalone or included with Microsoft 365 E5 for enterprise customers." Try for free / Contact Sales.
+Microsoft Entra Suite — $12.00 user/month, paid yearly (annual commitment) — "combines network access, identity protection, governance, and identity verification solutions. A subscription to Microsoft Entra ID P1 or a package that includes Microsoft Entra ID P1 is required. Special pricing is available for Microsoft Entra ID P2 and Microsoft 365 E5 customers." Buy now / Try for free.
+"Originally starting from $X now starting from $X" appears identical before/after on all 3 tiers — no active promo differential at fetch time.
+Feature comparison table (Partially included / Included) spans: Multifactor Authentication, Single Sign-On, Conditional Access, RBAC, Advanced group management, Cross-tenant user sync, SharePoint [truncated] across Entra ID, Entra ID P1/P2, and Entra Suite columns.
+No cancellation, refund, or data-export language found in the captured text.
+Page title: "Microsoft Entra Plans and Pricing | Microsoft Security".

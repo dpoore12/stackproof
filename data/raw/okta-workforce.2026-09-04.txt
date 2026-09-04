@@ -1,0 +1,20 @@
+URL: https://www.okta.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 12:58:28 +00:00 and 12:58:46 +00:00 (DE gateway 168.119.141.170 / 168.119.99.193)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed), two passes to capture the pricing cards and the FAQ section separately (large page, ~30-60KB of text).
+---
+Tab: "Workforce Identity | Customer Identity" (this record covers Workforce Identity only).
+Starter — $6 per user/month* — "Start free trial" — Includes: Single Sign-On, Multi-Factor Authentication, Universal Directory, 5 Workflows.
+Essentials — $17 per user/month* — "Contact us" — Most Popular — Everything in Starter, plus: Adaptive MFA, Privileged Access, Lifecycle Management, Access Governance, 50 Workflows. Inline note: "Not ready for advanced security and compliance? Explore Core Essentials below for only $14 per user/month."
+Professional — "Inquire for pricing*" — Contact us — Everything in Essentials, plus: Device Access, Privileged Access, Identity Security Posture Management, Identity Threat Protection, Sandbox, Maximum Workflows.
+Enterprise — "Inquire for pricing*" — Contact us — Everything in Professional, plus: API Access Management, Access Gateway, Identity Security Posture Management, Machine-to-Machine Tokens.
+Compare Plans table confirms 5 columns: Starter $6, Core Essentials $14, Essentials $17 (Most Popular), Professional (inquire), Enterprise (inquire).
+FAQ: "How much does Okta Workforce Identity cost?" — "Okta's Workforce Identity solutions are sold as suites on a per-user, per-month basis and are billed annually. Our Starter Suite begins at $6 per user/month, and our Essentials Suite begins at $17 per user/month. For our Professional and Enterprise suites, we recommend contacting our sales team for a custom quote."
+FAQ: "Can I buy a single Okta product without a suite?" — "Yes. Almost all of our products can be purchased individually or added to any suite."
+FAQ: "Can I add more licenses for only one product in my suite?" — "In most cases, you would add more suite licenses. Suites follow a unified model where all products share the same number of subscriptions... A few exceptions apply for Workflows, Okta Privileged Access, and Machine-to-Machine tokens."
+FAQ: "What is an Okta Privileged Access Resource Unit?" — "Resource Units are how Privileged Access is licensed... the 1 Resource Unit included in the Essentials Suite can be used to cover 2 Privileged Access users. Users can use an unlimited number of secrets."
+FAQ: "What kind of support is included with an Okta suite?" — "All Okta suites include access to introductory training and online support, available 24 hours per day, five days per week... Okta Premier Success Plans are available for purchase."
+"Choose your next step": Start a free trial (30-day, no commitment), Watch a demo, Talk to an expert.
+Separate Customer Identity (Auth0) pricing on the same page: Enterprise base platform $3K/month*, B2C/B2B suites — not part of this record.
+No cancellation, refund, or data-export language found in the FAQ.
+Page title: "Plans and Pricing | Okta".

@@ -1,0 +1,14 @@
+URL: https://duo.com/pricing (redirects to https://duo.com/editions-and-pricing)
+STATUS: 200
+FETCHED: 2026-09-04 12:59:21 +00:00 (DE gateway 168.119.99.192)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed). Full pricing, feature comparison, and licensing terms present directly in rendered text.
+---
+"30-day free trial. Activate in minutes. Modify your plan at any time. Pay with credit card."
+Duo Free — "Best for small businesses with 10 or fewer users." — $0 per user/month — Add up to 10 users, Strong MFA, Seamless integrations, Free authenticator app.
+Duo Essentials — "Best for simple security management and seamless authentication." — $3 per user/month — Everything in Free, plus: Duo Directory, Phishing-resistant MFA, Complete passwordless authentication, Single sign-on, Trusted Endpoints, Unlimited applications.
+Duo Advantage (MOST POPULAR) — "Best for dynamic threat detection, oversight, and authentication." — $6 per user/month — Everything in Essentials, plus: Cisco Identity Intelligence (Cross-identity visibility, ISPM, ITDR), Duo Passport, Session theft protection, Active Directory Defense, Risk-Based Authentication.
+Duo Premier — "Best for comprehensive identity security with complete device trust." — $9 per user/month — Everything in Advantage, plus: comprehensive Zero Trust access package, VPN-less remote access to private resources (Duo Network Gateway), complete device trust with endpoint protection check.
+Feature matrix confirms per-tier gating for: MFA, Duo Directory, Phishing-resistant MFA, Complete Passwordless, AI Assistant, SSO, Unlimited Applications, Trusted Endpoints, Duo Passport, Session Theft Protection, Device Health, Risk-Based Authentication, Cross-identity Visibility/Analytics, ITDR, ISPM, Active Directory Defense, Remote Access, Security Agent Verification, Agentic Identity & Access Management (alpha).
+Licensing note: "Duo offers self-service subscriptions for the convenience of self-managing editions and user limits. For under 100 users, Duo licenses are purchased in increments of 10. For over 100 users, Duo licenses are purchased in increments of 25."
+No cancellation, refund, or data-export language found on this page.
+Page title: "Editions and Pricing | Cisco Duo".

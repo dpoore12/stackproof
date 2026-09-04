@@ -1,0 +1,118 @@
+slug: okta-workforce
+vendor: Okta
+product: Okta Workforce Identity
+category: identity_sso
+url: https://www.okta.com/pricing/
+free_trial: "30-day free trial on the Starter suite, no commitment required (stated 2026-09-04)."
+pricing_note: "Workforce Identity is sold as per-user, per-month suites billed annually; the site separately sells Auth0-branded Customer Identity products, which are not covered by this record. Starter, Core Essentials and Essentials are self-serve priced; Professional and Enterprise are quote-only and not priced here. Every price carries an asterisk on the page; the footnote text was not located in the rendered page."
+
+tiers:
+  - plan: Starter
+    base_monthly_usd: 6
+    per_seat_monthly_usd: 6
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.okta.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Starter $6 per user/month* Includes: Single Sign-On, Multi-Factor Authentication, Universal Directory, 5 Workflows." FAQ confirms: "Our Starter Suite begins at $6 per user/month" and that suites are "billed annually."'
+  - plan: Core Essentials
+    base_monthly_usd: 14
+    per_seat_monthly_usd: 14
+    seat_label: user
+    billing: annual
+    standalone: false
+    provenance:
+      source_url: https://www.okta.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Shown in the compare-plans table only: "Core Essentials $14 per user/month*"; referenced inline under Essentials as a lighter option "for only $14 per user/month."'
+  - plan: Essentials
+    base_monthly_usd: 17
+    per_seat_monthly_usd: 17
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.okta.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Essentials $17 per user/month* Everything in Starter, plus: Adaptive MFA, Privileged Access, Lifecycle Management, Access Governance, 50 Workflows." Marked "Most Popular." FAQ: "our Essentials Suite begins at $17 per user/month."'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "Okta's Workforce Identity solutions are sold as suites on a per-user, per-month basis and are billed annually."
+    finding: >-
+      Okta states Workforce Identity suites are billed annually, not
+      monthly, even though prices are quoted per user per month
+      (2026-09-04).
+    provenance:
+      source_url: https://www.okta.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Okta's pricing page and FAQ state no cancellation terms (2026-09-04).
+    provenance:
+      source_url: https://www.okta.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Okta's pricing page and FAQ state no refund terms (2026-09-04).
+    provenance:
+      source_url: https://www.okta.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Okta's pricing page and FAQ state no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://www.okta.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: okta-suite-license-unification
+    claim: >-
+      Okta's FAQ states suites "follow a unified model where all products
+      share the same number of subscriptions," so adding a license
+      typically means buying another full suite seat rather than a la
+      carte per-product seats, with named exceptions for Workflows,
+      Privileged Access, and Machine-to-Machine tokens (2026-09-04).
+    provenance:
+      source_url: https://www.okta.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: okta-resource-unit-ratio
+    claim: >-
+      Okta's Privileged Access is licensed in "Resource Units," and its
+      FAQ states "the 1 Resource Unit included in the Essentials Suite can
+      be used to cover 2 Privileged Access users" (2026-09-04).
+    provenance:
+      source_url: https://www.okta.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: okta-support-hours
+    claim: >-
+      Okta states all suites include "introductory training and online
+      support, available 24 hours per day, five days per week" (not
+      24/7), with paid Premier Success Plans for more comprehensive
+      support (2026-09-04).
+    provenance:
+      source_url: https://www.okta.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: okta-price-ladder
+    claim: >-
+      Okta prices Starter at $6, Core Essentials at $14 and Essentials at
+      $17 per user a month billed annually, with Professional and
+      Enterprise quote-only above that (2026-09-04).
+    provenance:
+      source_url: https://www.okta.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
