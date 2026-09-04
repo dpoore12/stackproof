@@ -1,0 +1,16 @@
+URL: https://www.mangomint.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 18:21:50 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "One plan, affordable pricing" anchor).
+
+Meta description: "Mangomint starts at $120 per month plus $10 per user. No setup fees. No contracts. Free data import."
+
+"One plan, affordable pricing" -- Users: "$120/mo base + $10 per user" (single plan, full feature access, no tiers).
+
+Optional add-ons:
+Phone -- "$70/mo per line."
+Marketing -- "Starting at $30/mo," scaling by SMS-credit tier (No credits / No credits / 3,500 credits / 6,000 credits / 15,000 credits / 35,000 credits / 60,000 credits) -- per-tier dollar figures not rendered in the static snapshot, only the starting price.
+Payroll -- "$50/mo + $8 per worker" (worked example on page: "your price $130/mo" = $50 + $8 x 10 workers).
+Locations -- "$120/mo each" (additional location beyond the first).
+
+Free onboarding and data transfer. Cancel anytime.

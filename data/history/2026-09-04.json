@@ -683,6 +683,63 @@
    ],
    "vendor": "Bonusly (Smartly, Inc)"
   },
+  "boulevard": {
+   "category": "salon_management",
+   "fees": [
+    {
+     "amount_usd": 65.0,
+     "fetched_at": "2026-09-04",
+     "name": "Forms add-on",
+     "unit": "per month, per location (bundled free into Prestige)"
+    },
+    {
+     "amount_usd": 45.0,
+     "fetched_at": "2026-09-04",
+     "name": "QuickBooks sync add-on",
+     "unit": "per month, per location"
+    },
+    {
+     "amount_usd": 45.0,
+     "fetched_at": "2026-09-04",
+     "name": "ePrescribe add-on",
+     "unit": "per month, per prescriber (unlimited support staff)"
+    }
+   ],
+   "product": "Boulevard",
+   "tiers": [
+    {
+     "base_monthly_usd": 176.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Essentials",
+     "source_url": "https://www.joinblvd.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 293.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Premier",
+     "source_url": "https://www.joinblvd.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 410.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Prestige",
+     "source_url": "https://www.joinblvd.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Boulevard"
+  },
   "brevo": {
    "category": "email_marketing",
    "fees": [],
@@ -2166,6 +2223,84 @@
    "product": "GetResponse",
    "tiers": [],
    "vendor": "GetResponse"
+  },
+  "glossgenius": {
+   "category": "salon_management",
+   "fees": [],
+   "product": "GlossGenius",
+   "tiers": [
+    {
+     "base_monthly_usd": 24.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 9,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Standard",
+     "source_url": "https://glossgenius.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 28.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 9,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Standard (monthly billing)",
+     "source_url": "https://glossgenius.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 48.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 9,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Gold",
+     "source_url": "https://glossgenius.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 56.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 9,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Gold (monthly billing)",
+     "source_url": "https://glossgenius.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 148.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Platinum",
+     "source_url": "https://glossgenius.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 168.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Platinum (monthly billing)",
+     "source_url": "https://glossgenius.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 40.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Payroll",
+     "source_url": "https://glossgenius.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "GlossGenius"
   },
   "goodaccess": {
    "category": "business_vpn",
@@ -3776,6 +3911,43 @@
     }
    ],
    "vendor": "Manatal"
+  },
+  "mangomint": {
+   "category": "salon_management",
+   "fees": [
+    {
+     "amount_usd": 70.0,
+     "fetched_at": "2026-09-04",
+     "name": "Phone line add-on",
+     "unit": "per month, per line"
+    },
+    {
+     "amount_usd": 50.0,
+     "fetched_at": "2026-09-04",
+     "name": "Payroll add-on",
+     "unit": "per month base, plus $8 per worker"
+    },
+    {
+     "amount_usd": 120.0,
+     "fetched_at": "2026-09-04",
+     "name": "Additional location",
+     "unit": "per month, per location beyond the first"
+    }
+   ],
+   "product": "Mangomint",
+   "tiers": [
+    {
+     "base_monthly_usd": 120.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 10.0,
+     "plan": "Mangomint",
+     "source_url": "https://www.mangomint.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Mangomint"
   },
   "matter": {
    "category": "performance_management",

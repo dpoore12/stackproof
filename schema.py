@@ -270,6 +270,7 @@ CATEGORY_SEAT_POINTS: dict[str, tuple[int, ...]] = {
     "legal_practice_management": (1, 3, 5, 10, 25),
     "digital_signage": (1, 5, 10, 25, 50),
     "fleet_management": (1, 5, 10, 25, 50),
+    "salon_management": (1, 3, 5, 10, 25),
 }
 
 
