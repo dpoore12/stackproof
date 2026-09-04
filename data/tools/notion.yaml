@@ -1,0 +1,131 @@
+slug: notion
+vendor: Notion
+product: Notion
+category: wiki
+url: https://www.notion.com/pricing
+free_trial: "Free plan for individuals with a limited block count for workspaces of 2 or more members; paid plans include a trial of Notion AI (stated 2026-09-04)."
+pricing_note: "Per-member pricing with no base fee; guests are free. The page rendered yearly billing ('Save up to 20%') and the monthly rates did not render in the automated fetch. Custom AI agents are metered at $10 per 1,000 credits after a free trial."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: member
+    billing: monthly
+    provenance:
+      source_url: https://www.notion.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free $0 per member / month". Blocks unlimited for individuals, limited for 2+ members; file uploads up to 5 MB; 7-day page history; 10 external guests.'
+  - plan: Plus
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 10
+    seat_label: member
+    billing: annual
+    provenance:
+      source_url: https://www.notion.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch, "Pay yearly" active, "Price in USD". "Plus* $10 per member / month". Unlimited blocks and file uploads (~5 GB per file), 30-day page history. "* Plans may not be available for every workspace."'
+  - plan: Business
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 20
+    seat_label: member
+    billing: annual
+    provenance:
+      source_url: https://www.notion.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Business Recommended $20 per member / month". Notion Agent, AI Meeting Notes, SAML SSO, private teamspaces, 90-day page history.'
+
+fees:
+  - name: Custom Agents credits
+    amount_usd: 10
+    unit: per 1,000 monthly Notion credits
+    applies_to: All plans, after a free trial
+    provenance:
+      source_url: https://www.notion.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Custom Agents … Free to try, then $10 per 1,000 monthly Notion credits."'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Notion prorates seats added mid-cycle, gives no credit for removed
+      members but keeps the seat usable for the rest of the period, and
+      re-syncs the paid seat count to the member count at each renewal
+      (2026-09-04).
+    quote: "If you removed members, you will not receive credit but instead will still have use of that seat for a different user for the remainder of the billing period."
+    provenance:
+      source_url: https://www.notion.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: auto_renew
+    status: stated
+    finding: >-
+      Notion charges the plan price multiplied by the member count at each
+      monthly or annual renewal plus prorated charges for seats added in the
+      prior month (2026-09-04).
+    quote: "you will be charged for your plan amount multiplied by the number of members in your workspace, plus any prorated charges for new paid seats added in the past month"
+    provenance:
+      source_url: https://www.notion.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Notion's pricing page states no cancellation or refund terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.notion.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Notion's pricing page states no data-export terms; page history is
+      kept 7, 30, 90 days or unlimited by plan (2026-09-04).
+    provenance:
+      source_url: https://www.notion.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: notion-free-guests
+    claim: >-
+      Notion charges per member only; guests are free but limited to 10 on
+      the Free plan and see only the pages they are invited to
+      (2026-09-04).
+    provenance:
+      source_url: https://www.notion.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: notion-free-block-limit
+    claim: >-
+      Notion's Free plan lets a workspace with 2 or more members add only a
+      limited number of blocks before upgrading, after which existing
+      blocks stay editable but new ones cannot be added (2026-09-04).
+    provenance:
+      source_url: https://www.notion.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: notion-education-free-plus
+    claim: >-
+      Notion gives students and educators the Plus plan free with a
+      1-member limit on sign-up with a school email (2026-09-04).
+    provenance:
+      source_url: https://www.notion.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: notion-plan-availability-caveat
+    claim: >-
+      Notion marks Plus and Enterprise with an asterisk reading "Plans may
+      not be available for every workspace", and the monthly-billing rates
+      did not render in 2 automated fetches (2026-09-04).
+    provenance:
+      source_url: https://www.notion.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -1,0 +1,122 @@
+slug: confluence
+vendor: Atlassian
+product: Confluence Cloud
+category: wiki
+url: https://www.atlassian.com/software/confluence/pricing
+free_trial: "Free plan for up to 10 users, and a 7-day trial of Standard or Premium without payment details (stated 2026-09-04)."
+pricing_note: "Per-user pricing with no base fee, billed monthly on the exact user count; the page rendered monthly billing and annual pricing is sold in user tiers that were not captured. Enterprise is annual-only and quote-based. Guests are free up to 5 per paid user."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 10
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.atlassian.com/software/confluence/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Free plan: "User limit per site … Free 10 users"; 2 GB storage; 50 automation steps per subscription per month.'
+  - plan: Standard
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 5.42
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.atlassian.com/software/confluence/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch on a US gateway with the MONTHLY switch active. "Standard … $5.42 per user / month". 250 GB storage, 5 free guests per paid user, up to 250,000 users.'
+  - plan: Premium
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 10.44
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.atlassian.com/software/confluence/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Premium … $10.44 per user / month". Marked Recommended. Unlimited storage, 24/7 critical support, 99.9% uptime SLA.'
+
+clauses:
+  - topic: refund
+    status: stated
+    finding: >-
+      Atlassian refunds monthly Confluence subscriptions within the first
+      paid month and annual subscriptions within 30 days of payment
+      (2026-09-04).
+    quote: "Monthly subscriptions are eligible for a refund within your first paid month and after your trial period ends. Annual subscriptions are eligible for a refund within 30 days of payment."
+    provenance:
+      source_url: https://www.atlassian.com/software/confluence/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Confluence charges monthly subscriptions in advance on the exact user
+      count and annual subscriptions on the nearest user tier
+      (2026-09-04).
+    quote: "For monthly subscriptions, we'll charge you for the following month's subscription based on the exact number of Confluence users you have."
+    provenance:
+      source_url: https://www.atlassian.com/software/confluence/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Confluence trials can be cancelled at any time with no payment
+      details, and a Free site that exceeds 10 users is auto-upgraded to a
+      7-day Standard trial (2026-09-04).
+    quote: "If you're on the Free plan and exceed the user limit, we'll automatically upgrade you to a 7-day free trial of the Standard plan. Cancel any time, no payment information required."
+    provenance:
+      source_url: https://www.atlassian.com/software/confluence/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Confluence's pricing page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://www.atlassian.com/software/confluence/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: confluence-free-guests
+    claim: >-
+      Confluence Standard and Premium include free guest access at up to 5
+      guests per paid user, against a 10-user hard cap on the Free plan
+      (2026-09-04).
+    provenance:
+      source_url: https://www.atlassian.com/software/confluence/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: confluence-automation-caps
+    claim: >-
+      Confluence caps automation at 50 steps per subscription a month on
+      Free, then 100, 250 and 500 steps per user a month on Standard,
+      Premium and Enterprise (2026-09-04).
+    provenance:
+      source_url: https://www.atlassian.com/software/confluence/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: confluence-enterprise-annual-only
+    claim: >-
+      Confluence Enterprise is sold only on annual billing and hides its
+      price behind the annual switch and a sales contact; Standard and
+      Premium annual prices are sold in user tiers (2026-09-04).
+    provenance:
+      source_url: https://www.atlassian.com/software/confluence/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: confluence-storage-and-sla
+    claim: >-
+      Confluence storage steps from 2 GB (Free) to 250 GB (Standard) to
+      unlimited (Premium), with a 99.9% uptime SLA on Premium and 99.95% on
+      Enterprise (2026-09-04).
+    provenance:
+      source_url: https://www.atlassian.com/software/confluence/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

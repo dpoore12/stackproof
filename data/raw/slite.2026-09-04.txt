@@ -1,0 +1,15 @@
+URL: https://slite.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 00:50:15 +00:00 (US gateway 68.183.60.80)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed). Two unlabeled toggle elements rendered true; cards say "Billed yearly". Monthly-billing figures were not captured. FAQ text taken from the page's FAQPage JSON-LD.
+---
+"Plans for every stage of your company"
+Basic — "Everything you need to write, organize, and verify docs." — $10 per user/month, Billed yearly — unlimited docs, Ask (AI search & answers), doc verification workflow, Knowledge Management Panel, MCP and API access.
+Pro (Recommended) — "An agent-powered knowledge base that stays in sync with your tools." — $20 per user/month, Billed yearly — the Slite Agent, search across connected tools, doc fact-checking, agent workflows, 50 monthly credits per seat, OpenID SSO, custom domain for public docs.
+Enterprise — Custom pricing, Contact Sales — reader-only seats, advanced security, audit logs, SLA, dedicated account manager, priority support, SCIM.
+Compare table: Basic $10 per member/month; Pro $20 per member/month. File upload up to 200MB (Basic) / unlimited. Storage per user 5GB / 10GB / 10GB. PDF, Markdown, HTML exports on all plans. AI search: 30 monthly questions per seat (Basic); AI writing assistant 30 AI edits/month/user (Basic), unlimited on Pro. Reader-only seats Enterprise only.
+FAQ — How does the 14 days free trial work? "Once you sign up for Slite, your 14-day free trial begins. During this period you can explore the product and everything included in the Basic and Pro plans — no credit card required."
+FAQ — What happens after the Free Trial has ended? "you will see a message that purchasing one of our subscription plans is necessary to continue using Slite."
+FAQ — Non-profit and academic discounts on the Basic plan.
+FAQ — Can I add extra members? "If you are on our monthly plan, these extra users will be billed on your next invoice. If you are on our yearly plan, we will prorate the costs. We'll review the number of members each month on the day you have started your subscription. If the number of users is higher than your current baseline, we will prorate the extra licenses and bill you for the remaining months on your contract."
+FAQ — What happens if I remove members? "When you remove a user, this frees up a license that can be used by someone else. If you do not assign the license to someone else, the lower number of l[icenses …]" (truncated in the capture).
