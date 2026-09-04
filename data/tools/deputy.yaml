@@ -1,0 +1,125 @@
+slug: deputy
+vendor: Deputy
+product: Deputy
+category: shift_scheduling
+url: https://www.deputy.com/pricing
+free_trial: "Free trial available on Lite and Core (\"Start free trial\"); Pro requires contacting sales. If you upgrade before the trial ends, billing starts only once the trial period is over (2026-09-04)."
+pricing_note: "Deputy counts every user, including admins and supervisors, toward the billed headcount: \"All users/administrators/supervisors are considered users and will be counted in your total user number.\" There is also a stated minimum monthly spend of $30 per invoice on all three self-serve plans as of September 1, 2025, which would bind on Lite below 6 users; this dataset's comparison seat points (10+) are all comfortably above that floor for every tier, so it is not baked into the cost formula here, only noted. Deputy's per-user rate is identical whether \"billed upfront or in monthly installments,\" so no separate annual-discount figure is recorded."
+
+tiers:
+  - plan: Lite
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 5
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.deputy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Lite. Everything you need to get started with scheduling and time tracking. $5 per user per month (USD excl. all applicable taxes) billed upfront or in monthly installments." Basic scheduling, basic timesheets, basic time clocking, labor law compliance, shift swap & find replacement.'
+  - plan: Core
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 6.50
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.deputy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Core. Most popular. Advanced tools to streamline operations and boost productivity. $6.50 per user per month." Everything in Lite, plus advanced scheduling, auto-scheduling, demand forecasting, labor optimization, wage and labor budgets, customer success manager.'
+  - plan: Pro
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 9
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.deputy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pro. Complete control with powerful automation, insights, & priority support. $9 per user per month." Everything in Core, plus custom access levels, location hierarchies, Pay Centers, SSO, dedicated CSM, sandbox environment, 24/7 live chat.'
+
+fees:
+  - name: Deputy Payroll (enabled by Paycor)
+    amount_usd: 49
+    unit: monthly base fee plus $8 per user per month, billed monthly; available on annual Core/Pro plans in the US
+    provenance:
+      source_url: https://www.deputy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - name: Deputy HR add-on
+    amount_usd: 2
+    unit: per user, per month
+    provenance:
+      source_url: https://www.deputy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - name: Outbound SMS (US)
+    amount_usd: 0.01
+    unit: per 160 characters sent via the Deputy platform (receiving SMS is free)
+    provenance:
+      source_url: https://www.deputy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: refund
+    status: stated
+    quote: "If you are on an annual plan, you can cancel your plan before your 12 months expires, however, there are no refunds in this instance."
+    finding: >-
+      Deputy states annual-plan cancellations before the 12-month term
+      ends receive no refund for the remaining months (2026-09-04).
+    provenance:
+      source_url: https://www.deputy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: stated
+    quote: "If you cancel your monthly plan, you'll pay for your current plan until the end of the monthly billing period."
+    finding: >-
+      Deputy lets monthly-plan customers cancel at any time, with access
+      continuing through the end of the current billing period
+      (2026-09-04).
+    provenance:
+      source_url: https://www.deputy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    quote: "When you add a new user into Deputy for the first time, you will be charged at the full monthly per user price. For example, if you add a new employee 5 days before the end of the month, you will still get charged for that user for the full month."
+    finding: >-
+      Deputy charges a full month's fee for any user added or archived
+      partway through the month, with no proration (2026-09-04).
+    provenance:
+      source_url: https://www.deputy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: deputy-minimum-monthly-spend
+    claim: >-
+      Deputy enforces a minimum monthly spend of USD $30 per invoice on
+      its self-serve Lite, Core and Pro plans, effective September 1,
+      2025 (2026-09-04).
+    provenance:
+      source_url: https://www.deputy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: deputy-admins-count-as-users
+    claim: >-
+      Deputy's FAQ states admins and supervisors are billed the same as
+      any other user: "All users/administrators/supervisors are
+      considered users and will be counted in your total user number"
+      (2026-09-04).
+    provenance:
+      source_url: https://www.deputy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: deputy-billing-currency-by-country
+    claim: >-
+      Deputy bills customers in Australian dollars (Australia/New
+      Zealand) or British pounds (UK), and in US dollars for the United
+      States and "all other countries" (2026-09-04).
+    provenance:
+      source_url: https://www.deputy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

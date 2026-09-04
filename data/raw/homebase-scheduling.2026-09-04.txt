@@ -1,0 +1,13 @@
+URL: https://joinhomebase.com/pricing/ (canonical https://www.joinhomebase.com/pricing)
+STATUS: 200
+FETCHED: 2026-09-04 14:33:25 +00:00 (US gateway 68.183.54.131; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+---
+Toggle: "Annual / Monthly." Basic — "Get started with Homebase and set up a new team. $0 / location / month for 1 location, up to 10 employees." Basic scheduling, basic time tracking, POS integration.
+Essentials — "Simplify the process of tracking & managing shifts. $30 $24 / location / month unlimited employees. Save $72/year." Advanced scheduling, advanced time tracking, team communication.
+Plus — "Boost your team's productivity and improve communication. $70 $56 / location / month unlimited employees. Save $168/year." Everything in Essentials, plus AI-powered Scheduling, PTO & time-off controls, Departments & permissions.
+All-in-One — "Get control of your labor costs and streamline operations. $120 $96 / location / month unlimited employees. Save $288/year." Everything in Plus, plus Employee onboarding, Labor cost management, HR & compliance.
+Add-ons: Payroll "$39/month + $6/month per employee paid." Tip Manager "$25/month per location." Background checks "$30 each." Task Manager "$13/month per location." Job post boosts "Starting at $79/post." Hiring Assistant "$99/month, billed annually."
+FAQ: "What does a location mean?" — "A location is a physical address that is your place of business... We have a Basic plan that is free for teams up to 10 employees and operating in one location." "Is payroll available on all plans?" — "Yes! Payroll is available as an add-on product on all plans for a standard $39 base fee / month + $6 per employee paid / month." "Can I upgrade or downgrade later if I change my mind?" — "Yes!... You can change your Homebase plan at any time – and the newly chosen plan will get activated at the start of the next billing cycle." "What happens after the free All-in-One 14-day trial?" — "If you don't have any plan selected at the end of your 14-day free All-in-One trial, you will automatically be switched to the free Basic Plan."
+No refund/money-back-guarantee language found.
+Page title: "Official Homebase Pricing | Try Homebase Free Today".

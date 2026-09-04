@@ -1,0 +1,115 @@
+slug: sling
+vendor: Sling (by Toast)
+product: Sling
+category: shift_scheduling
+url: https://getsling.com/pricing/
+free_trial: "15-day free trial across all plans; core scheduling stays free indefinitely for up to 30 users regardless of trial status (2026-09-04)."
+pricing_note: "Sling's Free plan is unusually generous for this category: full shift scheduling for up to 30 users at $0. Sling also has a buyer-friendly \"fair billing policy\": deactivated or removed users are prorated back to the account rather than paid through the full period."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 30
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://getsling.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Scheduling is only the start. Shift scheduling with Sling is free for up to 30 users." Shift scheduling, time-off requests, available shifts, news sharing, long-term scheduling, private messaging.'
+  - plan: Premium (annual)
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 1.70
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://getsling.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Premium. $2.00 $1.70 per user per month." (annual/monthly pair; "Save 15%" for annual.) Mobile time tracking, labor cost management, overtime tracking, private and group messaging, calendar sync.'
+  - plan: Premium (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 2.00
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://getsling.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$2.00 per user per month" billed monthly, versus $1.70/month billed annually.'
+  - plan: Business (annual)
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 3.40
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://getsling.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Business. Recommended. $4.00 $3.40 per user per month." Kiosk time tracking, reports, no-shows, sick call-outs, PTO management.'
+  - plan: Business (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 4.00
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://getsling.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$4.00 per user per month" billed monthly, versus $3.40/month billed annually.'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "With Sling's Premium and Business plans, you only pay for the people who use the platform. If a team member leaves or is deactivated, we'll prorate your account for the unused spot."
+    finding: >-
+      Sling prorates a refund-in-kind (account credit) for any seat
+      deactivated mid-cycle, rather than charging through the full
+      period (2026-09-04).
+    provenance:
+      source_url: https://getsling.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: stated
+    quote: "If an employee leaves your business, you can deactivate or remove them from your Sling account. We'll prorate you for the unused time in both cases."
+    finding: >-
+      Sling lets individual employee seats be deactivated at any time
+      with prorated billing adjustment (2026-09-04).
+    provenance:
+      source_url: https://getsling.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Sling's pricing FAQ states no plan-level money-back-guarantee,
+      beyond its per-seat proration policy (2026-09-04).
+    provenance:
+      source_url: https://getsling.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: sling-free-tier-30-users
+    claim: >-
+      Sling's free plan supports full shift scheduling for up to 30
+      users at $0, a higher free-tier ceiling than any other vendor
+      recorded in this category (2026-09-04).
+    provenance:
+      source_url: https://getsling.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: sling-fair-billing-proration
+    claim: >-
+      Sling's "fair billing policy" prorates Premium and Business
+      accounts for any seat left unused after an employee departs,
+      rather than billing the full period (2026-09-04).
+    provenance:
+      source_url: https://getsling.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

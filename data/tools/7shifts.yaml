@@ -1,0 +1,165 @@
+slug: 7shifts
+vendor: 7shifts
+product: 7shifts
+category: shift_scheduling
+url: https://www.7shifts.com/pricing
+free_trial: "14-day free trial with full access to the Pro plan's features, no credit card required; unselected trials fall back to the free Comp plan (2026-09-04)."
+pricing_note: "7shifts prices per location with an employee-count ceiling attached to each named tier (15/30/60/unlimited), not a flat per-employee rate: a location upgrades to the next plan once it needs more employees than its current tier allows, rather than paying more per additional employee within a tier. The Premium tier's optional $6/employee/month payroll surcharge only applies if the location also uses 7shifts Payroll, so it is recorded as a separate fee, not folded into the base tier price."
+
+tiers:
+  - plan: Comp
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 15
+    seat_label: employee (per location)
+    billing: monthly
+    provenance:
+      source_url: https://www.7shifts.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Comp. Get started with basic scheduling. Free. For single locations. Up to 15 employees." Basic scheduling, one-way announcements, availability and time-off requests.'
+  - plan: Essentials (annual)
+    base_monthly_usd: 39.99
+    per_seat_monthly_usd: 0
+    max_seats: 30
+    seat_label: employee (per location)
+    billing: annual
+    provenance:
+      source_url: https://www.7shifts.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Essentials. $44.99 $39.99. Per month/location. Up to 30 employees." Everything in Comp, plus advanced scheduling, team messaging, basic time clocking, customizable permission settings.'
+  - plan: Essentials (monthly)
+    compare: false
+    base_monthly_usd: 44.99
+    per_seat_monthly_usd: 0
+    max_seats: 30
+    seat_label: employee (per location)
+    billing: monthly
+    provenance:
+      source_url: https://www.7shifts.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$44.99 per month/location" billed monthly, versus $39.99/month billed annually ("Save 10% with Annual Billing").'
+  - plan: Pro (annual)
+    base_monthly_usd: 79.99
+    per_seat_monthly_usd: 0
+    max_seats: 60
+    seat_label: employee (per location)
+    billing: annual
+    provenance:
+      source_url: https://www.7shifts.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pro. Best value. $89.99 $79.99. Per month/location. Up to 60 employees." Everything in Essentials, plus PTO accrual tracking, labor compliance and labor cost tools, advanced time clocking, Manager Log Book.'
+  - plan: Pro (monthly)
+    compare: false
+    base_monthly_usd: 89.99
+    per_seat_monthly_usd: 0
+    max_seats: 60
+    seat_label: employee (per location)
+    billing: monthly
+    provenance:
+      source_url: https://www.7shifts.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$89.99 per month/location" billed monthly, versus $79.99/month billed annually.'
+  - plan: Premium (annual)
+    base_monthly_usd: 134.99
+    per_seat_monthly_usd: 0
+    seat_label: employee (per location; unlimited)
+    billing: annual
+    provenance:
+      source_url: https://www.7shifts.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Premium. $149.99 $134.99 + $6 per month/employee paid*. Unlimited employees. *Only applies if you pay your team via 7shifts Payroll." Includes 7shifts Payroll (valued at $39.99), Tip Management (valued at $49.99), Task Management (valued at $12.99), Employee Training (valued at $99.00).'
+  - plan: Premium (monthly)
+    compare: false
+    base_monthly_usd: 149.99
+    per_seat_monthly_usd: 0
+    seat_label: employee (per location; unlimited)
+    billing: monthly
+    provenance:
+      source_url: https://www.7shifts.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$149.99 per month/location" billed monthly, versus $134.99/month billed annually.'
+
+fees:
+  - name: 7shifts Payroll (per-employee surcharge on Premium)
+    amount_usd: 6
+    unit: per employee paid, per month (only applies if using 7shifts Payroll on the Premium plan; free on Premium otherwise, $39.99/month/location as a standalone add-on on lower tiers)
+    provenance:
+      source_url: https://www.7shifts.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - name: Tip Management add-on
+    amount_usd: 49.99
+    unit: per month, per location
+    provenance:
+      source_url: https://www.7shifts.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - name: Employee Onboarding (US only)
+    amount_usd: 2.99
+    unit: per onboarding package sent
+    provenance:
+      source_url: https://www.7shifts.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: cancellation
+    status: stated
+    quote: "If you cancel, we'll bill you for the current month, but won't bill you again if you're not under a contract."
+    finding: >-
+      7shifts bills through the current month on cancellation but stops
+      billing afterward for customers not under a term contract
+      (2026-09-04).
+    provenance:
+      source_url: https://www.7shifts.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      7shifts' pricing FAQ states no money-back-guarantee or refund
+      terms beyond its cancellation policy (2026-09-04).
+    provenance:
+      source_url: https://www.7shifts.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    quote: "We take payment by credit card as well as ACH (automatic bank withdrawals), by request. You choose whether you want to pay monthly or annually. We'll charge your credit card or bank accordingly at each period."
+    finding: >-
+      7shifts accepts credit card or ACH payment, charged at the start
+      of each billing period the customer selects (2026-09-04).
+    provenance:
+      source_url: https://www.7shifts.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: 7shifts-tier-employee-ceilings
+    claim: >-
+      7shifts gates its named tiers by an employee-count ceiling per
+      location rather than a linear per-employee rate: Comp allows 15
+      employees, Essentials 30, Pro 60, and Premium unlimited
+      (2026-09-04).
+    provenance:
+      source_url: https://www.7shifts.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: 7shifts-premium-bundled-addon-value
+    claim: >-
+      7shifts prices Premium's bundled add-ons individually at $39.99
+      (Payroll) plus $49.99 (Tip Management) plus $12.99 (Task
+      Management) plus $99.00 (Employee Training) if bought separately
+      on lower tiers (2026-09-04).
+    provenance:
+      source_url: https://www.7shifts.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

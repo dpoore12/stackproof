@@ -1,0 +1,11 @@
+URL: https://wheniwork.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 14:32:56 +00:00 (US gateway 68.183.149.129, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+---
+"Simple pricing for every team." Single location or schedule — "$2.50 /user/month. Built for smaller teams that need efficiency without complexity." Employee Scheduling, Time Tracking & Attendance, Team Messaging, Auto Scheduling, standard labor reports, payroll/POS integrations.
+Multiple locations or schedules — "$5 /user/month. Built for growing teams that need complete workforce visibility." Unlimited job sites/schedules/locations, labor sharing between departments/locations, custom reporting and role permissions, multiple time zone management.
+"Try everything, free, for 14 days. Then choose the plan that works best for your business." "No credit card required."
+FAQ: "How much does When I Work cost?" — "When I Work pricing starts at just $2.50 per user per month for single-location teams, and $5 per user per month for multi-location businesses." "Can I change plans or cancel anytime?" — "Yes. When I Work is completely flexible. You can switch between plans, add or reduce seats, or cancel at any time, with no contracts or hidden fees." "What payment methods do you accept?" — "We accept Visa, Mastercard, and American Express, with flexible monthly or annual billing options."
+No refund/money-back-guarantee or data-export language found.
+Page title: "When I Work Pricing | Easy Workforce Management Plans".
