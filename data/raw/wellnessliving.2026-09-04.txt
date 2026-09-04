@@ -1,0 +1,11 @@
+URL: https://www.wellnessliving.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 18:08:16 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+
+Site-wide limited-time promo active at fetch time: "Get 80% off your subscription for 2 months! Offer Expires September 18th, 2026." Regular (non-promotional) prices recorded here; the promo is captured separately as a finding.
+Pay Monthly tab: Starter $69/mo. Business $199/mo ("*Save 80% for 2 Months" -> $39/mo promo price). BusinessPro $349/mo (marked "MOST POPULAR"; "*Save 80% for 2 Months" -> $69/mo promo price). Enterprise: "Call us."
+Pay Annually tab (Save 10%): Starter $62/mo. Business $179/mo ($35/mo promo). BusinessPro $314/mo ($62/mo promo). Enterprise: "Call us."
+Feature comparison table confirms the real differentiator between tiers is STAFF count, not client/member count: "Staff Management: 1 [Starter] / Unlimited [Business] / Unlimited [BusinessPro] / Unlimited [Enterprise]." Client Database is explicitly "Unlimited Unlimited Unlimited Unlimited" across all four tiers -- every tier supports unlimited active members/clients regardless of price.
+Add-on: API Access "$19/mo" on all four tiers.
+FAQ: "Upgrade anytime right from your WellnessLiving dashboard." Monthly and annual billing both offered; BusinessPro and Enterprise plans can be invoiced.

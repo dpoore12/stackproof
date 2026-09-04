@@ -1,0 +1,50 @@
+slug: pushpress
+vendor: PushPress
+product: PushPress
+category: gym_management
+url: https://www.pushpress.com/pricing
+pricing_note: 'PushPress''s own feature comparison table confirms every tier is unlimited on every headcount dimension it lists -- "Members... Unlimited Unlimited Unlimited" and "Staff... Unlimited Unlimited Unlimited" identical across Free/Pro/Max -- so none of the three tiers caps or scales by active-member count; all three are flat monthly fees. The page''s own FAQ prose separately describes a different, apparently stale set of plan names and prices ("Core," "Core Pro $159/month," "Train," "Grow $329/month," "Full Stack ~$559/month") that do not match the visible Free/Pro/Max pricing cards actually used for checkout; disregarded in favor of the rendered cards.'
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: active member
+    billing: monthly
+    provenance:
+      source_url: https://www.pushpress.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$0," "No monthly fees." "Small gyms and studios ready to lay the foundation for growth and success." Unlimited leads, admins, members, and staff.'
+  - plan: Pro
+    base_monthly_usd: 159
+    per_seat_monthly_usd: 0
+    seat_label: active member
+    billing: monthly
+    provenance:
+      source_url: https://www.pushpress.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$159/mo." "Mid-size gyms and studios ready to scale their business and optimize operations." Lower payment processing rates than Free; unlimited members and staff.'
+  - plan: Max
+    base_monthly_usd: 229
+    per_seat_monthly_usd: 0
+    seat_label: active member
+    billing: monthly
+    provenance:
+      source_url: https://www.pushpress.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$229/mo." "Established gyms and studios ready to streamline operations and accelerate growth." Lowest credit card processing rate (2.75%); unlimited members and staff.'
+
+findings:
+  - id: pushpress-processing-rates-by-tier
+    claim: >-
+      PushPress's credit card processing rate falls by tier: 4.99%+$0.30
+      on Free versus 2.89%+$0.30 on Pro and 2.75%+$0.30 on Max
+      (2026-09-04).
+    provenance:
+      source_url: https://www.pushpress.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

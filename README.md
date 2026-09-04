@@ -596,6 +596,44 @@ one before it, correct a pre-existing drift between the file count and
 this running tally — the previous entries undercounted; 162 is the
 verified count of `data/tools/*.yaml`.)
 
+### Gym / fitness studio management software (2026-09-04)
+
+Four vendors: Gymdesk, WellnessLiving, PushPress, Zen Planner. Seat axis
+is "active members managed" (25, 50, 100, 200, 400). Vagaro's pricing
+page redirected to a "Salon is under scheduled maintenance" placeholder
+on every fetch attempt, Glofox's pricing loads only behind a multi-step
+quote form with no dollar figure anywhere, SparkMembership answered the
+rendering browser with an obfuscated "One moment, please..." bot
+challenge, and Mindbody and Wodify were dropped as axis mismatches —
+both price primarily per location rather than per active member, with
+Wodify's static page showing only a promotional "starting at" figure
+with no per-member breakdown underneath it.
+
+Gymdesk is the cleanest record: its "Build Your Price" calculator is an
+interactive tool, not static markup, but the tier table lives in the
+page's own embedded JavaScript (Micro/Small/Medium/Large Gym bands up
+to 50/100/200/400 active members at $75/$100/$150/$200 per month),
+recovered by locating that script and reading its literal tier array —
+so it is recorded with `steps` rather than a flat per-seat rate.
+WellnessLiving and PushPress both looked, at first glance, like they
+might cap plans by member count, but each vendor's own feature-comparison
+table states the opposite: WellnessLiving lists "Client Database:
+Unlimited" identically across all four tiers (the real differentiator is
+staff seats, an axis this category doesn't track), and PushPress lists
+both "Members" and "Staff" as "Unlimited" identically across Free/Pro/Max.
+Both are therefore recorded as flat monthly fees with no cap, not
+per-seat pricing — PushPress's Free tier is `compare: false` so it
+doesn't win the cheapest-plan comparison outright, and WellnessLiving's
+regular annual prices are recorded as the primary (`compare: true`)
+tiers with a time-boxed sitewide 80%-off promo captured as a finding
+instead of a tier. Zen Planner's FAQ confirms pricing is "tiered based
+on Active Members," but the real per-tier breakdown loads through an
+interactive tool absent from the static page; only its single "Starting
+at $99/month" figure is captured, and it is marked `compare: false`
+since the true scaling formula was never observed.
+
+Database is now 166 tools across 35 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

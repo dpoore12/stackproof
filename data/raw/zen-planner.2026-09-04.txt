@@ -1,0 +1,8 @@
+URL: https://zenplanner.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 18:07:05 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText directly.
+
+"Zen Planner Studio -- The essential toolkit for your day-to-day. Starting at $99/month." A "Detailed view of member pricing by tier" link is referenced but the actual per-tier breakdown by active-member count is not rendered in the static page (loads via an interactive tool). FAQ confirms the real pricing axis: "Pricing is tiered based on Active Members. An Active Member is anyone with a Membership or who has attended an Event in the past month. We'll never charge you for prospects or staff." Month-to-month subscription; annual contracts available on request.
+Studio Extensions (add-ons, priced separately from the core Studio plan): Website "$99/month" (custom design, SEO, lead capture). Engage "$249/month" (advanced marketing automation, AI-powered campaigns, lead management).
+Member-experience add-ons: Branded App "$39/month." EMV Devices "$39/month" (payment processing hardware).
