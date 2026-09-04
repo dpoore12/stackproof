@@ -1,0 +1,17 @@
+URL: https://cacoo.com/pricing (canonical redirects to https://nulab.com/pricing/cacoo/)
+STATUS: 200
+FETCHED: 2026-09-04 14:24:56 +00:00 (US gateway 68.183.49.222; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+---
+"Collaborate visually — without the premium price tag." Toggle: "Monthly / Annually, Save 17%."
+Free — "Always free. $0." "Unlimited users." 6 sheets, templates & shapes, PNG exports, real-time editing, in-app video chat, comment & chat, follow mode, code-to-graph, kanban tool, media library.
+Pro — "Diagramming for professionals. $6 per user/month billed monthly." "1 user." Everything in Free, plus unlimited sheets, multiple export options, revision history, timer, premium templates.
+Team — "Visual collaboration for teams of all size. $6 per user/month billed monthly." "Up to 1,000 users." Everything in Pro, plus 1-on-1 training, password-protected diagrams.
+Enterprise — "For advanced security and control. Custom." SAML SSO, user provisioning (SCIM), audit logs, advanced security & compliance, centralized user & access management, Enterprise Customer Success Manager.
+FAQ: "How many users are included in each plan?" — "Cacoo's Free plan allows unlimited users, the Pro plan is designed for a single user, and the Team and Enterprise plans are limited to 1,000 users." (Note: Enterprise features elsewhere describe unlimited users; this FAQ answer states a 1,000-user cap language shared with Team.)
+FAQ: "Can I switch plans at any time?" — "You can switch from one paid plan to another after your existing plan period is finished... It is not possible to downgrade to a free plan from a paid one."
+FAQ: "Can I switch plans during the trial?" — "No, it is not possible to switch plans during the free trial period."
+FAQ: "How does the Cacoo free trial work?" — "You can sign up for a 14-day free trial of any Cacoo paid plan, no credit card required. After the 14 days, you will need to pay for the plan to continue using Cacoo."
+FAQ: "Are there any setup or hidden fees?" — "No, there are no hidden fees."
+No refund/money-back-guarantee language found.
+Page title: "Cacoo Diagramming Software Pricing | Choose a Plan | Nulab".

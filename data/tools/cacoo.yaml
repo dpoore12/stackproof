@@ -1,0 +1,106 @@
+slug: cacoo
+vendor: Cacoo (Nulab)
+product: Cacoo
+category: whiteboarding
+url: https://cacoo.com/pricing
+free_trial: "14-day free trial of any paid plan, no credit card required; after 14 days you must pay to continue on that plan (2026-09-04)."
+pricing_note: "Pro and Team are priced identically at $6/user/month billed monthly; the only difference is that Pro is capped at exactly 1 user while Team scales up to 1,000 users, per Cacoo's own FAQ (\"the Pro plan is designed for a single user\"). Annual billing saves 17% per the page's toggle, but the exact annual per-user dollar figure was not printed in the captured text, only the percentage, so it is not recorded here."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://cacoo.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free. Always free. $0." "Unlimited users." 6 sheets, templates & shapes, PNG exports, real-time editing, in-app video chat, comment & chat, follow mode, code-to-graph, kanban tool, media library.'
+  - plan: Pro
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 6
+    max_seats: 1
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://cacoo.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pro. Diagramming for professionals. $6 per user/month billed monthly." FAQ: "the Pro plan is designed for a single user." Unlimited sheets, multiple export options, revision history, timer, premium templates.'
+  - plan: Team
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 6
+    max_seats: 1000
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://cacoo.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Team. Visual collaboration for teams of all size. $6 per user/month billed monthly." "Up to 1,000 users." Everything in Pro, plus 1-on-1 training and password-protected diagrams.'
+  - plan: Enterprise
+    compare: false
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://cacoo.com/pricing
+      fetched_at: 2026-09-04
+      method: not_available
+      note: '"Enterprise. For advanced security and control. Custom." SAML SSO, SCIM user provisioning, audit logs, dedicated Enterprise Customer Success Manager. No price published.'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    quote: "You can switch from one paid plan to another after your existing plan period is finished, so that it will be active for the next period, whether this is monthly or annually. It is not possible to downgrade to a free plan from a paid one."
+    finding: >-
+      Cacoo lets customers switch paid plans only at the end of the
+      current billing period, and explicitly does not allow downgrading
+      from a paid plan back to Free (2026-09-04).
+    provenance:
+      source_url: https://cacoo.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    quote: "You can sign up for a 14-day free trial of any Cacoo paid plan, no credit card required. After the 14 days, you will need to pay for the plan to continue using Cacoo."
+    finding: >-
+      Cacoo's 14-day trial requires no card up front, but access ends
+      after 14 days unless a plan is purchased (2026-09-04).
+    provenance:
+      source_url: https://cacoo.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Cacoo's pricing FAQ states no money-back-guarantee or refund terms,
+      though it does state "there are no hidden fees" (2026-09-04).
+    provenance:
+      source_url: https://cacoo.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: cacoo-pro-team-same-rate
+    claim: >-
+      Cacoo's Pro and Team plans are priced identically at $6 per user per
+      month; the only difference is that Pro is capped at exactly 1 user
+      while Team scales up to 1,000 users (2026-09-04).
+    provenance:
+      source_url: https://cacoo.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: cacoo-no-mid-trial-plan-switch
+    claim: >-
+      Cacoo's FAQ states it is "not possible to switch plans during the
+      free trial period," unlike some competitors that allow mid-trial
+      upgrades (2026-09-04).
+    provenance:
+      source_url: https://cacoo.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -301,6 +301,37 @@ internally inconsistent about its trial length (7 days in one heading,
 self-contradiction this dataset is built to surface. Database is now
 118 tools across 25 categories.
 
+### Whiteboarding / visual collaboration (2026-09-04)
+
+Five vendors: Miro, Mural, Whimsical, Figma (FigJam seat), Cacoo (Nulab).
+Picked after confirming Sentry — and by extension most error-tracking
+tools — prices purely by error/event volume with "Unlimited users" on
+every paid tier, the same axis mismatch already covered twice this
+session (webinar platforms, uptime monitoring); this batch instead
+returns to a classic per-seat SaaS shape. Two vendors originally
+targeted for this batch, Lucidchart and Creately, could not be fetched
+(three consecutive empty responses for Lucidchart; Creately's `/pricing`
+paths both 404). Conceptboard was fetched successfully but turned out
+to be EUR-denominated regardless of request origin (unlike UptimeRobot's
+geo-adaptive pricing, Conceptboard is a German company quoting one home
+currency worldwide); since every field in this dataset's schema is
+`_usd` and no exchange-rate conversion is recorded here without a
+printed dollar figure, it was dropped rather than mis-typed as USD.
+
+Seat axis is "people who create or edit boards" (1, 3, 5, 10, 25),
+matching each vendor's own paid-seat concept: Miro/Mural "Members" (vs.
+free Guests/Visitors), Whimsical "Editors" (vs. free Viewers/Guests),
+Cacoo "users," and Figma's "Collab seat" — the cheapest of Figma's three
+seat types, used here since it is the one that carries full FigJam
+(whiteboard) access without paying for the entire Figma Design suite;
+Figma's pricier Full/Dev seats are recorded for reference only
+(`compare: false`). Cacoo's Pro and Team plans are priced identically at
+$6/user/month; the only difference is Pro's hard 1-user cap versus
+Team's 1,000-user ceiling, so Team is the only one of the two that shows
+up past the first seat point. All five vendors' cancellation, billing,
+and seat-definition FAQ answers were captured with direct quotes.
+Database is now 123 tools across 26 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

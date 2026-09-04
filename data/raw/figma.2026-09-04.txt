@@ -1,0 +1,15 @@
+URL: https://www.figma.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 14:24:05 +00:00 (US gateway 68.183.60.80; rendered USD, page states "Prices in USD")
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+---
+"Pick your plan, choose your seats." Starter (Free) — "Free limited access to Figma products." Unlimited drafts, UI kits and templates, 150 AI credits/day up to 500 AI credits/month.
+Professional — "Full seat $16/mo + 3,000 AI credits/mo. Dev seat $12/mo + 500 AI credits/mo. Collab seat $3/mo + 500 AI credits/mo." (Monthly/Annual toggle present; billing state of this capture not certain from static text.)
+Organization — "Billed annually. Full seat $55/mo + 3,500 AI credits/mo. Dev seat $25/mo + 500 AI credits/mo. Collab seat $5/mo + 500 AI credits/mo."
+Enterprise — "Billed annually. Full seat $90/mo + 4,250 AI credits/mo. Dev seat $35/mo + 500 AI credits/mo. Collab seat $5/mo + 500 AI credits/mo. Contact sales."
+FAQ: "What is a seat?" — "The Full seat includes full access to all Figma products... The Dev seat [gives] full access to Dev Mode, FigJam, Figma Slides, and Figma Buzz. It also gives users view and comment access in Figma Design files. The Collab seat includes full access to FigJam, Figma Slides, and Figma Buzz. It also gives users view and comment access in Figma Design files. It only includes basic inspection on Dev Mode."
+FAQ: "How do I downgrade or cancel my paid plan?" — "If you're on the Professional plan, you can downgrade or cancel your plan your Admin Dashboard. If you're on an Organization or Enterprise plan, please contact our Sales team to downgrade or cancel your plan."
+FAQ: "What happens if I add seats mid-year on an annual plan?" — "If you're on a Professional plan, if you add new paid seats to your team during your annual subscription term, Figma charges you a separate monthly subscription for those seats at the monthly price."
+"If you're on a paid plan, you can let others view and comment on your files without purchasing extra seats." "Invite as many people as you want to view, comment, inspect, or export from your Figma files—for free!"
+No refund/money-back-guarantee language found.
+Page title: "Plans & Pricing | Figma".
