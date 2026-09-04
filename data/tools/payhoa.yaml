@@ -1,0 +1,70 @@
+slug: payhoa
+vendor: PayHOA
+product: PayHOA
+category: hoa_community_association_management
+url: https://www.payhoa.com/pricing/
+pricing_note: 'PayHOA prices purely by unit count, with every feature included at every tier ("no feature gating"). Beyond 500 units it switches to a flat $0.55/unit/month rate with a $275/month minimum — not modeled as additional steps since this category''s seat points top out at 500.'
+
+tiers:
+  - plan: PayHOA
+    seat_label: unit
+    billing: annual
+    steps:
+      - up_to: 25
+        monthly_usd: 49
+      - up_to: 50
+        monthly_usd: 59
+      - up_to: 100
+        monthly_usd: 99
+      - up_to: 150
+        monthly_usd: 129
+      - up_to: 200
+        monthly_usd: 169
+      - up_to: 300
+        monthly_usd: 199
+      - up_to: 400
+        monthly_usd: 229
+      - up_to: 500
+        monthly_usd: 249
+    provenance:
+      source_url: https://www.payhoa.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Full unit-count step table, annual billing: 0-25 units $49/mo, 26-50 $59/mo, 51-100 $99/mo, 101-150 $129/mo, 151-200 $169/mo, 201-300 $199/mo, 301-400 $229/mo, 401-500 $249/mo.'
+  - plan: PayHOA (monthly billing)
+    compare: false
+    seat_label: unit
+    billing: monthly
+    steps:
+      - up_to: 25
+        monthly_usd: 54
+      - up_to: 50
+        monthly_usd: 65
+      - up_to: 100
+        monthly_usd: 109
+      - up_to: 150
+        monthly_usd: 142
+      - up_to: 200
+        monthly_usd: 186
+      - up_to: 300
+        monthly_usd: 219
+      - up_to: 400
+        monthly_usd: 252
+      - up_to: 500
+        monthly_usd: 275
+    provenance:
+      source_url: https://www.payhoa.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Same step table, month-to-month billing: 0-25 units $54/mo, 26-50 $65/mo, 51-100 $109/mo, 101-150 $142/mo, 151-200 $186/mo, 201-300 $219/mo, 301-400 $252/mo, 401-500 $275/mo.'
+
+findings:
+  - id: payhoa-over-500-units-rate
+    claim: >-
+      PayHOA charges $0.55 per unit per month with a $275/month minimum
+      for communities with more than 500 units, per its own pricing
+      page (2026-09-04).
+    provenance:
+      source_url: https://www.payhoa.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

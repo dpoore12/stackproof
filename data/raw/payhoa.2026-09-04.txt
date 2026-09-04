@@ -1,0 +1,20 @@
+source: https://www.payhoa.com/pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+"Simple & Flexible Pricing." "How many units are in your community?"
+Page description: "our HOA software pricing is flexible based on your
+association's units."
+
+Full unit-count step table (Monthly / Annual-equivalent monthly):
+0-25 units: $54/mo monthly / $49/mo billed annually
+26-50 units: $65/mo monthly / $59/mo billed annually
+51-100 units: $109/mo monthly / $99/mo billed annually
+101-150 units: $142/mo monthly / $129/mo billed annually
+151-200 units: $186/mo monthly / $169/mo billed annually
+201-300 units: $219/mo monthly / $199/mo billed annually
+301-400 units: $252/mo monthly / $229/mo billed annually
+401-500 units: $275/mo monthly / $249/mo billed annually
+500+ units: $0.55 per unit per month ($275/month minimum)
+
+All features included at every tier, no feature gating.
