@@ -1,0 +1,16 @@
+Source: https://www.palmtech.com/pricing/
+Fetched: 2026-09-04
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+"All pricing models include 100% of Palmtech's features."
+
+Get billed monthly
+$50 a user per month
+No hidden fees. Free tech support.
+Never pay for updates. Cancel anytime.
+
+Get billed annually
+$500 a user per year
+Save $100 a year per user.
+No hidden fees. Free tech support.
+Never pay for updates.

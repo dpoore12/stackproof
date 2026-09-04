@@ -1,0 +1,29 @@
+slug: home-inspector-pro
+vendor: Home Inspector Pro
+product: Home Inspector Pro
+category: home_inspection_business_management
+url: https://homeinspectorpro.com/home-inspection-software-pricing/
+pricing_note: 'Home Inspector Pro publishes a single flat monthly rate ("One simple plan") with no per-additional-inspector price disclosed in static text, despite listing "Collaborative team inspections" as an included feature — so this is recorded as a single-inspector rate (max one seat) rather than assumed to scale with team size. The page mentions "Annual discounts available" but does not state the discounted figure in captured static text, so only the monthly rate is recorded.'
+
+tiers:
+  - plan: Home Inspector Pro
+    base_monthly_usd: 89
+    max_seats: 1
+    billing: monthly
+    seat_label: inspector
+    provenance:
+      source_url: https://homeinspectorpro.com/home-inspection-software-pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Home Inspector Pro — One simple plan. Everything you need to write reports and run your inspection business. $89/mo. Annual discounts available."'
+
+findings:
+  - id: home-inspector-pro-annual-discount-unpublished
+    claim: >-
+      Home Inspector Pro advertises "Annual discounts available" on its
+      pricing page without stating the discounted rate anywhere in the
+      page's static text, as of 2026-09-04.
+    provenance:
+      source_url: https://homeinspectorpro.com/home-inspection-software-pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

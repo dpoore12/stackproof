@@ -1,0 +1,17 @@
+Source: https://www.spectora.com/pricing/
+Fetched: 2026-09-04
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Monthly Subscription
+$109 /month
+$1308 over 12 months
+Additional inspectors: $99/month
+
+BEST VALUE
+Annual Subscription
+$1090 /year
+$218 in savings!
+Additional inspectors: $999/year
+
+Software Trial: 2 free inspections
+All features included in both monthly and annual plans.

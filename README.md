@@ -1244,6 +1244,30 @@ quote-gated with no price shown at all).
 
 Database is now 229 tools across 56 categories.
 
+### Home inspection business management software (2026-09-04)
+
+Three vendors: Spectora, Palmtech, Home Inspector Pro. Seat axis is
+"inspectors" (1, 3, 5, 10, 25).
+
+Spectora has a genuine base-plus-per-seat formula: the base subscription
+includes one inspector, with additional inspectors billed per-seat
+(annual $1090/yr base + $999/yr per additional inspector; monthly
+$109/mo base + $99/mo per additional). Palmtech is a pure per-user rate
+with no base fee at all and no feature gating across pricing models
+($500/user/yr annual, $50/user/mo monthly). Home Inspector Pro publishes
+a single flat $89/mo rate with no per-additional-inspector price
+disclosed in static text — despite listing "Collaborative team
+inspections" as a feature — so it is recorded as a single-inspector rate
+rather than assumed to scale with team size; its page also advertises
+"Annual discounts available" without stating the discounted figure.
+
+Inspection Support Network was researched but excluded: it prices by
+inspection volume processed per month ($725/inspection for the first 50,
+stepping down at higher volumes) rather than by inspector count, an axis
+mismatch with the rest of this category.
+
+Database is now 232 tools across 57 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
