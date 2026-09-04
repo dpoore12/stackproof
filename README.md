@@ -1213,6 +1213,37 @@ attempts with different anchors and locale parameters.
 
 Database is now 226 tools across 55 categories.
 
+### Life & business coaching practice management software (2026-09-04)
+
+Three vendors: Paperbell, CoachAccountable, Satori. Unlike this site's other
+practice-management categories, coaching tools price by active-client
+count rather than by number of practitioners on the team (CoachAccountable
+explicitly includes "unlimited coach and administrator accounts at no
+extra cost"), so this category's axis is "active clients" (10, 25, 50,
+100, 250) rather than practitioners.
+
+Paperbell is a single flat-rate plan with unlimited clients that does not
+scale at all ($47.50/mo annual, $57/mo monthly). CoachAccountable has a
+genuine, granular step table by active-client count running from 2 clients
+at $20/mo up to 1,000 clients at $4,000/mo. Satori tiers by an active-client
+cap per plan (Essentials 10 clients at $33/mo, Pro 50 clients at $49/mo,
+Leader 150 clients at $124/mo); its billing-period toggle defaults to
+annual per the page's own server-rendered "current" class on that tab, so
+those figures are recorded as annual with no separate monthly rate
+captured (the monthly figures render client-side via Alpine.js and weren't
+present in static text).
+
+Before landing on this category, two others were researched and abandoned
+this session: insurance agency management software (only NowCerts had a
+genuine self-serve base-plus-per-seat formula across seven vendors
+attempted; Jenesis, HawkSoft, EZLynx, AgencyMatrix, AgencyBloc, and
+Insureio are all quote-gated, unreachable, or redirect elsewhere — well
+below this site's 3-vendor threshold) and moving company software (only
+SmartMoving and FrontRunner Professional were found, both fully
+quote-gated with no price shown at all).
+
+Database is now 229 tools across 56 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

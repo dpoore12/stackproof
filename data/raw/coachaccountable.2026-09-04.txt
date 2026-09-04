@@ -1,0 +1,33 @@
+Source: https://www.coachaccountable.com/pricing
+Fetched: 2026-09-04
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+"The price you pay is based on the number of clients you serve."
+
+Starter    2 clients    $20/mo
+Level 1    5 clients    $40/mo
+Level 2    10 clients   $70/mo
+Level 3    20 clients   $120/mo
+Level 3.5  35 clients   $200/mo
+Level 4    50 clients   $250/mo
+Level 4.5  75 clients   $340/mo
+Level 5    100 clients  $400/mo
+Level 5.5  150 clients  $600/mo
+Level 6    200 clients  $800/mo
+Level 6.5  250 clients  $1,000/mo
+Level 6.6  300 clients  $1,200/mo
+Level 6.7  350 clients  $1,400/mo
+Level 6.8  400 clients  $1,600/mo
+Level 6.9  450 clients  $1,800/mo
+Level 7    500 clients  $2,000/mo
+Level 7.1  550 clients  $2,200/mo
+Level 7.2  600 clients  $2,400/mo
+Level 7.3  650 clients  $2,600/mo
+Level 7.4  700 clients  $2,800/mo
+Level 7.5  750 clients  $3,000/mo
+Level 8    1000 clients $4,000/mo
+
+"Complete, fully-featured system for EVERY plan. Only your active clients
+count. Deactivate (and reactivate) clients at any time. Inactive clients
+may still access their records. Scales to any size you need."
+"Add unlimited coach and administrator accounts at no extra cost."

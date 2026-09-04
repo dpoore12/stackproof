@@ -1,0 +1,38 @@
+slug: paperbell
+vendor: Paperbell
+product: Paperbell
+category: coaching_practice_management
+url: https://paperbell.com/pricing/
+pricing_note: 'Paperbell is a single flat-rate plan with unlimited clients, sessions, and packages — it does not scale by client count or by number of coaches on the account. Cost is therefore the same at every seat point on this category''s "active clients" axis. Annual billing is recorded as primary per this site''s policy of treating a headlined prepaid-annual rate as primary; monthly is recorded separately.'
+
+tiers:
+  - plan: Paperbell (annual)
+    base_monthly_usd: 47.50
+    billing: annual
+    seat_label: client
+    provenance:
+      source_url: https://paperbell.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Page JSON-LD: {"name":"Annual","price":"570.00","priceCurrency":"USD","billingDuration":"P1Y"}, described as "Billed annually at $570/year ($47.50/month). Save 2 months vs monthly billing." "Unlimited clients, sessions, packages, and traffic."'
+  - plan: Paperbell (monthly)
+    base_monthly_usd: 57
+    billing: monthly
+    seat_label: client
+    compare: false
+    provenance:
+      source_url: https://paperbell.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Page JSON-LD: {"name":"Monthly","price":"57.00","priceCurrency":"USD","billingDuration":"P1M"}, described as "All features included. Unlimited clients, sessions, packages, and traffic. No transaction fees. Cancel anytime."'
+
+findings:
+  - id: paperbell-unlimited-clients-flat-rate
+    claim: >-
+      Paperbell charges a single flat rate regardless of client count, with
+      no per-client or per-coach pricing tier, per its own pricing page's
+      JSON-LD structured data as of 2026-09-04.
+    provenance:
+      source_url: https://paperbell.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

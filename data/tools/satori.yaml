@@ -1,0 +1,50 @@
+slug: satori
+vendor: Satori
+product: Satori
+category: coaching_practice_management
+url: https://www.satoriapp.com/pricing/
+pricing_note: 'Satori prices by active-client cap per tier rather than by number of coaches. The pricing page''s billing-period toggle defaults to "Annual" (marked with the "current" CSS class in the page''s own server-rendered markup, alongside a visible "Get 2 Months Free" annual promo banner), so the captured $33/$49/$124 per-month figures are recorded as the annual rate; the toggle''s "Monthly" figures are rendered client-side via Alpine.js and were not present in captured static text, so no separate monthly rate is recorded for this vendor.'
+
+tiers:
+  - plan: Essentials (annual)
+    base_monthly_usd: 33
+    max_seats: 10
+    billing: annual
+    seat_label: client
+    provenance:
+      source_url: https://www.satoriapp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Essentials — $33/m — Includes Up To... 10 Active Clients, 3 Coaching Programs, 60 Session Bookings, 10 Google Calendars." "Launch your coaching business with confidence and clarity." CTA: "Start Free Trial."'
+  - plan: Pro (annual)
+    base_monthly_usd: 49
+    max_seats: 50
+    billing: annual
+    seat_label: client
+    provenance:
+      source_url: https://www.satoriapp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pro — $49/m (Best Value) — Includes Up To... 50 Active Clients, 10 Coaching Programs, 120 Session Bookings, 20 Google Calendars." "Deliver a first-class client experience as you grow." CTA: "Start Free Trial."'
+  - plan: Leader (annual)
+    base_monthly_usd: 124
+    max_seats: 150
+    billing: annual
+    seat_label: client
+    provenance:
+      source_url: https://www.satoriapp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Leader — $124/m — Includes Up To... 150 Active Clients, 50 Coaching Programs, Unlimited Session Bookings, Unlimited Google Calendars." "Elevate your focus with support you can trust." CTA is "Contact Us" rather than "Start Free Trial," unlike the two lower tiers, though the price is shown identically.'
+
+findings:
+  - id: satori-leader-contact-us-cta
+    claim: >-
+      Satori's $124/mo Leader tier is the only one of its three plans whose
+      call-to-action reads "Contact Us" rather than "Start Free Trial,"
+      despite showing a fixed price rather than a "starting at" figure,
+      per its own pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://www.satoriapp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

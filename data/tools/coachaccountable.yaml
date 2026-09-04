@@ -1,0 +1,49 @@
+slug: coachaccountable
+vendor: CoachAccountable
+product: CoachAccountable
+category: coaching_practice_management
+url: https://www.coachaccountable.com/pricing
+pricing_note: 'CoachAccountable prices by number of active clients, with "unlimited coach and administrator accounts at no extra cost" — the price does not scale by number of coaches, only by active client count, confirmed via its own pricing page as of 2026-09-04. Only active clients count toward the limit; deactivated clients do not. The full step table shown is used verbatim; beyond the largest published step (1,000 clients) the cost is not captured.'
+
+tiers:
+  - plan: CoachAccountable
+    seat_label: client
+    steps:
+      - {up_to: 2, monthly_usd: 20}
+      - {up_to: 5, monthly_usd: 40}
+      - {up_to: 10, monthly_usd: 70}
+      - {up_to: 20, monthly_usd: 120}
+      - {up_to: 35, monthly_usd: 200}
+      - {up_to: 50, monthly_usd: 250}
+      - {up_to: 75, monthly_usd: 340}
+      - {up_to: 100, monthly_usd: 400}
+      - {up_to: 150, monthly_usd: 600}
+      - {up_to: 200, monthly_usd: 800}
+      - {up_to: 250, monthly_usd: 1000}
+      - {up_to: 300, monthly_usd: 1200}
+      - {up_to: 350, monthly_usd: 1400}
+      - {up_to: 400, monthly_usd: 1600}
+      - {up_to: 450, monthly_usd: 1800}
+      - {up_to: 500, monthly_usd: 2000}
+      - {up_to: 550, monthly_usd: 2200}
+      - {up_to: 600, monthly_usd: 2400}
+      - {up_to: 650, monthly_usd: 2600}
+      - {up_to: 700, monthly_usd: 2800}
+      - {up_to: 750, monthly_usd: 3000}
+      - {up_to: 1000, monthly_usd: 4000}
+    provenance:
+      source_url: https://www.coachaccountable.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Full step table from the page: "Starter — 2 clients — $20/mo" through "Level 8 — 1000 clients — $4000/mo." "The price you pay is based on the number of clients you serve." "Complete, fully-featured system for EVERY plan. Only your active clients count."'
+
+findings:
+  - id: coachaccountable-unlimited-coach-accounts
+    claim: >-
+      CoachAccountable includes unlimited coach and administrator accounts
+      at no extra cost on every plan, pricing solely by active client count,
+      per its own pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://www.coachaccountable.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
