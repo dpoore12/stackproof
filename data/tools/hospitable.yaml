@@ -1,0 +1,72 @@
+slug: hospitable
+vendor: Hospitable
+product: Hospitable
+category: vacation_rental_management
+url: https://hospitable.com/pricing/
+pricing_note: 'Hospitable''s own compare-features table publishes an exact base + per-extra-property formula for every tier ("Properties included in base price" and "Cost per extra property"), a rare fully-quantified record for this category. Essentials is a genuine $0 unlimited-property free tier, recorded compare: false per this site''s standing free-tier convention.'
+
+tiers:
+  - plan: Essentials
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: property
+    billing: monthly
+    provenance:
+      source_url: https://hospitable.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"No monthly fee." Maximum Properties: Unlimited. "Cost per extra property: No additional fee." "Core automation and multi-channel management."'
+  - plan: Host
+    base_monthly_usd: 25.52
+    per_seat_monthly_usd: 10
+    included_seats: 1
+    max_seats: 2
+    seat_label: property
+    billing: monthly
+    provenance:
+      source_url: https://hospitable.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$25.52/month." Maximum Properties: 2. Properties included in base price: 1. Cost per extra property: $10. "Everything a solo host needs to save time and stay organized."'
+  - plan: Professional
+    base_monthly_usd: 51.92
+    per_seat_monthly_usd: 15
+    included_seats: 2
+    seat_label: property
+    billing: monthly
+    provenance:
+      source_url: https://hospitable.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$51.92/month." Maximum Properties: Unlimited. Properties included in base price: 2. Cost per extra property: $15. "Scale your portfolio and coordinate your team with ease."'
+  - plan: Mogul
+    base_monthly_usd: 87.12
+    per_seat_monthly_usd: 30
+    included_seats: 3
+    seat_label: property
+    billing: monthly
+    provenance:
+      source_url: https://hospitable.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Marked "BEST VALUE." "$87.12/month." Maximum Properties: Unlimited. Properties included in base price: 3. Cost per extra property: $30. "Top-tier AI, smart devices, and full owner management tools."'
+
+findings:
+  - id: hospitable-prices-exclude-vat
+    claim: >-
+      Hospitable's published prices exclude VAT where applicable, per
+      its own pricing page (2026-09-04).
+    provenance:
+      source_url: https://hospitable.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: hospitable-unlimited-secondary-users
+    claim: >-
+      Hospitable includes unlimited secondary user accounts on every
+      paid tier (Host, Professional, and Mogul), per its own
+      compare-features table (2026-09-04).
+    provenance:
+      source_url: https://hospitable.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

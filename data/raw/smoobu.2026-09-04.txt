@@ -1,0 +1,10 @@
+URL: https://www.smoobu.com/en/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 19:15:12 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "Find the right plan for you" anchor).
+
+"All subscriptions are billed in EUR. Prices displayed in GBP/USD are estimates for reference purposes only and may vary depending on exchange rates." No tiers are recorded in USD for this reason (same treatment as Squarespace/Wix/Framer elsewhere on this site, which never reliably render USD).
+
+FAQ, "Do I pay more for the different features?": "At Smoobu, all core features are included. Begin managing a single unit for as low as EUR28 per month. Each additional unit costs from EUR9.60 per month, and additional writing-access accounts cost upwards of EUR12 per month."
+
+Three plans found on the page, all "Price based on number of units selected" (interactive per-unit calculator, default view shown at the page's default unit-count selection): Professional Flex (EUR29/month base, 0.9% booking fee, pay-as-you-go), Professional Prepaid (EUR35/month base at the default selection, 0% booking fee, marked "Most popular"), Pro+ (EUR55/month base at the default selection, 0% booking fee, adds e-invoicing, 2 months free dynamic pricing, two write-access accounts). A 10%-off yearly and 20%-off 2-year billing option is also offered.

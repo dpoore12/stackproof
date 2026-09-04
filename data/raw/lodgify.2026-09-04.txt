@@ -1,0 +1,9 @@
+URL: https://www.lodgify.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 19:12:14 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "Pay Less. Grow More." anchor).
+
+Basic -- "Grow revenue across every major booking site, all in sync." "$18" monthly, "$14/month" billed annually (Save 20%). "0% booking fee." "This plan is only available for 1 property or less." Unified calendar for Airbnb, Vrbo, Booking.com; AI-powered unified inbox.
+Starter -- "Launch your own website. Stop paying commissions on every guest." "$33" monthly, "$26/month" annually. "This plan is only available for 2 properties or less." Adds no-code website builder, custom rates, personalized onboarding, co-host access.
+Professional -- "List on Google. Automate messages. Protect your bookings." "$53" monthly, "$42/month" annually. No property-count cap stated in the rendered card text (unlike Basic/Starter) -- the real per-property scaling above the cap isn't shown in static text.
+Ultimate -- "Scale your business with advanced tools and team visibility." "$77" monthly, "$62/month" annually. No property-count cap stated either. Adds task management, check-in/out automation, owner payments/statements, guest mobile app.

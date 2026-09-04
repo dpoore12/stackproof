@@ -745,6 +745,37 @@ scale.
 
 Database is now 178 tools across 39 categories.
 
+### Vacation rental / short-term rental management software (2026-09-04)
+
+Three vendors: Hospitable, Lodgify, Smoobu. Seat axis is "properties
+managed" (1, 2, 5, 10, 25) — distinct from the existing
+`property_management` category, which covers long-term rentals.
+Hostaway (fully quote-gated, listing-band tiers with no dollar figure
+anywhere) and Uplisting (an interactive property-count calculator with
+no price ever rendered statically) were dropped; OwnerRez's pricing
+page renders only odometer-style placeholder digits ("$8888/month*")
+for its interactive per-property slider, with the real formula computed
+client-side and never present in static markup, so it was dropped too.
+
+Hospitable is the standout record: its own compare-features table
+publishes an exact base + per-extra-property formula for every tier
+("Properties included in base price" and "Cost per extra property"),
+a rare fully-quantified formula for this category; its $0 Essentials
+tier is unlimited-property and marked `compare: false` per this site's
+standing free-tier convention. Lodgify states an explicit property cap
+on its two lower tiers ("only available for 1 property or less" /
+"2 properties or less"), recorded as `max_seats`, but its Professional
+and Ultimate tiers publish no cap or per-extra-property rate anywhere,
+so those are recorded `compare: false` as starting figures. Smoobu
+bills in EUR by default ("Prices displayed in GBP/USD are estimates for
+reference purposes only") — no tiers are recorded in USD for this
+reason, the same treatment given to Squarespace, Wix, and Framer
+elsewhere on this site; its own FAQ EUR formula ("as low as €28/month,
+each additional unit from €9.60/month") is captured as a finding
+instead.
+
+Database is now 181 tools across 40 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
