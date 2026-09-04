@@ -1,0 +1,24 @@
+source: https://www.coworks.com/pricing
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+"Our Annual Pricing" toggle: "Paid Yearly / Paid Monthly." Page
+description: "Coworks coworking management software pricing is flat
+and predictable."
+
+Hybrid Workspace — "$149/mo" (Paid Yearly) / "$199/month" (Paid
+Monthly). "Up to 150 members." Features: Member Mobile app, Unlimited
+Room & Equipment Booking, Event Management, Front Desk Tablet App,
+Meeting Room Tablet App, Check-ins, Announcements (SMS & Push), Lead
+Capture Forms, Occupancy, Resources, Analytics, Free Training,
+Dedicated Q&A Sessions. Add-ons: White Labeling, Multiple Campuses.
+
+Coworking Premium (marked "Most popular") — "$249/mo" (Paid Yearly) /
+"$299/month" (Paid Monthly). "Everything in Essentials, PLUS... Up to
+250 members, Automated Billing, Guest External Bookings, Day Passes,
+Membership Signup Forms."
+
+Enterprise — "Custom." Fully quote-gated, not recorded.
+
+Headline: "Your coworking community will grow. Your bill won't."
+"Training and onboarding for your community managers — included."

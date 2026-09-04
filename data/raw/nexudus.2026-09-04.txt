@@ -1,0 +1,15 @@
+source: https://nexudus.com/coworking-pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+"$150 per month/per location." An "Active users per location" slider
+is present (default position shows a range of roughly 0-100, with the
+number "25" adjacent), but the actual step schedule this slider drives
+(how the price changes as active-user count rises) is not present as
+static page text — it is computed client-side. "Coworking growth:
+500+ active users? Contact our team for more details." Features
+included: access to all core features, all free integrations,
+learning portal, Members' App.
+
+No confirmed per-tier breakpoint beyond the $150 starting figure was
+captured in this fetch.

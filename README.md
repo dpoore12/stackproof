@@ -988,6 +988,28 @@ quote-gated with no self-serve pricing published; not recorded.
 
 Database is now 202 tools across 47 categories.
 
+### Coworking space management software (2026-09-04)
+
+Three vendors: OfficeRnD Flex, Coworks, Nexudus. Seat axis is
+"members" (10, 25, 50, 100, 250).
+
+OfficeRnD Flex and Coworks both publish clean, real tiers with
+explicit member caps directly on their own pages — OfficeRnD's Start
+"Includes 100 members" and Grow "Includes 200 members," Coworks'
+Hybrid Workspace "Up to 150 members" and Coworking Premium "Up to 250
+members" — recorded as `max_seats`; both vendors list an "additional
+members" upgrade path with no stated per-member rate, so cost beyond
+the cap is left unknown rather than guessed. Nexudus, by contrast,
+states only a "$150 per month/per location" starting figure — an
+"Active users per location" slider drives the real formula but its
+breakpoints are computed client-side and never appear as static page
+text — so it's recorded `compare: false` as a single starting figure,
+the same treatment given to Nexudus's competitor Cobot, which was
+researched but not recorded (its own per-member step table sits
+entirely behind an interactive slider with no fallback text either).
+
+Database is now 205 tools across 48 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

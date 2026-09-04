@@ -1,0 +1,22 @@
+source: https://www.officernd.com/pricing/flex/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+"Billed monthly / Billed annually — Save up to 11%" toggle.
+
+Start — "from $185 $165/mo. For newly opened flexible workspaces.
+Includes 100 members, 1 location." Key features: meeting room
+bookings, contracts and memberships, automated billing & payments,
+visual floorplan management, Data Hub, Growth Hub, all free
+integrations. Available add-ons include "Additional members."
+
+Grow (marked "Most popular") — "from $289 $259/mo. For growing
+flexible workspaces. Includes 200 members, 2 locations." Everything in
+Start plus multi-location management, premium payment integrations.
+
+Scale — "Custom pricing. For established flexible workspaces with
+multiple locations." Fully quote-gated, not recorded.
+
+A promotional badge elsewhere on the page reads "Hurry up! Grab the
+offer today... $149/mo" — a limited-time offer, not the standing
+price, so not used as the recorded figure.

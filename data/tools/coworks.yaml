@@ -1,0 +1,61 @@
+slug: coworks
+vendor: Coworks
+product: Coworks
+category: coworking_space_management
+url: https://www.coworks.com/pricing
+pricing_note: 'Coworks explicitly markets flat, member-count-independent billing within a stated cap: "Your coworking community will grow. Your bill won''t." Each tier states an explicit member cap ("Up to 150 members" / "Up to 250 members"), recorded as `max_seats`. Enterprise is fully quote-gated and not recorded.'
+
+tiers:
+  - plan: Hybrid Workspace
+    base_monthly_usd: 149
+    max_seats: 150
+    seat_label: member
+    billing: annual
+    provenance:
+      source_url: https://www.coworks.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$149/mo" (Paid Yearly toggle). "Up to 150 members." Features: Member Mobile app, Unlimited Room & Equipment Booking, Event Management, Front Desk Tablet App, Check-ins, Analytics.'
+  - plan: Hybrid Workspace (monthly billing)
+    compare: false
+    base_monthly_usd: 199
+    max_seats: 150
+    seat_label: member
+    billing: monthly
+    provenance:
+      source_url: https://www.coworks.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$199/month" (Paid Monthly toggle) for the Hybrid Workspace plan.'
+  - plan: Coworking Premium
+    base_monthly_usd: 249
+    max_seats: 250
+    seat_label: member
+    billing: annual
+    provenance:
+      source_url: https://www.coworks.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Marked "Most popular." "$249/mo" (Paid Yearly toggle). "Everything in Essentials, PLUS... Up to 250 members, Automated Billing, Guest External Bookings, Day Passes, Membership Signup Forms."'
+  - plan: Coworking Premium (monthly billing)
+    compare: false
+    base_monthly_usd: 299
+    max_seats: 250
+    seat_label: member
+    billing: monthly
+    provenance:
+      source_url: https://www.coworks.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$299/month" (Paid Monthly toggle) for the Coworking Premium plan.'
+
+findings:
+  - id: coworks-training-included
+    claim: >-
+      Coworks states "Training and onboarding for your community
+      managers — included" on every plan, per its own pricing page
+      (2026-09-04).
+    provenance:
+      source_url: https://www.coworks.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -1349,6 +1349,54 @@
    ],
    "vendor": "CosmoLex"
   },
+  "coworks": {
+   "category": "coworking_space_management",
+   "fees": [],
+   "product": "Coworks",
+   "tiers": [
+    {
+     "base_monthly_usd": 149.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 150,
+     "per_seat_monthly_usd": null,
+     "plan": "Hybrid Workspace",
+     "source_url": "https://www.coworks.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 199.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 150,
+     "per_seat_monthly_usd": null,
+     "plan": "Hybrid Workspace (monthly billing)",
+     "source_url": "https://www.coworks.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 249.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 250,
+     "per_seat_monthly_usd": null,
+     "plan": "Coworking Premium",
+     "source_url": "https://www.coworks.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 299.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 250,
+     "per_seat_monthly_usd": null,
+     "plan": "Coworking Premium (monthly billing)",
+     "source_url": "https://www.coworks.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Coworks"
+  },
   "crisp": {
    "category": "live_chat",
    "fees": [
@@ -5202,6 +5250,24 @@
    "tiers": [],
    "vendor": "Nextiva"
   },
+  "nexudus": {
+   "category": "coworking_space_management",
+   "fees": [],
+   "product": "Nexudus",
+   "tiers": [
+    {
+     "base_monthly_usd": 150.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Coworking Professional",
+     "source_url": "https://nexudus.com/coworking-pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Nexudus"
+  },
   "nordlayer": {
    "category": "business_vpn",
    "fees": [
@@ -5384,6 +5450,54 @@
     }
    ],
    "vendor": "Nuclino"
+  },
+  "officernd-flex": {
+   "category": "coworking_space_management",
+   "fees": [],
+   "product": "OfficeRnD Flex",
+   "tiers": [
+    {
+     "base_monthly_usd": 165.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 100,
+     "per_seat_monthly_usd": null,
+     "plan": "Start",
+     "source_url": "https://www.officernd.com/pricing/flex/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 185.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 100,
+     "per_seat_monthly_usd": null,
+     "plan": "Start (monthly billing)",
+     "source_url": "https://www.officernd.com/pricing/flex/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 259.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 200,
+     "per_seat_monthly_usd": null,
+     "plan": "Grow",
+     "source_url": "https://www.officernd.com/pricing/flex/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 289.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 200,
+     "per_seat_monthly_usd": null,
+     "plan": "Grow (monthly billing)",
+     "source_url": "https://www.officernd.com/pricing/flex/",
+     "steps": null
+    }
+   ],
+   "vendor": "OfficeRnD"
   },
   "okta-workforce": {
    "category": "identity_sso",
