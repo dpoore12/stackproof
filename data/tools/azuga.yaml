@@ -1,0 +1,61 @@
+slug: azuga
+vendor: Azuga
+product: Azuga Fleet
+category: fleet_management
+url: https://azuga.com/pricing
+pricing_note: 'Azuga states no monthly/annual distinction -- a single "per vehicle per month" price is shown for each tier -- so all three tiers are recorded as billing: monthly.'
+
+tiers:
+  - plan: BasicFleet
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 25
+    included_seats: 0
+    seat_label: vehicle
+    billing: monthly
+    provenance:
+      source_url: https://azuga.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$25 Per Vehicle Per Month." GPS tracking, alerts, driver scores/rewards, reports, geofence, vehicle diagnostics, scheduled maintenance.'
+  - plan: SafeFleet
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 30
+    included_seats: 0
+    seat_label: vehicle
+    billing: monthly
+    provenance:
+      source_url: https://azuga.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$30 Per Vehicle Per Month." Marked "MOST POPULAR." Adds trip tags, fuel card/API integration, occupant recognition, messaging, FuelSaver, SpeedSafe, distracted driving monitoring, panic alert over BasicFleet.'
+  - plan: CompleteFleet
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 35
+    included_seats: 0
+    seat_label: vehicle
+    billing: monthly
+    provenance:
+      source_url: https://azuga.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$35 Per Vehicle Per Month." Adds Azuga Coach driver training, 30-second high-frequency tracking, custom reports, quarterly fleet review, electric vehicle data, dedicated Customer Success Manager over SafeFleet.'
+
+findings:
+  - id: azuga-safetycam-addon
+    claim: >-
+      Azuga offers an optional dual-facing AI SafetyCam dashcam add-on,
+      priced identically across all three tiers at "$41.99 per month"
+      (2026-09-04).
+    provenance:
+      source_url: https://azuga.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: azuga-tracking-frequency-by-tier
+    claim: >-
+      Azuga's location update frequency scales by tier: every 2 minutes
+      on BasicFleet, every 1 minute on SafeFleet, and every 30 seconds on
+      CompleteFleet (2026-09-04).
+    provenance:
+      source_url: https://azuga.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

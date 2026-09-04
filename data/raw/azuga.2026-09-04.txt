@@ -1,0 +1,9 @@
+URL: https://azuga.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 17:45:54 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText directly.
+
+Three tiers, each "Per Vehicle Per Month," no monthly/annual distinction stated (single price shown): BasicFleet $25 ("core vehicle tracking features plus driver scoring and rewards" -- GPS tracking, alerts, driver scores/rewards, reports, geofence, vehicle diagnostics, scheduled maintenance). SafeFleet $30 (marked "MOST POPULAR" -- adds trip tags, fuel card integration, API integration, occupant recognition, messaging, FuelSaver, SpeedSafe, distracted driving monitoring, panic alert). CompleteFleet $35 (adds Azuga Coach training, high-frequency 30-second tracking, custom reports, quarterly fleet review, electric vehicle data, dedicated Customer Success Manager).
+Optional add-on, identical price quoted under all three tiers: "Add SafetyCam AI - $41.99 per month" (dual-facing AI dashcam with collision reconstruction).
+Location update frequency scales by tier: every 2 minutes (BasicFleet), every 1 minute (SafeFleet), every 30 seconds (CompleteFleet).
+"By Size: Small Business -- Solutions for less than 100 vehicles. Enterprise -- Solutions for fleets of 100 vehicles or more" -- both link to "Contact Sales," suggesting large fleets negotiate custom pricing, but the three listed self-serve tiers carry no stated vehicle-count cap.

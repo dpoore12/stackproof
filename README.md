@@ -567,6 +567,35 @@ only as findings, not tiers.
 
 Database is now 156 tools across 33 categories.
 
+### Fleet management / GPS vehicle tracking (2026-09-04)
+
+Three vendors: Azuga, Fleetio, Linxup — GPS tracking, driver safety, and
+maintenance software for company vehicle fleets. Seat axis is "vehicles
+tracked" (1, 5, 10, 25, 50). Motive (a four-step lead-capture form with
+no price anywhere), Zonar/GPS Trackit (gpstrackit.com now redirects to
+a Zonar "get pricing" lead form), ClearPathGPS ("Contact us for
+Pricing" on every tier), RhinoFleetTracking (403 on fetch), and
+TrackYourTruck (404) were all dropped — GPS fleet tracking skews
+heavily quote-gated compared to earlier categories.
+
+Fleetio is the cleanest record: three tiers with an explicit per-vehicle
+monthly rate, though its own disclaimer states the headline number
+"assume[s] a fleet with 5 assets" — rates for other fleet-size bands
+aren't published, so the recorded figure is the vendor's own 5-vehicle
+benchmark rather than a universal flat rate. Linxup sells separate
+product lines rather than tiers of one plan; only its base "Vehicle
+Tracking" line prices this category's per-vehicle axis, so ELD, AI dash
+cam, and rear-view-camera lines are recorded as non-standalone add-ons
+and its asset tracker (priced per "tracker," not per vehicle) is marked
+`compare: false`. Azuga's three tiers show no monthly/annual split at
+all — a single "per vehicle per month" figure — so all three are
+recorded as `billing: monthly`.
+
+Database is now 162 tools across 34 categories. (This total, and the
+one before it, correct a pre-existing drift between the file count and
+this running tally — the previous entries undercounted; 162 is the
+verified count of `data/tools/*.yaml`.)
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

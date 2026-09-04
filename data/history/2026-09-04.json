@@ -393,6 +393,44 @@
    ],
    "vendor": "Atlassian"
   },
+  "azuga": {
+   "category": "fleet_management",
+   "fees": [],
+   "product": "Azuga Fleet",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 25.0,
+     "plan": "BasicFleet",
+     "source_url": "https://azuga.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 30.0,
+     "plan": "SafeFleet",
+     "source_url": "https://azuga.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 35.0,
+     "plan": "CompleteFleet",
+     "source_url": "https://azuga.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Azuga"
+  },
   "basecamp": {
    "category": "project_management",
    "fees": [],
@@ -1829,6 +1867,64 @@
     }
    ],
    "vendor": "Fillout"
+  },
+  "fleetio": {
+   "category": "fleet_management",
+   "fees": [],
+   "product": "Fleetio",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 4.0,
+     "plan": "Essential",
+     "source_url": "https://www.fleetio.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 5.0,
+     "plan": "Essential (monthly billing)",
+     "source_url": "https://www.fleetio.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 7.0,
+     "plan": "Professional",
+     "source_url": "https://www.fleetio.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 10.0,
+     "plan": "Premium",
+     "source_url": "https://www.fleetio.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.5,
+     "plan": "Tools Add-on",
+     "source_url": "https://www.fleetio.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Fleetio"
   },
   "formstack": {
    "category": "forms",
@@ -3457,6 +3553,64 @@
     }
    ],
    "vendor": "LearnWorlds"
+  },
+  "linxup": {
+   "category": "fleet_management",
+   "fees": [],
+   "product": "Linxup Fleet Tracking",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 25.0,
+     "plan": "Vehicle Tracking",
+     "source_url": "https://www.linxup.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 15.0,
+     "plan": "Asset Tracking",
+     "source_url": "https://www.linxup.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 30.0,
+     "plan": "ELD (add-on)",
+     "source_url": "https://www.linxup.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 40.0,
+     "plan": "AI Dash Cams (add-on)",
+     "source_url": "https://www.linxup.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 15.0,
+     "plan": "Rear View Cams (add-on)",
+     "source_url": "https://www.linxup.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Linxup"
   },
   "livechat": {
    "category": "live_chat",

@@ -1,0 +1,78 @@
+slug: linxup
+vendor: Linxup
+product: Linxup Fleet Tracking
+category: fleet_management
+url: https://www.linxup.com/pricing
+pricing_note: 'Linxup sells separate product lines rather than tiers of one plan; a "No Contract / 2-year Contract / 3-year Contract" toggle defaults to "No Contract," the only price captured statically. Only the Vehicles tracking line prices this category''s "vehicle" axis -- ELD, AI Dash Cams, and Rear View Cams are add-ons priced on top of a vehicle tracker, and Asset tracking prices a different unit (equipment, not vehicles), so those four are recorded as standalone: false / compare: false rather than as a second comparable tier.'
+
+tiers:
+  - plan: Vehicle Tracking
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 25
+    included_seats: 0
+    seat_label: vehicle
+    billing: monthly
+    provenance:
+      source_url: https://www.linxup.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$25/Vehicle," "$0 One-time hardware cost," No Contract. Real-time GPS tracking, driver alerts, theft recovery, geofencing, maintenance tracking, unsafe driving monitors, proof-of-service.'
+  - plan: Asset Tracking
+    standalone: true
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 15
+    seat_label: tracker
+    billing: monthly
+    provenance:
+      source_url: https://www.linxup.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$15/Tracker" for the Standard Asset Tracker, No Contract. Prices equipment/tools, not vehicles -- a different unit from this category''s comparison axis.'
+  - plan: ELD (add-on)
+    standalone: false
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 30
+    seat_label: vehicle
+    billing: monthly
+    provenance:
+      source_url: https://www.linxup.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$30/Vehicle" for the Standard ELD Package, No Contract. Electronic logging device for hours-of-service compliance.'
+  - plan: AI Dash Cams (add-on)
+    standalone: false
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 40
+    seat_label: vehicle
+    billing: monthly
+    provenance:
+      source_url: https://www.linxup.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$40/Vehicle," No Contract. "Requires GPS Device" -- an add-on to the base Vehicle Tracking plan, not a standalone product.'
+  - plan: Rear View Cams (add-on)
+    standalone: false
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 15
+    seat_label: camera
+    billing: monthly
+    provenance:
+      source_url: https://www.linxup.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$15/Camera" for Linxup Rear Vision, No Contract. "Requires LinxCam" -- priced per camera, not per vehicle.'
+
+findings:
+  - id: linxup-no-activation-fee
+    claim: >-
+      Linxup advertises "Free shipping. No-contract options. No
+      activation fee. Lifetime hardware guarantee" across all of its
+      product lines (2026-09-04).
+    provenance:
+      source_url: https://www.linxup.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
