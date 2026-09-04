@@ -1,0 +1,49 @@
+slug: theranest
+vendor: Ensora Health
+product: TheraNest
+category: mental_health_therapy_practice_management
+url: https://ensorahealth.com/pricing/theranest-mental-health/
+pricing_note: 'TheraNest is now sold by Ensora Health; this fetch used Ensora''s own TheraNest pricing page (the standalone theranest.com marketing site redirects into it). All three tiers are genuinely per-therapist, linear rates with no separate base fee. A "Monthly / Yearly" billing toggle is present on the page; which state is selected by default was not confirmed from static text, so billing is recorded as monthly with that caveat.'
+
+tiers:
+  - plan: Essentials
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 29
+    included_seats: 0
+    seat_label: therapist
+    provenance:
+      source_url: https://ensorahealth.com/pricing/theranest-mental-health/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Essentials — $29 therapist/mo. Perfect for solo therapists just starting out."'
+  - plan: Advanced
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 59
+    included_seats: 0
+    seat_label: therapist
+    provenance:
+      source_url: https://ensorahealth.com/pricing/theranest-mental-health/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Advanced — $59 therapist/mo. Ideal for practices ready for more automation."'
+  - plan: Premier
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 89
+    included_seats: 0
+    seat_label: therapist
+    provenance:
+      source_url: https://ensorahealth.com/pricing/theranest-mental-health/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Premier — $89 therapist/mo. A complete solution for established practices."'
+
+findings:
+  - id: theranest-advanced-monthly-credits
+    claim: >-
+      TheraNest's Advanced plan includes 50 free claims processing,
+      eligibility checks, and text/phone reminders each per practice
+      per month, per its own pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://ensorahealth.com/pricing/theranest-mental-health/
+      fetched_at: 2026-09-04
+      method: live_fetch

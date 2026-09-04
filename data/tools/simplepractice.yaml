@@ -1,0 +1,48 @@
+slug: simplepractice
+vendor: SimplePractice
+product: SimplePractice
+category: mental_health_therapy_practice_management
+url: https://www.simplepractice.com/pricing/
+pricing_note: 'The page''s headline prices are a time-limited "50% off 3 months" promotion; the standing (pre-discount) prices below are recovered from the page''s own struck-through reference prices and embedded plan data, per this site''s policy against publishing promotional prices as the standing rate. All three tiers appear to be solo-practitioner plans with no stated multi-clinician capacity in static text, so each is capped at 1 clinician; a $173/mo figure tied to group-practice content is recorded only as a Finding, not a modeled tier, because its exact per-clinician structure was not confirmed.'
+
+tiers:
+  - plan: Starter
+    base_monthly_usd: 49
+    max_seats: 1
+    seat_label: clinician
+    provenance:
+      source_url: https://www.simplepractice.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Standing price recovered from the page''s reference-price heading set ($49) alongside the 50%-off promotional headline price ($24.50).'
+  - plan: Essential
+    base_monthly_usd: 79
+    max_seats: 1
+    seat_label: clinician
+    provenance:
+      source_url: https://www.simplepractice.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Confirmed via embedded plan data: promotional "price":"39.50" paired with "strikethroughPrice":"79" — the standing rate.'
+  - plan: Plus
+    base_monthly_usd: 99
+    max_seats: 1
+    seat_label: clinician
+    provenance:
+      source_url: https://www.simplepractice.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Standing price recovered from the page''s reference-price heading set ($99) alongside the 50%-off promotional headline price ($49.50).'
+
+findings:
+  - id: simplepractice-group-plus-173
+    claim: >-
+      SimplePractice's pricing page shows a $173 figure tied to
+      group-practice content for its Plus plan, per its own pricing
+      page as of 2026-09-04, but the exact per-clinician formula this
+      represents (a flat per-seat group rate vs. a per-additional-seat
+      charge) was not confirmed from static text.
+    provenance:
+      source_url: https://www.simplepractice.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

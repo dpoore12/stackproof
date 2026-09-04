@@ -1,0 +1,38 @@
+source: https://www.simplepractice.com/pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+Page title: "SimplePractice EHR Pricing and Plans." h1 banner: "Start
+for free, then get 50% off 3 months" — the page's own headline prices
+are a time-limited promotional rate, not the standing price.
+
+h4 plan names: Starter, Essential, Plus (appears three times — a solo
+Plus card and at least one group-practice Plus variant).
+
+Standing (non-promotional, pre-discount) monthly prices, recovered from
+the page's own struck-through/reference price elements (h5 heading
+array ["$49","$79","$99","1","$173"]) and cross-confirmed for Essential
+via the page's embedded plan data ("price":"39<sup>50</sup>" i.e. the
+promotional $39.50, "strikethroughPrice":"79" i.e. the standing $79 —
+exactly the pattern "half off" the promo banner describes):
+  Starter: $49/month
+  Essential: $79/month
+  Plus: $99/month
+(The promotional 50%-off prices shown as the page's headline figures —
+$24.50 / $39.50 / $49.50 — are NOT used as the recorded price, per this
+site's policy against publishing promotional prices as the standing
+rate.)
+
+A fourth figure, $173, appears in the same h5 heading set alongside a
+"Custom pricing" h3 label and group-practice content ("Reimagine the
+way you manage your group practice"). An embedded tooltip elsewhere on
+the page states "Group practices pay per clinician for add-ons,
+allowing you to choose how many seats you want for your practice" —
+but that tooltip is attached to an individual add-on feature (e.g.
+ePrescribe), not confirmed to describe the base Plus-plan group rate
+itself. Given that ambiguity, $173 is recorded only as a Finding, not
+as a modeled tier.
+
+All three tiers (Starter/Essential/Plus) appear to be solo-practitioner
+plans; no explicit multi-clinician capacity was found in static text
+for any of them, so each is recorded capped at 1 clinician.

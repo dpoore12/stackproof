@@ -1075,6 +1075,39 @@ past this site's abandonment threshold, so no category was shipped.
 
 Database is now 211 tools across 50 categories.
 
+### Mental health / therapy practice management software (2026-09-04)
+
+Three vendors: SimplePractice, TherapyNotes, TheraNest (now sold by
+Ensora Health). Seat axis is "clinicians" (1, 3, 5, 10, 25).
+
+TherapyNotes has the cleanest formula: Solo is flat and capped at one
+user ($69/mo), Group is a genuine base+per-seat formula ("$79/month for
+the first clinician, $50/mo per additional clinician, free non-clinical
+staff"); Enterprise (20+ users) uses the identical formula and only adds
+an account manager, so it isn't modeled as a separate tier. TheraNest is
+purely per-seat with no base fee across all three tiers (Essentials $29,
+Advanced $59, Premier $89, each "/therapist/mo"). SimplePractice's
+headline prices are a time-limited "50% off 3 months" promotion; the
+standing prices ($49/$79/$99) were recovered from the page's own
+struck-through reference prices instead, per this site's policy against
+publishing promotional prices as the standing rate — but all three
+tiers are solo-practitioner plans capped at one clinician, so
+SimplePractice has no priced tier beyond a single seat in this table. A
+$173/mo figure tied to its group-practice content was recorded only as
+a Finding, since its exact per-clinician formula wasn't confirmed.
+
+Before landing on this category, pest control business management
+software was researched and abandoned: Fieldwork and Briostack's
+pricing pages are unreachable (404/403), PestPac and FieldRoutes are
+enterprise quote-based (commonly $125-200+ per user per month per
+public reporting), and GorillaDesk — while self-serve priced — turned
+out to be a generic multi-industry field-service tool (pest control,
+lawn care, cleaning, contracting all served by the same product), which
+would duplicate the site's existing `field_service_management` category
+rather than add a genuinely distinct one.
+
+Database is now 214 tools across 51 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
