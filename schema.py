@@ -253,6 +253,7 @@ CATEGORY_SEAT_POINTS: dict[str, tuple[int, ...]] = {
     "social_scheduling": (1, 2, 5, 10, 25),
     "recruiting": (10, 25, 50, 100, 250),
     "wiki": (1, 3, 5, 10, 25),
+    "productivity_suite": (1, 5, 10, 25, 50),
 }
 
 

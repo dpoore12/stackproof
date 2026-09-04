@@ -1,0 +1,174 @@
+slug: microsoft-365
+vendor: Microsoft
+product: Microsoft 365 for business
+category: productivity_suite
+url: https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing
+free_trial: "Free trial offered on each business plan; trial terms are linked, not stated (2026-09-04)."
+pricing_note: "Per-user pricing with no base fee; the page prints only the annual-commitment rate paid yearly. Standard and Premium are now bundled 'with Copilot' since the July 1, 2026 repackaging; 'no Teams' variants are cheaper and shown as separate tiers. Business plans are capped at 300 users."
+
+tiers:
+  - plan: Business Basic
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 7
+    max_seats: 300
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered en-us page. "Microsoft 365 Business Basic … $7.00 user/month, paid yearly (Annual subscription–auto renews)". Web and mobile apps only, Teams, 1 TB per user, up to 300 users.'
+  - plan: Business Basic (no Teams)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 5.4
+    max_seats: 300
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Microsoft 365 Business Basic (no Teams) … $5.40 user/month, paid yearly".'
+  - plan: Business Standard with Copilot
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 23.5
+    max_seats: 300
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Microsoft 365 Business Standard with Copilot … $23.50 user/month, paid yearly (Annual subscription—auto renews)". Desktop apps, Copilot in apps.'
+  - plan: Business Standard with Copilot (no Teams)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 20.3
+    max_seats: 300
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Microsoft 365 Business Standard with Copilot (no Teams) … $20.30 user/month, paid yearly".'
+  - plan: Business Premium with Copilot
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 32
+    max_seats: 300
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Microsoft 365 Business Premium with Copilot … $32.00 user/month, paid yearly". Marked Recommended. Entra ID, Intune, Defender, Purview.'
+  - plan: Business Premium with Copilot (no Teams)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 28.8
+    max_seats: 300
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Microsoft 365 Business Premium with Copilot (no Teams) … $28.80 user/month, paid yearly".'
+  - plan: Apps for business
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 10
+    max_seats: 300
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Microsoft 365 Apps for business — Popular desktop apps, excluding chat or calling — $10.00 user/month, paid yearly". No business email, so not compared as a mailbox suite.'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Microsoft 365 lets monthly-commitment subscriptions cancel any time
+      without penalty, may penalise early cancellation of annual commitments
+      paid monthly, and gives no refund on annual commitments paid upfront
+      (2026-09-04).
+    quote: "Annual commitment subscriptions that are paid upfront do not receive a refund if canceled prior to the full contract period."
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_retention
+    status: stated
+    finding: >-
+      Microsoft keeps a cancelled subscription's data available to admins
+      in a limited-function account for 90 days after cancellation
+      (2026-09-04).
+    quote: "After you cancel your subscription, data associated with your Microsoft 365 account will be available to your administrator(s) in a limited function account for 90 days."
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: stated
+    finding: >-
+      Microsoft says customers own their data and can download email and
+      team-site documents before cancelling (2026-09-04).
+    quote: "Your data is yours. If you decide to cancel your Microsoft 365 subscription, you can download your data—for example, email and documents on team sites—and save it to another location."
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: auto_renew
+    status: stated
+    finding: >-
+      Every Microsoft 365 business price on the page is an annual
+      subscription that auto-renews, with 3 commitment and payment
+      combinations available (2026-09-04).
+    quote: "Annual subscription—auto renews"
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: microsoft-365-copilot-bundled-standard-premium
+    claim: >-
+      As of 2026-09-04 Microsoft's business page sells Business Standard
+      and Business Premium only as "with Copilot" SKUs at $23.50 and $32
+      per user a month on annual commitment, with the July 1, 2026
+      repackaging referenced in its FAQ.
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: microsoft-365-no-teams-discount
+    claim: >-
+      Microsoft's "no Teams" variants cost $1.60 to $3.20 less per user a
+      month: Basic $5.40 vs $7, Standard with Copilot $20.30 vs $23.50,
+      Premium with Copilot $28.80 vs $32 (2026-09-04).
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: microsoft-365-upfront-no-refund
+    claim: >-
+      Microsoft 365 annual commitments paid upfront get no refund on early
+      cancellation, while monthly-commitment plans cancel penalty-free and
+      data stays accessible for 90 days after cancelling (2026-09-04).
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: microsoft-365-300-user-cap
+    claim: >-
+      Microsoft 365 business plans support up to 300 users each and
+      include 1 TB of cloud storage per user on every plan (2026-09-04).
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

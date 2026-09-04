@@ -1,0 +1,127 @@
+slug: google-workspace
+vendor: Google
+product: Google Workspace
+category: productivity_suite
+url: https://workspace.google.com/pricing
+free_trial: "14-day free trial (stated 2026-09-04)."
+pricing_note: "Per-user pricing with no base fee on a 1-year commitment, billed monthly; the flexible month-to-month prices did not render. A 20% (Plus: 50%) introductory discount for the first 3 months applies to new customers for the first 20 users and is recorded as a promo, with the standard price as the tier. Business plans are capped at 300 users."
+
+tiers:
+  - plan: Business Starter
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 7
+    max_seats: 300
+    seat_label: user
+    billing: annual
+    promo: "20% off for the first 3 months (Sep 17 to Dec 17, 2026) for new customers, first 20 users: $5.60."
+    provenance:
+      source_url: https://workspace.google.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch on a US gateway, "Annual (Save 16% with 1 year commitment)" active. "Starter … $5.60 $7** / user per month"; price details "Dec 17, 2026 - Onwards … $7.00 … Price is per user/month and does not include tax". 30 GB pooled storage per user.'
+  - plan: Business Standard
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 14
+    max_seats: 300
+    seat_label: user
+    billing: annual
+    promo: "20% off for the first 3 months for new customers, first 20 users: $11.20."
+    provenance:
+      source_url: https://workspace.google.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Standard … $11.20 $14** / user per month"; "Dec 17, 2026 - Onwards … $14.00". 2 TB pooled storage per user; marked most popular in the compare table.'
+  - plan: Business Plus
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 22
+    max_seats: 300
+    seat_label: user
+    billing: annual
+    promo: "50% off for the first 3 months for new customers, first 20 users: $11."
+    provenance:
+      source_url: https://workspace.google.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Plus … $11 $22** / user per month"; "Dec 17, 2026 - Onwards … $22.00". 5 TB pooled storage, Vault, eDiscovery.'
+
+clauses:
+  - topic: price_change
+    status: stated
+    finding: >-
+      Google Workspace's introductory discount covers only the first 20 users
+      for 12 months on the annual plan, after which standard pricing applies
+      to all users (2026-09-04).
+    quote: "This introductory price is only available for the first 20 users added, for 12 months. Standard pricing will apply to all users after 12 months."
+    provenance:
+      source_url: https://workspace.google.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: auto_renew
+    status: stated
+    finding: >-
+      Google Workspace's discounted annual plans carry a 1-year commitment
+      billed monthly, with the discount period dated Sep 17 to Dec 17,
+      2026 on the page (2026-09-04).
+    quote: "Annual (Save 16% with 1 year commitment) … All plans billed monthly"
+    provenance:
+      source_url: https://workspace.google.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: needs_account
+    finding: >-
+      Google Workspace's pricing FAQ questions on payment plans are
+      collapsed and their answers were not captured; no cancellation terms
+      appear in the rendered text (2026-09-04).
+    provenance:
+      source_url: https://workspace.google.com/pricing
+      fetched_at: 2026-09-04
+      method: not_available
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Google Workspace's pricing page states no data-export terms; the
+      Workspace Migrate tool for inbound migration is included from Standard
+      (2026-09-04).
+    provenance:
+      source_url: https://workspace.google.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: google-workspace-intro-discount-limits
+    claim: >-
+      Google Workspace's headline $5.60, $11.20 and $11 prices on 2026-09-04
+      are 3-month introductory rates for new customers on the first 20
+      users; the standing annual-commitment prices are $7, $14 and $22 per
+      user a month.
+    provenance:
+      source_url: https://workspace.google.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: google-workspace-300-user-cap
+    claim: >-
+      Google Workspace's Starter, Standard and Plus plans can be bought for
+      at most 300 users; Enterprise has no minimum or maximum (2026-09-04).
+    provenance:
+      source_url: https://workspace.google.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: google-workspace-pooled-storage
+    claim: >-
+      Google Workspace pools storage across the organization at 30 GB per
+      user on Starter, 2 TB on Standard and 5 TB on Plus and Enterprise
+      (2026-09-04).
+    provenance:
+      source_url: https://workspace.google.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: google-workspace-geo-currency
+    claim: >-
+      Google Workspace showed €6.80, €13.60 and €21.10 on a German gateway
+      and $7, $14 and $22 on a US gateway for the same 3 plans on
+      2026-09-04, each with the same dated introductory discount.
+    provenance:
+      source_url: https://workspace.google.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

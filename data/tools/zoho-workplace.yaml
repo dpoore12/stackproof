@@ -1,0 +1,186 @@
+slug: zoho-workplace
+vendor: Zoho
+product: Zoho Workplace
+category: productivity_suite
+url: https://www.zoho.com/workplace/pricing.html
+free_trial: "Free trial on every plan, plus a Free Mail plan for up to 5 users (stated 2026-09-04)."
+pricing_note: "Per-user pricing with no base fee; every user on a paid plan is billed. Workplace Standard and Professional print annual and monthly rates; Mail Lite and Mail Premium are annual-only. Prices localize by region (the German gateway was redirected to a EUR page). Local taxes are charged on top."
+
+tiers:
+  - plan: Free Mail
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 5
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.zoho.com/workplace/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'FAQ: "The Free plan includes up to 5 users at no cost".'
+  - plan: Mail Lite (5 GB)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 1
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.zoho.com/workplace/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered English page on a US gateway, USD selected. "Mail Lite US$1 (5 GB) … /user/month billed annually — No monthly plan". Email only, no office suite, so not compared as a full suite.'
+  - plan: Mail Premium
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 4
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.zoho.com/workplace/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Mail Premium US$4/user/month billed annually — No monthly plan". 50 GB mail + 50 GB retention per user. Email only.'
+  - plan: Workplace Standard
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 3
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.zoho.com/workplace/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Workplace Standard US$3/user/month billed annually US$4/user/month". Marked BEST VALUE. 30 GB mail per user, 100 GB team file storage, Writer/Sheet/Show, Cliq, Meeting.'
+  - plan: Workplace Standard (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 4
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.zoho.com/workplace/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"US$4/user/month" monthly rate on the Standard card.'
+  - plan: Workplace Professional
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 6
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.zoho.com/workplace/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Workplace Professional US$6/user/month billed annually US$7/user/month". 100 GB mail + 100 GB retention per user, 1 TB team file storage, eProtect, Connect.'
+  - plan: Workplace Professional (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 7
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.zoho.com/workplace/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"US$7/user/month" monthly rate on the Professional card.'
+
+fees:
+  - name: Mail storage add-on
+    amount_usd: 1
+    unit: per 10 GB per year
+    applies_to: Paid plans
+    provenance:
+      source_url: https://www.zoho.com/workplace/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Zoho Mail Storage Add-on … 10GB US$1/year for 10GB".'
+  - name: WorkDrive storage add-on
+    amount_usd: 144
+    unit: per 100 GB per year ($100 per 1 TB per year as printed)
+    applies_to: Workplace plans
+    provenance:
+      source_url: https://www.zoho.com/workplace/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Zoho WorkDrive Storage Add-on … 100GB US$144 … 1TB US$100" per year as printed on the page.'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Zoho Workplace is pay-as-you-go with no long-term contract and can be
+      upgraded, downgraded or cancelled at any time from the account
+      (2026-09-04).
+    quote: "Zoho Workplace is a pay-as-you-go service (monthly or yearly). This means there are no long-term contracts."
+    provenance:
+      source_url: https://www.zoho.com/workplace/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: needs_account
+    finding: >-
+      Zoho Workplace's pricing page links to a separate refund policy
+      without stating its terms (2026-09-04).
+    provenance:
+      source_url: https://www.zoho.com/workplace/pricing.html
+      fetched_at: 2026-09-04
+      method: not_available
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Zoho charges local taxes on top of the listed prices and gives an
+      approximate 20% discount for annual billing that may vary by region
+      (2026-09-04).
+    quote: "Local taxes (VAT, GST, etc.) will be charged in addition to the prices mentioned."
+    provenance:
+      source_url: https://www.zoho.com/workplace/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Zoho Workplace's pricing page states no data-export terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.zoho.com/workplace/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: zoho-workplace-no-free-seats-on-paid
+    claim: >-
+      Zoho Workplace bills every user on a paid plan; the 5 free users apply
+      only to the Free Mail plan, so 5 users on Mail Premium cost 5 × $4 a
+      month (2026-09-04).
+    provenance:
+      source_url: https://www.zoho.com/workplace/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: zoho-workplace-storage-add-on-anomaly
+    claim: >-
+      Zoho Workplace's WorkDrive storage add-on is printed at $144 a year
+      for 100 GB but $100 a year for 1 TB, so 10 times the storage costs
+      less (2026-09-04).
+    provenance:
+      source_url: https://www.zoho.com/workplace/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: zoho-workplace-team-storage-rule
+    claim: >-
+      Zoho Workplace Standard pools 100 GB of file storage for teams of 3 to
+      10 users, adds 10 GB per user above 10, and gives 10 GB per user to
+      teams under 3; Professional uses 1 TB and 100 GB on the same rule
+      (2026-09-04).
+    provenance:
+      source_url: https://www.zoho.com/workplace/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: zoho-workplace-geo-redirect
+    claim: >-
+      On 2026-09-04 a German gateway was redirected to zoho.com/de with EUR
+      prices (€2.70 Standard, €5.40 Professional annual) while a US gateway
+      got the English page in USD ($3 and $6).
+    provenance:
+      source_url: https://www.zoho.com/workplace/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
