@@ -1,0 +1,112 @@
+slug: cloudflare-zero-trust
+vendor: Cloudflare
+product: Cloudflare Zero Trust (SASE and Workspace Security)
+category: business_vpn
+url: https://www.cloudflare.com/plans/zero-trust-services/
+free_trial: "The Free Plan itself has no trial to expire, capped at 50 users forever; it doubles as an enterprise proof-of-concept tier (stated 2026-09-04)."
+pricing_note: "Pay-as-you-go is the only self-serve priced tier above Free; the Contract plan is custom, annual, per-user pricing for full SASE/workspace-security deployments and is not priced here. Support, log retention and available services scale by tier: Free gets community forums and 24-hour log retention, Pay-as-you-go gets chat/ticket support and 30-day retention, Contract gets phone support and up to 6 months of retention with SIEM export."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 50
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.cloudflare.com/plans/zero-trust-services/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free Plan. Best for teams under 50 users or enterprise proof-of-concept tests. $0 forever." 50 user limit, community forums and Discord support, standard log retention up to 24 hours.'
+  - plan: Pay-as-you-go
+    base_monthly_usd: 7
+    per_seat_monthly_usd: 7
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.cloudflare.com/plans/zero-trust-services/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pay-as-you-go. Best for teams over 50 users solving narrow SSE use cases and do not require enterprise support services. $7/user/month." No user limit, chat and ticket support, log retention up to 30 days, up to 2 read-only API integrations, limited predefined DLP profiles.'
+
+fees:
+  - name: Log Explorer overage
+    amount_usd: 1
+    unit: per GB per month, after the first 10 GB free
+    applies_to: "Free and Pay-as-you-go plans"
+    provenance:
+      source_url: https://www.cloudflare.com/plans/zero-trust-services/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "\"Log Explorer. Free and pay-as-you-go plan: Free for the first 10 GB, $1 per GB per month after. Enterprise: Custom pricing.\""
+
+clauses:
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Cloudflare's Zero Trust pricing page states no cancellation terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.cloudflare.com/plans/zero-trust-services/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Cloudflare's Zero Trust pricing page states no data-export terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.cloudflare.com/plans/zero-trust-services/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Cloudflare's Zero Trust pricing page states no refund terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.cloudflare.com/plans/zero-trust-services/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: accuracy_guarantee
+    status: stated
+    quote: "100% uptime guarantee (SLA)"
+    finding: >-
+      Cloudflare states a "100% uptime guarantee (SLA)" applies to both
+      its paid Zero Trust tiers, not just Enterprise (2026-09-04).
+    provenance:
+      source_url: https://www.cloudflare.com/plans/zero-trust-services/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: cloudflare-free-tier-50-user-cap
+    claim: >-
+      Cloudflare's Zero Trust Free plan is capped at 50 users with no
+      time limit ("$0 forever"), and is explicitly positioned as usable
+      both by small teams and as an enterprise proof-of-concept
+      (2026-09-04).
+    provenance:
+      source_url: https://www.cloudflare.com/plans/zero-trust-services/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: cloudflare-log-retention-tiering
+    claim: >-
+      Cloudflare tiers Zero Trust log retention by plan: up to 24 hours
+      on Free, up to 30 days on Pay-as-you-go, and up to 6 months with
+      Logpush-to-SIEM export on Contract plans (2026-09-04).
+    provenance:
+      source_url: https://www.cloudflare.com/plans/zero-trust-services/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: cloudflare-support-services-gated
+    claim: >-
+      Cloudflare states enterprise support is only reachable through
+      Contract plans: Pay-as-you-go includes chat and ticket support but
+      not phone support or professional services, which Contract adds as
+      standard or paid add-ons (2026-09-04).
+    provenance:
+      source_url: https://www.cloudflare.com/plans/zero-trust-services/
+      fetched_at: 2026-09-04
+      method: live_fetch

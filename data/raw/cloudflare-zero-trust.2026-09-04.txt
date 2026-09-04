@@ -1,0 +1,13 @@
+URL: https://www.cloudflare.com/plans/zero-trust-services/
+STATUS: 200
+FETCHED: 2026-09-04 13:25:07 +00:00 (DE gateway 168.119.141.170; rendered USD despite the gateway)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed).
+---
+Tabs: "Application Services | SASE and Workspace Security | Network Services | Developer Platform". This record covers the "SASE and Workspace Security" tab only.
+Sub-tabs: "Free Plan | Pay-as-you-go | Contract Plan".
+Free Plan — "Best for teams under 50 users or enterprise proof-of-concept tests." $0 forever. 50 user limit. Community forums and Discord server support. Standard log retention up to 24 hours. Network flow monitoring "Available for free to everyone."
+Pay-as-you-go — "Best for teams over 50 users solving narrow SSE use cases and do not require enterprise support services." $7/user/month. No user limit. 100% uptime guarantee (SLA). Chat and ticket support. Log retention up to 30 days. Up to 2 read-only API integrations (CASB). Limited predefined DLP profiles.
+Contract Plan — "Best for organizations building toward a full-featured SASE or workspace security deployment." Annual custom price per user. No user limit. 100% uptime guarantee (SLA). Phone, chat, and ticket support; professional services available as add-on. Log retention up to 6 months with Logpush to SIEM/cloud storage. Unlimited out-of-band CASB integrations (add-on). Full-featured DLP (add-on). Remote Browser Isolation and Email security as add-ons. Network services for SASE (Cloudflare One / Magic WAN, Firewall) as add-on.
+Log Explorer: "Free and pay-as-you-go plan: Free for the first 10 GB, $1 per GB per month after. Enterprise: Custom pricing."
+No cancellation, refund, or data-export language found on this page.
+Page title: "Zero Trust & SASE Plans & Pricing | Cloudflare".

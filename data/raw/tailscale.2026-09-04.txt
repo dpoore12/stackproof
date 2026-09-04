@@ -1,0 +1,16 @@
+URL: https://tailscale.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 13:22:46 +00:00 (DE gateway 168.119.141.170; rendered USD despite the gateway)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed).
+---
+"Plans that work for engineers, IT, security, and home users."
+Personal — "$0 for up to 6 users" — Unlimited devices, 50 tagged resources included.
+Standard — "$8 per user, per month" — Everything in Personal plus: Basic Tailscale SSH (up to 5 hosts), Kubernetes ingress/egress (See platform extensions), SSO with any IdP, basic user roles, 1,000 ephemeral-resource minutes/month, 300 ACL groups (per compare table), basic customer support.
+Premium — "$18 per user, per month" — Everything in Standard plus: Advanced Tailscale SSH, Funnel, device posture integrations (MDM/EDR/XDR/geolocation), just-in-time access, advanced user roles, SCIM provisioning, webhooks, configuration audit logs, priority customer support.
+Enterprise — Custom — Everything in Premium plus custom account sizes, custom MSAs & SLAs, pay by invoice, dedicated professional services.
+Add-ons: additional tagged resources $1/month each (50 included free per month); additional ephemeral-resource minutes contact sales; multiple tailnets contact sales; premium support/dedicated services contact sales.
+FAQ: "Does Tailscale offer a free trial?" — "Yes! Business customers can enjoy a 14-day free trial of the product with no user limit... Personal users have access to the free tier plan, which will be free forever."
+FAQ: "How do I upgrade or downgrade to a new plan?" — "If you are on a monthly subscription plan or a Personal plan, you can change your plan from the Billing page of the admin console. If you are on an annual subscription plan and would like to make any changes, our sales team is happy to help."
+FAQ: "What is the difference between business and personal use?" — "If you create a tailnet with a public domain, such as Gmail, Apple, or a personal GitHub account, it's treated as personal use. These tailnets are automatically enrolled in the free Personal plan. If you create a tailnet with a custom domain, it's considered business use, and you'll be automatically enrolled in a free trial."
+No cancellation, refund, or data-export language found beyond the above.
+Page title: "Tailscale pricing".

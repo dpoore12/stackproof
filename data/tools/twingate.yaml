@@ -1,0 +1,123 @@
+slug: twingate
+vendor: Twingate
+product: Twingate
+category: business_vpn
+url: https://www.twingate.com/pricing
+free_trial: "14-day free trial on Home, Teams, and Business plans (stated 2026-09-04)."
+pricing_note: "Home ($15/month flat, not per-user) is a non-commercial homelab tier and is excluded from comparison here. Teams and Business monthly prices are shown directly on the page with a stated 'Yearly -15%' discount; the annual per-user rate is derived by applying that stated 15% to the monthly rate, since the compare table's own annual-column figures did not reconcile with the stated discount percentage and are not trusted as printed. Every device a user connects with (up to 5 per user across all tiers) counts toward a separate 'User devices' allotment, not an extra seat."
+
+tiers:
+  - plan: Starter
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 5
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.twingate.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Starter. Remote access essentials for personal projects and small startups. Free per user/month. Up to 5 users." Peer-to-peer connections, split tunneling, conditional access controls.'
+  - plan: Teams
+    base_monthly_usd: 5
+    per_seat_monthly_usd: 5
+    max_seats: 100
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.twingate.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Teams. Modern network access for teams looking to retire their legacy VPN. $5 per user per month. Yearly -15%. Up to 100 users." SSO via Google Workspace, SaaS application gating, device posture checks, automated least-privilege policies.'
+  - plan: Teams (annual)
+    base_monthly_usd: 4.25
+    per_seat_monthly_usd: 4.25
+    max_seats: 100
+    seat_label: user
+    billing: annual
+    compare: false
+    provenance:
+      source_url: https://www.twingate.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "Derived: 15% off the stated $5/user/month rate, per the page's 'Yearly -15%' label on the Teams card; no distinct annual dollar figure was printed."
+  - plan: Business
+    base_monthly_usd: 10
+    per_seat_monthly_usd: 10
+    max_seats: 500
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.twingate.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Business (Most Popular). Integrated and automated security controls for growing teams. $10 per user per month. Yearly -15%. Up to 500 users." User provisioning via IdP (Okta, Entra ID, etc.), usage-based & JIT access policies, DNS filtering (add-on).'
+  - plan: Business (annual)
+    base_monthly_usd: 8.50
+    per_seat_monthly_usd: 8.50
+    max_seats: 500
+    seat_label: user
+    billing: annual
+    compare: false
+    provenance:
+      source_url: https://www.twingate.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "Derived: 15% off the stated $10/user/month rate, per the page's 'Yearly -15%' label on the Business card; no distinct annual dollar figure was printed."
+
+clauses:
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Twingate's pricing page states no cancellation terms (2026-09-04).
+    provenance:
+      source_url: https://www.twingate.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Twingate's pricing page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://www.twingate.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Twingate's pricing page states no refund terms (2026-09-04).
+    provenance:
+      source_url: https://www.twingate.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: twingate-device-allotment
+    claim: >-
+      Every Twingate tier, including Enterprise, allots exactly 5 devices
+      per user for accessing protected resources, regardless of plan
+      price (2026-09-04).
+    provenance:
+      source_url: https://www.twingate.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: twingate-dns-filtering-addon
+    claim: >-
+      Twingate's Business plan feature list marks "DNS filtering" with an
+      asterisk noted as "Available as add-on," so it is not included in
+      the base $10/user/month price despite appearing in the plan's
+      feature list (2026-09-04).
+    provenance:
+      source_url: https://www.twingate.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: twingate-user-cap-ladder
+    claim: >-
+      Twingate hard-caps account size by tier: 5 users on Starter, 100 on
+      Teams, and 500 on Business, with Enterprise offering custom account
+      sizes above that (2026-09-04).
+    provenance:
+      source_url: https://www.twingate.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

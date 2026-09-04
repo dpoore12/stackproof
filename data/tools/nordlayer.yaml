@@ -1,0 +1,141 @@
+slug: nordlayer
+vendor: NordLayer (Nord Security)
+product: NordLayer
+category: business_vpn
+url: https://nordlayer.com/pricing/
+free_trial: "No free trial; instead every plan carries a 14-day money-back guarantee after purchase (stated 2026-09-04)."
+pricing_note: "Prices shown are billed annually with a stated per-plan discount versus monthly billing (Lite 'Save 20%', Core 'Save 21%', Premium 'Save 22%'); the underlying monthly-billed dollar figure is not printed anywhere on the page, only the discount percentage, so it is not recorded here. Lite, Core and Premium each require a minimum of 5 users. Core and Premium additionally require at least one Dedicated IP Server as a mandatory add-on, recorded as a fee below. Prices are exclusive of VAT/sales tax."
+
+tiers:
+  - plan: Lite
+    base_monthly_usd: 40
+    per_seat_monthly_usd: 8
+    included_seats: 5
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://nordlayer.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Lite. Essential internet access security with basic internet threat prevention features. $8 USER/MONTH. SAVE 20%. 5 users minimum." Confirmed via schema.org Offer JSON-LD: {"name":"Lite","price":8,"priceCurrency":"USD"}. No Dedicated IP Server (Not included per the compare table).'
+  - plan: Core
+    base_monthly_usd: 55
+    per_seat_monthly_usd: 11
+    included_seats: 5
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://nordlayer.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Core (TOP CHOICE). A suite of advanced internet access security & basic network access control solutions. $11 USER/MONTH. SAVE 21%. Server with Dedicated IP +$40/month required. 5 users minimum." Confirmed via schema.org Offer JSON-LD: {"name":"Core","price":11}.'
+  - plan: Premium
+    base_monthly_usd: 70
+    per_seat_monthly_usd: 14
+    included_seats: 5
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://nordlayer.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Premium. A powerful blend of network access control solutions with more granular network segmentation and the ability to interconnect sites & devices. $14 USER/MONTH. SAVE 22%. Server with Dedicated IP +$40/month required. 5 users minimum." Confirmed via schema.org Offer JSON-LD: {"name":"Premium","price":14}.'
+  - plan: Enterprise offer (Lite capabilities)
+    compare: false
+    standalone: false
+    base_monthly_usd: 1200
+    per_seat_monthly_usd: 6
+    included_seats: 200
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://nordlayer.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Enterprise offer. Custom-fit network security for teams over 200 seats... From $6 USER/MONTH. With Lite plan. The offer starts with Lite plan capabilities. 200 users minimum." Confirmed via schema.org Offer JSON-LD: {"name":"Enterprise offer","price":6}.'
+
+fees:
+  - name: Dedicated IP Server
+    amount_usd: 40
+    unit: per month, per server
+    applies_to: "Required on Core and Premium plans; not available on Lite"
+    provenance:
+      source_url: https://nordlayer.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "Listed directly on the Core and Premium pricing cards as 'Server with Dedicated IP +$40/month required', separate from the per-user price."
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "You can add as many user accounts as you need at any time. Charges for any additional licenses will be prorated based on your initial contract with NordLayer."
+    finding: >-
+      NordLayer's FAQ states additional user licenses added mid-contract
+      are billed prorated against the existing contract term
+      (2026-09-04).
+    provenance:
+      source_url: https://nordlayer.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: stated
+    quote: "If you're unsatisfied with NordLayer, you can request a refund within 14 calendar days of your initial purchase. This policy ensures you can experience our services worry-free."
+    finding: >-
+      NordLayer offers a 14-calendar-day money-back guarantee from the
+      date of initial purchase only, not on every renewal (2026-09-04).
+    provenance:
+      source_url: https://nordlayer.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: stated
+    quote: "You may cancel your subscription (turn off automatic renewals) at any time... Subscription cancellation will go into effect at the end of your current subscription period, and you will continue to have access to the NordLayer services through the end of your current subscription period. If you cancel your subscription, you will not receive a refund for the unused part of the current subscription period."
+    finding: >-
+      NordLayer states cancelling only turns off auto-renewal for the
+      next period; it does not refund the unused portion of the current
+      period, and access continues until that period ends (2026-09-04).
+    provenance:
+      source_url: https://nordlayer.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      NordLayer's pricing page and FAQ state no data-export terms
+      (2026-09-04).
+    provenance:
+      source_url: https://nordlayer.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: nordlayer-dedicated-ip-mandatory
+    claim: >-
+      NordLayer's Core and Premium pricing cards each list "Server with
+      Dedicated IP +$40/month required" as a mandatory addition alongside
+      the per-user price, so a 5-user Core team's real minimum monthly
+      cost is $55 (5 x $11) plus $40, not $55 alone (2026-09-04).
+    provenance:
+      source_url: https://nordlayer.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: nordlayer-license-transfer
+    claim: >-
+      NordLayer's FAQ states user licenses are transferable: "you can
+      simply transfer the user account that is no longer in use to a new
+      employee" without purchasing an additional license for personnel
+      changes (2026-09-04).
+    provenance:
+      source_url: https://nordlayer.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: nordlayer-compliance-certifications
+    claim: >-
+      NordLayer states its information security management system is
+      "certified according to ISO 27001," meets "SOC 2 Type I compliance
+      requirements," and satisfies "HIPAA Security Rules," offering
+      AES-256 or ChaCha20 encryption (2026-09-04).
+    provenance:
+      source_url: https://nordlayer.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -1,0 +1,13 @@
+URL: https://www.goodaccess.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 13:25:45 +00:00 (DE gateway 168.119.141.170; rendered USD despite the gateway)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed). Both a billing-toggle "Annually | Monthly" state and its alternate appear to render into the DOM text at once (same pattern as Sync.com and ShareFile elsewhere in this dataset): each tier prints two dollar figures in sequence.
+---
+"Choose Your Plan. Start free with a full-featured 14-day trial. No credit card required."
+"Pick your plan. Saving extra 20% with annual billing." Toggle: "14 Day Trial | Annually | Monthly".
+First (lower) figures block: Essential — "Dedicated Cloud VPN with Static IP whitelisting. $7 per user / month. min. 5 users. +$49/mo per dedicated gateway." Premium (MOST POPULAR) — "Full Zero Trust Architecture for multi-site & cloud businesses (SSE / SDP / ZTNA). $11 per user / month. min. 5 users. +$49/mo per dedicated gateway." Enterprise — "Enterprise features and Premium 24/7 support for large organization. On Request. minimum 50 users."
+Second (higher) figures block, same plans in the same order: Essential $9 per user/month (same minimums and gateway fee); Premium $14 per user/month (same minimums and gateway fee); Enterprise unchanged.
+Ratio check: 7/9 = 0.778 (a ~22% discount) and 11/14 = 0.786 (a ~21% discount), both consistent with the page's own "Saving extra 20%" annual-billing banner, so the lower figures are treated as the annual-billed rate and the higher as monthly-billed.
+Compare table: "Clouds & Branch connectors: 1" (included) on Essential/Premium, "Custom" on Enterprise; "Additional Clouds & Branch connectors: Add-On $29/mo" on Essential/Premium; "Additional Gateways (High Availability): Add-On $49/mo" on all three tiers, matching the gateway fee on the pricing cards. 35+ global gateway locations, 10Gbps gateway performance, on-premise infrastructure available "On Request."
+No cancellation, refund, or data-export language found beyond the 14-day trial.
+Page title: "GoodAccess Pricing".

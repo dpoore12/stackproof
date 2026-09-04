@@ -1,0 +1,14 @@
+URL: https://www.twingate.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 13:23:02 +00:00 (DE gateway 168.119.141.170; rendered USD despite the gateway)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed).
+---
+Toggle: "Personal | Business" tabs. "Compare Features" toggle: "Monthly | Yearly".
+Starter — "Remote access essentials for personal projects and small startups." Free per user/month. Up to 5 users. Broad OS compatibility, enterprise peer-to-peer connections, split tunneling, conditional access controls.
+Home — "All the power of Twingate Business to level up your homelab." $15 per month. Up to 7 users. Non-commercial use only.
+Teams — "Modern network access for teams looking to retire their legacy VPN." $5 per user per month. Yearly -15%. Up to 100 users. SSO via Google Workspace, SaaS application gating, native device posture checks, automated least-privilege policies.
+Business (Most Popular) — "Integrated and automated security controls for growing teams." $10 per user per month. Yearly -15%. Up to 500 users. User provisioning & management via IdP, SSO via Okta/Entra ID, device posture and endpoint integrations, usage-based & JIT access policies, DNS filtering* (*add-on).
+Enterprise — "Comprehensive network security for organizations operating at scale." Custom per user/month. Custom account sizes, custom MSA & SLAs, pay by invoice, geoblocking, static IPs (add-on), privileged access for K8s/SSH/databases/web apps, priority support.
+Compare-table structural data: Maximum users 5/7/100/500/Custom; Admin users 1/1/3/10/Custom; User devices 5 per user on every tier; Remote Networks 10/20/20/100/Custom; Resources 50/100/100/300/Custom. Relay Performance Tier: Basic/Basic/Basic/Standard/Premium.
+Note: the compare table's flattened "Compare Features Monthly Yearly Starter Free Home $15/mo Teams $5 user/mo $12 user/mo Business $10 user/mo $12 user/mo Enterprise Custom" text did not reconcile cleanly with a per-column read (both Teams and Business show an identical stray "$12 user/mo" that doesn't match a 15% discount off either $5 or $10), so the annual dollar figures were derived instead from the stated "Yearly -15%" label on each plan card rather than trusted as printed in the compare table.
+Page title: "Supercharge your security. Start free."

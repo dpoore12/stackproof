@@ -1,0 +1,134 @@
+slug: goodaccess
+vendor: GoodAccess
+product: GoodAccess
+category: business_vpn
+url: https://www.goodaccess.com/pricing
+free_trial: "Full-featured 14-day free trial, no credit card required (stated 2026-09-04)."
+pricing_note: "Both priced tiers show two figures in the rendered page at once (the same duplicate-DOM-node pattern seen elsewhere in this dataset for billing-toggle prices): a lower figure paired with 'Annually' and a higher one paired with 'Monthly'. The ratio between them (Essential $7 vs $9, Premium $11 vs $14) is consistent with the page's own 'Saving extra 20% with annual billing' banner, so the lower figures are recorded as the annual-billed tiers and the higher as monthly-billed. Both tiers require a minimum of 5 users and at least one dedicated gateway at $49/month, billed separately from the per-user price."
+
+tiers:
+  - plan: Essential
+    base_monthly_usd: 84
+    per_seat_monthly_usd: 7
+    included_seats: 5
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.goodaccess.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Essential. Dedicated Cloud VPN with Static IP whitelisting. $7 per user / month. min. 5 users. +$49/mo per dedicated gateway."'
+  - plan: Essential (monthly)
+    base_monthly_usd: 45
+    per_seat_monthly_usd: 9
+    included_seats: 5
+    seat_label: user
+    billing: monthly
+    compare: false
+    provenance:
+      source_url: https://www.goodaccess.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Essential. $9 per user / month. min. 5 users. +$49/mo per dedicated gateway."'
+  - plan: Premium
+    base_monthly_usd: 55
+    per_seat_monthly_usd: 11
+    included_seats: 5
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.goodaccess.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Premium (MOST POPULAR). Full Zero Trust Architecture for multi-site & cloud businesses (SSE / SDP / ZTNA). $11 per user / month. min. 5 users. +$49/mo per dedicated gateway."'
+  - plan: Premium (monthly)
+    base_monthly_usd: 70
+    per_seat_monthly_usd: 14
+    included_seats: 5
+    seat_label: user
+    billing: monthly
+    compare: false
+    provenance:
+      source_url: https://www.goodaccess.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Premium. $14 per user / month. min. 5 users. +$49/mo per dedicated gateway."'
+
+fees:
+  - name: Dedicated gateway
+    amount_usd: 49
+    unit: per month, per gateway
+    applies_to: "Essential and Premium plans; at least one required"
+    provenance:
+      source_url: https://www.goodaccess.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "Printed directly on both priced plan cards as '+$49/mo per dedicated gateway'."
+  - name: Additional Cloud/Branch connector
+    amount_usd: 29
+    unit: per month, per connector
+    applies_to: "Essential and Premium plans (1 connector included)"
+    provenance:
+      source_url: https://www.goodaccess.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "Compare table: 'Clouds & Branch connectors: 1 included' then 'Additional Clouds & Branch connectors: Add-On $29/mo'."
+
+clauses:
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      GoodAccess's pricing page states no cancellation terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.goodaccess.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      GoodAccess's pricing page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://www.goodaccess.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      GoodAccess's pricing page states no refund terms beyond the free
+      trial itself (2026-09-04).
+    provenance:
+      source_url: https://www.goodaccess.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: goodaccess-gateway-fee-both-tiers
+    claim: >-
+      GoodAccess charges "$49/mo per dedicated gateway" as a required
+      add-on on both its Essential and Premium plans, so a minimum
+      5-user Essential team's real monthly floor is $35 (5 x $7) plus
+      $49, not $35 alone (2026-09-04).
+    provenance:
+      source_url: https://www.goodaccess.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: goodaccess-enterprise-user-floor
+    claim: >-
+      GoodAccess's Enterprise tier is priced "On Request" with a stated
+      "minimum 50 users," a much higher floor than the 5-user minimum on
+      Essential and Premium (2026-09-04).
+    provenance:
+      source_url: https://www.goodaccess.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: goodaccess-annual-discount
+    claim: >-
+      GoodAccess advertises "Saving extra 20% with annual billing," and
+      its own printed monthly-vs-annual figures ($9 vs $7 on Essential,
+      $14 vs $11 on Premium) are consistent with roughly a 20-22%
+      discount for annual commitment (2026-09-04).
+    provenance:
+      source_url: https://www.goodaccess.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

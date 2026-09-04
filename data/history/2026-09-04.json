@@ -462,6 +462,41 @@
    ],
    "vendor": "CAKE.com"
   },
+  "cloudflare-zero-trust": {
+   "category": "business_vpn",
+   "fees": [
+    {
+     "amount_usd": 1.0,
+     "fetched_at": "2026-09-04",
+     "name": "Log Explorer overage",
+     "unit": "per GB per month, after the first 10 GB free"
+    }
+   ],
+   "product": "Cloudflare Zero Trust (SASE and Workspace Security)",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 50,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://www.cloudflare.com/plans/zero-trust-services/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 7.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 7.0,
+     "plan": "Pay-as-you-go",
+     "source_url": "https://www.cloudflare.com/plans/zero-trust-services/",
+     "steps": null
+    }
+   ],
+   "vendor": "Cloudflare"
+  },
   "coda": {
    "category": "wiki",
    "fees": [],
@@ -1243,6 +1278,67 @@
    "product": "GetResponse",
    "tiers": [],
    "vendor": "GetResponse"
+  },
+  "goodaccess": {
+   "category": "business_vpn",
+   "fees": [
+    {
+     "amount_usd": 49.0,
+     "fetched_at": "2026-09-04",
+     "name": "Dedicated gateway",
+     "unit": "per month, per gateway"
+    },
+    {
+     "amount_usd": 29.0,
+     "fetched_at": "2026-09-04",
+     "name": "Additional Cloud/Branch connector",
+     "unit": "per month, per connector"
+    }
+   ],
+   "product": "GoodAccess",
+   "tiers": [
+    {
+     "base_monthly_usd": 84.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 7.0,
+     "plan": "Essential",
+     "source_url": "https://www.goodaccess.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 45.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 9.0,
+     "plan": "Essential (monthly)",
+     "source_url": "https://www.goodaccess.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 55.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 11.0,
+     "plan": "Premium",
+     "source_url": "https://www.goodaccess.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 70.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 14.0,
+     "plan": "Premium (monthly)",
+     "source_url": "https://www.goodaccess.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "GoodAccess"
   },
   "google-workspace": {
    "category": "productivity_suite",
@@ -2403,6 +2499,61 @@
    "tiers": [],
    "vendor": "Nextiva"
   },
+  "nordlayer": {
+   "category": "business_vpn",
+   "fees": [
+    {
+     "amount_usd": 40.0,
+     "fetched_at": "2026-09-04",
+     "name": "Dedicated IP Server",
+     "unit": "per month, per server"
+    }
+   ],
+   "product": "NordLayer",
+   "tiers": [
+    {
+     "base_monthly_usd": 40.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 8.0,
+     "plan": "Lite",
+     "source_url": "https://nordlayer.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 55.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 11.0,
+     "plan": "Core",
+     "source_url": "https://nordlayer.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 70.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 14.0,
+     "plan": "Premium",
+     "source_url": "https://nordlayer.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 1200.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Enterprise offer (Lite capabilities)",
+     "source_url": "https://nordlayer.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "NordLayer (Nord Security)"
+  },
   "nordpass": {
    "category": "password_manager",
    "fees": [],
@@ -3480,6 +3631,44 @@
    ],
    "vendor": "Sync.com"
   },
+  "tailscale": {
+   "category": "business_vpn",
+   "fees": [],
+   "product": "Tailscale",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 6,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Personal",
+     "source_url": "https://tailscale.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 8.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 8.0,
+     "plan": "Standard",
+     "source_url": "https://tailscale.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 18.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 18.0,
+     "plan": "Premium",
+     "source_url": "https://tailscale.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Tailscale"
+  },
   "tally": {
    "category": "forms",
    "fees": [],
@@ -3728,6 +3917,64 @@
     }
    ],
    "vendor": "Atlassian"
+  },
+  "twingate": {
+   "category": "business_vpn",
+   "fees": [],
+   "product": "Twingate",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter",
+     "source_url": "https://www.twingate.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 5.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 100,
+     "per_seat_monthly_usd": 5.0,
+     "plan": "Teams",
+     "source_url": "https://www.twingate.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 4.25,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 100,
+     "per_seat_monthly_usd": 4.25,
+     "plan": "Teams (annual)",
+     "source_url": "https://www.twingate.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 10.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 500,
+     "per_seat_monthly_usd": 10.0,
+     "plan": "Business",
+     "source_url": "https://www.twingate.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 8.5,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 500,
+     "per_seat_monthly_usd": 8.5,
+     "plan": "Business (annual)",
+     "source_url": "https://www.twingate.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Twingate"
   },
   "typeform": {
    "category": "forms",

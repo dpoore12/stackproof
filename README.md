@@ -232,6 +232,26 @@ DOM, so its figures are recorded as findings only. Seat points are 1, 5,
 10, 25, 50 employees who submit expenses, chosen to land exactly on
 Fyle's 5- and 10-user minimums.
 
+### Business VPN / zero trust network access (2026-09-04)
+
+Five vendors: Tailscale, Twingate, NordLayer, Cloudflare Zero Trust,
+GoodAccess. This category was picked specifically because it kept the
+compliance-adjacent theme with clean, self-serve SaaS-style pricing,
+after Check Point SASE (formerly Perimeter 81) turned out to be
+demo-gated with no published price, matching the pattern seen in the
+abandoned endpoint-security batch. Two vendors here (NordLayer,
+GoodAccess) charge a mandatory per-gateway or per-server infrastructure
+fee ($40-49/month) on top of the per-user price for their mid tiers, so
+the advertised per-seat rate understates the real floor cost; this is
+the same shape of finding as Microsoft Entra Suite's P1 dependency in
+the identity/SSO category. NordLayer's FAQ, read from FAQPage JSON-LD,
+gives unusually precise cancellation, refund, and proration language.
+Tailscale automatically tiers accounts by email domain (a personal
+address stays free forever, a custom domain triggers a business trial).
+Seat points are 1, 5, 25, 50, 100 employees needing remote access,
+chosen to land on the 5-user minimums common across this category and
+Cloudflare's 50-user free-tier boundary.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
