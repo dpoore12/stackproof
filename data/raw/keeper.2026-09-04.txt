@@ -1,0 +1,11 @@
+URL: https://www.keepersecurity.com/pricing/business-and-enterprise.html
+STATUS: 200
+FETCHED: 2026-09-04 00:06:05 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main>. Currency selector rendered "USD ($)" first with CAD/EUR/GBP/JPY/AUD options; prices shown in USD despite a German gateway. Tax note "*zzgl MwSt *Includes GST" appears beside each price.
+---
+Password Management tab. Business Starter — Password Manager — "Protects sole proprietors and small teams" — $2.00 user / month billed annually. Buy Now / Start free trial. Encrypted vault and admin console, credential sharing and autofill, protection for 5–10 users.
+Business — $4.00 user / month billed annually. Buy Now / Start free trial. All Starter features plus shared team folders, delegated administration, advanced organizational structure and integrations, free Family Plan for every user.
+Enterprise — $6.00 user / month billed annually. Request a Quote / Start free trial. All Business features plus advanced provisioning (SCIM, AD/LDAP, SSO/SAML), advanced two-factor authentication, role-based access control, developer APIs.
+KeeperMSP — contact sales.
+Feature table: SCIM provisioning, AD/LDAP sync, SSO (SAML 2.0), DUO/RSA 2FA, developer SDKs and REST API on Enterprise; Slack/Jira/ServiceNow/Teams apps and secrets management as add-ons.
+FAQ headings: Does Keeper offer a free trial? How much does Keeper charge? (answers not in captured window).

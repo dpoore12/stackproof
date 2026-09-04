@@ -120,7 +120,8 @@ container.
 Results on 2026-09-03: Pipedrive, Freshsales, Help Scout, Docusign, SignNow,
 Quo (formerly OpenPhone), RingCentral, Grasshopper, monday.com, ClickUp,
 Trello, Basecamp, LiveChat, Crisp, Olark, Intercom, Calendly, Acuity,
-YouCanBookMe, Cal.com, SavvyCal, Bitwarden, 1Password and Dashlane rendered
+YouCanBookMe, Cal.com, SavvyCal, Bitwarden, 1Password, Dashlane and Keeper
+rendered
 with full prices (Intercom's odometer seat prices came from the widgets' `aria-label`
 attributes); Asana and Tidio rendered USD only
 on a US-side gateway (the German gateway serves EUR); NordPass never landed
