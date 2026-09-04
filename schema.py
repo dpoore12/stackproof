@@ -284,6 +284,7 @@ CATEGORY_SEAT_POINTS: dict[str, tuple[int, ...]] = {
     "nonprofit_donor_management": (500, 1000, 2500, 10000, 50000),
     "hoa_community_association_management": (25, 50, 100, 250, 500),
     "coworking_space_management": (10, 25, 50, 100, 250),
+    "personal_training_fitness_coaching": (5, 10, 25, 50, 100),
 }
 
 

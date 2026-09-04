@@ -1,0 +1,38 @@
+source: https://www.trainerize.com/pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+h3 tier names: Basic, Grow, Pro 5, Studio Plus. h4 audience labels:
+"Individual Trainer" (Basic), "Small business" (Grow/Pro 5 area),
+"Medium to enterprise" (Studio Plus).
+
+A free tier exists: "1 client — Free."
+
+Basic — "Individual Trainer." Client-count selector defaults to "Up to
+2 clients," with selectable steps "Up to 2 clients / Up to 5 clients /
+Up to 15 clients." Default rendered price: "$10 USD/month" at the "Up
+to 2 clients" step. The prices for the "Up to 5" and "Up to 15" steps
+are set by client-side JS on selector change and were not present as
+static text in this fetch.
+
+Pro 5 — "Coaching 5 to 200 clients and ready to scale." Client-count
+selector: "5, 15, 30, 50, 75, 100, 200" clients. Default rendered price
+at the "5" step: "$23 / month." Billing-period toggle ("Monthly" /
+"Annual") present elsewhere on the page but which state is active by
+default, and therefore whether "$23" is the monthly or annual rate,
+could not be confirmed from static text. Prices for the other six
+client-count steps (15/30/50/75/100/200) are set by client-side JS and
+were not present as static text.
+
+Grow and Studio Plus tiers exist (confirmed via h3 headings) but their
+base prices were not isolated from this fetch — the page's raw
+dollar-figure scan is dominated by a long repeating add-on price
+sequence ($45/$20/$25/$10/$10/$169, mapped to the page's own add-on
+category h5 headings: FitMetrics, Business, Advanced Nutrition
+Coaching, Video Coaching, Custom Branded App, Stripe Integrated
+Payments) that could not be reliably separated from any Grow/Studio
+Plus base figures in the time available; not recorded.
+
+FAQ h4: "How much does Trainerize cost per month?" and "What is the
+difference between a Coaching client and a Basic client?" (both present
+but content not captured in this fetch).

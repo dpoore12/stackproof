@@ -1,0 +1,83 @@
+source: https://everfit.io/pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+h2 tier names: Starter, Pro, Studio, Enterprise. Page description:
+"Grow your remote training business with Everfit • 30-day free trial •
+No contract • No credit cards • Train first 5 clients for free."
+
+Starter — "Forever Free / Free." "Train up to 5 clients." Core features
+only (exercise library, workout builder, metrics, tasks, inbox
+messaging, client/coach apps).
+
+Pro (marked "Most Popular") — "From $19 $16 /mo" (Billed Monthly /
+Billed Annually). Genuine stepped price list by client count, confirmed
+via a full raw-text dump of the pricing card's client-count slider
+table:
+
+Monthly billing:
+  5 clients  - $19   ($3.80/client)
+  10 clients - $29   ($2.90/client)
+  20 clients - $49   ($2.45/client)
+  35 clients - $75   ($2.14/client)
+  50 clients - $95   ($1.90/client)
+  75 clients - $120  ($1.60/client)
+  100 clients - $140 ($1.40/client)
+  125 clients - $160 ($1.28/client)
+  150 clients - $180 ($1.20/client)
+  200 clients - $220 ($1.10/client)
+  250 clients - $255 ($1.02/client)
+  300 clients - $290 ($0.97/client)
+
+Annual billing (per month):
+  5 clients  - $16   ($3.17/client)
+  10 clients - $24   ($2.42/client)
+  20 clients - $41   ($2.04/client)
+  35 clients - $63   ($1.79/client)
+  50 clients - $79   ($1.58/client)
+  75 clients - $100  ($1.33/client)
+  100 clients - $117 ($1.17/client)
+  125 clients - $133 ($1.07/client)
+  150 clients - $150 ($1.00/client)
+  200 clients - $183 ($0.92/client)
+  250 clients - $213 ($0.85/client)
+  300 clients - $242 ($0.81/client)
+
+Studio — "From $105 $88 /mo" (Billed Monthly / Billed Annually). "Built
+for established online coaching businesses, studios, and gyms scaling
+digital programs and team management." Genuine stepped price list by
+client count, same table format:
+
+Monthly billing:
+  50 clients  - $105  ($2.10/client)
+  75 clients  - $135  ($1.80/client)
+  100 clients - $165  ($1.65/client)
+  150 clients - $205  ($1.37/client)
+  200 clients - $249  ($1.25/client)
+  250 clients - $290  ($1.16/client)
+  300 clients - $325  ($1.08/client)
+  350 clients - $355  ($1.01/client)
+  400 clients - $385  ($0.96/client)
+  450 clients - $410  ($0.91/client)
+  500 clients - $430  ($0.86/client)
+
+Annual billing (per month):
+  50 clients  - $88   ($1.75/client)
+  75 clients  - $113  ($1.50/client)
+  100 clients - $138  ($1.38/client)
+  150 clients - $171  ($1.14/client)
+  200 clients - $208  ($1.04/client)
+  250 clients - $242  ($0.97/client)
+  300 clients - $271  ($0.90/client)
+  350 clients - $296  ($0.85/client)
+  400 clients - $321  ($0.80/client)
+  450 clients - $342  ($0.76/client)
+  500 clients - $358  ($0.72/client)
+
+Enterprise — "Everything in Studio, plus: White Label Solution, Access
+to API integrations, Apple/Google Developer Support." Custom/quote-gated,
+not recorded.
+
+Add-ons (not standalone, not compare): Autoflow (Automation) "$29 $24
+/mo," On-Demand Collections "$25 $21 /mo," Payments & Packages "$9 $8
+/mo," Meal Plans & Recipe Books "$39 $33 /mo."

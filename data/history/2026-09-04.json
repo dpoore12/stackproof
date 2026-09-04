@@ -1891,6 +1891,252 @@
    ],
    "vendor": "Egnyte"
   },
+  "everfit": {
+   "category": "personal_training_fitness_coaching",
+   "fees": [],
+   "product": "Everfit",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": null,
+     "plan": "Starter (free)",
+     "source_url": "https://everfit.io/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": null,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Pro (annual billing)",
+     "source_url": "https://everfit.io/pricing/",
+     "steps": [
+      {
+       "monthly_usd": 16.0,
+       "up_to": 5
+      },
+      {
+       "monthly_usd": 24.0,
+       "up_to": 10
+      },
+      {
+       "monthly_usd": 41.0,
+       "up_to": 20
+      },
+      {
+       "monthly_usd": 63.0,
+       "up_to": 35
+      },
+      {
+       "monthly_usd": 79.0,
+       "up_to": 50
+      },
+      {
+       "monthly_usd": 100.0,
+       "up_to": 75
+      },
+      {
+       "monthly_usd": 117.0,
+       "up_to": 100
+      },
+      {
+       "monthly_usd": 133.0,
+       "up_to": 125
+      },
+      {
+       "monthly_usd": 150.0,
+       "up_to": 150
+      },
+      {
+       "monthly_usd": 183.0,
+       "up_to": 200
+      },
+      {
+       "monthly_usd": 213.0,
+       "up_to": 250
+      },
+      {
+       "monthly_usd": 242.0,
+       "up_to": 300
+      }
+     ]
+    },
+    {
+     "base_monthly_usd": null,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Pro (monthly billing)",
+     "source_url": "https://everfit.io/pricing/",
+     "steps": [
+      {
+       "monthly_usd": 19.0,
+       "up_to": 5
+      },
+      {
+       "monthly_usd": 29.0,
+       "up_to": 10
+      },
+      {
+       "monthly_usd": 49.0,
+       "up_to": 20
+      },
+      {
+       "monthly_usd": 75.0,
+       "up_to": 35
+      },
+      {
+       "monthly_usd": 95.0,
+       "up_to": 50
+      },
+      {
+       "monthly_usd": 120.0,
+       "up_to": 75
+      },
+      {
+       "monthly_usd": 140.0,
+       "up_to": 100
+      },
+      {
+       "monthly_usd": 160.0,
+       "up_to": 125
+      },
+      {
+       "monthly_usd": 180.0,
+       "up_to": 150
+      },
+      {
+       "monthly_usd": 220.0,
+       "up_to": 200
+      },
+      {
+       "monthly_usd": 255.0,
+       "up_to": 250
+      },
+      {
+       "monthly_usd": 290.0,
+       "up_to": 300
+      }
+     ]
+    },
+    {
+     "base_monthly_usd": null,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Studio (annual billing)",
+     "source_url": "https://everfit.io/pricing/",
+     "steps": [
+      {
+       "monthly_usd": 88.0,
+       "up_to": 50
+      },
+      {
+       "monthly_usd": 113.0,
+       "up_to": 75
+      },
+      {
+       "monthly_usd": 138.0,
+       "up_to": 100
+      },
+      {
+       "monthly_usd": 171.0,
+       "up_to": 150
+      },
+      {
+       "monthly_usd": 208.0,
+       "up_to": 200
+      },
+      {
+       "monthly_usd": 242.0,
+       "up_to": 250
+      },
+      {
+       "monthly_usd": 271.0,
+       "up_to": 300
+      },
+      {
+       "monthly_usd": 296.0,
+       "up_to": 350
+      },
+      {
+       "monthly_usd": 321.0,
+       "up_to": 400
+      },
+      {
+       "monthly_usd": 342.0,
+       "up_to": 450
+      },
+      {
+       "monthly_usd": 358.0,
+       "up_to": 500
+      }
+     ]
+    },
+    {
+     "base_monthly_usd": null,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Studio (monthly billing)",
+     "source_url": "https://everfit.io/pricing/",
+     "steps": [
+      {
+       "monthly_usd": 105.0,
+       "up_to": 50
+      },
+      {
+       "monthly_usd": 135.0,
+       "up_to": 75
+      },
+      {
+       "monthly_usd": 165.0,
+       "up_to": 100
+      },
+      {
+       "monthly_usd": 205.0,
+       "up_to": 150
+      },
+      {
+       "monthly_usd": 249.0,
+       "up_to": 200
+      },
+      {
+       "monthly_usd": 290.0,
+       "up_to": 250
+      },
+      {
+       "monthly_usd": 325.0,
+       "up_to": 300
+      },
+      {
+       "monthly_usd": 355.0,
+       "up_to": 350
+      },
+      {
+       "monthly_usd": 385.0,
+       "up_to": 400
+      },
+      {
+       "monthly_usd": 410.0,
+       "up_to": 450
+      },
+      {
+       "monthly_usd": 430.0,
+       "up_to": 500
+      }
+     ]
+    }
+   ],
+   "vendor": "Everfit"
+  },
   "ewebinar": {
    "category": "webinar_platforms",
    "fees": [],
@@ -8196,6 +8442,34 @@
    ],
    "vendor": "Tradify"
   },
+  "trainerize": {
+   "category": "personal_training_fitness_coaching",
+   "fees": [],
+   "product": "Trainerize",
+   "tiers": [
+    {
+     "base_monthly_usd": 10.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 2,
+     "per_seat_monthly_usd": null,
+     "plan": "Basic",
+     "source_url": "https://www.trainerize.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 23.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": null,
+     "plan": "Pro 5 (starting figure, billing period unconfirmed)",
+     "source_url": "https://www.trainerize.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "ABC Trainerize"
+  },
   "trello": {
    "category": "project_management",
    "fees": [
@@ -8260,6 +8534,74 @@
     }
    ],
    "vendor": "Atlassian"
+  },
+  "truecoach": {
+   "category": "personal_training_fitness_coaching",
+   "fees": [],
+   "product": "TrueCoach",
+   "tiers": [
+    {
+     "base_monthly_usd": 26.34,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": null,
+     "plan": "Starter",
+     "source_url": "https://truecoach.co/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 29.98,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": null,
+     "plan": "Starter (monthly billing)",
+     "source_url": "https://truecoach.co/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 57.99,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 20,
+     "per_seat_monthly_usd": null,
+     "plan": "Standard",
+     "source_url": "https://truecoach.co/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 69.98,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 20,
+     "per_seat_monthly_usd": null,
+     "plan": "Standard (monthly billing)",
+     "source_url": "https://truecoach.co/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 136.99,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 50,
+     "per_seat_monthly_usd": null,
+     "plan": "Pro",
+     "source_url": "https://truecoach.co/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 164.98,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 50,
+     "per_seat_monthly_usd": null,
+     "plan": "Pro (monthly billing)",
+     "source_url": "https://truecoach.co/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "TrueCoach"
   },
   "twingate": {
    "category": "business_vpn",
