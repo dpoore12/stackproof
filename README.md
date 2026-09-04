@@ -591,7 +591,10 @@ and its asset tracker (priced per "tracker," not per vehicle) is marked
 all — a single "per vehicle per month" figure — so all three are
 recorded as `billing: monthly`.
 
-Database is now 159 tools across 34 categories.
+Database is now 162 tools across 34 categories. (This total, and the
+one before it, correct a pre-existing drift between the file count and
+this running tally — the previous entries undercounted; 162 is the
+verified count of `data/tools/*.yaml`.)
 
 ## Rendered fetches (script-rendered pricing pages)
 
