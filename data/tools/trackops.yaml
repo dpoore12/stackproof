@@ -1,0 +1,50 @@
+slug: trackops
+vendor: Trackops
+product: Trackops
+category: private_investigation_agency_management
+url: https://www.trackops.com/pricing.html
+pricing_note: 'Trackops has a genuine base-plus-per-seat formula on every tier: each plan includes 2 Full Access Staff (investigators with access to all cases), with additional Full Access staff billed per-seat at a rate that varies by tier. "Unlimited Limited Access Staff" (view-only, access to only their own cases) are not counted toward the seat total.'
+
+tiers:
+  - plan: Basic
+    base_monthly_usd: 99
+    per_seat_monthly_usd: 39
+    included_seats: 2
+    seat_label: investigator
+    provenance:
+      source_url: https://www.trackops.com/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Basic — $99/month + $39 each additional Full Access staff. 2 Full Access Staff Included. Unlimited Limited Access Staff. Unlimited Client Contacts. 1 TB File Storage."'
+  - plan: Plus
+    base_monthly_usd: 149
+    per_seat_monthly_usd: 49
+    included_seats: 2
+    seat_label: investigator
+    provenance:
+      source_url: https://www.trackops.com/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Plus — $149/month + $49 each additional Full Access staff. 2 Full Access Staff Included. 2 TB File Storage. All Basic Features plus Time & Expense Tracking, Employee Payment Slips, Document Generation, Staff License Management."'
+  - plan: Premium
+    base_monthly_usd: 199
+    per_seat_monthly_usd: 59
+    included_seats: 2
+    seat_label: investigator
+    provenance:
+      source_url: https://www.trackops.com/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Premium — $199/month + $59 each additional Full Access staff. 2 Full Access Staff Included. 3 TB File Storage. All Plus Features plus Calendar & Scheduling, Case Review System, Salesperson Tracking, Developer API."'
+
+findings:
+  - id: trackops-unlimited-limited-access-staff
+    claim: >-
+      Trackops does not charge for "Limited Access Staff" (view-only,
+      access to only their own cases) on any plan — only "Full Access
+      Staff" count toward the per-seat price — per its own pricing page
+      as of 2026-09-04.
+    provenance:
+      source_url: https://www.trackops.com/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch

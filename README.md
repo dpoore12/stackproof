@@ -1293,6 +1293,35 @@ price per-student rather than per-seat, an axis mismatch).
 
 Database is now 235 tools across 58 categories.
 
+### Private investigation agency management software (2026-09-04)
+
+Three vendors: Trackops, CROSStrax, Case Jacket. Seat axis is
+"investigators" (1, 3, 5, 10, 25).
+
+Trackops has a genuine base-plus-per-seat formula on every tier: each
+plan includes 2 Full Access Staff, with additional Full Access staff
+billed per-seat at a rate that rises with tier ($99/mo + $39/additional
+on Basic, up to $199/mo + $59/additional on Premium); "Unlimited Limited
+Access Staff" (view-only) don't count toward the seat total. CROSStrax
+and Case Jacket both price flat tiers capped at a stated investigator/user
+count rather than a genuine per-seat increment — CROSStrax at $35/mo for
+2 investigators up to $105/mo for 10 (Elite and Enterprise tiers exist
+but their figures weren't captured in this fetch), Case Jacket at $40/mo
+for 5 users up to $250/mo for 50 (its free Basic tier, capped at 2 users,
+is excluded per this site's $0-tier policy).
+
+This category emerged from research originally aimed at process-serving
+business management software, which was abandoned: ServeManager and
+Mighty Process Server both price by monthly job volume rather than by
+server/seat count (ServeManager explicitly offers "unlimited users and
+devices"), an axis mismatch with the rest of this site, and Process
+Server's Toolbox is quote-gated. CROSStrax and Case Jacket, encountered
+during that research, turned out to be genuine per-investigator private
+investigation tools instead, which along with Trackops became this
+category.
+
+Database is now 238 tools across 59 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

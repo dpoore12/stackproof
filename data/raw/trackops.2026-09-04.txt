@@ -1,0 +1,26 @@
+Source: https://www.trackops.com/pricing.html
+Fetched: 2026-09-04
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Basic
+$99/month + $39 each additional Full Access staff + $50 each additional TB storage
+2 Full Access Staff Included (has access to all cases)
+Unlimited Limited Access Staff (has access to only their own cases)
+Unlimited Client Contacts
+1 TB File Storage
+Core Case Management, Invoices & Retainer Tracking, Client Management,
+Staff & Vendor Management, Customization & Branding
+
+Plus
+$149/month + $49 each additional Full Access staff + $50 each additional TB storage
+2 Full Access Staff Included
+2 TB File Storage
+All "Basic" Features plus Time & Expense Tracking, Employee Payment
+Slips, Document Generation, Staff License Management
+
+Premium
+$199/month + $59 each additional Full Access staff + $50 each additional TB storage
+2 Full Access Staff Included
+3 TB File Storage
+All "Plus" Features plus Calendar & Scheduling, Case Review System,
+Salesperson Tracking, Developer API

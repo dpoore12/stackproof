@@ -1,0 +1,20 @@
+Source: https://www.crosstrax.co/pricing/
+Fetched: 2026-09-04
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Entry — $35 per month
+Starter includes: 1 Admin User, 2 Investigators, Unlimited Clients,
+Unlimited Cases, 250 GB storage
+Integrations: idiCORE, Delvepoint, IRBsearch, Transcription, EMail, Quickbooks
+
+Essential — $65 per month
+Starter includes: 2 Admin Users, 5 Investigators, Unlimited Clients,
+Unlimited Cases, 500 GB storage
+Integrations: idiCORE, Delvepoint, IRBsearch, Transcription, EMail, Quickbooks
+
+Executive — $105 per month
+Starter includes: 3 Admin Users, 10 Investigators, Unlimited Clients,
+Unlimited Cases
+
+(Elite and Enterprise tiers also listed as headings but their figures
+were not present in the captured static text of this fetch.)

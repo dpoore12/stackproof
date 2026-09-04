@@ -1,0 +1,46 @@
+slug: casejacket
+vendor: Case Jacket
+product: Case Jacket
+category: private_investigation_agency_management
+url: https://casejacket.com/
+pricing_note: 'Case Jacket prices flat tiers capped at a stated number of users, rather than a genuine per-seat increment. Basic ($0, 2 users, 25 cases) is excluded per this site''s policy against ranking $0 tiers as cheapest.'
+
+tiers:
+  - plan: Standard
+    base_monthly_usd: 40
+    max_seats: 5
+    seat_label: investigator
+    provenance:
+      source_url: https://casejacket.com/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"STANDARD — $40/m. — 5 Users, Core Case Management, Desktop & Mobile friendly, Unlimited Cases, 100 GB of Storage."'
+  - plan: Professional
+    base_monthly_usd: 100
+    max_seats: 10
+    seat_label: investigator
+    provenance:
+      source_url: https://casejacket.com/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"PROFESSIONAL — $100/m. — 10 Users, Core Case Management, Desktop & Mobile friendly, Unlimited Cases, 500 GB of Storage."'
+  - plan: Enterprise
+    base_monthly_usd: 250
+    max_seats: 50
+    seat_label: investigator
+    provenance:
+      source_url: https://casejacket.com/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"ENTERPRISE — $250/m. — 50 Users, Core Case Management, Desktop & Mobile friendly, Unlimited Cases, 1 TB of Storage."'
+
+findings:
+  - id: casejacket-free-tier-caps
+    claim: >-
+      Case Jacket's free Basic tier is capped at 2 users and 25 cases with
+      10 GB of storage, while every paid tier above it allows unlimited
+      cases, per its own pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://casejacket.com/
+      fetched_at: 2026-09-04
+      method: live_fetch

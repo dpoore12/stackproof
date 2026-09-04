@@ -1,0 +1,17 @@
+Source: https://casejacket.com/ (Pricing Packages section)
+Fetched: 2026-09-04
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Pricing Packages — Pay monthly. No long-term contracts.
+
+BASIC — Free — 2 Users, Core Case Management, Desktop & Mobile
+friendly, 25 Cases, 10 GB Storage
+
+STANDARD — $40/m. — 5 Users, Core Case Management, Desktop & Mobile
+friendly, Unlimited Cases, 100 GB of Storage
+
+PROFESSIONAL — $100/m. — 10 Users, Core Case Management, Desktop &
+Mobile friendly, Unlimited Cases, 500 GB of Storage
+
+ENTERPRISE — $250/m. — 50 Users, Core Case Management, Desktop &
+Mobile friendly, Unlimited Cases, 1 TB of Storage
