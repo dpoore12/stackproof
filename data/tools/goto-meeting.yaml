@@ -1,0 +1,120 @@
+slug: goto-meeting
+vendor: GoTo
+product: GoTo Meeting
+category: video_conferencing
+url: https://www.goto.com/pricing/meeting
+free_trial: "Free trial with no payment information; length not stated on the pricing page (2026-09-04)."
+pricing_note: "Per-organizer pricing with no base fee; participants are free. Cards print the monthly rate struck beside the annual rate, and the FAQ confirms the annual totals ($144 and $192). The currency selector defaulted to USD on a German gateway."
+
+tiers:
+  - plan: Professional
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 12
+    seat_label: organizer
+    billing: annual
+    provenance:
+      source_url: https://www.goto.com/pricing/meeting
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch, currency USD. "Professional $14 $12/organizer /month, billed annually — Included: 150 Participants — SAVE 14%". FAQ: "costs $12 monthly (billed annually at $144)".'
+  - plan: Professional (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 14
+    seat_label: organizer
+    billing: monthly
+    provenance:
+      source_url: https://www.goto.com/pricing/meeting
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Struck monthly price "$14" on the Professional card.'
+  - plan: Business
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 16
+    seat_label: organizer
+    billing: annual
+    provenance:
+      source_url: https://www.goto.com/pricing/meeting
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Business $19 $16/organizer /month, billed annually — Included: 250 Participants — SAVE 16%". FAQ: "$16 per month (billed annually at $192)". Unlimited cloud recording, transcription, AI summary.'
+  - plan: Business (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 19
+    seat_label: organizer
+    billing: monthly
+    provenance:
+      source_url: https://www.goto.com/pricing/meeting
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Struck monthly price "$19" on the Business card.'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      GoTo Meeting plans can be changed online at any time from the account
+      page; no cancellation or refund terms are given (2026-09-04).
+    quote: "You can make changes to your plan online at any time."
+    provenance:
+      source_url: https://www.goto.com/pricing/meeting
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: auto_renew
+    status: stated
+    finding: >-
+      GoTo Meeting's trial takes no payment details and notifies the user
+      before expiry rather than converting automatically (2026-09-04).
+    quote: "We will notify you before your trial expires, and you can decide to subscribe to a paid plan or let your trial expire. No payment information required."
+    provenance:
+      source_url: https://www.goto.com/pricing/meeting
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      GoTo Meeting's pricing page states no data-export terms; Business
+      includes unlimited cloud recording and transcripts (2026-09-04).
+    provenance:
+      source_url: https://www.goto.com/pricing/meeting
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: goto-meeting-annual-discount
+    claim: >-
+      GoTo Meeting's annual billing saves 14% on Professional ($12 vs $14
+      per organizer a month) and 16% on Business ($16 vs $19), with annual
+      totals of $144 and $192 (2026-09-04).
+    provenance:
+      source_url: https://www.goto.com/pricing/meeting
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: goto-meeting-participant-caps
+    claim: >-
+      GoTo Meeting caps meetings at 150 participants on Professional and 250
+      on Business and Enterprise; audiences of 500 to 3,000 require GoTo
+      Webinar (2026-09-04).
+    provenance:
+      source_url: https://www.goto.com/pricing/meeting
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: goto-meeting-no-addon-fees-claim
+    claim: >-
+      GoTo Meeting's FAQ promises no add-on fees or variable bills, while
+      its compare table lists Enhanced Audio (toll-free numbers, Call Me,
+      dial out) as an add-on on all 3 plans (2026-09-04).
+    provenance:
+      source_url: https://www.goto.com/pricing/meeting
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: goto-meeting-recording-tier
+    claim: >-
+      GoTo Meeting reserves unlimited cloud recording, transcription and AI
+      meeting summaries for Business at $16 and above; Professional at $12
+      lacks them (2026-09-04).
+    provenance:
+      source_url: https://www.goto.com/pricing/meeting
+      fetched_at: 2026-09-04
+      method: live_fetch

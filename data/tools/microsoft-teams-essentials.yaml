@@ -1,0 +1,90 @@
+slug: microsoft-teams-essentials
+vendor: Microsoft
+product: Microsoft Teams Essentials
+category: video_conferencing
+url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-business-options
+free_trial: "Free trial offered; trial terms are linked, not stated. A free version of Teams exists but cannot be returned to after upgrading (stated 2026-09-04)."
+pricing_note: "Per-user pricing with no base fee on an annual, auto-renewing subscription paid yearly; the monthly-commitment rate is not printed. Teams Premium is an add-on tier recorded but not compared as a standalone meetings plan. Every user in the organization must be on the paid plan."
+
+tiers:
+  - plan: Teams Essentials
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 4
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-business-options
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered en-us page. "Microsoft Teams Essentials … $4.00 user/month, paid yearly (Annual subscription—auto renews)". FAQ: 30-hour meetings, 300 participants, 10 GB cloud storage per user. Marked Most popular.'
+  - plan: Teams Premium
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 10
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-business-options
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Microsoft Teams Premium $10.00 user/month, paid yearly (Annual subscription—auto renews)". An add-on to an existing Teams licence, so not compared as a standalone plan.'
+
+clauses:
+  - topic: auto_renew
+    status: stated
+    finding: >-
+      Teams Essentials is sold as an annual subscription that auto-renews,
+      paid yearly (2026-09-04).
+    quote: "Annual subscription—auto renews"
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-business-options
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Microsoft says an upgraded Teams account cannot revert to the free
+      version under the same email address, and all users in the
+      organization must be upgraded together (2026-09-04).
+    quote: "once you upgrade and convert from a free account to a paid account, you can’t revert to the free version using the same email address"
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-business-options
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      The Teams business comparison page states no data-export terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-business-options
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: teams-essentials-price-and-limits
+    claim: >-
+      Microsoft Teams Essentials costs $4 per user a month on an annual
+      commitment and allows 30-hour meetings with 300 participants and 10 GB
+      of cloud storage per user (2026-09-04).
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-business-options
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: teams-no-return-to-free
+    claim: >-
+      Microsoft blocks a return to free Teams after upgrading under the same
+      email and requires 100% of an organization's users to be on the paid
+      plan (2026-09-04).
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-business-options
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: teams-premium-addon-price
+    claim: >-
+      Microsoft Teams Premium is listed at $10 per user a month paid yearly
+      as an add-on tier, 2.5 times the Essentials price (2026-09-04).
+    provenance:
+      source_url: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-business-options
+      fetched_at: 2026-09-04
+      method: live_fetch

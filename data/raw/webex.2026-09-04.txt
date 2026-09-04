@@ -1,0 +1,14 @@
+URL: https://pricing.webex.com/us/en/hybrid-work/meetings/
+STATUS: 200
+FETCHED: 2026-09-04 01:02:59 +00:00 (US gateway 68.183.149.129)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main> (whitespace-collapsed). Tabs: Meetings (active) / Calling / Webinars & Events / Contact Center / CPaaS. Switch "Billed monthly / Billed annually" rendered annually; Call Me add-on toggle Domestic / International (International active). Monthly-billing figures were not captured.
+---
+Promo banner: "Unlock huge savings! Get 6 months free with 5+ licenses. Save $360 or more." Card: "EXCLUSIVE DEAL — Webex Meet — Buy 5 or more, get 6 months free."
+Webex Free — $0/user/year — unlimited meetings up to 40 min, up to 100 attendees, screen sharing, unlimited whiteboards, local recording, calendar integration, noise cancellation, unlimited messaging, Vidcast, basic support.
+Webex Meet — $144/user/year — $12/user/mo — AI Assistant included — unlimited meetings up to 24 hours, up to 200 attendees, 10 GB AI-powered cloud recording, Slido polling and Q&A, closed captions, advanced support.
+Webex Suite (Meet + Call) — $270/user/year — $22.50/user/mo — AI Assistant included — business phone number, call any telephone number, visual voicemail, 6-way conference calling, unlimited local and domestic long-distance calling; international long distance billed per minute.
+Webex Enterprise — Let's talk — up to 1,000 attendees, local and unlimited cloud recording, FedRAMP.
+Optional add-ons (Meet or Meet + Call): Call Me — Domestic (U.S. & Canada) $48/license/yr billed annually; International (70 countries/regions) $429/license/yr billed annually. Real-Time Translation — $300/license/yr (billed annually), 15-day free trial.
+FAQ — Free account needs no credit card. Host license vs participant: "get a host license for each person who needs to use your paid Webex plan. Anyone can join a Webex meeting as a participant, they don't need a host license." "Each additional license allows you to host a new concurrent meeting."
+FAQ — Payment: credit cards, debit cards, PayPal, Apple Pay.
+FAQ — How do I cancel my Webex paid plan? "You can cancel your paid plan any time via your account management portal. You can also downgrade to a free plan at any time. If you downgrade with time left in your billing period, you can continue to use your current plan until the current billing period ends. After the current billing period ends, you'll be moved to a Webex free plan."

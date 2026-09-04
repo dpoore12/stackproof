@@ -1,0 +1,140 @@
+slug: webex
+vendor: Cisco
+product: Webex Meetings
+category: video_conferencing
+url: https://pricing.webex.com/us/en/hybrid-work/meetings/
+free_trial: "Free plan without a credit card; a 6-months-free promotion applies to purchases of 5 or more licences (stated 2026-09-04)."
+pricing_note: "Per-host-licence pricing with no base fee; participants are free. Cards print the yearly total and a per-month equivalent on annual billing; the monthly-billing rate did not render. The 6-months-free offer for 5 or more licences is recorded as a promo, not applied to the tiers."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: licensed host
+    billing: monthly
+    provenance:
+      source_url: https://pricing.webex.com/us/en/hybrid-work/meetings/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Webex Free $0/user/year … Unlimited meetings, up to 40 min per meeting, Up to 100 attendees".'
+  - plan: Meet
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 12
+    seat_label: licensed host
+    billing: annual
+    promo: "Buy 5 or more licences and get 6 months free (dated banner on the page)."
+    provenance:
+      source_url: https://pricing.webex.com/us/en/hybrid-work/meetings/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered US page, "Billed annually" active. "Webex Meet … $144/user/year $12/user/mo AI Assistant included". 24-hour meetings, 200 attendees, 10 GB cloud recording.'
+  - plan: Suite (Meet + Call)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 22.5
+    seat_label: licensed host
+    billing: annual
+    provenance:
+      source_url: https://pricing.webex.com/us/en/hybrid-work/meetings/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Webex Suite Meet + Call $270/user/year $22.50/user/mo". Adds a business phone number and unlimited domestic calling; not compared as a meetings-only plan.'
+
+fees:
+  - name: Call Me add-on (domestic)
+    amount_usd: 48
+    unit: per licence per year, billed annually
+    applies_to: Meet and Suite
+    provenance:
+      source_url: https://pricing.webex.com/us/en/hybrid-work/meetings/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Call Me add-on … Domestic Covers U.S. & Canada $48/license/yr billed annually; International Covers 70 countries/regions $429/license/yr".'
+  - name: Real-Time Translation add-on
+    amount_usd: 300
+    unit: per licence per year, billed annually
+    applies_to: Meet and Suite
+    provenance:
+      source_url: https://pricing.webex.com/us/en/hybrid-work/meetings/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Real-Time Translation … $300/license/yr (billed annually)", 15-day free trial.'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Webex paid plans can be cancelled or downgraded any time from the
+      account portal, with paid features continuing to the end of the
+      billing period before the account drops to Free (2026-09-04).
+    quote: "If you downgrade with time left in your billing period, you can continue to use your current plan until the current billing period ends. After the current billing period ends, you'll be moved to a Webex free plan."
+    provenance:
+      source_url: https://pricing.webex.com/us/en/hybrid-work/meetings/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: auto_renew
+    status: stated
+    finding: >-
+      Webex takes no payment details for its free plan and promises no
+      surprise charges until a paid plan is chosen (2026-09-04).
+    quote: "we don’t take your credit card or any payment details when you sign up for a free plan"
+    provenance:
+      source_url: https://pricing.webex.com/us/en/hybrid-work/meetings/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Webex's pricing page states no refund terms (2026-09-04).
+    provenance:
+      source_url: https://pricing.webex.com/us/en/hybrid-work/meetings/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Webex's pricing page states no data-export terms for recordings or
+      messages (2026-09-04).
+    provenance:
+      source_url: https://pricing.webex.com/us/en/hybrid-work/meetings/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: webex-six-months-free-promo
+    claim: >-
+      Webex advertised 6 months free on Meet for purchases of 5 or more
+      licences on 2026-09-04, worth $360 or more against the $144 per
+      licence yearly price.
+    provenance:
+      source_url: https://pricing.webex.com/us/en/hybrid-work/meetings/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: webex-host-licence-model
+    claim: >-
+      Webex requires a host licence for each person who schedules paid
+      meetings and 1 extra licence per concurrent meeting; participants
+      join free without a licence (2026-09-04).
+    provenance:
+      source_url: https://pricing.webex.com/us/en/hybrid-work/meetings/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: webex-addon-costs
+    claim: >-
+      Webex's Call Me add-on costs $48 a year per licence for US and Canada
+      or $429 for 70 countries, and real-time translation $300 a year per
+      licence, each more than the $144 Meet licence itself (2026-09-04).
+    provenance:
+      source_url: https://pricing.webex.com/us/en/hybrid-work/meetings/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: webex-plan-limits
+    claim: >-
+      Webex Meet allows 24-hour meetings with 200 attendees and 10 GB of
+      cloud recording per licence, against 40 minutes and 100 attendees on
+      Free and 1,000 attendees on Enterprise (2026-09-04).
+    provenance:
+      source_url: https://pricing.webex.com/us/en/hybrid-work/meetings/
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -1,0 +1,111 @@
+slug: whereby
+vendor: Whereby
+product: Whereby Meetings
+category: video_conferencing
+url: https://whereby.com/information/meetings/pricing
+free_trial: "14-day free trial of Business, plus a Free plan with 30-minute meetings for 4 people (stated 2026-09-04)."
+pricing_note: "Per-host pricing with no base fee; Pro is a single-host plan and Business has a 3-host minimum, modelled as a base fee covering 3 hosts. The Monthly / Annual switch ('Save 17%') exposed no readable state, so the captured prices are recorded as monthly billing with the annual discount noted as a finding. Prices are in USD excluding VAT."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 1
+    seat_label: host
+    billing: monthly
+    provenance:
+      source_url: https://whereby.com/information/meetings/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free … 1 host … 1 room URL, 4 attendees per meeting, Meetings for up to 30 minutes".'
+  - plan: Pro
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 10.99
+    max_seats: 1
+    seat_label: host
+    billing: monthly
+    provenance:
+      source_url: https://whereby.com/information/meetings/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch on a US gateway. "Pro … $10.99 per month, 1 host … 3 room URLs, 100 attendees per meeting, No time limit". Switch state between Monthly and Annual (Save 17%) was not machine-readable.'
+  - plan: Business
+    base_monthly_usd: 41.97
+    per_seat_monthly_usd: 13.99
+    included_seats: 3
+    seat_label: host
+    billing: monthly
+    provenance:
+      source_url: https://whereby.com/information/meetings/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Business … $13.99 per month per host, Minimum 3 hosts … Unlimited room URLs, 200 attendees per meeting". Base fee is the 3-host minimum (3 × $13.99).'
+
+clauses:
+  - topic: cancellation
+    status: needs_account
+    finding: >-
+      Whereby's FAQ has a "How can I cancel my subscription?" entry whose
+      answer is collapsed and was not captured (2026-09-04).
+    provenance:
+      source_url: https://whereby.com/information/meetings/pricing
+      fetched_at: 2026-09-04
+      method: not_available
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Whereby quotes all prices in USD excluding VAT and offers annual
+      billing at a 17% saving (2026-09-04).
+    quote: "*All prices are in USD, excl. VAT"
+    provenance:
+      source_url: https://whereby.com/information/meetings/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Whereby's pricing page states no data-export terms; recording is
+      local on paid plans (2026-09-04).
+    provenance:
+      source_url: https://whereby.com/information/meetings/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: whereby-business-three-host-minimum
+    claim: >-
+      Whereby Business requires at least 3 hosts at $13.99 each, so its
+      entry price is $41.97 a month against $10.99 for a single Pro host
+      (2026-09-04).
+    provenance:
+      source_url: https://whereby.com/information/meetings/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: whereby-capacity-ladder
+    claim: >-
+      Whereby caps meetings at 4 participants and 30 minutes on Free, 100
+      participants on Pro and 200 on Business, with 4, 12 and 24 active
+      videos respectively (2026-09-04).
+    provenance:
+      source_url: https://whereby.com/information/meetings/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: whereby-annual-switch-unreadable
+    claim: >-
+      Whereby's pricing switch offers Annual billing at 17% off, but its
+      state was not machine-readable on 2026-09-04, so whether $10.99 and
+      $13.99 are monthly or annualised rates is unconfirmed.
+    provenance:
+      source_url: https://whereby.com/information/meetings/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: whereby-room-limits
+    claim: >-
+      Whereby limits permanent room links to 1 on Free and 3 on Pro, with
+      unlimited rooms, shared rooms and a custom subdomain reserved for
+      Business (2026-09-04).
+    provenance:
+      source_url: https://whereby.com/information/meetings/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -1,0 +1,14 @@
+URL: https://www.goto.com/pricing/meeting
+STATUS: 200
+FETCHED: 2026-09-04 01:04:27 +00:00 (German gateway 168.119.141.170; currency selector defaulted to USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main> (whitespace-collapsed). Currency selector USD / AUD / CAD / EUR / GBP; billing switch Monthly / Annually; each card prints the monthly price struck beside the annual per-organizer price. FAQ answers taken from the page's FAQPage JSON-LD.
+---
+Professional — $14 (monthly) / $12 per organizer per month, billed annually — Included: 150 participants — "SAVE 14%".
+Business — $19 (monthly) / $16 per organizer per month, billed annually — Included: 250 participants — "SAVE 16%".
+Enterprise — Contact us for custom packages; bundled discounts on meetings, webinars, room solutions and phones; up to 250 participants.
+Compare table: meeting capacity 150 / 250 / 250; unlimited meetings; unlimited cloud recording, AI meeting summary, transcription, note taking on Business and Enterprise; Enhanced Audio (toll-free numbers, Call Me, dial out) is an add-on; InRoom Link (SIP) Enterprise; Customer Success Manager, on-boarding and volume discounts Enterprise.
+FAQ — What does my subscription include? "Priced per user for unlimited video and audio meetings with no caps on meeting time, screen sharing, or chat functions. Free unlimited recording and transcripts are also included for Business accounts. No need to worry about add-on fees or variable bills."
+FAQ — What's the GoTo Meeting pricing? "GoTo Meeting Professional allows you to host meetings with up to 150 participants and costs $12 monthly (billed annually at $144). Our most popular option, GoTo Meeting Business costs $16 per month (billed annually at $192)."
+FAQ — How does the free trial work? "We will notify you before your trial expires, and you can decide to subscribe to a paid plan or let your trial expire. No payment information required."
+FAQ — How do I change my plan? "You can make changes to your plan online at any time. Sign in to your account and click My Account, then select Plan Selection or Change Plan."
+FAQ — More than 250 participants → GoTo Webinar (500, 1000, 3000).
