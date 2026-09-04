@@ -1,0 +1,32 @@
+source: https://truecoach.co/pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+h2 tier names: "The Starter Plan," "The Standard Plan," "The Pro Plan."
+h3 subtext: "For individual trainers who are just getting started in
+digital coaching" / "For growing fitness professionals looking to scale
+their business" / "For established fitness businesses aiming to
+maximize the coaching experience."
+
+Starter Plan — "Up to 5 active clients." $29.98/mo (monthly billing) /
+$26.34/mo (billed annually, "1 MONTH FREE*").
+
+Standard Plan (marked "Most popular") — "Up to 20 active clients."
+$69.98/mo (monthly) / $57.99/mo (billed annually, "2 MONTHS FREE*").
+
+Pro Plan — "Up to 50 active clients." $164.98/mo (monthly) / $136.99/mo
+(billed annually, "2 MONTHS FREE*").
+
+All three raw dollar figures confirmed directly from page HTML via
+regex scan: ["$29.98","$26.34","$26.34","$69.98","$57.99","$57.99",
+"$164.98","$136.99","$136.99"].
+
+FAQ h2: "What if I have more than 250 clients?" (implies a
+quote-gated/custom path beyond 250 clients; nothing beyond the 50-client
+Pro cap is priced in static text — the 50-250 range and 250+ range are
+both unpriced here). FAQ h2: "What does this cost for my clients?"
+(clients are not charged; per the page's own framing).
+
+"Are there any extra fees?" FAQ present but content not captured in this
+fetch (no additional fee amounts found in the dollar-regex scan beyond
+the three tier prices).

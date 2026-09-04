@@ -1,0 +1,115 @@
+slug: everfit
+vendor: Everfit
+product: Everfit
+category: personal_training_fitness_coaching
+url: https://everfit.io/pricing/
+pricing_note: 'Pro and Studio both price by a genuine stepped client-count table (confirmed in full as static page text), not a flat per-client rate — cost_at() reads the smallest step that covers the requested client count. Enterprise is fully quote-gated and not recorded. The Starter tier is $0 and is marked `compare: false` per this site''s standing rule that a $0 plan never ranks as "cheapest" in a category table, even though it is a genuine non-trial 5-client product.'
+
+tiers:
+  - plan: Starter (free)
+    compare: false
+    base_monthly_usd: 0
+    max_seats: 5
+    seat_label: client
+    provenance:
+      source_url: https://everfit.io/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Starter — Forever Free / Free. Train up to 5 clients."'
+
+  - plan: Pro (annual billing)
+    seat_label: client
+    billing: annual
+    steps:
+      - {up_to: 5, monthly_usd: 16}
+      - {up_to: 10, monthly_usd: 24}
+      - {up_to: 20, monthly_usd: 41}
+      - {up_to: 35, monthly_usd: 63}
+      - {up_to: 50, monthly_usd: 79}
+      - {up_to: 75, monthly_usd: 100}
+      - {up_to: 100, monthly_usd: 117}
+      - {up_to: 125, monthly_usd: 133}
+      - {up_to: 150, monthly_usd: 150}
+      - {up_to: 200, monthly_usd: 183}
+      - {up_to: 250, monthly_usd: 213}
+      - {up_to: 300, monthly_usd: 242}
+    provenance:
+      source_url: https://everfit.io/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pro — From $19 $16 /mo." Full client-count step table confirmed via raw page text, annual-billing column, e.g. "5 clients - $3.17 / client" through "300 clients - $0.81 / client."'
+  - plan: Pro (monthly billing)
+    compare: false
+    seat_label: client
+    billing: monthly
+    steps:
+      - {up_to: 5, monthly_usd: 19}
+      - {up_to: 10, monthly_usd: 29}
+      - {up_to: 20, monthly_usd: 49}
+      - {up_to: 35, monthly_usd: 75}
+      - {up_to: 50, monthly_usd: 95}
+      - {up_to: 75, monthly_usd: 120}
+      - {up_to: 100, monthly_usd: 140}
+      - {up_to: 125, monthly_usd: 160}
+      - {up_to: 150, monthly_usd: 180}
+      - {up_to: 200, monthly_usd: 220}
+      - {up_to: 250, monthly_usd: 255}
+      - {up_to: 300, monthly_usd: 290}
+    provenance:
+      source_url: https://everfit.io/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Month-to-month client-count step table for Pro, e.g. "5 clients - $3.8 / client" through "300 clients - $0.97 / client."'
+
+  - plan: Studio (annual billing)
+    seat_label: client
+    billing: annual
+    steps:
+      - {up_to: 50, monthly_usd: 88}
+      - {up_to: 75, monthly_usd: 113}
+      - {up_to: 100, monthly_usd: 138}
+      - {up_to: 150, monthly_usd: 171}
+      - {up_to: 200, monthly_usd: 208}
+      - {up_to: 250, monthly_usd: 242}
+      - {up_to: 300, monthly_usd: 271}
+      - {up_to: 350, monthly_usd: 296}
+      - {up_to: 400, monthly_usd: 321}
+      - {up_to: 450, monthly_usd: 342}
+      - {up_to: 500, monthly_usd: 358}
+    provenance:
+      source_url: https://everfit.io/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Studio — From $105 $88 /mo. Built for established online coaching businesses, studios, and gyms scaling digital programs and team management." Full client-count step table confirmed via raw page text, annual-billing column, e.g. "50 clients - $1.75 / client" through "500 clients - $0.72 / client."'
+  - plan: Studio (monthly billing)
+    compare: false
+    seat_label: client
+    billing: monthly
+    steps:
+      - {up_to: 50, monthly_usd: 105}
+      - {up_to: 75, monthly_usd: 135}
+      - {up_to: 100, monthly_usd: 165}
+      - {up_to: 150, monthly_usd: 205}
+      - {up_to: 200, monthly_usd: 249}
+      - {up_to: 250, monthly_usd: 290}
+      - {up_to: 300, monthly_usd: 325}
+      - {up_to: 350, monthly_usd: 355}
+      - {up_to: 400, monthly_usd: 385}
+      - {up_to: 450, monthly_usd: 410}
+      - {up_to: 500, monthly_usd: 430}
+    provenance:
+      source_url: https://everfit.io/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Month-to-month client-count step table for Studio, e.g. "50 clients - $2.1 / client" through "500 clients - $0.86 / client."'
+
+findings:
+  - id: everfit-enterprise-quote-gated
+    claim: >-
+      Everfit's Enterprise plan ("Everything in Studio, plus" white
+      labeling, API access, and Apple/Google developer support) is
+      priced only by custom quote as of 2026-09-04, not published.
+    provenance:
+      source_url: https://everfit.io/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

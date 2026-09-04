@@ -1010,6 +1010,38 @@ entirely behind an interactive slider with no fallback text either).
 
 Database is now 205 tools across 48 categories.
 
+### Personal training / fitness coaching software (2026-09-04)
+
+Three vendors: TrueCoach, Everfit, Trainerize. Seat axis is "clients"
+(5, 10, 25, 50, 100).
+
+TrueCoach's three tiers (Starter/Standard/Pro) are flat, seat-capped
+plans with explicit "Up to N active clients" limits (5/20/50) stated
+directly on the page — no per-client formula, just a plan swap; its own
+FAQ asks "What if I have more than 250 clients?", and nothing between
+50 and 250 clients is priced in static text either, so cost is left
+unknown past the Pro cap.
+
+Everfit is the richest source found this segment: its Pro and Studio
+tiers each price by a genuine client-count step table — not a flat
+per-client rate — and, unusually for this site's "starting at" pattern,
+the *entire* table (all client-count breakpoints, both monthly and
+annual billing) was recovered as static page text rather than only the
+lowest starting figure, so both are modeled with real `steps`. Its free
+Starter tier (5 clients, $0) is `compare: false` per this site's
+standing rule that a $0 plan never ranks "cheapest," even though it's a
+genuine non-trial product.
+
+Trainerize also prices by client count, but only the currently-selected
+step of its client-count selector renders as static text (client-side
+JS swaps the price on selection); the fuller schedules behind Basic's
+and Pro 5's selectors were not recovered, so both are recorded
+`compare: false` as starting figures only, and Grow/Studio Plus were not
+recorded at all — their base prices could not be isolated from a long
+repeating add-on price sequence on the same page.
+
+Database is now 208 tools across 49 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

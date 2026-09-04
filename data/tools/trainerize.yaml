@@ -1,0 +1,48 @@
+slug: trainerize
+vendor: ABC Trainerize
+product: Trainerize
+category: personal_training_fitness_coaching
+url: https://www.trainerize.com/pricing/
+pricing_note: 'Trainerize prices Basic, Pro 5, Grow, and Studio Plus by a client-count selector, but only the currently-selected step''s price is rendered as static page text (client-side JS swaps the displayed dollar figure on selection); the fuller schedules behind each selector (Basic: 2/5/15 clients; Pro 5: 5/15/30/50/75/100/200 clients) were not captured as static text. Only the lowest confirmed starting figures are recorded here, both as `compare: false`, so this vendor is never ranked "cheapest" in the category table on data this site could not fully verify. Grow and Studio Plus base prices could not be isolated from the page''s add-on price noise and are not recorded at all.'
+
+tiers:
+  - plan: Basic
+    compare: false
+    base_monthly_usd: 10
+    max_seats: 2
+    seat_label: client
+    provenance:
+      source_url: https://www.trainerize.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Individual Trainer" plan. Client-count selector defaults to "Up to 2 clients" at "$10 USD/month."'
+  - plan: Pro 5 (starting figure, billing period unconfirmed)
+    compare: false
+    base_monthly_usd: 23
+    max_seats: 5
+    seat_label: client
+    provenance:
+      source_url: https://www.trainerize.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pro 5 — Coaching 5 to 200 clients and ready to scale." Client-count selector defaults to "5" clients at "$23 / month." A Monthly/Annual billing toggle exists elsewhere on the page; which state is active by default (and so whether $23 is the monthly or annual rate) could not be confirmed from static text.'
+
+findings:
+  - id: trainerize-free-1-client-tier
+    claim: >-
+      Trainerize offers a free plan capped at 1 client, per its own
+      pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://www.trainerize.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: trainerize-pro-5-client-count-selector
+    claim: >-
+      Trainerize's Pro 5 plan uses a client-count selector with steps at
+      5, 15, 30, 50, 75, 100, and 200 clients, per its own pricing page
+      as of 2026-09-04; only the 5-client step's price appears as
+      static page text.
+    provenance:
+      source_url: https://www.trainerize.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

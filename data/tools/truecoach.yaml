@@ -1,0 +1,81 @@
+slug: truecoach
+vendor: TrueCoach
+product: TrueCoach
+category: personal_training_fitness_coaching
+url: https://truecoach.co/pricing/
+
+tiers:
+  - plan: Starter
+    base_monthly_usd: 26.34
+    max_seats: 5
+    seat_label: client
+    billing: annual
+    provenance:
+      source_url: https://truecoach.co/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"The Starter Plan — Up to 5 active clients." $26.34/mo billed annually ("1 MONTH FREE*"). "For individual trainers who are just getting started in digital coaching."'
+  - plan: Starter (monthly billing)
+    compare: false
+    base_monthly_usd: 29.98
+    max_seats: 5
+    seat_label: client
+    billing: monthly
+    provenance:
+      source_url: https://truecoach.co/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '$29.98/mo month-to-month rate on the Starter card.'
+  - plan: Standard
+    base_monthly_usd: 57.99
+    max_seats: 20
+    seat_label: client
+    billing: annual
+    provenance:
+      source_url: https://truecoach.co/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"The Standard Plan — Up to 20 active clients." $57.99/mo billed annually ("2 MONTHS FREE*"). Marked "Most popular."'
+  - plan: Standard (monthly billing)
+    compare: false
+    base_monthly_usd: 69.98
+    max_seats: 20
+    seat_label: client
+    billing: monthly
+    provenance:
+      source_url: https://truecoach.co/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '$69.98/mo month-to-month rate on the Standard card.'
+  - plan: Pro
+    base_monthly_usd: 136.99
+    max_seats: 50
+    seat_label: client
+    billing: annual
+    provenance:
+      source_url: https://truecoach.co/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"The Pro Plan — Up to 50 active clients." $136.99/mo billed annually ("2 MONTHS FREE*"). "For established fitness businesses aiming to maximize the coaching experience."'
+  - plan: Pro (monthly billing)
+    compare: false
+    base_monthly_usd: 164.98
+    max_seats: 50
+    seat_label: client
+    billing: monthly
+    provenance:
+      source_url: https://truecoach.co/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '$164.98/mo month-to-month rate on the Pro card.'
+
+findings:
+  - id: truecoach-over-250-clients-quote-gated
+    claim: >-
+      TrueCoach's pricing FAQ asks "What if I have more than 250
+      clients?", and no plan above the 50-client Pro tier is priced on
+      its public pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://truecoach.co/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
