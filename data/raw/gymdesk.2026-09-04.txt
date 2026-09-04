@@ -1,0 +1,10 @@
+URL: https://gymdesk.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 18:10:57 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText and slicing from the "Build Your Price" interactive calculator section, whose full tier table is embedded directly in an inline <script> as a plain JS array (not just DOM text).
+
+Interactive calculator's embedded tier table, tiered by active members ("Visitors, frozen or cancelled members and prospects are not counted towards the active member count"), month to month, no contract: Micro Gym up to 50 active members -- $75/month. Small Gym up to 100 -- $100/month. Medium Gym up to 200 -- $150/month. Large Gym up to 400 -- $200/month. Enterprise, 400+ active members -- "Above 400 active members we build the plan around your setup, so there is no published rate to show."
+Every tier includes the full platform -- "Every plan includes the full platform... never pay extra for a feature."
+Additional locations: "Your first location is included. Each additional one is $50 a month, and every location shares the same member database, staff accounts and reporting."
+Optional add-ons: Door access (beta) "$100/mo covers up to 3 doors, then $29 per extra door," hardware/installation quoted separately. Branded member app "$100/mo, first month free."
+"No Exit Fee. Not for Data, Not Ever... We do not charge you to cancel and we do not charge you to take your records with you." No contract, month-to-month, 30-day free trial, no credit card required.
