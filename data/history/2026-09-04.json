@@ -3965,6 +3965,44 @@
    ],
    "vendor": "Kicksite"
   },
+  "kindhoa": {
+   "category": "hoa_community_association_management",
+   "fees": [],
+   "product": "KindHOA",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Good Neighbor",
+     "source_url": "https://kindhoa.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 29.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Board Automation",
+     "source_url": "https://kindhoa.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 25.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Board Automation (annual billing)",
+     "source_url": "https://kindhoa.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "KindHOA"
+  },
   "kit": {
    "category": "email_marketing",
    "fees": [],
@@ -5692,6 +5730,100 @@
     }
    ],
    "vendor": "Patriot Software"
+  },
+  "payhoa": {
+   "category": "hoa_community_association_management",
+   "fees": [],
+   "product": "PayHOA",
+   "tiers": [
+    {
+     "base_monthly_usd": null,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "PayHOA",
+     "source_url": "https://www.payhoa.com/pricing/",
+     "steps": [
+      {
+       "monthly_usd": 49.0,
+       "up_to": 25
+      },
+      {
+       "monthly_usd": 59.0,
+       "up_to": 50
+      },
+      {
+       "monthly_usd": 99.0,
+       "up_to": 100
+      },
+      {
+       "monthly_usd": 129.0,
+       "up_to": 150
+      },
+      {
+       "monthly_usd": 169.0,
+       "up_to": 200
+      },
+      {
+       "monthly_usd": 199.0,
+       "up_to": 300
+      },
+      {
+       "monthly_usd": 229.0,
+       "up_to": 400
+      },
+      {
+       "monthly_usd": 249.0,
+       "up_to": 500
+      }
+     ]
+    },
+    {
+     "base_monthly_usd": null,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "PayHOA (monthly billing)",
+     "source_url": "https://www.payhoa.com/pricing/",
+     "steps": [
+      {
+       "monthly_usd": 54.0,
+       "up_to": 25
+      },
+      {
+       "monthly_usd": 65.0,
+       "up_to": 50
+      },
+      {
+       "monthly_usd": 109.0,
+       "up_to": 100
+      },
+      {
+       "monthly_usd": 142.0,
+       "up_to": 150
+      },
+      {
+       "monthly_usd": 186.0,
+       "up_to": 200
+      },
+      {
+       "monthly_usd": 219.0,
+       "up_to": 300
+      },
+      {
+       "monthly_usd": 252.0,
+       "up_to": 400
+      },
+      {
+       "monthly_usd": 275.0,
+       "up_to": 500
+      }
+     ]
+    }
+   ],
+   "vendor": "PayHOA"
   },
   "pcloud-business": {
    "category": "cloud_storage",
@@ -7866,6 +7998,34 @@
     }
    ],
    "vendor": "Tovuti LLC"
+  },
+  "townsq": {
+   "category": "hoa_community_association_management",
+   "fees": [],
+   "product": "TownSq",
+   "tiers": [
+    {
+     "base_monthly_usd": 90.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Pro",
+     "source_url": "https://www.townsq.io/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 145.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Advanced",
+     "source_url": "https://www.townsq.io/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "TownSq"
   },
   "tradify": {
    "category": "field_service_management",

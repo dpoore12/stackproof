@@ -1,0 +1,58 @@
+slug: kindhoa
+vendor: KindHOA
+product: KindHOA
+category: hoa_community_association_management
+url: https://kindhoa.com/pricing
+pricing_note: 'KindHOA explicitly markets "No per-unit pricing. Ever." — both tiers are flat regardless of community size. The free "Good Neighbor" tier is a genuine, full self-managed-HOA product (not a limited trial); KindHOA''s own FAQ says it is subsidized by a platform fee on online dues payments (1.2% cards / 1% ACH, capped at $8) rather than by feature limits, and upgrading to Board Automation lowers that platform fee (1% / 0.8%, capped at $5) in addition to adding automation features. Good Neighbor is `compare: false` per this site''s standing rule that a $0 plan never ranks as "cheapest" in a category table.'
+
+tiers:
+  - plan: Good Neighbor
+    compare: false
+    base_monthly_usd: 0
+    seat_label: unit
+    billing: monthly
+    provenance:
+      source_url: https://kindhoa.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'JSON-LD AggregateOffer: "Good Neighbor" price 0.00 USD. "Good Neighbor stays $0 forever."'
+  - plan: Board Automation
+    base_monthly_usd: 29
+    seat_label: unit
+    billing: monthly
+    provenance:
+      source_url: https://kindhoa.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'JSON-LD AggregateOffer: "Board Automation monthly" price 29.00 USD.'
+  - plan: Board Automation (annual billing)
+    compare: false
+    base_monthly_usd: 25
+    seat_label: unit
+    billing: annual
+    provenance:
+      source_url: https://kindhoa.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'JSON-LD AggregateOffer: "Board Automation yearly" price 300.00 USD ($300/12 = $25/mo).'
+
+findings:
+  - id: kindhoa-payhoa-buildium-comparison
+    claim: >-
+      KindHOA's own pricing page states "PayHOA charges $99/mo for 100
+      units" and "Buildium charges $192/mo for AI & automation" as
+      direct competitor comparisons (2026-09-04).
+    provenance:
+      source_url: https://kindhoa.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: kindhoa-platform-fee-funding-model
+    claim: >-
+      KindHOA's FAQ states Good Neighbor is free because it is
+      "supported by a small platform fee on online payments — 1.2% for
+      cards and 1% for ACH (capped at $8)," with Board Automation
+      lowering that to "1% / 0.8% (capped at $5)" (2026-09-04).
+    provenance:
+      source_url: https://kindhoa.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

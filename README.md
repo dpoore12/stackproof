@@ -959,6 +959,35 @@ on their respective axes.
 
 Database is now 199 tools across 46 categories.
 
+### HOA / community association management software (2026-09-04)
+
+Three vendors: PayHOA, TownSq, KindHOA. Seat axis is "units"
+(25, 50, 100, 250, 500).
+
+PayHOA publishes a genuine, fully-quantified unit-count step table in
+both monthly and annual billing directly on its own page — 0-25 units
+$49/mo (annual) up through 401-500 units $249/mo, with all features
+included at every tier — recorded as `steps`; above 500 units it
+switches to a flat $0.55/unit/month rate with a $275/month minimum,
+not modeled since this category's seat points top out at 500. TownSq's
+page has a "Select the size of your community" selector, but the two
+priced tiers (Pro $90/mo, Advanced $145/mo) show as flat headline
+figures regardless of which size option this fetch captured — no
+per-unit scaling formula appears in the page's static text — so
+they're recorded as flat prices; Enterprise (multiple associations) is
+fully quote-gated. KindHOA explicitly markets "No per-unit pricing.
+Ever.": a genuine $0-forever "Good Neighbor" tier (subsidized by a
+platform fee on online dues payments per its own FAQ, not by feature
+limits) and a flat $29/month "Board Automation" tier. Good Neighbor is
+`compare: false` per this site's standing rule that a $0 plan never
+ranks as "cheapest" in a category table, even when — as here — it is
+a fully-featured product rather than a limited trial.
+
+Condo Control and FrontSteps were also researched but are fully
+quote-gated with no self-serve pricing published; not recorded.
+
+Database is now 202 tools across 47 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

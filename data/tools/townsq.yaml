@@ -1,0 +1,45 @@
+slug: townsq
+vendor: TownSq
+product: TownSq
+category: hoa_community_association_management
+url: https://www.townsq.io/pricing
+pricing_note: 'TownSq''s pricing page has a "Select the size of your community" selector (Up to 300 units / 301-900 / 900+), but the two priced tiers show flat "$90/mo" and "$145/mo" headline figures as static text regardless of which size option this fetch captured — no per-unit scaling formula tied to that selector appears in the page''s static text, so these are recorded as flat headline prices. Enterprise (multiple associations / management companies) is fully quote-gated and not recorded as a tier.'
+
+tiers:
+  - plan: Pro
+    base_monthly_usd: 90
+    seat_label: unit
+    billing: monthly
+    provenance:
+      source_url: https://www.townsq.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pro — 90/mo." Includes Announcements, Website (Custom Domain), Group customization, Requests, Tasks and assignments.'
+  - plan: Advanced
+    base_monthly_usd: 145
+    seat_label: unit
+    billing: monthly
+    provenance:
+      source_url: https://www.townsq.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Advanced — 145/mo." "All Pro features +" Audit logs, Guest authorizations, Architectural reviews, TownSq Business workspace access.'
+
+findings:
+  - id: townsq-annual-discount
+    claim: >-
+      TownSq states "Save 10% on annual plans" on its own pricing page
+      (2026-09-04).
+    provenance:
+      source_url: https://www.townsq.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: townsq-digital-voting-addon
+    claim: >-
+      TownSq charges $250 per voting event plus a $25 one-time
+      administrative setup fee for its Digital Voting add-on module,
+      per its own pricing page (2026-09-04).
+    provenance:
+      source_url: https://www.townsq.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

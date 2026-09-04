@@ -1,0 +1,20 @@
+source: https://kindhoa.com/pricing
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+h1: "Premium HOA software. $0 forever, $29/mo, or $300/year."
+JSON-LD AggregateOffer: "Good Neighbor" $0.00 USD, "Board Automation
+monthly" $29.00 USD, "Board Automation yearly" $300.00 USD.
+
+"No per-unit pricing. Ever." "Good Neighbor stays $0 forever."
+Comparison callouts on the page: "PayHOA charges $99/mo for 100
+units." "Buildium charges $192/mo for AI & automation."
+
+FAQ: "Why is Good Neighbor free forever? It's supported by a small
+platform fee on online payments — 1.2% for cards and 1% for ACH
+(capped at $8) — plus standard Stripe processing. Upgrading to Board
+Automation lowers your platform fee to 1% / 0.8% (capped at $5). We
+only earn when you're successfully collecting dues." "Can I start on
+Good Neighbor and upgrade later? ... Most communities start on Good
+Neighbor ($0 forever) and upgrade when they want automation or lower
+fees."

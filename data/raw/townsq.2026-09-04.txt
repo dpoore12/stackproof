@@ -1,0 +1,27 @@
+source: https://www.townsq.io/pricing
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+Page meta description: "Flexible pricing for communities of all sizes.
+Pro starts at $90/mo, Advanced at $145/mo. Enterprise solutions
+available. Save 10% on annual plans."
+
+"Select the size of your community: Up to 300 units / 301-900 units /
+900+ units" — a selector is present, but the two priced tiers show
+"Pro 90/mo" and "Advanced 145/mo" as static text regardless of which
+size option is captured in this fetch; no per-unit scaling formula
+tied to that selector appears as static text. "Paid Monthly (USD) —
+Save 10% on annual." Enterprise: "Custom — Request a quote" for
+management companies with multiple associations.
+
+Pro includes: Announcements, Website (Custom Domain), Group
+customization, Requests, Tasks and assignments. Advanced adds: Audit
+logs, Guest authorizations, Architectural reviews, and TownSq Business
+workspace access.
+
+Add-on modules (priced per community per month): Digital Voting $250
+per voting event + $25 one-time setup; Architectural Request and
+Review $20/mo; Website builder $10/mo; Violations and Inspection
+Tracking $20/mo; News & Events Emergency Broadcast $20/mo; Request
+Interception and Suggested Reply (AI) $20/mo; Concierge Services
+(Package Control, Guest Access Control, Shift Logs) $99/mo.
