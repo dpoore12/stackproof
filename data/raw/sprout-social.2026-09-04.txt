@@ -1,0 +1,20 @@
+URL: https://sproutsocial.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 00:33:44 +00:00 (German gateway 168.119.141.170; prices rendered in USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main> (whitespace-collapsed). Header states "No credit card required. Annual billing." and cards print the annual per-seat rate; the Essentials card also prints its monthly-billing rate. FAQ bodies are collapsed accordions (questions only in innerText).
+---
+"Try Sprout free for 30 days — No credit card required. Annual billing."
+Standard — $199 per seat/month — 5 social profiles, consolidated inbox, keyword and location monitoring, Trellis AI agent, review management.
+Professional (Most popular) — $299 per seat/month — unlimited social profiles, message tagging, competitor/tag/paid insights, Enhance Post by AI Assist.
+Advanced — $399 per seat/month — Enhance Reply by AI Assist, sentiment, Sprout API and helpdesk integrations, team productivity reports, message spike alerts.
+Enterprise — Custom — white-glove onboarding, SSO setup, priority support.
+NEW — Essentials — "Created for social media professionals focused on simplifying publishing workflows" — connect up to 5 social profiles — $79 per seat/month; "$99 per seat/month billed monthly."
+Plan overview: Social profiles 5 / 5 / Unlimited / Unlimited (Essentials, Standard, Professional, Advanced). Monthly AI agent credits per seat 100 on every plan. Brand keywords per group: not included / 10 / 10 / 20.
+Add-ons: Premium Analytics and Listening "each available as individual add-ons to the Standard plan and up" (no price). Employee Advocacy add-on, Standard and up (no price). Professional Services, multiple package levels. Influencer Marketing — no Sprout plan required, "Pay creator fees".
+Meta description: "Pricing starts at $79 per month."
+FAQ questions on the page: What happens when my free trial ends? What is the difference between annual and monthly billing? How much does Trellis cost and how do credits work? Does Sprout Social offer special pricing for nonprofit organizations? Can I change my plan? What are my payment options?
+FAQ answers from the page's FAQPage JSON-LD (second fetch 00:34:26 +00:00):
+— What happens when my free trial ends? "After your 30-day free trial, you'll be asked to pick a plan and enter your payment info."
+— Annual vs monthly: "Annual billing requires a one-time upfront payment for the entire subscription term … Monthly billing for customers with month-to-month subscription terms has a higher cost per month". Monthly billing pricing: Essentials $99 per seat/month; Standard $249 per seat/month; Professional $399 per seat/month; Advanced $499 per seat/month.
+— Trellis credits: "All users receive a monthly allowance of 100 Trellis credits included in their base plan. This limit automatically resets monthly." Trellis Plus: Annual billing $28 per user/month; Monthly billing $35 per user/month. Credit usage depends on prompt complexity and data volume.
+— Nonprofit pricing: "Yes, on our Professional and Advanced plans for nonprofit organizations in the US."

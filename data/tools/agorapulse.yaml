@@ -1,0 +1,79 @@
+slug: agorapulse
+vendor: Agorapulse
+product: Agorapulse
+category: social_scheduling
+url: https://www.agorapulse.com/pricing/
+free_trial: "30-day free trial with no credit card, plus a free plan referenced in the FAQ (stated 2026-09-04)."
+pricing_note: "Per-user pricing with no base fee and a 10-profile cap on every self-serve plan. All 3 automated fetches on 2026-09-04 were geo-routed to EUR pricing, so USD prices were not captured; the EUR figures are recorded as findings pending a US-region fetch."
+
+tiers: []
+
+clauses:
+  - topic: auto_renew
+    status: stated
+    finding: >-
+      Agorapulse takes no card for its 30-day trial and states there are no
+      automatic charges when it ends (2026-09-04).
+    quote: "No pressure, no automatic charges."
+    provenance:
+      source_url: https://www.agorapulse.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Agorapulse's pricing page says plans can be switched anytime but
+      states no cancellation or refund terms (2026-09-04).
+    provenance:
+      source_url: https://www.agorapulse.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Agorapulse's pricing page states no data-export terms beyond branded
+      report export (2026-09-04).
+    provenance:
+      source_url: https://www.agorapulse.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: agorapulse-pricing-geo-routed-eur
+    claim: >-
+      On 2026-09-04, 3 of 3 automated fetches of agorapulse.com/pricing
+      rendered EUR prices through German gateways, so USD prices are not
+      machine-recorded.
+    provenance:
+      source_url: https://www.agorapulse.com/pricing/
+      fetched_at: 2026-09-04
+      method: not_available
+  - id: agorapulse-eur-plan-prices
+    claim: >-
+      Agorapulse's European page on 2026-09-04 listed Standard at €79 per
+      user a month on annual billing (€99 monthly), Professional €119
+      (€149) and Advanced €149 (€199), with extra profiles at €10 (€15)
+      each.
+    provenance:
+      source_url: https://www.agorapulse.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: agorapulse-profile-cap
+    claim: >-
+      Agorapulse caps Standard, Professional and Advanced at 10 social
+      profiles each, with only the quote-only Custom plan unlimited; Advanced
+      allows 5 shared calendars and CSV bulk scheduling of up to 200 posts
+      (2026-09-04).
+    provenance:
+      source_url: https://www.agorapulse.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: agorapulse-annual-savings
+    claim: >-
+      Agorapulse's cards state annual savings of €240, €360 and €600 a year
+      per user on Standard, Professional and Advanced, which is 20% to 25%
+      off the monthly rate (2026-09-04).
+    provenance:
+      source_url: https://www.agorapulse.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

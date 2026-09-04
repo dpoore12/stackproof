@@ -77,6 +77,13 @@
    ],
    "vendor": "Squarespace"
   },
+  "agorapulse": {
+   "category": "social_scheduling",
+   "fees": [],
+   "product": "Agorapulse",
+   "tiers": [],
+   "vendor": "Agorapulse"
+  },
   "asana": {
    "category": "project_management",
    "fees": [],
@@ -1186,6 +1193,44 @@
    ],
    "vendor": "Homebase"
   },
+  "hootsuite": {
+   "category": "social_scheduling",
+   "fees": [],
+   "product": "Hootsuite",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 99.0,
+     "plan": "Standard",
+     "source_url": "https://www.hootsuite.com/plans",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 199.0,
+     "plan": "Professional",
+     "source_url": "https://www.hootsuite.com/plans",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 399.0,
+     "plan": "Advanced",
+     "source_url": "https://www.hootsuite.com/plans",
+     "steps": null
+    }
+   ],
+   "vendor": "Hootsuite"
+  },
   "hubspot-crm": {
    "category": "crm",
    "fees": [],
@@ -1431,6 +1476,87 @@
    "product": "Kit",
    "tiers": [],
    "vendor": "Kit (formerly ConvertKit)"
+  },
+  "later": {
+   "category": "social_scheduling",
+   "fees": [
+    {
+     "amount_usd": 11.25,
+     "fetched_at": "2026-09-04",
+     "name": "Extra Social Set",
+     "unit": "per social set per month, yearly billing"
+    },
+    {
+     "amount_usd": 3.75,
+     "fetched_at": "2026-09-04",
+     "name": "Extra AI credits",
+     "unit": "per 100 credits per month, yearly billing"
+    }
+   ],
+   "product": "Later Social",
+   "tiers": [
+    {
+     "base_monthly_usd": 18.75,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter",
+     "source_url": "https://later.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 25.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter (monthly)",
+     "source_url": "https://later.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 37.5,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 3.75,
+     "plan": "Growth",
+     "source_url": "https://later.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 50.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 5.0,
+     "plan": "Growth (monthly)",
+     "source_url": "https://later.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 82.5,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 3.75,
+     "plan": "Scale",
+     "source_url": "https://later.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 110.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 5.0,
+     "plan": "Scale (monthly)",
+     "source_url": "https://later.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Later"
   },
   "livechat": {
    "category": "live_chat",
@@ -1839,6 +1965,64 @@
    ],
    "vendor": "Pipedrive"
   },
+  "publer": {
+   "category": "social_scheduling",
+   "fees": [],
+   "product": "Publer",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://publer.com/plans",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 4.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Professional (1 social account)",
+     "source_url": "https://publer.com/plans",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 5.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Professional (1 social account, monthly)",
+     "source_url": "https://publer.com/plans",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 8.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Business (1 social account)",
+     "source_url": "https://publer.com/plans",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 10.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Business (1 social account, monthly)",
+     "source_url": "https://publer.com/plans",
+     "steps": null
+    }
+   ],
+   "vendor": "Publer"
+  },
   "quickbooks-online": {
    "category": "accounting",
    "fees": [],
@@ -2041,6 +2225,101 @@
     }
    ],
    "vendor": "airSlate"
+  },
+  "sprout-social": {
+   "category": "social_scheduling",
+   "fees": [
+    {
+     "amount_usd": 28.0,
+     "fetched_at": "2026-09-04",
+     "name": "Trellis Plus AI add-on",
+     "unit": "per user per month, annual billing ($35 on monthly billing)"
+    }
+   ],
+   "product": "Sprout Social",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 79.0,
+     "plan": "Essentials",
+     "source_url": "https://sproutsocial.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 99.0,
+     "plan": "Essentials (monthly)",
+     "source_url": "https://sproutsocial.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 199.0,
+     "plan": "Standard",
+     "source_url": "https://sproutsocial.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 249.0,
+     "plan": "Standard (monthly)",
+     "source_url": "https://sproutsocial.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 299.0,
+     "plan": "Professional",
+     "source_url": "https://sproutsocial.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 399.0,
+     "plan": "Professional (monthly)",
+     "source_url": "https://sproutsocial.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 399.0,
+     "plan": "Advanced",
+     "source_url": "https://sproutsocial.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 499.0,
+     "plan": "Advanced (monthly)",
+     "source_url": "https://sproutsocial.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Sprout Social"
   },
   "square-payroll": {
    "category": "payroll",
