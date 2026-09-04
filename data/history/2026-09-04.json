@@ -5451,6 +5451,24 @@
    ],
    "vendor": "Mydoma Studio"
   },
+  "mymusicstaff": {
+   "category": "tutoring_center_management",
+   "fees": [],
+   "product": "My Music Staff",
+   "tiers": [
+    {
+     "base_monthly_usd": 16.95,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 4.95,
+     "plan": "My Music Staff",
+     "source_url": "https://www.mymusicstaff.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "My Music Staff"
+  },
   "neon-crm": {
    "category": "nonprofit_donor_management",
    "fees": [],
@@ -8602,6 +8620,62 @@
     }
    ],
    "vendor": "TrueCoach"
+  },
+  "tutorbird": {
+   "category": "tutoring_center_management",
+   "fees": [],
+   "product": "TutorBird",
+   "tiers": [
+    {
+     "base_monthly_usd": 16.95,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 4.95,
+     "plan": "TutorBird",
+     "source_url": "https://www.tutorbird.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "TutorBird"
+  },
+  "tutorcruncher": {
+   "category": "tutoring_center_management",
+   "fees": [],
+   "product": "TutorCruncher",
+   "tiers": [
+    {
+     "base_monthly_usd": 30.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Pay as you go",
+     "source_url": "https://tutorcruncher.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 80.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Startup",
+     "source_url": "https://tutorcruncher.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 240.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Enterprise",
+     "source_url": "https://tutorcruncher.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "TutorCruncher"
   },
   "twingate": {
    "category": "business_vpn",

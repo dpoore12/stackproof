@@ -1,0 +1,24 @@
+source: https://www.tutorbird.com/pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+h1: "Affordable, all-in-one business management for Tutors." Page
+description: "Simple pricing that grows with your studio - no hidden
+fees!"
+
+A single base+per-seat formula, confirmed via raw page text: "$16.95
+/month" then "+ $4.95 per each additional tutor or staff member." Below
+that, a calculator: "How many tutors & staff do you have? (including
+yourself)" — confirming the base price covers the first tutor (you),
+and each additional tutor/staff member adds $4.95/mo. "Get 30 Days
+Free" trial offer.
+
+No tiers, no seat cap mentioned anywhere in the fetched text — a single
+flat base + linear per-seat add-on. No annual billing figure was found
+in this fetch (page appears to show only a month-to-month rate).
+
+Features section (all included at the one price): Student Management,
+Scheduling & Attendance, Invoices & Payments, Business Management,
+Learning Management, Multi-Tutor Support, Student Portal,
+Integrations (Stripe, PayPal, Lessonspace, Wix, Squarespace, WordPress,
+Zoom, Google Calendar, Outlook, QuickBooks, Zapier), Website Builder.

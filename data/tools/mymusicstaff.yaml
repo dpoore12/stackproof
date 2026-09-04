@@ -1,0 +1,28 @@
+slug: mymusicstaff
+vendor: My Music Staff
+product: My Music Staff
+category: tutoring_center_management
+url: https://www.mymusicstaff.com/pricing/
+pricing_note: 'My Music Staff shares its page template, feature set, and exact pricing formula with TutorBird — evidently a sister product from the same vendor, marketed specifically to music-lesson studios rather than tutors generally. Recorded as a separate vendor because it is sold and priced as its own product for its own niche.'
+
+tiers:
+  - plan: My Music Staff
+    base_monthly_usd: 16.95
+    per_seat_monthly_usd: 4.95
+    included_seats: 1
+    seat_label: teacher
+    provenance:
+      source_url: https://www.mymusicstaff.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$16.95/month + $4.95 per each additional teacher or staff member." Calculator: "How many teachers & staff do you have? (including yourself)" — confirms the base price covers the first teacher. No seat cap or tiers found.'
+
+findings:
+  - id: mymusicstaff-30-day-trial
+    claim: >-
+      My Music Staff offers a "Get 30 Days Free" trial, per its own
+      pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://www.mymusicstaff.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

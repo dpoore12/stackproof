@@ -1,0 +1,23 @@
+source: https://www.mymusicstaff.com/pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+h1: "Affordable, all-in-one studio management software for Music
+Teachers." Page description: "Simple pricing that grows with your
+studio - no hidden fees!" Same page template, feature-heading set
+("Student Management," "Scheduling & Attendance," "Invoices &
+Payments," "Business Management," "Learning Management,"
+"Multi-Teacher Support," "Student Portal," "Integrations," "Website
+Builder") and formula structure as TutorBird — evidently a sister
+product from the same vendor, marketed specifically to music-lesson
+studios rather than tutors generally.
+
+Same base+per-seat formula, confirmed via raw page text: "$16.95
+/month" then "+ $4.95 per each additional teacher or staff member."
+Calculator: "How many teachers & staff do you have? (including
+yourself)" — base price covers the first teacher (you), each
+additional teacher/staff member adds $4.95/mo. "Get 30 Days Free"
+trial offer.
+
+No tiers, no seat cap mentioned. No annual billing figure found in this
+fetch.

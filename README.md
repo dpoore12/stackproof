@@ -1042,6 +1042,39 @@ repeating add-on price sequence on the same page.
 
 Database is now 208 tools across 49 categories.
 
+### Tutoring center management software (2026-09-04)
+
+Three vendors: TutorBird, My Music Staff, TutorCruncher. Seat axis is
+"tutors" (1, 3, 5, 10, 25).
+
+TutorBird and My Music Staff are evidently sister products from the
+same vendor — identical page template, identical feature-heading set,
+and an identical formula ("$16.95/month + $4.95 per each additional
+tutor/teacher or staff member," base covering "yourself" as the first
+seat) — but sold and priced separately for two different audiences
+(tutors generally vs. music-lesson studios specifically), so both are
+recorded as their own vendors. TutorCruncher's three tiers are all
+labelled "Starting from" and differentiated mainly by payment-processing
+rate rather than a stated tutor count, so all three are `compare: false`
+starting figures. Teachworks was researched but excluded entirely: its
+three tiers price by "student lessons" per month with explicitly
+"Unlimited Tutors," a fundamentally different axis than this category's
+per-tutor pricing.
+
+Before landing on this category, daycare/childcare center management
+software was researched and abandoned: Brightwheel and Procare are both
+fully quote-gated ("Request pricing" forms, no self-serve figures
+anywhere); Kangarootime's pricing page 404s; Famly prices "per child"
+but the figure is computed entirely client-side by an interactive
+range-slider calculator with no static number anywhere on the page (the
+same treatment given to Cobot in the coworking category); Lillio
+(formerly HiMama) publishes no price figures at all; Kinderlime has
+been folded into Procare and now redirects straight into Procare's
+quote-gated page. Six vendor attempts, zero usable self-serve prices —
+past this site's abandonment threshold, so no category was shipped.
+
+Database is now 211 tools across 50 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

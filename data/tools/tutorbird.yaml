@@ -1,0 +1,27 @@
+slug: tutorbird
+vendor: TutorBird
+product: TutorBird
+category: tutoring_center_management
+url: https://www.tutorbird.com/pricing/
+
+tiers:
+  - plan: TutorBird
+    base_monthly_usd: 16.95
+    per_seat_monthly_usd: 4.95
+    included_seats: 1
+    seat_label: tutor
+    provenance:
+      source_url: https://www.tutorbird.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$16.95/month + $4.95 per each additional tutor or staff member." Calculator: "How many tutors & staff do you have? (including yourself)" — confirms the base price covers the first tutor. No seat cap or tiers found.'
+
+findings:
+  - id: tutorbird-30-day-trial
+    claim: >-
+      TutorBird offers a "Get 30 Days Free" trial, per its own pricing
+      page as of 2026-09-04.
+    provenance:
+      source_url: https://www.tutorbird.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
