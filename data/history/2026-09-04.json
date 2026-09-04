@@ -824,6 +824,44 @@
    ],
    "vendor": "Calendly"
   },
+  "caret-legal": {
+   "category": "legal_practice_management",
+   "fees": [],
+   "product": "CARET Legal (formerly Zola Suite)",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 79.0,
+     "plan": "Enterprise",
+     "source_url": "https://www.zolasuite.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 99.0,
+     "plan": "Enterprise Plus",
+     "source_url": "https://www.zolasuite.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 119.0,
+     "plan": "Enterprise Insights",
+     "source_url": "https://www.zolasuite.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "CARET Legal"
+  },
   "clickup": {
    "category": "project_management",
    "fees": [
@@ -1036,6 +1074,34 @@
     }
    ],
    "vendor": "Atlassian"
+  },
+  "cosmolex": {
+   "category": "legal_practice_management",
+   "fees": [],
+   "product": "CosmoLex",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 99.0,
+     "plan": "Core",
+     "source_url": "https://www.cosmolex.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 129.0,
+     "plan": "Pro",
+     "source_url": "https://www.cosmolex.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "CosmoLex"
   },
   "crisp": {
    "category": "live_chat",
@@ -3917,6 +3983,94 @@
    ],
    "vendor": "Mural (Tactivos)"
   },
+  "mycase": {
+   "category": "legal_practice_management",
+   "fees": [],
+   "product": "MyCase",
+   "tiers": [
+    {
+     "base_monthly_usd": 50.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 50.0,
+     "plan": "Basic",
+     "source_url": "https://www.mycase.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 60.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 60.0,
+     "plan": "Basic (monthly billing)",
+     "source_url": "https://www.mycase.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 100.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 100.0,
+     "plan": "Pro",
+     "source_url": "https://www.mycase.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 120.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 120.0,
+     "plan": "Pro (monthly billing)",
+     "source_url": "https://www.mycase.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 130.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 130.0,
+     "plan": "Advanced",
+     "source_url": "https://www.mycase.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 150.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 150.0,
+     "plan": "Advanced (monthly billing)",
+     "source_url": "https://www.mycase.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "LawPay Payments",
+     "source_url": "https://www.mycase.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 39.0,
+     "plan": "MyCase Accounting",
+     "source_url": "https://www.mycase.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "MyCase"
+  },
   "nextiva": {
    "category": "business_phone",
    "fees": [],
@@ -4745,6 +4899,74 @@
     }
    ],
    "vendor": "RingCentral"
+  },
+  "rocket-matter": {
+   "category": "legal_practice_management",
+   "fees": [],
+   "product": "Rocket Matter",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 59.0,
+     "plan": "Essentials",
+     "source_url": "https://www.rocketmatter.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 95.0,
+     "plan": "Pro",
+     "source_url": "https://www.rocketmatter.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 115.0,
+     "plan": "Premier",
+     "source_url": "https://www.rocketmatter.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 145.0,
+     "plan": "Elite",
+     "source_url": "https://www.rocketmatter.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 39.0,
+     "plan": "Legal CRM (Core, add-on)",
+     "source_url": "https://www.rocketmatter.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 147.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 49.0,
+     "plan": "Legal CRM (Enterprise, add-on)",
+     "source_url": "https://www.rocketmatter.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Rocket Matter"
   },
   "savvycal": {
    "category": "scheduling",

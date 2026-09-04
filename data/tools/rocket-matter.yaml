@@ -1,0 +1,98 @@
+slug: rocket-matter
+vendor: Rocket Matter
+product: Rocket Matter
+category: legal_practice_management
+url: https://www.rocketmatter.com/pricing/
+pricing_note: 'Rocket Matter''s four core plans render only a "(Paid Annually)" headline price on the static page -- no separate month-to-month figure for the core plans themselves (unlike its CRM and website add-ons, which do show both). All four tiers below are recorded as billing: annual.'
+
+tiers:
+  - plan: Essentials
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 59
+    included_seats: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.rocketmatter.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$59 user/month (Paid Annually)." 25GB document storage cap; basic billing, trust accounting, task/calendar management.'
+  - plan: Pro
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 95
+    included_seats: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.rocketmatter.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$95 user/month (Paid Annually)." Unlimited document storage; adds matter templates, workflow automation, custom role permissions.'
+  - plan: Premier
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 115
+    included_seats: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.rocketmatter.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$115 user/month (Paid Annually)." Adds full financial productivity reporting and NetDocs/Zapier integrations over Pro.'
+  - plan: Elite
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 145
+    included_seats: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.rocketmatter.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$145 user/month (Paid Annually)." Top tier: adds full built-in business accounting (bank reconciliation, AP tracking, bank data feed, revenue distribution).'
+  - plan: Legal CRM (Core, add-on)
+    standalone: false
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 39
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.rocketmatter.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Add-on, only available on Pro/Premier: "$39/user/mo" billed annually ("$49/month per user billed monthly"). One-time $399 onboarding fee, 3-user minimum.'
+  - plan: Legal CRM (Enterprise, add-on)
+    standalone: false
+    compare: false
+    base_monthly_usd: 147
+    per_seat_monthly_usd: 49
+    included_seats: 3
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.rocketmatter.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Add-on: "$147/month billed annually*" for up to 3 users ("$177/month billed monthly"), "$49/month for each additional user" (annual) / "$59/month for each additional user" (monthly). One-time $399 onboarding fee.'
+
+findings:
+  - id: rocket-matter-esignature-overage
+    claim: >-
+      Rocket Matter caps included e-signatures per user per month by
+      tier and charges "$2 per envelope" beyond the cap: 5/user/month on
+      Essentials versus 15/user/month on Pro, Premier, and Elite
+      (2026-09-04).
+    provenance:
+      source_url: https://www.rocketmatter.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: rocket-matter-website-addon
+    claim: >-
+      Rocket Matter offers an optional turnkey website add-on, available
+      on all four plans, for "+$149/month" billed annually plus a
+      one-time $599 setup fee (2026-09-04).
+    provenance:
+      source_url: https://www.rocketmatter.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

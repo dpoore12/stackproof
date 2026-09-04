@@ -1,0 +1,9 @@
+URL: https://www.zolasuite.com/pricing/ (redirects to https://caretlegal.com/ -- Zola Suite rebranded to CARET Legal)
+STATUS: 200
+FETCHED: 2026-09-04 17:29:48 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText directly.
+
+"Straightforward Plans. Full Support. No Surprises. All plans include 24/7 support and comprehensive training... Pricing is per user plus one-time implementation fees." Three plans, all "per user/month (billed annually)": Enterprise $79. Enterprise Plus $99 ("Most popular!"). Enterprise Insights $119.
+Enterprise Plus adds CARET Analytics (standard dashboards/reports), automated workflows, custom permissions, department-based accounting, native document editing, unlimited matter-related document storage, AI-generated document summaries over Enterprise. Enterprise Insights adds configurable/customizable analytics dashboards over Enterprise Plus.
+Marketing claim: "CARET Legal can help small and mid-sized firms capture an extra $20,000 in billable work per timekeeper." (a productivity claim, not a price -- captured as a finding, not a cost figure)
+No month-to-month rate rendered on the static page (annual billing only); no cancellation/refund clause found on this page.
