@@ -1,0 +1,11 @@
+URL: https://www.framer.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 00:10:01 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main>. German gateway; prices rendered in EUR. Header "Yearly billing". "All prices are monthly and billed according to the billing cycle selected at checkout. Any applicable sales tax will be added at checkout based on your location."
+---
+Free — €0. 500 AI credits to try, free Framer domain, 1 GB bandwidth, design pages.
+Basic — €10 per month (yearly billing). 1,000 AI credits/month (higher credit tiers selectable), free custom domain (free .com included on yearly), 2 CMS collections, 1,000 CMS items, 30 pages, 50 GB bandwidth, built-in SEO, localization add-on.
+Pro — €30 per month. 3,000 credits/month, 10 CMS collections (then €40 per 10, 40 max), 2,500 CMS items (then €20 per 10,000, 40,000 max), 150 pages (then €20 per 100, 700 max), 100 GB bandwidth (then €40 per 100 GB, 2 TB max), site redirects, staging, branching, advanced hosting add-on (€200, max 6 rewrites), A/B testing Convert add-on (€50 per 500,000 events).
+Enterprise — custom; credits with volume discounts, unlimited editors, SCIM, SSO, uptime guarantee.
+Editors: additional editors €20 per editor per month; content editors €10 per editor; viewers free; workspace owner free; seats max 10 on Basic and Pro. Translation locales €20 per locale (up to 20).
+FAQ: extra editors billed per seat, charged within 24 hours of being added. Over a limit: some limits require an upgrade; bandwidth may be exceeded for one month with notification. Refund policy heading present (answer not in window).

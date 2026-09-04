@@ -1,0 +1,86 @@
+slug: framer
+vendor: Framer
+product: Framer
+category: website_builder
+url: https://www.framer.com/pricing/
+free_trial: "Free plan with a Framer subdomain and 500 AI credits; no time-limited trial stated (2026-09-04)."
+pricing_note: "The fetch on 2026-09-04 was geo-routed to EUR pricing; USD prices were not captured. The EUR figures, per-editor charges and overage rates are recorded as findings. Pending a US-region fetch or verification on an account."
+
+tiers: []
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Framer prices are per month and billed on the cycle chosen at checkout
+      with sales tax added by location; extra editors are billed per seat
+      within 24 hours of being added (2026-09-04).
+    quote: "All prices are monthly and billed according to the billing cycle selected at checkout."
+    provenance:
+      source_url: https://www.framer.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: needs_account
+    finding: >-
+      Framer's FAQ carries a refund-policy question whose answer was not in
+      the captured text (2026-09-04).
+    provenance:
+      source_url: https://www.framer.com/pricing/
+      fetched_at: 2026-09-04
+      method: not_available
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Framer's pricing page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://www.framer.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: framer-pricing-geo-routed-eur
+    claim: >-
+      On 2026-09-04 an automated fetch of framer.com/pricing rendered EUR
+      prices under a "Yearly billing" header, so USD prices could not be
+      machine-recorded.
+    provenance:
+      source_url: https://www.framer.com/pricing/
+      fetched_at: 2026-09-04
+      method: not_available
+  - id: framer-eur-plan-prices
+    claim: >-
+      Framer's European page on 2026-09-04 listed Basic at €10 and Pro at
+      €30 per site per month on yearly billing, with additional editors at
+      €20 and content editors at €10 per month each.
+    provenance:
+      source_url: https://www.framer.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: framer-pro-overage-ladder
+    claim: >-
+      Framer Pro's limits extend by purchase: €20 per 100 extra pages to 700,
+      €40 per 10 CMS collections to 40, €20 per 10,000 CMS items to 40,000
+      and €40 per 100 GB of bandwidth to 2 TB (2026-09-04).
+    provenance:
+      source_url: https://www.framer.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: framer-editor-seats
+    claim: >-
+      Framer caps Basic and Pro workspaces at 10 editing seats, charges €20
+      per extra editor per month, and gives viewers and the workspace owner
+      free access (2026-09-04).
+    provenance:
+      source_url: https://www.framer.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: framer-bandwidth-grace
+    claim: >-
+      Framer lets a site exceed its bandwidth limit for 1 month with an
+      email notice before requiring an upgrade, where Webflow upgrades a
+      plan automatically after 2 months over (2026-09-04).
+    provenance:
+      source_url: https://www.framer.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
