@@ -1,0 +1,27 @@
+source: https://jane.app/pricing
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+Page description: "Affordable rates that fit the size of your
+practice." Three tiers, confirmed via raw page text:
+
+Balance — "$54 / month." "Single practitioner profile. Limited to 20
+appointments / month." (Solo, appointment-capped, not modeled as a
+seat count beyond 1.)
+
+Practice — "$79 / month." "Includes 1 full-time practitioner." Then:
+"$17.50 / month per part-time practitioner" (staff working less than 24
+booked hours/week) or "$35 / month per full-time practitioner" (staff
+working 24+ booked hours/week). Unlimited appointments and staff
+profiles.
+
+Thrive — "$99 / month." "Everything in Practice. Includes 1 full-time
+practitioner." Then: "$20 / month per part-time practitioner" or "$40 /
+month per full-time practitioner." Adds advanced scheduling, patient
+retention/engagement, and marketing tools.
+
+All figures are in USD per the page's own currency selector ("USD").
+Add-ons (not standalone): AI Scribe "$15/month per opted-in
+practitioner," Group Telehealth "$15/month per opted-in practitioner,"
+Insurance Billing "$20/month + $5/$2.50 per additional full/part-time
+practitioner" (add-on only available on Practice and Thrive).

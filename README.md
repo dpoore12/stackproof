@@ -1108,6 +1108,27 @@ rather than add a genuinely distinct one.
 
 Database is now 214 tools across 51 categories.
 
+### Physical therapy / allied health practice management software (2026-09-04)
+
+Three vendors: Jane App, Cliniko, ClinicSense. Seat axis is
+"practitioners" (1, 3, 5, 10, 25).
+
+Cliniko is the standout: a single unified plan priced entirely by a
+genuine, complete step table by practitioner-count range ($45/mo for 1
+practitioner up through $395/mo for 26-200), recovered in full as
+static text — not a "starting at" figure. Jane App has a clean
+base+per-seat formula across three tiers (Balance solo-only at $54/mo;
+Practice $79/mo + $35/mo per additional full-time practitioner; Thrive
+$99/mo + $40/mo per additional full-time practitioner). ClinicSense
+states an explicit "Additional practitioners: $20/mo" rate on its
+Standard tier, but its Premium tier — despite being marketed "for
+clinics & wellness centers" — has no per-practitioner rate confirmed in
+static text, so it's recorded capped at one practitioner like Lite
+rather than guessed. WebPT was researched but is fully quote-gated (only
+per-claim add-on fees are published; base tier prices are not).
+
+Database is now 217 tools across 52 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

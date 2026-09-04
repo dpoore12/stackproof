@@ -1125,6 +1125,87 @@
    ],
    "vendor": "ClickUp"
   },
+  "clinicsense": {
+   "category": "physical_therapy_allied_health_practice_management",
+   "fees": [],
+   "product": "ClinicSense",
+   "tiers": [
+    {
+     "base_monthly_usd": 39.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Lite",
+     "source_url": "https://clinicsense.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 69.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 20.0,
+     "plan": "Standard",
+     "source_url": "https://clinicsense.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 99.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Premium",
+     "source_url": "https://clinicsense.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "ClinicSense"
+  },
+  "cliniko": {
+   "category": "physical_therapy_allied_health_practice_management",
+   "fees": [],
+   "product": "Cliniko",
+   "tiers": [
+    {
+     "base_monthly_usd": null,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Cliniko",
+     "source_url": "https://www.cliniko.com/pricing/",
+     "steps": [
+      {
+       "monthly_usd": 45.0,
+       "up_to": 1
+      },
+      {
+       "monthly_usd": 95.0,
+       "up_to": 5
+      },
+      {
+       "monthly_usd": 145.0,
+       "up_to": 8
+      },
+      {
+       "monthly_usd": 195.0,
+       "up_to": 12
+      },
+      {
+       "monthly_usd": 295.0,
+       "up_to": 25
+      },
+      {
+       "monthly_usd": 395.0,
+       "up_to": 200
+      }
+     ]
+    }
+   ],
+   "vendor": "Cliniko"
+  },
   "clockify": {
    "category": "time_tracking",
    "fees": [],
@@ -3877,6 +3958,44 @@
     }
    ],
    "vendor": "Jackrabbit Technologies"
+  },
+  "jane-app": {
+   "category": "physical_therapy_allied_health_practice_management",
+   "fees": [],
+   "product": "Jane App",
+   "tiers": [
+    {
+     "base_monthly_usd": 54.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Balance",
+     "source_url": "https://jane.app/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 79.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 35.0,
+     "plan": "Practice",
+     "source_url": "https://jane.app/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 99.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 40.0,
+     "plan": "Thrive",
+     "source_url": "https://jane.app/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Jane"
   },
   "jazzhr": {
    "category": "recruiting",
