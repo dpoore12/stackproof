@@ -1,0 +1,10 @@
+URL: https://nordpass.com/plans/business/ (and ?currency=USD)
+STATUS: 200
+FETCHED: 2026-09-04 00:04:53 and 00:05:19 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main>. Both fetches routed through German gateways rendered EUR; the ?currency=USD parameter had no effect.
+---
+EUR fetch 2026-09-04 00:04:53 +00:00 (German gateway 168.119.141.170). Tabs: 2-year plan (Save up to 40%) / 1-year plan (Save up to 33%) / 1-month plan. "Displayed prices do not include VAT."
+2-year: Teams €1.79 per user/month (Save 28%), 10 users pack only; Business (Most popular) €3.59 (Save 40%), 5 users minimum; Enterprise €5.39 (Save 33%), 5 users minimum.
+1-year: Teams €1.99 (Save 20%); Business €3.99 (Save 33%); Enterprise €5.99 (Save 25%).
+1-month (billed every month): Teams €2.49; Business €5.99; Enterprise €7.99.
+Teams: password generation, sharing, offline access, activity monitoring, MFA, SSO with Google Workspace. Business adds group sharing, folders, password health, breach monitoring, Vanta. Enterprise adds SSO with Entra ID/ADFS/Okta, provisioning, Sentinel and Splunk integrations. 14-day free Business trial. Free Premium plan for all users. Data Breach Scanner 1 domain (Business) / up to 10 domains (Enterprise).

@@ -1,0 +1,100 @@
+slug: dashlane
+vendor: Dashlane
+product: Dashlane Omnix
+category: password_manager
+url: https://www.dashlane.com/pricing
+free_trial: "14-day free trial of the Omnix platform (stated 2026-09-04)."
+
+# Per user per month billed annually, from the page's pricing FAQ. Omnix
+# Password Management is the password-manager package; Credential Protection
+# is a separate detection layer that does not include a vault, so it is
+# excluded from the category comparison. Enterprise is quote-only above 50
+# users.
+tiers:
+  - plan: Omnix Password Management
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 8
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.dashlane.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch. FAQ: "The Omnix Password Management package costs $8 per user per month (billed annually) and includes a 14-day free trial."'
+  - plan: Omnix Credential Protection
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 4
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.dashlane.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'FAQ: "Omnix Credential Protection costs $4 per user per month (billed annually)." Phishing and credential-risk detection without a vault; not a password manager plan, so not ranked.'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Dashlane quotes its business packages per user per month billed
+      annually, with Enterprise pricing customised by seat count for
+      organisations above 50 users (2026-09-04).
+    provenance:
+      source_url: https://www.dashlane.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Dashlane's pricing page states no cancellation or refund terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.dashlane.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Dashlane's pricing page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://www.dashlane.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: dashlane-password-management-8-per-user
+    claim: >-
+      On 2026-09-04 Dashlane priced its Omnix Password Management package at
+      $8 per user per month billed annually with a 14-day free trial.
+    provenance:
+      source_url: https://www.dashlane.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: dashlane-credential-protection-4
+    claim: >-
+      Dashlane sells Credential Protection, a browser-based phishing and
+      credential-risk layer without a vault, at $4 per user per month
+      billed annually (2026-09-04).
+    provenance:
+      source_url: https://www.dashlane.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: dashlane-enterprise-over-50
+    claim: >-
+      Dashlane's Omnix Enterprise package is quote-only and aimed at
+      organisations with more than 50 users, bundling both packages
+      (2026-09-04).
+    provenance:
+      source_url: https://www.dashlane.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: dashlane-five-user-cost
+    claim: >-
+      At Dashlane's 2026-09-04 annual rate 5 users cost $40 per month, twice
+      Bitwarden Teams at $20 and above 1Password's $24.95 Teams Starter
+      Pack for up to 10 members.
+    provenance:
+      source_url: https://www.dashlane.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

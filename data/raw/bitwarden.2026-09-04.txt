@@ -1,0 +1,11 @@
+URL: https://bitwarden.com/pricing/business/
+STATUS: 200
+FETCHED: 2026-09-04 00:02:43 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main>. Tab "Business" aria-selected=true. "Pricing shown in USD and based on an annual subscription. Taxes not included."
+---
+Personal tab (also rendered): Premium $1.65 per month, billed annually at $19.80. Families $3.99 per month, up to 6 users, billed annually at $47.88. Free account always free.
+Teams — $4 per month / per user billed annually. Start Free Trial. Centralized ownership and management, share credentials securely, event logs, directory sync, SCIM provisioning.
+Enterprise — $6 per month / per user billed annually. Start Free Trial. All Teams features plus granular access control, passwordless SSO integration, account recovery, self-hosting, Access Intelligence risk remediation (new), free Families plan for all users.
+Request a quote for large organizations.
+Compare table: unlimited users at a flat rate per seat on Teams and Enterprise; API access; event and audit logs retained indefinitely and exportable; Duo two-step login; user groups; Directory Connector; SCIM; passwordless SSO Enterprise only; policies Enterprise only; Access Intelligence Enterprise.
+Core features in every account: open source, zero-knowledge encryption, passkeys, encrypted export, unlimited devices and passwords, Bitwarden Send.

@@ -1,0 +1,109 @@
+slug: keeper
+vendor: Keeper Security
+product: Keeper Business
+category: password_manager
+url: https://www.keepersecurity.com/pricing/business-and-enterprise.html
+free_trial: "Free trial on every business plan (\"Start free trial\"; length not stated on the page, 2026-09-04)."
+
+# Per user per month billed annually, shown in USD from the page's currency
+# selector. Business Starter is described as protecting 5 to 10 users, so
+# it is capped at 10 seats. Prices exclude sales tax per the page's note.
+tiers:
+  - plan: Business Starter
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 2
+    seat_label: user
+    max_seats: 10
+    billing: annual
+    provenance:
+      source_url: https://www.keepersecurity.com/pricing/business-and-enterprise.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch; currency selector on USD. "$2.00 user / month billed annually … Protection for 5–10 users".'
+  - plan: Business
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 4
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.keepersecurity.com/pricing/business-and-enterprise.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$4.00 user / month billed annually". Shared team folders, delegated admin, free Family Plan per user.'
+  - plan: Enterprise
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 6
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.keepersecurity.com/pricing/business-and-enterprise.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$6.00 user / month billed annually"; Request a Quote. SCIM, AD/LDAP, SSO/SAML, RBAC, APIs.'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Keeper quotes all business plans per user per month billed annually,
+      selectable in USD, CAD, EUR, GBP, JPY or AUD, with taxes added where
+      applicable (2026-09-04).
+    provenance:
+      source_url: https://www.keepersecurity.com/pricing/business-and-enterprise.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Keeper's business pricing page states no cancellation or refund terms
+      in the captured section (2026-09-04).
+    provenance:
+      source_url: https://www.keepersecurity.com/pricing/business-and-enterprise.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: stated
+    finding: >-
+      Keeper lists vault transfer to another user when an employee leaves as
+      a feature on every business plan; bulk export terms are not stated
+      (2026-09-04).
+    provenance:
+      source_url: https://www.keepersecurity.com/pricing/business-and-enterprise.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: keeper-business-per-user-annual
+    claim: >-
+      On 2026-09-04 Keeper listed Business Starter at $2, Business at $4 and
+      Enterprise at $6 per user per month billed annually in USD.
+    provenance:
+      source_url: https://www.keepersecurity.com/pricing/business-and-enterprise.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: keeper-starter-five-to-ten
+    claim: >-
+      Keeper's $2 Business Starter is scoped to 5 to 10 users, so a 12-person
+      team moves to Business at $4 per user, $48 per month (2026-09-04).
+    provenance:
+      source_url: https://www.keepersecurity.com/pricing/business-and-enterprise.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: keeper-sso-enterprise-only
+    claim: >-
+      SSO/SAML, SCIM, AD/LDAP sync and role-based access control are
+      Enterprise features on Keeper at $6 per user, matching Bitwarden's
+      Enterprise price for the same controls (2026-09-04).
+    provenance:
+      source_url: https://www.keepersecurity.com/pricing/business-and-enterprise.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: keeper-cheapest-ten-users
+    claim: >-
+      For 10 users Keeper Business Starter costs $20 per month, the lowest
+      captured in the category against $24.95 for 1Password's Teams Starter
+      Pack and $40 on Bitwarden Teams (2026-09-04).
+    provenance:
+      source_url: https://www.keepersecurity.com/pricing/business-and-enterprise.html
+      fetched_at: 2026-09-04
+      method: live_fetch

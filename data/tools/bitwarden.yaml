@@ -1,0 +1,120 @@
+slug: bitwarden
+vendor: Bitwarden
+product: Bitwarden Password Manager
+category: password_manager
+url: https://bitwarden.com/pricing/business/
+free_trial: "Free trial on Teams and Enterprise (\"Start Free Trial\"; length not stated), plus a free personal plan (2026-09-04)."
+
+# Per user per month billed annually; the page states prices are USD on an
+# annual subscription excluding taxes. Monthly-billing rates are not shown.
+tiers:
+  - plan: Teams
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 4
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://bitwarden.com/pricing/business/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch; Business tab aria-selected=true. "$4 per month / per user billed annually". Event logs, directory sync, SCIM.'
+  - plan: Enterprise
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 6
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://bitwarden.com/pricing/business/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$6 per month / per user billed annually". Passwordless SSO, policies, self-hosting, Access Intelligence, free Families plan for every user.'
+  - plan: Premium (personal)
+    compare: false
+    base_monthly_usd: 1.65
+    per_seat_monthly_usd: 0
+    seat_label: user
+    max_seats: 1
+    billing: annual
+    provenance:
+      source_url: https://bitwarden.com/pricing/business/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Personal tab: "$1.65 per month, billed annually at $19.80". Not a business plan; excluded from the comparison.'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Bitwarden's business prices are per user per month on an annual
+      subscription in USD, before taxes, with no user cap on Teams or
+      Enterprise (2026-09-04).
+    quote: "Pricing shown in USD and based on an annual subscription. Taxes not included."
+    provenance:
+      source_url: https://bitwarden.com/pricing/business/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: stated
+    finding: >-
+      Encrypted vault export is a core feature of every Bitwarden account,
+      and event logs are retained indefinitely and exportable on business
+      plans (2026-09-04).
+    provenance:
+      source_url: https://bitwarden.com/pricing/business/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Bitwarden's business pricing page states no cancellation or refund
+      terms (2026-09-04).
+    provenance:
+      source_url: https://bitwarden.com/pricing/business/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: bitwarden-business-per-user-annual
+    claim: >-
+      On 2026-09-04 Bitwarden listed Teams at $4 and Enterprise at $6 per
+      user per month billed annually in USD, both with a free trial.
+    provenance:
+      source_url: https://bitwarden.com/pricing/business/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: bitwarden-sso-enterprise-only
+    claim: >-
+      Passwordless SSO integration and organization policies are Enterprise
+      features at $6 per user on Bitwarden; Teams at $4 includes SCIM,
+      directory sync and event logs (2026-09-04).
+    provenance:
+      source_url: https://bitwarden.com/pricing/business/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: bitwarden-personal-plans
+    claim: >-
+      Bitwarden's personal Premium costs $1.65 per month ($19.80 a year) and
+      Families $3.99 per month ($47.88 a year) for 6 users, alongside a
+      free plan (2026-09-04).
+    provenance:
+      source_url: https://bitwarden.com/pricing/business/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: bitwarden-five-user-cost
+    claim: >-
+      At Bitwarden's 2026-09-04 annual rates 5 users cost $20 per month on
+      Teams or $30 on Enterprise, against $24.95 for 1Password's 10-member
+      Teams Starter Pack.
+    provenance:
+      source_url: https://bitwarden.com/pricing/business/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: bitwarden-open-source-export
+    claim: >-
+      Every Bitwarden account, including the free one, includes encrypted
+      export, unlimited devices and unlimited passwords under an open-source
+      client (2026-09-04).
+    provenance:
+      source_url: https://bitwarden.com/pricing/business/
+      fetched_at: 2026-09-04
+      method: live_fetch
