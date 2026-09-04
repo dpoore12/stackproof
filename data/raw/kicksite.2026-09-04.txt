@@ -1,0 +1,11 @@
+source: https://kicksite.com/pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+h2 price list: $49, $99, $149, $199.
+h5 tier bands (matching order): "0-25 students", "26-50 students",
+"51-100 students", "101+ students".
+Headline: "Simple, transparent pricing—all features included at every
+tier." Meta description: "Kicksite offers the most straightforward,
+transparent martial arts software pricing. No hidden fees, no locked
+features, no bait and switch."

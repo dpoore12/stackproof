@@ -1,0 +1,36 @@
+slug: kicksite
+vendor: Kicksite
+product: Kicksite
+category: martial_arts_dance_studio_management
+url: https://kicksite.com/pricing/
+pricing_note: 'Kicksite prices by a genuine, explicit student-count step table with every feature included at every tier: "Simple, transparent pricing—all features included at every tier." The top step ("101+ students," $199/month) is stated as open-ended with no upper bound, so it is recorded as a step covering up to 100,000 students purely to span this site''s comparison range — Kicksite itself does not claim any ceiling.'
+
+tiers:
+  - plan: Kicksite
+    seat_label: student
+    billing: monthly
+    steps:
+      - up_to: 25
+        monthly_usd: 49
+      - up_to: 50
+        monthly_usd: 99
+      - up_to: 100
+        monthly_usd: 149
+      - up_to: 100000
+        monthly_usd: 199
+    provenance:
+      source_url: https://kicksite.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Page''s own tier bands: "0-25 students" $49, "26-50 students" $99, "51-100 students" $149, "101+ students" $199.'
+
+findings:
+  - id: kicksite-no-locked-features
+    claim: >-
+      Kicksite states "No hidden fees, no locked features, no bait and
+      switch" — every plan tier includes the full feature set regardless
+      of student count (2026-09-04).
+    provenance:
+      source_url: https://kicksite.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

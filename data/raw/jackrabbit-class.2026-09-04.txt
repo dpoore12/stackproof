@@ -1,0 +1,23 @@
+source: https://www.jackrabbitclass.com/pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+"All class management core software features are available for every
+program location. Tiered pricing starts at $49/month and is based on
+the total student count at the end of each month."
+
+The exact per-band tier boundaries (e.g. a 0-100 / 101-250 / 251-500
+student breakdown, as some third-party aggregators report) are not
+present anywhere in this fetch's static page text — no dash-separated
+student-count range (regex checked for patterns like "101-250
+students") appears on the page at all. The actual scaling table
+appears to live behind an interactive calculator not captured by this
+fetch, so only the "$49/month starting" headline is recorded as a
+tier; the full formula is not captured.
+
+Jackrabbit Plus (bundled custom-branded mobile app): "Tiered pricing
+starts at $93/month and is based on the total student count..." plus
+a one-time $169.00 non-refundable setup fee (plus app store fees).
+
+Enterprise: "$245/month" for the Business Intelligence Dashboard alone,
+or "$331/month" to also include Jackrabbit Plus.

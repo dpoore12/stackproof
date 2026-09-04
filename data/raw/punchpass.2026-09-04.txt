@@ -1,0 +1,30 @@
+source: https://punchpass.com/pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+"Plans that fit every studio. Our 14 day free trial let's you explore
+everything Punchpass has to offer." "50% off your first two months!"
+
+Grow: "A simple budget friendly solution with robust reporting for
+studios on a budget." "$59 / $623 USD" — "Billed monthly" / "Billed
+annually (12% discount)". Features: "Unlimited classes, passes &
+instructors," sell passes online, live online classes, private
+sessions, online reservations, customizable emails, free data
+migration support, Automations (max 3), 10,000-minute video library,
+waitlists, online waivers.
+
+Flow (Most Popular): "Elevate your offerings with memberships, series,
+family accounts and more." "$99 / $1,045 USD". Everything in Grow plus
+recurring memberships, 20,000-minute video library, multi-day class
+series, discount codes/gift passes/donations, Family Accounts,
+Automations (max 10), Mailchimp & MailerLite integration.
+
+Pro: "The ultimate package to deliver an enhanced customer
+experience." "$149 / $1,574 USD". Everything in Grow & Flow plus
+custom intake forms, customizable homepage, customer tagging, custom
+fields, 30,000-minute video library, unlimited automations.
+
+Used by: Yoga, Fitness, Dance, Pole, Aerial, Pilates, and Arts & Crafts
+studios. No per-tier cap on classes, passes, or instructors is stated
+anywhere — differentiation is by feature bundle, not by a seat/student
+count.
