@@ -1,0 +1,27 @@
+source: https://www.therapynotes.com/pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+h1: "TherapyNotes® Pricing." Page description: "Every TherapyNotes®
+pricing plan starts with a free 30-day trial... no signup fee, and no
+long-term contract."
+
+Three tiers, confirmed via raw page text:
+
+Solo — "$69/month for one user." "Great for solo practitioners or new
+providers who are just getting started."
+
+Group — "$79/month for the first clinician" + "$50/mo per additional
+clinician." "Free non-clinical staff" (non-clinical staff accounts do
+not count toward the per-clinician charge).
+
+Enterprise (20+ Users) — identical formula: "$79/month for the first
+clinician" + "$50/mo per additional clinician." Adds "Free non-clinical
+staff" and "Designated account manager" — i.e. Enterprise is the same
+pricing formula as Group, just the volume tier (20+ users) at which a
+dedicated account manager is included; not modeled as a separately
+priced tier.
+
+Add-ons (not standalone): Premium Telehealth+ "$15/mo per clinician,"
+TherapyFuel+ "$40/mo per clinician," Electronic Billing "14¢ per
+electronic claim."

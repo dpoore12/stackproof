@@ -1,0 +1,37 @@
+source: https://ensorahealth.com/pricing/theranest-mental-health/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+TheraNest is now sold by Ensora Health (ensorahealth.com); the standalone
+theranest.com marketing page redirects into the Ensora Health product
+page, and this fetch used Ensora's own TheraNest pricing page. Page
+title tag: "TheraNest Pricing — Plans From $29/Therapist/Mo | Ensora
+Health." Page description: "Compare TheraNest Essentials, Advanced, and
+Premier plans. Per-therapist pricing, no hidden fees, unlimited
+clients."
+
+Three genuinely per-therapist tiers, confirmed via raw page text:
+
+Essentials — "$29 therapist/mo." "Perfect for solo therapists just
+starting out." Scheduling management, secure client portal, calendar
+sync, basic intake forms and notes, optional telehealth add-on.
+
+Advanced — "$59 therapist/mo." "Ideal for practices ready for more
+automation." Everything in Essentials, plus online booking & secure
+messaging, custom intake forms & notes, unlimited telehealth, 50 free
+claims processing/eligibility checks/reminders each per practice per
+month.
+
+Premier — "$89 therapist/mo." "A complete solution for established
+practices." Everything in Advanced, plus insurance billing automation,
+Wiley Practice Planner included, unlimited claims processing and
+eligibility checks.
+
+A "Monthly / Yearly (Includes 1 month free)" billing toggle is present
+on the page; which state is selected by default, and so whether these
+figures are the monthly or annual-equivalent rate, could not be
+confirmed from static text — recorded as billing: monthly with this
+caveat noted.
+
+A separate "70% off your first 3 months with Premier plan + Ensai for
+$1" promotional banner is present; not used as the recorded price.

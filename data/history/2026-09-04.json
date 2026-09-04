@@ -7363,6 +7363,44 @@
    ],
    "vendor": "airSlate"
   },
+  "simplepractice": {
+   "category": "mental_health_therapy_practice_management",
+   "fees": [],
+   "product": "SimplePractice",
+   "tiers": [
+    {
+     "base_monthly_usd": 49.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Starter",
+     "source_url": "https://www.simplepractice.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 79.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Essential",
+     "source_url": "https://www.simplepractice.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 99.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Plus",
+     "source_url": "https://www.simplepractice.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "SimplePractice"
+  },
   "singleops": {
    "category": "landscaping_management",
    "fees": [],
@@ -8181,6 +8219,72 @@
     }
    ],
    "vendor": "TenantCloud"
+  },
+  "theranest": {
+   "category": "mental_health_therapy_practice_management",
+   "fees": [],
+   "product": "TheraNest",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 29.0,
+     "plan": "Essentials",
+     "source_url": "https://ensorahealth.com/pricing/theranest-mental-health/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 59.0,
+     "plan": "Advanced",
+     "source_url": "https://ensorahealth.com/pricing/theranest-mental-health/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 89.0,
+     "plan": "Premier",
+     "source_url": "https://ensorahealth.com/pricing/theranest-mental-health/",
+     "steps": null
+    }
+   ],
+   "vendor": "Ensora Health"
+  },
+  "therapynotes": {
+   "category": "mental_health_therapy_practice_management",
+   "fees": [],
+   "product": "TherapyNotes",
+   "tiers": [
+    {
+     "base_monthly_usd": 69.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Solo",
+     "source_url": "https://www.therapynotes.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 79.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 50.0,
+     "plan": "Group",
+     "source_url": "https://www.therapynotes.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "TherapyNotes"
   },
   "tidio": {
    "category": "live_chat",
