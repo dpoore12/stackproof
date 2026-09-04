@@ -1,0 +1,52 @@
+slug: jobtread
+vendor: JobTread
+product: JobTread
+category: construction_management
+url: https://www.jobtread.com/pricing
+pricing_note: 'JobTread''s own FAQ lays out a genuinely graduated per-seat schedule ("tiered price breaks are only for the users in their respective tiers"): the first internal user is included in the $199/mo base, then users 2-10 cost $20 each, 11-20 cost $15 each, 21-30 cost $10 each, and 31+ cost $5 each (monthly billing; the annual plan''s per-tier rates are lower). This is marginal/graduated pricing, not a flat per-seat rate, so it cannot be represented by this schema''s base + flat-per-seat formula without either overstating or understating cost at higher seat counts; the $199 base is recorded as a compare:false starting figure and the full tier table is captured as a finding instead.'
+
+tiers:
+  - plan: JobTread (monthly)
+    compare: false
+    base_monthly_usd: 199
+    per_seat_monthly_usd: 0
+    seat_label: internal user
+    billing: monthly
+    provenance:
+      source_url: https://www.jobtread.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$199 per month + $20/month per internal user." "No contract & no setup fees." "Includes every feature - no hidden fees."'
+  - plan: JobTread (annual)
+    compare: false
+    base_monthly_usd: 159
+    per_seat_monthly_usd: 0
+    seat_label: internal user
+    billing: annual
+    provenance:
+      source_url: https://www.jobtread.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$159" per month, "Save $480," "Cost shown per month, billed annually at $1,908."'
+
+findings:
+  - id: jobtread-graduated-user-pricing
+    claim: >-
+      JobTread's tiered price breaks for additional internal users are
+      $20 each for users 2-10, $15 each for users 11-20, $10 each for
+      users 21-30, and $5 each for user 31 and beyond on the monthly
+      plan, with lower per-tier rates of $16/$12/$8/$4 on the annual plan
+      (2026-09-04).
+    provenance:
+      source_url: https://www.jobtread.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: jobtread-free-external-users
+    claim: >-
+      JobTread does not charge for vendor, subcontractor, or customer
+      portal users, which are free and unlimited, nor for certain field
+      crew who only upload photos or check off tasks (2026-09-04).
+    provenance:
+      source_url: https://www.jobtread.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

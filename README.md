@@ -663,6 +663,34 @@ site's standing monthly/annual convention.
 
 Database is now 169 tools across 36 categories.
 
+### Construction project management software (2026-09-04)
+
+Three vendors: JobTread, Contractor Foreman, Fieldwire. Seat axis is
+"users" (1, 3, 5, 10, 25). Buildertrend's pricing page is entirely
+quote-gated — its own FAQ answer to "How much does Buildertrend cost?"
+states only that pricing is "tailored" and points to a custom-quote
+form, with no dollar figure anywhere on the page — so it was dropped.
+
+Fieldwire is the cleanest record: its own usage-comparison table lists
+"Pay per user" identically for Pro ($39), Business ($64), and Business
+Plus ($89), confirming genuine linear per-seat pricing (its free Basic
+tier is capped at 5 users and marked `compare: false` per this site's
+standing free-tier convention). Contractor Foreman's default-rendered
+tab is annual billing (a pricier Quarterly tab exists; no true
+month-to-month plan is offered), with each of its five tiers a flat fee
+gated on a published user cap (1/3/8/15/unlimited), recorded as a flat
+fee with a seat cap rather than per-seat pricing. JobTread publishes an
+unusually explicit but genuinely graduated formula — "tiered price
+breaks are only for the users in their respective tiers": the first
+user is included in the $199/mo base, then users 2-10 cost $20 each,
+11-20 cost $15 each, 21-30 cost $10 each, and 31+ cost $5 each. That
+marginal-rate structure cannot be represented by this schema's base +
+flat-per-seat formula without overstating or understating cost at
+higher seat counts, so its $199 base is recorded as a `compare: false`
+starting figure and the full tier table is captured as a finding.
+
+Database is now 172 tools across 37 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

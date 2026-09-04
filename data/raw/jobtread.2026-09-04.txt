@@ -1,0 +1,20 @@
+URL: https://www.jobtread.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 18:43:25 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "$199 per month" anchor).
+
+"Pricing$199 per month + $20/month per internal user." "No contract & no setup fees." "Free implementation, training, and support." "Includes every feature - no hidden fees." "Save 20% on an annual subscription." "30-day money-back guarantee for monthly subscription."
+
+FAQ, "What are the tiered price breaks for additional users?" -- table "Tiered price breaks for additional users":
+Internal Users | Monthly Plan | Annual Plan
+1 | Included | Included
+2-10 | $20 each | $16 each
+11-20 | $15 each | $12 each
+21-30 | $10 each | $8 each
+31+ | $5 each | $4 each
+"* Note: Price breaks are only for the users in their respective tiers." (i.e. graduated/marginal pricing, not a flat per-seat rate -- the schema's base + flat-per-seat formula cannot represent this exactly.)
+
+Monthly Plan: "$199" -- "Cost shown per month, billed monthly."
+Annual Plan: "$159" -- "Save $480" -- "Cost shown per month, billed annually at $1,908."
+
+FAQ, "What is an internal user?": "Internal users include employees who need access to JobTread to view customer and vendor information, manage jobs, build and modify schedules, track time, and access reports... All vendor, subcontractor, and customer users are able to access an external portal... These users are free and unlimited. Additionally, certain field crew who will only be using JobTread to upload pictures, log daily notes, and view their schedule or check off tasks can also be added as free users."

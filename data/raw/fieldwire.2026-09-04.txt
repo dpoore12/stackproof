@@ -1,0 +1,13 @@
+URL: https://www.fieldwire.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 18:45:15 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "Transparent pricing for teams" anchor).
+
+Default-rendered tab is "Annual" billing (toggle also offers "Monthly"; only the Annual state was captured in this static snapshot):
+Basic -- "$0 per user / month" -- "For small teams wanting to try out Fieldwire's core features." Usage table: 5 users, 3 projects, 100 sheets.
+Pro -- "$39 per user / month, billed annually" -- "For growing teams looking to scale with Fieldwire." Usage table: pay per user, unlimited projects, unlimited sheets.
+Business -- "$64 per user / month, billed annually" -- "For advanced teams unifying their processes on Fieldwire."
+Business Plus -- "$89 per user / month, billed annually" -- "For teams connecting Fieldwire to their core technology."
+Custom contracts -- "Contact us to learn about unlimited user options, tailored training, dedicated success teams, API access, and single sign-on (SSO)."
+
+Usage table confirms genuine linear per-user pricing on Pro/Business/Business Plus ("Pay per user" listed for all three, vs. Basic's flat 5-user cap).

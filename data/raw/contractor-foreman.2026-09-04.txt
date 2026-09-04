@@ -1,0 +1,15 @@
+URL: https://contractorforeman.com/pricing/
+STATUS: 200 (redirected to https://contractorforeman.com/plans/)
+FETCHED: 2026-09-04 18:44:20 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "Plans That Fit Your Business and Your Budget" anchor).
+
+Default-rendered tab is "Annual" billing (toggle also offers "Quarterly"; no separate month-to-month option is offered by this vendor). Per-month rate when billed annually, with per-tier user caps:
+Basic -- "$49 per month" -- "Free for 30 days then pay $588 annually at renewal." -- "1 User."
+Standard -- "$105 per month" -- "$1,264 annually at renewal." -- "Up to 3 Users." -- "Save $480" (vs. the Quarterly tab).
+Plus -- "$166 per month" -- "$1,997 annually at renewal." -- "Up to 8 Users." -- marked "Most Popular." -- "Save $732."
+Pro -- "$221 per month" -- "$2,654 annually at renewal." -- "Up to 15 Users." -- "Save $996."
+Unlimited -- "$332 per month" -- "$3,984 annually at renewal." -- "Unlimited Users."
+
+Quarterly tab (per-month equivalent, billed every 3 months): Basic "Not available" on this tab; Standard $132/mo, Plus $206/mo, Pro $282/mo, Unlimited $415/mo.
+
+30 Day Free Trial. 100 Day Money Back Guarantee. "User based plans allow you to have the right plan that is right for you. Need to upgrade from 3 users to 7 or even more -- no problem. There is no reason to pay extra for products and services that you do not want."
