@@ -1183,6 +1183,36 @@ per-provider, an axis mismatch with the rest of the category).
 
 Database is now 223 tools across 54 categories.
 
+### Nutrition / dietitian coaching practice management software (2026-09-04)
+
+Three vendors: Healthie, Practice Better, Cronometer Pro. Seat axis is
+"practitioners" (1, 3, 5, 10, 25).
+
+Healthie and Practice Better both follow this site's solo-plus-group
+pattern: single-practitioner tiers capped at one seat (Healthie's
+Core/Essentials/Plus differ only by active-client cap — 10/250/
+unlimited — at $18/$45/$115 per month annual; Practice Better's
+Starter/Professional/Plus differ the same way at $25/$62/$89 annual),
+plus a genuine multi-practitioner tier with a real base-plus-per-seat
+formula (Healthie's Group at $135/mo for the first clinician + $50/mo
+per additional; Practice Better's Team at $155/mo for 2 included
+practitioners + $50/mo per additional, capped at 200). Both record
+annual as the primary rate (headlined as the discounted option) with
+monthly recorded separately. Cronometer Pro is single-practitioner
+only ($39.99/mo) with no team plan below its quote-gated Enterprise
+tier; its $2.50/mo-per-additional-client scaling is a client-count
+axis, not a practitioner-count one, so only the base price is modeled
+and the client scaling is recorded as a Finding instead.
+
+Nutrium was researched but excluded: its pricing page renders three
+currencies (BRL, EUR, USD) into the same DOM elements simultaneously,
+producing genuinely garbled, self-contradictory price text (duplicate
+"Total" blocks with mismatched symbol/number pairs) that could not be
+confidently resolved to a single USD figure even after three fetch
+attempts with different anchors and locale parameters.
+
+Database is now 226 tools across 55 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

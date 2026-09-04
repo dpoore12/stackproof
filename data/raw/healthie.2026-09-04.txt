@@ -1,0 +1,20 @@
+Source: https://www.gethealthie.com/pricing
+Fetched: 2026-09-04
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Core
+$18/mo billed annually ($19.99/mo billed monthly)
+10 active clients
+
+Essentials
+$45/mo billed annually ($49.99/mo billed monthly)
+250 active clients
+
+Plus
+$115/mo billed annually ($129.99/mo billed monthly)
+Unlimited clients
+
+Group
+From $135/mo billed annually ($149.99/mo billed monthly)
+For clinician-owned practices with multiple practitioners.
+Add team members for $50/mo/clinician.

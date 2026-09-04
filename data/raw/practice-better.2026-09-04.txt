@@ -1,0 +1,11 @@
+Source: https://practicebetter.io/pricing
+Fetched: 2026-09-04
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Starter$35Save $120/yearUSD/monthBilled monthlyBilled annuallyFor practitioners just starting out on their business journey...1 practitioner license, 10 clients, 1 GB storage, Web portal & mobile app
+
+Professional$69Save $84/yearUSD/monthBilled monthlyBilled annuallyA strong foundation for solo practitioners ready to grow...1 practitioner license, 300 clients, 5 GB storage, Web portal & mobile app
+
+PlusRecommended$99Save $120/yearUSD/monthBilled monthlyBilled annuallyA more sophisticated EHR for established practices...1 practitioner license, 3 admin licenses, Unlimited clients, Unlimited storage, Web portal & mobile app
+
+Team$155Free Migration$500 valueUSD/monthBilled monthlyBilled annuallyFor group practices that want to elevate their team-based care...2 practitioner licenses (up to 200 @ $50 per practitioner), Unlimited admin licenses, Unlimited clients, Unlimited storage, Web portal & mobile app
