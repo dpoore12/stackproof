@@ -1,6 +1,34 @@
 {
  "date": "2026-09-04",
  "tools": {
+  "1password": {
+   "category": "password_manager",
+   "fees": [],
+   "product": "1Password Business",
+   "tiers": [
+    {
+     "base_monthly_usd": 24.95,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 20,
+     "per_seat_monthly_usd": 4.99,
+     "plan": "Teams Starter Pack",
+     "source_url": "https://1password.com/pricing/business",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 8.99,
+     "plan": "Business",
+     "source_url": "https://1password.com/pricing/business",
+     "steps": null
+    }
+   ],
+   "vendor": "1Password (AgileBits)"
+  },
   "acuity": {
    "category": "scheduling",
    "fees": [],
@@ -144,6 +172,44 @@
     }
    ],
    "vendor": "37signals"
+  },
+  "bitwarden": {
+   "category": "password_manager",
+   "fees": [],
+   "product": "Bitwarden Password Manager",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 4.0,
+     "plan": "Teams",
+     "source_url": "https://bitwarden.com/pricing/business/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Enterprise",
+     "source_url": "https://bitwarden.com/pricing/business/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 1.65,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Premium (personal)",
+     "source_url": "https://bitwarden.com/pricing/business/",
+     "steps": null
+    }
+   ],
+   "vendor": "Bitwarden"
   },
   "brevo": {
    "category": "email_marketing",
@@ -367,6 +433,34 @@
     }
    ],
    "vendor": "Crisp"
+  },
+  "dashlane": {
+   "category": "password_manager",
+   "fees": [],
+   "product": "Dashlane Omnix",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 8.0,
+     "plan": "Omnix Password Management",
+     "source_url": "https://www.dashlane.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 4.0,
+     "plan": "Omnix Credential Protection",
+     "source_url": "https://www.dashlane.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Dashlane"
   },
   "dialpad": {
    "category": "business_phone",
@@ -996,6 +1090,13 @@
    "product": "Nextiva",
    "tiers": [],
    "vendor": "Nextiva"
+  },
+  "nordpass": {
+   "category": "password_manager",
+   "fees": [],
+   "product": "NordPass Business",
+   "tiers": [],
+   "vendor": "Nord Security"
   },
   "olark": {
    "category": "live_chat",

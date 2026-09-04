@@ -1,0 +1,79 @@
+slug: nordpass
+vendor: Nord Security
+product: NordPass Business
+category: password_manager
+url: https://nordpass.com/plans/business/
+free_trial: "14-day free Business trial (stated 2026-09-04)."
+pricing_note: "Both fetches on 2026-09-04 were geo-routed to EUR pricing (the German gateway); USD prices were not captured. The EUR figures for all three billing periods are recorded as findings, not as tiers. Pending a US-region fetch or verification on an account."
+
+tiers: []
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      NordPass sells 1-month, 1-year and 2-year terms; Teams is sold only as
+      a 10-user pack and Business and Enterprise carry a 5-user minimum;
+      displayed prices exclude VAT (2026-09-04).
+    provenance:
+      source_url: https://nordpass.com/plans/business/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "Stated on the EUR page the fetch was routed to."
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      NordPass's business plans page states no cancellation or refund terms
+      in the captured section (2026-09-04).
+    provenance:
+      source_url: https://nordpass.com/plans/business/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      NordPass's business plans page states no data-export terms
+      (2026-09-04).
+    provenance:
+      source_url: https://nordpass.com/plans/business/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: nordpass-pricing-geo-routed-eur
+    claim: >-
+      On 2026-09-04 two automated fetches of nordpass.com/plans/business
+      rendered EUR prices excluding VAT, so USD prices could not be
+      machine-recorded.
+    provenance:
+      source_url: https://nordpass.com/plans/business/
+      fetched_at: 2026-09-04
+      method: not_available
+  - id: nordpass-eur-prices-by-term
+    claim: >-
+      NordPass's European page on 2026-09-04 listed Teams, Business and
+      Enterprise at €1.79, €3.59 and €5.39 per user per month on a 2-year
+      term, €1.99, €3.99 and €5.99 on 1 year, and €2.49, €5.99 and €7.99
+      month to month.
+    provenance:
+      source_url: https://nordpass.com/plans/business/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: nordpass-seat-minimums
+    claim: >-
+      NordPass Teams is sold only as a 10-user pack and Business and
+      Enterprise require at least 5 users, so a 3-person company pays for 5
+      or 10 seats (2026-09-04).
+    provenance:
+      source_url: https://nordpass.com/plans/business/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: nordpass-sso-tiers
+    claim: >-
+      NordPass includes Google Workspace SSO on all 3 business plans but
+      reserves Entra ID, ADFS and Okta SSO and provisioning for Enterprise
+      (2026-09-04).
+    provenance:
+      source_url: https://nordpass.com/plans/business/
+      fetched_at: 2026-09-04
+      method: live_fetch
