@@ -1,0 +1,56 @@
+slug: closewise
+vendor: CloseWise
+product: CloseWise
+category: notary_signing_business_management
+url: https://www.closewise.com/pricing
+pricing_note: 'CloseWise sells two distinct tracks from the same pricing page: solo-notary plans (Pro, Pro+) capped at one seat, and signing-service/title-company plans (Starter, Professional) that scale by team-member cap rather than a genuine per-seat formula — each tier is a flat rate good for up to a stated number of team members, with no incremental per-additional-member price disclosed. Starter and Professional also carry a per-order fee ($2 and $1.50 respectively) not modeled here since this site compares the seat-based rate, not per-transaction fees. Enterprise is quote-gated and excluded. The free plan is excluded per this site''s policy against ranking $0 tiers as cheapest.'
+
+tiers:
+  - plan: Pro
+    base_monthly_usd: 15
+    max_seats: 1
+    seat_label: notary
+    provenance:
+      source_url: https://www.closewise.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pro — $15/month — Enhanced tools for growing businesses." Solo-notary plan.'
+  - plan: Pro+
+    base_monthly_usd: 40
+    max_seats: 1
+    seat_label: notary
+    provenance:
+      source_url: https://www.closewise.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pro+ — $40/month — Complete toolkit for professional agents," adds a website builder, custom domain, and online booking on top of Pro. Solo-notary plan.'
+  - plan: Starter
+    base_monthly_usd: 20
+    max_seats: 5
+    seat_label: notary
+    provenance:
+      source_url: https://www.closewise.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Starter — $20/month — Perfect for small businesses getting started. $2 per order. Up to 5 team members." For signing services & title companies.'
+  - plan: Professional
+    base_monthly_usd: 100
+    max_seats: 10
+    seat_label: notary
+    provenance:
+      source_url: https://www.closewise.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Professional — $100/month — Best for growing businesses needing advanced features. $1.50 per order. Up to 10 team members." For signing services & title companies.'
+
+findings:
+  - id: closewise-per-order-fee-on-team-plans
+    claim: >-
+      CloseWise's Starter and Professional plans for signing services and
+      title companies each carry a per-order fee on top of the flat monthly
+      rate — $2 per order on Starter and $1.50 per order on Professional —
+      per its own pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://www.closewise.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

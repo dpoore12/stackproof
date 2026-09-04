@@ -1,0 +1,11 @@
+Source: https://www.notarygadget.com/pricing
+Fetched: 2026-09-04
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+The average user saves over $1600 a year.
+
+100% free on your first 15 signings. No credit card required.
+
+[image: Graphics/Website/999.png] Per month billed annually
+or
+$11.95 per month billed monthly, cancel anytime.

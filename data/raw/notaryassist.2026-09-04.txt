@@ -1,0 +1,13 @@
+Source: https://notaryassist.com/ (Pricing Plan section)
+Fetched: 2026-09-04
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Monthly
+Assignment Information, Auto Mileage Calculator, Business and Tax
+Reports, Automatic Updates, Customer Manager, Schedule Manager, Business
+Expenses, Account Invoices, Driving Directions, Built-in Security
+$8.99/Monthly
+
+Annual
+(same feature list)
+$95.00/Year

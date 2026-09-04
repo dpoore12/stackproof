@@ -1360,6 +1360,54 @@
    ],
    "vendor": "CAKE.com"
   },
+  "closewise": {
+   "category": "notary_signing_business_management",
+   "fees": [],
+   "product": "CloseWise",
+   "tiers": [
+    {
+     "base_monthly_usd": 15.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Pro",
+     "source_url": "https://www.closewise.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 40.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Pro+",
+     "source_url": "https://www.closewise.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 20.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": null,
+     "plan": "Starter",
+     "source_url": "https://www.closewise.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 100.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 10,
+     "per_seat_monthly_usd": null,
+     "plan": "Professional",
+     "source_url": "https://www.closewise.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "CloseWise"
+  },
   "cloudflare-zero-trust": {
    "category": "business_vpn",
    "fees": [
@@ -6125,6 +6173,52 @@
    "product": "NordPass Business",
    "tiers": [],
    "vendor": "Nord Security"
+  },
+  "notaryassist": {
+   "category": "notary_signing_business_management",
+   "fees": [],
+   "product": "NotaryAssist",
+   "tiers": [
+    {
+     "base_monthly_usd": 7.92,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "NotaryAssist (annual)",
+     "source_url": "https://notaryassist.com/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 8.99,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "NotaryAssist (monthly)",
+     "source_url": "https://notaryassist.com/",
+     "steps": null
+    }
+   ],
+   "vendor": "NotaryAssist"
+  },
+  "notarygadget": {
+   "category": "notary_signing_business_management",
+   "fees": [],
+   "product": "NotaryGadget",
+   "tiers": [
+    {
+     "base_monthly_usd": 11.95,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "NotaryGadget",
+     "source_url": "https://www.notarygadget.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "NotaryGadget"
   },
   "notion": {
    "category": "wiki",
