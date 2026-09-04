@@ -1,0 +1,83 @@
+slug: shopmonkey
+vendor: Shopmonkey
+product: Shopmonkey
+category: auto_repair_shop_management
+url: https://www.shopmonkey.io/pricing
+pricing_note: 'Shopmonkey''s three priced tiers (Basic, Clever, Genius) differentiate by feature bundle, not by a stated seat/user count — no per-tier user cap appears in the tier cards or feature lists. Its own tagline says it powers "everything from single-bay shops to 100+ location franchises," and its FAQ list includes "How many users can our shop have on Shopmonkey?" but that answer sits behind a collapsed accordion panel not present in this fetch''s static page text, so no digit is recorded. Multi-Shop is fully quote-gated ("Custom," "Contact us for pricing") and is not recorded as a tier.'
+
+tiers:
+  - plan: Basic
+    base_monthly_usd: 215
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.shopmonkey.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$215/mo." (annual toggle), "$239/mo." (monthly toggle). "For shops ready to simplify their day-to-day and get a clearer view of their business."'
+  - plan: Basic (monthly billing)
+    compare: false
+    base_monthly_usd: 239
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.shopmonkey.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$239/mo." month-to-month rate on the Basic card.'
+  - plan: Clever
+    base_monthly_usd: 359
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.shopmonkey.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$359/mo." (annual toggle), "$399/mo." (monthly toggle). "For growing shops ready to manage more work, improve efficiency, and stay in control."'
+  - plan: Clever (monthly billing)
+    compare: false
+    base_monthly_usd: 399
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.shopmonkey.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$399/mo." month-to-month rate on the Clever card.'
+  - plan: Genius
+    base_monthly_usd: 449
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.shopmonkey.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$449/mo." (annual toggle), "$499/mo." (monthly toggle). "Our full shop management package for shops ready to optimize every part of their business and keep growing."'
+  - plan: Genius (monthly billing)
+    compare: false
+    base_monthly_usd: 499
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.shopmonkey.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$499/mo." month-to-month rate on the Genius card.'
+
+findings:
+  - id: shopmonkey-8000-shops
+    claim: >-
+      Shopmonkey states "8,000+ shops run on Shopmonkey" on its own
+      pricing page (2026-09-04).
+    provenance:
+      source_url: https://www.shopmonkey.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: shopmonkey-single-bay-to-franchise
+    claim: >-
+      Shopmonkey advertises powering "everything from single-bay shops
+      to 100+ location franchises" on its pricing page (2026-09-04).
+    provenance:
+      source_url: https://www.shopmonkey.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

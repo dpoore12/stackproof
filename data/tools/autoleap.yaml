@@ -1,0 +1,77 @@
+slug: autoleap
+vendor: AutoLeap
+product: AutoLeap
+category: auto_repair_shop_management
+url: https://autoleap.com/pricing/
+pricing_note: 'AutoLeap''s three priced tiers (Essentials, Pro, Elite) differentiate purely by feature bundle, not by any stated seat/user cap — no "unlimited users" language or per-tier user count appears anywhere on the page. Enterprise is fully quote-gated ("Custom Pricing") and is not recorded as a tier.'
+
+tiers:
+  - plan: Essentials
+    base_monthly_usd: 179
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://autoleap.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$179 /month" (annual toggle), "$199/month Billed annually" shown as the companion monthly figure on the same card.'
+  - plan: Essentials (monthly billing)
+    compare: false
+    base_monthly_usd: 199
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://autoleap.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$199/month" month-to-month rate on the Essentials card.'
+  - plan: Pro
+    base_monthly_usd: 309
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://autoleap.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$309 /month" (annual toggle). "All Essentials Features Plus..."'
+  - plan: Pro (monthly billing)
+    compare: false
+    base_monthly_usd: 349
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://autoleap.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$349/month" month-to-month rate on the Pro card.'
+  - plan: Elite
+    base_monthly_usd: 409
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://autoleap.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$409 /month" (annual toggle). "All Pro Features Plus..."'
+  - plan: Elite (monthly billing)
+    compare: false
+    base_monthly_usd: 449
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://autoleap.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$449/month" month-to-month rate on the Elite card.'
+
+findings:
+  - id: autoleap-setup-fee
+    claim: >-
+      AutoLeap charges a one-time setup fee covering "dedicated
+      implementation plan, full data migration, hands-on team training,
+      and priority support throughout your setup," per its own pricing
+      FAQ, with no dollar amount stated (2026-09-04).
+    provenance:
+      source_url: https://autoleap.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

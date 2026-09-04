@@ -871,6 +871,28 @@ different, lesser product.
 
 Database is now 190 tools across 43 categories.
 
+### Auto repair shop management software (2026-09-04)
+
+Three vendors: Tekmetric, AutoLeap, Shopmonkey. Seat axis is "users"
+(1, 3, 5, 10, 25), but all three vendors are flat, tiered by feature
+bundle rather than by any seat count, so each tool's price is
+identical at every seat point in this category's comparison table —
+the same pattern already established for Launch27, Zenbooker, and
+Rock Paper Coin's paid tiers.
+
+Tekmetric states this explicitly in its own FAQ: "Does Tekmetric
+charge based on the number of users? No, Tekmetric subscriptions are
+priced per shop, not per user... Unlimited users, unlimited ROs,
+unlimited support." AutoLeap and Shopmonkey never mention a seat cap
+or an "unlimited users" claim either way — their tier ladders
+(Essentials/Pro/Elite and Basic/Clever/Genius) differentiate purely by
+feature bundle (digital vehicle inspections, labor guides, reporting,
+and so on), not team size. All three publish clean annual and monthly
+rates for every tier; the fourth, top tier on each vendor
+(Enterprise / Multi-Shop) is fully quote-gated and not recorded.
+
+Database is now 193 tools across 44 categories.
+
 ### Martial arts / dance studio management software (2026-09-04)
 
 Three vendors: Kicksite, Punchpass, Jackrabbit Class. Seat axis is
@@ -904,7 +926,7 @@ anywhere — a heavily quote-gated vertical, the same pattern already
 seen in veterinary, childcare, pest control, and dental practice
 management.
 
-Database is now 193 tools across 44 categories.
+Database is now 196 tools across 45 categories.
 
 ## Rendered fetches (script-rendered pricing pages)
 

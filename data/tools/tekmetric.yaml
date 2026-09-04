@@ -1,0 +1,85 @@
+slug: tekmetric
+vendor: Tekmetric
+product: Tekmetric
+category: auto_repair_shop_management
+url: https://www.tekmetric.com/pricing
+pricing_note: 'Tekmetric explicitly states it is priced per shop, not per seat: "Does Tekmetric charge based on the number of users? No, Tekmetric subscriptions are priced per shop, not per user... Unlimited users, unlimited ROs, unlimited support." Tiers differentiate by feature bundle rather than team size, so the price is identical at every seat count on this site''s comparison table.'
+
+tiers:
+  - plan: Start
+    base_monthly_usd: 179
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.tekmetric.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'JSON-LD offers block: "Start Plan", price 179.00 USD. Page meta description: "plans starting from just $179/month with annual pricing discounts."'
+  - plan: Start (monthly billing)
+    compare: false
+    base_monthly_usd: 199
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.tekmetric.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$199" appears as the Start plan''s month-to-month figure in the page''s raw dollar scan, alongside the $179 annual figure.'
+  - plan: Grow
+    base_monthly_usd: 309
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.tekmetric.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'JSON-LD offers block: "Grow Plan", price 309.00 USD (annual).'
+  - plan: Grow (monthly billing)
+    compare: false
+    base_monthly_usd: 349
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.tekmetric.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$349" appears as the Grow plan''s month-to-month figure.'
+  - plan: Scale
+    base_monthly_usd: 409
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.tekmetric.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'JSON-LD offers block: "Scale Plan", price 409.00 USD (annual).'
+  - plan: Scale (monthly billing)
+    compare: false
+    base_monthly_usd: 439
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.tekmetric.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$439" appears as the Scale plan''s month-to-month figure.'
+
+findings:
+  - id: tekmetric-priced-per-shop
+    claim: >-
+      Tekmetric states its own FAQ: "Tekmetric subscriptions are priced
+      per shop, not per user... Unlimited users, unlimited ROs, unlimited
+      support. No hidden fees" (2026-09-04).
+    provenance:
+      source_url: https://www.tekmetric.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: tekmetric-addon-pricing
+    claim: >-
+      Tekmetric charges $70/month per shop for Multi-Shop Management,
+      $39/month per shop for Tire Suite, and $345/month per shop for
+      Marketing as add-ons on top of any base plan (2026-09-04).
+    provenance:
+      source_url: https://www.tekmetric.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
