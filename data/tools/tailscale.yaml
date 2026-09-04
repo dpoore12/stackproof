@@ -1,0 +1,111 @@
+slug: tailscale
+vendor: Tailscale
+product: Tailscale
+category: business_vpn
+url: https://tailscale.com/pricing
+free_trial: "Business customers (custom-domain tailnets) get a 14-day free trial with no user limit, automatically, before choosing a paid plan (stated 2026-09-04)."
+pricing_note: "Personal is free forever but is scoped to non-commercial use and is not a business tier (compare: false here). Standard and Premium include 50 tagged resources (exit nodes, etc.) per month; additional tagged resources cost $1/month each. Ephemeral compute minutes (short-lived CI/CD runners, k8s pods) are separately metered: 1,000 minutes/month on Standard and Premium, 10,000 on Enterprise."
+
+tiers:
+  - plan: Personal
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 6
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://tailscale.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Users $0 for up to 6 users." Unlimited devices, tagged resources included: 50. Non-commercial use only, enforced by whether the tailnet uses a public domain (Gmail, Apple, personal GitHub) or a custom one.'
+  - plan: Standard
+    base_monthly_usd: 8
+    per_seat_monthly_usd: 8
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://tailscale.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$8 per user, per month." Unlimited devices, 50 tagged resources included ($1/month per additional), 1,000 ephemeral-resource minutes/month, up to 300 ACL groups, basic Tailscale SSH (up to 5 hosts), SSO with any IdP, basic user roles, basic customer support.'
+  - plan: Premium
+    base_monthly_usd: 18
+    per_seat_monthly_usd: 18
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://tailscale.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$18 per user, per month." Everything in Standard plus custom ACL groups, advanced Tailscale SSH, Kubernetes ingress/egress, Funnel, device posture integrations (MDM/EDR/XDR), advanced user roles, SCIM provisioning, webhooks, priority support.'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "If you are on an annual subscription plan and would like to make any changes, our sales team is happy to help. We'll help sort it out."
+    finding: >-
+      Tailscale's FAQ states monthly-plan and Personal-plan changes can be
+      made self-serve from the Billing page, but annual-subscription
+      changes require contacting sales (2026-09-04).
+    provenance:
+      source_url: https://tailscale.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Tailscale's pricing page and FAQ state no cancellation terms beyond
+      plan changes (2026-09-04).
+    provenance:
+      source_url: https://tailscale.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Tailscale's pricing page and FAQ state no data-export terms
+      (2026-09-04).
+    provenance:
+      source_url: https://tailscale.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Tailscale's pricing page and FAQ state no refund terms (2026-09-04).
+    provenance:
+      source_url: https://tailscale.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: tailscale-domain-based-tier-detection
+    claim: >-
+      Tailscale's FAQ states tier assignment is automatic by email
+      domain: a public domain like Gmail is "treated as personal use"
+      and stays free, while a custom domain is "considered business use"
+      and auto-enrolls in a paid trial (2026-09-04).
+    provenance:
+      source_url: https://tailscale.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: tailscale-tagged-resource-overage
+    claim: >-
+      Tailscale includes 50 tagged resources (such as exit nodes) per
+      month on Standard and Premium, then charges "$1 per month for every
+      tagged resource" beyond that (2026-09-04).
+    provenance:
+      source_url: https://tailscale.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: tailscale-price-ladder
+    claim: >-
+      Tailscale prices Standard at $8 and Premium at $18 per user a
+      month, both billed monthly, more than double between the two
+      self-serve tiers, with Enterprise above that at a custom price
+      (2026-09-04).
+    provenance:
+      source_url: https://tailscale.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

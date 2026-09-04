@@ -1,0 +1,23 @@
+URL: https://nordlayer.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 13:23:43, 13:24:05, 13:24:29 +00:00 (DE/DE/DE gateways 168.119.99.191, 168.119.99.194, 168.119.141.170; rendered USD despite German gateways)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText, targeting the #primary/main content, plus a schema.org Product Offers JSON-LD block and a FAQPage JSON-LD block that together carry exact prices and full FAQ answers not otherwise visible in a single innerText slice.
+---
+Product Offers JSON-LD: {"name":"Lite","price":8,"priceCurrency":"USD"}, {"name":"Core","price":11}, {"name":"Premium","price":14}, {"name":"Enterprise offer","price":6}.
+Toggle: "Monthly | Yearly, SAVE UP TO 22%".
+Lite — "Essential internet access security with basic internet threat prevention features." $8 USER/MONTH. SAVE 20%. 5 users minimum. 14-day money-back guarantee.
+Core (TOP CHOICE) — "A suite of advanced internet access security & basic network access control solutions." $11 USER/MONTH. SAVE 21%. "Server with Dedicated IP +$40/month required." 5 users minimum.
+Premium — "A powerful blend of network access control solutions with more granular network segmentation and the ability to interconnect sites & devices." $14 USER/MONTH. SAVE 22%. "Server with Dedicated IP +$40/month required." 5 users minimum.
+Enterprise offer — "Custom-fit network security for teams over 200 seats, offering clarity & flexible pricing." From $6 USER/MONTH. "With Lite plan. The offer starts with Lite plan capabilities." 200 users minimum.
+"Payments are charged in USD. VAT, sales tax, or other mandatory tax applicable to your purchase in your country will be calculated additionally."
+Compare-table row "Server with Dedicated IP": Not included (Lite) | Included (Core) | Included (Premium) | custom (Enterprise) — read alongside the pricing-card text above, "Included" appears to mean the capability/allowance exists, while the card's "+$40/month required" states the actual mandatory charge for provisioning it.
+FAQPage JSON-LD (7 questions):
+"How can my company pay for NordLayer?" — "You can pay by bank transfer or credit card. We accept Visa, Mastercard, American Express, and Discover."
+"How can I upgrade a NordLayer plan?" — "You can upgrade your NordLayer plan anytime... Just go to the Control Panel and choose the upgrade you want."
+"How does NordLayer charge for new user licenses?" — "You can add as many user accounts as you need at any time. Charges for any additional licenses will be prorated based on your initial contract with NordLayer."
+"How often is my company billed for NordLayer services?" — "completely up to you. You can choose whether your organization is billed monthly or once per year, with the annual plan costing less."
+"Are user licenses transferable?" — "Yes... you can simply transfer the user account that is no longer in use to a new employee."
+"What is NordLayer's refund policy?" — "you can request a refund within 14 calendar days of your initial purchase... contact our customer support at support@nordlayer.com. If you purchased NordLayer subscription through an authorized partner, please refer to the policies of such authorized partner."
+"How to cancel NordLayer subscription?" — "You may cancel your subscription (turn off automatic renewals) at any time... Subscription cancellation will go into effect at the end of your current subscription period, and you will continue to have access to the NordLayer services through the end of your current subscription period. If you cancel your subscription, you will not receive a refund for the unused part of the current subscription period."
+Compliance: "certified according to ISO 27001... AES-256 or ChaCha20 encryption... SOC 2 Type I compliance requirements and the objectives outlined in the HIPAA Security Rules... NordLayer is HIPAA-compliant."
+Page title: "Network security plans & pricing | NordLayer".
