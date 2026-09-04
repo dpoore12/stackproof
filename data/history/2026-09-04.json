@@ -3750,6 +3750,24 @@
    ],
    "vendor": "Hemlane"
   },
+  "home-inspector-pro": {
+   "category": "home_inspection_business_management",
+   "fees": [],
+   "product": "Home Inspector Pro",
+   "tiers": [
+    {
+     "base_monthly_usd": 89.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Home Inspector Pro",
+     "source_url": "https://homeinspectorpro.com/home-inspection-software-pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Home Inspector Pro"
+  },
   "homebase": {
    "category": "payroll",
    "fees": [
@@ -6587,6 +6605,34 @@
    ],
    "vendor": "Pabau"
   },
+  "palmtech": {
+   "category": "home_inspection_business_management",
+   "fees": [],
+   "product": "Palmtech",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 41.67,
+     "plan": "Palmtech (annual)",
+     "source_url": "https://www.palmtech.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 50.0,
+     "plan": "Palmtech (monthly)",
+     "source_url": "https://www.palmtech.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Palmtech"
+  },
   "pandadoc": {
    "category": "esignature",
    "fees": [],
@@ -8237,6 +8283,34 @@
    "product": "Smoobu",
    "tiers": [],
    "vendor": "Smoobu"
+  },
+  "spectora": {
+   "category": "home_inspection_business_management",
+   "fees": [],
+   "product": "Spectora",
+   "tiers": [
+    {
+     "base_monthly_usd": 90.83,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 83.25,
+     "plan": "Spectora (annual)",
+     "source_url": "https://www.spectora.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 109.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 99.0,
+     "plan": "Spectora (monthly)",
+     "source_url": "https://www.spectora.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Spectora"
   },
   "sprout-social": {
    "category": "social_scheduling",

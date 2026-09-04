@@ -1,0 +1,42 @@
+slug: spectora
+vendor: Spectora
+product: Spectora
+category: home_inspection_business_management
+url: https://www.spectora.com/pricing/
+pricing_note: 'Spectora prices per inspector: the base subscription includes one inspector, with additional inspectors billed per-seat. Annual billing is recorded as primary per this site''s policy of treating a headlined prepaid-annual rate as primary; monthly is recorded separately. All features are included in both monthly and annual plans.'
+
+tiers:
+  - plan: Spectora (annual)
+    base_monthly_usd: 90.83
+    per_seat_monthly_usd: 83.25
+    included_seats: 1
+    billing: annual
+    seat_label: inspector
+    provenance:
+      source_url: https://www.spectora.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Annual Subscription — $1090/year ($218 in savings!) — Additional inspectors: $999/year." Computed as $1090/12 = $90.83/mo base and $999/12 = $83.25/mo per additional inspector.'
+  - plan: Spectora (monthly)
+    base_monthly_usd: 109
+    per_seat_monthly_usd: 99
+    included_seats: 1
+    billing: monthly
+    seat_label: inspector
+    compare: false
+    provenance:
+      source_url: https://www.spectora.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Monthly Subscription — $109/month ($1308 over 12 months) — Additional inspectors: $99/month."'
+
+findings:
+  - id: spectora-all-features-both-plans
+    claim: >-
+      Spectora includes all features in both its monthly and annual
+      subscription plans, with no feature gating by billing period, per
+      its own pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://www.spectora.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
