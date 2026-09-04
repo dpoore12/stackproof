@@ -1,0 +1,9 @@
+URL: https://www.fleetio.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 17:46:12 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText directly.
+
+Three plans, "per vehicle, per month": Essential $4 billed annually (or $5 billed monthly) -- "For smaller fleets to organize vehicle inventory & manage inspections." Professional $7, billed annually only -- "For growing fleets to improve service tracking, communication & reporting." Premium $10, billed annually only -- "For advanced fleets to integrate fleet systems & customize workflows."
+Disclaimer directly under the three prices: "*Fleetio subscriptions are priced based on plan, fleet size range, contract term, and payment term... Prices shown above assume a fleet with 5 assets subscribing to an Essential 5, Professional 5, or Premium 5 annual plan band." -- the headline per-vehicle rate is for a 5-vehicle fleet band specifically; rates for other fleet-size bands are not published on this page.
+Separate Tools Add-on (for small equipment, not vehicles): "On average, tool add-on pricing starts at $0.50 per piece per month. Volume discounting is offered for specific tiers." Requires a core vehicle subscription -- "No, Fleetio is the core product and is a requirement for Tools."
+14-day free trial, no credit card required.

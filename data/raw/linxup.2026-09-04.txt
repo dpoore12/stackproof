@@ -1,0 +1,8 @@
+URL: https://www.linxup.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 17:46:xx +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText directly.
+
+Linxup sells separate product lines rather than Basic/Pro tiers of one plan, each shown at a "No Contract / 2-year Contract / 3-year Contract" toggle defaulting to "No Contract" (only that default price rendered statically): Vehicles -- Track Your Fleet (Standard Plug-in Tracker) "$25/Vehicle," "$0 One-time hardware cost" (real-time GPS tracking, driver alerts, theft recovery, geofencing, maintenance tracking, unsafe driving monitors, proof-of-service). Assets -- Track Equipment & Tools (Standard Asset Tracker) "$15/Tracker" (a different unit -- equipment, not vehicles). ELD -- Electronic Logging Device (Standard ELD Package) "$30/Vehicle" (hours-of-service compliance add-on). AI Dash Cams (requires GPS device) "$40/Vehicle." Rear View Cams -- Linxup Rear Vision (requires LinxCam) "$15/Camera."
+Header banner: "Volume & bundle pricing available. Free shipping. No-contract options. No activation fee. Lifetime hardware guarantee."
+Only the core Vehicles tracking line is comparable to this category's per-vehicle axis; ELD, AI Dash Cams, and Rear View Cams are add-ons priced on top of a vehicle tracker, and Assets tracking prices a different unit (equipment, not vehicles).

@@ -1,0 +1,75 @@
+slug: fleetio
+vendor: Fleetio
+product: Fleetio
+category: fleet_management
+url: https://www.fleetio.com/pricing
+pricing_note: 'Fleetio''s own disclaimer: "Prices shown above assume a fleet with 5 assets subscribing to an Essential 5, Professional 5, or Premium 5 annual plan band." The headline per-vehicle rate applies to a 5-vehicle fleet band specifically; rates for other fleet-size bands are not published on this page.'
+
+tiers:
+  - plan: Essential
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 4
+    included_seats: 0
+    seat_label: vehicle
+    billing: annual
+    provenance:
+      source_url: https://www.fleetio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$4 per vehicle, per month, billed annually." "For smaller fleets to organize vehicle inventory & manage inspections."'
+  - plan: Essential (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 5
+    included_seats: 0
+    seat_label: vehicle
+    billing: monthly
+    provenance:
+      source_url: https://www.fleetio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$5 billed monthly."'
+  - plan: Professional
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 7
+    included_seats: 0
+    seat_label: vehicle
+    billing: annual
+    provenance:
+      source_url: https://www.fleetio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$7 per vehicle, per month, billed annually only." "For growing fleets to improve service tracking, communication & reporting." Marked "MOST POPULAR." No month-to-month option published.'
+  - plan: Premium
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 10
+    included_seats: 0
+    seat_label: vehicle
+    billing: annual
+    provenance:
+      source_url: https://www.fleetio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$10 per vehicle, per month, billed annually only." "For advanced fleets to integrate fleet systems & customize workflows." No month-to-month option published.'
+  - plan: Tools Add-on
+    standalone: false
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0.5
+    seat_label: tool
+    billing: monthly
+    provenance:
+      source_url: https://www.fleetio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"On average, tool add-on pricing starts at $0.50 per piece per month. Volume discounting is offered for specific tiers." Prices small equipment/tools, not vehicles; requires a core Fleetio vehicle subscription -- "Fleetio is the core product and is a requirement for Tools."'
+
+findings:
+  - id: fleetio-free-trial
+    claim: >-
+      Fleetio offers a 14-day free trial with no credit card required,
+      with access to all features during the trial (2026-09-04).
+    provenance:
+      source_url: https://www.fleetio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
