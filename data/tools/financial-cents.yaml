@@ -1,0 +1,49 @@
+slug: financial-cents
+vendor: Financial Cents
+product: Financial Cents
+category: accounting_firm_practice_management
+url: https://financial-cents.com/pricing/
+
+tiers:
+  - plan: Solo
+    base_monthly_usd: 19
+    max_seats: 1
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://financial-cents.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Solo — $19/month. Billed annually." "The only app you need to run your solo firm at one affordable price." "Single user firms only."'
+  - plan: Team
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 49
+    included_seats: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://financial-cents.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Team — $49/month (per user). Billed annually." "Hit deadlines with more visibility, collaboration, and organization."'
+  - plan: Scale
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 69
+    included_seats: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://financial-cents.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Scale — $69/month (per user). Billed annually." Marked "Most Popular." "Increase firm productivity with more automations & integrations."'
+
+findings:
+  - id: financial-cents-12-month-agreement
+    claim: >-
+      All Financial Cents plans require a 12-month agreement, per its
+      own pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://financial-cents.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

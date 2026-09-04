@@ -1,0 +1,86 @@
+slug: canopy
+vendor: Canopy
+product: Canopy
+category: accounting_firm_practice_management
+url: https://www.getcanopy.com/pricing
+
+tiers:
+  - plan: Standard
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 74
+    included_seats: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.getcanopy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Standard — $74 user/month billed annually." "Everything you need to run your firm."'
+  - plan: Standard (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 93
+    included_seats: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.getcanopy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Paired monthly (non-annual) rate for Standard, recovered from the page''s raw dollar-array scan alongside the $74 annual rate.'
+  - plan: Plus
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 109
+    included_seats: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.getcanopy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Plus — $109 user/month billed annually." Marked "Most Popular." "All Standard features, plus" user roles and access controls, more client intake capacity, advanced task views and filters, capacity planning and forecasting, custom reporting.'
+  - plan: Plus (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 136
+    included_seats: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.getcanopy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Paired monthly (non-annual) rate for Plus, recovered from the page''s raw dollar-array scan alongside the $109 annual rate.'
+  - plan: Premium
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 149
+    included_seats: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.getcanopy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Premium — $149 user/month billed annually." Adds a Practitioner Mobile App and more.'
+  - plan: Premium (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 186
+    included_seats: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.getcanopy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Paired monthly (non-annual) rate for Premium, recovered from the page''s raw dollar-array scan alongside the $149 annual rate.'
+
+findings:
+  - id: canopy-enterprise-quote-gated
+    claim: >-
+      Canopy's Enterprise tier is not priced in static text on its own
+      pricing page as of 2026-09-04; it is fully quote-gated.
+    provenance:
+      source_url: https://www.getcanopy.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

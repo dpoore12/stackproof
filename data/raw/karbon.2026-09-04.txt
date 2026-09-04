@@ -1,0 +1,25 @@
+source: https://karbonhq.com/pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+h1: "Practice Management Plans to Suit Every Accounting Firm." Three
+tiers, confirmed via raw page text, all purely per-user (no base fee):
+
+Team — "$59/month, per user, paid annually. Or $79/month per user,
+paid monthly. Monthly subscription only available for teams of 4+."
+"The essential workflow and collaboration tools for small accounting
+firms." Integrated Email, Team Collaboration Tools, Workflow and To-Do
+Lists, Time Tracking & Budget Reporting, Billing, Payments,
+Engagements.
+
+Business (marked "Most popular") — "$89/month, per user, paid
+annually. Or $99/month per user, paid monthly. Monthly subscription
+only available for teams of 4+." "Workflow automation and integrations
+to increase efficiency and visibility for growing practices." Includes
+everything in Team, plus Automatic Client Reminders, Task Automation,
+Industry Integrations.
+
+Enterprise — "Custom Pricing." "Collaboration, security and reporting
+tools for large accounting firms." Includes everything in Team and
+Business, plus more (not further detailed in this fetch). Fully
+quote-gated, not recorded.
