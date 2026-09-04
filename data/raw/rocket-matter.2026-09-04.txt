@@ -1,0 +1,10 @@
+URL: https://www.rocketmatter.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 17:29:41 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText directly.
+
+Four plans, headline price shown as "(Paid Annually)" with no separate month-to-month figure rendered in the static page for the core plans themselves: Essentials $59/user/month. Pro $95/user/month. Premier $115/user/month. Elite $145/user/month. "Every plan comes with unlimited support, free data migration."
+Document storage: 25GB on Essentials, unlimited on Pro/Premier/Elite. Full built-in business accounting (bank reconciliation, AP tracking, bank feed) only on Elite.
+Separate CRM add-on (only available for Pro and Premier plans, standalone from the core practice-management price): Core CRM $39/user/month billed annually ($49/user/month billed monthly); Enterprise CRM $147/month for up to 3 users billed annually ($177/month billed monthly, $49-59/mo per each additional user). One-time $399 CRM onboarding fee, 3-user minimum.
+Separate website add-on (standalone from the core plan, available on all four tiers): "+$149/month" billed annually, one-time $599 setup fee.
+No cancellation/refund clause found on this page.

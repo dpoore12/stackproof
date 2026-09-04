@@ -1,0 +1,9 @@
+URL: https://www.cosmolex.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 17:25:52 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText directly (no cloneNode/querySelectorAll -- that approach threw "Property 'forEach' of object is not a function" in this environment on this page; the plain innerText read succeeded).
+
+Two plans shown on a Monthly/Yearly toggle, defaulting to Monthly: Core "$99 user/mo". Pro "$129 user/mo". Banner above the toggle: "Save $120 per user with yearly" (a per-user annual-billing discount claim; the exact yearly per-plan rate is not separately itemized on the static render, so only the monthly figures are recorded as tiers here).
+The page's own embedded schema.org JSON-LD (SoftwareApplication offers) lists both "CosmoLex Standard" and "CosmoLex Elite" with priceSpecification.description "Contact for pricing" -- stale/generic structured data that does not match the live Core/Pro plan names or prices actually rendered on the page; disregarded in favor of the rendered $99/$129 figures.
+Feature table confirms Core includes trust accounting, billing/invoicing, and time tracking; Pro adds bank feeds and advanced compliance reporting.
+No per-seat included-count or additional-user cap is stated; pricing reads as a flat per-user rate with no base platform fee.

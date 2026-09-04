@@ -1,0 +1,9 @@
+URL: https://www.mycase.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 17:21:26 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+
+Three plans, each shown at a monthly rate and a "billed annually" per-user rate: Basic $60/user/month (month-to-month) or $50/user/month billed annually. Pro $120/user/month (month-to-month) or $100/user/month billed annually. Advanced $150/user/month (month-to-month) or $130/user/month billed annually.
+Two add-ons shown on the same page, priced separately from the three core plans: LawPay Payments -- "$0, no monthly fee" (payment processing only). MyCase Accounting -- "$39/user/month" (bundled trust/business accounting module).
+FAQ explicitly confirms all six headline figures (three plans x two billing periods) and states "no long-term contract" and "no setup fee."
+Cancellation clause, stated in FAQ: "You can easily cancel your account within the Settings section at any time. Please note that any previously paid fees are non-refundable."
