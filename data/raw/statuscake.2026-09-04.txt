@@ -1,0 +1,14 @@
+URL: https://www.statuscake.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 13:55:30 +00:00 (US gateway 68.183.60.34; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText + JSON-LD.
+---
+"Which StatusCake plan is right for me?" Toggle: "Monthly Billing / Annual Billing" ("Get 2 months free! (save 16%)").
+Free — "The basics of StatusCake monitoring. Ideal for: Personal use via a single login. $0/mo. Your Free plan includes: Single login for personal use, 3 uptime monitors, 15-minute test intervals, SMS & integration alerting, Domain monitoring, Page speed monitoring, SSL monitoring, Server monitoring, Reporting."
+Superior (Most Popular) — "Access more monitoring tools and customisation. Ideal for: Small businesses. Up to 2 team members. $24.49/mo $20.41/mo. $244.92 billed yearly (Save $48.96/year). Your Superior plan includes: Logins for 2 team members, 100 uptime monitors, 1-minute test intervals, 15 page speed monitors, 50 domain monitors, 50 SSL monitors, 3 server monitors."
+Business — "The full StatusCake suite. Ideal for: Larger companies, Dev Ops teams. Up to 10 team members. $79.99/mo $66.66/mo. $799.92 billed yearly (Save $159.96/year). Your Business plan includes: Logins for 10 team members, 300 uptime monitors, 30-second test intervals, 30 page speed monitors, 120 domain monitors, 100 SSL monitors, 10 server monitors, Team tools."
+Custom — "Build a plan to suit you, and scale with bolt-ons. Ideal for: Companies with specific needs. Unlimited team members. Custom pricing - only pay for what you need. POA."
+FAQ (Free Trials and Plans): "Do you offer a free trial?" — "Our free trial period lasts 7 days and can be extended upon request. ... After the trial, your account shifts to a free plan." "What happens after the free trial ends?" — "...If you haven't added a card and opt for a free plan, your account will automatically shift to a free plan after the 14-day trial." (Note: this answer says "14-day trial," inconsistent with the "7 days" stated one question earlier.) "Can I cancel my subscription at any time?" — "You can cancel your subscription anytime, even mid-billing cycle. Upon cancellation, you retain access to paid plan features until the current cycle ends... Cancel anytime without penalties or fees, even mid-cycle."
+FAQ (Technical Support and Assistance): "What level of support is provided?" — "StatusCake provides support via Live Chat and email... In the last 12 months, our support team achieved a median first response time of 25 minutes and resolved issues within 6 hours and 15 minutes on average... a remarkable 92.5% of experiences rated as Good or Excellent."
+No money-back-guarantee or refund language found.
+Page title: "Pricing - StatusCake".

@@ -1,0 +1,182 @@
+slug: atlassian-statuspage
+vendor: Atlassian
+product: Statuspage
+category: uptime_monitoring
+url: https://www.atlassian.com/software/statuspage/pricing
+free_trial: "No trial needed for the Free public-page plan (2 team members, 100 subscribers), which runs indefinitely at $0; paid plans are self-serve 'Get started today' signups (2026-09-04)."
+pricing_note: "Statuspage sells two distinct product lines at different prices for similar team-member counts: Public Pages (customer-facing status communication) and Private Pages (internal-only, gated by 'authenticated subscribers' instead of public subscriber counts). Because most buyers researching status-page pricing want the customer-facing product, Public Page tiers are used for this category's comparison table; Private Page tiers are recorded for reference but marked non-comparable (compare: false) to avoid blending two different products into one misleading 'cheapest' figure. A third line, Audience-specific pages, starts at $300/month and is recorded as a finding only, not as a priced tier."
+
+tiers:
+  - plan: Free (Public)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 2
+    seat_label: team member
+    billing: monthly
+    provenance:
+      source_url: https://www.atlassian.com/software/statuspage/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Our free plan gives you access to 100 subscribers, 25 components, two team members, two metrics, email notifications, Slack notifications, Microsoft Teams notifications, and access to REST APIs."'
+  - plan: Hobby (Public)
+    base_monthly_usd: 29
+    per_seat_monthly_usd: 0
+    max_seats: 5
+    seat_label: team member
+    billing: monthly
+    provenance:
+      source_url: https://www.atlassian.com/software/statuspage/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Hobby $29 /month. 250 subscribers, 5 team members, 5 metrics, Email notifications, Slack notifications, Microsoft Teams notifications, Basic customization, Custom domain, Access to REST APIs."'
+  - plan: Startup (Public)
+    base_monthly_usd: 99
+    per_seat_monthly_usd: 0
+    max_seats: 10
+    seat_label: team member
+    billing: monthly
+    provenance:
+      source_url: https://www.atlassian.com/software/statuspage/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Startup $99 /month. 1,000 subscribers, 10 team members, 10 metrics, Email/SMS/webhook notifications ... Team member SSO (with Atlassian Guard)."'
+  - plan: Business (Public)
+    base_monthly_usd: 399
+    per_seat_monthly_usd: 0
+    max_seats: 25
+    seat_label: team member
+    billing: monthly
+    provenance:
+      source_url: https://www.atlassian.com/software/statuspage/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Business $399 /month. 5,000 subscribers, 25 team members, 25 metrics ... Component subscriptions, Role-based access control."'
+  - plan: Enterprise (Public)
+    base_monthly_usd: 1499
+    per_seat_monthly_usd: 0
+    max_seats: 50
+    seat_label: team member
+    billing: monthly
+    provenance:
+      source_url: https://www.atlassian.com/software/statuspage/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Enterprise $1,499 /month. 25,000 subscribers, 50 team members, 50 metrics ... Yearly purchase orders and invoicing available."'
+  - plan: Starter (Private)
+    compare: false
+    base_monthly_usd: 79
+    per_seat_monthly_usd: 0
+    max_seats: 5
+    seat_label: team member
+    billing: monthly
+    provenance:
+      source_url: https://www.atlassian.com/software/statuspage/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Starter $79 /month. 5 team members, 50 authenticated subscribers, 5 metrics, Email notifications, Custom CSS, Incident templates, Team member SSO, Email support." Private (internal-only) product line, priced separately from Public Pages.'
+  - plan: Growth (Private)
+    compare: false
+    base_monthly_usd: 249
+    per_seat_monthly_usd: 0
+    max_seats: 15
+    seat_label: team member
+    billing: monthly
+    provenance:
+      source_url: https://www.atlassian.com/software/statuspage/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Growth $249 /month. 15 team members, 300 authenticated subscribers, 15 metrics ... IP allowlisting."'
+  - plan: Corporate (Private)
+    compare: false
+    base_monthly_usd: 599
+    per_seat_monthly_usd: 0
+    max_seats: 35
+    seat_label: team member
+    billing: monthly
+    provenance:
+      source_url: https://www.atlassian.com/software/statuspage/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Corporate $599 /month. 35 team members, 1,000 authenticated subscribers, 35 metrics ... Role-based access control."'
+  - plan: Enterprise (Private)
+    compare: false
+    base_monthly_usd: 1499
+    per_seat_monthly_usd: 0
+    max_seats: 50
+    seat_label: team member
+    billing: monthly
+    provenance:
+      source_url: https://www.atlassian.com/software/statuspage/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Enterprise $1,499 /month. 50 team members, 5,000 authenticated subscribers, 50 metrics ... Account representative support."'
+
+clauses:
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Statuspage's pricing FAQ (public and private) states no cancellation
+      terms (2026-09-04).
+    provenance:
+      source_url: https://www.atlassian.com/software/statuspage/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Statuspage's pricing FAQ (public and private) states no refund terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.atlassian.com/software/statuspage/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    quote: "We do, although right now the setup is manual and requires a signed order form. If you're looking to sign up for a yearly plan via credit card, contact our support team and we're happy to help."
+    finding: >-
+      Statuspage's FAQ states yearly credit-card billing is not self-serve:
+      it requires a signed order form processed manually by support
+      (2026-09-04).
+    provenance:
+      source_url: https://www.atlassian.com/software/statuspage/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: statuspage-team-member-definition
+    claim: >-
+      Statuspage's FAQ defines the billed unit: "Team members are people
+      that can log into your account and do things ... to update your
+      status page," distinct from public subscribers (2026-09-04).
+    provenance:
+      source_url: https://www.atlassian.com/software/statuspage/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: statuspage-sso-included
+    claim: >-
+      Statuspage includes Single Sign-On with Atlassian Guard at no extra
+      charge on Startup, Business and Enterprise (Public) and on every
+      Private Page plan, as of 2026-09-04.
+    provenance:
+      source_url: https://www.atlassian.com/software/statuspage/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: statuspage-private-page-guidance
+    claim: >-
+      Statuspage's FAQ advises companies typically adopt a Private Page
+      "around the 50 employee mark and up," since chat or email alone
+      breaks down as a status channel below that size (2026-09-04).
+    provenance:
+      source_url: https://www.atlassian.com/software/statuspage/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: statuspage-audience-specific-tier
+    claim: >-
+      Beyond Public and Private Pages, Statuspage sells "Audience-specific
+      pages" starting at $300/month, with team members starting at 25 and
+      users starting at 500 (2026-09-04).
+    provenance:
+      source_url: https://www.atlassian.com/software/statuspage/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

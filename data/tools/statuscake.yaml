@@ -1,0 +1,150 @@
+slug: statuscake
+vendor: StatusCake
+product: StatusCake
+category: uptime_monitoring
+url: https://www.statuscake.com/pricing/
+free_trial: "Free 7-day trial of paid features, extendable on request; accounts without a card on file automatically shift to the Free plan once the trial ends (2026-09-04)."
+pricing_note: "StatusCake ties team-member ('login') count directly to its Free/Superior/Business tiers, alongside a separate uptime-monitor-count cap per tier; Custom/Enterprise is unlimited team members at a quote-only price."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 1
+    seat_label: team member (login)
+    billing: monthly
+    provenance:
+      source_url: https://www.statuscake.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free. The basics of StatusCake monitoring. Ideal for: Personal use via a single login. $0/mo. Your Free plan includes: Single login for personal use, 3 uptime monitors, 15-minute test intervals."'
+  - plan: Superior (annual)
+    base_monthly_usd: 20.41
+    per_seat_monthly_usd: 0
+    max_seats: 2
+    seat_label: team member (login)
+    billing: annual
+    provenance:
+      source_url: https://www.statuscake.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Superior. Ideal for: Small businesses. Up to 2 team members. $24.49/mo $20.41/mo. $244.92 billed yearly (Save $48.96/year). Your Superior plan includes: Logins for 2 team members, 100 uptime monitors, 1-minute test intervals, 15 page speed monitors, 50 domain monitors, 50 SSL monitors, 3 server monitors."'
+  - plan: Superior (monthly)
+    compare: false
+    base_monthly_usd: 24.49
+    per_seat_monthly_usd: 0
+    max_seats: 2
+    seat_label: team member (login)
+    billing: monthly
+    provenance:
+      source_url: https://www.statuscake.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$24.49/mo" billed month-to-month, versus $20.41/mo billed annually.'
+  - plan: Business (annual)
+    base_monthly_usd: 66.66
+    per_seat_monthly_usd: 0
+    max_seats: 10
+    seat_label: team member (login)
+    billing: annual
+    provenance:
+      source_url: https://www.statuscake.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Business. The full StatusCake suite. Ideal for: Larger companies, Dev Ops teams. Up to 10 team members. $79.99/mo $66.66/mo. $799.92 billed yearly (Save $159.96/year). Your Business plan includes: Logins for 10 team members, 300 uptime monitors, 30-second test intervals, 30 page speed monitors, 120 domain monitors, 100 SSL monitors, 10 server monitors, Team tools."'
+  - plan: Business (monthly)
+    compare: false
+    base_monthly_usd: 79.99
+    per_seat_monthly_usd: 0
+    max_seats: 10
+    seat_label: team member (login)
+    billing: monthly
+    provenance:
+      source_url: https://www.statuscake.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$79.99/mo" billed month-to-month, versus $66.66/mo billed annually.'
+  - plan: Custom
+    compare: false
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: team member (login)
+    billing: monthly
+    provenance:
+      source_url: https://www.statuscake.com/pricing/
+      fetched_at: 2026-09-04
+      method: not_available
+      note: '"Custom. Build a plan to suit you, and scale with bolt-ons. Ideal for: Companies with specific needs. Unlimited team members. Custom pricing - only pay for what you need. POA." No price published.'
+
+support:
+  channels: ["Live Chat", "email"]
+  measured_first_response_minutes: 25
+  provenance:
+    source_url: https://www.statuscake.com/pricing/
+    fetched_at: 2026-09-04
+    method: live_fetch
+    note: '"Support Level: StatusCake provides support via Live Chat and email ... In the last 12 months, our support team achieved a median first response time of 25 minutes and resolved issues within 6 hours and 15 minutes on average ... 92.5% of experiences rated as Good or Excellent."'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    quote: "You can cancel your subscription anytime, even mid-billing cycle. Upon cancellation, you retain access to paid plan features until the current cycle ends, maximizing your service usage."
+    finding: >-
+      StatusCake states subscriptions can be cancelled at any time,
+      including mid-cycle, with no penalties or fees, and access continues
+      until the current billing cycle ends (2026-09-04).
+    provenance:
+      source_url: https://www.statuscake.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      StatusCake's pricing FAQ states no money-back-guarantee or refund
+      terms; its 7-day trial converts to the free plan rather than issuing
+      a refund if no card is added (2026-09-04).
+    provenance:
+      source_url: https://www.statuscake.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    quote: "If you've added your card and choose to continue with a paid plan, your card will be charged at the trial's end. Your subscription billing period will start from that point onward."
+    finding: >-
+      StatusCake charges a card on file at the end of the 7-day trial and
+      starts the billing cycle from that date (2026-09-04).
+    provenance:
+      source_url: https://www.statuscake.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: statuscake-support-response-time
+    claim: >-
+      StatusCake reports a median first-response time of 25 minutes and an
+      average resolution time of 6 hours 15 minutes across the last 12
+      months of support tickets, as stated 2026-09-04.
+    provenance:
+      source_url: https://www.statuscake.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: statuscake-seat-monitor-coupling
+    claim: >-
+      StatusCake ties team-member count directly to monitor allowance:
+      Free is 1 login with 3 monitors, Superior is 2 logins with 100
+      monitors, Business is 10 logins with 300 monitors (2026-09-04).
+    provenance:
+      source_url: https://www.statuscake.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: statuscake-trial-length-inconsistency
+    claim: >-
+      StatusCake's own FAQ is internally inconsistent about trial length:
+      one heading states a "7 days" trial while the very next answer
+      references a "14-day trial" for accounts with no card (2026-09-04).
+    provenance:
+      source_url: https://www.statuscake.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

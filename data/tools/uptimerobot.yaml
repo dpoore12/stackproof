@@ -1,0 +1,171 @@
+slug: uptimerobot
+vendor: UptimeRobot
+product: UptimeRobot
+category: uptime_monitoring
+url: https://uptimerobot.com/pricing/
+free_trial: "No paid trial; Free ($0, 50 monitors) runs indefinitely with no credit card, and paid plans can be subscribed to directly (2026-09-04)."
+pricing_note: "UptimeRobot's Free and Solo plans include no invitable login seats at all beyond the account owner; Team and Scale include 3 and 5 login seats respectively, with additional seats priced at $19/month billed monthly or $15/month billed annually on both plans, per the page's own feature-comparison table. That per-seat overage rate is recorded directly on the Team and Scale tiers below via per_seat_monthly_usd. All dollar figures here were captured after pinning the fetch to a US-based proxy pool (ip_pool_for_scan: us); an earlier fetch through German-based pools rendered the same page in EUR at different headline numbers (e.g. Team €41/€35 per month vs the US-priced $46/$39), confirming the page geo-prices by request origin rather than showing one universal price."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 1
+    seat_label: login seat (team member with dashboard access)
+    billing: monthly
+    provenance:
+      source_url: https://uptimerobot.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free $0/month. Good for hobby and non-profit projects. No credit card required! 50 monitors, 5 min. monitoring interval ... Notify seats unavailable. No login seats available." (fetched with ip_pool_for_scan: us, gateway 134.209.42.109).'
+  - plan: Solo (annual)
+    base_monthly_usd: 12
+    per_seat_monthly_usd: 0
+    max_seats: 1
+    seat_label: login seat (team member with dashboard access)
+    billing: annual
+    provenance:
+      source_url: https://uptimerobot.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Solo. $13 $12/month. Good for freelancers and small sites. 10 monitors ... 60-second monitoring interval ... 3 status pages, own domain." Feature table confirms "Solo Starts at $144/y" (= $12 x 12). No login seats are listed as included or purchasable on Solo.'
+  - plan: Solo (monthly)
+    compare: false
+    base_monthly_usd: 13
+    per_seat_monthly_usd: 0
+    max_seats: 1
+    seat_label: login seat (team member with dashboard access)
+    billing: monthly
+    provenance:
+      source_url: https://uptimerobot.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$13/month" billed month-to-month, versus $12/month billed annually.'
+  - plan: Team (annual)
+    base_monthly_usd: 39
+    per_seat_monthly_usd: 15
+    included_seats: 3
+    seat_label: login seat (team member with dashboard access)
+    billing: annual
+    provenance:
+      source_url: https://uptimerobot.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Team. Most popular. $46 $39/month. For small teams running production services. 100 monitors ... 30 sec. monitoring interval, 3 seats included, 100 status pages, white-label." Comparison table: "Login seats included ... 3, add for $15/19 / mo." "Team $468/y" (= $39 x 12).'
+  - plan: Team (monthly)
+    compare: false
+    base_monthly_usd: 46
+    per_seat_monthly_usd: 19
+    included_seats: 3
+    seat_label: login seat (team member with dashboard access)
+    billing: monthly
+    provenance:
+      source_url: https://uptimerobot.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$46/month" billed month-to-month, versus $39/month billed annually; additional seats $19/month billed monthly.'
+  - plan: Scale (annual)
+    base_monthly_usd: 79
+    per_seat_monthly_usd: 15
+    included_seats: 5
+    seat_label: login seat (team member with dashboard access)
+    billing: annual
+    provenance:
+      source_url: https://uptimerobot.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Scale. $98 $79/month. For high-volume, self-serve monitoring. 200 (or 500) monitors ... 15 sec. monitoring interval, 5 seats included, unlimited status pages." Comparison table: "Login seats included ... 5, add for $15/19 / mo." "Scale Starts at $948/y" (= $79 x 12).'
+  - plan: Scale (monthly)
+    compare: false
+    base_monthly_usd: 98
+    per_seat_monthly_usd: 19
+    included_seats: 5
+    seat_label: login seat (team member with dashboard access)
+    billing: monthly
+    provenance:
+      source_url: https://uptimerobot.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$98/month" billed month-to-month, versus $79/month billed annually.'
+  - plan: Enterprise
+    compare: false
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: login seat
+    billing: monthly
+    provenance:
+      source_url: https://uptimerobot.com/pricing/
+      fetched_at: 2026-09-04
+      method: not_available
+      note: '"Enterprise. Let''s talk. For custom scale, compliance & procurement. Any amount you need. Custom & faster monitoring intervals, Dedicated CSM + private Slack, SOC 2, DPA, MSA & security review, SLA + white-glove onboarding, Custom invoicing." No price published.'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    quote: "No risk, cancel anytime! We have a 14-day money back guarantee!"
+    finding: >-
+      UptimeRobot states on its pricing page, "No risk, cancel anytime! We
+      have a 14-day money back guarantee!" (2026-09-04).
+    provenance:
+      source_url: https://uptimerobot.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: stated
+    quote: "No risk, cancel anytime! We have a 14-day money back guarantee!"
+    finding: >-
+      The same pricing-page line covering UptimeRobot's cancellation
+      policy also promises a 14-day money-back guarantee (2026-09-04).
+    provenance:
+      source_url: https://uptimerobot.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: needs_account
+    finding: >-
+      UptimeRobot's pricing page does not surface data-export terms; not
+      verified on a real account (2026-09-04).
+    provenance:
+      source_url: https://uptimerobot.com/pricing/
+      fetched_at: 2026-09-04
+      method: not_available
+
+findings:
+  - id: uptimerobot-seat-overage-rate
+    claim: >-
+      UptimeRobot's Team plan includes 3 login seats and Scale includes 5,
+      with additional seats priced at $19/month billed monthly or
+      $15/month billed annually on both plans (2026-09-04).
+    provenance:
+      source_url: https://uptimerobot.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: uptimerobot-notify-vs-login-seats
+    claim: >-
+      UptimeRobot separates free "notify-only" seats (alert-only, no
+      dashboard access) from paid "login seats" (dashboard access),
+      including 0/3/5 notify-only seats on Solo/Team/Scale (2026-09-04).
+    provenance:
+      source_url: https://uptimerobot.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: uptimerobot-geo-pricing
+    claim: >-
+      UptimeRobot's pricing page renders different headline numbers by
+      request origin: a German-routed fetch showed Team at €41/€35 per
+      month, while a US-routed fetch of the same page showed $46/$39
+      (2026-09-04).
+    provenance:
+      source_url: https://uptimerobot.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: uptimerobot-ai-agent-pricing-feed
+    claim: >-
+      UptimeRobot's pricing page links to a "machine-readable pricing (for
+      AI agents)" version of its own plan data (2026-09-04).
+    provenance:
+      source_url: https://uptimerobot.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
