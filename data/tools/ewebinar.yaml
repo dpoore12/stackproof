@@ -1,0 +1,141 @@
+slug: ewebinar
+vendor: eWebinar
+product: eWebinar
+category: webinar_platforms
+url: https://www.ewebinar.com/pricing
+free_trial: "14-day free trial; publishing a 2nd webinar or raising the registrant limit during the trial ends it early and starts billing (stated 2026-09-04)."
+pricing_note: "eWebinar bills by the number of published ('active') automated webinars a account has, plus a monthly registrant cap per level, not by attendees per session or team seats (team members are unlimited and free). This axis does not match this category's attendees-per-session seat points, so every tier here is marked non-comparable (compare: false) and presented as findings rather than forced into the cross-vendor cost table."
+
+tiers:
+  - plan: Level 1
+    compare: false
+    base_monthly_usd: 84.17
+    per_seat_monthly_usd: 0
+    seat_label: active published webinar (up to 1) with 1,000 registrants/month
+    billing: annual
+    provenance:
+      source_url: https://www.ewebinar.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Level 1. You''re just getting started! $99/mo. $1,010 billed annually. All standard features, unlimited recurring sessions, unlimited team members, up to 1 active eWebinar, 1,000 registrants per month."'
+  - plan: Level 1 (monthly)
+    compare: false
+    base_monthly_usd: 99
+    per_seat_monthly_usd: 0
+    seat_label: active published webinar (up to 1) with 1,000 registrants/month
+    billing: monthly
+    provenance:
+      source_url: https://www.ewebinar.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "$99/mo billed monthly (\"Save 15%\" for annual, confirmed: $1,010/12=$84.17, a 15% discount)."
+  - plan: Level 2
+    compare: false
+    base_monthly_usd: 169.17
+    per_seat_monthly_usd: 0
+    seat_label: active published webinars (up to 5) with 3,000 registrants/month
+    billing: annual
+    provenance:
+      source_url: https://www.ewebinar.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Level 2. For companies ready to expand. $199/mo. $2,030 billed annually. Everything in Level 1, plus up to 5 active eWebinars, 3,000 registrants per month."'
+  - plan: Level 3
+    compare: false
+    base_monthly_usd: 254.17
+    per_seat_monthly_usd: 0
+    seat_label: active published webinars (up to 15, +$15/mo each additional) with 5,000 registrants/month
+    billing: annual
+    provenance:
+      source_url: https://www.ewebinar.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Level 3. For scaling to a full library. $299/mo. $3,050 billed annually. Everything in Level 2, plus up to 15 active eWebinars + $15/month for each additional, 5,000 registrants per month."'
+  - plan: Enterprise
+    compare: false
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: custom active webinars and registrants
+    billing: annual
+    provenance:
+      source_url: https://www.ewebinar.com/pricing
+      fetched_at: 2026-09-04
+      method: not_available
+      note: "\"Enterprise. For organizations looking for enterprise-level features, integrations, and security. Contact Sales. Everything in Level 3, plus custom active eWebinars, custom registrants per month.\""
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "We will never raise your pricing level without first giving you a chance to decide if that is what you want to do... If you decide to go ahead and publish the eWebinar, you will be charged immediately the difference in price between Levels 1 and 2 on a prorated basis for the time remaining in your current monthly or annual billing cycle."
+    finding: >-
+      eWebinar warns before an action that would raise the billing level,
+      then charges the prorated difference immediately if the customer
+      proceeds; downgrades only happen automatically at the end of the
+      billing cycle (2026-09-04).
+    provenance:
+      source_url: https://www.ewebinar.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: stated
+    quote: "If you cancel before your 14-day trial ends, you will not be charged at all. If you cancel after your trial ends, your subscription will expire at the end of your monthly or annual subscription term."
+    finding: >-
+      eWebinar lets a customer cancel at any time, but a cancellation
+      made after the trial only takes effect at the end of the current
+      billing term, not immediately (2026-09-04).
+    provenance:
+      source_url: https://www.ewebinar.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: stated
+    quote: "We do not offer refunds. This includes payments for our base subscription, subscription upgrades, subscription add-ons, and additional active eWebinars (at Level 3)."
+    finding: >-
+      eWebinar states it offers no refunds of any kind, on any charge
+      type, at any level (2026-09-04).
+    provenance:
+      source_url: https://www.ewebinar.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      eWebinar's pricing page and FAQ state no data-export terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.ewebinar.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: ewebinar-no-free-plan-despite-trial
+    claim: >-
+      eWebinar's FAQ states "we have a free trial but we do not have a
+      free plan": an account with zero active webinars is still billed
+      at Level 1 upon renewal unless the customer cancels (2026-09-04).
+    provenance:
+      source_url: https://www.ewebinar.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: ewebinar-self-adjusting-tiers
+    claim: >-
+      eWebinar's subscription level is set solely by the count of
+      published ("active") webinars regardless of their traffic: its FAQ
+      states a single active webinar with "hundreds of people" attending
+      monthly across many sessions "still only counts as one active
+      eWebinar" (2026-09-04).
+    provenance:
+      source_url: https://www.ewebinar.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: ewebinar-unlimited-team-members
+    claim: >-
+      Every eWebinar tier includes unlimited team members and unlimited
+      recurring sessions at no extra cost; only the count of active
+      published webinars and the monthly registrant cap change price
+      (2026-09-04).
+    provenance:
+      source_url: https://www.ewebinar.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

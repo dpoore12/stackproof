@@ -1,0 +1,18 @@
+URL: https://www.ewebinar.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 13:38:06, 13:38:30, 13:38:55 +00:00 (DE/DE/US gateways 168.119.141.170, 168.119.141.170, 68.183.149.30)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText for the pricing cards, then a targeted query of script[type="application/ld+json"] for FAQPage schema (the FAQ accordion answers are not present in rendered innerText).
+---
+"No need to pick a plan – just sign up! Everyone starts at Level 1. Your subscription will automatically adjust up or down based on how many active eWebinars you have. Prices listed in USD. Monthly | Annual (Save 15%)"
+Level 1 — "You're just getting started!" $99/mo ($1,010 billed annually). All standard features, unlimited recurring sessions, unlimited team members, up to 1 active eWebinar, 1,000 registrants per month.
+Level 2 — "For companies ready to expand." $199/mo ($2,030 billed annually). Everything in Level 1 plus up to 5 active eWebinars, 3,000 registrants per month.
+Level 3 — "For scaling to a full library." $299/mo ($3,050 billed annually). Everything in Level 2 plus up to 15 active eWebinars + $15/month for each additional, 5,000 registrants per month.
+Enterprise — "For organizations looking for enterprise-level features, integrations, and security." Contact Sales. Custom active eWebinars, custom registrants per month.
+Ratio check: 1010/99/12 = 0.850, 2030/199/12=0.850, 3050/299/12=0.850, all exactly a 15% annual discount as advertised.
+FAQPage JSON-LD (8 questions):
+"What is considered an 'active eWebinar'?" — "An 'active eWebinar' is simply a published eWebinar. Drafts of eWebinars do not count toward your subscription. A single active eWebinar can have thousands of attendees over the course of thousands of recurring sessions every month... hundreds of people attend our on-demand sales demo each month, with multiple sessions happening every day, and yet it still only counts as one active eWebinar."
+"What's included in my 14-day free trial (and what are its limits?)" — "access to all of our standard features and to as many subscription add-ons as you choose to enable... you may only publish 1 eWebinar and your registrant limit is set at 300."
+"How do eWebinar's self-adjusting pricing levels work?" — "we have a free trial but we do not have a free plan. If you have no active eWebinars, you will still be charged at Level 1 when your subscription renews... Going up a pricing level: We will never raise your pricing level without first giving you a chance to decide... you will be charged immediately the difference in price... on a prorated basis... Once charged, subscription upgrades are non-refundable, which means the earliest you may downgrade to a lower level is at the end of your billing cycle... Going down a pricing level: We will automatically lower your pricing level at the end of your monthly or annual billing cycle, as needed."
+"Can I cancel at any time?" — "Of course! In fact, if you cancel before your 14-day trial ends, you will not be charged at all. If you cancel after your trial ends, your subscription will expire at the end of your monthly or annual subscription term."
+"What is your refund policy?" — "We do not offer refunds. This includes payments for our base subscription, subscription upgrades, subscription add-ons, and additional active eWebinars (at Level 3)... Even if your active eWebinars have had no sessions, registrants, or attendees in a given month, they still count toward your subscription."
+Page title: "eWebinar Pricing | Simple Plans, Free 14-Day Trial".

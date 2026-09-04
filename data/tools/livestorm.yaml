@@ -1,0 +1,101 @@
+slug: livestorm
+vendor: Livestorm
+product: Livestorm
+category: webinar_platforms
+url: https://livestorm.co/pricing
+free_trial: "Try it for free (self-serve, no credit card details captured on the pricing page)."
+pricing_note: "Livestorm bills by attendee credits purchased in a yearly pack, not by team seats: team members never consume credits regardless of how many sessions they run. The page's own worked example (400 credits at $3.00/attendee) is used here, converted to a monthly-equivalent figure for schema consistency; the true per-credit rate is very likely volume-tiered (larger packs at a lower per-credit rate), which this single sampled data point cannot capture, so this tier is marked non-comparable (compare: false) rather than risk a misleading cross-vendor number."
+
+tiers:
+  - plan: Pro
+    compare: false
+    base_monthly_usd: 100.00
+    per_seat_monthly_usd: 0
+    max_seats: 400
+    seat_label: attendee credits/year (sampled at the page's 400-credit default)
+    billing: annual
+    provenance:
+      source_url: https://livestorm.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Page default: "I need 400 attendee credits... Pro $3.00 / attendee." FAQ: "You buy a yearly pack of attendee credits and you spend 1 credit each time a person actually attends a session." 400 credits x $3.00 = $1,200/year = $100.00/month equivalent. Recorded as a flat monthly-equivalent figure at this one sampled volume, not a linear per-attendee rate, since the true per-credit rate is very likely volume-tiered and a second data point was not captured.'
+  - plan: Enterprise
+    compare: false
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: attendee
+    billing: annual
+    provenance:
+      source_url: https://livestorm.co/pricing
+      fetched_at: 2026-09-04
+      method: not_available
+      note: "Custom pricing, contact sales. Up to 12 hours/session (vs 4 hours on Pro), enterprise integrations, custom analytics, dedicated CSM, VIP multilingual support & SLA."
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "You buy a yearly pack of attendee credits and you spend 1 credit each time a person actually attends a session, whether it is live, a replay, or on demand."
+    finding: >-
+      Livestorm sells attendee credits as an annual pack consumed per
+      unique attendee per session, not a recurring monthly seat fee
+      (2026-09-04).
+    provenance:
+      source_url: https://livestorm.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Livestorm's pricing page states no cancellation terms (2026-09-04).
+    provenance:
+      source_url: https://livestorm.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Livestorm's pricing page states no refund terms (2026-09-04).
+    provenance:
+      source_url: https://livestorm.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Livestorm's pricing page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://livestorm.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: livestorm-no-shows-free
+    claim: >-
+      Livestorm's FAQ states "people who register but never show up are
+      not counted, so you never pay for no shows," and a person attending
+      both live and the replay of the same session is "only counted once
+      for that session" (2026-09-04).
+    provenance:
+      source_url: https://livestorm.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: livestorm-team-members-free-vs-zoom
+    claim: >-
+      Livestorm explicitly contrasts its model with a competitor's in its
+      own FAQ: "Zoom charges for your team members, while Livestorm does
+      not. Your internal collaborators can join freely without consuming
+      credits" (2026-09-04).
+    provenance:
+      source_url: https://livestorm.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: livestorm-quota-lockout
+    claim: >-
+      Livestorm's FAQ states that once an account fully reaches its
+      attendee quota, "new attendees will not be able to join sessions
+      until you upgrade" to a higher yearly credit tier (2026-09-04).
+    provenance:
+      source_url: https://livestorm.co/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
