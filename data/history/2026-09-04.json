@@ -652,6 +652,44 @@
    "tiers": [],
    "vendor": "Brevo (formerly Sendinblue)"
   },
+  "buildium": {
+   "category": "property_management",
+   "fees": [],
+   "product": "Buildium",
+   "tiers": [
+    {
+     "base_monthly_usd": 62.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 150,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Essential",
+     "source_url": "https://www.buildium.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 192.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Growth",
+     "source_url": "https://www.buildium.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 400.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Premium",
+     "source_url": "https://www.buildium.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Buildium"
+  },
   "cacoo": {
    "category": "whiteboarding",
    "fees": [],
@@ -2326,6 +2364,54 @@
    ],
    "vendor": "Help Scout"
   },
+  "hemlane": {
+   "category": "property_management",
+   "fees": [],
+   "product": "Hemlane",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter",
+     "source_url": "https://www.hemlane.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 28.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 2.0,
+     "plan": "Basic",
+     "source_url": "https://www.hemlane.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 28.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 20.0,
+     "plan": "Essential",
+     "source_url": "https://www.hemlane.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 28.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 58.0,
+     "plan": "Complete",
+     "source_url": "https://www.hemlane.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Hemlane"
+  },
   "homebase": {
    "category": "payroll",
    "fees": [
@@ -2631,6 +2717,24 @@
     }
    ],
    "vendor": "Hubstaff"
+  },
+  "innago": {
+   "category": "property_management",
+   "fees": [],
+   "product": "Innago",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Innago",
+     "source_url": "https://www.innago.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Innago"
   },
   "intercom": {
    "category": "live_chat",
@@ -4556,6 +4660,44 @@
    "tiers": [],
    "vendor": "Tellent"
   },
+  "rentec-direct": {
+   "category": "property_management",
+   "fees": [],
+   "product": "Rentec Direct",
+   "tiers": [
+    {
+     "base_monthly_usd": 25.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 10,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter",
+     "source_url": "https://www.rentecdirect.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 50.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro",
+     "source_url": "https://www.rentecdirect.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 50.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "PM",
+     "source_url": "https://www.rentecdirect.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Rentec Direct"
+  },
   "ringcentral": {
    "category": "business_phone",
    "fees": [],
@@ -5304,6 +5446,84 @@
    "product": "Tally",
    "tiers": [],
    "vendor": "Tally"
+  },
+  "tenantcloud": {
+   "category": "property_management",
+   "fees": [],
+   "product": "TenantCloud",
+   "tiers": [
+    {
+     "base_monthly_usd": 15.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter",
+     "source_url": "https://www.tenantcloud.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 25.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter (monthly billing)",
+     "source_url": "https://www.tenantcloud.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 29.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Growth",
+     "source_url": "https://www.tenantcloud.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 35.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Growth (monthly billing)",
+     "source_url": "https://www.tenantcloud.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 50.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro",
+     "source_url": "https://www.tenantcloud.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 60.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro (monthly billing)",
+     "source_url": "https://www.tenantcloud.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 100.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Business",
+     "source_url": "https://www.tenantcloud.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "TenantCloud"
   },
   "tidio": {
    "category": "live_chat",

@@ -1,0 +1,11 @@
+URL: https://www.rentecdirect.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 17:10:26 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+---
+Page title: "Rentec Direct Property Management Software Pricing." Interactive pricing calculator with three editions: Rentec Starter, Rentec Pro, Rentec PM.
+Rentec Starter -- "$25/mo. Flat monthly rate." "For 10 or fewer properties." Comparison table confirms: "Total Properties: 10, Total Tenants: 10." "Up to 10 Properties & Tenants, Complete Accounting & Reporting, Online Rent Payments, Free Setup & Onboarding."
+Rentec Pro -- "$50/mo. Save $60, billed annually." "For Landlords and Investors." Comparison table shows "Total Properties: Unlimited" for Pro -- the printed $50/mo is the calculator's starting price and scales upward as units are added; the per-unit formula itself is not rendered statically by this fetch (the page states "no sales call required" via its live calculator, which requires JS interaction beyond this static snapshot).
+Rentec PM -- "$50/mo. Save $60, billed annually." "For Property Managers." "Everything in Rentec Pro, plus: Marketing and Maintenance Managers, Pay Owners via ACH, Trust Account Management & Reporting." Same starting-price caveat as Pro.
+FAQ: "How much does Rentec Direct cost?" -- "Rentec Starter is a flat rate of $25 per month for up to 10 properties. Rentec Pro and Rentec PM start at $50 per month and grow with you as you add more units." Calculator range shown: "1" to "2500+" units; "Contact us for pricing above 2,500 units."
+No setup fees, no term commitments; free two-week trial on all three editions.

@@ -1,0 +1,72 @@
+slug: hemlane
+vendor: Hemlane
+product: Hemlane
+category: property_management
+url: https://www.hemlane.com/pricing/
+
+tiers:
+  - plan: Starter
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: unit
+    billing: monthly
+    provenance:
+      source_url: https://www.hemlane.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free forever, no credit card required. $0/mo." "Advertise to Apartments.com, Zillow, and 7 more... Applicant and tenant screening... Full rental accounting."'
+  - plan: Basic
+    base_monthly_usd: 28
+    per_seat_monthly_usd: 2
+    seat_label: unit
+    billing: monthly
+    provenance:
+      source_url: https://www.hemlane.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Try for 14 days, then $2/unit. $30/mo (incl. $28 platform fee)" -- the printed $30/mo is the 1-unit price ($28 base + $2 x 1). "All FREE features, plus: Lease tracking & management, Document storage and e-sign, Rent collection... $0 ACH fees."'
+  - plan: Essential
+    base_monthly_usd: 28
+    per_seat_monthly_usd: 20
+    seat_label: unit
+    billing: monthly
+    provenance:
+      source_url: https://www.hemlane.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Try for 14 days, then $20/unit. $48/mo (incl. $28 platform fee)" -- 1-unit price is $28 + $20 x 1 = $48. "All Basic features, plus: end-to-end repair coordination with 24/7 emergency support... state specific leases." Most encouraged.'
+  - plan: Complete
+    base_monthly_usd: 28
+    per_seat_monthly_usd: 58
+    seat_label: unit
+    billing: monthly
+    provenance:
+      source_url: https://www.hemlane.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Try for 14 days, then $58/unit. $86/mo (incl. $28 platform fee)" -- 1-unit price is $28 + $58 x 1 = $86. "All Essential features, plus: all tenant communications done by your property management assistant... VIP customer support."'
+
+findings:
+  - id: hemlane-no-per-user-fees
+    claim: >-
+      Hemlane's FAQ states, "Are there per-user fees? No, the prices
+      above include unlimited users" -- price scales only by rental unit
+      count, never by staff headcount (2026-09-04).
+    provenance:
+      source_url: https://www.hemlane.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: cancellation
+    status: stated
+    quote: "You can change your subscription at any time without penalty. In the case of a cancellation, your subscription will remain active until the end of the period (month or annual)."
+    finding: >-
+      Hemlane allows cancellation at any time without penalty, with
+      access continuing through the end of the current billing period
+      (2026-09-04).
+    provenance:
+      source_url: https://www.hemlane.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

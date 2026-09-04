@@ -1,0 +1,104 @@
+slug: tenantcloud
+vendor: TenantCloud
+product: TenantCloud
+category: property_management
+url: https://www.tenantcloud.com/pricing
+pricing_note: "TenantCloud's feature-comparison table states \"Properties & Units: Unlimited\" identically across all four tiers -- price scales only with feature set, never with portfolio size. Starter's undiscounted monthly rate printed inconsistently across two overlapping page fragments ($18/mo vs $25/mo); the higher figure is recorded here per this project's rule to never publish an understated number, and the conflict is captured as a finding."
+
+tiers:
+  - plan: Starter
+    base_monthly_usd: 15
+    per_seat_monthly_usd: 0
+    seat_label: unit
+    billing: annual
+    provenance:
+      source_url: https://www.tenantcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$15.00/mo" ("$180.00 if billed annually"). "Unlimited" units. "Online Rent Payments, Maintenance Management, Listings and Applications."'
+  - plan: Starter (monthly billing)
+    compare: false
+    base_monthly_usd: 25
+    per_seat_monthly_usd: 0
+    seat_label: unit
+    billing: monthly
+    provenance:
+      source_url: https://www.tenantcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Printed as either "$18/mo" or "$25/mo" in two different page fragments; the higher figure is recorded to avoid understating cost. "Unlimited" units.'
+  - plan: Growth
+    base_monthly_usd: 29
+    per_seat_monthly_usd: 0
+    seat_label: unit
+    billing: annual
+    provenance:
+      source_url: https://www.tenantcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$29.17/mo" ("$350.00 if billed annually"), rounded down to $29. "Unlimited" units. "Everything in Starter, plus: Enhanced Reporting, Move In/Out Inspections, Property Message Board."'
+  - plan: Growth (monthly billing)
+    compare: false
+    base_monthly_usd: 35
+    per_seat_monthly_usd: 0
+    seat_label: unit
+    billing: monthly
+    provenance:
+      source_url: https://www.tenantcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$35/mo." "Unlimited" units.'
+  - plan: Pro
+    base_monthly_usd: 50
+    per_seat_monthly_usd: 0
+    seat_label: unit
+    billing: annual
+    provenance:
+      source_url: https://www.tenantcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$50/mo" ("$600.00 if billed annually"). "Unlimited" units. "Everything in Growth, plus: Tax Reports, Bank Reconciliation, Separate Owner Portal." Most popular.'
+  - plan: Pro (monthly billing)
+    compare: false
+    base_monthly_usd: 60
+    per_seat_monthly_usd: 0
+    seat_label: unit
+    billing: monthly
+    provenance:
+      source_url: https://www.tenantcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$60/mo." "Unlimited" units.'
+  - plan: Business
+    compare: false
+    base_monthly_usd: 100
+    per_seat_monthly_usd: 0
+    seat_label: unit
+    billing: monthly
+    provenance:
+      source_url: https://www.tenantcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Starting at $100.00/mo," custom. FAQ: "$100 is the base price for the core Business features. From there, your final monthly cost depends on how many units you manage, which premium features you choose..."'
+
+findings:
+  - id: tenantcloud-unlimited-units-every-tier
+    claim: >-
+      TenantCloud's feature-comparison table lists "Unlimited" properties
+      and units for all four of its plans (Starter, Growth, Pro,
+      Business), so its price scales only by feature set, not portfolio
+      size (2026-09-04).
+    provenance:
+      source_url: https://www.tenantcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: tenantcloud-starter-price-inconsistency
+    claim: >-
+      TenantCloud's own pricing page prints two different undiscounted
+      monthly prices for its Starter plan in two overlapping page
+      fragments -- "$18/mo" in one and "$25/mo" in the other -- while
+      both agree on the discounted annual rate of $15/mo (2026-09-04).
+    provenance:
+      source_url: https://www.tenantcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
