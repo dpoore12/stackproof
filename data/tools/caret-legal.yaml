@@ -1,0 +1,52 @@
+slug: caret-legal
+vendor: CARET Legal
+product: CARET Legal (formerly Zola Suite)
+category: legal_practice_management
+url: https://www.zolasuite.com/pricing/
+pricing_note: 'Zola Suite has rebranded to CARET Legal; https://www.zolasuite.com/pricing/ now redirects to caretlegal.com. All three plans render only a "per user/month (billed annually)" price on the static page -- no month-to-month figure is shown, so all tiers below are recorded as billing: annual.'
+
+tiers:
+  - plan: Enterprise
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 79
+    included_seats: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.zolasuite.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Enterprise $79 per user/month (billed annually)." Built-in email, document management, calendaring, billing, accounting, client portal, LEDES invoicing, integrated payments, 24/7/362 phone support.'
+  - plan: Enterprise Plus
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 99
+    included_seats: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.zolasuite.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Enterprise Plus $99 per user/month (billed annually)." Marked "Most popular!" Adds CARET Analytics (standard dashboards/reports), automated workflows, custom permissions, department-based accounting, native document editing, unlimited matter-related storage, AI-generated document summaries over Enterprise.'
+  - plan: Enterprise Insights
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 119
+    included_seats: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.zolasuite.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Enterprise Insights $119 per user/month (billed annually)." Adds configurable/customizable analytics dashboards and reports over Enterprise Plus.'
+
+findings:
+  - id: caret-legal-implementation-fee
+    claim: >-
+      CARET Legal states "Pricing is per user plus one-time
+      implementation fees" on all three plans, without publishing the
+      fee amount on the pricing page (2026-09-04).
+    provenance:
+      source_url: https://www.zolasuite.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
