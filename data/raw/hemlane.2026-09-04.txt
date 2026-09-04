@@ -1,0 +1,11 @@
+URL: https://www.hemlane.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 17:11:33 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+---
+Page title: "All-in-One Rental Property Management Solution." "How many rentals do you own/manage? [units]" calculator toggle; "Save up to 20% with annual billing." Four tiers, three of them genuinely formulaic (a flat $28/mo platform fee plus a stated per-unit rate):
+Starter -- "Free forever, no credit card required. $0/mo." "Advertise to Apartments.com, Zillow, and 7 more... Applicant and tenant screening... Full rental accounting."
+Basic (Software Only) -- "Try for 14 days, then $2/unit. $30/mo (incl. $28 platform fee)" -- the printed $30/mo is the 1-unit price ($28 base + $2 x 1). "All FREE features, plus: Lease tracking & management, Document storage and e-sign, Rent collection... $0 ACH fees."
+Essential (Software & Services, most encouraged) -- "Try for 14 days, then $20/unit. $48/mo (incl. $28 platform fee)" -- 1-unit price is $28 + $20 x 1 = $48. "All Basic features, plus: end-to-end repair coordination with 24/7 emergency support... state specific leases."
+Complete (Software & Services) -- "Try for 14 days, then $58/unit. $86/mo (incl. $28 platform fee)" -- 1-unit price is $28 + $58 x 1 = $86. "All Essential features, plus: all tenant communications done by your property management assistant... VIP customer support."
+FAQ: "Are there per-user fees? No, the prices above include unlimited users. You can add as many team members to help make your property management successful." (i.e. price scales only with rental units, never with staff headcount.) "Do I have to sign a long-term contract? ...You can change your subscription at any time without penalty."

@@ -1,0 +1,63 @@
+slug: rentec-direct
+vendor: Rentec Direct
+product: Rentec Direct
+category: property_management
+url: https://www.rentecdirect.com/pricing
+pricing_note: "Rentec Pro and Rentec PM are recorded compare: false: their pricing page shows only a starting price ($50/mo) from an interactive per-unit calculator whose actual scaling formula is not rendered statically -- the page explicitly says \"Total Properties: Unlimited\" for these two editions, meaning $50/mo is a floor, not a flat rate. Only Rentec Starter's genuinely flat, capped rate is used for cross-vendor comparison."
+
+tiers:
+  - plan: Starter
+    base_monthly_usd: 25
+    per_seat_monthly_usd: 0
+    max_seats: 10
+    seat_label: unit
+    billing: monthly
+    provenance:
+      source_url: https://www.rentecdirect.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$25/mo. Flat monthly rate." "For 10 or fewer properties." Comparison table: "Total Properties: 10, Total Tenants: 10."'
+  - plan: Pro
+    compare: false
+    base_monthly_usd: 50
+    per_seat_monthly_usd: 0
+    seat_label: unit
+    billing: annual
+    provenance:
+      source_url: https://www.rentecdirect.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$50/mo. Save $60, billed annually." Starting price from an interactive per-unit calculator; "Total Properties: Unlimited." The per-unit scaling formula beyond this starting point is not captured by this static fetch.'
+  - plan: PM
+    compare: false
+    base_monthly_usd: 50
+    per_seat_monthly_usd: 0
+    seat_label: unit
+    billing: annual
+    provenance:
+      source_url: https://www.rentecdirect.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$50/mo. Save $60, billed annually." Same starting-price caveat as Pro. "Everything in Rentec Pro, plus: Marketing and Maintenance Managers, Pay Owners via ACH, Trust Account Management & Reporting."'
+
+findings:
+  - id: rentec-direct-calculator-ceiling
+    claim: >-
+      Rentec Direct's pricing calculator covers "1" to "2500+" units,
+      with the page stating "Contact us for pricing above 2,500 units"
+      (2026-09-04).
+    provenance:
+      source_url: https://www.rentecdirect.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Rentec Direct's pricing page states "no term commitments" but does
+      not itemize a cancellation process (2026-09-04).
+    provenance:
+      source_url: https://www.rentecdirect.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -1,0 +1,11 @@
+URL: https://www.buildium.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 17:08:54 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText. Result exceeded the inline tool-result size limit and was read from the saved file.
+---
+Page title: "Choose Success. All Buildium pricing packages are designed with you in mind." Three plans: Essential, Growth, Premium, each priced through an interactive "Enter Your Unit Count" calculator ("How many units do you manage in your portfolio?").
+Essential -- "starting at $62/month." Calculator selector shows "Essential -- Up to 150 Units," i.e. a flat rate up to that cap. "All basic Accounting, Maintenance, & Leasing features, Basic Communications & Buildium's AI Assistant, Standard & Bulk Reporting."
+Growth (Most Popular) -- "starting at $192/month." "Everything in Essential, plus more customization & reporting automation." No explicit unit-count cap captured for this tier's starting price; the calculator computes a higher figure ("$192.00/mo" shown as one example estimate) as units are entered above Essential's range.
+Premium -- "starting at $400/month." "Everything in Growth, plus our most sophisticated features," Open API, insights-to-action. No explicit unit-count cap captured for this tier's starting price either.
+Footer note: "Managing Community Associations or a portfolio of over 5,000 units? We have dedicated pricing just for you" -- phone-only beyond that scale.
+Per-transaction fees also vary by plan (e.g. incoming ACH: $2.35/transaction on Essential vs. free after 12 months on Premium; tenant screening enhanced package $20/screening on Growth & Premium).

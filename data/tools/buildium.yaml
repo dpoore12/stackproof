@@ -1,0 +1,61 @@
+slug: buildium
+vendor: Buildium
+product: Buildium
+category: property_management
+url: https://www.buildium.com/pricing/
+pricing_note: "Growth and Premium are recorded compare: false: their pricing page shows only a \"starting at\" price from an interactive per-unit calculator, with no unit-count cap captured for that starting figure -- unlike Essential, which the calculator's own tier selector explicitly caps at \"Up to 150 Units\" for its starting price."
+
+tiers:
+  - plan: Essential
+    base_monthly_usd: 62
+    per_seat_monthly_usd: 0
+    max_seats: 150
+    seat_label: unit
+    billing: monthly
+    provenance:
+      source_url: https://www.buildium.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Starting at $62/month. Calculator tier selector: "Essential -- Up to 150 Units." All basic Accounting, Maintenance, & Leasing features, Basic Communications & Buildium''s AI Assistant, Standard & Bulk Reporting.'
+  - plan: Growth
+    compare: false
+    base_monthly_usd: 192
+    per_seat_monthly_usd: 0
+    seat_label: unit
+    billing: monthly
+    provenance:
+      source_url: https://www.buildium.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Starting at $192/month," most popular. No explicit unit-count cap captured for this starting price; the interactive calculator computes a higher figure as units are added. "Everything in Essential, plus more customization & reporting automation."'
+  - plan: Premium
+    compare: false
+    base_monthly_usd: 400
+    per_seat_monthly_usd: 0
+    seat_label: unit
+    billing: monthly
+    provenance:
+      source_url: https://www.buildium.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Starting at $400/month." No explicit unit-count cap captured. "Everything in Growth, plus our most sophisticated features," Open API.'
+
+findings:
+  - id: buildium-5000-unit-ceiling
+    claim: >-
+      Buildium's pricing page states "Managing Community Associations or
+      a portfolio of over 5,000 units? We have dedicated pricing just
+      for you" -- i.e. custom quotes only beyond that scale (2026-09-04).
+    provenance:
+      source_url: https://www.buildium.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: buildium-transaction-fees-vary-by-plan
+    claim: >-
+      Buildium's per-transaction incoming ACH fee is "$2.35 per
+      transaction" on Essential versus free after the first 12 months on
+      Premium (2026-09-04).
+    provenance:
+      source_url: https://www.buildium.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

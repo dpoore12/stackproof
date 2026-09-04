@@ -474,6 +474,39 @@ though its numbers are real and dated. FieldPulse and FieldEdge are both
 fully quote-gated with zero dollar figures anywhere on their pricing
 pages. Database is now 143 tools across 30 categories.
 
+### Property management software (2026-09-04)
+
+Five vendors: TenantCloud, Rentec Direct, Buildium, Innago, Hemlane —
+tools for landlords and property managers to collect rent, screen
+tenants, and run maintenance and accounting. Seat axis is "rental units
+managed" (1, 10, 50, 150, 500) rather than staff headcount: every vendor
+in this category prices by portfolio size, not team size, the opposite
+convention from most other categories on this site.
+
+Two vendors are genuinely free to the landlord: Innago charges nothing
+at all regardless of portfolio size (any cost for tenant screening or
+payment processing is billed to the tenant, not the landlord), and
+Hemlane's Starter tier is "free forever, no credit card required."
+Hemlane's three paid tiers above that are the cleanest data in this
+batch — a flat $28/month platform fee plus a stated $2, $20, or $58 per
+unit depending on tier, a fully specified formula rather than an
+interactive calculator. TenantCloud is a genuine flat-fee-unlimited-
+units vendor across all four of its tiers, the property-management
+equivalent of Service Fusion in the field service category — its own
+comparison table lists "Unlimited" units on every plan, so price scales
+only with feature set. Rentec Direct's Starter tier is a clean flat $25/
+month capped at 10 properties, but its Pro and PM tiers only publish a
+"starting at $50/month" floor from an interactive per-unit calculator
+whose real scaling formula isn't rendered statically, so those two are
+marked non-comparable rather than treated as flat. Buildium is priced
+entirely through a similar per-unit calculator; only its Essential tier
+states an explicit unit-count cap ("Up to 150 Units") for its starting
+price, so Growth and Premium are recorded with real, dated "starting at"
+numbers but marked non-comparable for the same reason as Rentec's upper
+tiers.
+
+Database is now 148 tools across 31 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

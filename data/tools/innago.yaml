@@ -1,0 +1,31 @@
+slug: innago
+vendor: Innago
+product: Innago
+category: property_management
+url: https://www.innago.com/pricing/
+pricing_note: 'Innago''s price is genuinely $0 at every portfolio size, but is marked compare: false rather than left to win every cross-vendor "cheapest" comparison outright -- the $0 figure is still shown directly in the table below.'
+
+tiers:
+  - plan: Innago
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: unit
+    billing: monthly
+    provenance:
+      source_url: https://www.innago.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Simple. Powerful. Free." "No Setup Fee. No Monthly Fee. No Contract." Every listed feature "included in your Innago account at absolutely no cost to you." Twitter card: "Whether you have one unit or one thousand."'
+
+findings:
+  - id: innago-tenant-paid-fees-only
+    claim: >-
+      Innago is free for landlords with no setup fee, monthly fee, or
+      contract; only "Custom Applications & Tenant Screening" and
+      "Online Rental Payments" carry a "See More" cost column marked as
+      paid by the tenant rather than the landlord (2026-09-04).
+    provenance:
+      source_url: https://www.innago.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

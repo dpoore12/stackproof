@@ -1,0 +1,8 @@
+URL: https://www.innago.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 17:10:36 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+---
+Page title: "Pricing & Features | Innago Property Management Software." "Simple. Powerful. Free." "No Setup Fee. No Monthly Fee. No Contract." "Every Feature listed below is included in your Innago account at absolutely no cost to you." Twitter card: "Whether you have one unit or one thousand. Innago makes life easier."
+Single tier (unnamed, i.e. the whole product) -- "$0" landlord-side cost for: Direct Personal Support, Late Fees & Invoice Automation, Online Leasing & Document Storage, Financial Tracking & Reporting, Work Order Tracking, Communication & Messaging, Custom Applications & Tenant Screening, Online Rental Payments. Two of those ("Custom Applications & Tenant Screening" and "Online Rental Payments") are marked "See More" on the tenant-cost column, meaning the tenant (not the landlord) may pay optional fees for screening reports and payment processing -- the landlord-facing price is genuinely $0 regardless.
+No cancellation clause needed; there is no contract to cancel.

@@ -1,0 +1,11 @@
+URL: https://www.tenantcloud.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 17:09:06 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText. Gotcha: the page rendered two overlapping pricing-card fragments with slightly different numbers for Starter's undiscounted monthly price ($18/mo in one fragment vs $25/mo in the other); both agree on the discounted annual rate ($15/mo, $180/yr), so only the monthly figure is affected.
+---
+Page title: "Property Management Software Pricing - TenantCloud". "Trusted by 100,000+ landlords to manage everything from a single condo to an entire portfolio. Starting at just $15/month." Four plans -- Starter, Growth, Pro, Business -- and critically, "Properties & Units: Unlimited, Unlimited, Unlimited, Unlimited" across all four tiers in the feature-comparison table: price does not scale with portfolio size at all, only with feature set.
+Starter -- "$15.00/mo" annual ("$180.00 if billed annually"); monthly figure printed inconsistently as either "$18/mo" or "$25/mo" in two different page fragments. "Online Rent Payments, Maintenance Management, Listings and Applications."
+Growth -- "$29.17/mo" annual (rounds to $29; "$350.00 if billed annually") / "$35/mo" monthly. "Everything in Starter, plus: Enhanced Reporting, Move In/Out Inspections, Property Message Board."
+Pro (Most Popular) -- "$50/mo" annual ("$600.00 if billed annually") / "$60/mo" monthly. "Everything in Growth, plus: Tax Reports, Bank Reconciliation, Separate Owner Portal."
+Business -- "Starting at $100.00/mo," custom. FAQ: "'Starting at $100/mo' means that $100 is the base price for the core Business features. From there, your final monthly cost depends on: how many units you manage, which premium features you choose, and whether you need custom roles, onboarding, or team add-ons." "Everything in Pro, plus: Team Management & Tools, Task Management, User-Interface Customization."
+FAQ: "What's the difference between monthly and annual billing? Monthly billing lets you pay month-to-month with no long-term commitment. Annual billing is paid upfront for the full year and comes with a discounted rate... Both options include the same features."
