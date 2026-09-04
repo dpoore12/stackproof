@@ -578,6 +578,132 @@
    ],
    "vendor": "Duda"
   },
+  "fillout": {
+   "category": "forms",
+   "fees": [],
+   "product": "Fillout",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://www.fillout.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 15.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter",
+     "source_url": "https://www.fillout.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 19.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter (monthly)",
+     "source_url": "https://www.fillout.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 40.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro",
+     "source_url": "https://www.fillout.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 49.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro (monthly)",
+     "source_url": "https://www.fillout.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 75.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Business",
+     "source_url": "https://www.fillout.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 89.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Business (monthly)",
+     "source_url": "https://www.fillout.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Fillout"
+  },
+  "formstack": {
+   "category": "forms",
+   "fees": [],
+   "product": "Formstack Forms",
+   "tiers": [
+    {
+     "base_monthly_usd": 83.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Forms",
+     "source_url": "https://www.formstack.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 99.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Forms (monthly)",
+     "source_url": "https://www.formstack.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 250.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 3,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Suite",
+     "source_url": "https://www.formstack.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 299.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 3,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Suite (monthly)",
+     "source_url": "https://www.formstack.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Formstack (Intellistack)"
+  },
   "framer": {
    "category": "website_builder",
    "fees": [],
@@ -1017,6 +1143,54 @@
     }
    ],
    "vendor": "Intercom"
+  },
+  "jotform": {
+   "category": "forms",
+   "fees": [],
+   "product": "Jotform",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter",
+     "source_url": "https://www.jotform.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 34.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Bronze",
+     "source_url": "https://www.jotform.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 39.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Silver",
+     "source_url": "https://www.jotform.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 99.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Gold",
+     "source_url": "https://www.jotform.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Jotform"
   },
   "keeper": {
    "category": "password_manager",
@@ -1715,6 +1889,13 @@
    "tiers": [],
    "vendor": "Squarespace"
   },
+  "tally": {
+   "category": "forms",
+   "fees": [],
+   "product": "Tally",
+   "tiers": [],
+   "vendor": "Tally"
+  },
   "tidio": {
    "category": "live_chat",
    "fees": [
@@ -1840,6 +2021,34 @@
     }
    ],
    "vendor": "Atlassian"
+  },
+  "typeform": {
+   "category": "forms",
+   "fees": [],
+   "product": "Typeform",
+   "tiers": [
+    {
+     "base_monthly_usd": 119.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 3,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Talent",
+     "source_url": "https://www.typeform.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 169.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 3,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Talent (monthly)",
+     "source_url": "https://www.typeform.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Typeform"
   },
   "wave-payroll": {
    "category": "payroll",

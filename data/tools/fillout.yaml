@@ -1,0 +1,160 @@
+slug: fillout
+vendor: Fillout
+product: Fillout
+category: forms
+url: https://www.fillout.com/pricing
+free_trial: "Free plan with unlimited forms, unlimited seats and 1,000 responses a month; no time-limited trial stated (2026-09-04)."
+pricing_note: "Every plan is a flat workspace fee with unlimited seats, so cost does not change with the seat count. The page defaults to annual billing; monthly-billing rates are derived from the struck annual totals on each card ($228, $588, $1,068 a year) and recorded as non-compared tiers."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.fillout.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free $0/ month Free forever … Unlimited seats, Unlimited forms, 1000 responses/mo".'
+  - plan: Starter
+    base_monthly_usd: 15
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.fillout.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch; toggle "Billed annually (Save 20%)" checked. "Starter $15/ month $228 $180 billed annually … Unlimited seats, 2000 responses/mo".'
+  - plan: Starter (monthly)
+    compare: false
+    base_monthly_usd: 19
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.fillout.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Derived: the struck monthly-billing total on the Starter card is $228 a year, or $19 a month.'
+  - plan: Pro
+    base_monthly_usd: 40
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.fillout.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pro $40/ month $588 $480 billed annually … Unlimited seats, 5000 responses/mo, Remove all branding".'
+  - plan: Pro (monthly)
+    compare: false
+    base_monthly_usd: 49
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.fillout.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Derived: struck total $588 a year, or $49 a month.'
+  - plan: Business
+    base_monthly_usd: 75
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.fillout.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Business $75/ month $1068 $900 billed annually … Unlimited seats, Unlimited responses, Custom domain, Priority support".'
+  - plan: Business (monthly)
+    compare: false
+    base_monthly_usd: 89
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.fillout.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Derived: struck total $1068 a year, or $89 a month.'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Fillout says subscriptions billed monthly or yearly can be cancelled at
+      any time; no refund or end-of-term detail is given (2026-09-04).
+    quote: "Yes, Fillout subscriptions are billed monthly or yearly and you can cancel your subscription at any time."
+    provenance:
+      source_url: https://www.fillout.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: stated
+    finding: >-
+      Fillout includes CSV export of submissions and REST API access on all
+      4 plans including Free (2026-09-04).
+    quote: "Export submissions to CSV — Included in free"
+    provenance:
+      source_url: https://www.fillout.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Fillout's pricing page states no refund terms (2026-09-04).
+    provenance:
+      source_url: https://www.fillout.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: fillout-unlimited-seats-all-plans
+    claim: >-
+      Fillout charges 1 flat fee per workspace with unlimited seats on Free,
+      Starter, Pro and Business, so a 25-user team pays the same $15 a month
+      on Starter as a single user (2026-09-04).
+    provenance:
+      source_url: https://www.fillout.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: fillout-response-caps
+    claim: >-
+      Fillout caps responses at 1,000 a month on Free, 2,000 on Starter and
+      5,000 on Pro, with Business unlimited; over the cap forms keep
+      collecting and the account can upgrade, buy bulk submissions or wait
+      for the monthly reset (2026-09-04).
+    provenance:
+      source_url: https://www.fillout.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: fillout-annual-discount
+    claim: >-
+      Fillout's annual billing saves 20%: Starter $180 a year against $228
+      monthly, Pro $480 against $588, Business $900 against $1,068
+      (2026-09-04).
+    provenance:
+      source_url: https://www.fillout.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: fillout-usd-on-eu-gateway
+    claim: >-
+      Fillout rendered USD prices on 2026-09-04 even when fetched through a
+      German gateway, unlike Typeform and Tally which switched to EUR on the
+      same gateway; its page locale is fixed to en-US with 2 other locales.
+    provenance:
+      source_url: https://www.fillout.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: fillout-file-size-limit
+    claim: >-
+      Fillout limits uploads to 20 MB per file on Free, Starter and Pro and
+      raises it to 1 GB or more on Business (2026-09-04).
+    provenance:
+      source_url: https://www.fillout.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -1,0 +1,126 @@
+slug: formstack
+vendor: Formstack (Intellistack)
+product: Formstack Forms
+category: forms
+url: https://www.formstack.com/pricing
+free_trial: "14-day free trial of the Forms product, no credit card required (stated 2026-09-04)."
+pricing_note: "Forms includes 1 builder user and Suite includes 3; the FAQ says more users can be added but no per-user price is published, so each tier is capped at its included seats and larger teams are marked needs-quote. HIPAA compliance is a paid add-on with no listed price."
+
+tiers:
+  - plan: Forms
+    base_monthly_usd: 83
+    per_seat_monthly_usd: 0
+    included_seats: 1
+    max_seats: 1
+    seat_label: builder user
+    billing: annual
+    provenance:
+      source_url: https://www.formstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch. "Starting at $83 $99/month paid annually — 1 Builder user, 25 Forms, 1,000 Submissions per form, 2GB Storage". Toggle "Save 2 months with annual plans".'
+  - plan: Forms (monthly)
+    compare: false
+    base_monthly_usd: 99
+    per_seat_monthly_usd: 0
+    included_seats: 1
+    max_seats: 1
+    seat_label: builder user
+    billing: monthly
+    provenance:
+      source_url: https://www.formstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$99/month" on the monthly toggle.'
+  - plan: Suite
+    base_monthly_usd: 250
+    per_seat_monthly_usd: 0
+    included_seats: 3
+    max_seats: 3
+    seat_label: builder user
+    billing: annual
+    provenance:
+      source_url: https://www.formstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Suite — Forms + Documents + Sign — Starting at $250 $299/month paid annually — 3 Builder users, 100 Forms, 5,000 Submissions per form, 10GB Storage, 250 Document deliveries per month, Unlimited eSignatures".'
+  - plan: Suite (monthly)
+    compare: false
+    base_monthly_usd: 299
+    per_seat_monthly_usd: 0
+    included_seats: 3
+    max_seats: 3
+    seat_label: builder user
+    billing: monthly
+    provenance:
+      source_url: https://www.formstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$299/month" on the monthly toggle.'
+
+clauses:
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Formstack's pricing page states no cancellation terms (2026-09-04).
+    provenance:
+      source_url: https://www.formstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Formstack's pricing page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://www.formstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Formstack takes Mastercard, Visa, Discover and American Express, offers
+      annual invoices on certain plans, and applies its nonprofit discount to
+      invoices but not the annual discount (2026-09-04).
+    quote: "The nonprofit discount applies to invoices, but the annual discount does not."
+    provenance:
+      source_url: https://www.formstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: formstack-single-builder-user
+    claim: >-
+      Formstack's Forms plan includes 1 builder user for $83 a month on
+      annual billing ($99 monthly) and Suite includes 3 for $250 ($299
+      monthly); extra users are sold as add-ons with no published price
+      (2026-09-04).
+    provenance:
+      source_url: https://www.formstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: formstack-annual-discount
+    claim: >-
+      Formstack's annual plans save 2 months: Forms drops from $99 to $83
+      a month and Suite from $299 to $250 (2026-09-04).
+    provenance:
+      source_url: https://www.formstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: formstack-submission-caps-per-form
+    claim: >-
+      Formstack caps submissions per form rather than per account: 1,000 on
+      Forms and 5,000 on Suite, with 25 and 100 forms and 2 GB and 10 GB of
+      storage (2026-09-04).
+    provenance:
+      source_url: https://www.formstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: formstack-hipaa-addon
+    claim: >-
+      Formstack lists HIPAA and compliance as a paid add-on on both
+      self-serve plans, with no add-on price on the page; live support runs
+      Monday to Friday 8 a.m. to 4 p.m. ET (2026-09-04).
+    provenance:
+      source_url: https://www.formstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

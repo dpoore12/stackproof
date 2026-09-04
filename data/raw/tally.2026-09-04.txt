@@ -1,0 +1,11 @@
+URL: https://tally.so/pricing
+STATUS: 200
+FETCHED: 2026-09-04 00:19:00 +00:00 (German gateway 168.119.99.193) and 00:19:18 +00:00 (German gateway 168.119.141.170)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main>. Both fetches were routed through German gateways and rendered EUR. Tally is a Belgium-based company; no toggle elements with aria-checked/role=tab were found, the billing switch is plain text "Pay monthly / Pay yearly — 2 months off".
+---
+"Build beautiful forms for free — Paywalls getting in the way? Not anymore. Tally gives you unlimited forms and submissions, completely free, as long as you stay within our fair usage guidelines." Free: unlimited forms, unlimited submissions, collect payments, signatures, file uploads, conditional logic, password protect, close on limit or date, Google Sheets / Notion / Airtable / Zapier / Make integrations, webhooks. "Powering 500,000+ teams".
+Do more with Tally — Pay monthly / Pay yearly (2 months off).
+Pro — €20 per month — Remove Tally branding; custom domains; Collaboration: "Invite unlimited team members to shared workspaces"; partial submissions; custom CSS; email notifications; custom email domains; workspaces & folders; unlimited uploads (removes 10 MB per file limit); form visit analytics; drop-off analytics; version history 30 days; premium integrations (Google Analytics, Meta Pixel).
+Business — €65 per month — Everything in Pro plus control data retention (auto-delete submissions after a set period), verify emails, version history 90 days, "More to come".
+Q&A — Is Tally really free? "Yes! … Tally offers unlimited forms and submissions for free within our fair use guidelines." Are Tally forms secure? "As a Belgium-based (EU) company, we fully comply with GDPR requirements and store all form data in Europe." "Made and hosted in the EU. © 2026 Tally BV."
+Third fetch 00:19:39 +00:00 (German gateway 168.119.141.170): the billing switch is two <span> elements ("Pay monthly", "Pay yearly"); scripted clicks on either did not change the rendered prices before the read, so which period the €20 / €65 figures belong to is not machine-confirmed.

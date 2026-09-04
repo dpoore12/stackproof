@@ -102,6 +102,17 @@ Help Scout) almost all do, and the parsing fetch sees nothing. Those
 categories need a real browser session or a real account. Every such case
 is recorded with `pricing_note` — never filled from a third party.
 
+### Forms (2026-09-04)
+
+Typeform, Tally and Jotform all geo-route: German gateways got EUR pages
+(Jotform showed the same numbers in euros as in dollars; Typeform and Tally
+never rendered USD for their core plans in 4 and 3 tries). Fillout and
+Formstack stayed USD on every gateway. Jotform's and Tally's billing switches
+are plain elements whose scripted click does not re-render before the read,
+so only the default period was captured. Seat points for forms are 1, 3, 5,
+10, 25 users who build forms; Fillout has unlimited seats on every plan,
+Jotform's paid plans are single-user, Formstack publishes no per-user price.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
