@@ -1,0 +1,95 @@
+slug: savvycal
+vendor: SavvyCal
+product: SavvyCal
+category: scheduling
+url: https://savvycal.com/pricing
+free_trial: "Free to try until you activate a paid plan, with a 30-day money-back guarantee (stated 2026-09-03)."
+
+# Per user per month. The page has a Monthly/Annual toggle whose state was
+# not exposed; each card carries the "Save 2 months" annual label beside the
+# figure, so the figures are recorded as the annual rate with that caveat.
+tiers:
+  - plan: Basic
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 10
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://savvycal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch. "$10/user/mo · Save 2 months". Toggle state not readable; label implies the annual view.'
+  - plan: Premium
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 17
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://savvycal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$17/user/mo · Save 2 months". Custom domains, delegated access, paid bookings.'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      SavvyCal backs paid plans with a 30-day money-back guarantee and lets
+      users try the product free before activating (2026-09-03).
+    quote: "Backed by a 30-day money back guarantee."
+    provenance:
+      source_url: https://savvycal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      SavvyCal's annual billing is advertised as "Save 2 months", so a year
+      costs 10 months of the monthly rate (2026-09-03).
+    provenance:
+      source_url: https://savvycal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      SavvyCal's pricing page states no data-export terms (2026-09-03).
+    provenance:
+      source_url: https://savvycal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+findings:
+  - id: savvycal-per-user-prices
+    claim: >-
+      On 2026-09-03 SavvyCal listed Basic at $10 and Premium at $17 per user
+      per month with a "Save 2 months" annual label on each.
+    provenance:
+      source_url: https://savvycal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: savvycal-unlimited-on-basic
+    claim: >-
+      SavvyCal's $10 Basic plan includes unlimited calendars, links, polls
+      and teams with round-robin and collective modes, features Calendly
+      reserves for its $16 Teams plan (2026-09-03).
+    provenance:
+      source_url: https://savvycal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: savvycal-premium-only-features
+    claim: >-
+      Custom domains, delegated access, branding removal and paid bookings
+      are Premium-only on SavvyCal at $17 per user (2026-09-03).
+    provenance:
+      source_url: https://savvycal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: savvycal-five-user-cost
+    claim: >-
+      At SavvyCal's annual rate 5 users cost $50 per month on Basic, equal
+      to Calendly Standard and below Cal.com Teams at $60 (2026-09-03).
+    provenance:
+      source_url: https://savvycal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch

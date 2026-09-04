@@ -120,6 +120,8 @@ def cost_table(tool: Tool) -> str:
                 formula += " — base fee not captured; cost not computed"
         if t.billing == "annual":
             formula += " — per-month rate when prepaid annually"
+        elif t.billing == "biennial":
+            formula += " — per-month rate when prepaid for two years"
         if t.max_seats is not None:
             formula += f" — sold for teams up to {t.max_seats}; larger teams need another plan"
         if not t.standalone:

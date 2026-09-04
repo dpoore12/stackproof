@@ -1,0 +1,11 @@
+URL: https://youcanbook.me/pricing
+STATUS: 200
+FETCHED: 2026-09-03 23:57:40 / 23:58:00 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main>. Billing options "Billed Monthly / Billed Yearly 10% off / Billed 2 Years 20% off"; currency options $USD / £GBP / €Euro with $ shown. The displayed figures ($7.20, $10.40, $14.40) equal 80% of $9, $13 and $18, so the "Billed 2 Years 20% off" view was active; the toggle's state attribute was not exposed.
+---
+"Choose our 2-week free trial to find the plan that's right for you."
+Free — $0 / month. 1 calendar connection, 1 booking page. Customizable booking page, confirmation emails & SMS, Zoom/Teams/Meet, Stripe payments, polling, single-use links, Chrome extension; support site and community forum.
+Individual — $7.20 / month. 2 calendar connections, 2 booking pages. Custom color/background, extra branded notifications, 3 availability displays, reminder emails & SMS, fixed-date events, group sessions, notice periods, password-protected page, premium support.
+Professional — $10.40 / month. 6 calendar connections, 10 booking pages. Resources on one page, automated workflows and no-show management, unlimited booking form questions, promo codes, notes, accept/decline, tracking pixels, HubSpot, Zapier, daily meeting limits, email blocklist, analytics, SMS from a dedicated business line.
+Team (Most popular) — $14.40 / member / month. 10 calendar connections per user, 15+ booking pages per user. "Have a team of 50 plus? Contact sales."
+FAQ: What happens if I need an extra calendar? All paid plans include extra calendars. Do you charge on a monthly basis? You can choose to pay monthly by credit card, or annual or two-year subscriptions with additional discounts. What happens if I change my mind? 30 day money back guarantee on paid plans. Support: paid plans get premium 1:1 support and scheduled callbacks; trial users too. Enterprise: contact sales for more than 50 team members.

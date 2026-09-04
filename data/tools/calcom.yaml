@@ -1,0 +1,109 @@
+slug: calcom
+vendor: Cal.com
+product: Cal.com
+category: scheduling
+url: https://cal.com/pricing
+free_trial: "14-day free trial on Teams and Organizations; Individuals plan free forever (stated 2026-09-03)."
+
+# Per user per month on yearly billing ("YEARLY … Save 25%"); monthly
+# figures were not displayed. Individuals is free with no usage limits.
+tiers:
+  - plan: Individuals
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    max_seats: 1
+    billing: monthly
+    provenance:
+      source_url: https://cal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"Free forever … 1 user … Unlimited event types & calendars".'
+  - plan: Teams
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 12
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://cal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch. "YEARLY $12 per user/month. Save 25%."'
+  - plan: Organizations
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 28
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://cal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"YEARLY $28 per user/month. Save 25%." SAML SSO, SCIM, HIPAA.'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Cal.com's displayed prices are yearly rates advertised as 25% below
+      monthly, and Enterprise is sold on annual pricing only (2026-09-03).
+    provenance:
+      source_url: https://cal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Cal.com's pricing page states no cancellation or refund terms
+      (2026-09-03).
+    provenance:
+      source_url: https://cal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Cal.com's pricing page states no data-export terms, though the product
+      is open source (2026-09-03).
+    provenance:
+      source_url: https://cal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+findings:
+  - id: calcom-yearly-per-user-prices
+    claim: >-
+      On 2026-09-03 Cal.com listed Teams at $12 and Organizations at $28 per
+      user per month on yearly billing, each labelled as a 25% saving over
+      monthly.
+    provenance:
+      source_url: https://cal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: calcom-free-unlimited
+    claim: >-
+      Cal.com's free Individuals plan has no usage limits: unlimited event
+      types, calendars and meetings for 1 user, where Calendly's Free plan
+      allows 1 event type and 1 calendar (2026-09-03).
+    provenance:
+      source_url: https://cal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: calcom-compliance-on-organizations
+    claim: >-
+      SAML SSO, SCIM and HIPAA compliance sit on Cal.com's $28 Organizations
+      plan, against Calendly's $15,000-a-year Enterprise floor for SSO and
+      SAML (2026-09-03).
+    provenance:
+      source_url: https://cal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: calcom-five-user-cost
+    claim: >-
+      At Cal.com's 2026-09-03 yearly rates 5 users cost $60 per month on
+      Teams, against $50 on Calendly Standard and $80 on Calendly Teams,
+      with round-robin included on Cal.com Teams.
+    provenance:
+      source_url: https://cal.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch

@@ -62,11 +62,11 @@ class PriceTier(BaseModel):
         "smallest step that covers the requested count; beyond the last step "
         "the cost is unknown, never extrapolated.",
     )
-    billing: Literal["monthly", "annual"] = Field(
+    billing: Literal["monthly", "annual", "biennial"] = Field(
         default="monthly",
         description="Which price is recorded: the month-to-month rate or the "
-        "per-month rate when prepaid annually. Vendors headline the annual "
-        "one; it must be labelled.",
+        "per-month rate when prepaid annually, or biennial for a two-year "
+        "prepay. Vendors headline the discounted one; it must be labelled.",
     )
     seat_label: str = "worker"
     promo: str | None = Field(default=None, description="Promotional terms, verbatim from source.")
