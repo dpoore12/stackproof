@@ -1129,6 +1129,27 @@ per-claim add-on fees are published; base tier prices are not).
 
 Database is now 217 tools across 52 categories.
 
+### Accounting firm practice management software (2026-09-04)
+
+Three vendors: Karbon, Financial Cents, Canopy. Seat axis is "team
+members" (1, 3, 5, 10, 25). This is workflow/practice-management
+software for accounting and bookkeeping firms themselves — client
+management, task tracking, document requests — distinct from this
+site's existing `accounting` category, which covers general
+small-business accounting software (QuickBooks, Xero, FreshBooks, Zoho
+Books).
+
+All three price purely per-user, annual primary / monthly secondary,
+with no separate base fee: Karbon Team $59/user/mo (Business
+$89/user/mo, min 4 users for monthly billing), Financial Cents Team
+$49/user/mo (Solo is a single-user-only flat $19/mo, Scale $69/user/mo),
+Canopy Standard $74/user/mo (Plus $109, Premium $149; the paired
+monthly-billing rates were recovered from the same raw dollar-array
+scan as the annual figures). Financial Cents' Team tier undercuts both
+competitors at every seat count in this table.
+
+Database is now 220 tools across 53 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

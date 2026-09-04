@@ -1,0 +1,28 @@
+source: https://www.getcanopy.com/pricing
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+h1: "Canopy helps accountants build an autonomous firm." Four tiers,
+confirmed via raw page text, all per-user with an annual/monthly
+billing split:
+
+Standard — "$74 user/month billed annually." "Everything you need to
+run your firm." CRM and client management, document management and
+eSign, client portal and secure messaging, automated and recurring
+task workflows, invoicing and payments. A dollar-array scan of the
+raw HTML shows a paired monthly (non-annual) rate of $93/user/month
+for this tier.
+
+Plus (marked "Most Popular") — "$109 user/month billed annually." "All
+Standard features, plus" user roles and access controls, more client
+intake capacity, advanced task views and filters, capacity planning
+and forecasting, custom reporting. Paired monthly rate: $136/user/month.
+
+Premium — "$149 user/month billed annually." Adds a Practitioner Mobile
+App and more. Paired monthly rate: $186/user/month.
+
+Enterprise — not priced in static text; quote-gated, not recorded.
+
+Add-on credit pricing found in the same dollar-array scan: $1.25 and
+$0.20 figures tied to AI/client-credit usage (not further detailed in
+this fetch); $10 figures tied to unspecified add-ons.

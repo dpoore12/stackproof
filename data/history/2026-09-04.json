@@ -1012,6 +1012,74 @@
    ],
    "vendor": "Calendly"
   },
+  "canopy": {
+   "category": "accounting_firm_practice_management",
+   "fees": [],
+   "product": "Canopy",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 74.0,
+     "plan": "Standard",
+     "source_url": "https://www.getcanopy.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 93.0,
+     "plan": "Standard (monthly billing)",
+     "source_url": "https://www.getcanopy.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 109.0,
+     "plan": "Plus",
+     "source_url": "https://www.getcanopy.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 136.0,
+     "plan": "Plus (monthly billing)",
+     "source_url": "https://www.getcanopy.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 149.0,
+     "plan": "Premium",
+     "source_url": "https://www.getcanopy.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 186.0,
+     "plan": "Premium (monthly billing)",
+     "source_url": "https://www.getcanopy.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Canopy"
+  },
   "caret-legal": {
    "category": "legal_practice_management",
    "fees": [],
@@ -2564,6 +2632,44 @@
     }
    ],
    "vendor": "Fillout"
+  },
+  "financial-cents": {
+   "category": "accounting_firm_practice_management",
+   "fees": [],
+   "product": "Financial Cents",
+   "tiers": [
+    {
+     "base_monthly_usd": 19.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Solo",
+     "source_url": "https://financial-cents.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 49.0,
+     "plan": "Team",
+     "source_url": "https://financial-cents.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 69.0,
+     "plan": "Scale",
+     "source_url": "https://financial-cents.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Financial Cents"
   },
   "fleetio": {
    "category": "fleet_management",
@@ -4266,6 +4372,54 @@
     }
    ],
    "vendor": "JumpCloud"
+  },
+  "karbon": {
+   "category": "accounting_firm_practice_management",
+   "fees": [],
+   "product": "Karbon",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 59.0,
+     "plan": "Team",
+     "source_url": "https://karbonhq.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 79.0,
+     "plan": "Team (monthly billing)",
+     "source_url": "https://karbonhq.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 89.0,
+     "plan": "Business",
+     "source_url": "https://karbonhq.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 99.0,
+     "plan": "Business (monthly billing)",
+     "source_url": "https://karbonhq.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Karbon"
   },
   "keeper": {
    "category": "password_manager",

@@ -1,0 +1,29 @@
+source: https://financial-cents.com/pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+h1: "On average, firms save 56 hours a month & $19,200 every year with
+Financial Cents." Three tiers, confirmed via raw page text, all billed
+annually by default with a "Yearly / Monthly" toggle present (figures
+below are the "Yearly" — i.e. billed-annually — column):
+
+Solo — "$19 /month. Billed annually." "The only app you need to run
+your solo firm at one affordable price." Footnote: "Single user firms
+only. All plans are a 12-month agreement." Workflow and to-do lists,
+etc.
+
+Team — "$49 /month (per user). Billed annually." "Hit deadlines with
+more visibility, collaboration, and organization." Workflow and to-do
+lists, workflow automations, client tasks & requests, client portal,
+secure file sharing, document management, client CRM & database, time
+tracking, retainers.
+
+Scale (marked "Most Popular") — "$69 /month (per user). Billed
+annually." "Increase firm productivity with more automations &
+integrations." Everything in Team plan, plus auto-follow ups for
+client tasks and more.
+
+A slider calculator elsewhere on the page shows an example blended
+cost (e.g. "$245/month, $2,940 billed annually" for a sample team
+size/plan combination); not used as a per-tier price. "Minimum 5 users
+required for monthly billing."
