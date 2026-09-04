@@ -1,0 +1,102 @@
+slug: talentlms
+vendor: TalentLMS
+product: TalentLMS
+category: learning_management
+url: https://www.talentlms.com/pricing
+pricing_note: "TalentLMS's Core and Grow tiers price via an interactive user-count slider (bands like \"1-40 users\", \"41-70 users\", ... \"801-1000 users\"); this fetch captured only the price at each tier's default-selected band, so Core is recorded up to 40 users and Grow up to 70 users even though the vendor sells both tiers to a higher stated cap (100 and 500 users respectively) at bands this fetch did not capture. The Pro tier is fully specified: a flat $449/month covers up to 100 users, plus a stated $6/additional user up to a tooltip-confirmed cap of 500 users."
+
+tiers:
+  - plan: Free
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 5
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.talentlms.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free. $0." Up to 5 users, up to 10 courses, unlimited email support. No credit card needed, no time limit.'
+  - plan: Core
+    base_monthly_usd: 119
+    per_seat_monthly_usd: 0
+    max_seats: 40
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.talentlms.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$119/month" billed yearly ($1,428/yr), captured at the slider default band "1-40 users". The tier is sold up to 100 users but the price for the 41-100 range is not captured by this static fetch (client-side slider); recorded max_seats is deliberately restricted to the verified band.'
+  - plan: Grow
+    base_monthly_usd: 229
+    per_seat_monthly_usd: 0
+    max_seats: 70
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.talentlms.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$229/month" billed yearly ($2,748/yr), captured at the slider default band "1-70 users". The tier is sold up to 500 users but the price beyond 70 is not captured by this static fetch; recorded max_seats is deliberately restricted to the verified band.'
+  - plan: Pro
+    base_monthly_usd: 449
+    per_seat_monthly_usd: 6
+    included_seats: 100
+    max_seats: 500
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.talentlms.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$449/month" billed yearly ($5,388/yr) for up to 100 users ("1-100 users" slider band), "+ $6 per additional user" beyond that. A tooltip elsewhere on the page states pricing is "Available up to 500 users on the Pro plan."'
+  - plan: Enterprise
+    compare: false
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.talentlms.com/pricing
+      fetched_at: 2026-09-04
+      method: not_available
+      note: '"Enterprise. Starts at 1000 users. Flexible starts at 500 users." Contact sales; no price published.'
+
+findings:
+  - id: talentlms-pro-overage-cap
+    claim: >-
+      TalentLMS's Pro plan tooltip states pricing is "Available up to
+      500 users," with usage beyond the included 100 users billed at a
+      stated $6 per additional user (2026-09-04).
+    provenance:
+      source_url: https://www.talentlms.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: talentlms-free-plan-cap
+    claim: >-
+      TalentLMS's Free plan is capped at 5 users and 10 courses, with
+      unlimited email support and no time limit (2026-09-04).
+    provenance:
+      source_url: https://www.talentlms.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      TalentLMS's pricing page states no cancellation terms (2026-09-04).
+    provenance:
+      source_url: https://www.talentlms.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      TalentLMS's pricing page states no refund terms (2026-09-04).
+    provenance:
+      source_url: https://www.talentlms.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -399,6 +399,44 @@ contradicts its own pricing cards — one answer states Performance costs
 "$8/month," while the page's own product card prices it at $10/seat —
 recorded as a finding. Database is now 133 tools across 28 categories.
 
+### Learning management systems / employee training (2026-09-04)
+
+Five vendors: TalentLMS, iSpring Learn, LearnWorlds, 360Learning, Tovuti
+LMS. Seat axis is "employees who take courses" (10, 50, 100, 500, 1000),
+matching how these vendors themselves price — by monthly active user/
+learner count, not by admin seats.
+
+Eight vendors were tried and dropped, the deepest dead-end run of any
+category this session: LearnUpon states outright it is "not a fit for...
+less than 100 users"; Trainual, Continu, and SkyPrep are fully demo/
+sales-gated with zero dollar figures anywhere on their pricing pages;
+WorkRamp has been absorbed into a rebranded "Learn:Up" product under
+Confirm, whose page is pure "Book a demo" marketing copy; Thinkific
+returned HTTP 403 on both a US and a German fetch gateway; SC Training
+(formerly EdApp) failed to resolve as a fetchable domain on both the
+bare and `www.` hostnames; Coassemble turned out to have repositioned
+entirely as API-first embedding infrastructure, with annual contracts
+($2,500–$20,000+/yr) priced by "Identified Recipients" rather than
+anything resembling a per-employee seat count, so its numbers don't
+belong in this comparison even though they are real and dated.
+
+Data-quality notes: TalentLMS prices its Core and Grow tiers through an
+interactive user-count slider with bands like "1-40 users" and "41-70
+users"; a static fetch only sees the price at the default-selected band,
+so those two tiers are recorded only up to that band's ceiling (40 and
+70 seats respectively) rather than the higher caps the vendor states
+elsewhere on the same page — its Pro tier is fully specified instead
+(a flat rate to 100 users, then a stated $6/user to a tooltip-confirmed
+cap of 500) and carries the comparison at the larger seat points. iSpring
+Learn genuinely steps its price by user-count band (100/300/500 users,
+each at a different effective per-user rate), which is exactly what the
+`Step` price-list model exists for. Tovuti LMS publishes a single tier —
+$7,500/year for the first 100 learners — that the vendor's own copy says
+"then scales," but with no per-learner overage rate or higher tier
+published anywhere, so cost beyond 100 learners is correctly left
+unknown rather than guessed. Database is now 138 tools across 29
+categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

@@ -1,0 +1,8 @@
+URL: https://www.tovutilms.com/pricing/
+STATUS: 200 (resolved to https://www.tovutilms.com/lms-pricing)
+FETCHED: 2026-09-04 15:08:08 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+---
+Page title: "How Much Does an LMS Cost? | Tovuti LMS Pricing".
+The full platform (single published tier) — "Starts at $7,500 / year · 100 annual learners." "For your first 100 learners, then scales." "No hidden fees · billed annually." "Full platform included, no feature gaps." Includes courses/lessons/learning paths, interactive H5P content authoring, reporting/analytics/dashboards, e-commerce (sell courses), automated assignments & reminders. "Get your quote" is the only call to action beyond the first 100 learners — no per-learner overage rate or higher-tier price is published on this page.
+No FAQ, cancellation, or refund clause found on this page beyond "No hidden fees · billed annually."

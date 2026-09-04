@@ -1,0 +1,130 @@
+slug: learnworlds
+vendor: LearnWorlds
+product: LearnWorlds
+category: learning_management
+url: https://www.learnworlds.com/pricing/
+
+tiers:
+  - plan: Starter
+    base_monthly_usd: 24
+    per_seat_monthly_usd: 0
+    max_seats: 1000
+    seat_label: learner
+    billing: annual
+    provenance:
+      source_url: https://www.learnworlds.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$24/month, billed annually." "1,000 active learners / month, 1 admin, 300 AI credits/month." A separate $5-per-paid-enrollment fee applies (recorded as a Fee).'
+  - plan: Starter (monthly billing)
+    compare: false
+    base_monthly_usd: 29
+    per_seat_monthly_usd: 0
+    max_seats: 1000
+    seat_label: learner
+    billing: monthly
+    provenance:
+      source_url: https://www.learnworlds.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$29/month" month-to-month rate, same 1,000 active learner cap as the annual Starter tier.'
+  - plan: Pro Trainer
+    base_monthly_usd: 79
+    per_seat_monthly_usd: 0
+    max_seats: 2000
+    seat_label: learner
+    billing: annual
+    provenance:
+      source_url: https://www.learnworlds.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$79/month, billed annually, no enrollment fees, Save $240/yr." "2,000 active learners / month, 5 admins, 500 AI credits/month."'
+  - plan: Pro Trainer (monthly billing)
+    compare: false
+    base_monthly_usd: 99
+    per_seat_monthly_usd: 0
+    max_seats: 2000
+    seat_label: learner
+    billing: monthly
+    provenance:
+      source_url: https://www.learnworlds.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$99/month" month-to-month rate, no enrollment fees, same 2,000 active learner cap.'
+  - plan: Learning Center
+    base_monthly_usd: 249
+    per_seat_monthly_usd: 0
+    max_seats: 2000
+    seat_label: learner
+    billing: annual
+    provenance:
+      source_url: https://www.learnworlds.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$249/month, billed annually, no enrollment fees, Save $600/yr." "2,000 active learners / month, 25 admins, 1,000 AI credits/month." Most popular; full white-label, up to 10 client groups.'
+  - plan: Learning Center (monthly billing)
+    compare: false
+    base_monthly_usd: 299
+    per_seat_monthly_usd: 0
+    max_seats: 2000
+    seat_label: learner
+    billing: monthly
+    provenance:
+      source_url: https://www.learnworlds.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$299/month" month-to-month rate, no enrollment fees, same 2,000 active learner cap.'
+  - plan: Corporate
+    compare: false
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: learner
+    billing: annual
+    provenance:
+      source_url: https://www.learnworlds.com/pricing/
+      fetched_at: 2026-09-04
+      method: not_available
+      note: '"Corporate. Custom. Pricing tailored to your business." "Get custom quote." No price published.'
+
+findings:
+  - id: learnworlds-starter-enrollment-fee
+    claim: >-
+      LearnWorlds' Starter plan charges "$5 per paid enrollment" on top
+      of its $24/month base price, a fee waived on every higher tier
+      (2026-09-04).
+    provenance:
+      source_url: https://www.learnworlds.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: learnworlds-active-learner-cap
+    claim: >-
+      LearnWorlds caps its Starter plan at "1,000 active learners /
+      month" and its Pro Trainer and Learning Center plans at "2,000
+      active learners / month" each (2026-09-04).
+    provenance:
+      source_url: https://www.learnworlds.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+fees:
+  - name: Starter plan enrollment fee
+    amount_usd: 5
+    unit: per paid enrollment (Starter plan only; Pro Trainer, Learning Center and Corporate all state "no enrollment fees")
+    provenance:
+      source_url: https://www.learnworlds.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: cancellation
+    status: stated
+    quote: "You can change plans or cancel prior to renewal of your selected subscription i.e. ahead of next billing term."
+    finding: >-
+      LearnWorlds' FAQ states subscriptions can be changed or cancelled
+      "prior to renewal," i.e. ahead of the next billing term
+      (2026-09-04).
+    provenance:
+      source_url: https://www.learnworlds.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

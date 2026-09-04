@@ -1,0 +1,11 @@
+URL: https://360learning.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 15:07:55 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+---
+Page title: "Pricing & Plans | 360Learning".
+Team — "Up to 100 users. $8/user per month. Perfect for small to mid-sized businesses and training audiences." No setup fees; 30-day free trial.
+Business — "Custom. Flexible user models: combine registered and monthly active users in a single contract to support internal and external learners. Ideal for growing organizations and L&D teams ready to scale." "Request a demo."
+Enterprise — "Custom. Flexible user models: combine registered and monthly active users in a single contract... Built for large organizations seeking enterprise-wide L&D transformation and premium customer support." "Request a demo."
+FAQ: "Is there a minimum number of users?" — "No, there is no minimum number of users required with 360Learning. You only pay for the active users on your platform, with no hidden fees or minimum volume commitments." "What contract lengths does 360Learning offer?" — "Monthly commitment: Our Team plan is billed monthly with no annual commitment, so you can cancel anytime. Annual commitment: For Business and Enterprise plans, we generally offer annual contracts." "What happens if I exceed my user limit?" — "You can easily upgrade your plan or add more users at any time—without disrupting your existing setup."
+No refund clause found beyond the 30-day free trial offer.
