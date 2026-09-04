@@ -153,6 +153,15 @@ re-render on a scripted click, so those records carry the default (yearly)
 figures; Confluence rendered its monthly switch by default. Seat points are
 1, 3, 5, 10, 25 members who edit.
 
+### Productivity suites (2026-09-04)
+
+Google Workspace localizes by gateway (EUR on German gateways, USD on US
+ones) and shows annual-commitment prices with a time-boxed introductory
+discount; the discount is recorded as `promo` and the standard price as
+the tier. Microsoft's en-us page renders USD on every gateway and prints
+"with Teams" and "no Teams" SKUs side by side. Seat points are 1, 5, 10,
+25, 50 users with a mailbox.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

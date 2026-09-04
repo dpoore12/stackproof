@@ -1,0 +1,14 @@
+URL: https://proton.me/business/plans
+STATUS: 200
+FETCHED: 2026-09-04 00:57:33 +00:00 (US gateway 134.209.42.109; innerText slice landed in script text) and 00:57:50 +00:00 (German gateway 168.119.141.170; EUR)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main> (whitespace-collapsed). Tabs: Workspace (active) / Mail / Drive / Meet / VPN / Pass / Lumo AI. Billing switch Monthly / Yearly ("20% off"); yearly rendered. Currency switch CHF / EUR / USD present; the German gateway rendered EUR.
+---
+[German gateway, EUR, yearly]
+Workspace Standard — €12.99/user per month — "Billed at €155.88 every 12 months. Taxes may apply." — 1 TB storage per user, 15 custom email domains, secure email and calendar, appointment scheduling, cloud storage and file sharing, document and spreadsheet editor, video meetings 100 participants, VPN with ad-blocker, password manager with team vaults.
+Workspace Premium (recommended) — €19.99/user per month — "Billed at €239.88 every 12 months. Taxes may apply." — everything in Standard plus 3 TB per user, 20 custom domains, video meetings 250 participants, private AI chat (Lumo), email writing assistant, data retention policies.
+Enterprise — Let's talk — dedicated account manager, all Proton services, customizable.
+"30-day money-back guarantee". Compare: email addresses per user 20; calendars per user 25; Proton Scribe writing assistant "Add-on with free trial" on Standard, included on Premium; Meet duration 24 hours, 100/250 participants; VPN 10 connections per user; Lumo prompts limited/unlimited; 24/7 support, priority support on both.
+FAQ — Can my organization try Proton Workspace before subscribing? "Yes. See what Proton has to offer before making the commitment with a 14-day free trial."
+FAQ — What is a user? "Users are accounts in your organization that aren't administrators. … You can add or remove users, as well as allocate storage and VPN connections, from your admin panel."
+FAQ — Can I switch to a different plan? "You can switch to a different plan anytime from your account Dashboard."
+Third fetch 00:58:06 +00:00 (German gateway 168.119.99.194): EUR again; a scripted click on the "USD" currency control did not re-render before the read.

@@ -688,6 +688,104 @@
    ],
    "vendor": "Duda"
   },
+  "fastmail": {
+   "category": "productivity_suite",
+   "fees": [],
+   "product": "Fastmail for business",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 3.0,
+     "plan": "Basic",
+     "source_url": "https://www.fastmail.com/pricing/us/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 4.0,
+     "plan": "Basic (monthly)",
+     "source_url": "https://www.fastmail.com/pricing/us/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "biennial",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 2.85,
+     "plan": "Basic (24 months)",
+     "source_url": "https://www.fastmail.com/pricing/us/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 5.0,
+     "plan": "Standard",
+     "source_url": "https://www.fastmail.com/pricing/us/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Standard (monthly)",
+     "source_url": "https://www.fastmail.com/pricing/us/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "biennial",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 4.75,
+     "plan": "Standard (24 months)",
+     "source_url": "https://www.fastmail.com/pricing/us/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 9.0,
+     "plan": "Professional",
+     "source_url": "https://www.fastmail.com/pricing/us/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 10.0,
+     "plan": "Professional (monthly)",
+     "source_url": "https://www.fastmail.com/pricing/us/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "biennial",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 8.55,
+     "plan": "Professional (24 months)",
+     "source_url": "https://www.fastmail.com/pricing/us/",
+     "steps": null
+    }
+   ],
+   "vendor": "Fastmail"
+  },
   "fillout": {
    "category": "forms",
    "fees": [],
@@ -978,6 +1076,44 @@
    "product": "GetResponse",
    "tiers": [],
    "vendor": "GetResponse"
+  },
+  "google-workspace": {
+   "category": "productivity_suite",
+   "fees": [],
+   "product": "Google Workspace",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 300,
+     "per_seat_monthly_usd": 7.0,
+     "plan": "Business Starter",
+     "source_url": "https://workspace.google.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 300,
+     "per_seat_monthly_usd": 14.0,
+     "plan": "Business Standard",
+     "source_url": "https://workspace.google.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 300,
+     "per_seat_monthly_usd": 22.0,
+     "plan": "Business Plus",
+     "source_url": "https://workspace.google.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Google"
   },
   "grasshopper": {
    "category": "business_phone",
@@ -1778,6 +1914,84 @@
    ],
    "vendor": "Manatal"
   },
+  "microsoft-365": {
+   "category": "productivity_suite",
+   "fees": [],
+   "product": "Microsoft 365 for business",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 300,
+     "per_seat_monthly_usd": 7.0,
+     "plan": "Business Basic",
+     "source_url": "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 300,
+     "per_seat_monthly_usd": 5.4,
+     "plan": "Business Basic (no Teams)",
+     "source_url": "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 300,
+     "per_seat_monthly_usd": 23.5,
+     "plan": "Business Standard with Copilot",
+     "source_url": "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 300,
+     "per_seat_monthly_usd": 20.3,
+     "plan": "Business Standard with Copilot (no Teams)",
+     "source_url": "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 300,
+     "per_seat_monthly_usd": 32.0,
+     "plan": "Business Premium with Copilot",
+     "source_url": "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 300,
+     "per_seat_monthly_usd": 28.8,
+     "plan": "Business Premium with Copilot (no Teams)",
+     "source_url": "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 300,
+     "per_seat_monthly_usd": 10.0,
+     "plan": "Apps for business",
+     "source_url": "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Microsoft"
+  },
   "monday": {
    "category": "project_management",
    "fees": [
@@ -2198,6 +2412,13 @@
     }
    ],
    "vendor": "Pipedrive"
+  },
+  "proton-business": {
+   "category": "productivity_suite",
+   "fees": [],
+   "product": "Proton for Business (Workspace)",
+   "tiers": [],
+   "vendor": "Proton"
   },
   "publer": {
    "category": "social_scheduling",
@@ -3295,6 +3516,97 @@
      "per_seat_monthly_usd": 50.0,
      "plan": "Enterprise",
      "source_url": "https://www.zoho.com/recruit/pricing.html",
+     "steps": null
+    }
+   ],
+   "vendor": "Zoho"
+  },
+  "zoho-workplace": {
+   "category": "productivity_suite",
+   "fees": [
+    {
+     "amount_usd": 1.0,
+     "fetched_at": "2026-09-04",
+     "name": "Mail storage add-on",
+     "unit": "per 10 GB per year"
+    },
+    {
+     "amount_usd": 144.0,
+     "fetched_at": "2026-09-04",
+     "name": "WorkDrive storage add-on",
+     "unit": "per 100 GB per year ($100 per 1 TB per year as printed)"
+    }
+   ],
+   "product": "Zoho Workplace",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free Mail",
+     "source_url": "https://www.zoho.com/workplace/pricing.html",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 1.0,
+     "plan": "Mail Lite (5 GB)",
+     "source_url": "https://www.zoho.com/workplace/pricing.html",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 4.0,
+     "plan": "Mail Premium",
+     "source_url": "https://www.zoho.com/workplace/pricing.html",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 3.0,
+     "plan": "Workplace Standard",
+     "source_url": "https://www.zoho.com/workplace/pricing.html",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 4.0,
+     "plan": "Workplace Standard (monthly)",
+     "source_url": "https://www.zoho.com/workplace/pricing.html",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Workplace Professional",
+     "source_url": "https://www.zoho.com/workplace/pricing.html",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 7.0,
+     "plan": "Workplace Professional (monthly)",
+     "source_url": "https://www.zoho.com/workplace/pricing.html",
      "steps": null
     }
    ],

@@ -1,0 +1,20 @@
+URL: https://workspace.google.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 00:52:26 +00:00 (German gateway 168.119.141.170, EUR) and 00:53:19 +00:00 (US gateway 68.183.149.129, USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed). Toggle "Annual (Save 16% with 1 year commitment)" rendered active on both fetches; the flexible monthly-plan prices were not captured. Each card prints a promotional price, the standard price and a dated "Price details" block.
+---
+Google Workspace https://workspace.google.com/pricing — fetch 1, 2026-09-04 00:52:26 +00:00, German gateway 168.119.141.170 — EUR. Toggle "Annual (Save 16% with 1 year commitment)"=true. "All plans billed monthly, all prices €EUR."
+Promo: "20% off your first 3 months of Google Workspace. Offer valid for a limited time. Discount applied at checkout." Discount details Sep 17, 2026 – Dec 17, 2026; standard pricing from Dec 17, 2026. "**Offer available to new Google Workspace customers only. This introductory price is only available for the first 20 users added, for 12 months. Standard pricing will apply to all users after 12 months."
+Starter — €5.44 (promo) / €6.80 per user per month (annual) — 30 GB pooled storage per person, custom business email, Gemini AI assistant in Gmail.
+Standard — €10.88 / €13.60 per user per month — 2 TB pooled, custom layouts and mail merge, Gemini in Gmail/Docs/Meet.
+Plus — €16.88 / €21.10 per user per month — 5 TB, eDiscovery, Vault, 500-participant meetings with attendance tracking, secure LDAP, advanced endpoint management.
+Enterprise — contact sales — 5 TB or more, S/MIME, 1000-participant meetings with live streaming, DLP, context-aware access, data regions.
+"Starter, Standard, and Plus plans can be purchased for a maximum of 300 users. There is no minimum or maximum user limit for Enterprise plans."
+"*Google Workspace provides flexible pooled storage per user that is shared across the organization. Business Starter includes 30 GB pooled storage per user, Business Standard includes 2 TB, Business Plus and Enterprise Plus include 5 TB."
+Fetch 2, 00:53:19 +00:00, US gateway 68.183.149.129 — USD. Toggle "Annual (Save 16% with 1 year commitment)" active. "• Price is per user/month and does not include tax".
+Starter — 20% off for 3 months: Sep 17, 2026 – Dec 17, 2026 $5.60 (from $7.00); Dec 17, 2026 onwards $7.00 per user/month. Card: "$5.60 $7** / user per month". 30 GB pooled storage, custom business email, Gemini in Gmail, Gemini app, video meetings 100 participants, Vids, security controls.
+Standard — 20% off: $11.20 (from $14.00) until Dec 17, 2026, then $14.00. Card "$11.20 $14** / user per month". 2 TB pooled, Gemini across apps, Gemini Notebook expanded, meetings with recording and noise cancellation 150 participants, appointment booking, eSignature, Workspace Migrate tool.
+Plus — 50% off for 3 months: $11.00 (from $22.00) until Dec 17, 2026, then $22.00. Card "$11 $22** / user per month". 5 TB, eDiscovery, Vault, 500-participant meetings with attendance tracking, secure LDAP, advanced endpoint management.
+Enterprise — Let's talk / Contact sales.
+FAQ questions present but collapsed (answers not captured): What is a user? How do I buy and pay? What is the payment plan?
+Add-ons sold separately: AI Expanded Access, Google Meet Hardware, Chrome Enterprise, Voice, AppSheet.

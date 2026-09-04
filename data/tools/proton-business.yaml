@@ -1,0 +1,90 @@
+slug: proton-business
+vendor: Proton
+product: Proton for Business (Workspace)
+category: productivity_suite
+url: https://proton.me/business/plans
+free_trial: "14-day free trial, plus a 30-day money-back guarantee (stated 2026-09-04)."
+pricing_note: "Per-user pricing with no base fee, billed yearly at 20% off with a monthly option. Every automated fetch on 2026-09-04 rendered EUR (2 German gateways; the US-gateway render landed in script text), and the page's USD currency control did not re-render on a scripted click, so USD prices are not machine-recorded. The EUR figures are recorded as findings."
+
+tiers: []
+
+clauses:
+  - topic: refund
+    status: stated
+    finding: >-
+      Proton for Business advertises a 30-day money-back guarantee on its
+      plans page (2026-09-04).
+    quote: "30-day money-back guarantee"
+    provenance:
+      source_url: https://proton.me/business/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Proton bills yearly Workspace plans as a single 12-month charge with
+      taxes added where applicable (2026-09-04).
+    quote: "Billed at €155.88 every 12 months. Taxes may apply."
+    provenance:
+      source_url: https://proton.me/business/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Proton lets an organization switch plans at any time from the account
+      dashboard; no cancellation terms beyond the 30-day guarantee appear
+      (2026-09-04).
+    quote: "You can switch to a different plan anytime from your account Dashboard."
+    provenance:
+      source_url: https://proton.me/business/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Proton's business plans page states no data-export terms; Premium adds
+      data retention policies (2026-09-04).
+    provenance:
+      source_url: https://proton.me/business/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: proton-pricing-geo-routed-eur
+    claim: >-
+      On 2026-09-04, 3 of 3 readable automated fetches of proton.me/business/plans
+      rendered EUR prices, so USD prices are not machine-recorded.
+    provenance:
+      source_url: https://proton.me/business/plans
+      fetched_at: 2026-09-04
+      method: not_available
+  - id: proton-eur-plan-prices
+    claim: >-
+      Proton's European page on 2026-09-04 listed Workspace Standard at
+      €12.99 per user a month billed yearly (€155.88 a year) and Workspace
+      Premium at €19.99 (€239.88 a year), with the yearly switch labelled
+      20% off.
+    provenance:
+      source_url: https://proton.me/business/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: proton-workspace-limits
+    claim: >-
+      Proton Workspace Standard gives each user 1 TB of storage, 15 custom
+      domains and 100-participant meetings; Premium raises those to 3 TB,
+      20 domains and 250 participants and includes the Lumo AI assistant
+      (2026-09-04).
+    provenance:
+      source_url: https://proton.me/business/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: proton-scribe-addon
+    claim: >-
+      Proton's Scribe writing assistant is an add-on with a free trial on
+      Workspace Standard and included on Premium; each user gets 20 email
+      addresses and 25 calendars on both plans (2026-09-04).
+    provenance:
+      source_url: https://proton.me/business/plans
+      fetched_at: 2026-09-04
+      method: live_fetch

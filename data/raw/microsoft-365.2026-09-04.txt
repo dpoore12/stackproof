@@ -1,0 +1,24 @@
+URL: https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing
+STATUS: 200
+FETCHED: 2026-09-04 00:53:44 +00:00 (German gateway 168.119.99.194) and 00:54:13 +00:00 (168.119.141.170) — USD on the en-us page on both
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed). Tabs "With Teams"=true / "Without Teams"=false; both tab panels are present in the DOM, so a regex over the text captured every SKU card. All prices are "user/month, paid yearly (Annual subscription—auto renews)"; monthly-commitment prices were not printed.
+---
+Microsoft 365 for business — fetch 1, 2026-09-04 00:53:44 +00:00, German gateway 168.119.99.194 — requested /en-us/…/compare-all-microsoft-365-business-products, served https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing — USD (en-us locale). Tabs: "With Teams"=true / "Without Teams"=false.
+Microsoft 365 Business Basic — $7.00 user/month, paid yearly (Annual subscription–auto renews)1 — core identity and access management for up to 300 users; web and mobile Word/Excel/PowerPoint/Outlook; custom business email; Teams; 1 TB cloud storage per user; AI chat with web grounding; spam and malware filtering; phone and web support.
+Microsoft 365 Business Premium with Copilot (no Teams) — Recommended — $28.80 user/month, paid yearly (Annual subscription—auto renews)1 — Copilot in apps; desktop apps; Entra ID, Intune, Defender, Purview; up to 300 users.
+Microsoft 365 Business Standard with Copilot (no Teams) — $20.30 user/month, paid yearly — Copilot in apps; desktop apps; 1 TB per user; up to 300 users.
+FAQ headings: July 1, 2026 packaging and pricing updates; forms of payment; monthly vs annual commitment; volume discounts; switching plans; mix and match; "Can I cancel my subscription at any time?"; "What happens to my data if I cancel my subscription?"
+Fetch 2 SKU cards (regex over body text):
+Microsoft 365 Business Premium with Copilot — $32.00 user/month, paid yearly (Annual subscription—auto renews).
+Microsoft 365 Business Standard with Copilot — $23.50 user/month, paid yearly.
+Microsoft 365 Business Basic — $7.00 user/month, paid yearly.
+Microsoft 365 Business Premium with Copilot (no Teams) — $28.80 user/month, paid yearly.
+Microsoft 365 Business Standard with Copilot (no Teams) — $20.30 user/month, paid yearly.
+Microsoft 365 Business Basic (no Teams) — $5.40 user/month, paid yearly.
+Microsoft 365 Apps for business — "Popular desktop apps, excluding chat or calling" — $10.00 user/month, paid yearly.
+FAQ — July 1, 2026 packaging and pricing updates: refers to the Microsoft Licensing public FAQ.
+FAQ — Payment: all major credit cards; existing customers may be eligible to pay by invoice; "depending on your choice of service, you'll be billed monthly or annually."
+FAQ — Monthly vs annual commitment: "Monthly commitment with monthly payment: Sign up for a monthly subscription and pay month-to-month and cancel at any time. Annual commitment with monthly payment: Sign up for a one-year subscription and pay monthly. Annual commitment with annual payment: Sign up for a one-year subscription and pay for the entire year upfront."
+FAQ — Can I cancel? "You can cancel your subscription at any time. However, depending on the product and your subscription, there may be a penalty for canceling before the end of your contract. For subscriptions with a monthly commitment payment, there is no penalty for canceling your contract at any time. Annual commitment subscriptions paid month to month may incur some penalties if canceled early. Annual commitment subscriptions that are paid upfront do not receive a refund if canceled prior to the full contract period."
+FAQ — Data after cancel: "Your data is yours. If you decide to cancel your Microsoft 365 subscription, you can download your data—for example, email and documents on team sites—and save it to another location. You should save your data before you cancel. After you cancel your subscription, data associated with your Microsoft 365 account will be available to your administrator(s) in a limited function account for 90 days."
+Footnote: "[*] This discount offer is available between July 1, 2026, and December 31, 2026. The Microsoft 365 Copilot Business add-on is available only to existing Microsoft 365 customers with an eligible Business plan."

@@ -1,0 +1,28 @@
+URL: https://www.zoho.com/workplace/pricing.html
+STATUS: 200
+FETCHED: 2026-09-04 00:54:33 +00:00 (German gateway 168.119.99.193; redirected to /de/ in EUR) and 00:56:09 +00:00 (US gateway 68.183.60.80; English page with USD selected, requested with ?sredirect=false)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed). The English page prints each plan's annual per-user rate followed by its monthly rate ("US$3/user/month billed annually US$4/user/month"); Mail Lite and Mail Premium print "No monthly plan".
+---
+[US gateway, USD]
+Workplace Standard (BEST VALUE) — US$3/user/month billed annually; US$4/user/month (monthly). Any team size. Enterprise-grade custom email, 30 GB mail storage per user, file storage starts at 100 GB/team ("Get 100 GB of team storage for 3 to 10 users. After 10 users, get an additional 10 GB of shared storage per new user. Teams with fewer than 3 users will get 10 GB per user."), Zia AI, migration assistance (companies with more than 50 users), Trident desktop app, Mail, Calendar, WorkDrive, ToDo, Writer, Sheet, Show, Cliq, Meeting, Vault, Directory, ZeptoMail.
+Mail Lite — US$1 (5 GB) / US$1.25 (10 GB) per user/month billed annually — "No monthly plan" — Mail, Calendar, ToDo, Directory, Cliq (Free), ZeptoMail.
+Mail Premium — US$4/user/month billed annually — "No monthly plan" — 50 GB mail storage/user + 50 GB retention storage/user, eDiscovery, S/MIME.
+FAQ — How long are your contracts? "Zoho Workplace is a pay-as-you-go service (monthly or yearly). This means there are no long-term contracts. You can choose to upgrade, downgrade, or cancel your account at any time by logging in to your Zoho Workplace account."
+FAQ — Refund policy: links to the refund policy page (no terms on the pricing page).
+FAQ — Yearly plan: "We offer a 20% percent discount (approximate) if you choose annual billing. … Please note that annual billing discounts may vary by region."
+FAQ — HIPAA: Zoho Mail and WorkDrive comply with HIPAA.
+[German gateway, EUR, /de/ page]
+Zoho Workplace https://www.zoho.com/workplace/pricing.html — fetch 1, 2026-09-04 00:54:33 +00:00, German gateway 168.119.99.193 — redirected to https://www.zoho.com/de/workplace/pricing.html?sredirect=true (German locale, EUR selected; EUR/GBP switch only).
+Workplace Standard (best value) — €2,70/Benutzer/Monat, jährliche Abrechnung; €3,60/Benutzer/Monat (monthly) — custom email, 30 GB mail storage per user, file storage from 100 GB/team (100 GB team storage for 3–10 users; +10 GB per user above 10; teams under 3 users get 10 GB/user), Zia AI, Trident desktop app, Mail, Calendar, WorkDrive, ToDo, Writer, Sheet, Show, Cliq, Meeting, Vault, Directory.
+Mail Lite — €0,90 (5 GB) / €1,13 (10 GB) /Benutzer/Monat, jährliche Abrechnung — "Keine monatlichen Tarife" (no monthly plans) — Mail, Calendar, ToDo, Directory, Cliq (free).
+Mail Premium — €3,60/Benutzer/Monat, jährliche Abrechnung — no monthly plans — 50 GB mail + 50 GB archive per user, eDiscovery, S/MIME, mobile access management, DLP (beta).
+Workplace Professional — €5,40/Benutzer/Monat, jährliche Abrechnung; €6,30/Benutzer/Monat (monthly) — 100 GB mail + 100 GB retention per user, 1 TB/team file storage (+100 GB per user above 10), eProtect, Connect intranet.
+Workplace Enterprise — contact sales (pooled mail storage only from 1,000 users; VPC only from 100,000 users).
+"Zusätzlich zu den genannten Preisen werden lokale Steuern (MwSt. usw.) erhoben." (local taxes charged on top)
+Add-ons: Zoho Mail storage 10 GB €0,90/year; WorkDrive storage 100 GB €129,60/year, 1 TB €90/year (as printed).
+FAQ headings: user licensing; storage allocation; combining plans; payment methods; data security; contract length; refund policy; benefits of annual plan; HIPAA.
+[US gateway, third fetch 00:56:37 +00:00, USD] Workplace Professional — US$6/user/month billed annually; US$7/user/month (monthly). 100 GB mail storage/user + 100 GB retention storage/user; file storage 1 TB/team (3–10 users; +100 GB per user above 10; under 3 users 100 GB per user).
+"Local taxes (VAT, GST, etc.) will be charged in addition to the prices mentioned."
+Add-ons: Zoho Mail Storage Add-on 10GB US$1/year; Zoho WorkDrive Storage Add-on 100GB US$144/year, 1TB US$100/year (as printed).
+FAQ — Free plan users: "The 5 free users apply only to the Free Mail plan. When you upgrade to any paid plan, every user is billed at that plan's per-user rate. There is no bundle of free users included with paid plans."
+FAQ — Cost for 5 users: "Your total is the per-user price multiplied by the number of user licenses you purchase. For example, if Mail Premium is US$4 per user per month and you have 5 users, your monthly cost is 5 × US$4 … The Free plan includes up to 5 users at no cost".

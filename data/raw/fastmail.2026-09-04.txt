@@ -1,0 +1,13 @@
+URL: https://www.fastmail.com/pricing/us/
+STATUS: 200
+FETCHED: 2026-09-04 00:59:05 +00:00 (German gateway 168.119.99.191; the /us/ path renders USD). An earlier fetch of /pricing/ at 00:58:46 was redirected by IP to /pricing/de/ in EUR.
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main> (whitespace-collapsed). Plan-type radios "personal" / "business" and plan-length radios 1 / 12 / 24 / 36 months (12 checked); the business cards are present in the DOM and print all four term prices. "Try free for up to 30 days".
+---
+[Business plans, USD]
+Basic — "Fastmail essentials for those with low storage needs." — $4 per user/month (1 month); Pay yearly and save $12: $3 per user/month, $36 for 12 months; $2.85 per user/month, $68.40 for 24 months; $2.80 per user/month, $100.80 for 36 months. 6 GB total storage per user (5 GB mail + 1 GB files), shared addresses, shared calendars, shared address book, offline support. (No custom-domain line on Basic.)
+Standard (Most popular) — "Premium business email, contacts, and calendars." — $6 per user/month; $5 per user/month, $60 for 12 months; $4.75, $114 for 24 months; $4.67, $168 for 36 months. 60 GB total storage per user (50 GB mail + 10 GB files), custom business addresses with a domain, Scheduled Send and Snooze, third-party app access.
+Professional — "More storage and email retention for legal compliance." — $10 per user/month; $9 per user/month, $108 for 12 months; $8.55, $205.20 for 24 months; $8.40, $302.40 for 36 months. 150 GB total storage per user (100 GB mail + 50 GB files), email retention archive.
+FAQ — What if I need more storage? "If you need more, you can purchase up to 300 GB per user."
+FAQ — What if my needs change later? "You can upgrade or downgrade your plan at any time; the new plan instantly comes into effect. A pro-rata credit for the remaining time of your previous plan will be deducted from the cost of your new plan."
+FAQ — Payment: major credit and debit cards, PayPal, Apple Pay, Google Pay; no cash, cheques, bank transfers or money orders.
+FAQ — Do I need to sign a long-term contract? "No, you can cancel your account at any time and there will be no further payments required. Please note, we do not offer refunds for unused subscriptions, so please use your free trial to make sure Fastmail is right for you."
