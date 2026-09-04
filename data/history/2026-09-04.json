@@ -1629,6 +1629,24 @@
    ],
    "vendor": "Crisp"
   },
+  "cronometer-pro": {
+   "category": "nutrition_dietitian_coaching_practice_management",
+   "fees": [],
+   "product": "Cronometer Pro",
+   "tiers": [
+    {
+     "base_monthly_usd": 39.99,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Cronometer Pro",
+     "source_url": "https://cronometer.com/pro/",
+     "steps": null
+    }
+   ],
+   "vendor": "Cronometer"
+  },
   "dashlane": {
    "category": "password_manager",
    "fees": [],
@@ -3421,6 +3439,94 @@
     }
    ],
    "vendor": "Harvest"
+  },
+  "healthie": {
+   "category": "nutrition_dietitian_coaching_practice_management",
+   "fees": [],
+   "product": "Healthie",
+   "tiers": [
+    {
+     "base_monthly_usd": 18.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Core (annual)",
+     "source_url": "https://www.gethealthie.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 19.99,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Core (monthly)",
+     "source_url": "https://www.gethealthie.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 45.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Essentials (annual)",
+     "source_url": "https://www.gethealthie.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 49.99,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Essentials (monthly)",
+     "source_url": "https://www.gethealthie.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 115.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Plus (annual)",
+     "source_url": "https://www.gethealthie.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 129.99,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Plus (monthly)",
+     "source_url": "https://www.gethealthie.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 135.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 50.0,
+     "plan": "Group (annual)",
+     "source_url": "https://www.gethealthie.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 149.99,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 50.0,
+     "plan": "Group (monthly)",
+     "source_url": "https://www.gethealthie.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Healthie"
   },
   "helpscout": {
    "category": "helpdesk",
@@ -6740,6 +6846,84 @@
     }
    ],
    "vendor": "Pixifi"
+  },
+  "practice-better": {
+   "category": "nutrition_dietitian_coaching_practice_management",
+   "fees": [],
+   "product": "Practice Better",
+   "tiers": [
+    {
+     "base_monthly_usd": 25.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Starter (annual)",
+     "source_url": "https://practicebetter.io/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 35.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Starter (monthly)",
+     "source_url": "https://practicebetter.io/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 62.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Professional (annual)",
+     "source_url": "https://practicebetter.io/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 69.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Professional (monthly)",
+     "source_url": "https://practicebetter.io/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 89.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Plus (annual)",
+     "source_url": "https://practicebetter.io/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 99.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Plus (monthly)",
+     "source_url": "https://practicebetter.io/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 155.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 200,
+     "per_seat_monthly_usd": 50.0,
+     "plan": "Team",
+     "source_url": "https://practicebetter.io/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Practice Better"
   },
   "proton-business": {
    "category": "productivity_suite",

@@ -1,0 +1,94 @@
+slug: practice-better
+vendor: Practice Better
+product: Practice Better
+category: nutrition_dietitian_coaching_practice_management
+url: https://practicebetter.io/pricing
+pricing_note: 'Starter, Professional, and Plus are single-practitioner plans (1 practitioner license) that differ by active-client cap and feature set; Team is the multi-practitioner plan, priced at a base rate for 2 included practitioner licenses plus $50/mo per additional practitioner (up to 200). Annual billing is headlined as the discounted rate ("Save $X/year") and recorded as primary; monthly is recorded separately. Team''s page text did not show an annual "Save $X/year" badge, so only its monthly rate is recorded.'
+
+tiers:
+  - plan: Starter (annual)
+    base_monthly_usd: 25
+    max_seats: 1
+    billing: annual
+    seat_label: practitioner
+    provenance:
+      source_url: https://practicebetter.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Starter — $35/mo, Save $120/year" (= $25/mo billed annually). "1 practitioner license. 10 clients."'
+  - plan: Starter (monthly)
+    base_monthly_usd: 35
+    max_seats: 1
+    billing: monthly
+    seat_label: practitioner
+    compare: false
+    provenance:
+      source_url: https://practicebetter.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Starter — $35/mo billed monthly. 1 practitioner license. 10 clients."'
+  - plan: Professional (annual)
+    base_monthly_usd: 62
+    max_seats: 1
+    billing: annual
+    seat_label: practitioner
+    provenance:
+      source_url: https://practicebetter.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Professional — $69/mo, Save $84/year" (= $62/mo billed annually). "1 practitioner license. 300 clients."'
+  - plan: Professional (monthly)
+    base_monthly_usd: 69
+    max_seats: 1
+    billing: monthly
+    seat_label: practitioner
+    compare: false
+    provenance:
+      source_url: https://practicebetter.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Professional — $69/mo billed monthly. 1 practitioner license. 300 clients."'
+  - plan: Plus (annual)
+    base_monthly_usd: 89
+    max_seats: 1
+    billing: annual
+    seat_label: practitioner
+    provenance:
+      source_url: https://practicebetter.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Plus — $99/mo, Save $120/year" (= $89/mo billed annually). "1 practitioner license. 3 admin licenses. Unlimited clients."'
+  - plan: Plus (monthly)
+    base_monthly_usd: 99
+    max_seats: 1
+    billing: monthly
+    seat_label: practitioner
+    compare: false
+    provenance:
+      source_url: https://practicebetter.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Plus — $99/mo billed monthly. 1 practitioner license. 3 admin licenses. Unlimited clients."'
+  - plan: Team
+    base_monthly_usd: 155
+    per_seat_monthly_usd: 50
+    included_seats: 2
+    max_seats: 200
+    billing: monthly
+    seat_label: practitioner
+    provenance:
+      source_url: https://practicebetter.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Team — $155/mo. 2 practitioner licenses (up to 200 @ $50 per practitioner). Unlimited admin licenses. Unlimited clients."'
+
+findings:
+  - id: practice-better-team-practitioner-cap
+    claim: >-
+      Practice Better's Team plan sells additional practitioner licenses at
+      $50/mo each up to a maximum of 200 practitioners on the plan, per its
+      own pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://practicebetter.io/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

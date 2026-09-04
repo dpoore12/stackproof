@@ -1,0 +1,28 @@
+slug: cronometer-pro
+vendor: Cronometer
+product: Cronometer Pro
+category: nutrition_dietitian_coaching_practice_management
+url: https://cronometer.com/pro/
+pricing_note: 'Cronometer Pro is a single-practitioner plan (one professional account) priced with a client-count allowance rather than a practitioner count: it includes 10 client seats and charges $2.50/mo for each additional client beyond that, which is a different axis than this category''s practitioner-count comparison. Only the base per-practitioner price is recorded here; the per-client scaling is documented as a Finding rather than modeled. Cronometer also offers a multi-practitioner "Enterprise" plan, which is quote-gated (no price shown on the page) and is not recorded.'
+
+tiers:
+  - plan: Cronometer Pro
+    base_monthly_usd: 39.99
+    max_seats: 1
+    seat_label: practitioner
+    provenance:
+      source_url: https://cronometer.com/pro/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$39.99 USD / Per month. Includes 10 client seats. Add unlimited additional seats for $2.50 each/month."'
+
+findings:
+  - id: cronometer-pro-per-client-overage
+    claim: >-
+      Cronometer Pro includes 10 client seats in its $39.99/mo base price and
+      charges $2.50/mo for each additional client seat beyond that, per its
+      own pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://cronometer.com/pro/
+      fetched_at: 2026-09-04
+      method: live_fetch

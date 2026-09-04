@@ -1,0 +1,105 @@
+slug: healthie
+vendor: Healthie
+product: Healthie
+category: nutrition_dietitian_coaching_practice_management
+url: https://www.gethealthie.com/pricing
+pricing_note: 'Core, Essentials, and Plus are single-practitioner plans (max 1 provider) that differ by active-client cap; Group is the multi-practitioner plan, priced at a base rate for the first clinician plus $50/mo per additional clinician. Annual billing (paid yearly) and monthly billing are both published; annual is recorded as the primary comparison rate per this site''s policy of treating the prepaid-annual rate as primary when a vendor headlines it, with monthly recorded separately.'
+
+tiers:
+  - plan: Core (annual)
+    base_monthly_usd: 18
+    max_seats: 1
+    billing: annual
+    seat_label: clinician
+    provenance:
+      source_url: https://www.gethealthie.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Core — $18/mo billed annually ($19.99/mo billed monthly) — 10 active clients."'
+  - plan: Core (monthly)
+    base_monthly_usd: 19.99
+    max_seats: 1
+    billing: monthly
+    seat_label: clinician
+    compare: false
+    provenance:
+      source_url: https://www.gethealthie.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Core — $19.99/mo billed monthly — 10 active clients."'
+  - plan: Essentials (annual)
+    base_monthly_usd: 45
+    max_seats: 1
+    billing: annual
+    seat_label: clinician
+    provenance:
+      source_url: https://www.gethealthie.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Essentials — $45/mo billed annually ($49.99/mo billed monthly) — 250 active clients."'
+  - plan: Essentials (monthly)
+    base_monthly_usd: 49.99
+    max_seats: 1
+    billing: monthly
+    seat_label: clinician
+    compare: false
+    provenance:
+      source_url: https://www.gethealthie.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Essentials — $49.99/mo billed monthly — 250 active clients."'
+  - plan: Plus (annual)
+    base_monthly_usd: 115
+    max_seats: 1
+    billing: annual
+    seat_label: clinician
+    provenance:
+      source_url: https://www.gethealthie.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Plus — $115/mo billed annually ($129.99/mo billed monthly) — unlimited clients."'
+  - plan: Plus (monthly)
+    base_monthly_usd: 129.99
+    max_seats: 1
+    billing: monthly
+    seat_label: clinician
+    compare: false
+    provenance:
+      source_url: https://www.gethealthie.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Plus — $129.99/mo billed monthly — unlimited clients."'
+  - plan: Group (annual)
+    base_monthly_usd: 135
+    per_seat_monthly_usd: 50
+    included_seats: 1
+    billing: annual
+    seat_label: clinician
+    provenance:
+      source_url: https://www.gethealthie.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Group — from $135/mo billed annually ($149.99/mo billed monthly) for clinician-owned practices with multiple practitioners. Add team members for $50/mo/clinician."'
+  - plan: Group (monthly)
+    base_monthly_usd: 149.99
+    per_seat_monthly_usd: 50
+    included_seats: 1
+    billing: monthly
+    seat_label: clinician
+    compare: false
+    provenance:
+      source_url: https://www.gethealthie.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Group — from $149.99/mo billed monthly. Add team members for $50/mo/clinician."'
+
+findings:
+  - id: healthie-active-client-caps-by-tier
+    claim: >-
+      Healthie's single-practitioner plans are differentiated by active-client
+      cap rather than feature set — 10 clients on Core, 250 on Essentials, and
+      unlimited on Plus — per its own pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://www.gethealthie.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
