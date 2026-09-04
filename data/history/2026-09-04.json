@@ -257,6 +257,34 @@
    ],
    "vendor": "Squarespace"
   },
+  "aesthetic-record": {
+   "category": "medical_spa_management",
+   "fees": [],
+   "product": "Aesthetic Record EMR",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 15.0,
+     "plan": "Essentials",
+     "source_url": "https://www.aestheticrecord.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 19.0,
+     "plan": "Accelerator",
+     "source_url": "https://www.aestheticrecord.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Aesthetic Record"
+  },
   "agorapulse": {
    "category": "social_scheduling",
    "fees": [],
@@ -6328,6 +6356,24 @@
    ],
    "vendor": "OptiSigns"
   },
+  "pabau": {
+   "category": "medical_spa_management",
+   "fees": [],
+   "product": "Pabau",
+   "tiers": [
+    {
+     "base_monthly_usd": 62.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Solo",
+     "source_url": "https://pabau.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Pabau"
+  },
   "pandadoc": {
    "category": "esignature",
    "fees": [],
@@ -9227,6 +9273,24 @@
     }
    ],
    "vendor": "UptimeRobot"
+  },
+  "vagaro": {
+   "category": "medical_spa_management",
+   "fees": [],
+   "product": "Vagaro",
+   "tiers": [
+    {
+     "base_monthly_usd": 30.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Vagaro (1 bookable calendar)",
+     "source_url": "https://www.vagaro.com/pro/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Vagaro"
   },
   "wave-payroll": {
    "category": "payroll",

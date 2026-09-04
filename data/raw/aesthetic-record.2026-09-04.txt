@@ -1,0 +1,24 @@
+source: https://www.aestheticrecord.com/pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+h1: "Subscription Plans & Pricing." Page description: "Transparent
+pricing for Aesthetic Record EMR. Plans for solo providers to
+enterprise."
+
+Essentials — "$15 /month per User." Plus a one-time "$399 Startup &
+Onboarding Investment" (90-day guided onboarding, CORE4 training,
+4 live system audit calls, learning lab access, live chat support,
+community enrollment) — a one-time setup fee, not a recurring charge;
+not modeled into the monthly cost. "2 GB Storage / user, 250 SMS
+Monthly / user, 300 Emails Monthly / user."
+
+Accelerator — "$19 /month per User." Same one-time "$399 Startup &
+Onboarding Investment." "+ Everything in Essentials" plus additional
+onboarding/training depth.
+
+Enterprise — "Contact Us." Fully quote-gated, not recorded.
+
+No explicit per-plan seat cap (max users) was found in static text for
+Essentials or Accelerator — both appear to scale per-user with no
+stated ceiling.

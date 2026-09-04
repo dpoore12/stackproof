@@ -1,0 +1,28 @@
+slug: pabau
+vendor: Pabau
+product: Pabau
+category: medical_spa_management
+url: https://pabau.com/pricing/
+pricing_note: 'Pabau''s pricing page renders its full Solo/Team/Medium/Group/Enterprise tier grid via client-side JavaScript keyed to a region selector (UK/US/CA/AU/EU); none of the actual dollar figures were present in this fetch''s captured page text. Only the Solo (1-user) price is recorded, sourced from the page''s own meta description and Twitter title tag ("$62/mo," "Pabau pricing starts at $62/month for one user") rather than from the rendered pricing card itself. Team, Medium, Group, and Enterprise are not recorded.'
+
+tiers:
+  - plan: Solo
+    base_monthly_usd: 62
+    max_seats: 1
+    seat_label: provider
+    provenance:
+      source_url: https://pabau.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Page meta description: "Pabau pricing starts at $62/month for one user with full platform access — scheduling, records, payments, marketing, and reporting. No feature gating." Page confirms "Full access on every plan. Based only on users" and a "Solo — 1 user" tier.'
+
+findings:
+  - id: pabau-team-size-based-pricing
+    claim: >-
+      Pabau prices every plan by number of users with full feature
+      access on every tier (no feature gating by plan), per its own
+      pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://pabau.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

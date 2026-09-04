@@ -1150,6 +1150,39 @@ competitors at every seat count in this table.
 
 Database is now 220 tools across 53 categories.
 
+### Medical spa management software (2026-09-04)
+
+Three vendors: Aesthetic Record, Pabau, Vagaro. Seat axis is
+"providers" (1, 3, 5, 10, 25).
+
+Aesthetic Record is a clean, genuine per-user rate with no base fee
+(Essentials $15/user/mo, Accelerator $19/user/mo) plus a one-time $399
+onboarding fee on both tiers (not modeled as recurring). Pabau and
+Vagaro both price by team size / bookable-calendar count through an
+interactive selector whose scaled figures are set by client-side
+JavaScript; only the 1-seat starting rate rendered as static text for
+either (Pabau's $62/mo confirmed via the page's own meta description
+rather than the rendered pricing card itself, since the actual tier
+grid requires a region selection to render; Vagaro's $30/mo standing
+rate, with a $23.99 six-month promotional rate not used per this
+site's policy). Vagaro is a multi-vertical salon/spa/fitness platform,
+not medspa-specific, but explicitly serves med spas as one of its
+named business types.
+
+Before landing on this category, three other categories were
+researched and abandoned this session: towing/roadside dispatch
+software (only Towbook and Relay Tow had self-serve pricing; Beacon/
+Dispatch Anywhere, TOPS, and TowSoft are all quote-gated or unpublished
+— below this site's 3-vendor threshold), veterinary clinic management
+software (only Provet had a confirmed formula; Digitail, Vetspire, and
+Shepherd are quote-gated, and Hippo Manager's domain now redirects to
+unrelated spam content), and chiropractic practice management software
+(only ChiroSpring had confirmed pricing; ChiroTouch and PayDC are
+quote-gated, and Genesis/ClinicMind prices per-visit rather than
+per-provider, an axis mismatch with the rest of the category).
+
+Database is now 223 tools across 54 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

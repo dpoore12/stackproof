@@ -1,0 +1,39 @@
+slug: aesthetic-record
+vendor: Aesthetic Record
+product: Aesthetic Record EMR
+category: medical_spa_management
+url: https://www.aestheticrecord.com/pricing/
+pricing_note: 'Both priced tiers charge a one-time "$399 Startup & Onboarding Investment" in addition to the monthly per-user rate; this is a one-time setup fee, not a recurring charge, so it is not modeled into cost_at() and is instead documented as a Finding.'
+
+tiers:
+  - plan: Essentials
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 15
+    included_seats: 0
+    seat_label: provider
+    provenance:
+      source_url: https://www.aestheticrecord.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Essentials — $15 /month per User." "2 GB Storage / user, 250 SMS Monthly / user, 300 Emails Monthly / user."'
+  - plan: Accelerator
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 19
+    included_seats: 0
+    seat_label: provider
+    provenance:
+      source_url: https://www.aestheticrecord.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Accelerator — $19 /month per User." "+ Everything in Essentials," plus additional onboarding/training depth.'
+
+findings:
+  - id: aesthetic-record-startup-fee
+    claim: >-
+      Aesthetic Record charges a one-time "$399 Startup & Onboarding
+      Investment" on both its Essentials and Accelerator plans, per its
+      own pricing page as of 2026-09-04.
+    provenance:
+      source_url: https://www.aestheticrecord.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
