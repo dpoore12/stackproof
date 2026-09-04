@@ -1,0 +1,11 @@
+URL: https://www.ispringsolutions.com/ispring-learn/pricing
+STATUS: 200 (redirected to https://www.ispring.com/pricing)
+FETCHED: 2026-09-04 15:10:15 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+---
+Page title: "iSpring LMS Pricing".
+Header: "Outstanding value at a reasonable price. You always get transparent pricing. No hidden costs. Stay budget-confident with iSpring. Pay only for active users. Money-back guarantee."
+Business plan (interactive user-count slider, three captured points): 100 users — "$6.91 USD per user/month, $8,286 annual price." 300 users — "$4.46 USD per user/month, $16,050 annual price." 500 users — "$3.97 USD per user/month, $23,790 annual price."
+Enterprise — "Strong performance for up to 150,000 users. On-premise installation available. Dedicated premium support. SSO and unlimited APIs. Out-of-the-box integrations." "Get a custom quote."
+FAQ: "What does payment for active users mean?" — "Pay-per-active users is one of several popular LMS pricing models. With iSpring LMS you can invite and register any number of users, and pay for active users only. A user will be considered active if s/he has logged in at least once during a month." "Can I get the LMS for a custom number of users?" — "Yes. If you have 100+ users and our standard plans don't fit your requirements, simply write to us." "Can I change plans at anytime?" — "Yes. Simply contact iSpring Sales at any time during the billing cycle to switch to a different plan." "Are there any government, non-profit, or academic discounts?" — "Subscription plans for iSpring LMS don't include any government, non-profit, or academic discounts."
+No cancellation clause found beyond the stated money-back guarantee (terms not itemized on this page).

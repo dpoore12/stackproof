@@ -1,0 +1,42 @@
+slug: tovuti
+vendor: Tovuti LLC
+product: Tovuti LMS
+category: learning_management
+url: https://www.tovutilms.com/pricing/
+pricing_note: "Tovuti publishes a single self-serve tier: $7,500/year for the first 100 annual learners. The page states the plan \"then scales\" beyond 100 learners but publishes no per-learner overage rate or higher-tier price, so cost beyond 100 learners is not computed here -- it requires \"Get your quote.\""
+
+tiers:
+  - plan: Full platform
+    base_monthly_usd: 625.00
+    per_seat_monthly_usd: 0
+    max_seats: 100
+    seat_label: learner
+    billing: annual
+    provenance:
+      source_url: https://www.tovutilms.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Starts at $7,500 / year, 100 annual learners." "For your first 100 learners, then scales." "No hidden fees, billed annually." monthly_usd is $7,500 / 12. Full platform included, no feature gaps: courses/lessons/learning paths, H5P authoring, reporting & analytics, e-commerce, automated assignments & reminders.'
+
+findings:
+  - id: tovuti-then-scales-no-rate
+    claim: >-
+      Tovuti LMS's pricing page states its $7,500/year tier is "for your
+      first 100 learners, then scales," without publishing any
+      per-learner overage rate or higher-tier price (2026-09-04).
+    provenance:
+      source_url: https://www.tovutilms.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "No hidden fees · billed annually."
+    finding: >-
+      Tovuti LMS bills its published tier annually, with the vendor
+      stating "no hidden fees" (2026-09-04).
+    provenance:
+      source_url: https://www.tovutilms.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

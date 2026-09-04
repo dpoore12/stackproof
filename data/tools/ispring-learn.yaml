@@ -1,0 +1,73 @@
+slug: ispring-learn
+vendor: iSpring Solutions
+product: iSpring Learn
+category: learning_management
+url: https://www.ispringsolutions.com/ispring-learn/pricing
+
+tiers:
+  - plan: Business
+    steps:
+      - up_to: 100
+        monthly_usd: 690.50
+      - up_to: 300
+        monthly_usd: 1337.50
+      - up_to: 500
+        monthly_usd: 1982.50
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.ispringsolutions.com/ispring-learn/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: >-
+        Interactive user-count slider, three captured points: "100 users:
+        $6.91 USD per user/month, $8,286 annual price." "300 users: $4.46
+        USD per user/month, $16,050 annual price." "500 users: $3.97 USD
+        per user/month, $23,790 annual price." monthly_usd is each
+        printed annual price divided by 12 (the vendor's own stated total
+        for that step, not seats times the printed per-user rate).
+  - plan: Enterprise
+    compare: false
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.ispringsolutions.com/ispring-learn/pricing
+      fetched_at: 2026-09-04
+      method: not_available
+      note: '"Strong performance for up to 150,000 users... On-premise installation available." "Get a custom quote." No price published.'
+
+findings:
+  - id: ispring-learn-active-user-billing
+    claim: >-
+      iSpring Learn bills "for active users only," where "a user will be
+      considered active if s/he has logged in at least once during a
+      month," per its pricing FAQ (2026-09-04).
+    provenance:
+      source_url: https://www.ispringsolutions.com/ispring-learn/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: refund
+    status: stated
+    quote: "Pay only for active users. Money-back guarantee."
+    finding: >-
+      iSpring Learn's pricing page states a "Money-back guarantee"
+      without itemizing its terms on this page (2026-09-04).
+    provenance:
+      source_url: https://www.ispringsolutions.com/ispring-learn/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    quote: "100 users: $6.91 USD per user/month, $8,286 annual price."
+    finding: >-
+      iSpring Learn's Business plan is billed as a single annual price
+      for each user-count step, not month-to-month (2026-09-04).
+    provenance:
+      source_url: https://www.ispringsolutions.com/ispring-learn/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -67,6 +67,44 @@
    ],
    "vendor": "1Password (AgileBits)"
   },
+  "360learning": {
+   "category": "learning_management",
+   "fees": [],
+   "product": "360Learning",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 100,
+     "per_seat_monthly_usd": 8.0,
+     "plan": "Team",
+     "source_url": "https://360learning.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Business",
+     "source_url": "https://360learning.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Enterprise",
+     "source_url": "https://360learning.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "360Learning"
+  },
   "7shifts": {
    "category": "shift_scheduling",
    "fees": [
@@ -2593,6 +2631,47 @@
    ],
    "vendor": "Intercom"
   },
+  "ispring-learn": {
+   "category": "learning_management",
+   "fees": [],
+   "product": "iSpring Learn",
+   "tiers": [
+    {
+     "base_monthly_usd": null,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Business",
+     "source_url": "https://www.ispringsolutions.com/ispring-learn/pricing",
+     "steps": [
+      {
+       "monthly_usd": 690.5,
+       "up_to": 100
+      },
+      {
+       "monthly_usd": 1337.5,
+       "up_to": 300
+      },
+      {
+       "monthly_usd": 1982.5,
+       "up_to": 500
+      }
+     ]
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Enterprise",
+     "source_url": "https://www.ispringsolutions.com/ispring-learn/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "iSpring Solutions"
+  },
   "jazzhr": {
    "category": "recruiting",
    "fees": [],
@@ -2929,6 +3008,91 @@
     }
    ],
    "vendor": "Lattice"
+  },
+  "learnworlds": {
+   "category": "learning_management",
+   "fees": [
+    {
+     "amount_usd": 5.0,
+     "fetched_at": "2026-09-04",
+     "name": "Starter plan enrollment fee",
+     "unit": "per paid enrollment (Starter plan only; Pro Trainer, Learning Center and Corporate all state \"no enrollment fees\")"
+    }
+   ],
+   "product": "LearnWorlds",
+   "tiers": [
+    {
+     "base_monthly_usd": 24.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1000,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter",
+     "source_url": "https://www.learnworlds.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 29.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1000,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter (monthly billing)",
+     "source_url": "https://www.learnworlds.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 79.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 2000,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro Trainer",
+     "source_url": "https://www.learnworlds.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 99.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 2000,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro Trainer (monthly billing)",
+     "source_url": "https://www.learnworlds.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 249.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 2000,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Learning Center",
+     "source_url": "https://www.learnworlds.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 299.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 2000,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Learning Center (monthly billing)",
+     "source_url": "https://www.learnworlds.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Corporate",
+     "source_url": "https://www.learnworlds.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "LearnWorlds"
   },
   "livechat": {
    "category": "live_chat",
@@ -4814,6 +4978,64 @@
    ],
    "vendor": "Tailscale"
   },
+  "talentlms": {
+   "category": "learning_management",
+   "fees": [],
+   "product": "TalentLMS",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://www.talentlms.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 119.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 40,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Core",
+     "source_url": "https://www.talentlms.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 229.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 70,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Grow",
+     "source_url": "https://www.talentlms.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 449.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 500,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Pro",
+     "source_url": "https://www.talentlms.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Enterprise",
+     "source_url": "https://www.talentlms.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "TalentLMS"
+  },
   "tally": {
    "category": "forms",
    "fees": [],
@@ -4997,6 +5219,24 @@
     }
    ],
    "vendor": "Toggl"
+  },
+  "tovuti": {
+   "category": "learning_management",
+   "fees": [],
+   "product": "Tovuti LMS",
+   "tiers": [
+    {
+     "base_monthly_usd": 625.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 100,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Full platform",
+     "source_url": "https://www.tovutilms.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Tovuti LLC"
   },
   "trello": {
    "category": "project_management",

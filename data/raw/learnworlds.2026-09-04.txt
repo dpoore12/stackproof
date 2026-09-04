@@ -1,0 +1,12 @@
+URL: https://www.learnworlds.com/pricing/
+STATUS: 200 (resolved to https://www.learnworlds.com/pricing/?new; canonical/og:url https://www.learnworlds.com/new-pricing-2026/)
+FETCHED: 2026-09-04 15:05:49 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+---
+Page title: "New Pricing 2026 - LearnWorlds".
+Starter — "$24/month, billed annually" ("$29/month" month-to-month). "$5 per paid enrollment" fee applies. "1,000 active learners / month, 1 admin, 300 AI credits/month." For launching your first paid course.
+Pro Trainer — "$79/month, billed annually, no enrollment fees, Save $240/yr" ("$99/month" month-to-month, no enrollment fees). "2,000 active learners / month, 5 admins, 500 AI credits/month." For solo trainers and small course businesses.
+Learning Center (Most popular) — "$249/month, billed annually, no enrollment fees, Save $600/yr" ("$299/month" month-to-month, no enrollment fees). "2,000 active learners / month, 25 admins, 1,000 AI credits/month." For branded academies and training teams; includes full white-label, up to 10 client groups, automation triggers, 2 hours of specialist setup help.
+Corporate — "Custom. Pricing tailored to your business." "Custom active learners/month, custom admins & client groups, custom AI credits/month." "Get custom quote." 99.95% uptime, daily backups, dedicated success manager and 24/7 phone support.
+Feature comparison table confirms per-plan caps: "Monthly active learners: 1,000 / 2,000 / 2,000 / Custom." "Admins & team seats: 1 / 5 / 25 / Custom." "Enrollment fees: $5/enrollment / None / None / None." "Uptime guarantee: 99.90% / 99.90% / 99.90% / 99.95%."
+FAQ: "Can I switch plans or cancel my subscription at any time?" — "You can change plans or cancel prior to renewal of your selected subscription i.e. ahead of next billing term." "Are there any extra fees?" — "There are no hidden or extra fees. The pricing you see is what you pay... Payment gateways usually charge fees when your customers pay you (for example Stripe and Paypal currently charge 2.9% + $0.30 per transaction)." "Does the price include VAT?" — "All prices exclude VAT. It will be added to EU customers unless a valid EU VAT number is provided." "What is included in the trial period?" — "During the 30-day trial period, you'll have access to all the core features and functionality of LearnWorlds."

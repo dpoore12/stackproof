@@ -1,0 +1,76 @@
+slug: 360learning
+vendor: 360Learning
+product: 360Learning
+category: learning_management
+url: https://360learning.com/pricing/
+
+tiers:
+  - plan: Team
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 8
+    max_seats: 100
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://360learning.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Team. Up to 100 users. $8/user per month." FAQ confirms this plan is "billed monthly with no annual commitment, so you can cancel anytime."'
+  - plan: Business
+    compare: false
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://360learning.com/pricing/
+      fetched_at: 2026-09-04
+      method: not_available
+      note: '"Business. Custom. Flexible user models: combine registered and monthly active users in a single contract." "Request a demo." No price published.'
+  - plan: Enterprise
+    compare: false
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://360learning.com/pricing/
+      fetched_at: 2026-09-04
+      method: not_available
+      note: '"Enterprise. Custom... Built for large organizations seeking enterprise-wide L&D transformation." "Request a demo." No price published.'
+
+findings:
+  - id: 360learning-no-user-minimum
+    claim: >-
+      360Learning's FAQ states, "there is no minimum number of users
+      required," and the Team plan carries "no hidden fees or minimum
+      volume commitments" (2026-09-04).
+    provenance:
+      source_url: https://360learning.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "Monthly commitment: Our Team plan is billed monthly with no annual commitment, so you can cancel anytime. Annual commitment: For Business and Enterprise plans, we generally offer annual contracts."
+    finding: >-
+      360Learning bills its Team plan monthly with no annual commitment,
+      while Business and Enterprise plans are generally annual contracts
+      (2026-09-04).
+    provenance:
+      source_url: https://360learning.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: stated
+    quote: "Our Team plan is billed monthly with no annual commitment, so you can cancel anytime."
+    finding: >-
+      360Learning states the Team plan can be cancelled at any time,
+      since it carries no annual commitment (2026-09-04).
+    provenance:
+      source_url: https://360learning.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
