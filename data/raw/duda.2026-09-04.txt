@@ -1,0 +1,12 @@
+URL: https://www.duda.co/pricing
+STATUS: 200
+FETCHED: 2026-09-04 00:10:58 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main>. Annual toggle input checked=true ("Annual (Save up to 25%)"). Each card prints the monthly figure then the annual figure with "Billed annually / Billed monthly" labels. Prices in USD (meta description "Plans start at just $19/mo").
+---
+"Try for free for 14 days. No credit card required. 30-day money-back guarantee."
+Basic — $25/mo (billed monthly) / $19/mo (billed annually). 1 included published project.
+Team — $39/mo / $29/mo. 1 included published project. 3 team seats.
+Agency (Best Value) — $69/mo / $52/mo. 4 included published projects. 6 team seats. Priority support.
+White Label — $199/mo / $149/mo. 4 included published projects. 6 team seats. Advanced white-label experience.
+Custom — contact us; 24/7 support, advanced compliance.
+Compare table: create unlimited projects on all; included published projects 1 / 1 / 4 / 4 / custom; monthly AI credits 150 on all; agentic SEO; AI Visibility add-on "Free for the first 14 days, with plans starting as low as $19/mo"; support Email / Email / Priority / Priority / 24/7; collaborative team workspace — / 3 team seats / 6 / 6 / custom; unlimited client workspaces; eCommerce & Bookings priced separately.
