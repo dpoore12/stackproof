@@ -683,6 +683,24 @@
    ],
    "vendor": "Bitwarden"
   },
+  "bloomerang": {
+   "category": "nonprofit_donor_management",
+   "fees": [],
+   "product": "Bloomerang CRM",
+   "tiers": [
+    {
+     "base_monthly_usd": 125.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Bloomerang CRM",
+     "source_url": "https://bloomerang.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Bloomerang"
+  },
   "bonusly": {
    "category": "performance_management",
    "fees": [
@@ -4273,6 +4291,53 @@
    ],
    "vendor": "Linxup"
   },
+  "little-green-light": {
+   "category": "nonprofit_donor_management",
+   "fees": [],
+   "product": "Little Green Light",
+   "tiers": [
+    {
+     "base_monthly_usd": null,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Little Green Light",
+     "source_url": "https://www.littlegreenlight.com/pricing/",
+     "steps": [
+      {
+       "monthly_usd": 45.0,
+       "up_to": 2500
+      },
+      {
+       "monthly_usd": 60.0,
+       "up_to": 5000
+      },
+      {
+       "monthly_usd": 75.0,
+       "up_to": 10000
+      },
+      {
+       "monthly_usd": 90.0,
+       "up_to": 20000
+      },
+      {
+       "monthly_usd": 105.0,
+       "up_to": 30000
+      },
+      {
+       "monthly_usd": 120.0,
+       "up_to": 40000
+      },
+      {
+       "monthly_usd": 135.0,
+       "up_to": 50000
+      }
+     ]
+    }
+   ],
+   "vendor": "Little Green Light"
+  },
   "livechat": {
    "category": "live_chat",
    "fees": [
@@ -5053,6 +5118,44 @@
     }
    ],
    "vendor": "Mydoma Studio"
+  },
+  "neon-crm": {
+   "category": "nonprofit_donor_management",
+   "fees": [],
+   "product": "Neon CRM",
+   "tiers": [
+    {
+     "base_monthly_usd": 99.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Essentials",
+     "source_url": "https://neonone.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 209.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Impact",
+     "source_url": "https://neonone.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 409.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Empower",
+     "source_url": "https://neonone.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Neon One"
   },
   "nextiva": {
    "category": "business_phone",

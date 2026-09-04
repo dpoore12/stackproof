@@ -1,0 +1,27 @@
+source: https://www.littlegreenlight.com/pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+"One simple plan with everything you need." "No setup fees - No
+cancellation fees - No contracts - No upsells." "Pricing is based on
+constituent record counts. Prepay discounts are available."
+
+Full pricing table (Number of Constituents / Monthly):
+up to 2,500 -> $45/month
+up to 5,000 -> $60/month
+up to 10,000 -> $75/month
+up to 20,000 -> $90/month
+up to 30,000 -> $105/month
+up to 40,000 -> $120/month
+up to 50,000 -> $135/month
+"Over 50,000 constituent records? Add $15/mo for each additional 10k
+tier." "Little Green Light accounts can have up to 200,000 constituent
+records."
+
+Annual billing toggle shows "Save 10%" (vs. "Save 0%" for monthly) —
+exact per-tier annual dollar figures are computed client-side by a
+slider script, not printed as static per-tier text, but the 10% rate
+itself is explicitly stated.
+
+All tiers include unlimited users and every feature ("one simple
+plan").

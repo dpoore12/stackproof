@@ -928,6 +928,37 @@ management.
 
 Database is now 196 tools across 45 categories.
 
+### Nonprofit donor management / CRM software (2026-09-04)
+
+Three vendors: Little Green Light, Bloomerang, Neon CRM. Seat axis is
+"donor records" (500, 1,000, 2,500, 10,000, 50,000).
+
+Little Green Light publishes a genuine, fully-quantified constituent
+(donor) record-count step table directly on its own page — up to
+2,500 records $45/month, up to 5,000 $60, up to 10,000 $75, up to
+20,000 $90, up to 30,000 $105, up to 40,000 $120, up to 50,000 $135,
+plus $15/month for each additional 10,000-record tier beyond that —
+recorded as `steps`. Bloomerang's own pricing page states pricing "is
+based on the amount of records, or contacts, you track in the
+database," but its current page shows only a "Starting at:
+$125/month" headline for Bloomerang CRM with no record-count band
+shown as static text (the real scaling sits behind a "Get Personalized
+Pricing" quote flow), so it's recorded `compare: false` as a starting
+figure rather than guessed into a formula — the same treatment given
+to Jackrabbit Class in the martial arts/dance category. Neon CRM's own
+pricing page returned HTTP 403 to two direct fetch attempts (bot
+blocked), so its figures come from a search-engine synthesis of the
+vendor's own page (method `vendor_page_via_search`) rather than an
+independently re-verified quote; Neon prices by organizational revenue
+rather than donor record count, with no record cap on any tier, so its
+three tiers (Essentials $99, Impact $209, Empower $409) are flat
+across every seat point in this category's table — the same pattern
+as Neon CRM's own "no donor record limits" claim would imply, and
+consistent with how Punchpass and the auto repair shop vendors behave
+on their respective axes.
+
+Database is now 199 tools across 46 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
