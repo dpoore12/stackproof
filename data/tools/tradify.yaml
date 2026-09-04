@@ -1,0 +1,69 @@
+slug: tradify
+vendor: Tradify
+product: Tradify
+category: field_service_management
+url: https://www.tradifyhq.com/pricing
+
+tiers:
+  - plan: Lite
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 47
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.tradifyhq.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Lite. For contractors who want the basics. $47 USD per user/month." Job management, scheduling & Google Calendar sync, quoting & invoicing, pricing & markups, online & credit card payments, email tracking, Xero & QuickBooks Online sync.'
+  - plan: Pro
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 51
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.tradifyhq.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pro. Perfect for professional businesses. $51 USD per user/month." Everything in Lite, plus custom branding, inquiry form & email inbox, job photos & files, recurring jobs, job templates, progress invoicing, timesheets, subcontractor scheduling.'
+  - plan: Plus
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 61
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.tradifyhq.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Plus. Additional features for total control. $61 USD per user/month." Everything in Pro, plus SmartTools AI features (SmartRead for bills, SmartWrite), service reminders, job tasks, purchase orders, bulk invoicing, reporting.'
+  - plan: Custom
+    compare: false
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.tradifyhq.com/pricing
+      fetched_at: 2026-09-04
+      method: not_available
+      note: '"Custom. For large teams with specific needs. Price by request." Everything in Plus. No price published.'
+
+fees:
+  - name: Instant Website add-on
+    amount_usd: 12
+    unit: per month, flat (not per-user), available on every plan
+    provenance:
+      source_url: https://www.tradifyhq.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: tradify-genuinely-per-user
+    claim: >-
+      Tradify prices Lite, Pro, and Plus purely per user with no base
+      fee -- "$47," "$51," and "$61 USD per user/month" respectively,
+      each stated with no included-seats floor (2026-09-04).
+    provenance:
+      source_url: https://www.tradifyhq.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

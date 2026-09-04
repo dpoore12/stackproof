@@ -1,0 +1,9 @@
+URL: https://www.kickserv.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 16:56:51 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText. Page has a Monthly/Annual toggle; this static fetch captured only one toggle state (the figures below), with the page separately stating "Save 20% with annual subscription" without rendering the discounted number itself.
+---
+Start (for small teams) -- "5 users." "$60/mo." "Save 20% with annual subscription." Embeddable contact form, automated email & text reminders, 20+ business reports, time tracking, expense tracking, QuickBooks Online integration. No additional-user rate stated; treated as capped at the plan's 5 users.
+Run (for growing teams) -- "10 users." "$119/mo." "Save 20% with annual subscription." Everything in Start, plus dispatch mapping, GPS check-ins, custom data fields and reports, QuickBooks Desktop integration ($50/mo). No additional-user rate stated; treated as capped at 10 users.
+Scale (for established businesses) -- "20 users." "$199/mo." "Save 20% with annual subscription." Everything in Run, plus custom templates and reviews. No additional-user rate stated; treated as capped at 20 users.
+"Kickserv Kickback" -- a separate 5% discount for Start/Run/Scale/Premium customers who process a stated minimum amount in online payments each month ($1,000 / $2,000 / $3,000 respectively; annual plans multiply the minimum by 12).

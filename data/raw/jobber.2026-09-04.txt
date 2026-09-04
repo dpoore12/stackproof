@@ -1,0 +1,13 @@
+URL: https://www.getjobber.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 16:52:21 +00:00 / 16:56:03 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText. Gotcha: the first fetch attempt at a 95,000-character slice hit the API's 100,000-symbol hard truncation limit (Jobber's page has a large embedded "which plan is right for you" quiz widget inflating innerText); a second fetch at a 40,000-character slice succeeded.
+---
+Page title: "Jobber Pricing: Plans Starting at $29/Month | Free Trial". Four plans: Core, Connect, Grow, Plus. Each plan shows three billing options at its included-seats count: "No commitment" (month-to-month), "1 year commitment" (mid discount, billed monthly), and "Billed annually" (best discount, charged as one annual payment). "A user is anyone who accesses your account at the office or in the field to view or manage the team's schedule. Add users for $29/mo each" -- stated identically on all four plans, with no cap mentioned.
+Core -- 1 user included. "$49/mo" (No commitment). "$39/mo" (1 year commitment). "$29/mo" (Billed annually). "For the pro who wants to build and grow their business on one easy-to-use platform."
+Connect -- 1 user included. "$139/mo" (No commitment). "$119/mo" (1 year commitment). "$99/mo" (Billed annually). "For pros who want to automate tasks and turn repeat work into more 5-star visits."
+Grow -- 1 user included. "$199/mo" (No commitment). "$169/mo" (1 year commitment). "$149/mo" (Billed annually). "For contractors who want to win bigger jobs and grow more profitably."
+Plus -- 5 users included. "$499/mo" (No commitment). "$439/mo" (1 year commitment). "$399/mo" (Billed annually). "For teams who want to scale complex operations with greater control across jobs, crews, and revenue." This tier's CTA is "Contact Sales" rather than "Try Jobber For Free."
+"Looking for custom pricing for your franchise or multi-location business?" -- separate enterprise/multi-location offering, not priced on this page.
+Meta description independently confirms: "Jobber plans from $29 to $529/mo (billed annually)." (The $529 upper figure appears to reflect Plus plus additional users beyond the base 5, not captured as a separate line item here.)
+No cancellation or refund clause found on this page beyond the three commitment-length options themselves.

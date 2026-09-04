@@ -1,0 +1,87 @@
+slug: housecall-pro
+vendor: Housecall Pro
+product: Housecall Pro
+category: field_service_management
+url: https://www.housecallpro.com/pricing/
+
+tiers:
+  - plan: Basic
+    base_monthly_usd: 59
+    per_seat_monthly_usd: 0
+    max_seats: 1
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.housecallpro.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$59/mo" ("Saving $20/mo," billed annually), "1 user included." No additional-user rate published on this page, so this tier is treated as capped at 1 user.'
+  - plan: Basic (monthly billing)
+    compare: false
+    base_monthly_usd: 79
+    per_seat_monthly_usd: 0
+    max_seats: 1
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.housecallpro.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$79/mo" month-to-month, 1 user included.'
+  - plan: Essentials
+    base_monthly_usd: 149
+    per_seat_monthly_usd: 100
+    included_seats: 5
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.housecallpro.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$149/mo" ("Saving $40/mo," billed annually), "5 users included." "*Additional users $100/mo each," no cap stated. "All Basic features, plus" advanced tools.'
+  - plan: Essentials (monthly billing)
+    compare: false
+    base_monthly_usd: 189
+    per_seat_monthly_usd: 100
+    included_seats: 5
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.housecallpro.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$189/mo" month-to-month, 5 users included, "*Additional users $100/mo each."'
+  - plan: Max
+    base_monthly_usd: 299
+    per_seat_monthly_usd: 75
+    included_seats: 8
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.housecallpro.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$299/mo" ("Saving $30/mo," billed annually), "8 user included [sic]." "*Additional users $75/mo each," no cap stated. "Everything in Essentials, plus" a sales proposal tool bundled in.'
+  - plan: Max (monthly billing)
+    compare: false
+    base_monthly_usd: 329
+    per_seat_monthly_usd: 75
+    included_seats: 8
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.housecallpro.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$329/mo" month-to-month, 8 users included, "*Additional users $75/mo each."'
+
+findings:
+  - id: housecall-pro-tier-tradeoff
+    claim: >-
+      Housecall Pro's per-additional-user overage rate falls as plan
+      tier rises: $100/month per extra user on Essentials versus
+      $75/month per extra user on Max (2026-09-04).
+    provenance:
+      source_url: https://www.housecallpro.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

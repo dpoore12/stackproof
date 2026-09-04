@@ -1,0 +1,121 @@
+slug: jobber
+vendor: Jobber
+product: Jobber
+category: field_service_management
+url: https://www.getjobber.com/pricing/
+pricing_note: "Jobber shows three billing options per plan at that plan's included-seat count: month-to-month (\"No commitment\"), a mid-discount \"1 year commitment\" billed monthly, and the best-discount \"Billed annually.\" Only the two extremes (no-commitment monthly and billed-annually) are recorded as tiers here; the middle 1-year-commitment rate is captured as a finding instead of a third tier, to avoid tripling the tier count across four plans."
+
+tiers:
+  - plan: Core
+    base_monthly_usd: 29
+    per_seat_monthly_usd: 29
+    included_seats: 1
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.getjobber.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$29/mo" billed annually, 1 user included. "For the pro who wants to build and grow their business on one easy-to-use platform." Add users for $29/mo each, no cap stated.'
+  - plan: Core (monthly billing)
+    compare: false
+    base_monthly_usd: 49
+    per_seat_monthly_usd: 29
+    included_seats: 1
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.getjobber.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$49/mo," No commitment, 1 user included.'
+  - plan: Connect
+    base_monthly_usd: 99
+    per_seat_monthly_usd: 29
+    included_seats: 1
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.getjobber.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$99/mo" billed annually, 1 user included. "For pros who want to automate tasks and turn repeat work into more 5-star visits."'
+  - plan: Connect (monthly billing)
+    compare: false
+    base_monthly_usd: 139
+    per_seat_monthly_usd: 29
+    included_seats: 1
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.getjobber.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$139/mo," No commitment, 1 user included.'
+  - plan: Grow
+    base_monthly_usd: 149
+    per_seat_monthly_usd: 29
+    included_seats: 1
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.getjobber.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$149/mo" billed annually, 1 user included. "For contractors who want to win bigger jobs and grow more profitably."'
+  - plan: Grow (monthly billing)
+    compare: false
+    base_monthly_usd: 199
+    per_seat_monthly_usd: 29
+    included_seats: 1
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.getjobber.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$199/mo," No commitment, 1 user included.'
+  - plan: Plus
+    base_monthly_usd: 399
+    per_seat_monthly_usd: 29
+    included_seats: 5
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.getjobber.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$399/mo" billed annually, 5 users included. "For teams who want to scale complex operations with greater control across jobs, crews, and revenue." CTA is "Contact Sales" rather than self-serve signup.'
+  - plan: Plus (monthly billing)
+    compare: false
+    base_monthly_usd: 499
+    per_seat_monthly_usd: 29
+    included_seats: 5
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.getjobber.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$499/mo," No commitment, 5 users included.'
+
+findings:
+  - id: jobber-flat-per-user-overage
+    claim: >-
+      Jobber charges a flat "$29/mo each" for additional users beyond a
+      plan's included seats, stated identically across all four of its
+      plans (Core, Connect, Grow, Plus) with no cap mentioned (2026-09-04).
+    provenance:
+      source_url: https://www.getjobber.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: jobber-one-year-commitment-tier
+    claim: >-
+      Jobber offers a middle billing tier -- "1 year commitment," billed
+      monthly -- priced between its month-to-month rate and its prepaid
+      annual rate on every plan; on Core this is $39/month versus $49
+      (no commitment) and $29 (billed annually) (2026-09-04).
+    provenance:
+      source_url: https://www.getjobber.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

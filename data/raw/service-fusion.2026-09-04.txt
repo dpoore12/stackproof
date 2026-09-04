@@ -1,0 +1,10 @@
+URL: https://www.servicefusion.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 16:56:32 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+---
+Page title: "Pricing | Service Fusion". Toggle: "Monthly / Annual, Save 15%." Three plans: Starter, Plus, Pro -- all explicitly "Unlimited Users" on every tier.
+Starter -- "$208 Per Month (billed annually)" / "$245 Per Month" (monthly). "Unlimited Users." "*Charged as one annual payment at sign-up" for the annual option.
+Plus -- "$325 Per Month (billed annually)" / "$382 Per Month" (monthly). "Unlimited Users."
+Pro -- "$533 Per Month (billed annually)" / "$627 Per Month" (monthly). "Unlimited Users."
+FAQ: "How many users can I have with Service Fusion?" -- "No matter the plan you choose, you'll have unlimited users. Whether you have one technician and one dispatcher or 20 technicians and a full office, your Service Fusion pricing will be the same." "Do I have to sign a contract with Service Fusion?" -- "No, Service Fusion offers all plans on a month-to-month basis. However, you will receive a 15% discount if you choose any of our annual pricing options." "All plans come with no contract requirements, personalized onboarding, and unlimited support through email, phone, or live chat."

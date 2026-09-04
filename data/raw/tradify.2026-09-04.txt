@@ -1,0 +1,12 @@
+URL: https://www.tradifyhq.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 16:59:38 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+---
+Page title: "Pricing & Plans | Try Free for 14 Days! | Tradify". Four plans, genuinely per-user: Lite, Pro, Plus, Custom.
+Lite (Most Popular) -- "For contractors who want the basics." "$47 USD per user/month." Job management/notes/tracking, scheduling & Google Calendar sync, quoting & invoicing, pricing & markups, online & credit card payments, email tracking, Xero & QuickBooks Online sync.
+Pro (Most Popular) -- "Perfect for professional businesses." "$51 USD per user/month." Everything in Lite, plus custom branding, inquiry form & email inbox, customer communications history, job photos & files, recurring jobs, job templates, appointment reminders, quote options, progress invoicing, costing & bill tracking, timesheets, subcontractor scheduling.
+Plus (Most Popular) -- "Additional features for total control." "$61 USD per user/month." Everything in Pro, plus SmartTools AI features (SmartRead for bills, SmartWrite), service reminders, job tasks, purchase orders, bulk invoicing, kit bundles, staff activity history, reporting.
+Custom -- "For large teams with specific needs." "Price by request." Everything in Plus. "Contact Us."
+Optional add-on on every plan: "Instant Website -- $12 per month" (flat, not per-user).
+No cancellation or refund clause found on this page beyond the 14-day free trial (no credit card required).
