@@ -1,0 +1,14 @@
+URL: https://www.sync.com/pricing/
+STATUS: 200 (https://www.sync.com/pricing-teams/ returned 404; the live page is /pricing/, which covers both individual and team plans)
+FETCHED: 2026-09-04 12:49:50 +00:00 (DE gateway 168.119.141.170) and 12:50:14 +00:00 (US gateway 68.183.60.80)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed), two passes to capture the full pricing grid and FAQ text.
+---
+H1: "Save 50% off for 1 year". Toggle "Monthly | Annual, Save up to 25%" — both monthly-billed and annual-billed prices render simultaneously in the DOM text regardless of toggle state.
+Teams 1TB — "For your small business or team" — $8 struck / $4, and $6 struck / $3 per user per month billed annually — 1 TB secure storage, Advanced sharing, Administrator account, 3 user minimum — button "Buy now".
+Teams 2TB — "For teams needing more control" — $12 struck / $6, and $9 struck / $4.50 per user per month billed annually — 2 TB secure storage, Advanced sharing, Custom branding, Role-based access control, Admin delegation, 3 user minimum — button "Buy now".
+Teams 10TB — "For teams needing massive storage and enhanced support" — $18 struck / $9, and $15 struck / $7.50 per user per month billed annually — 10 TB secure storage, VIP support, 3 user minimum — button "Start 30-day trial" (the only tier phrased as a trial CTA).
+Sync Enterprise — "For companies that need enhanced org-wide controls with 100+ users." Minimum 100 users. Custom requirements, account manager, training options. Button "Contact sales". "Full 30-day money back guarantee."
+Compare table: Users "3+" for all three Teams tiers (clients/customers shared with do not count). Data transfer: Unlimited on all tiers. Sharing/backup/access-from-anywhere on all tiers.
+FAQ: "Do you have a demo or free trial? Yes! Unlock your massive cloud storage account with a zero-risk, 30-day free trial. Get instant access and start uploading in seconds. Enjoy the freedom to do your best work with automatic syncing, easy sharing and worry-free privacy. You can start now and cancel anytime."
+FAQ: "What methods of payment do you accept? Sync accepts Visa, MasterCard, American Express, PayPal and Discover. There are no hidden costs or setup fees, and you can upgrade or change plans at any time (upgrades are always pro-rated for fair billing)."
+Page title: "Sync | Compare Plans and Pricing". Generator: HubSpot.

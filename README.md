@@ -172,6 +172,27 @@ equivalent. Seat points are 1, 5, 10, 25, 50 licensed hosts; participants
 are free on every vendor and are not seats. dialpad.com/pricing/meetings/
 returned 404; Microsoft Teams Essentials was used as the fifth vendor.
 
+### Cloud storage (2026-09-04)
+
+Five vendors: Dropbox Business, Egnyte, pCloud Business, Sync.com Teams,
+ShareFile. Box returned HTTP 429 on every attempt and Tresorit, Internxt
+and IDrive's guessed URLs 404'd or redirected to unrelated pages, so
+ShareFile (Citrix/Progress) fills the fifth slot with a real per-employee
+business plan. Dropbox's comparison page renders USD and prints the
+yearly-billing rate; Egnyte prints "Paid annually*" with a footnote whose
+text is not in the DOM. pCloud renders identical numerals under EUR and
+USD depending on gateway region (not FX-converted) and its Business Pro
+price is a new-account-only promo. Sync.com shows monthly- and
+annual-billed prices simultaneously in the DOM regardless of toggle
+state, all under a sitewide "50% off for 1 year" promo. ShareFile's FAQ
+answers are collapsed and were read from FAQPage JSON-LD, same pattern as
+Sprout Social, Slite, GoTo and Later earlier this session; it separately
+prices unlimited external client users (free) from internal employee
+users (the billed seat) and disallows downgrading from annual back to
+monthly billing. Seat points are 1, 3, 5, 10, 25 users with a seat;
+minimum-seat rules (Dropbox Advanced 3, Egnyte per plan, pCloud 3,
+Sync.com 3, ShareFile 3 or 5) are modelled as base fees or noted.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

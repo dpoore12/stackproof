@@ -1,0 +1,99 @@
+slug: dropbox-business
+vendor: Dropbox
+product: Dropbox for business
+category: cloud_storage
+url: https://www.dropbox.com/business/plans-comparison
+free_trial: "Free trial offered on Standard and Advanced (stated 2026-09-04)."
+pricing_note: "Per-user pricing with no base fee on Standard (1 user or more); Advanced requires 3 or more users and is modelled as a base fee covering 3 seats. The page rendered yearly billing and the monthly rate did not render. Storage is pooled per team and starts at 3 TB (Standard) or 15 TB (Advanced)."
+
+tiers:
+  - plan: Standard
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 15
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.dropbox.com/business/plans-comparison
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch on a US gateway with "Billed yearly" checked. "Standard $15 / user / month … For 1 person or more, Starts at 3 TB for the team, 180 days to restore deleted files".'
+  - plan: Advanced
+    base_monthly_usd: 72
+    per_seat_monthly_usd: 24
+    included_seats: 3
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.dropbox.com/business/plans-comparison
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Advanced $24 / user / month … For 3 people or more, Starts at 15 TB for the team, 1 year to restore deleted files". Base fee is the 3-user minimum (3 × $24).'
+
+clauses:
+  - topic: data_retention
+    status: stated
+    finding: >-
+      Dropbox keeps deleted files and version history for 180 days on
+      Standard and 1 year on Advanced and Enterprise (2026-09-04).
+    quote: "Restore deleted files 180-day history 1-year history 1-year history"
+    provenance:
+      source_url: https://www.dropbox.com/business/plans-comparison
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Dropbox's business comparison page states no cancellation or refund
+      terms (2026-09-04).
+    provenance:
+      source_url: https://www.dropbox.com/business/plans-comparison
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: stated
+    finding: >-
+      Dropbox lists an account transfer tool and file transfers of up to
+      100 GB (250 GB on Enterprise) on its business plans, without a
+      post-cancellation export window (2026-09-04).
+    provenance:
+      source_url: https://www.dropbox.com/business/plans-comparison
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: dropbox-advanced-three-user-minimum
+    claim: >-
+      Dropbox Advanced is sold for 3 people or more at $24 per user a month
+      on yearly billing, so its entry price is $72 a month against $15 for
+      a single Standard user (2026-09-04).
+    provenance:
+      source_url: https://www.dropbox.com/business/plans-comparison
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: dropbox-pooled-storage
+    claim: >-
+      Dropbox pools team storage starting at 3 TB on Standard and 15 TB on
+      Advanced rather than allocating a fixed amount per user
+      (2026-09-04).
+    provenance:
+      source_url: https://www.dropbox.com/business/plans-comparison
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: dropbox-signature-cap
+    claim: >-
+      Dropbox business plans include only 3 eSignature requests a month on
+      Standard, Advanced and Enterprise alike, with unlimited self-signing
+      (2026-09-04).
+    provenance:
+      source_url: https://www.dropbox.com/business/plans-comparison
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: dropbox-security-tier-gap
+    claim: >-
+      Dropbox reserves ransomware detection, end-to-end encryption, SSO,
+      tiered admin roles and audit logs for Advanced at $24, 60% above the
+      $15 Standard seat (2026-09-04).
+    provenance:
+      source_url: https://www.dropbox.com/business/plans-comparison
+      fetched_at: 2026-09-04
+      method: live_fetch

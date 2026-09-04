@@ -630,6 +630,34 @@
    ],
    "vendor": "Docusign"
   },
+  "dropbox-business": {
+   "category": "cloud_storage",
+   "fees": [],
+   "product": "Dropbox for business",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 15.0,
+     "plan": "Standard",
+     "source_url": "https://www.dropbox.com/business/plans-comparison",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 72.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 24.0,
+     "plan": "Advanced",
+     "source_url": "https://www.dropbox.com/business/plans-comparison",
+     "steps": null
+    }
+   ],
+   "vendor": "Dropbox"
+  },
   "duda": {
    "category": "website_builder",
    "fees": [],
@@ -687,6 +715,44 @@
     }
    ],
    "vendor": "Duda"
+  },
+  "egnyte": {
+   "category": "cloud_storage",
+   "fees": [],
+   "product": "Egnyte",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 22.0,
+     "plan": "Business",
+     "source_url": "https://www.egnyte.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 39.0,
+     "plan": "Enterprise Lite",
+     "source_url": "https://www.egnyte.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 48.0,
+     "plan": "Elite",
+     "source_url": "https://www.egnyte.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Egnyte"
   },
   "fastmail": {
    "category": "productivity_suite",
@@ -2410,6 +2476,34 @@
    ],
    "vendor": "Patriot Software"
   },
+  "pcloud-business": {
+   "category": "cloud_storage",
+   "fees": [],
+   "product": "pCloud Business",
+   "tiers": [
+    {
+     "base_monthly_usd": 29.97,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 9.99,
+     "plan": "Business",
+     "source_url": "https://www.pcloud.com/business.html",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 59.94,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 19.98,
+     "plan": "Business Pro",
+     "source_url": "https://www.pcloud.com/business.html",
+     "steps": null
+    }
+   ],
+   "vendor": "pCloud"
+  },
   "pipedrive": {
    "category": "crm",
    "fees": [
@@ -2709,6 +2803,94 @@
    ],
    "vendor": "SavvyCal"
   },
+  "sharefile": {
+   "category": "cloud_storage",
+   "fees": [],
+   "product": "ShareFile",
+   "tiers": [
+    {
+     "base_monthly_usd": 49.5,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 16.5,
+     "plan": "Advanced",
+     "source_url": "https://www.sharefile.com/plans",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 54.45,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 18.15,
+     "plan": "Advanced (monthly)",
+     "source_url": "https://www.sharefile.com/plans",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 78.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 26.0,
+     "plan": "Premium",
+     "source_url": "https://www.sharefile.com/plans",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 85.77,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 28.59,
+     "plan": "Premium (monthly)",
+     "source_url": "https://www.sharefile.com/plans",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 124.98,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 41.66,
+     "plan": "Industry Advantage",
+     "source_url": "https://www.sharefile.com/plans",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 137.49,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 45.83,
+     "plan": "Industry Advantage (monthly)",
+     "source_url": "https://www.sharefile.com/plans",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 346.5,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 69.3,
+     "plan": "Virtual Data Room",
+     "source_url": "https://www.sharefile.com/plans",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 385.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 77.0,
+     "plan": "Virtual Data Room (monthly)",
+     "source_url": "https://www.sharefile.com/plans",
+     "steps": null
+    }
+   ],
+   "vendor": "Citrix (Progress Software)"
+  },
   "signnow": {
    "category": "esignature",
    "fees": [
@@ -2928,6 +3110,74 @@
    "product": "Squarespace",
    "tiers": [],
    "vendor": "Squarespace"
+  },
+  "sync-teams": {
+   "category": "cloud_storage",
+   "fees": [],
+   "product": "Sync Teams",
+   "tiers": [
+    {
+     "base_monthly_usd": 18.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Teams 1TB",
+     "source_url": "https://www.sync.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 24.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 8.0,
+     "plan": "Teams 1TB (monthly)",
+     "source_url": "https://www.sync.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 27.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 9.0,
+     "plan": "Teams 2TB",
+     "source_url": "https://www.sync.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 36.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 12.0,
+     "plan": "Teams 2TB (monthly)",
+     "source_url": "https://www.sync.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 45.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 15.0,
+     "plan": "Teams 10TB",
+     "source_url": "https://www.sync.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 54.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 18.0,
+     "plan": "Teams 10TB (monthly)",
+     "source_url": "https://www.sync.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Sync.com"
   },
   "tally": {
    "category": "forms",
