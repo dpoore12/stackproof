@@ -1,0 +1,146 @@
+slug: optisigns
+vendor: OptiSigns
+product: OptiSigns
+category: digital_signage
+url: https://www.optisigns.com/pricing
+pricing_note: 'OptiSigns''s Free plan is genuinely $0 up to 3 screens, but is marked compare: false rather than left to win every cross-vendor "cheapest" comparison outright -- the $0 figure is still shown directly in the table below.'
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 3
+    seat_label: screen
+    billing: monthly
+    provenance:
+      source_url: https://www.optisigns.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$0" on up to 3 screens, 25 basic apps, 1GB storage. Includes the OptiSigns logo watermark on screens. No credit card required.'
+  - plan: Standard
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 9
+    included_seats: 0
+    seat_label: screen
+    billing: annual
+    provenance:
+      source_url: https://www.optisigns.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$9.00 screen/month" billed annually ("Get 10% OFF" the $10 monthly rate). Playlists, 100+ apps, templates, multi-user, unlimited cloud storage.'
+  - plan: Standard (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 10
+    included_seats: 0
+    seat_label: screen
+    billing: monthly
+    provenance:
+      source_url: https://www.optisigns.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$10.00 screen/month" month-to-month.'
+  - plan: Pro
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 11.25
+    included_seats: 0
+    seat_label: screen
+    billing: annual
+    provenance:
+      source_url: https://www.optisigns.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$11.25 screen/month" billed annually. Adds advanced roles, folder security, approval workflow, remote OS troubleshooting, unlimited users over Standard.'
+  - plan: Pro (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 12.5
+    included_seats: 0
+    seat_label: screen
+    billing: monthly
+    provenance:
+      source_url: https://www.optisigns.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$12.50 screen/month" month-to-month.'
+  - plan: Pro Plus
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 13.5
+    included_seats: 0
+    seat_label: screen
+    billing: annual
+    provenance:
+      source_url: https://www.optisigns.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$13.50 screen/month" billed annually. Marked "Most Popular." Adds Microsoft 365/Google Workspace integration, dashboard display (Power BI, Salesforce), OptiSync data mapping over Pro.'
+  - plan: Pro Plus (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 15
+    included_seats: 0
+    seat_label: screen
+    billing: monthly
+    provenance:
+      source_url: https://www.optisigns.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$15.00 screen/month" month-to-month.'
+  - plan: Engage
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 27
+    included_seats: 0
+    seat_label: screen
+    billing: annual
+    provenance:
+      source_url: https://www.optisigns.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$27.00 screen/month" billed annually. Adds interactive kiosk designer, check-in app, QR scan-to-interact, event-based analytics over Pro Plus.'
+  - plan: Engage (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 30
+    included_seats: 0
+    seat_label: screen
+    billing: monthly
+    provenance:
+      source_url: https://www.optisigns.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$30.00 screen/month" month-to-month.'
+  - plan: Enterprise
+    base_monthly_usd: 1012.5
+    per_seat_monthly_usd: 40.5
+    included_seats: 25
+    seat_label: screen
+    billing: annual
+    provenance:
+      source_url: https://www.optisigns.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$40.50 screen/month" billed annually, "Minimum 25 screens" -- modeled as a $1,012.50/month floor (25 x $40.50) plus $40.50 for each screen beyond 25. CTA is "Talk With Sales" rather than self-serve.'
+  - plan: Enterprise (monthly billing)
+    compare: false
+    base_monthly_usd: 1125
+    per_seat_monthly_usd: 45
+    included_seats: 25
+    seat_label: screen
+    billing: monthly
+    provenance:
+      source_url: https://www.optisigns.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$45.00 screen/month" month-to-month, "Minimum 25 screens" -- modeled as a $1,125/month floor (25 x $45).'
+
+findings:
+  - id: optisigns-video-wall-addon
+    claim: >-
+      OptiSigns offers an optional Video Wall add-on, priced separately
+      from the core plans, at "$25.00 per video wall/month" ($22.50
+      billed annually) (2026-09-04).
+    provenance:
+      source_url: https://www.optisigns.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

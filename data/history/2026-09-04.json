@@ -4339,6 +4339,44 @@
    ],
    "vendor": "Notion"
   },
+  "novisign": {
+   "category": "digital_signage",
+   "fees": [],
+   "product": "NoviSign",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 50,
+     "per_seat_monthly_usd": 14.0,
+     "plan": "Business",
+     "source_url": "https://www.novisign.com/pricing-usca/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 50,
+     "per_seat_monthly_usd": 17.0,
+     "plan": "Business Plus",
+     "source_url": "https://www.novisign.com/pricing-usca/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 500.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 50,
+     "per_seat_monthly_usd": 25.0,
+     "plan": "Premium",
+     "source_url": "https://www.novisign.com/pricing-usca/",
+     "steps": null
+    }
+   ],
+   "vendor": "NoviSign"
+  },
   "nuclino": {
    "category": "wiki",
    "fees": [],
@@ -4550,6 +4588,124 @@
     }
    ],
    "vendor": "Quo"
+  },
+  "optisigns": {
+   "category": "digital_signage",
+   "fees": [],
+   "product": "OptiSigns",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 3,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://www.optisigns.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 9.0,
+     "plan": "Standard",
+     "source_url": "https://www.optisigns.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 10.0,
+     "plan": "Standard (monthly billing)",
+     "source_url": "https://www.optisigns.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 11.25,
+     "plan": "Pro",
+     "source_url": "https://www.optisigns.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 12.5,
+     "plan": "Pro (monthly billing)",
+     "source_url": "https://www.optisigns.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 13.5,
+     "plan": "Pro Plus",
+     "source_url": "https://www.optisigns.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 15.0,
+     "plan": "Pro Plus (monthly billing)",
+     "source_url": "https://www.optisigns.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 27.0,
+     "plan": "Engage",
+     "source_url": "https://www.optisigns.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 30.0,
+     "plan": "Engage (monthly billing)",
+     "source_url": "https://www.optisigns.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 1012.5,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 40.5,
+     "plan": "Enterprise",
+     "source_url": "https://www.optisigns.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 1125.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 45.0,
+     "plan": "Enterprise (monthly billing)",
+     "source_url": "https://www.optisigns.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "OptiSigns"
   },
   "pandadoc": {
    "category": "esignature",
@@ -5149,6 +5305,112 @@
     }
    ],
    "vendor": "SavvyCal"
+  },
+  "screencloud": {
+   "category": "digital_signage",
+   "fees": [],
+   "product": "ScreenCloud",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 20.0,
+     "plan": "Core",
+     "source_url": "https://screencloud.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 24.0,
+     "plan": "Core (monthly billing)",
+     "source_url": "https://screencloud.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 30.0,
+     "plan": "Pro",
+     "source_url": "https://screencloud.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 36.0,
+     "plan": "Pro (monthly billing)",
+     "source_url": "https://screencloud.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "ScreenCloud"
+  },
+  "screenly": {
+   "category": "digital_signage",
+   "fees": [],
+   "product": "Screenly",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": 15.0,
+     "plan": "Starter",
+     "source_url": "https://www.screenly.io/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": 17.0,
+     "plan": "Starter (monthly billing)",
+     "source_url": "https://www.screenly.io/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 120.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 24.0,
+     "plan": "Business",
+     "source_url": "https://www.screenly.io/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 135.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 27.0,
+     "plan": "Business (monthly billing)",
+     "source_url": "https://www.screenly.io/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 950.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 38.0,
+     "plan": "Enterprise",
+     "source_url": "https://www.screenly.io/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Screenly"
   },
   "service-fusion": {
    "category": "field_service_management",

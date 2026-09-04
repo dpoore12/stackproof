@@ -1,0 +1,73 @@
+slug: screencloud
+vendor: ScreenCloud
+product: ScreenCloud
+category: digital_signage
+url: https://screencloud.com/pricing
+
+tiers:
+  - plan: Core
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 20
+    included_seats: 0
+    seat_label: screen
+    billing: annual
+    provenance:
+      source_url: https://screencloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$20 Screen/month, billed annually," confirmed in the page''s schema.org JSON-LD offers ("Core Plan (Annual)," price 20 USD). 80+ apps, unlimited file storage, design templates.'
+  - plan: Core (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 24
+    included_seats: 0
+    seat_label: screen
+    billing: monthly
+    provenance:
+      source_url: https://screencloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$24" month-to-month, confirmed in JSON-LD ("Core Plan (Monthly)," price 24 USD).'
+  - plan: Pro
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 30
+    included_seats: 0
+    seat_label: screen
+    billing: annual
+    provenance:
+      source_url: https://screencloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$30 Screen/month, billed annually," confirmed in JSON-LD ("Pro Plan (Annual)," price 30 USD). Adds premium apps/integrations, dashboards, QR code metrics over Core.'
+  - plan: Pro (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 36
+    included_seats: 0
+    seat_label: screen
+    billing: monthly
+    provenance:
+      source_url: https://screencloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$36" month-to-month, confirmed in JSON-LD ("Pro Plan (Monthly)," price 36 USD).'
+
+findings:
+  - id: screencloud-enterprise-quote-gated
+    claim: >-
+      ScreenCloud's Enterprise plan is "Annual Only" and fully
+      quote-gated -- "Via email, +1 888 557 5328" -- with no dollar
+      figure published anywhere on the pricing page (2026-09-04).
+    provenance:
+      source_url: https://screencloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: screencloud-free-device-discount
+    claim: >-
+      ScreenCloud includes a free media player device with any annual
+      plan, or "17% off your first year" if you opt out of the device
+      because you already own a player (2026-09-04).
+    provenance:
+      source_url: https://screencloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

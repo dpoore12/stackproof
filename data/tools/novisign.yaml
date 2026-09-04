@@ -1,0 +1,76 @@
+slug: novisign
+vendor: NoviSign
+product: NoviSign
+category: digital_signage
+url: https://www.novisign.com/pricing-usca/
+pricing_note: 'NoviSign''s billing-cycle toggle defaults to "Annualy (Save 10%)" and only the annual per-screen figures render statically -- no separate monthly number is captured, so all three tiers below are recorded as billing: annual. "Pricing is based on volumes of up to 50 players. Please contact us to obtain pricing if you require more than 50 players," so each self-serve tier is capped at 50 screens.'
+
+tiers:
+  - plan: Business
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 14
+    included_seats: 0
+    max_seats: 50
+    seat_label: screen
+    billing: annual
+    provenance:
+      source_url: https://www.novisign.com/pricing-usca/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Business -- For any business -- $14 screen/mo." 1 user, drag & drop editor, 50+ widgets, 500+ templates.'
+  - plan: Business Plus
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 17
+    included_seats: 0
+    max_seats: 50
+    seat_label: screen
+    billing: annual
+    provenance:
+      source_url: https://www.novisign.com/pricing-usca/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Business Plus -- For growing teams -- $17 screen/mo." Marked "Best value." 5 users, adds Zapier, Toast POS integration, AI image creator, PowerBI/Tableau over Business.'
+  - plan: Premium
+    base_monthly_usd: 500
+    per_seat_monthly_usd: 25
+    included_seats: 20
+    max_seats: 50
+    seat_label: screen
+    billing: annual
+    provenance:
+      source_url: https://www.novisign.com/pricing-usca/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Premium -- For organizations -- $25 screen/mo," "Minimum of 20 screens required" -- modeled as a $500/month floor (20 x $25) plus $25 for each screen beyond 20. Unlimited users, adds admin management, SSO, API over Business Plus.'
+
+findings:
+  - id: novisign-refund-policy
+    claim: >-
+      NoviSign offers a prorated refund on an annual subscription
+      cancelled "within the last 30-days," processed automatically from
+      the account's Admin section (2026-09-04).
+    provenance:
+      source_url: https://www.novisign.com/pricing-usca/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: novisign-partners-quote-gated
+    claim: >-
+      NoviSign's "Partners" plan, a white-label reseller program, is
+      fully quote-gated -- "Сall us" -- with no dollar figure published
+      (2026-09-04).
+    provenance:
+      source_url: https://www.novisign.com/pricing-usca/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: refund
+    status: stated
+    quote: "If you've paid for a yearly subscription in the last 30-days, and need to cancel your account, you are entitled to a prorated refund. We will automatically refund you the remaining balance from your original purchase."
+    finding: >-
+      NoviSign automatically issues a prorated refund on annual
+      subscriptions cancelled within 30 days of payment (2026-09-04).
+    provenance:
+      source_url: https://www.novisign.com/pricing-usca/
+      fetched_at: 2026-09-04
+      method: live_fetch
