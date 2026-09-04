@@ -1,0 +1,8 @@
+URL: https://www.optisigns.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 17:36:xx +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText directly.
+
+Six tiers, each shown at a monthly rate and a "Get 10% OFF" billed-annually rate, all "screen/month": Free $0 (up to 3 screens, 25 basic apps, 1GB storage, OptiSigns logo watermark, no credit card required). Standard $10.00 monthly / $9.00 billed annually. Pro $12.50 monthly / $11.25 billed annually. Pro Plus $15.00 monthly / $13.50 billed annually (marked "Most Popular"). Engage $30.00 monthly / $27.00 billed annually. Enterprise $45.00 monthly / $40.50 billed annually, both with "Minimum 25 screens" stated (CTA is "Talk With Sales" rather than self-serve).
+Optional add-ons, priced per unit and separate from the core plans: Video Wall $25/video wall/month ($22.50 annually); Background Music $15/screen/month ($13.50 annually); Wireless Presentation $20/screen/month ($18 annually).
+Feature comparison table confirms: user seats scale with plan (up to 3 on Free, up to 25 on Standard, unlimited on Pro Plus/Engage/Enterprise); screen counts are unlimited on every paid tier but "billed per screen."

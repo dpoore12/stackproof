@@ -539,6 +539,34 @@ the static page as well.
 
 Database is now 152 tools across 32 categories.
 
+### Digital signage software (2026-09-04)
+
+Four vendors: OptiSigns, ScreenCloud, NoviSign, Screenly — cloud CMS
+software for managing content on TVs, kiosks, and displays. Seat axis is
+"screens/displays managed" (1, 5, 10, 25, 50); Rise Vision was dropped
+after its pricing page rendered no dollar figures anywhere in the
+static fetch (the numbers appear to load through a client-side widget
+this fetch method couldn't reach).
+
+OptiSigns's Free plan is genuinely $0 up to 3 screens and is marked
+`compare: false` for the same reason as prior free-tier precedents
+(TalentLMS, Innago, Hemlane) — its five paid tiers, each with both a
+monthly and a billed-annually rate, are otherwise the cleanest data in
+this batch. Screenly and NoviSign both introduced a new pricing shape
+not seen in earlier categories: a per-screen rate with a stated *minimum*
+screen count that is billed regardless of actual usage ("Billed from 5
+screens," "Minimum of 20 screens required") — the opposite of the
+included-seats-then-extra-charge shape used everywhere else. This is
+modeled as `base_monthly_usd` equal to the minimum floor (minimum
+screens × rate) plus the same per-screen rate for every screen beyond
+that minimum, which is mathematically identical to the vendor's own
+per-screen billing above the floor and correctly returns the flat
+minimum price below it. ScreenCloud's Enterprise plan and NoviSign's
+Partners (reseller) plan are both fully quote-gated and were recorded
+only as findings, not tiers.
+
+Database is now 156 tools across 33 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

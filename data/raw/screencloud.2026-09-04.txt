@@ -1,0 +1,8 @@
+URL: https://screencloud.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 17:37:xx +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText directly.
+
+Two self-serve plans, both "Screen/month, billed annually," confirmed both in the page's own schema.org JSON-LD offers and the visible pricing cards: Core $20/screen/month annual ($24/screen/month month-to-month). Pro $30/screen/month annual ($36/screen/month month-to-month). Both plans include a free media player device on the annual plan ("Opt out of your included device and we'll take 17% off your first year instead" if you already own a player).
+Enterprise plan is "Annual Only," fully quote-gated: "Via email, +1 888 557 5328," "Manage digital signage at any scale with dedicated onboarding, deployment, and ongoing enterprise support" -- no dollar figure published.
+FAQ: at the end of a free trial, screens are disabled (not deleted) until a card is entered; no long-term contract mentioned.
