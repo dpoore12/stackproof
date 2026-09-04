@@ -1,0 +1,10 @@
+URL: https://www.mydomastudio.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 19:29:42 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "$58" and "$450" anchors).
+
+Single plan: "One powerful plan to streamline your workflow, enhance client collaboration, and grow your business." "Only $58/month/user when paid yearly." FAQ: "Can I prepay for the year? Yes, you can subscribe to a yearly plan of Mydoma with 10% savings" -- implying the month-to-month rate is $58 / 0.9 = approximately $64.44/user/month (not stated directly as a dollar figure).
+
+Onboarding: "a one-time investment of $450," includes 1:1 sessions with a specialist and Client + Vendor Address Import.
+
+Note: "Looking for built-in accounting? Mydoma integrates with QuickBooks. For an all-in-one platform with built-in accounting, we recommend exploring our parent product Studio Designer." Confirms Mydoma Studio and Studio Designer are sibling products under the same parent company.

@@ -1,0 +1,11 @@
+URL: https://www.studiodesigner.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 19:30:46 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "$69" anchor). Page states "Studio Designer and Mydoma have joined forces!" -- Studio Designer is the parent/sibling product to Mydoma Studio.
+
+Default-rendered tab is Annual (a Monthly tab exists with higher per-user rates).
+Essentials -- "$69 per user" (Annual), "$79 per user" (Monthly). "A streamlined set of project management and accounting features. Includes a limited set of customization and support options."
+Professional (marked "popular") -- "$79 per user" (Annual), "$89 per user" (Monthly). "A comprehensive set of project management and accounting features. Includes a robust selection of customization and support options."
+Premier -- "$109 per user" (Annual), "$119 per user" (Monthly). "A comprehensive set of project management and accounting features. Includes several high-touch support and service offerings."
+
+No per-tier user cap or minimum is stated; pricing scales purely per user with no base fee ("Monthly Pricing Per User When Billed Annually").

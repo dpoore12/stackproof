@@ -1,0 +1,49 @@
+slug: mydoma-studio
+vendor: Mydoma Studio
+product: Mydoma Studio
+category: interior_design_management
+url: https://www.mydomastudio.com/pricing
+pricing_note: 'Mydoma Studio sells a single plan priced purely per user, with no base fee. Its own FAQ confirms the annual plan saves 10% versus month-to-month, so the month-to-month rate ($64.44/user, computed as $58 / 0.9) is recorded as a `compare: false` secondary tier since the site only states the number as a percentage discount, not a dollar figure directly. Mydoma Studio and Studio Designer are sibling products under the same parent company (the page states "we recommend exploring our parent product Studio Designer" for built-in accounting).'
+
+tiers:
+  - plan: Mydoma Studio (annual)
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 58
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.mydomastudio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Only $58/month/user when paid yearly." One powerful plan covering design and project management, client portal, design boards, product sourcing, invoicing.'
+  - plan: Mydoma Studio (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 64.44
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.mydomastudio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Computed as $58 / 0.9 per the FAQ''s stated "10% savings" for annual prepay; not stated as a direct dollar figure on the page.'
+
+fees:
+  - name: Onboarding
+    amount_usd: 450
+    unit: one-time, per account
+    provenance:
+      source_url: https://www.mydomastudio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: mydoma-studio-onboarding-includes
+    claim: >-
+      Mydoma Studio's onboarding fee includes 1:1 sessions with a
+      specialist and a Client + Vendor Address Import for all new
+      accounts (2026-09-04).
+    provenance:
+      source_url: https://www.mydomastudio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -1,0 +1,82 @@
+slug: studio-designer
+vendor: Studio Designer
+product: Studio Designer
+category: interior_design_management
+url: https://www.studiodesigner.com/pricing
+pricing_note: 'Studio Designer is the sibling/parent product to Mydoma Studio ("Studio Designer and Mydoma have joined forces!"); all three tiers price purely per user with no base fee ("Monthly Pricing Per User When Billed Annually"), and no per-tier user cap or minimum is stated. Annual per-user rates are recorded as primary tiers; monthly rates are `compare: false` secondary tiers, per this site''s standing convention.'
+
+tiers:
+  - plan: Essentials
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 69
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.studiodesigner.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$69 per user" billed annually. "A streamlined set of project management and accounting features. Includes a limited set of customization and support options."'
+  - plan: Essentials (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 79
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.studiodesigner.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$79 per user" month-to-month.'
+  - plan: Professional
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 79
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.studiodesigner.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Marked "popular." "$79 per user" billed annually. "A comprehensive set of project management and accounting features. Includes a robust selection of customization and support options."'
+  - plan: Professional (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 89
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.studiodesigner.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$89 per user" month-to-month.'
+  - plan: Premier
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 109
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.studiodesigner.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$109 per user" billed annually. "Includes several high-touch support and service offerings."'
+  - plan: Premier (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 119
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.studiodesigner.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$119 per user" month-to-month.'
+
+findings:
+  - id: studio-designer-full-general-ledger
+    claim: >-
+      Studio Designer includes full general ledger accounting and
+      StudioPay on every plan tier, per its own feature-comparison
+      table (2026-09-04).
+    provenance:
+      source_url: https://www.studiodesigner.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

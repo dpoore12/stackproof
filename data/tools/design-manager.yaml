@@ -1,0 +1,38 @@
+slug: design-manager
+vendor: Design Manager
+product: Design Manager
+category: interior_design_management
+url: https://designmanager.com/pricing
+pricing_note: 'Design Manager sells a single plan priced purely per user, capped at 10 users; beyond that the vendor requires contacting sales, so `max_seats` is set to 10 rather than assumed unlimited.'
+
+tiers:
+  - plan: Design Manager
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 79
+    max_seats: 10
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://designmanager.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$79/mo per user." FAQ: "Each user for Design Manager is $79 per month. For teams larger than 10, please contact our Sales team."'
+
+findings:
+  - id: design-manager-annual-discount-unquantified
+    claim: >-
+      Design Manager offers "a discounted fee for pre-paying annually"
+      per its own FAQ, but does not state the exact annual dollar
+      figure anywhere on its pricing page (2026-09-04).
+    provenance:
+      source_url: https://designmanager.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: design-manager-free-trial
+    claim: >-
+      Design Manager offers a 7-day free trial with access to all
+      features and no credit card required (2026-09-04).
+    provenance:
+      source_url: https://designmanager.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

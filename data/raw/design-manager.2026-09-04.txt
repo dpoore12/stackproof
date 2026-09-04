@@ -1,0 +1,6 @@
+URL: https://designmanager.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 19:32:55 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "Run your interior design business profitably" anchor).
+
+Single plan: "$79/mo per user." FAQ, "What is the price if I want to add an additional user?": "Each user for Design Manager is $79 per month. For teams larger than 10, please contact our Sales team." FAQ, "Do you offer discounts for companies with large # of users?": "We offer a discounted fee for pre-paying annually for your plan" (exact annual dollar figure not stated). 7-day free trial, all features included, no credit card required.
