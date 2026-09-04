@@ -113,6 +113,17 @@ so only the default period was captured. Seat points for forms are 1, 3, 5,
 10, 25 users who build forms; Fillout has unlimited seats on every plan,
 Jotform's paid plans are single-user, Formstack publishes no per-user price.
 
+### Time tracking (2026-09-04)
+
+Toggl Track, Harvest, Hubstaff and TimeCamp rendered USD on German gateways;
+Clockify localizes by region (Standard and Pro were caught in USD on a US
+gateway, Basic and Enterprise only in EUR). Toggl's, Hubstaff's and Jotform's
+billing switches do not re-render on a scripted click, so those records carry
+the default (annual) figures only. Toggl's FAQ answers are fetched on click
+and are absent from the DOM. Seat points are 1, 5, 10, 25, 50 people who
+track time; Hubstaff's 2-seat minimum is modelled as a base fee covering
+2 seats.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

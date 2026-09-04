@@ -1,0 +1,111 @@
+slug: toggl-track
+vendor: Toggl
+product: Toggl Track
+category: time_tracking
+url: https://toggl.com/track/pricing/
+free_trial: "30-day free trial of Premium, no credit card required, plus a Free plan for a limited number of users (stated 2026-09-04)."
+pricing_note: "Per-license pricing with no base fee. The page defaults to annual billing and the monthly figures did not render in the automated fetch; the Premium price of $14 is a first-year rate that renews at $18. The Free plan's user cap is described only as 'a limited number of users'."
+
+tiers:
+  - plan: Starter
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 9
+    seat_label: license
+    billing: annual
+    provenance:
+      source_url: https://toggl.com/track/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch. "Starter $9 per license per month". Switch labelled "3 months free — Annual / Monthly"; the Premium footnote ties the shown figures to the annual plan.'
+  - plan: Premium (first year)
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 14
+    seat_label: license
+    billing: annual
+    promo: "First-year annual rate; renews at $18 per license per month."
+    provenance:
+      source_url: https://toggl.com/track/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Premium* $14 per license per month … * $14 per license per month applies to your first year of Premium annual, then renews at $18 per license per month."'
+  - plan: Premium (renewal)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 18
+    seat_label: license
+    billing: annual
+    provenance:
+      source_url: https://toggl.com/track/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Renewal rate from the Premium footnote: "then renews at $18 per license per month".'
+
+clauses:
+  - topic: price_change
+    status: stated
+    finding: >-
+      Toggl Track's Premium annual price of $14 per license applies only to
+      the first year and renews at $18, a 29% increase (2026-09-04).
+    quote: "$14 per license per month applies to your first year of Premium annual, then renews at $18 per license per month."
+    provenance:
+      source_url: https://toggl.com/track/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Toggl Track's pricing page states no cancellation terms in its
+      rendered text; the FAQ answers load on click and were not captured
+      (2026-09-04).
+    provenance:
+      source_url: https://toggl.com/track/pricing/
+      fetched_at: 2026-09-04
+      method: not_available
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Toggl Track's pricing page lists a "Reports Sharing and Exporting"
+      comparison section but states no post-cancellation export terms
+      (2026-09-04).
+    provenance:
+      source_url: https://toggl.com/track/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: toggl-premium-first-year-rate
+    claim: >-
+      Toggl Track headlines Premium at $14 per license per month but the
+      footnote says that rate covers only the first year of an annual plan
+      before renewing at $18 (2026-09-04).
+    provenance:
+      source_url: https://toggl.com/track/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: toggl-free-plan-user-cap-unstated
+    claim: >-
+      Toggl Track's Free plan card says only "Free for a limited number of
+      users" and gives no number on the pricing page; 2 FAQ questions refer
+      to the user limit but their answers load on click (2026-09-04).
+    provenance:
+      source_url: https://toggl.com/track/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: toggl-usd-on-eu-gateway
+    claim: >-
+      Toggl Track rendered USD prices on 2026-09-04 through 2 German
+      gateways and 1 US gateway, so its pricing page is not geo-localized
+      the way Typeform's and Tally's are.
+    provenance:
+      source_url: https://toggl.com/track/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: toggl-trial-terms
+    claim: >-
+      Toggl Track offers a 30-day Premium trial with no credit card and
+      says the Free plan is free forever; Enterprise offers volume discounts
+      only on annual billing (2026-09-04).
+    provenance:
+      source_url: https://toggl.com/track/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

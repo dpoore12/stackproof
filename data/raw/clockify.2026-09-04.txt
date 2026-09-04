@@ -1,0 +1,22 @@
+URL: https://clockify.me/pricing
+STATUS: 200
+FETCHED: 2026-09-04 00:24:10 +00:00 (US gateway 68.183.54.131, USD) and 00:25:01 +00:00 (German gateway 168.119.141.170, EUR)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed). Clockify states "We use your general location to display prices in the most relevant currency for your region", so the German-gateway render showed euros. Each card prints the annual per-seat price with "(or X if billed monthly)".
+---
+[US gateway, USD]
+STANDARD — Timesheeting & Billing — US$5.49 per seat /month billed annually (or US$6.99 if billed monthly). "Every active or invited user listed on your Team page occupies one paid seat. This includes the Owner, Admins, Managers, and Members. Deactivated users do not occupy a seat." All BASIC features plus time off, invoicing, recurring invoices, approval, lock time, attendance & overtime, targets & reminders, manager role, task rates, rounding, QuickBooks integration, customize kiosk, kiosk QR code.
+PRO — Profit & Productivity — US$7.99 per seat /month billed annually (or US$9.99 if billed monthly). All STANDARD features plus activity monitoring, scheduling, forecasting, expenses, labor cost & profit, budget & estimates, custom fields, multiple currencies, user fields, email reports, alerts, force timer, GPS tracking, kiosk photo capture, screenshots, data region.
+[German gateway, EUR — same digits]
+BASIC — Administration — €3.99 per seat /month billed annually (or €4.99 if billed monthly). All FREE features plus add time for others, hide time & pages, required fields, bulk edit, kiosk, decimal format, time audit, time estimates, customize export, project templates, historical rates, import time, import users, breaks, favorite entries, split time.
+ENTERPRISE — Control & Security — €11.99 per seat /month billed annually (or €14.99 if billed monthly). All PRO features plus SSO, custom subdomain, SCIM provisioning, control accounts, audit log.
+Kiosk pricing | Limited seats — "Pay less for limited users who access Clockify only via a kiosk." Basic €0.79 per limited seat/month billed annually (or €0.99 monthly); Standard €1.19 (€1.49); Pro €1.59 (€1.99); Enterprise €2.39 (€2.99).
+FAQ — Are there any limits in the free plan? "You can track as much time as you want and invite up to 4 people for free."
+FAQ — Can I try out the paid features? "You can try out all PRO features for free for 7 days, no credit card required."
+FAQ — What is a seat? "Each active and invited user on a paid plan requires a paid seat. If you deactivate some user, you free up their paid seat so you can invite a new user. If you buy another seat mid-cycle, you'll be charged a prorated price for that billing cycle."
+FAQ — Are there any additional taxes? "All the prices are displayed without taxes, and if we are legally required to collect VAT from your country, then that tax will be added on top of the final price, which you will see at checkout before making a payment."
+FAQ — How does canceling work? "You can cancel your subscription at any time on the Subscription page. … Once you cancel and the current subscription expires, you will be downgraded to the free version and no further charges will be made. You won't lose any data (canceling only affects access to the extra features)."
+FAQ — Do you offer refunds? "We don't offer refunds. But, if you were mistakenly charged due to system error, contact us and we'll immediately issue you a refund."
+FAQ — Do you offer discounts? "We offer 20% OFF on all our plans when paying annually. Other than that, we don't offer any further discounts."
+FAQ — How does yearly pricing work? "You prepay a seat for the whole year in advance and get 20% OFF. If you add another seat midway, you pay a prorated price for the rest of the year."
+FAQ — CAKE.com Bundle: Clockify + Plaky + Pumble ENTERPRISE for a special price, "save 53% on paid subscriptions".
+Third fetch 00:25:18 +00:00 (German gateway 168.119.99.194): BASIC and ENTERPRISE again rendered in EUR (€3.99/€4.99 and €11.99/€14.99), so their USD figures were not captured on a US gateway; only STANDARD and PRO have USD provenance.
