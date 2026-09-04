@@ -1,0 +1,11 @@
+URL: https://www.pingdom.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 14:05:28 +00:00 (US gateway 68.183.149.129, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText + JSON-LD.
+---
+"Customize your Pingdom subscription. Mix and match capabilities to fit your monitoring needs." Toggle: "Annual Payment / Monthly Payment" (annual shown by default).
+Synthetic Monitoring — "Starting at $16.5/mo." Quantity slider default: "10 Uptime, 1 Advanced, 50 SMS" (slider goes up to "7,500 Uptime, 600 Advanced, 1,500 SMS" and beyond before Enterprise). Feature list includes "Unlimited users."
+Real User Monitoring — "Starting at $16.5/mo." Quantity slider default: "100,000 Pageviews" (slider goes up to "30 million Pageviews").
+"Your Pingdom Subscription Calculator: Synthetic Monitoring $198/yr — 10 Uptime Checks, 1 Advanced Checks, 50 SMS Alerts. Real User Monitoring $198/yr — 100,000 RUM Page Views." Combined default total: $396/yr.
+No cancellation, refund, or FAQ text captured on this page (a "FAQ" link points to a separate knowledge-base page, not fetched here).
+Page title: "Pricing - Pingdom".

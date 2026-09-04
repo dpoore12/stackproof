@@ -1,0 +1,132 @@
+slug: better-stack
+vendor: Better Stack
+product: Better Stack (Uptime, Incident Management & Status Pages)
+category: uptime_monitoring
+url: https://betterstack.com/pricing
+free_trial: "No credit-card-gated trial found on the pricing page; the Free plan (10 monitors/heartbeats, 1 status page) runs indefinitely at $0, and a paid Responder license can be added at any time with no separate trial step (2026-09-04)."
+pricing_note: "Better Stack does not charge per team member: \"Unlimited team members\" are free at every plan, including Free. The only per-person charge is a $34/month ($29/month billed annually) \"Responder\" license, which is what gives someone on-call phone/SMS paging and dashboard access to incident management, monitoring and status pages. Because this category's comparison axis is team members with monitoring/alerting access, Responder licenses are used as the seat count here; a team that only needs read-only visibility, not paging, pays nothing per person beyond the base monitor/status-page limits."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 0
+    seat_label: responder (paid on-call license)
+    billing: monthly
+    provenance:
+      source_url: https://betterstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free for personal projects. $0 per month. 10 monitors & heartbeats, 1 status page. Slack & e-mail alerts. 100,000 exceptions per month. 5,000 session replays." "Unlimited team members" can view and receive Slack/e-mail alerts, but Free includes 0 paid Responder licenses, so phone-call/SMS on-call paging is not available.'
+  - plan: Responder (annual)
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 29
+    included_seats: 0
+    seat_label: responder (paid on-call license)
+    billing: annual
+    provenance:
+      source_url: https://betterstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Responder. Access to Uptime with incident management, on-call, monitoring and status pages with unlimited phone call and SMS alerts. $29 per license per month" (annual billing). "Includes a single responder with unlimited phone call alerts so that you can leverage the entire platform."'
+  - plan: Responder (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 34
+    included_seats: 0
+    seat_label: responder (paid on-call license)
+    billing: monthly
+    provenance:
+      source_url: https://betterstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$34 per license per month" billed month-to-month, versus $29/month billed annually.'
+
+fees:
+  - name: Additional 50 monitors (annual billing)
+    amount_usd: 21
+    unit: per month, per additional block of 50 monitors, billed annually ($25/month if billed monthly)
+    provenance:
+      source_url: https://betterstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - name: Additional public status page (annual billing)
+    amount_usd: 12
+    unit: per month, per additional status page, billed annually ($15/month if billed monthly)
+    provenance:
+      source_url: https://betterstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - name: Remove "Powered by Better Stack" branding (annual billing)
+    amount_usd: 208
+    unit: per month, per status page, billed annually ($250/month if billed monthly)
+    provenance:
+      source_url: https://betterstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - name: Single Sign-On with Okta or Azure AD
+    amount_usd: 5
+    unit: per user, per month
+    provenance:
+      source_url: https://betterstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: refund
+    status: stated
+    quote: "Try Better Stack today risk‑free with our 60‑day money-back guarantee."
+    finding: >-
+      Better Stack advertises a 60-day money-back guarantee on its pricing
+      page (2026-09-04).
+    provenance:
+      source_url: https://betterstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Better Stack's pricing page states no cancellation terms beyond the
+      60-day money-back guarantee (2026-09-04).
+    provenance:
+      source_url: https://betterstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Better Stack's pricing page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://betterstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: better-stack-unlimited-team-members
+    claim: >-
+      Better Stack does not charge per team member at any plan: only
+      "Responder" on-call licenses cost money, at $34/month or $29/month
+      billed annually, while ordinary team members stay free and unlimited
+      (2026-09-04).
+    provenance:
+      source_url: https://betterstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: better-stack-ai-sre-pricing
+    claim: >-
+      Better Stack prices its "AI SRE" incident-investigation chat feature
+      at $5 per million tokens, on top of any plan (2026-09-04).
+    provenance:
+      source_url: https://betterstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: better-stack-soc2-compliant
+    claim: >-
+      Better Stack's pricing-page FAQ states, "Yes, Better Stack is SOC2
+      Type 2 compliant. Contact us for more details or to access the
+      latest report" (2026-09-04).
+    provenance:
+      source_url: https://betterstack.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

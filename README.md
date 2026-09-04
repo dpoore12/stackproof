@@ -272,6 +272,35 @@ table that would compare unlike things — only Demio and WebinarNinja
 populate the live cost table. Seat points are 50, 100, 500, 1,000, 3,000
 attendees per session, matching Demio's own room-size menu.
 
+### Uptime / status page monitoring (2026-09-04)
+
+Five vendors: Better Stack, UptimeRobot, Pingdom (SolarWinds), Atlassian
+Statuspage, StatusCake. Picked after "knowledge base / help center
+software" turned out to be another demo-and-quote-wizard dead end
+(Document360's pricing page is a multi-step "customized pricing" builder
+with no dollar figure). Seat axis here is "team members with
+monitoring/alerting access" (1, 3, 5, 10, 25), and the vendors split into
+three real pricing shapes: Better Stack and UptimeRobot charge per
+on-call seat (Better Stack's "Responder" licenses, UptimeRobot's "login
+seats," both with genuine per-seat overage rates once a plan's included
+count is exceeded); StatusCake and Atlassian Statuspage bundle a fixed
+team-member cap into each named, flat-priced tier; Pingdom prices two
+separate metered products (uptime checks and RUM pageviews) with
+"Unlimited users" on every tier, so none of its tiers are comparable on
+this axis (`compare: false` throughout, prices still real and dated).
+Statuspage additionally sells three product lines (Public pages, Private
+pages, Audience-specific pages) at different prices for similar
+team-member counts; only Public pages — the customer-facing product most
+buyers mean by "status page" — populate the live cost table, with
+Private pages recorded for reference only. UptimeRobot's pricing page
+geo-prices by request origin: it rendered EUR on three consecutive
+German-gateway fetches before pinning `ip_pool_for_scan: us` produced
+the authoritative USD figures used here. StatusCake's own FAQ is
+internally inconsistent about its trial length (7 days in one heading,
+14 days in the very next answer) — exactly the kind of vendor
+self-contradiction this dataset is built to surface. Database is now
+118 tools across 25 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

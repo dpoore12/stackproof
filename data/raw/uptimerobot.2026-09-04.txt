@@ -1,0 +1,14 @@
+URL: https://uptimerobot.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 14:03:18 +00:00 (US gateway 134.209.42.109, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText + JSON-LD. Three prior attempts with no ip_pool_for_scan parameter all landed on German gateways (168.119.141.170, 168.119.99.193, 168.119.99.192) and rendered the same page in EUR (Solo €10/€9, Team €41/€35, Scale €77/€65) — the DataForSEO on_page/instant_pages docs (docs.dataforseo.com/v3/on_page/instant_pages) document `ip_pool_for_scan: us|de` for exactly this case.
+---
+Free — "$0/month. Good for hobby and non-profit projects. No credit card required! 50 monitors, 5 min. monitoring interval ... Notify seats unavailable. No login seats available."
+Solo — "$13 $12/month. Good for freelancers and small sites. 10 monitors ... 60-second monitoring interval, All monitor types + SSL & DNS, 3 status pages, own domain, 12-month data retention." Feature table: "Solo Starts at $144/y" (= $12 x 12).
+Team (Most popular) — "$46 $39/month. For small teams running production services. 100 monitors ... 30 sec. monitoring interval, 3 seats included, 100 status pages, white-label, Webhook, Zapier & PagerDuty." Feature table: "Team $468/y" (= $39 x 12).
+Scale — "$98 $79/month. For high-volume, self-serve monitoring. 200 or 500 monitors ... 15 sec. monitoring interval, 5 seats included, Unlimited status pages." Feature table: "Scale Starts at $948/y" (= $79 x 12).
+Enterprise — "Let's talk. For custom scale, compliance & procurement. Any amount you need. Custom & faster monitoring intervals, Dedicated CSM + private Slack, SOC 2, DPA, MSA & security review, SLA + white-glove onboarding, Custom invoicing (PO, wire, net terms)." No price published.
+Feature-comparison table: "Notify-only seats included ... 0, add more here | 3, add more here | 5, add more here." "Login seats included ... You can invite all your team members to access your monitors, keep them notified and manage incidents. 3, add for $15/19 / mo. | 5, add for $15/19 / mo."
+"No risk, cancel anytime! We have a 14-day money back guarantee!"
+"See machine-readable pricing (for AI agents)."
+Page title: "Plans & Pricing | UptimeRobot".

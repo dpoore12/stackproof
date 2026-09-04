@@ -1,0 +1,80 @@
+slug: pingdom
+vendor: Pingdom (SolarWinds)
+product: Pingdom
+category: uptime_monitoring
+url: https://www.pingdom.com/pricing/
+free_trial: "A free trial is linked from the pricing page ('FREE TRIAL'); the pricing calculator itself can be used with no card to see prices (2026-09-04)."
+pricing_note: "Pingdom prices two separate metered products, not team seats: Synthetic Monitoring (uptime/transaction checks) and Real User Monitoring (RUM, by pageviews). Both list \"Unlimited users\" as a feature at every tier, so price does not scale with headcount at all. Because this category's comparison axis is team members with monitoring access, none of Pingdom's tiers are ranked in the category cost table (compare: false throughout); the prices themselves are still real, dated, self-serve figures read directly off the vendor's own calculator at its smallest slider setting. The calculator showed annual billing by default at fetch time; the monthly-billing alternative requires toggling a switch that a static fetch does not capture."
+
+tiers:
+  - plan: Synthetic Monitoring (starting tier, annual)
+    compare: false
+    base_monthly_usd: 16.50
+    per_seat_monthly_usd: 0
+    seat_label: unlimited users (not seat-priced)
+    billing: annual
+    provenance:
+      source_url: https://www.pingdom.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Synthetic Monitoring. Starting at $16.5/mo. Quantity: 10 Uptime, 1 Advanced, 50 SMS." Calculator total shown: "Synthetic Monitoring $198/yr. 10 Uptime Checks, 1 Advanced Checks, 50 SMS Alerts" ($16.50 x 12 = $198). Feature list includes "Unlimited users."'
+  - plan: Real User Monitoring (starting tier, annual)
+    compare: false
+    base_monthly_usd: 16.50
+    per_seat_monthly_usd: 0
+    seat_label: unlimited users (not seat-priced)
+    billing: annual
+    provenance:
+      source_url: https://www.pingdom.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Real User Monitoring. Starting at $16.5/mo. Quantity: 100,000 Pageviews." Calculator total shown: "Real User Monitoring $198/yr. 100,000 RUM Page Views." Priced and scaled independently of Synthetic Monitoring; buying both smallest tiers totals $396/yr combined.'
+
+clauses:
+  - topic: cancellation
+    status: needs_account
+    finding: >-
+      Pingdom's pricing/calculator page does not surface cancellation
+      terms in the fetched content; unverified (2026-09-04).
+    provenance:
+      source_url: https://www.pingdom.com/pricing/
+      fetched_at: 2026-09-04
+      method: not_available
+  - topic: refund
+    status: needs_account
+    finding: >-
+      Pingdom's pricing/calculator page does not surface refund terms in
+      the fetched content; unverified (2026-09-04).
+    provenance:
+      source_url: https://www.pingdom.com/pricing/
+      fetched_at: 2026-09-04
+      method: not_available
+
+findings:
+  - id: pingdom-unlimited-users
+    claim: >-
+      Every Pingdom plan lists "Unlimited users" as a feature: price scales
+      with monitor/check volume and RUM pageviews, never with team
+      headcount (2026-09-04).
+    provenance:
+      source_url: https://www.pingdom.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: pingdom-two-products-combined-floor
+    claim: >-
+      Pingdom's smallest self-serve bundle (10 uptime checks, 1 advanced
+      check, 50 SMS credits, plus 100,000 RUM pageviews) totals $396/year
+      ($198/year per product) when both products are purchased (2026-09-04).
+    provenance:
+      source_url: https://www.pingdom.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: pingdom-check-volume-scaling
+    claim: >-
+      Pingdom's own calculator scales Synthetic Monitoring from 10 uptime
+      checks at its smallest slider setting up to 7,500+ uptime checks
+      before an Enterprise quote is required (2026-09-04).
+    provenance:
+      source_url: https://www.pingdom.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

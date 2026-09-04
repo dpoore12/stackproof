@@ -122,6 +122,104 @@
    ],
    "vendor": "Asana"
   },
+  "atlassian-statuspage": {
+   "category": "uptime_monitoring",
+   "fees": [],
+   "product": "Statuspage",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 2,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free (Public)",
+     "source_url": "https://www.atlassian.com/software/statuspage/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 29.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Hobby (Public)",
+     "source_url": "https://www.atlassian.com/software/statuspage/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 99.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 10,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Startup (Public)",
+     "source_url": "https://www.atlassian.com/software/statuspage/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 399.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 25,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Business (Public)",
+     "source_url": "https://www.atlassian.com/software/statuspage/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 1499.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 50,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Enterprise (Public)",
+     "source_url": "https://www.atlassian.com/software/statuspage/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 79.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter (Private)",
+     "source_url": "https://www.atlassian.com/software/statuspage/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 249.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 15,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Growth (Private)",
+     "source_url": "https://www.atlassian.com/software/statuspage/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 599.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 35,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Corporate (Private)",
+     "source_url": "https://www.atlassian.com/software/statuspage/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 1499.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 50,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Enterprise (Private)",
+     "source_url": "https://www.atlassian.com/software/statuspage/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Atlassian"
+  },
   "basecamp": {
    "category": "project_management",
    "fees": [],
@@ -179,6 +277,69 @@
     }
    ],
    "vendor": "37signals"
+  },
+  "better-stack": {
+   "category": "uptime_monitoring",
+   "fees": [
+    {
+     "amount_usd": 21.0,
+     "fetched_at": "2026-09-04",
+     "name": "Additional 50 monitors (annual billing)",
+     "unit": "per month, per additional block of 50 monitors, billed annually ($25/month if billed monthly)"
+    },
+    {
+     "amount_usd": 12.0,
+     "fetched_at": "2026-09-04",
+     "name": "Additional public status page (annual billing)",
+     "unit": "per month, per additional status page, billed annually ($15/month if billed monthly)"
+    },
+    {
+     "amount_usd": 208.0,
+     "fetched_at": "2026-09-04",
+     "name": "Remove \"Powered by Better Stack\" branding (annual billing)",
+     "unit": "per month, per status page, billed annually ($250/month if billed monthly)"
+    },
+    {
+     "amount_usd": 5.0,
+     "fetched_at": "2026-09-04",
+     "name": "Single Sign-On with Okta or Azure AD",
+     "unit": "per user, per month"
+    }
+   ],
+   "product": "Better Stack (Uptime, Incident Management & Status Pages)",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 0,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://betterstack.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 29.0,
+     "plan": "Responder (annual)",
+     "source_url": "https://betterstack.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 34.0,
+     "plan": "Responder (monthly)",
+     "source_url": "https://betterstack.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Better Stack"
   },
   "bill-spend-expense": {
    "category": "expense_management",
@@ -3072,6 +3233,34 @@
    ],
    "vendor": "Ping Identity"
   },
+  "pingdom": {
+   "category": "uptime_monitoring",
+   "fees": [],
+   "product": "Pingdom",
+   "tiers": [
+    {
+     "base_monthly_usd": 16.5,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Synthetic Monitoring (starting tier, annual)",
+     "source_url": "https://www.pingdom.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 16.5,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Real User Monitoring (starting tier, annual)",
+     "source_url": "https://www.pingdom.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Pingdom (SolarWinds)"
+  },
   "pipedrive": {
    "category": "crm",
    "fees": [
@@ -3707,6 +3896,74 @@
    "tiers": [],
    "vendor": "Squarespace"
   },
+  "statuscake": {
+   "category": "uptime_monitoring",
+   "fees": [],
+   "product": "StatusCake",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://www.statuscake.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 20.41,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 2,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Superior (annual)",
+     "source_url": "https://www.statuscake.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 24.49,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 2,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Superior (monthly)",
+     "source_url": "https://www.statuscake.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 66.66,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 10,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Business (annual)",
+     "source_url": "https://www.statuscake.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 79.99,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 10,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Business (monthly)",
+     "source_url": "https://www.statuscake.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Custom",
+     "source_url": "https://www.statuscake.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "StatusCake"
+  },
   "sync-teams": {
    "category": "cloud_storage",
    "fees": [],
@@ -4147,6 +4404,94 @@
     }
    ],
    "vendor": "Typeform"
+  },
+  "uptimerobot": {
+   "category": "uptime_monitoring",
+   "fees": [],
+   "product": "UptimeRobot",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://uptimerobot.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 12.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Solo (annual)",
+     "source_url": "https://uptimerobot.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 13.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Solo (monthly)",
+     "source_url": "https://uptimerobot.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 39.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 15.0,
+     "plan": "Team (annual)",
+     "source_url": "https://uptimerobot.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 46.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 19.0,
+     "plan": "Team (monthly)",
+     "source_url": "https://uptimerobot.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 79.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 15.0,
+     "plan": "Scale (annual)",
+     "source_url": "https://uptimerobot.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 98.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 19.0,
+     "plan": "Scale (monthly)",
+     "source_url": "https://uptimerobot.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Enterprise",
+     "source_url": "https://uptimerobot.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "UptimeRobot"
   },
   "wave-payroll": {
    "category": "payroll",
