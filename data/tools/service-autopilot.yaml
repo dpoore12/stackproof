@@ -1,0 +1,61 @@
+slug: service-autopilot
+vendor: Service Autopilot
+product: Service Autopilot
+category: landscaping_management
+url: https://www.serviceautopilot.com/pricing/
+pricing_note: 'Service Autopilot publishes flat monthly prices for Startup, Pro, and Pro Plus, but the underlying seat-count formula is not fully captured: Startup and Pro state no user-license count at all (the FAQ defers to a sales demo "to get the right number of licenses"), only Pro Plus states an explicit count (5 mobile + 1 business = 6 users) and Elite (8 mobile + 2 business = 10 users, no price published). Every tier also carries an unquantified one-time "sign up fee" on top of the monthly rate. Because the seat formula and the sign-up fee are both uncaptured, all tiers are recorded compare: false as starting figures.'
+
+tiers:
+  - plan: Startup
+    compare: false
+    base_monthly_usd: 49
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.serviceautopilot.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$49/mo + sign up fee." "All pricing is based on annual subscription rates." No stated user-license count.'
+  - plan: Pro
+    compare: false
+    base_monthly_usd: 199
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.serviceautopilot.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Marked "MOST POPULAR." "$199/mo + sign up fee." No stated user-license count.'
+  - plan: Pro Plus
+    compare: false
+    base_monthly_usd: 499
+    per_seat_monthly_usd: 0
+    max_seats: 6
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.serviceautopilot.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$499/mo + sign up fee." "5 Mobile user licenses, 1 Business user licenses" (6 total).'
+
+findings:
+  - id: service-autopilot-elite-license-counts
+    claim: >-
+      Service Autopilot's Elite tier includes 8 mobile user licenses and
+      2 business user licenses (10 total) but publishes no dollar
+      figure -- pricing is "Contact for pricing" (2026-09-04).
+    provenance:
+      source_url: https://www.serviceautopilot.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: service-autopilot-app-included-all-plans
+    claim: >-
+      The Service Autopilot mobile app is included on every plan tier,
+      including the entry-level Startup plan (2026-09-04).
+    provenance:
+      source_url: https://www.serviceautopilot.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

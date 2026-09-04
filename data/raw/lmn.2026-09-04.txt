@@ -1,0 +1,8 @@
+URL: https://golmn.com/pricing/
+STATUS: 200 (redirected to https://granum.com/lmn/pricing/ -- LMN is now sold under parent company Granum)
+FETCHED: 2026-09-04 18:51:07 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "LMN Plans & Pricing" anchor).
+
+LMN Starter -- "For companies with less than 10 employees." "Starting at $297/mo." "Includes 1 office/crew lead license & 5 crew member licenses. Additional licenses are available for a fee." (The per-additional-license dollar rate is not stated anywhere on the page -- the only dollar figure attached to "additional licenses" nearby on the page is for an unrelated add-on, SMS customer messaging at "$75 one-time fee + $30/mo," which is not a per-seat license rate.)
+LMN Professional -- marked "MOST POPULAR." "For companies with 10+ employees." "Starting at $648/mo." "Includes 3 office/crew lead license & 15 crew member licenses. Additional licenses are available for a fee." (same unquantified additional-license caveat.)
+LMN Enterprise -- "For companies with multi-locations." "Scales to support you. Starts at 100 users. Additional licenses are available for a fee." No dollar figure published; "Book a Demo" only.

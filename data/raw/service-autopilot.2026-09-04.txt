@@ -1,0 +1,12 @@
+URL: https://www.serviceautopilot.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 18:53:07 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "CHOOSE THE BEST PLAN" anchor and the FAQ section).
+
+"All pricing is based on annual subscription rates."
+Startup -- "Start growing your business." "$49/mo + sign up fee." No stated user-license count.
+Pro -- "Go professional, and grow faster." "$199/mo + sign up fee." No stated user-license count. Marked "MOST POPULAR."
+Pro Plus -- "Soar past competitors with Automations." "$499/mo + sign up fee." "5 Mobile user licenses, 1 Business user licenses" (6 total).
+Elite -- "Save time with major efficiencies." "Contact for pricing." "8 Mobile user licenses, 2 Business user licenses" (10 total).
+
+FAQ, "Which plans include the Service Autopilot app?": "The Service Autopilot app is included in all plans... Be sure to book a live demo to learn more so that you can get the right number of licenses of the Service Autopilot app for your team." FAQ, "How do I know which pricing plan is right for me?": defers to a sales quiz/demo rather than a published seat-count table for Startup/Pro. The one-time "sign up fee" amount is never stated. Because the base user-license counts for Startup and Pro are not published, and the sign-up fee is unquantified, all tiers are recorded compare: false.

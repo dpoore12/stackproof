@@ -1,0 +1,10 @@
+URL: https://www.singleops.com/pricing/
+STATUS: 200 (redirected to https://granum.com/singleops/pricing/ -- SingleOps is a sibling product to LMN under parent company Granum, targeted at tree care/arborist crews rather than general landscape crews)
+FETCHED: 2026-09-04 18:54:31 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "SingleOps Plans & Pricing" anchor and around the "SingleOps Premier" heading for the third tier's card).
+
+SingleOps Essential -- "For single crew businesses looking to improve their operations with business management basics." Monthly: "$220/mo, +$55/mo for additional office or sales users." Annual (labelled "SAVE 9%"): "$200/mo, +$50/mo for additional office or sales users."
+SingleOps Plus -- marked "MOST POPULAR." "For 1+ crew businesses seeking to impress customers and significantly improve their operational efficiency." Monthly: "$385/mo, +$115/mo for additional office or sales users." Annual: "$350/mo, +$100/mo for additional office or sales users."
+SingleOps Premier -- "For 3+ crew or highly ambitious businesses seeking to optimize." Monthly: "$550/mo, +$150/mo for additional office or sales users." Annual: "$500/mo, +$125/mo for additional office or sales users."
+
+The page states the additional-user rate applies to "office or sales users" specifically; field/crew users are not mentioned as billable, implying only office/sales headcount is metered. The base price's included office/sales user count is not stated explicitly; one is assumed as the natural reading of a base-plan-plus-additional-user structure.
