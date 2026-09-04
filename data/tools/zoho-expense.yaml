@@ -1,0 +1,126 @@
+slug: zoho-expense
+vendor: Zoho
+product: Zoho Expense
+category: expense_management
+url: https://www.zoho.com/expense/pricing/
+free_trial: "14-day free trial, no credit card required (stated 2026-09-04)."
+pricing_note: "The US pricing page geo-redirects to a German-language, EUR-priced locale by default; appending ?sredirect=false to the URL served the US/English page in USD, the same fix used for this dataset's Zoho Workplace record. Free plan caps at 3 users; Standard and Premium bill only 'active' users (those who create an expense or report), and additional active users beyond purchased licenses are billed at the plan's monthly per-user rate as an overage for that month."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 3
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.zoho.com/us/expense/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free $0 For small businesses looking to start their expense management journey. Maximum users: 3." Receipt capture (AI OCR), expense reports, expense tracking via personal cards, mileage via GPS, accounting integrations, MFA, multi-currency, basic audit trail, 5 GB receipt storage.'
+  - plan: Standard
+    base_monthly_usd: 3
+    per_seat_monthly_usd: 3
+    seat_label: active user
+    billing: annual
+    provenance:
+      source_url: https://www.zoho.com/us/expense/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Standard $4 $3 per user/month billed monthly / billed annually." Corporate card management, real-time card feeds, multiple expense policies, multi-level approval, split expenses, custom user roles, cash advance management, ACH payments, direct bank reimbursements, SSO, ERP/HRMS integrations (add-on).'
+  - plan: Standard (monthly)
+    base_monthly_usd: 4
+    per_seat_monthly_usd: 4
+    seat_label: active user
+    billing: monthly
+    compare: false
+    provenance:
+      source_url: https://www.zoho.com/us/expense/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "Monthly-billed figure shown on the same card."
+  - plan: Premium
+    base_monthly_usd: 5
+    per_seat_monthly_usd: 5
+    seat_label: active user
+    billing: annual
+    provenance:
+      source_url: https://www.zoho.com/us/expense/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Premium $6 $5 per user/month billed monthly / billed annually." Everything in Standard plus employee self-booking travel tool, in-built travel desk management, GSA-compliant per diem management, auto mileage capture with live tracking, live budget tracking, multi-entity/country expense management.'
+  - plan: Premium (monthly)
+    base_monthly_usd: 6
+    per_seat_monthly_usd: 6
+    seat_label: active user
+    billing: monthly
+    compare: false
+    provenance:
+      source_url: https://www.zoho.com/us/expense/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "Monthly-billed figure shown on the same card."
+
+clauses:
+  - topic: cancellation
+    status: stated
+    quote: "Zoho Expense is a pay-as-you-go service, so you are not bound by a contract to stay subscribed. You can start and stop your subscription with us any time you want."
+    finding: >-
+      Zoho Expense's FAQ states it is a "pay-as-you-go service" with no
+      binding contract, so a subscription can be started and stopped at
+      any time (2026-09-04).
+    provenance:
+      source_url: https://www.zoho.com/us/expense/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Zoho Expense's pricing page and FAQ state no data-export terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.zoho.com/us/expense/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Zoho Expense's pricing page and FAQ state no refund terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.zoho.com/us/expense/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: zoho-expense-active-user-overage
+    claim: >-
+      Zoho Expense's FAQ gives a worked example: buying 10 active-user
+      licenses on the Premium annual plan but having 15 active users in a
+      given month bills the extra 5 users at the monthly rate, "5 * 6 =
+      $30" for that month, on top of the annual subscription (2026-09-04).
+    provenance:
+      source_url: https://www.zoho.com/us/expense/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: zoho-expense-addon-costs
+    claim: >-
+      Zoho Expense sells self-booking travel at $9.99 per trip, and
+      optional Premium Support starting from $490 a year or a Jumpstart
+      onboarding package starting from $500, on top of its per-user plan
+      price (2026-09-04).
+    provenance:
+      source_url: https://www.zoho.com/us/expense/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: zoho-expense-receipt-scan-limits
+    claim: >-
+      Zoho Expense caps AI-powered receipt scanning by plan: 20 scans per
+      user a month on Free/Trial, 200 on Standard, and 1,000 on Premium;
+      beyond the limit, expenses can still be entered manually
+      (2026-09-04).
+    provenance:
+      source_url: https://www.zoho.com/us/expense/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

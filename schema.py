@@ -257,6 +257,7 @@ CATEGORY_SEAT_POINTS: dict[str, tuple[int, ...]] = {
     "video_conferencing": (1, 5, 10, 25, 50),
     "cloud_storage": (1, 3, 5, 10, 25),
     "identity_sso": (1, 10, 25, 100, 500),
+    "expense_management": (1, 5, 10, 25, 50),
 }
 
 

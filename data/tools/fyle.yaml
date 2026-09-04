@@ -1,0 +1,93 @@
+slug: fyle
+vendor: Sage
+product: Sage Expense Management (formerly Fyle)
+category: expense_management
+url: https://www.fylehq.com/pricing
+free_trial: "Fyle offers a demo rather than a self-serve trial on this page (stated 2026-09-04)."
+pricing_note: "Fyle (acquired by Sage, now marketed as Sage Expense Management) bills only 'active users': someone who creates at least one expense or has a credit card connected with active transactions in the period, not every named user. Both priced tiers additionally impose a minimum billed-user floor regardless of actual active-user count. Modelled here as base_monthly_usd = minimum floor x per-seat rate, included_seats = the floor."
+
+tiers:
+  - plan: Growth
+    base_monthly_usd: 59.95
+    per_seat_monthly_usd: 11.99
+    included_seats: 5
+    seat_label: active user
+    billing: annual
+    provenance:
+      source_url: https://www.fylehq.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Growth. Unlimited expense tracking and real-time card feeds. $11.99 per active user*/month, billed annually. Minimum billing: 5 users." *"Users who create at least one expense or have a credit card connected to Sage Expense Management with active transactions." Includes unlimited receipt scanning, mileage/per diem tracking, Amex virtual cards, QuickBooks Online/Xero two-way integration, AI Copilot.'
+  - plan: Business
+    base_monthly_usd: 149.90
+    per_seat_monthly_usd: 14.99
+    included_seats: 10
+    seat_label: active user
+    billing: annual
+    provenance:
+      source_url: https://www.fylehq.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Business. Unlimited expense tracking and real-time card feeds. $14.99 per active user*/month, billed annually. Minimum billing: 10 users." All Growth features plus multi-org/multi-stage approvals, ACH reimbursements (US only), project expense tracking, multi-currency/multi-region, Sage Intacct/Sage 300 integrations, named account manager.'
+
+clauses:
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Fyle's (Sage Expense Management) pricing page states no
+      cancellation terms (2026-09-04).
+    provenance:
+      source_url: https://www.fylehq.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Fyle's (Sage Expense Management) pricing page states no data-export
+      terms (2026-09-04).
+    provenance:
+      source_url: https://www.fylehq.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Fyle's (Sage Expense Management) pricing page states no refund
+      terms (2026-09-04).
+    provenance:
+      source_url: https://www.fylehq.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: fyle-minimum-billed-users
+    claim: >-
+      Fyle (Sage Expense Management) enforces a minimum billed-user floor
+      regardless of actual usage: 5 users on Growth ($59.95/month minimum)
+      and 10 users on Business ($149.90/month minimum), even for a team
+      with fewer active users (2026-09-04).
+    provenance:
+      source_url: https://www.fylehq.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: fyle-active-user-definition
+    claim: >-
+      Fyle (Sage Expense Management) defines a billable "active user" as
+      someone who "create[s] at least one expense or ha[s] a credit card
+      connected... with active transactions," so employees with no
+      expense activity in a period are not charged (2026-09-04).
+    provenance:
+      source_url: https://www.fylehq.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: fyle-enterprise-headcount-gate
+    claim: >-
+      Fyle's (Sage Expense Management) Enterprise tier is quote-only and
+      explicitly scoped to "enterprises with 250+ employees," with several
+      Business-tier integrations (Sage Intacct, Sage 300, QuickBooks
+      Desktop) carrying additional implementation or per-product fees on
+      top of the subscription (2026-09-04).
+    provenance:
+      source_url: https://www.fylehq.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

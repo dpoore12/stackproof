@@ -1,0 +1,15 @@
+URL: https://www.expensify.com/pricing (canonical of https://use.expensify.com/pricing)
+STATUS: 200
+FETCHED: 2026-09-04 13:10:07, 13:10:29, 13:10:52, 13:11:16 +00:00 (all 4 fetches landed on DE gateways: 168.119.141.170, 168.119.99.194 x2, 168.119.141.170)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText, plus one attempt to programmatically set a <select> element to a USD option (found only 1 option on that select, so it was not the currency picker — the visible "USD $ GBP £ AUD A$ NZD NZ$ EUR €" row is likely a custom non-native dropdown).
+---
+"USD $ GBP £ AUD A$ NZD NZ$ EUR €" currency row visible in the DOM but the page rendered EUR by default on every fetch (geo-routed to the German gateway).
+Submit — Free for all members — receipt scanning, mileage tracking, expense reports, categories/tags, custom distance/tax rates, personal card import, chat, AI+human support.
+Collect (Most popular) — €5 per member/month — small business plan: expense, travel, chat, reimbursements, corporate card management, expense/travel approvals, travel booking/rules, QuickBooks/Xero integrations.
+Control — Custom pricing, "as low as €8 per active member/month" — everything in Collect plus multiple approval flows, custom expense rules, ERP integration (NetSuite, Sage Intacct), HR integrations (Workday/Certinia), SAML/SSO, custom insights/reporting, budgeting.
+FAQ: "How much does Expensify cost?" — "Most businesses start with our Collect plan at €5 per member per month... Control plan is available at a custom price. Discounts are available for annual commitments and when using the Expensify Card."
+FAQ: "Is Expensify free for individuals?" — "Individuals can use New Expensify for free with unlimited SmartScans, but additional functionality such as expense categorization requires a paid plan."
+"Get paid to use Expensify" — savings calculator; Expensify Card offers 1% cash back on US purchases (2% for >$250K/month), "Save up to 50% on Expensify."
+Compare-plans footnote: "**Available on accounts of 100+ members" (account manager).
+No cancellation, refund, or data-export language found.
+Page title: "Expensify - Pricing".

@@ -1,0 +1,68 @@
+slug: expensify
+vendor: Expensify
+product: Expensify
+category: expense_management
+url: https://www.expensify.com/pricing
+free_trial: "New Expensify is free for individuals for SmartScan receipts, sending/receiving money, and chat; paid plans add company features (stated 2026-09-04)."
+pricing_note: "The rendered page geo-routed to the EUR-priced /de-de/ locale (via a German gateway) on 4 fetch attempts; a currency selector is present on the page but could not be switched via the rendered DOM (the only <select> found had a single option, so the selector is likely a custom, non-native widget). EUR figures are recorded here as findings only, not as USD tiers."
+
+tiers: []
+
+clauses:
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Expensify's pricing page and FAQ state no cancellation terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.expensify.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Expensify's pricing page and FAQ state no data-export terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.expensify.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Expensify's pricing page and FAQ state no refund terms (2026-09-04).
+    provenance:
+      source_url: https://www.expensify.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: expensify-eur-not-usd
+    claim: >-
+      Expensify's pricing page rendered EUR figures on repeated fetches
+      from a German network gateway (Collect at 5 EUR per member a month,
+      Control "as low as" 8 EUR per active member a month), so a US-dollar
+      list price was not machine-recorded on 2026-09-04.
+    provenance:
+      source_url: https://www.expensify.com/pricing
+      fetched_at: 2026-09-04
+      method: not_available
+  - id: expensify-card-discount
+    claim: >-
+      Expensify states using the Expensify Card can "save up to 50% on
+      Expensify," tying software cost to card spend rather than pricing
+      the software independently of payment method (2026-09-04).
+    provenance:
+      source_url: https://www.expensify.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: expensify-account-manager-threshold
+    claim: >-
+      Expensify's Control plan compare table marks a dedicated account
+      manager as "available on accounts of 100+ members," gating personal
+      support behind a headcount threshold rather than plan tier alone
+      (2026-09-04).
+    provenance:
+      source_url: https://www.expensify.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
