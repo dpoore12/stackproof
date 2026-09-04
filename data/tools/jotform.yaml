@@ -1,0 +1,170 @@
+slug: jotform
+vendor: Jotform
+product: Jotform
+category: forms
+url: https://www.jotform.com/pricing/
+free_trial: "No trial of paid plans; a Starter (free) plan carries all standard features except HIPAA (stated 2026-09-04)."
+pricing_note: "Bronze, Silver and Gold are single-user plans priced per account; only Enterprise is multiuser and it has no listed price. The page defaults to yearly billing and the monthly figures did not render in the automated fetch, so tiers carry the annual rate."
+
+# Single-user plans: the seat count cannot exceed 1 outside Enterprise, so
+# every paid tier is capped at 1 seat.
+tiers:
+  - plan: Starter
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 1
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.jotform.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Starter FREE* … 5 Forms, 100 Monthly Submissions, 1 User Individual Plan … Jotform Branding".'
+  - plan: Bronze
+    base_monthly_usd: 34
+    per_seat_monthly_usd: 0
+    included_seats: 1
+    max_seats: 1
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.jotform.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch on a US gateway. "Bronze $34/month Billed annually … 25 Forms, 1,000 Monthly Submissions, 1 User Individual Plan". Yearly toggle shows "Save up to 20%".'
+  - plan: Silver
+    base_monthly_usd: 39
+    per_seat_monthly_usd: 0
+    included_seats: 1
+    max_seats: 1
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.jotform.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Silver $39/month Billed annually … 50 Forms, 2,500 Monthly Submissions, 1 User Individual Plan". Marked Best Value.'
+  - plan: Gold
+    base_monthly_usd: 99
+    per_seat_monthly_usd: 0
+    included_seats: 1
+    max_seats: 1
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.jotform.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Gold $99/month Billed annually … 100 Forms, 10,000 Monthly Submissions, 1 User Individual Plan … HIPAA-Enabled Features Available".'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Jotform keeps a cancelled paid plan active until the next billing date
+      and then downgrades the account to the free Starter plan; downgrades to
+      a cheaper paid plan take effect immediately with unused time credited
+      to the next invoice (2026-09-04).
+    quote: "When you cancel a paid plan, you will still stay on your existing plan until the next billing date, and then you will be downgraded to the Starter plan."
+    provenance:
+      source_url: https://www.jotform.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: auto_renew
+    status: stated
+    finding: >-
+      Jotform subscriptions renew automatically each month or each year
+      unless cancelled (2026-09-04).
+    quote: "Your subscription will automatically be renewed each month for monthly plans and each year for yearly plans unless you cancel."
+    provenance:
+      source_url: https://www.jotform.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: stated
+    finding: >-
+      Jotform refunds in full when a subscription is cancelled within 30
+      days of payment, on request to support (2026-09-04).
+    quote: "If, for any reason, you need to cancel your subscription within 30 days of payment, we’ll issue a full refund."
+    provenance:
+      source_url: https://www.jotform.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_retention
+    status: stated
+    finding: >-
+      Jotform deletes the oldest form response to make room once an account
+      exceeds its total submission storage (500 on Starter, 10,000 on
+      Bronze), and advises downloading old submissions first (2026-09-04).
+    quote: "if you exceed your total submission storage, the system will delete the oldest form response to make room for new submissions"
+    provenance:
+      source_url: https://www.jotform.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: stated
+    finding: >-
+      Jotform's FAQ tells users they can download old submissions before
+      purging them to stay under the storage cap; no export format or
+      post-cancellation window is given (2026-09-04).
+    provenance:
+      source_url: https://www.jotform.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: jotform-single-user-paid-plans
+    claim: >-
+      Jotform's Bronze ($34), Silver ($39) and Gold ($99) plans are each a
+      "1 User Individual Plan" on annual billing; a second user requires the
+      quote-only Enterprise plan (2026-09-04).
+    provenance:
+      source_url: https://www.jotform.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: jotform-submission-caps
+    claim: >-
+      Jotform caps monthly submissions at 100 on Starter, 1,000 on Bronze,
+      2,500 on Silver and 10,000 on Gold, with total stored submissions of
+      500 / 10,000 / 25,000 / 100,000 (2026-09-04).
+    provenance:
+      source_url: https://www.jotform.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: jotform-meta-price-mismatch
+    claim: >-
+      Jotform's page metadata still says "Paid plans start at $19 per month"
+      while the cheapest rendered plan on 2026-09-04 was Bronze at $34 per
+      month on annual billing.
+    provenance:
+      source_url: https://www.jotform.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: jotform-nonprofit-education-discount
+    claim: >-
+      Jotform discounts Bronze, Silver and Gold by 50% and Enterprise by 30%
+      for approved nonprofits and educational institutions on both monthly
+      and yearly billing (2026-09-04).
+    provenance:
+      source_url: https://www.jotform.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: jotform-eur-parity
+    claim: >-
+      A fetch of Jotform's pricing routed through a German gateway on
+      2026-09-04 showed the same numbers in euros (€34, €39, €99 per month
+      billed annually) as the US render showed in dollars.
+    provenance:
+      source_url: https://www.jotform.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: jotform-tax-inclusive
+    claim: >-
+      Jotform adds local tax to every payment at checkout and removes it
+      only for a valid Tax ID, per its FAQ on 2026-09-04; 1 tax-exempt
+      certificate route goes through support.
+    provenance:
+      source_url: https://www.jotform.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

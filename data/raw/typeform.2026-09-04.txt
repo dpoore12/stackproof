@@ -1,0 +1,23 @@
+URL: https://www.typeform.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 00:12:05 +00:00 (fetch 1, US gateway 68.183.49.222) and 2026-09-04 00:13:21 +00:00 (fetch 3, German gateway 168.119.141.170)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText slices. Prices are printed as "169 USD/mo" (currency code after the amount). Fetch 1 (US) rendered USD but the captured window held only the Talent plan card. Fetches 2-4 rendered EUR (German gateway), which gave the compare-all-plans table for Basic/Plus/Business/Growth Flow in EUR only.
+---
+[Fetch 1, USD]
+Talent — Improve employee experience with best-in-class AI, video, and automation — 169 USD/mo (2,028 USD total /yr) — 119 USD/mo, Save 600 USD /yr — Includes 3,000 responses/mo, 3 users, unlimited typeforms, unlimited questions.
+Business card: "Need a plan for HR teams? See Talent plan details — starting at 119 USD/mo".
+Page script comment: prices come from Typeform's pricing API; yearly visible price = yearly base / 12; plan codes basic, plus, business, enterprise_tier_1_self_serve, growth_pro, growth_enterprise, talent; contacts add-on tiers.
+
+[Fetch 3, EUR — German gateway]
+Compare all plans. Toggle: Monthly / Yearly (Save 30%). Try free for 14 days.
+Basic — 35 EUR monthly; 25 EUR /mo yearly ("25 EUR /mo after 14 days").
+Plus — 70 EUR monthly; 49 EUR /mo yearly.
+Business — 120 EUR monthly; 84 EUR /mo yearly.
+Growth Flow — 345 EUR monthly; 242 EUR /mo yearly.
+Usage limits: forms unlimited on all plans. Seats: Basic 1, Plus 3, Business 5, Growth Flow 5, Talent 3, Enterprise bespoke. Monthly responses included: Basic 100, Plus 1,000, Business 10,000, Growth Flow 10,000, Talent 3,000. Maximum monthly response limit with add-ons: Basic 750, Plus 2,500, Business 50,000, Growth Flow 50,000, Talent 7,500. Enrichment 1,500 responses/mo on Growth; video question views 50,000 on Growth, 4,500 on Talent.
+Business card: 10,000 responses/mo included, 5 users, enrich 1,500 responses/mo, Contacts & Automations add-on included free, multi-language forms, Salesforce integration, email and SMS follow-ups, priority support and live chat.
+Contacts & Automations add-on: 2,400 actions/month +25 EUR/mo (monthly) or +21 EUR/mo (annual), all plans except Free and Basic; 12,000 actions/month +79 EUR/mo (monthly) or +66 EUR/mo (annual), all plans except Free, Basic, Plus; custom on Enterprise / Growth Custom. 25,000 total contacts.
+Enterprise: custom responses and seats, VIP account management, SSO, HIPAA, GDPR, US or EU data center, custom domains, tailored onboarding.
+FAQ — "Do you offer discounts if I pay yearly?": Yes, "you could be saving up to 16% with an annual plan" (the page toggle says "Save 30%").
+FAQ — "Is there a limit to responses?": each plan includes a set number of responses per month; over 50,000 per month, contact sales.
+FAQ — "What happens if I cancel?": changes take effect at the end of the prepaid period; forms and previously collected responses are not deleted; forms may be closed to new responses and the seat count reduced.

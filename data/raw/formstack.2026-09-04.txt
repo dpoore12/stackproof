@@ -1,0 +1,15 @@
+URL: https://www.formstack.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 00:21:29 +00:00 (US gateway 134.209.42.109)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main>. Toggle "Annually / Monthly" ("Save 2 months with annual plans"); each card prints the annual per-month price then the monthly price ("$83 $99/month paid annually"). innerText included embedded <style> and <script> contents, which are omitted here.
+---
+Formstack Pricing Plans — "Start with what you need. Scale when you're ready." Save 2 months with annual plans. Annually / Monthly.
+Forms — "Launch secure forms in minutes and simplify how you collect data" — Starting at $83 (annual) / $99/month, paid annually — 1 Builder user, 25 Forms, 1,000 Submissions per form, 2GB Storage. Buy Now / Try It Free.
+Suite (Forms + Documents + Sign) — Starting at $250 (annual) / $299/month, paid annually — 3 Builder users, 100 Forms, 5,000 Submissions per form, 10GB Storage, 250 Document deliveries per month, Unlimited eSignatures.
+Salesforce Solutions — Custom Pricing, Flexible Plans. Enterprise Solutions — Custom Pricing; dedicated CSM, SSO, custom SLAs, unlimited users and submissions, API access.
+Compare Features: Forms $83 / $99/mo paid annually; Suite $250 / $299/mo paid annually; Salesforce and Enterprise custom. "Match HIPAA and compliance requirements: + Add On" on Forms and Suite. 300+ integrations.
+FAQ — What if I need more users, submissions, or merges on my account? "Once you sign up for a plan, you can add more users, add-on features, and additional submissions or merges as needed." (no prices given)
+FAQ — How does a free trial work? "We currently offer a 14-day free trial of our core Forms product—no credit card required. … At the end of the trial, you can upgrade to a paid plan to continue using Formstack."
+FAQ — Do you provide customer support? AI assistant 24/7; live support agent Monday–Friday, 8 a.m.–4 p.m. ET.
+FAQ — What type of payment do you accept? "We take Mastercard, Visa, Discover, and American Express. Annual invoices are available for certain plans. The nonprofit discount applies to invoices, but the annual discount does not."
+Footer: © 2026 Intellistack, LLC.

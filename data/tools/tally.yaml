@@ -1,0 +1,77 @@
+slug: tally
+vendor: Tally
+product: Tally
+category: forms
+url: https://tally.so/pricing
+free_trial: "Free plan with unlimited forms and submissions under a fair-use policy; no time-limited trial stated (2026-09-04)."
+pricing_note: "All 3 fetches on 2026-09-04 were geo-routed through German gateways and rendered EUR; Tally is a Belgian company and USD prices were not captured. The EUR figures are recorded as findings. The billing switch could not be toggled by script, so the period the shown prices belong to is unconfirmed."
+
+tiers: []
+
+clauses:
+  - topic: data_retention
+    status: stated
+    finding: >-
+      Tally's Business plan lets a workspace auto-delete submissions after
+      a set period and keeps 90 days of form version history, against 30
+      days on Pro (2026-09-04).
+    quote: "Control data retention. Automatically delete form submissions after a set period to comply with privacy frameworks."
+    provenance:
+      source_url: https://tally.so/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Tally's pricing page states no cancellation terms (2026-09-04).
+    provenance:
+      source_url: https://tally.so/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Tally's pricing page states no data-export terms; it notes all form
+      data is stored in Europe under GDPR (2026-09-04).
+    provenance:
+      source_url: https://tally.so/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: tally-pricing-geo-routed-eur
+    claim: >-
+      On 2026-09-04, 3 of 3 automated fetches of tally.so/pricing rendered
+      EUR prices through German gateways, so USD prices are not
+      machine-recorded.
+    provenance:
+      source_url: https://tally.so/pricing
+      fetched_at: 2026-09-04
+      method: not_available
+  - id: tally-eur-plan-prices
+    claim: >-
+      Tally's European page on 2026-09-04 listed Pro at €20 per month and
+      Business at €65 per month, with a "Pay yearly" option worth 2 months
+      off.
+    provenance:
+      source_url: https://tally.so/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: tally-unlimited-free-seats
+    claim: >-
+      Tally's free plan carries unlimited forms and submissions under a
+      fair-use policy, and Pro adds "unlimited team members" to shared
+      workspaces for 1 flat monthly price rather than a per-seat charge
+      (2026-09-04).
+    provenance:
+      source_url: https://tally.so/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: tally-upload-limit
+    claim: >-
+      Tally's free plan caps file uploads at 10 MB per file; Pro removes the
+      cap (2026-09-04).
+    provenance:
+      source_url: https://tally.so/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
