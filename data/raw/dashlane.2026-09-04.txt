@@ -1,0 +1,8 @@
+URL: https://www.dashlane.com/pricing (https://www.dashlane.com/pricing/business returned 404)
+STATUS: 200
+FETCHED: 2026-09-04 00:04:12 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main> (FAQ window; plan cards not in the captured window).
+---
+Pricing FAQs: How much does Dashlane cost for businesses? Dashlane business solutions are delivered through the Dashlane Omnix platform. Three packages: Omnix Password Management, Omnix Credential Protection, and Omnix Enterprise. The Omnix Password Management package costs $8 per user per month (billed annually) and includes a 14-day free trial. Omnix Credential Protection costs $4 per user per month (billed annually). Omnix Enterprise: tailored, volume-optimized pricing; contact sales.
+Difference: Password Management secures everyday employee credentials (password and passkey protection, AI-powered autofill, secure sharing, admin vault policies). Credential Protection detects and responds to credential risks across the workforce regardless of vault use (AI phishing detection, credential risk detection outside SSO, risk alerts, insights dashboard, SIEM/SOAR integrations).
+Does Dashlane offer a free trial for business plans? Yes, a free 14-day trial of the Dashlane Omnix platform. How does Enterprise pricing work? Built for organizations with more than 50 users; customized, volume-optimized by seat count and integration requirements; bundles both packages.
