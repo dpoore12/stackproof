@@ -1,0 +1,148 @@
+slug: jumpcloud
+vendor: JumpCloud
+product: JumpCloud
+category: identity_sso
+url: https://jumpcloud.com/pricing
+free_trial: "30-day free trial, self-serve, with 24x7 Premium Support included during the trial (stated 2026-09-04)."
+pricing_note: "Per-user packages plus an a-la-carte per-feature model (Cloud Directory, MFA, SSO, etc. at $3-5/user/month each, not itemized here). The 3 packages below are self-serve priced; Platform Essentials, Platform, and Platform Prime are quote-only and not priced here. Every price is exclusive of VAT."
+
+tiers:
+  - plan: Device Management
+    base_monthly_usd: 9
+    per_seat_monthly_usd: 9
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://jumpcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Device management & MDM $9 /user/mo billed annually or $11.00 billed monthly."'
+  - plan: Device Management (monthly)
+    base_monthly_usd: 11
+    per_seat_monthly_usd: 11
+    seat_label: user
+    billing: monthly
+    compare: false
+    provenance:
+      source_url: https://jumpcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "Monthly-billed figure shown on the same card."
+  - plan: SSO
+    base_monthly_usd: 11
+    per_seat_monthly_usd: 11
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://jumpcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"SSO & MFA access to resources plus Password Manager $11 /user/mo billed annually or $13.00 billed monthly."'
+  - plan: SSO (monthly)
+    base_monthly_usd: 13
+    per_seat_monthly_usd: 13
+    seat_label: user
+    billing: monthly
+    compare: false
+    provenance:
+      source_url: https://jumpcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "Monthly-billed figure shown on the same card."
+  - plan: Device Identity Management
+    base_monthly_usd: 13
+    per_seat_monthly_usd: 13
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://jumpcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Device management plus identity management & MFA for devices $13 /user/mo billed annually or $15.00 billed monthly."'
+  - plan: Device Identity Management (monthly)
+    base_monthly_usd: 15
+    per_seat_monthly_usd: 15
+    seat_label: user
+    billing: monthly
+    compare: false
+    provenance:
+      source_url: https://jumpcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: "Monthly-billed figure shown on the same card."
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "We bill accounts on the 1st of each month for the previous month."
+    finding: >-
+      JumpCloud's FAQ states it bills in arrears, on the 1st of each month
+      for the previous month's usage (2026-09-04).
+    provenance:
+      source_url: https://jumpcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      JumpCloud's pricing FAQ states no cancellation terms (2026-09-04).
+    provenance:
+      source_url: https://jumpcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      JumpCloud's pricing FAQ states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://jumpcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      JumpCloud's pricing FAQ states no refund terms (2026-09-04).
+    provenance:
+      source_url: https://jumpcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: jumpcloud-suspended-users-billed
+    claim: >-
+      JumpCloud's FAQ states "If a user is in a suspended state, is the user
+      still billable? Yes. Suspended users are retained in the system
+      during the time they are suspended and are billed as normal users"
+      (2026-09-04).
+    provenance:
+      source_url: https://jumpcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: jumpcloud-vat-exclusive
+    claim: >-
+      JumpCloud states its prices exclude Value Added Tax because it is
+      "not a VAT registered entity" (2026-09-04).
+    provenance:
+      source_url: https://jumpcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: jumpcloud-alacarte
+    claim: >-
+      Beyond its 3 packages, JumpCloud sells identity and device management
+      features a la carte (Cloud Directory, MFA, SSO, Password Management
+      each around $3-4/user/month), so a buyer can assemble a custom plan
+      instead of a fixed package (2026-09-04).
+    provenance:
+      source_url: https://jumpcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: jumpcloud-quote-tiers
+    claim: >-
+      JumpCloud's Platform Essentials (300 user maximum), Platform, and
+      Platform Prime tiers are all quote-only with no published price,
+      despite Platform Essentials advertising a hard user cap
+      (2026-09-04).
+    provenance:
+      source_url: https://jumpcloud.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -1,0 +1,119 @@
+slug: duo-security
+vendor: Cisco
+product: Duo
+category: identity_sso
+url: https://duo.com/editions-and-pricing
+free_trial: "30-day free trial, activates in minutes, paid with credit card (stated 2026-09-04)."
+pricing_note: "The only vendor in this category with every tier fully self-serve priced; no billing-period toggle or annual-discount is shown, and the page states plans can be modified at any time, so figures are recorded as monthly. Duo Free hard-caps at 10 users; above that a paid edition is required."
+
+tiers:
+  - plan: Duo Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 10
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://duo.com/editions-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Duo Free Best for small businesses with 10 or fewer users. $0 per user/month. Add up to 10 users, Strong MFA, Seamless integrations, Free authenticator app."'
+  - plan: Duo Essentials
+    base_monthly_usd: 3
+    per_seat_monthly_usd: 3
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://duo.com/editions-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Duo Essentials Best for simple security management and seamless authentication. $3 per user/month. Everything in Free, plus: Duo Directory, Phishing-resistant MFA, Complete passwordless authentication, Single sign-on, Trusted Endpoints, Unlimited applications."'
+  - plan: Duo Advantage
+    base_monthly_usd: 6
+    per_seat_monthly_usd: 6
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://duo.com/editions-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Duo Advantage (MOST POPULAR) Best for dynamic threat detection, oversight, and authentication. $6 per user/month. Everything in Essentials, plus: Cisco Identity Intelligence, Duo Passport, Session theft protection, Active Directory Defense, Risk-Based Authentication."'
+  - plan: Duo Premier
+    base_monthly_usd: 9
+    per_seat_monthly_usd: 9
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://duo.com/editions-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Duo Premier Best for comprehensive identity security with complete device trust. $9 per user/month. Everything in Advantage, plus: Zero Trust access, VPN-less remote access to private resources, complete device trust with endpoint protection check."'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "Modify your plan at any time"
+    finding: >-
+      Duo's pricing page states self-service subscription plans can be
+      modified at any time, and that "for under 100 users, Duo licenses
+      are purchased in increments of 10; for over 100 users, Duo licenses
+      are purchased in increments of 25" (2026-09-04).
+    provenance:
+      source_url: https://duo.com/editions-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Duo's pricing page states no cancellation terms (2026-09-04).
+    provenance:
+      source_url: https://duo.com/editions-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Duo's pricing page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://duo.com/editions-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Duo's pricing page states no refund terms (2026-09-04).
+    provenance:
+      source_url: https://duo.com/editions-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: duo-license-increments
+    claim: >-
+      Duo sells self-service licenses in blocks, not single seats: "for
+      under 100 users, Duo licenses are purchased in increments of 10; for
+      over 100 users, Duo licenses are purchased in increments of 25," so
+      an 11-user team pays for 20 licenses (2026-09-04).
+    provenance:
+      source_url: https://duo.com/editions-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: duo-free-full-price-ladder
+    claim: >-
+      Duo is the only vendor in this category with every tier self-serve
+      priced with no quote-only ceiling: Free at $0, Essentials at $3,
+      Advantage at $6 and Premier at $9 per user a month (2026-09-04).
+    provenance:
+      source_url: https://duo.com/editions-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: duo-free-user-cap
+    claim: >-
+      Duo Free is capped at 10 users ("Best for small businesses with 10
+      or fewer users"); an 11th user requires upgrading to a paid edition
+      (2026-09-04).
+    provenance:
+      source_url: https://duo.com/editions-and-pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

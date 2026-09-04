@@ -716,6 +716,54 @@
    ],
    "vendor": "Duda"
   },
+  "duo-security": {
+   "category": "identity_sso",
+   "fees": [],
+   "product": "Duo",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 10,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Duo Free",
+     "source_url": "https://duo.com/editions-and-pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 3.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 3.0,
+     "plan": "Duo Essentials",
+     "source_url": "https://duo.com/editions-and-pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 6.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Duo Advantage",
+     "source_url": "https://duo.com/editions-and-pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 9.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 9.0,
+     "plan": "Duo Premier",
+     "source_url": "https://duo.com/editions-and-pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Cisco"
+  },
   "egnyte": {
    "category": "cloud_storage",
    "fees": [],
@@ -1765,6 +1813,74 @@
    ],
    "vendor": "Jotform"
   },
+  "jumpcloud": {
+   "category": "identity_sso",
+   "fees": [],
+   "product": "JumpCloud",
+   "tiers": [
+    {
+     "base_monthly_usd": 9.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 9.0,
+     "plan": "Device Management",
+     "source_url": "https://jumpcloud.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 11.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 11.0,
+     "plan": "Device Management (monthly)",
+     "source_url": "https://jumpcloud.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 11.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 11.0,
+     "plan": "SSO",
+     "source_url": "https://jumpcloud.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 13.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 13.0,
+     "plan": "SSO (monthly)",
+     "source_url": "https://jumpcloud.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 13.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 13.0,
+     "plan": "Device Identity Management",
+     "source_url": "https://jumpcloud.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 15.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 15.0,
+     "plan": "Device Identity Management (monthly)",
+     "source_url": "https://jumpcloud.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "JumpCloud"
+  },
   "keeper": {
    "category": "password_manager",
    "fees": [],
@@ -2106,6 +2222,44 @@
    ],
    "vendor": "Microsoft"
   },
+  "microsoft-entra": {
+   "category": "identity_sso",
+   "fees": [],
+   "product": "Microsoft Entra ID",
+   "tiers": [
+    {
+     "base_monthly_usd": 7.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 7.0,
+     "plan": "Entra ID P1",
+     "source_url": "https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 10.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 10.0,
+     "plan": "Entra ID P2",
+     "source_url": "https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 12.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 12.0,
+     "plan": "Entra Suite",
+     "source_url": "https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Microsoft"
+  },
   "microsoft-teams-essentials": {
    "category": "video_conferencing",
    "fees": [],
@@ -2285,6 +2439,44 @@
     }
    ],
    "vendor": "Nuclino"
+  },
+  "okta-workforce": {
+   "category": "identity_sso",
+   "fees": [],
+   "product": "Okta Workforce Identity",
+   "tiers": [
+    {
+     "base_monthly_usd": 6.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Starter",
+     "source_url": "https://www.okta.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 14.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 14.0,
+     "plan": "Core Essentials",
+     "source_url": "https://www.okta.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 17.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 17.0,
+     "plan": "Essentials",
+     "source_url": "https://www.okta.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Okta"
   },
   "olark": {
    "category": "live_chat",
@@ -2503,6 +2695,34 @@
     }
    ],
    "vendor": "pCloud"
+  },
+  "ping-identity": {
+   "category": "identity_sso",
+   "fees": [],
+   "product": "PingOne for Workforce",
+   "tiers": [
+    {
+     "base_monthly_usd": 3.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 3.0,
+     "plan": "Essential",
+     "source_url": "https://www.pingidentity.com/en/platform/pricing.html",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 6.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Plus",
+     "source_url": "https://www.pingidentity.com/en/platform/pricing.html",
+     "steps": null
+    }
+   ],
+   "vendor": "Ping Identity"
   },
   "pipedrive": {
    "category": "crm",

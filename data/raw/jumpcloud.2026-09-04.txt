@@ -1,0 +1,21 @@
+URL: https://jumpcloud.com/pricing (canonical https://jumpcloud.com/pricing; fetched via https://www.jumpcloud.com/pricing)
+STATUS: 200
+FETCHED: 2026-09-04 12:58:05 +00:00 (DE gateway 168.119.141.170)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed). All pricing, the full a-la-carte feature matrix, and the FAQ are present directly in rendered text (not collapsed/JS-gated).
+---
+Toggle: "Monthly | Annual, Save up to 18%".
+Device Management — "Device management & MDM" — $9/user/mo billed annually or $11.00 billed monthly.
+SSO — "SSO & MFA access to resources plus Password Manager" — $11/user/mo billed annually or $13.00 billed monthly.
+Device Identity Management — "Device management plus identity management & MFA for devices" — $13/user/mo billed annually or $15.00 billed monthly.
+Platform Essentials — "Identity and device management features plus SSO and passwordless authentication. 300 users maximum." Contact Sales, no price shown.
+Platform — "Unified identity, device, and access management." Contact Sales.
+Platform Prime — "Platform package plus Zero Trust, AI & SaaS Management, & premium support." Contact Sales.
+A-la-carte matrix (per user/month, annual/monthly): Cloud Directory $3/$4, MFA $3/$4, SSO $3/$4, User Lifecycle Management $3/$4, Password Management $3/$4, Directory Insights $3/$4, Passwordless Auth (JumpCloud Go) $5/$6, Cloud LDAP $3/$4, Cloud RADIUS $3/$4, Conditional Access/Zero Trust $3/$4, Access Requests $5/$5, MDM/Device Management $5/$6, System Insights $3/$4, Patch Management $3/$4, Remote Access $3/$4, External Identity Federation $3/$4, Identity Management for Devices $4/$4, Asset Management $3/$4, SaaS License Management $3/$4, Premium JumpCloud Support $2/$3.
+FAQ: "How can I buy only the features I want?" — packages or a-la-carte.
+FAQ: "What if I want to test before buying?" — "30-day Free Trial... 24x7 Premium Support is included."
+FAQ: "When does JumpCloud bill?" — "We bill accounts on the 1st of each month for the previous month. Note that you will always receive service for the number of days in your contract."
+FAQ: "What forms of payments does JumpCloud accept?" — "credit cards (American Express, Discover, MasterCard, and Visa) and ACH transfers. For accounts billing greater than $2,000 per month, invoicing is possible."
+FAQ: "If a user is in a suspended state, is the user still billable?" — "Yes. Suspended users are retained in the system during the time they are suspended and are billed as normal users."
+FAQ: "How can I buy JumpCloud now?" — self-service checkout via console.jumpcloud.com/pricing.
+FAQ: "Do the JumpCloud prices shown on this pricing page include Value Added Tax (VAT)?" — "No. JumpCloud is not a VAT registered entity. Prices shown are exclusive of VAT."
+Page title: "Pricing - JumpCloud".

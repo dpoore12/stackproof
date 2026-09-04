@@ -1,0 +1,11 @@
+URL: https://www.pingidentity.com/en/platform/pricing.html
+STATUS: 200
+FETCHED: 2026-09-04 13:00:05 +00:00, 13:00:20 +00:00, 13:00:39 +00:00 (DE gateway 168.119.141.170, three passes)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed) and a regex scan for "per user per month" occurrences, since the page is long and script-heavy (tooltips interleaved with pricing text).
+---
+"PingOne for Workforce Essential. Centralized SSO, MFA and Directory for SaaS apps. Integration with your Microsoft environment. $3 per user per month*." Includes: No-code Identity Orchestration Engine, Single Sign-on, Directory (SCIM-based), Standards Support (OAuth 2.0, OIDC, SAML, SCIM incl. pre-built O365 integration), Employee Dock, Ease of Administration, Inbound Provisioning, LDAP, Kerberos, RADIUS Gateway.
+"Plus. Enhanced security & experience with intelligent, adaptive authentication. $6 per user per month*. Everything in Essential [plus Adaptive Multi-Factor Authentication...]" (feature list beyond this point not captured in the rendered slice).
+Asterisk footnote text was not found anywhere in the rendered page text, including the page footer area (only script/tracking code was present there).
+A separate section, "PingOne for Customers," lists an add-on/product priced "Starting at: $50k annually" (flat annual fee, not per-user) — this is a different CIAM-facing product line and is not part of this record.
+No tier beyond "Plus" was found priced for PingOne for Workforce in 3 fetch passes; higher tiers if any are gated behind a demo/contact flow not captured.
+Page title: "MFA, SSO, & IAM Pricing + Features | Ping Identity".

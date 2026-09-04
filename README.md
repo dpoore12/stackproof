@@ -193,6 +193,25 @@ monthly billing. Seat points are 1, 3, 5, 10, 25 users with a seat;
 minimum-seat rules (Dropbox Advanced 3, Egnyte per plan, pCloud 3,
 Sync.com 3, ShareFile 3 or 5) are modelled as base fees or noted.
 
+### Identity and SSO (2026-09-04)
+
+Five vendors: JumpCloud, Okta Workforce Identity, Cisco Duo, Microsoft
+Entra ID, Ping Identity (PingOne for Workforce). A heavier,
+compliance-bound category by design: these vendors sell liability and
+audit posture, not thin features, so the vendor list should be more
+durable against buyers building their own tooling. OneLogin blocked the
+renderer with an AWS WAF CAPTCHA wall, the same pattern as Gusto and
+Buffer earlier. JumpCloud and Duo publish full self-serve pricing with no
+quote-only ceiling; Okta and Microsoft Entra cap their self-serve tiers
+and require quotes above that; Ping Identity publishes only 2 of what is
+presumably a larger lineup. Microsoft Entra Suite requires an existing
+Entra ID P1 subscription and is not usable standalone, so its headline
+price understates the true floor cost. Duo sells licenses in blocks of
+10 (or 25 above 100 users), not single seats. Seat points are 1, 10, 25,
+100, 500 employees needing an account, reflecting that identity tools
+scale further into headcount than most other categories in this
+dataset.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
