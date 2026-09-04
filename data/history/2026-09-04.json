@@ -1115,6 +1115,54 @@
    ],
    "vendor": "Google"
   },
+  "goto-meeting": {
+   "category": "video_conferencing",
+   "fees": [],
+   "product": "GoTo Meeting",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 12.0,
+     "plan": "Professional",
+     "source_url": "https://www.goto.com/pricing/meeting",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 14.0,
+     "plan": "Professional (monthly)",
+     "source_url": "https://www.goto.com/pricing/meeting",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 16.0,
+     "plan": "Business",
+     "source_url": "https://www.goto.com/pricing/meeting",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 19.0,
+     "plan": "Business (monthly)",
+     "source_url": "https://www.goto.com/pricing/meeting",
+     "steps": null
+    }
+   ],
+   "vendor": "GoTo"
+  },
   "grasshopper": {
    "category": "business_phone",
    "fees": [
@@ -1987,6 +2035,34 @@
      "per_seat_monthly_usd": 10.0,
      "plan": "Apps for business",
      "source_url": "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Microsoft"
+  },
+  "microsoft-teams-essentials": {
+   "category": "video_conferencing",
+   "fees": [],
+   "product": "Microsoft Teams Essentials",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 4.0,
+     "plan": "Teams Essentials",
+     "source_url": "https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-business-options",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 10.0,
+     "plan": "Teams Premium",
+     "source_url": "https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-business-options",
      "steps": null
     }
    ],
@@ -3155,6 +3231,57 @@
    ],
    "vendor": "Wave"
   },
+  "webex": {
+   "category": "video_conferencing",
+   "fees": [
+    {
+     "amount_usd": 48.0,
+     "fetched_at": "2026-09-04",
+     "name": "Call Me add-on (domestic)",
+     "unit": "per licence per year, billed annually"
+    },
+    {
+     "amount_usd": 300.0,
+     "fetched_at": "2026-09-04",
+     "name": "Real-Time Translation add-on",
+     "unit": "per licence per year, billed annually"
+    }
+   ],
+   "product": "Webex Meetings",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://pricing.webex.com/us/en/hybrid-work/meetings/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 12.0,
+     "plan": "Meet",
+     "source_url": "https://pricing.webex.com/us/en/hybrid-work/meetings/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 22.5,
+     "plan": "Suite (Meet + Call)",
+     "source_url": "https://pricing.webex.com/us/en/hybrid-work/meetings/",
+     "steps": null
+    }
+   ],
+   "vendor": "Cisco"
+  },
   "webflow": {
    "category": "website_builder",
    "fees": [],
@@ -3202,6 +3329,44 @@
     }
    ],
    "vendor": "Webflow"
+  },
+  "whereby": {
+   "category": "video_conferencing",
+   "fees": [],
+   "product": "Whereby Meetings",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://whereby.com/information/meetings/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 10.99,
+     "plan": "Pro",
+     "source_url": "https://whereby.com/information/meetings/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 41.97,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 13.99,
+     "plan": "Business",
+     "source_url": "https://whereby.com/information/meetings/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Whereby"
   },
   "wix": {
    "category": "website_builder",
@@ -3611,6 +3776,44 @@
     }
    ],
    "vendor": "Zoho"
+  },
+  "zoom": {
+   "category": "video_conferencing",
+   "fees": [],
+   "product": "Zoom Workplace",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Basic",
+     "source_url": "https://zoom.us/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 99,
+     "per_seat_monthly_usd": 14.16,
+     "plan": "Pro",
+     "source_url": "https://zoom.us/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 250,
+     "per_seat_monthly_usd": 18.33,
+     "plan": "Business",
+     "source_url": "https://zoom.us/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Zoom"
   }
  }
 }

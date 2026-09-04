@@ -1,0 +1,12 @@
+URL: https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-business-options
+STATUS: 200
+FETCHED: 2026-09-04 01:07:07 +00:00 (German gateway 168.119.141.170; en-us page renders USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js: regex over whitespace-collapsed body text for SKU cards, plus heading slices. All prices are "user/month, paid yearly (Annual subscription—auto renews)"; monthly-commitment prices are not printed.
+---
+Microsoft Teams Essentials (Most popular) — "Affordable, professional meeting solution for small and medium-sized businesses" — $4.00 user/month, paid yearly (Annual subscription—auto renews)1 — chat, call and video conferencing; real-time collaboration with file sharing, tasks and polling; meeting recordings with transcripts and live captions (English); 10 GB of cloud storage per user; data encryption; anytime phone and web support. FAQ: "Meet all day up to 30 hours, host up to 300 participants, and get 10 GB of cloud storage with Teams Essentials."
+Microsoft Teams Premium — $10.00 user/month, paid yearly (Annual subscription—auto renews) — add-on tier listed under "Explore more Teams capabilities".
+Also on the page: Microsoft 365 Business Basic, Business Standard with Copilot (no Teams) $20.30, Teams Phone Standard, Teams Rooms Basic/Pro, Audio Conferencing with dial-out to USA/CAN.
+FAQ — Payment: all major credit cards; existing customers may be eligible to pay by invoice; "depending on your choice of service, you'll be billed monthly or annually."
+FAQ — Once I upgrade, can I go back to the free version of Teams? "No, once you upgrade and convert from a free account to a paid account, you can't revert to the free version using the same email address."
+FAQ — Can I upgrade some users and keep others on free? "No, all users in your organization must be upgraded".
+Footnote: "[*] This discount offer is available between July 1, 2026, and December 31, 2026 … An annual commitment is required".

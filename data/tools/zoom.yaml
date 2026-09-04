@@ -1,0 +1,114 @@
+slug: zoom
+vendor: Zoom
+product: Zoom Workplace
+category: video_conferencing
+url: https://zoom.us/pricing
+free_trial: "Free Basic plan with 40-minute meetings; no time-limited trial stated (2026-09-04)."
+pricing_note: "Per-licence pricing with no base fee; only licensed hosts pay and participants join free. The page rendered annual billing ('Save up to 16%') and the monthly figures did not render in the automated fetch. Pro is sold for 1 to 99 licences and Business for 1 to 250; larger counts are Enterprise."
+
+tiers:
+  - plan: Basic
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: licensed host
+    billing: monthly
+    provenance:
+      source_url: https://zoom.us/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Workplace Basic Free … 40 minutes per meeting, 100 participants per meeting, Meeting summaries (for 3 hosted meetings per month)".'
+  - plan: Pro
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 14.16
+    max_seats: 99
+    seat_label: licensed host
+    billing: annual
+    provenance:
+      source_url: https://zoom.us/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch on a US gateway, "Prices in US Dollars". "Workplace Pro … $14.16/user per month · billed annually‡". Compare table: License Count 1-99, 30-hour meetings, 100 participants, 10 GB cloud recording per licence. Marked Most popular.'
+  - plan: Business
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 18.33
+    max_seats: 250
+    seat_label: licensed host
+    billing: annual
+    provenance:
+      source_url: https://zoom.us/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Workplace Business … $18.33/user per month · billed annually‡". License Count 1-250, 300 participants, SSO, managed domains.'
+
+clauses:
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Zoom's pricing page states no cancellation or refund terms in its
+      rendered text (2026-09-04).
+    provenance:
+      source_url: https://zoom.us/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: stated
+    finding: >-
+      Zoom's compare table says cloud recordings can be downloaded or
+      streamed from a browser and local recordings save as MP4, M4A and
+      txt; no post-cancellation export window is given (2026-09-04).
+    quote: "Zoom Cloud Recording stores meetings in the Zoom Cloud, where the file can then be downloaded and/or streamed from a browser."
+    provenance:
+      source_url: https://zoom.us/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Zoom prices Pro and Business per licence billed annually with a
+      footnote marker whose text did not render; each licence hosts
+      unlimited meetings but concurrent meetings need 1 licence each
+      (2026-09-04).
+    quote: "A licensed user can host an unlimited number of meetings. However if multiple users have the need to schedule separate meetings, you will need additional meeting licenses per each user."
+    provenance:
+      source_url: https://zoom.us/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: zoom-participants-free
+    claim: >-
+      Zoom charges only licensed hosts; participants need no account or
+      licence, and every plan allows 100 participants by default with up to
+      1,000 via the Large Meeting add-on (2026-09-04).
+    provenance:
+      source_url: https://zoom.us/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: zoom-licence-count-bands
+    claim: >-
+      Zoom sells Pro at $14.16 per licence a month on annual billing for 1
+      to 99 licences and Business at $18.33 for 1 to 250; more than 250
+      licences is Enterprise with quote pricing (2026-09-04).
+    provenance:
+      source_url: https://zoom.us/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: zoom-free-plan-ai-caps
+    claim: >-
+      Zoom's free Basic plan caps meetings at 40 minutes, meeting summaries
+      at 3 hosted meetings a month, AI queries at 20 a month and clips at 5
+      two-minute clips (2026-09-04).
+    provenance:
+      source_url: https://zoom.us/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: zoom-com-pricing-404
+    claim: >-
+      On 2026-09-04 both zoom.com/en/pricing/ and
+      zoom.com/en/products/virtual-meetings/pricing/ returned HTTP 404; the
+      live pricing page is zoom.us/pricing.
+    provenance:
+      source_url: https://zoom.us/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

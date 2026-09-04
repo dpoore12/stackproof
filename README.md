@@ -162,6 +162,16 @@ the tier. Microsoft's en-us page renders USD on every gateway and prints
 "with Teams" and "no Teams" SKUs side by side. Seat points are 1, 5, 10,
 25, 50 users with a mailbox.
 
+### Video conferencing (2026-09-04)
+
+Zoom's pricing lives at zoom.us/pricing (the zoom.com paths 404) and its
+annual switch does not re-render on a scripted click, so only the annual
+per-licence figures were captured. Webex's pricing.webex.com/us path
+renders USD on any gateway and prints yearly totals with a per-month
+equivalent. Seat points are 1, 5, 10, 25, 50 licensed hosts; participants
+are free on every vendor and are not seats. dialpad.com/pricing/meetings/
+returned 404; Microsoft Teams Essentials was used as the fifth vendor.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
