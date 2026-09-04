@@ -1,0 +1,10 @@
+URL: https://savvycal.com/pricing
+STATUS: 200
+FETCHED: 2026-09-03 23:59:46 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main> (US-side gateway). Toggle "Monthly | Annual" present; state attribute not exposed. Each card shows "Save 2 months" under its price, the annual-discount label.
+---
+"Kick the tires for free and only upgrade when you're ready to activate. Backed by a 30-day money back guarantee."
+Basic — $10/user/mo, "Save 2 months". Unlimited calendars, unlimited links, team scheduling.
+Premium — $17/user/mo, "Save 2 months". Everything in Basic plus custom domains, delegate to an assistant, paid bookings.
+Feature table: scheduling links, meeting polls, calendar connections, teams — Unlimited on both; collective, round robin, group modes; delegated access Premium only; custom domains, custom sending domains, remove SavvyCal branding Premium only; paid bookings Premium only.
+FAQ headings: Do you offer a free trial? How does company billing work? Are there ways to save? What happens if I cancel? (answers not rendered in captured text).

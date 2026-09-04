@@ -1,0 +1,130 @@
+slug: acuity
+vendor: Squarespace
+product: Acuity Scheduling
+category: scheduling
+url: https://www.acuityscheduling.com/pricing
+free_trial: "7-day free trial of any plan, no credit card needed (stated 2026-09-03)."
+
+# Flat price per account limited by calendars (one per staff member or
+# location): 1, 6 or 36. "Pay annually · Save 20%" was the active option
+# and each card also printed the monthly-billing figure. All prices USD,
+# excluding taxes.
+tiers:
+  - plan: Starter
+    base_monthly_usd: 16
+    per_seat_monthly_usd: 0
+    seat_label: calendar
+    max_seats: 1
+    billing: annual
+    provenance:
+      source_url: https://www.acuityscheduling.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch; "Pay annually Save 20%" aria-checked=true. Card: "$16/ month" then "$20/ month". 1 calendar.'
+  - plan: Starter (monthly billing)
+    compare: false
+    base_monthly_usd: 20
+    per_seat_monthly_usd: 0
+    seat_label: calendar
+    max_seats: 1
+    billing: monthly
+    provenance:
+      source_url: https://www.acuityscheduling.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Second figure on the Starter card with "Pay monthly" as the other option.'
+  - plan: Standard
+    base_monthly_usd: 27
+    per_seat_monthly_usd: 0
+    seat_label: calendar
+    max_seats: 6
+    billing: annual
+    provenance:
+      source_url: https://www.acuityscheduling.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$27/ month" annual, "$34/ month" monthly. Up to 6 calendars; adds text reminders, waitlist, packages, gift certificates.'
+  - plan: Premium
+    base_monthly_usd: 49
+    per_seat_monthly_usd: 0
+    seat_label: calendar
+    max_seats: 36
+    billing: annual
+    provenance:
+      source_url: https://www.acuityscheduling.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$49/ month" annual, "$61/ month" monthly. Up to 36 calendars; HIPAA BAA, hide logo, custom API and CSS.'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Acuity prices in USD before taxes, flat per account, with annual
+      payment saving 20% against monthly figures of $20, $34 and $61
+      (2026-09-03).
+    quote: "All prices are in USD. Prices do not include applicable taxes."
+    provenance:
+      source_url: https://www.acuityscheduling.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: cancellation
+    status: needs_account
+    finding: >-
+      Acuity's FAQ carries "Can I cancel at any time?" and proration
+      questions whose answers were not captured (2026-09-03).
+    provenance:
+      source_url: https://www.acuityscheduling.com/pricing
+      fetched_at: 2026-09-03
+      method: not_available
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Acuity's pricing page states no data-export terms (2026-09-03).
+    provenance:
+      source_url: https://www.acuityscheduling.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+findings:
+  - id: acuity-flat-plans-annual-monthly
+    claim: >-
+      On 2026-09-03 Acuity listed Starter at $16, Standard at $27 and
+      Premium at $49 per month paid annually, or $20, $34 and $61 paid
+      monthly, each covering a whole account.
+    provenance:
+      source_url: https://www.acuityscheduling.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: acuity-calendar-caps
+    claim: >-
+      Acuity caps calendars at 1 on Starter, 6 on Standard and 36 on
+      Premium, so a 7-person team needs the $49 Premium plan (2026-09-03).
+    provenance:
+      source_url: https://www.acuityscheduling.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: acuity-vs-per-seat-five-users
+    claim: >-
+      For 5 people Acuity Standard costs $27 per month flat, against $50 on
+      Calendly Standard at its 2026-09-03 yearly rate.
+    provenance:
+      source_url: https://www.acuityscheduling.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: acuity-premium-hipaa-and-branding
+    claim: >-
+      A signed HIPAA BAA and removal of the "Powered by Acuity" footer are
+      Premium-only at $49 per month (2026-09-03).
+    provenance:
+      source_url: https://www.acuityscheduling.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: acuity-trial-seven-days
+    claim: >-
+      Acuity offers a 7-day trial of any plan without a credit card and no
+      free plan on its pricing page (2026-09-03).
+    provenance:
+      source_url: https://www.acuityscheduling.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch

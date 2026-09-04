@@ -1,0 +1,134 @@
+slug: youcanbookme
+vendor: YouCanBookMe
+product: YouCanBookMe
+category: scheduling
+url: https://youcanbook.me/pricing
+free_trial: "2-week free trial, plus a Free plan with 1 calendar and 1 booking page, and a 30-day money-back guarantee on paid plans (stated 2026-09-03)."
+
+# The page's default view was the "Billed 2 Years 20% off" option (the
+# displayed figures are exactly 80% of the monthly $9, $13 and $18), so
+# these are per-month rates on a two-year prepay, labelled biennial. Yearly
+# (10% off) and monthly figures were not displayed. Individual and
+# Professional are per account; Team is per member.
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    max_seats: 1
+    billing: monthly
+    provenance:
+      source_url: https://youcanbook.me/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$0 / month … 1 calendar connection, 1 booking page".'
+  - plan: Individual
+    base_monthly_usd: 7.2
+    per_seat_monthly_usd: 0
+    seat_label: user
+    max_seats: 1
+    billing: biennial
+    provenance:
+      source_url: https://youcanbook.me/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch, USD selected. "$7.20 / month" under the 2-year (20% off) option; 2 calendar connections, 2 booking pages.'
+  - plan: Professional
+    base_monthly_usd: 10.4
+    per_seat_monthly_usd: 0
+    seat_label: user
+    max_seats: 1
+    billing: biennial
+    provenance:
+      source_url: https://youcanbook.me/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$10.40 / month"; 6 calendar connections, 10 booking pages, single account.'
+  - plan: Team
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 14.4
+    seat_label: member
+    billing: biennial
+    provenance:
+      source_url: https://youcanbook.me/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$14.40 / member / month"; marked Most popular; 10 calendar connections and 15+ booking pages per user; 50+ members via sales.'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      YouCanBookMe offers a 30-day money-back guarantee on paid plans and
+      sells monthly, annual or two-year subscriptions, the longer terms at a
+      discount (2026-09-03).
+    quote: "We have a 30 day money back guarantee if you change your mind after signing up for one of our paid plans."
+    provenance:
+      source_url: https://youcanbook.me/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      YouCanBookMe's headline prices are its two-year prepay rates, 20% below
+      monthly; yearly prepay is 10% off and monthly is paid by credit card
+      (2026-09-03).
+    provenance:
+      source_url: https://youcanbook.me/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      YouCanBookMe's pricing page states no data-export terms (2026-09-03).
+    provenance:
+      source_url: https://youcanbook.me/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+findings:
+  - id: youcanbookme-two-year-prices
+    claim: >-
+      On 2026-09-03 YouCanBookMe displayed Individual at $7.20, Professional
+      at $10.40 and Team at $14.40 per member per month, its two-year prepay
+      rates (20% off monthly), as the default view.
+    provenance:
+      source_url: https://youcanbook.me/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: youcanbookme-discount-ladder
+    claim: >-
+      YouCanBookMe discounts 10% for a yearly prepay and 20% for a two-year
+      prepay against monthly credit-card billing (2026-09-03).
+    provenance:
+      source_url: https://youcanbook.me/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: youcanbookme-calendar-allowances
+    claim: >-
+      YouCanBookMe includes 1, 2, 6 or 10 calendar connections and 1, 2, 10
+      or 15+ booking pages across Free, Individual, Professional and Team
+      (2026-09-03).
+    provenance:
+      source_url: https://youcanbook.me/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: youcanbookme-money-back
+    claim: >-
+      YouCanBookMe backs paid plans with a 30-day money-back guarantee and a
+      2-week trial, against Calendly's pricing page, which states neither
+      (2026-09-03).
+    provenance:
+      source_url: https://youcanbook.me/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: youcanbookme-five-member-cost
+    claim: >-
+      At YouCanBookMe's two-year rate a 5-member team pays $72 per month on
+      Team, against $50 on Calendly Standard yearly and $27 flat on Acuity
+      Standard (2026-09-03).
+    provenance:
+      source_url: https://youcanbook.me/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch

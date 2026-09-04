@@ -1,0 +1,11 @@
+URL: https://www.acuityscheduling.com/pricing
+STATUS: 200
+FETCHED: 2026-09-03 23:57:14 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main>. Segmented control "Pay annually · Save 20%" has class active and aria-checked=true; "Pay monthly" aria-checked=false. Each card prints two figures (annual, then monthly). "All prices are in USD. Prices do not include applicable taxes."
+---
+Try any plan free for 7 days. 7-day trial, no credit card needed.
+Starter — $16/month [annual] / $20/month [monthly]. 1 calendar ("Use separate calendars per employee or location"). Payments via Stripe, Square, PayPal, Venmo; email reminders; custom client forms; automatic time zone conversion.
+Standard — $27/month [annual] / $34/month [monthly]. Up to 6 calendars. Adds text reminders, appointment waitlist, sell memberships and packages, sell gift certificates.
+Premium — $49/month [annual] / $61/month [monthly]. Up to 36 calendars. Adds sign BAA for HIPAA compliance, hide Acuity logo, multiple time zones for staff/locations, custom API and CSS.
+FAQ headings: Does Acuity offer a free trial? Do you offer a free plan? Can I pay annually? Is there a discount? Are there any hidden fees? Can I cancel at any time? Will my invoice be prorated? Do you have an Enterprise offering? (answers not in captured window).
+Meta description: "plans starting at $16/month".

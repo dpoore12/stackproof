@@ -1,0 +1,128 @@
+slug: calendly
+vendor: Calendly
+product: Calendly
+category: scheduling
+url: https://calendly.com/pricing
+free_trial: "Free plan with one event type; paid plans show no trial on the pricing page (2026-09-03)."
+
+# Per seat per month with the "Billing period" switch on Billed yearly
+# ("Save up to 20%") and the currency selector on USD. Only hosts need a
+# seat; invitees do not. Monthly-billing prices were not captured.
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: seat
+    billing: monthly
+    provenance:
+      source_url: https://calendly.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"Always free": one event type, one calendar connection, one-on-one scheduling.'
+  - plan: Standard
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 10
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://calendly.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: 'Browser-rendered fetch; "Billing period" switch aria-checked=true under "Billed yearly · Save up to 20%"; currency "$ USD". "$10/seat/mo … Save 17%".'
+  - plan: Teams
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 16
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://calendly.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"$16/seat/mo … Save 20%". Marked Popular plan. Round-robin, lead routing, Salesforce.'
+  - plan: Enterprise
+    compare: false
+    base_monthly_usd: 1250
+    per_seat_monthly_usd: 0
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://calendly.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+      note: '"Starts at $15k/yr. Starts at 50 seats. Available in USD only." Recorded as $15,000 / 12 per month for reference; excluded from the comparison.'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Calendly charges per seat only for people who connect calendars and
+      host meetings; invitees need no seat, and Enterprise starts at
+      $15,000 a year for 50 seats in USD only (2026-09-03).
+    quote: "Seats are required for users to connect calendars and host Calendly meetings - meeting invitees do not require a seat."
+    provenance:
+      source_url: https://calendly.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Calendly's pricing cards state no cancellation or refund terms
+      (2026-09-03); the FAQ section was not captured.
+    provenance:
+      source_url: https://calendly.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Calendly's pricing page lists a data deletion API on Enterprise and no
+      export terms for other plans (2026-09-03).
+    provenance:
+      source_url: https://calendly.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+
+findings:
+  - id: calendly-seat-prices-yearly
+    claim: >-
+      On 2026-09-03 Calendly listed Standard at $10 and Teams at $16 per
+      seat per month billed yearly, labelled as 17% and 20% savings over
+      monthly billing.
+    provenance:
+      source_url: https://calendly.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: calendly-enterprise-floor
+    claim: >-
+      Calendly Enterprise starts at $15,000 a year with a 50-seat minimum,
+      which is $25 per seat per month, and is sold in USD only (2026-09-03).
+    provenance:
+      source_url: https://calendly.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: calendly-calendar-connections
+    claim: >-
+      Calendly's Free plan connects 1 calendar and 1 event type; Standard
+      and above connect 6 calendars with unlimited event types (2026-09-03).
+    provenance:
+      source_url: https://calendly.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: calendly-notetaker-addon-tiers
+    claim: >-
+      Calendly's Notetaker and Callie AI features are excluded from Standard
+      and Teams and sold through "Standard Plus" and "Teams Plus" tiers whose
+      prices are not on the pricing cards, and only in English (2026-09-03).
+    provenance:
+      source_url: https://calendly.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch
+  - id: calendly-five-seat-cost
+    claim: >-
+      At Calendly's 2026-09-03 yearly rates 5 hosts cost $50 per month on
+      Standard or $80 on Teams, with round-robin routing only on Teams.
+    provenance:
+      source_url: https://calendly.com/pricing
+      fetched_at: 2026-09-03
+      method: live_fetch

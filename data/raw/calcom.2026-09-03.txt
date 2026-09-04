@@ -1,0 +1,10 @@
+URL: https://cal.com/pricing
+STATUS: 200
+FETCHED: 2026-09-03 23:59:11 +00:00
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main>. Cards labelled "YEARLY … Save 25%".
+---
+Individuals — Free, "Free forever", 1 user, unlimited event types & calendars, email & SMS notifications, 100+ apps, mobile app, browser extension, Stripe & PayPal payments, two-way Salesforce & HubSpot sync, 1-click Calendly import.
+Teams — YEARLY $12 per user/month, Save 25%. 14 day free trial. Free features plus 1 team with shared availability, round-robin, managed & collective event types, recurring events, custom notifications, remove Cal.com branding, routing forms, booking analytics, custom APIs.
+Organizations — YEARLY $28 per user/month, Save 25%. 14 day free trial. Teams features plus unlimited sub-teams, route by custom variables, company subdomain, SAML SSO and SCIM, SOC 2 / HIPAA / ISO 27001, instant meetings, domain-wide delegation, role-based permissions.
+Enterprise — Custom, "*Annual pricing". Dedicated onboarding, SLA & uptime guarantees, HRIS integrations, priority Slack support, dedicated database.
+Feature breakdown: Individual free forever; Teams $12 per month/user Save 25%; Organizations $28 per month/user Save 25%; Enterprise custom pricing.

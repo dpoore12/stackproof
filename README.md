@@ -119,8 +119,8 @@ container.
 
 Results on 2026-09-03: Pipedrive, Freshsales, Help Scout, Docusign, SignNow,
 Quo (formerly OpenPhone), RingCentral, Grasshopper, monday.com, ClickUp,
-Trello, Basecamp, LiveChat, Crisp, Olark and Intercom rendered with full
-prices (Intercom's odometer seat prices came from the widgets' `aria-label`
+Trello, Basecamp, LiveChat, Crisp, Olark, Intercom, Calendly, Acuity,
+YouCanBookMe, Cal.com and SavvyCal rendered with full prices (Intercom's odometer seat prices came from the widgets' `aria-label`
 attributes); Asana and Tidio rendered USD only
 on a US-side gateway (the German gateway serves EUR). HubSpot's pages render without price figures (loaded after render),
 and Dialpad's pricing page carries no plan prices at all. Zendesk and
