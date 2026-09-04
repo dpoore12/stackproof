@@ -1,0 +1,14 @@
+URL: https://toggl.com/track/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 00:22:47 +00:00 (German gateway 168.119.99.192), 00:23:08 (168.119.141.170), 00:23:34 (US gateway 68.183.149.30) — USD on every gateway
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main>. Billing switch is two styled <button>s "Annual" / "Monthly" under the label "3 months free"; a scripted click on Monthly did not re-render before the read, so only the default figures were captured. The Premium footnote ties the shown figures to the annual plan. FAQ bodies load on click and were not in the DOM, so only FAQ questions were captured.
+---
+Toggl Track Pricing — "Beyond automated time tracking: Boost productivity and profits". 3 months free — Annual / Monthly.
+Free — $0 — "Free for a limited number of users. Invite a limited number of people for free." Time tracking on web, desktop, mobile; 100+ integrations via browser extension; Google & Outlook calendar integrations; productivity reports.
+Starter — $9 per license per month — "Sign up for free. No credit card required to get started. Start 30-day trial." Everything in Free + billable rates, project time estimates and alerts, revenue and productivity analysis, team collaboration features, project tasks.
+Premium* (Best value) — $14 per license per month — "The first 30 days are free!" Everything in Starter + profitability analysis, fixed fee projects, scheduled reports, timesheet approvals, data accuracy features, fully customizable reports, Jira and Salesforce integrations, SSO.
+"* $14 per license per month applies to your first year of Premium annual, then renews at $18 per license per month."
+Enterprise — ~ Custom pricing. Turnkey solution. Personalised onboarding and dedicated customer success manager; multiple workspaces under one Organization; "Volume discounts for large teams on our annual plan".
+"Toggl Track's Free plan is free forever. Our 30-day trial has no strings attached."
+FAQ questions on the page (answers not captured): Is Toggl Track free for an unlimited number of users? How is the subscription fee calculated for paid plans? If I'm on a paid plan, do I need to buy a license for every member? Does Toggl Track offer discounts? If I sign up for a Free plan but exceed the user limit during my free Premium trial, what will happen once the 30 days are up? If I use your Premium features during the trial, what happens to all the data related to paid features once my Workspace downgrades to the Free plan?
+Full Plan Comparison sections: Automated Time Tracking, Personal Productivity, Team Collaboration, Billing/Invoicing/Profitability, Reports, Project Management, Team Management, Data Compliance and Quality, Integrations, Customer Success and Support.

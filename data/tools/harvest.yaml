@@ -1,0 +1,144 @@
+slug: harvest
+vendor: Harvest
+product: Harvest
+category: time_tracking
+url: https://www.getharvest.com/pricing
+free_trial: "30-day free trial with no credit card, plus a Free plan for 1 seat and 2 projects (stated 2026-09-04)."
+pricing_note: "Per-seat pricing with no base fee. Harvest says the seat rate covers core features and that additional invoices, projects, clients and tasks are billed on usage above an unstated allowance, so the compare figures are a floor. The page defaults to annual billing; the monthly rate is printed beside it."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 1
+    seat_label: seat
+    billing: monthly
+    provenance:
+      source_url: https://www.getharvest.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free … $0 forever … 1 seat, 2 projects".'
+  - plan: Teams
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 9
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://www.getharvest.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch; "All prices in USD". "Teams … starting from $9 seat/month, $108 per seat, billed annually". Toggle "Annual 20% off".'
+  - plan: Teams (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 11
+    seat_label: seat
+    billing: monthly
+    provenance:
+      source_url: https://www.getharvest.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"starting from $11 seat/month" on monthly billing.'
+  - plan: Enterprise
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 14
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://www.getharvest.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Enterprise … starting from $14 seat/month, $168 per seat, billed annually". SAML SSO, timesheet approvals, profitability reporting.'
+  - plan: Enterprise (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 17.5
+    seat_label: seat
+    billing: monthly
+    provenance:
+      source_url: https://www.getharvest.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"starting from $17.50 seat/month" on monthly billing.'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Harvest charges a prorated amount for seats added mid-cycle, does not
+      allow seat removal until the cycle ends, and offers ACH or bank
+      transfer invoicing only for 10 or more seats paid yearly (2026-09-04).
+    quote: "While you can’t remove seats during your current billing cycle, you can indicate inside your account if you’d like your yearly or monthly plan to renew with fewer seats."
+    provenance:
+      source_url: https://www.getharvest.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_retention
+    status: stated
+    finding: >-
+      Harvest deactivates an unconverted trial after 30 days but keeps the
+      data for a later return (2026-09-04).
+    quote: "Even though your trial account will be deactivated, we won’t delete your data."
+    provenance:
+      source_url: https://www.getharvest.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Harvest lets an admin change plans at any time, with upgrades
+      immediate and downgrades scheduled for the next cycle; the FAQ gives
+      no terms for full cancellation or refunds (2026-09-04).
+    quote: "you can choose to either immediately upgrade to the premium plan, or schedule a downgrade to the pro plan"
+    provenance:
+      source_url: https://www.getharvest.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Harvest's pricing page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://www.getharvest.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: harvest-usage-based-extras
+    claim: >-
+      Harvest's Teams and Enterprise cards say the seat rate covers core
+      features and that additional invoices, projects, clients and tasks
+      are billed on usage, without stating the included allowance or the
+      overage price on the pricing page (2026-09-04).
+    provenance:
+      source_url: https://www.getharvest.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: harvest-annual-discount
+    claim: >-
+      Harvest's annual prepay saves 20%: Teams drops from $11 to $9 per seat
+      a month ($108 a year) and Enterprise from $17.50 to $14 ($168 a year)
+      (2026-09-04).
+    provenance:
+      source_url: https://www.getharvest.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: harvest-free-plan-limits
+    claim: >-
+      Harvest's Free plan allows 1 seat and 2 projects; the FAQ says a
+      trial account can switch to it only while it meets those requirements
+      (2026-09-04).
+    provenance:
+      source_url: https://www.getharvest.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: harvest-plan-name-drift
+    claim: >-
+      Harvest's plan cards are named Teams and Enterprise but its FAQ still
+      refers to upgrading to "the premium plan" and downgrading to "the pro
+      plan", 2 names that no longer appear on the cards (2026-09-04).
+    provenance:
+      source_url: https://www.getharvest.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

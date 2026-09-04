@@ -1,0 +1,17 @@
+URL: https://www.timecamp.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 00:29:13 +00:00 (US gateway 68.183.60.80); an earlier fetch at 00:28:37 on German gateway 168.119.99.191 hit inline script text (its first "$" was inside a template literal) and was re-run by heading
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed) sliced from the "TimeCamp pricing plans" heading. Cards print both the annual per-user rate and the month-to-month rate.
+---
+TimeCamp pricing plans — Start your free trial — Unlimited users, Unlimited projects, Works on every platform.
+Starter — Time & Billing — $3.99 /mo — "$3.99 per user billed annually or $5.49 month-to-month". All Free features plus AI Time Tracker (billed by token usage; "Estimated token usage is about $6 per user/month for time entry suggestions. Free trial includes $10 in credits."), attendance calendar, invoicing, Excel reports export, time-off, unlimited tasks, overtime tracking, decimal format, bulk edit, add time for others, project templates.
+Premium — Profit & Productivity — $6.99 /mo — "$6.99 per user billed annually or $9.99 month-to-month". All Starter features plus resource planner, billable time, budget & estimates, apps & websites tracking, management roles, one integration, private time, scheduled email reports, budgeting alerts, hide time and pages, time rounding.
+Ultimate (Most popular) — Analytics & Collaboration — $9.99 /mo — "$9.99 per user billed annually or $13.99 month-to-month". All Premium features plus data export, custom fields, remote work detection, timesheet approvals, billing rates, expenses, pivot table, screenshots, unlimited integrations, labor costs, fixed fee projects, SSO login, time entry history, custom user roles, mandatory tags, historical billing rates.
+Enterprise — Management & Security — On Request — self-hosted deployment, private cloud, custom integrations, audit log, data warehouse access, user directory sync.
+Free — Easy & Free — $0 Free forever plan — timesheets, web/desktop/mobile apps, unlimited projects, unlimited users, 2-factor authentication, AI Time Tracker billed by token usage.
+Compare table header: Free $0.00 (Free forever plan); Starter $3.99 ($5.49 billed monthly per user); Premium $6.99 ($9.99 billed monthly per user); Ultimate $9.99 ($13.99 billed monthly per user); Enterprise Contact sales.
+FAQ — What forms of payment do you accept? "We accept all major credit cards - Visa, Mastercard, American Express, PayPal. We also accept wire transfers and check that cover annual payments over $2000."
+FAQ — Can I change my plan? "You can switch plans, change the number of seats, upgrade or cancel your subscription any time you want or during the billing period, without any consequences. Additional charges will be automatically prorated. According to our policy, we do not grant any refunds."
+FAQ — Do you offer discounts? "You can contact us for a discount on larger volumes of seats (more than 50) or for multi-year billing."
+FAQ — Non-profits: "We offer an additional 30% discount for non-profits, universities, students and schools."
+FAQ — On-premise: "We offer this solution to customers with 50+ users on annual Ultimate Plan."

@@ -1,0 +1,164 @@
+slug: timecamp
+vendor: TimeCamp
+product: TimeCamp
+category: time_tracking
+url: https://www.timecamp.com/pricing/
+free_trial: "Free trial of paid plans with $10 of AI credits, plus a Free forever plan with unlimited users and projects (stated 2026-09-04)."
+pricing_note: "Per-user pricing with no base fee; annual and month-to-month rates are both printed on each card. The AI Time Tracker on every plan, including Free, is metered by token usage, which TimeCamp estimates at about $6 per user a month for time-entry suggestions."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.timecamp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free — Easy & Free — $0 Free forever plan … Unlimited projects, Unlimited users".'
+  - plan: Starter
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 3.99
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.timecamp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch on a US gateway. "Starter … $3.99 per user billed annually or $5.49 month-to-month".'
+  - plan: Starter (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 5.49
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.timecamp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$5.49 month-to-month".'
+  - plan: Premium
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 6.99
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.timecamp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Premium … $6.99 per user billed annually or $9.99 month-to-month".'
+  - plan: Premium (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 9.99
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.timecamp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$9.99 month-to-month".'
+  - plan: Ultimate
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 9.99
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.timecamp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Ultimate … $9.99 per user billed annually or $13.99 month-to-month". Marked Most popular.'
+  - plan: Ultimate (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 13.99
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.timecamp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$13.99 month-to-month".'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      TimeCamp lets a subscription be changed or cancelled at any time in the
+      billing period with prorated charges for additions, and grants no
+      refunds (2026-09-04).
+    quote: "You can switch plans, change the number of seats, upgrade or cancel your subscription any time you want or during the billing period, without any consequences."
+    provenance:
+      source_url: https://www.timecamp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: stated
+    finding: >-
+      TimeCamp's FAQ states a no-refund policy (2026-09-04).
+    quote: "According to our policy, we do not grant any refunds."
+    provenance:
+      source_url: https://www.timecamp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: stated
+    finding: >-
+      TimeCamp lists Excel reports export from Starter and a "Data export"
+      feature from Ultimate, but states no post-cancellation export terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.timecamp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      TimeCamp takes cards and PayPal, and wire transfer or cheque only for
+      annual payments over $2,000; discounts are negotiated above 50 seats or
+      for multi-year billing (2026-09-04).
+    provenance:
+      source_url: https://www.timecamp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: timecamp-ai-metered-usage
+    claim: >-
+      TimeCamp's AI Time Tracker is billed by token usage on every plan,
+      including Free, with an estimated cost of about $6 per user a month
+      for time-entry suggestions and $10 of credits in the trial
+      (2026-09-04).
+    provenance:
+      source_url: https://www.timecamp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: timecamp-annual-discount
+    claim: >-
+      TimeCamp's annual rates are 27% to 30% below month-to-month: Starter
+      $3.99 against $5.49, Premium $6.99 against $9.99 and Ultimate $9.99
+      against $13.99 per user (2026-09-04).
+    provenance:
+      source_url: https://www.timecamp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: timecamp-free-unlimited-users
+    claim: >-
+      TimeCamp's Free plan allows unlimited users and projects with
+      timesheets and 2-factor authentication, against Clockify's 4-user cap
+      and Harvest's 1-seat cap (2026-09-04).
+    provenance:
+      source_url: https://www.timecamp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: timecamp-nonprofit-discount
+    claim: >-
+      TimeCamp offers a 30% discount for non-profits, universities, students
+      and schools, and on-premise hosting only for 50 or more users on an
+      annual Ultimate plan (2026-09-04).
+    provenance:
+      source_url: https://www.timecamp.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

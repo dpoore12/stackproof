@@ -1,0 +1,183 @@
+slug: hubstaff
+vendor: Hubstaff
+product: Hubstaff
+category: time_tracking
+url: https://hubstaff.com/pricing
+free_trial: "14-day free trial, no credit card, plus a 30-day money-back guarantee on paid plans (stated 2026-09-04)."
+pricing_note: "Per-seat pricing with a 2-seat minimum on Starter, Grow and Team, modelled as a base fee covering 2 seats. The page defaults to annual billing ('2 months free') and the monthly switch did not re-render in the automated fetch, so only annual rates are recorded. Several features are paid add-ons per seat."
+
+tiers:
+  - plan: Starter
+    base_monthly_usd: 9.98
+    per_seat_monthly_usd: 4.99
+    included_seats: 2
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://hubstaff.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch. "Starter $4.99 / seat / mo — 2 seat minimum" on the "Annual (2 months free)" switch. Base fee is the 2-seat minimum (2 × $4.99).'
+  - plan: Grow
+    base_monthly_usd: 15
+    per_seat_monthly_usd: 7.5
+    included_seats: 2
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://hubstaff.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Grow $7.50 / seat / mo — 2 seat minimum". Base fee is the 2-seat minimum.'
+  - plan: Team
+    base_monthly_usd: 20
+    per_seat_monthly_usd: 10
+    included_seats: 2
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://hubstaff.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Team $10 / seat / mo — 2 seat minimum". Marked Popular. Insights add-on on a 3-month trial.'
+  - plan: Enterprise
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 25
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://hubstaff.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Enterprise $25 / seat / mo — Billed annually". Silent app, Locations, Insights and Tasks included; HIPAA, SOC-2, SCIM.'
+
+fees:
+  - name: Insights add-on
+    amount_usd: 2.5
+    unit: per seat per month
+    applies_to: Starter and Grow (3-month trial on Team, included on Enterprise)
+    provenance:
+      source_url: https://hubstaff.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Insights $2.50 / seat / mo" in the add-ons table; "Starts at $2.5 seat/annual rate".'
+  - name: More screenshots add-on
+    amount_usd: 2.5
+    unit: per seat per month
+    applies_to: All plans
+    provenance:
+      source_url: https://hubstaff.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"More screenshots $2.50 / seat / mo" on every column; up to 10 screenshots every 10 minutes.'
+  - name: Data retention add-on
+    amount_usd: 1.67
+    unit: per seat per month
+    applies_to: All plans
+    provenance:
+      source_url: https://hubstaff.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Data retention $1.67 / seat / mo"; extends retention to 6 years.'
+  - name: Locations add-on
+    amount_usd: 3.33
+    unit: per seat per month
+    applies_to: Team only (not available on Starter or Grow; included on Enterprise)
+    provenance:
+      source_url: https://hubstaff.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Locations — Not available / Not available / $3.33 / seat / mo / Included".'
+  - name: Silent app add-on
+    amount_usd: 2.5
+    unit: per seat per month
+    applies_to: Starter, Grow and Team (included on Enterprise)
+    provenance:
+      source_url: https://hubstaff.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Silent app $2.50 / seat / mo".'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Hubstaff cancels a subscription on request to support or when the
+      organization is archived; removed seats earn no prorated refund or
+      credit (2026-09-04).
+    quote: "Archive the organization associated with your subscription. Doing so will automatically cancel your subscription."
+    provenance:
+      source_url: https://hubstaff.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: stated
+    finding: >-
+      Hubstaff refunds on request within 30 days of starting a paid plan,
+      but not for individual users removed from a plan (2026-09-04).
+    quote: "we offer a 30-day money-back guarantee, excluding our 14-day free trial"
+    provenance:
+      source_url: https://hubstaff.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Hubstaff prorates seats added mid-term on annual plans ($60 for a
+      $10 seat added in July of a January cycle) but charges the full
+      monthly rate with no proration for seats added on monthly plans
+      (2026-09-04).
+    quote: "If you add users to your monthly plan, they will be charged the full monthly rate for that billing cycle, with no proration."
+    provenance:
+      source_url: https://hubstaff.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Hubstaff's pricing page states no data-export terms; it sells a
+      6-year data-retention add-on at $1.67 per seat (2026-09-04).
+    provenance:
+      source_url: https://hubstaff.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: hubstaff-two-seat-minimum
+    claim: >-
+      Hubstaff's Starter, Grow and Team plans carry a 2-seat minimum, so a
+      solo user pays $9.98 a month on Starter on annual billing, and every
+      member who tracks time needs a paid seat (2026-09-04).
+    provenance:
+      source_url: https://hubstaff.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: hubstaff-addon-stack
+    claim: >-
+      Hubstaff sells Insights, More screenshots, Silent app ($2.50 each),
+      Data retention ($1.67) and Locations ($3.33) as per-seat monthly
+      add-ons, so a Starter seat with 3 add-ons costs more than a Team seat
+      (2026-09-04).
+    provenance:
+      source_url: https://hubstaff.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: hubstaff-vip-support-fees
+    claim: >-
+      Hubstaff charges $29 a month per organization for "Enhanced" VIP
+      support on subscriptions of $275 to $400 a month and $59 for "The
+      works" above $400 (2026-09-04).
+    provenance:
+      source_url: https://hubstaff.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: hubstaff-screenshot-caps
+    claim: >-
+      Hubstaff caps screenshots and app/URL tracking at 500 per seat a
+      month on Starter and 1,500 on Grow, with Team unlimited; email
+      support SLAs run 2 days, 1 day, 1 day and 2 hours by plan
+      (2026-09-04).
+    provenance:
+      source_url: https://hubstaff.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
