@@ -1,0 +1,149 @@
+slug: zoho-recruit
+vendor: Zoho
+product: Zoho Recruit
+category: recruiting
+url: https://www.zoho.com/recruit/pricing.html
+free_trial: "15-day trial of Enterprise features, then a Free plan with 1 active job per recruiter; 45-day money-back guarantee on paid plans (stated 2026-09-04)."
+pricing_note: "Priced per recruiter licence with employee or hiring-manager licences sold as an add-on in packs of 10, so the tiers are not compared on the category's employee-count axis. Only yearly rates rendered; the monthly rates behind the 'Save up to 16%' tab were not captured. The page states both that prices include local taxes and that local taxes are charged on top."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: recruiter
+    billing: monthly
+    provenance:
+      source_url: https://www.zoho.com/recruit/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"FREE US$0 Forever Free — 1 active job/ recruiter license". Add-ons not supported on Free.'
+  - plan: Standard
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 25
+    seat_label: recruiter
+    billing: annual
+    provenance:
+      source_url: https://www.zoho.com/recruit/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch on a US gateway, USD selected, Yearly tab active. "Standard US$25/recruiter/month billed annually — 10 active jobs/ recruiter license".'
+  - plan: Enterprise
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 50
+    seat_label: recruiter
+    billing: annual
+    provenance:
+      source_url: https://www.zoho.com/recruit/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Enterprise US$50/recruiter/month billed annually — 20 active jobs/ recruiter license".'
+
+fees:
+  - name: Employee / hiring-manager licence
+    amount_usd: 8.34
+    unit: per licence per month, billed annually, packs of 10 only
+    applies_to: Standard and Enterprise
+    provenance:
+      source_url: https://www.zoho.com/recruit/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Employee License US$8.34/month Billed Annually … Licenses can be used by the employees or hiring managers. Can be purchased as packs of 10 only."'
+  - name: Vendor Portal
+    amount_usd: 6
+    unit: per month, billed annually
+    applies_to: Standard and Enterprise
+    provenance:
+      source_url: https://www.zoho.com/recruit/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Vendor Portal US$6/month Billed Annually".'
+  - name: Video Interviews
+    amount_usd: 12
+    unit: per job opening
+    applies_to: Standard and Enterprise
+    provenance:
+      source_url: https://www.zoho.com/recruit/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Video Interviews US$12/job opening".'
+
+clauses:
+  - topic: refund
+    status: stated
+    finding: >-
+      Zoho Recruit refunds 100% within 45 days of a paid signup and offers
+      pro-rated refunds after that (2026-09-04).
+    quote: "If you aren't happy with your purchase after 45 days, get 100% of your money back. If you go beyond 45 days, there are still options for a pro-rated refund."
+    provenance:
+      source_url: https://www.zoho.com/recruit/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Zoho Recruit advertises "No forced contracts" and lets plans be
+      upgraded or downgraded at any time inside the app (2026-09-04).
+    quote: "You can upgrade or downgrade your plans at any time from directly inside the app."
+    provenance:
+      source_url: https://www.zoho.com/recruit/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_retention
+    status: stated
+    finding: >-
+      Zoho Recruit moves an expired trial to the Free plan and keeps the
+      data rather than deleting it (2026-09-04).
+    quote: "After the 15-day fully-featured trial, you will be moved to our Free Plan. You will still be able to use your apps and your data will not be lost."
+    provenance:
+      source_url: https://www.zoho.com/recruit/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Zoho Recruit's pricing page states no data-export terms; migration in
+      is a separately priced service (2026-09-04).
+    provenance:
+      source_url: https://www.zoho.com/recruit/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: zoho-recruit-employee-licence-packs
+    claim: >-
+      Zoho Recruit charges $8.34 a month per employee or hiring-manager
+      licence on annual billing, sold only in packs of 10, on top of $25 or
+      $50 per recruiter (2026-09-04).
+    provenance:
+      source_url: https://www.zoho.com/recruit/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: zoho-recruit-tax-statement-conflict
+    claim: >-
+      Zoho Recruit's pricing page states in 1 sentence that prices include
+      local taxes and in the next that local taxes such as VAT and GST are
+      charged in addition (2026-09-04).
+    provenance:
+      source_url: https://www.zoho.com/recruit/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: zoho-recruit-job-caps
+    claim: >-
+      Zoho Recruit caps active jobs per recruiter licence at 1 on Free, 10
+      on Standard and 20 on Enterprise, with video interviews billed at $12
+      per job opening (2026-09-04).
+    provenance:
+      source_url: https://www.zoho.com/recruit/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: zoho-recruit-referral-credit
+    claim: >-
+      Zoho Recruit pays referrers 15% of a referred subscription as Zoho
+      Wallet credits usable against their own subscription (2026-09-04).
+    provenance:
+      source_url: https://www.zoho.com/recruit/pricing.html
+      fetched_at: 2026-09-04
+      method: live_fetch

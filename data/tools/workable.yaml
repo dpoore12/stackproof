@@ -1,0 +1,160 @@
+slug: workable
+vendor: Workable
+product: Workable
+category: recruiting
+url: https://www.workable.com/pricing
+free_trial: "15-day free trial of the Standard feature set, no credit card; the trial excludes the AI agent (stated 2026-09-04)."
+pricing_note: "Flat plan fee per company, priced by an employee-count band. The page rendered the default 1 to 20 employee band, so the tiers are capped at 20 employees; larger bands are priced by a dropdown that was not selected. The yearly totals printed beside the monthly figures equal 12 times the monthly figure, so the annual discount is not shown at this band."
+
+tiers:
+  - plan: Standard (1-20 employees)
+    base_monthly_usd: 299
+    per_seat_monthly_usd: 0
+    max_seats: 20
+    seat_label: employee
+    billing: monthly
+    provenance:
+      source_url: https://www.workable.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch at the default "1 - 20 employees" band. "Standard … $299/month $3,588/year". Texting +$89/mo, video interviews +$109/mo, assessments +$59/mo are add-ons.'
+  - plan: Premier (1-20 employees)
+    base_monthly_usd: 599
+    per_seat_monthly_usd: 0
+    max_seats: 20
+    seat_label: employee
+    billing: annual
+    provenance:
+      source_url: https://www.workable.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Premier … $599/month $7,188/year Pay annually". Texting, video interviews, assessments, referrals and Performance & Engagement included.'
+  - plan: Enterprise (1-20 employees)
+    base_monthly_usd: 719
+    per_seat_monthly_usd: 0
+    max_seats: 20
+    seat_label: employee
+    billing: annual
+    provenance:
+      source_url: https://www.workable.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Enterprise … $719/month $8,628/year Pay annually". SSO and priority support.'
+
+fees:
+  - name: Texting add-on
+    amount_usd: 89
+    unit: per month
+    applies_to: Standard (included on Premier and Enterprise)
+    provenance:
+      source_url: https://www.workable.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Addons Texting + $89/mo".'
+  - name: Video interviews add-on
+    amount_usd: 109
+    unit: per month
+    applies_to: Standard
+    provenance:
+      source_url: https://www.workable.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Video interviews + $109/mo".'
+  - name: Assessments add-on
+    amount_usd: 59
+    unit: per month
+    applies_to: Standard
+    provenance:
+      source_url: https://www.workable.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Assessments + $59/mo".'
+  - name: Performance & Engagement add-on
+    amount_usd: 39
+    unit: per month
+    applies_to: Standard
+    provenance:
+      source_url: https://www.workable.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Performance & Engagement + $39/mo".'
+  - name: Workable Agent AI credits
+    amount_usd: 0.12
+    unit: per credit in a 5,000-credit bundle ($600); $0.10 at 10,000 and $0.095 at 50,000
+    applies_to: All plans, after 3,000 free credits
+    provenance:
+      source_url: https://www.workable.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"5,000 AI credits $0.12/credit $600 total; 10,000 AI credits $0.10/credit $1,000 total; 50,000 AI credits $0.095/credit $4,750 total". Evaluate 1 credit, Source 2, Chat 10.'
+
+clauses:
+  - topic: refund
+    status: stated
+    finding: >-
+      Workable's AI credits are non-refundable and expire 1 year from
+      purchase; no refund terms are given for the plans themselves
+      (2026-09-04).
+    quote: "AI credits expire 1 year from purchase. Non-refundable."
+    provenance:
+      source_url: https://www.workable.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: stated
+    finding: >-
+      Workable lists "Data export capabilities" and "Candidate data
+      retention rules" among features in all plans, without stating a
+      post-cancellation export window (2026-09-04).
+    provenance:
+      source_url: https://www.workable.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Workable's pricing page states no cancellation terms (2026-09-04).
+    provenance:
+      source_url: https://www.workable.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: workable-employee-band-pricing
+    claim: >-
+      Workable prices by company size in 9 employee bands from 1-20 to
+      1000+, with the 1-20 band at $299 (Standard), $599 (Premier) and
+      $719 (Enterprise) a month; Premier and Enterprise are annual-only
+      (2026-09-04).
+    provenance:
+      source_url: https://www.workable.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: workable-addon-stack
+    claim: >-
+      Workable's Standard plan sells texting ($89), video interviews ($109),
+      assessments ($59) and performance ($39) as monthly add-ons worth $296
+      combined, which is roughly the $300 gap to Premier (2026-09-04).
+    provenance:
+      source_url: https://www.workable.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: workable-ai-credit-pricing
+    claim: >-
+      Workable's AI agent charges 1 credit per candidate evaluation, 2 per
+      sourced candidate and 10 per candidate chat; credits cost $0.095 to
+      $0.12 each in bundles of 5,000 to 50,000 after 3,000 free ones
+      (2026-09-04).
+    provenance:
+      source_url: https://www.workable.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: workable-annual-total-equals-monthly
+    claim: >-
+      Workable's cards advertise "SAVE 20%" on annual billing but the
+      yearly totals printed at the 1-20 band ($3,588, $7,188, $8,628) are
+      exactly 12 times the monthly figures (2026-09-04).
+    provenance:
+      source_url: https://www.workable.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

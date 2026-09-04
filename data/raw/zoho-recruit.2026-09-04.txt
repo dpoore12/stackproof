@@ -1,0 +1,18 @@
+URL: https://www.zoho.com/recruit/pricing.html
+STATUS: 200
+FETCHED: 2026-09-04 00:44:16 +00:00 (US gateway 68.183.54.131; currency selector USD=true)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed). Tabs: Monthly=false / Yearly=true ("Yearly - Save up to 16%"); only the yearly per-recruiter rates rendered.
+---
+"Get ready for your next great hire — No forced contracts, 15-day free trial, 45-day money-back guarantee." USD. Monthly / Yearly (Save up to 16%).
+FREE — US$0 Forever Free — 1 active job / recruiter license — candidate management, email management, interview scheduling, 8/5 support.
+Standard — US$25 /recruiter/month billed annually — 10 active jobs / recruiter license — candidate sourcing, resume management, premium job boards, branded careers site, employee referrals, social recruiting, assessments, hiring pipeline, standard reports, 50+ integrations. "Includes AI".
+Enterprise — US$50 /recruiter/month billed annually — 20 active jobs / recruiter license — AI candidate matching, candidate & staffing portals, Blueprint, advanced customization, territory management, recruitment automation, advanced analytics, custom reports, SMS & Phonebridge, auto responders, field-level security, Google Meet and Teams integrations.
+"Prices mentioned are inclusive of local taxes. Local taxes (VAT, GST, etc.) will be charged in addition to the prices mentioned." (both sentences appear on the page)
+Add-ons: Employee License US$8.34/month billed annually — "Licenses can be used by the employees or hiring managers. Can be purchased as packs of 10 only." Vendor Portal US$6/month billed annually. Video Interviews US$12/job opening. "*Add-ons are not supported in the Free Edition."
+Pricing Calculator (Your plan Standard/Enterprise, No of Recruiters, No of Hiring Manager/Employees — packs of 10): rendered "Your Price US$258.33/month billed annually" at its default inputs (inputs not captured).
+FAQ — 15-day free trial: "you will be able to access all the Enterprise features of Zoho Recruit free for 15 days. After the 15-day fully-featured trial, you will be moved to our Free Plan. You will still be able to use your apps and your data will not be lost."
+FAQ — 45-day money-back guarantee: "If you aren't happy with your purchase after 45 days, get 100% of your money back. If you go beyond 45 days, there are still options for a pro-rated refund."
+FAQ — Payment: Visa, MasterCard, American Express, PayPal; bank or check transfer for yearly subscriptions.
+FAQ — Can I switch or edit my plan? "You can upgrade or downgrade your plans at any time from directly inside the app."
+FAQ — Premium Support does not include data migration; migration priced separately.
+Refer a recruiter: 15% of their subscription fee as Zoho Wallet Credits.
