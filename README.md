@@ -366,6 +366,39 @@ annual plans are both captured as direct-quote clauses — the kind of
 buyer-protective-or-not fine print this dataset exists to surface.
 Database is now 128 tools across 27 categories.
 
+### Performance management, OKRs & recognition (2026-09-04)
+
+Five vendors: Lattice, 15Five, PerformYard, Bonusly, Matter. Two of the
+five (Bonusly, Matter) are peer-recognition/engagement products rather
+than pure performance-review tools, included because Lattice and
+15Five both bundle the same "engagement" concept into their core
+packages — this is one buying category in practice, not two. Seat axis
+is "employees in the review/engagement program" (25, 50, 100, 250,
+500), sized larger than most categories since formal performance
+programs are typically an established-company purchase.
+
+Two vendors originally targeted turned out to be dead ends and were
+dropped: Leapsome's pricing page is an interactive cost estimator whose
+output ("Estimated cost: No features selected") was never filled in,
+with its FAQ directing everyone to "reach out to get a quote"; Culture
+Amp's page is pure "Request a quote" with no dollar figure anywhere —
+the same enterprise-sales pattern that has sunk several categories this
+session. Nectar was tried as a substitute and hit the identical
+quote-gated wall.
+
+Data-quality notes: Lattice enforces a real $4,000/year minimum
+contract spend, which would understate cost for any team under about
+26 seats on its $13/seat Foundations bundle if ignored — it's encoded
+directly into the tier's price formula (base + per-seat, with included
+seats set to the exact breakeven point) rather than left as a caveat
+nobody reads. PerformYard prints only a "$5–15 per person/month" range
+from an interactive calculator with no resolvable single number, so
+its tiers are recorded at the range's ceiling and marked non-comparable
+rather than guessing a point inside it. Lattice's own FAQ also
+contradicts its own pricing cards — one answer states Performance costs
+"$8/month," while the page's own product card prices it at $10/seat —
+recorded as a finding. Database is now 133 tools across 28 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

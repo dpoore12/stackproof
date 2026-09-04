@@ -1,0 +1,89 @@
+slug: 15five
+vendor: 15Five
+product: 15Five (Total Platform)
+category: performance_management
+url: https://www.15five.com/pricing/
+free_trial: "No self-serve free trial found; plans are purchased after a demo/sales conversation, though list prices are published (2026-09-04)."
+pricing_note: "15Five's FAQ states standard packages have no minimum spend and are \"designed to be flexible for organizations of all sizes,\" unlike Lattice. Total Platform (Engage + Perform combined, plus HR Dashboard and manager training microlearnings) is used as the primary tier; Engage and Perform are also sold standalone and are recorded as reference-only tiers."
+
+tiers:
+  - plan: Total Platform
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 16
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.15five.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Total Platform. $16 per user per month (billed annually). Engage and Perform plus the HR Dashboard, select microlearnings, and more to empower manager effectiveness."'
+  - plan: Perform (standalone, reference)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 11
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.15five.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Perform. $11 per user per month (billed annually). Performance management that fosters continuous feedback and strengthens manager effectiveness." Includes AMAYA, Insights Dashboard, AI-Assisted Performance Reviews, OKRs & Goals, 360 Feedback, Talent Matrix, Career Paths & Plans.'
+  - plan: Engage (standalone, reference)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 4
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.15five.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Engage. $4 per user per month (billed annually). Identify and eliminate the drivers of disengagement that have the biggest impact on your business." Employee Engagement Surveys, Targeted Assessments, Action Planning, Heat Maps & Data Breakdowns, Benchmarking.'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "15Five’s contract is billed annually."
+    finding: >-
+      15Five bills every contract annually per its pricing FAQ
+      (2026-09-04).
+    provenance:
+      source_url: https://www.15five.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      15Five's pricing FAQ states no cancellation terms (2026-09-04).
+    provenance:
+      source_url: https://www.15five.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      15Five's pricing FAQ states no refund terms (2026-09-04).
+    provenance:
+      source_url: https://www.15five.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: 15five-no-minimum-spend
+    claim: >-
+      15Five's FAQ states, "Our standard packages are designed to be
+      flexible for organizations of all sizes," with no stated minimum
+      contract value (2026-09-04).
+    provenance:
+      source_url: https://www.15five.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: 15five-scale-anytime
+    claim: >-
+      15Five's FAQ states customers "can add seats, expand modules, or
+      upgrade your package as your needs evolve," at any point in the
+      contract (2026-09-04).
+    provenance:
+      source_url: https://www.15five.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

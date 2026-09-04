@@ -1,0 +1,136 @@
+slug: bonusly
+vendor: Bonusly (Smartly, Inc)
+product: Bonusly
+category: performance_management
+url: https://www.bonusly.com/pricing
+free_trial: "30-day free trial of the Team plan (with Bizy AI included), no credit card required; unselected trials fall back to the free Free plan (2026-09-04)."
+pricing_note: "Bonusly is primarily a peer-recognition and engagement product with 1:1s, check-ins, and performance recaps bundled in -- included here because Lattice and 15Five both bundle the same \"engagement\" concept into their core performance-management packages, so this dataset treats recognition/engagement as part of the same buying category. The Team plan is sold in two variants: with Bizy AI (the default, $5/month billed monthly or $50/year billed annually) or without it ($3/month billed monthly or $30/year billed annually) -- both are real, independently purchasable options, so both are recorded as comparable tiers. There is no seat limit stated on any paid plan."
+
+tiers:
+  - plan: Team without Bizy (annual)
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 2.50
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.bonusly.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Team plan available without Bizy AI for $3/user/month or $30/user paid annually." $30/year = $2.50/month. Unlimited seats, advanced pulse check analytics, automated milestone celebrations, HRIS integrations, 24/7 chat support, enhanced 1:1s, performance recaps.'
+  - plan: Team without Bizy (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 3
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.bonusly.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$3/user/month" billed monthly, versus $30/user/year ($2.50/month) billed annually.'
+  - plan: Team + Bizy (annual)
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 4.17
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.bonusly.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Team: ... Annual: $50/user/year." $50/year = $4.17/month. Includes Bizy AI recognition sidekick on top of everything in Team without Bizy.'
+  - plan: Team + Bizy (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 5
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.bonusly.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Team + Bizy. $5/user/month*." *New customers only. Billed monthly, versus $50/user/year billed annually.'
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 8
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.bonusly.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free. For small teams trying out structured recognition. $0 forever." Up to 8 users, peer recognition and guidance, Slack and Teams integrations, iOS and Android apps.'
+  - plan: Organization
+    compare: false
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.bonusly.com/pricing
+      fetched_at: 2026-09-04
+      method: not_available
+      note: '"Organization + Bizy. For companies running recognition at scale. Custom Pricing." No price published.'
+
+fees:
+  - name: Bizy AI (standalone add-on beyond what's bundled)
+    amount_usd: 2
+    unit: per user, per month
+    provenance:
+      source_url: https://www.bonusly.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "All our plans are billed annually, providing a full year of engagement and recognition for your team."
+    finding: >-
+      Bonusly describes its plans as billed annually in its FAQ, though
+      the pricing page itself also shows a monthly-billing toggle with
+      its own listed rate (2026-09-04).
+    provenance:
+      source_url: https://www.bonusly.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: stated
+    quote: "You'll pay face value for rewards when employees redeem from the Bonusly Reward Catalog—for example, a $10 Amazon gift card costs you $10... you'll never pay for unused funds."
+    finding: >-
+      Bonusly states customers never pay for unused reward funds, since
+      rewards are billed at face value only when redeemed (2026-09-04).
+    provenance:
+      source_url: https://www.bonusly.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Bonusly's pricing FAQ states no subscription-cancellation terms
+      beyond its reward-funding policy (2026-09-04).
+    provenance:
+      source_url: https://www.bonusly.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: bonusly-no-seat-limit
+    claim: >-
+      Bonusly's FAQ states, "No. Our plans are designed to scale,
+      accommodating teams of all sizes without any user limits," on
+      every paid plan (2026-09-04).
+    provenance:
+      source_url: https://www.bonusly.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: bonusly-rewards-billed-separately
+    claim: >-
+      Bonusly bills reward redemptions (e.g. gift cards) separately from
+      the subscription at face value, with no markup and no charge for
+      unredeemed budget (2026-09-04).
+    provenance:
+      source_url: https://www.bonusly.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

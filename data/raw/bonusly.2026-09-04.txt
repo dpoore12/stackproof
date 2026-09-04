@@ -1,0 +1,12 @@
+URL: https://www.bonusly.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 14:48:07 +00:00 (US gateway 68.183.149.129; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText.
+---
+Toggle: "Annual, 2 months free! / Monthly." Free — "For small teams trying out structured recognition. $0 forever." Up to 8 users, peer recognition and guidance, Slack and Teams integrations, iOS and Android apps.
+Team + Bizy (Most popular) — "For teams that want recognition woven into daily work. $5/user/month*." Everything in Free, plus unlimited seats, advanced pulse check analytics, automated milestone celebrations, HRIS integrations and provisioning, 24/7 chat support, enhanced 1:1s, unlimited performance recaps, automated manager alerts. FAQ detail: "Team: Monthly: $5/user/mo (includes Bizy AI). Annual: $50/user/year. Team plan available without Bizy AI for $3/user/month or $30/user paid annually."
+Organization + Bizy — "For companies running recognition at scale. Custom Pricing." Company announcements, Awards and Incentives, company-wide analytics, SAML SSO, dedicated CSM.
+Bizy add-on (standalone) — "$2 per user/month." Free during 30-day Team or Org trial; Org plan includes 1,000 MCP tool calls/month.
+FAQ: "What is the minimum contract length for Bonusly?" — "All our plans are billed annually, providing a full year of engagement and recognition for your team." "Is there a limit to the number of users we can have on a plan?" — "No. Our plans are designed to scale, accommodating teams of all sizes without any user limits." "How much do rewards cost, and can we control spending?" — "You'll pay face value for rewards when employees redeem from the Bonusly Reward Catalog—for example, a $10 Amazon gift card costs you $10... you'll never pay for unused funds." "Are there any hidden fees associated with Bonusly's plans?" — "No. Our subscription costs are straightforward."
+No plan-cancellation clause found beyond reward-funding policy.
+Page title: "Bonusly Pricing — Free, Team & Organization Plans".

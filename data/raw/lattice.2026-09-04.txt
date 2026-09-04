@@ -1,0 +1,12 @@
+URL: https://lattice.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 14:44:48 +00:00 (US gateway 134.209.42.109, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (custom_js gotcha: many of the nav mega-menu entries repeat the same phrases as the pricing cards, so the pricing card text was located specifically via the "$13 seat/month" anchor rather than the first "Performance"/"Engage" match).
+---
+Foundations (Most Popular) — "Our most popular package for aligning teams, driving performance, and scaling high-impact work across your business." Includes 1:1s, Weekly Updates, Feedback, Q&A Boards, Performance, Goals & OKRs, Analytics, AI Agent, Integrations. "$13 seat/month."
+Enterprise — "Enterprise pricing varies based on seats, complexity, and scale." Contact sales.
+Base products (buildable custom package): Performance "$10 seat/month" (Performance Reviews, Succession Planning, Promotions, PIPs, Talent Reviews, Calibration). Goals & OKRs "$8 seat/month" (Cascading Goals, Progress Updates, SFDC/JIRA Integration). Engagement "$4 seat/month" (Pulse, Onboarding & Exit Surveys, Action Planning, eNPS, AI Analysis & Trends).
+Add-ons: Compensation "+ $6 seat/month". Grow "+ $4 seat/month".
+FAQ: "Can I purchase Performance or Goals & OKRs separately?" — "Yes. Performance and Goals & OKRs can be unbundled and purchased individually for $8/month." (Note: this conflicts with the $10/seat printed for Performance elsewhere on the same page.) "Is there a minimum spend?" — "Yes. The minimum annual agreement is $4,000. This spend can include different products based on your needs and the number of seats your team requires." "In what currency will I be billed?" — "Lattice bills in United States Dollars (USD) only. This applies across all products and services." "Is the contract billed monthly, quarterly, or annually?" — "Lattice bills all contracts annually."
+No cancellation or refund language found.
+Page title: "Pricing | Lattice".

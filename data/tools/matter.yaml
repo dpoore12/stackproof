@@ -1,0 +1,112 @@
+slug: matter
+vendor: Matter (MatterApp, Inc)
+product: Matter
+category: performance_management
+url: https://www.matterapp.com/pricing
+free_trial: "14-day free trial, no credit card required; unselected trials fall back to the free Free plan automatically (2026-09-04)."
+pricing_note: "Matter is a Slack/Teams-native peer-recognition and survey product, included in this category for the same reason as Bonusly: recognition and engagement are bundled into the same buying decision as performance/OKR tools by Lattice and 15Five. Matter bills only members active in its connected Slack/Teams channel, not the whole workspace, and prorates daily. Listed prices are stated as \"billed annually\"; the page also shows a monthly-billing toggle (\"Yearly (Save 25%) / Monthly plans available\") whose exact monthly dollar figures were not captured by this static fetch."
+
+tiers:
+  - plan: Basic
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 1
+    seat_label: channel member
+    billing: annual
+    provenance:
+      source_url: https://www.matterapp.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Basic. $1 USD per user/month, billed annually. Everything in Free, and: Celebrations, Custom kudos (e.g., company values), Analytics and reporting."'
+  - plan: Pro
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 3
+    seat_label: channel member
+    billing: annual
+    provenance:
+      source_url: https://www.matterapp.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pro. Most Popular. $3 USD per user/month, billed annually. Everything in Basic, and: Rewards (10,000+ eGift cards, premium gifts across 200+ countries), Company Swag (1,900+ items), Challenges and incentives."'
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: channel member
+    billing: monthly
+    provenance:
+      source_url: https://www.matterapp.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free. $0 USD. Seriously free forever. Kudos recognition, Kudos template library, Feedback Friday." No seat cap stated.'
+  - plan: Enterprise
+    compare: false
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: channel member
+    billing: annual
+    provenance:
+      source_url: https://www.matterapp.com/pricing
+      fetched_at: 2026-09-04
+      method: not_available
+      note: '"Enterprise. Let''s talk. Everything in Pro, and: Enterprise Grid setup for multi-channel usage, Manager management and custom reporting, HRIS platform integration." No price published.'
+
+fees:
+  - name: Surveys add-on
+    amount_usd: 2
+    unit: per user, per month, billed annually, on top of Basic or Pro
+    provenance:
+      source_url: https://www.matterapp.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "We only charge for team members that are in a Matter-connected Slack/Teams channel, not the entire workspace... Billing is pro-rated daily based on the number of channel users."
+    finding: >-
+      Matter bills only the members of its connected Slack/Teams
+      channel, not the full workspace, and prorates daily as members
+      are added or removed (2026-09-04).
+    provenance:
+      source_url: https://www.matterapp.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: stated
+    quote: "After the free trial, unless you upgrade, you'll automatically move to our Free plan."
+    finding: >-
+      Matter automatically downgrades an unselected trial to its free
+      plan rather than billing a default paid plan (2026-09-04).
+    provenance:
+      source_url: https://www.matterapp.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Matter's pricing FAQ states no subscription refund terms, beyond
+      how reward redemptions are billed separately (2026-09-04).
+    provenance:
+      source_url: https://www.matterapp.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: matter-channel-based-billing
+    claim: >-
+      Matter charges only for Slack/Teams channel members connected to
+      the product: a 100-person workspace with 50 members in the
+      Matter channel is billed for 50, not 100 (2026-09-04).
+    provenance:
+      source_url: https://www.matterapp.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: matter-hris-requires-annual
+    claim: >-
+      Matter requires an annual plan plus an additional annual fee for
+      HRIS integrations, per its pricing FAQ (2026-09-04).
+    provenance:
+      source_url: https://www.matterapp.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

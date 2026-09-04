@@ -1,0 +1,12 @@
+URL: https://www.performyard.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 14:47:15 +00:00 (US gateway 68.183.49.222; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+---
+"PerformYard Pricing Calculator" — Number of Seats + Select Products (Performance, Engagement, Meetings, Surveys); output not captured (interactive calculator, no default result rendered in static HTML).
+Performance — "The foundation for running reviews, goals, and feedback, plus meetings and engagement surveys to keep the conversation going year-round. $5-15 per person / month." Reviews, Meetings, Goals, Engagement, Feedback, Surveys. Includes PerformYard AI.
+Talent Development — "Compensation, competencies, and coaching in one platform built to develop, reward, and retain your people. $5-15 per person / month." Compensation, Coaching, Competencies & Skills, Succession Planning, Employee Insights, Career Pathing.
+"Free support for every customer" included with every plan: Dedicated success manager, Hands-on implementation, Unlimited employee trainings, HRIS integrations & SSO.
+FAQ: "How is pricing determined for PerformYard?" — "PerformYard is priced on a per-seat model, billed annually. Costs vary based on the number of employees and selected products, with volume pricing available for larger organizations." "Are there additional fees for onboarding or training?" — "There are never any additional fees for onboarding or training. Every PerformYard customer recieves onboarding and training included in every contract."
+No cancellation or refund language found.
+Page title: "Pricing" (PerformYard).
