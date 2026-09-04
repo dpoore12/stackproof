@@ -802,6 +802,29 @@ instead.
 
 Database is now 184 tools across 41 categories.
 
+### Interior design business management software (2026-09-04)
+
+Three vendors: Mydoma Studio, Studio Designer, Design Manager. Seat
+axis is "users" (1, 3, 5, 10, 25). Mydoma Studio and Studio Designer
+are sibling products under the same parent company ("Studio Designer
+and Mydoma have joined forces!"), each with its own separate pricing
+page; Design Manager is fully independent. Houzz Pro's pricing URL
+returned a broken fetch (likely bot-blocked) and guessed domains for
+Ivy and Design Files did not resolve, so all three were dropped.
+
+All three vendors price purely per user with no base fee, a clean
+pattern for this category. Mydoma Studio states "$58/month/user when
+paid yearly," with its FAQ separately confirming a 10% annual discount
+(the resulting month-to-month rate is computed, since the page never
+states it as a direct dollar figure). Studio Designer publishes three
+tiers, each a flat per-user rate with no cap, in both annual and
+monthly billing. Design Manager charges $79/user/month with an
+explicit cap ("Each user for Design Manager is $79 per month. For
+teams larger than 10, please contact our Sales team"), recorded as
+`max_seats: 10`.
+
+Database is now 187 tools across 42 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

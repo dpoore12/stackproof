@@ -1461,6 +1461,24 @@
    ],
    "vendor": "Deputy"
   },
+  "design-manager": {
+   "category": "interior_design_management",
+   "fees": [],
+   "product": "Design Manager",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 10,
+     "per_seat_monthly_usd": 79.0,
+     "plan": "Design Manager",
+     "source_url": "https://designmanager.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Design Manager"
+  },
   "dialpad": {
    "category": "business_phone",
    "fees": [],
@@ -4774,6 +4792,41 @@
    ],
    "vendor": "MyCase"
   },
+  "mydoma-studio": {
+   "category": "interior_design_management",
+   "fees": [
+    {
+     "amount_usd": 450.0,
+     "fetched_at": "2026-09-04",
+     "name": "Onboarding",
+     "unit": "one-time, per account"
+    }
+   ],
+   "product": "Mydoma Studio",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 58.0,
+     "plan": "Mydoma Studio (annual)",
+     "source_url": "https://www.mydomastudio.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 64.44,
+     "plan": "Mydoma Studio (monthly billing)",
+     "source_url": "https://www.mydomastudio.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Mydoma Studio"
+  },
   "nextiva": {
    "category": "business_phone",
    "fees": [],
@@ -6641,6 +6694,74 @@
     }
    ],
    "vendor": "StatusCake"
+  },
+  "studio-designer": {
+   "category": "interior_design_management",
+   "fees": [],
+   "product": "Studio Designer",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 69.0,
+     "plan": "Essentials",
+     "source_url": "https://www.studiodesigner.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 79.0,
+     "plan": "Essentials (monthly billing)",
+     "source_url": "https://www.studiodesigner.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 79.0,
+     "plan": "Professional",
+     "source_url": "https://www.studiodesigner.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 89.0,
+     "plan": "Professional (monthly billing)",
+     "source_url": "https://www.studiodesigner.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 109.0,
+     "plan": "Premier",
+     "source_url": "https://www.studiodesigner.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 119.0,
+     "plan": "Premier (monthly billing)",
+     "source_url": "https://www.studiodesigner.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Studio Designer"
   },
   "studio-ninja": {
    "category": "photography_studio_management",
