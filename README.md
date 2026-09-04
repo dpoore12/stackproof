@@ -437,6 +437,43 @@ published anywhere, so cost beyond 100 learners is correctly left
 unknown rather than guessed. Database is now 138 tools across 29
 categories.
 
+### Field service management (2026-09-04)
+
+Five vendors: Jobber, Housecall Pro, Service Fusion, Kickserv, Tradify —
+scheduling, dispatch, quoting, and invoicing tools for home-service
+trades (HVAC, plumbing, electrical, and similar). Seat axis is
+"technicians who use the app" (1, 5, 10, 20, 50); every vendor in this
+category published clean, real self-serve pricing, a rarity this
+session — no dead ends worth naming except one deliberate exclusion
+below.
+
+Jobber charges a flat "$29/mo each" for additional users on every one of
+its four plans, so its cheapest plan (Core) stays cheapest at every team
+size; its pricing page also has a middle "1 year commitment" billing
+tier between month-to-month and prepaid-annual, captured as a finding
+rather than a third full tier per plan. Housecall Pro's per-additional-
+user rate actually falls as the plan tier rises ($100/user on
+Essentials, $75/user on Max), the inverse of the usual pattern. Service
+Fusion is a genuine flat-fee-unlimited-users vendor — its own FAQ states
+pricing is identical "whether you have one technician... or 20
+technicians and a full office" — so it wins outright for larger teams
+despite a higher headline price. Kickserv states no per-additional-user
+rate on any of its three plans, so each is capped at exactly its stated
+included-user count (5/10/20) rather than extrapolated; a team of 50
+has no priced Kickserv tier as a result. Tradify is the one purely
+per-user vendor here, with no base fee on any tier: a flat $47/$51/$61
+per user per month depending on plan.
+
+ServiceM8 was researched and dropped for the same reason as Pingdom and
+Homebase in earlier categories: its own FAQ states "we don't charge per
+user," and its five tiers ($0–$349/mo) instead price by the number of
+"jobs" created per month, a workload metric independent of headcount —
+a two-person shop can need its priciest tier while a ten-person team
+fits the cheapest, so it doesn't belong on a per-technician axis even
+though its numbers are real and dated. FieldPulse and FieldEdge are both
+fully quote-gated with zero dollar figures anywhere on their pricing
+pages. Database is now 143 tools across 30 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

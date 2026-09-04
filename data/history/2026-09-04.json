@@ -2478,6 +2478,74 @@
    ],
    "vendor": "Hootsuite"
   },
+  "housecall-pro": {
+   "category": "field_service_management",
+   "fees": [],
+   "product": "Housecall Pro",
+   "tiers": [
+    {
+     "base_monthly_usd": 59.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Basic",
+     "source_url": "https://www.housecallpro.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 79.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Basic (monthly billing)",
+     "source_url": "https://www.housecallpro.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 149.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 100.0,
+     "plan": "Essentials",
+     "source_url": "https://www.housecallpro.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 189.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 100.0,
+     "plan": "Essentials (monthly billing)",
+     "source_url": "https://www.housecallpro.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 299.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 75.0,
+     "plan": "Max",
+     "source_url": "https://www.housecallpro.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 329.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 75.0,
+     "plan": "Max (monthly billing)",
+     "source_url": "https://www.housecallpro.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Housecall Pro"
+  },
   "hubspot-crm": {
    "category": "crm",
    "fees": [],
@@ -2710,6 +2778,94 @@
    ],
    "vendor": "Employ Inc."
   },
+  "jobber": {
+   "category": "field_service_management",
+   "fees": [],
+   "product": "Jobber",
+   "tiers": [
+    {
+     "base_monthly_usd": 29.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 29.0,
+     "plan": "Core",
+     "source_url": "https://www.getjobber.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 49.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 29.0,
+     "plan": "Core (monthly billing)",
+     "source_url": "https://www.getjobber.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 99.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 29.0,
+     "plan": "Connect",
+     "source_url": "https://www.getjobber.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 139.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 29.0,
+     "plan": "Connect (monthly billing)",
+     "source_url": "https://www.getjobber.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 149.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 29.0,
+     "plan": "Grow",
+     "source_url": "https://www.getjobber.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 199.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 29.0,
+     "plan": "Grow (monthly billing)",
+     "source_url": "https://www.getjobber.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 399.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 29.0,
+     "plan": "Plus",
+     "source_url": "https://www.getjobber.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 499.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 29.0,
+     "plan": "Plus (monthly billing)",
+     "source_url": "https://www.getjobber.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Jobber"
+  },
   "jotform": {
    "category": "forms",
    "fees": [],
@@ -2863,6 +3019,44 @@
     }
    ],
    "vendor": "Keeper Security"
+  },
+  "kickserv": {
+   "category": "field_service_management",
+   "fees": [],
+   "product": "Kickserv",
+   "tiers": [
+    {
+     "base_monthly_usd": 60.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Start",
+     "source_url": "https://www.kickserv.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 119.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 10,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Run",
+     "source_url": "https://www.kickserv.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 199.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 20,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Scale",
+     "source_url": "https://www.kickserv.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Kickserv"
   },
   "kit": {
    "category": "email_marketing",
@@ -4438,6 +4632,74 @@
    ],
    "vendor": "SavvyCal"
   },
+  "service-fusion": {
+   "category": "field_service_management",
+   "fees": [],
+   "product": "Service Fusion",
+   "tiers": [
+    {
+     "base_monthly_usd": 208.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter",
+     "source_url": "https://www.servicefusion.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 245.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter (monthly billing)",
+     "source_url": "https://www.servicefusion.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 325.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Plus",
+     "source_url": "https://www.servicefusion.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 382.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Plus (monthly billing)",
+     "source_url": "https://www.servicefusion.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 533.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro",
+     "source_url": "https://www.servicefusion.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 627.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro (monthly billing)",
+     "source_url": "https://www.servicefusion.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Service Fusion"
+  },
   "sharefile": {
    "category": "cloud_storage",
    "fees": [],
@@ -5237,6 +5499,61 @@
     }
    ],
    "vendor": "Tovuti LLC"
+  },
+  "tradify": {
+   "category": "field_service_management",
+   "fees": [
+    {
+     "amount_usd": 12.0,
+     "fetched_at": "2026-09-04",
+     "name": "Instant Website add-on",
+     "unit": "per month, flat (not per-user), available on every plan"
+    }
+   ],
+   "product": "Tradify",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 47.0,
+     "plan": "Lite",
+     "source_url": "https://www.tradifyhq.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 51.0,
+     "plan": "Pro",
+     "source_url": "https://www.tradifyhq.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 61.0,
+     "plan": "Plus",
+     "source_url": "https://www.tradifyhq.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Custom",
+     "source_url": "https://www.tradifyhq.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Tradify"
   },
   "trello": {
    "category": "project_management",

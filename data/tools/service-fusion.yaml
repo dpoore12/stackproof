@@ -1,0 +1,95 @@
+slug: service-fusion
+vendor: Service Fusion
+product: Service Fusion
+category: field_service_management
+url: https://www.servicefusion.com/pricing/
+pricing_note: "Service Fusion's own FAQ states pricing is identical \"whether you have one technician and one dispatcher or 20 technicians and a full office\" -- every tier is a genuinely flat fee with unlimited users, so cost_at() returns the same number at every team size on this page's three plans."
+
+tiers:
+  - plan: Starter
+    base_monthly_usd: 208
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.servicefusion.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$208 Per Month (billed annually)." "Unlimited Users." "*Charged as one annual payment at sign-up."'
+  - plan: Starter (monthly billing)
+    compare: false
+    base_monthly_usd: 245
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.servicefusion.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$245 Per Month." "Unlimited Users."'
+  - plan: Plus
+    base_monthly_usd: 325
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.servicefusion.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$325 Per Month (billed annually)." "Unlimited Users."'
+  - plan: Plus (monthly billing)
+    compare: false
+    base_monthly_usd: 382
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.servicefusion.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$382 Per Month." "Unlimited Users."'
+  - plan: Pro
+    base_monthly_usd: 533
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.servicefusion.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$533 Per Month (billed annually)." "Unlimited Users."'
+  - plan: Pro (monthly billing)
+    compare: false
+    base_monthly_usd: 627
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.servicefusion.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$627 Per Month." "Unlimited Users."'
+
+findings:
+  - id: service-fusion-unlimited-users-same-price
+    claim: >-
+      Service Fusion's FAQ states pricing is identical "whether you
+      have one technician and one dispatcher or 20 technicians and a
+      full office," with unlimited users on every plan (2026-09-04).
+    provenance:
+      source_url: https://www.servicefusion.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "No, Service Fusion offers all plans on a month-to-month basis. However, you will receive a 15% discount if you choose any of our annual pricing options."
+    finding: >-
+      Service Fusion sells every plan month-to-month with no contract
+      requirement, and separately offers a 15% discount for prepaying
+      annually (2026-09-04).
+    provenance:
+      source_url: https://www.servicefusion.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -1,0 +1,53 @@
+slug: kickserv
+vendor: Kickserv
+product: Kickserv
+category: field_service_management
+url: https://www.kickserv.com/pricing/
+pricing_note: "Kickserv's page has a Monthly/Annual toggle and states \"Save 20% with annual subscription,\" but this fetch only captured one toggle state (recorded below as monthly billing) -- the discounted annual figure itself was not rendered statically. None of the three plans state a per-additional-user overage rate, so each is capped at exactly its stated included-user count rather than extrapolated."
+
+tiers:
+  - plan: Start
+    base_monthly_usd: 60
+    per_seat_monthly_usd: 0
+    max_seats: 5
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.kickserv.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"For Small Teams. Start. 5 users. $60/mo. Save 20% with annual subscription." Embeddable contact form, automated reminders, 20+ reports, time & expense tracking, QuickBooks Online integration.'
+  - plan: Run
+    base_monthly_usd: 119
+    per_seat_monthly_usd: 0
+    max_seats: 10
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.kickserv.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"For Growing Teams. Run. 10 users. $119/mo. Save 20% with annual subscription." Everything in Start, plus dispatch mapping, GPS check-ins, custom data fields and reports, QuickBooks Desktop integration ($50/mo).'
+  - plan: Scale
+    base_monthly_usd: 199
+    per_seat_monthly_usd: 0
+    max_seats: 20
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.kickserv.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"For Established Businesses. Scale. 20 users. $199/mo. Save 20% with annual subscription." Everything in Run, plus custom templates and reviews.'
+
+findings:
+  - id: kickserv-kickback-discount
+    claim: >-
+      Kickserv's "Kickback" program gives Start, Run, and Scale
+      customers a 5% discount on their subscription for processing a
+      stated minimum in online payments each month ($1,000 / $2,000 /
+      $3,000 respectively) (2026-09-04).
+    provenance:
+      source_url: https://www.kickserv.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -1,0 +1,11 @@
+URL: https://www.housecallpro.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 16:52:51 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+---
+Page title/description reference three plans: Basic, Essentials, Max.
+Basic -- "1 user included." "$59/mo" (Saving $20/mo, i.e. billed annually) / "$79/mo" (month-to-month). No additional-user rate stated on this page; treated as capped at 1 user.
+Essentials -- "5 users included." "$149/mo" (Saving $40/mo, annually) / "$189/mo" (month-to-month). "*Additional users $100/mo each." "All Basic features, plus:" advanced tools.
+Max -- "8 user included [sic]." "$299/mo" (Saving $30/mo, annually) / "$329/mo" (month-to-month). "*Additional users $75/mo each." "Everything in Essentials, plus:" a sales proposal tool ($40/mo value bundled in).
+"Basic covers the essentials, Essentials adds tools for growing teams, and MAX is built to scale. Add-ons and extra users are optional, so you only pay for what you need." "Get a $50 gift card... Talk to an expert... Book a Demo" appears as an alternate path alongside self-serve signup, but concrete self-serve tier prices are published directly on the page as quoted above.
+No cancellation or refund clause found on this page.
