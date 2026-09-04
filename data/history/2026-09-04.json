@@ -1170,6 +1170,64 @@
    ],
    "vendor": "Atlassian"
   },
+  "contractor-foreman": {
+   "category": "construction_management",
+   "fees": [],
+   "product": "Contractor Foreman",
+   "tiers": [
+    {
+     "base_monthly_usd": 49.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 1,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Basic",
+     "source_url": "https://contractorforeman.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 105.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 3,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Standard",
+     "source_url": "https://contractorforeman.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 166.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 8,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Plus",
+     "source_url": "https://contractorforeman.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 221.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 15,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro",
+     "source_url": "https://contractorforeman.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 332.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Unlimited",
+     "source_url": "https://contractorforeman.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Contractor Foreman"
+  },
   "cosmolex": {
    "category": "legal_practice_management",
    "fees": [],
@@ -1788,6 +1846,54 @@
     }
    ],
    "vendor": "Fastmail"
+  },
+  "fieldwire": {
+   "category": "construction_management",
+   "fees": [],
+   "product": "Fieldwire",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 5,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Basic",
+     "source_url": "https://www.fieldwire.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 39.0,
+     "plan": "Pro",
+     "source_url": "https://www.fieldwire.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 64.0,
+     "plan": "Business",
+     "source_url": "https://www.fieldwire.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 89.0,
+     "plan": "Business Plus",
+     "source_url": "https://www.fieldwire.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Fieldwire"
   },
   "figma": {
    "category": "whiteboarding",
@@ -3320,6 +3426,34 @@
     }
    ],
    "vendor": "Jobber"
+  },
+  "jobtread": {
+   "category": "construction_management",
+   "fees": [],
+   "product": "JobTread",
+   "tiers": [
+    {
+     "base_monthly_usd": 199.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "JobTread (monthly)",
+     "source_url": "https://www.jobtread.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 159.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "JobTread (annual)",
+     "source_url": "https://www.jobtread.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "JobTread"
   },
   "jotform": {
    "category": "forms",

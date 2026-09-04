@@ -1,0 +1,61 @@
+slug: fieldwire
+vendor: Fieldwire
+product: Fieldwire
+category: construction_management
+url: https://www.fieldwire.com/pricing/
+pricing_note: 'Fieldwire''s default-rendered billing tab is "Annual" (a "Monthly" toggle is also offered; only the Annual state was captured in this static snapshot). Its own usage-comparison table explicitly lists "Pay per user" for Pro, Business, and Business Plus, confirming genuine linear per-seat pricing rather than a tiered or capped structure.'
+
+tiers:
+  - plan: Basic
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 5
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.fieldwire.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$0 per user / month." "For small teams wanting to try out Fieldwire''s core features." Usage table: 5 users, 3 projects, 100 sheets.'
+  - plan: Pro
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 39
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.fieldwire.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$39 per user / month, billed annually." "For growing teams looking to scale with Fieldwire." Unlimited projects and sheets.'
+  - plan: Business
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 64
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.fieldwire.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$64 per user / month, billed annually." "For advanced teams unifying their processes on Fieldwire."'
+  - plan: Business Plus
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 89
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.fieldwire.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$89 per user / month, billed annually." "For teams connecting Fieldwire to their core technology."'
+
+findings:
+  - id: fieldwire-custom-contracts
+    claim: >-
+      Fieldwire offers custom contracts above Business Plus with
+      unlimited user options, tailored training, dedicated success
+      teams, API access, and single sign-on (2026-09-04).
+    provenance:
+      source_url: https://www.fieldwire.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
