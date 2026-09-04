@@ -893,6 +893,41 @@ rates for every tier; the fourth, top tier on each vendor
 
 Database is now 193 tools across 44 categories.
 
+### Martial arts / dance studio management software (2026-09-04)
+
+Three vendors: Kicksite, Punchpass, Jackrabbit Class. Seat axis is
+"students" (10, 25, 50, 100, 250).
+
+Kicksite publishes a genuine, fully-quantified student-count step
+table directly in its own page markup — "0-25 students" $49,
+"26-50 students" $99, "51-100 students" $149, "101+ students" $199 —
+recorded as `steps`, with the open-ended top band given a large `up_to`
+purely to span this site's comparison range. Jackrabbit Class states
+its own pricing "is based on the total student count at the end of
+each month" and starts at $49/month, but the actual tier boundaries
+live behind an interactive calculator this site's fetch could not
+read — no dash-separated student-count range appears anywhere in the
+page's static text — so only the confirmed starting figure is
+recorded, `compare: false`, with the formula itself captured as a
+Finding rather than reconstructed from third-party aggregator guesses.
+Punchpass's three tiers (Grow/Flow/Pro) are flat and differentiate by
+feature bundle, not by any stated student, class, or instructor cap —
+its entry tier already states "Unlimited classes, passes &
+instructors" — so its price is identical at every seat point, same as
+Rock Paper Coin's paid tiers and every vendor in the auto repair shop
+category.
+
+Self-storage facility management software was attempted and abandoned
+before this: storEDGE, SiteLink, and Easy Storage Solutions all 404 on
+every guessed pricing URL, Storeganise's own FAQ says "reach out to us
+for an exact quote," and 6Storage's real page states "Custom Pricing
+Models for Every Storage Facility Size" with no dollar figure
+anywhere — a heavily quote-gated vertical, the same pattern already
+seen in veterinary, childcare, pest control, and dental practice
+management.
+
+Database is now 196 tools across 45 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

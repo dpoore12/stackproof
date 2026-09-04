@@ -1,0 +1,83 @@
+slug: punchpass
+vendor: Punchpass
+product: Punchpass
+category: martial_arts_dance_studio_management
+url: https://punchpass.com/pricing/
+pricing_note: 'Punchpass''s three tiers (Grow, Flow, Pro) differentiate by feature bundle, not by a stated student/class/instructor cap — the entry tier already states "Unlimited classes, passes & instructors." Punchpass markets itself broadly across yoga, fitness, dance, pole, aerial, Pilates, and arts & crafts studios rather than being martial-arts- or dance-specific.'
+
+tiers:
+  - plan: Grow
+    base_monthly_usd: 59
+    seat_label: student
+    billing: monthly
+    provenance:
+      source_url: https://punchpass.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"A simple budget friendly solution with robust reporting for studios on a budget." "$59 USD Billed monthly." "Unlimited classes, passes & instructors."'
+  - plan: Grow (annual billing)
+    compare: false
+    base_monthly_usd: 51.92
+    seat_label: student
+    billing: annual
+    provenance:
+      source_url: https://punchpass.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$623 USD Billed annually (12% discount)" for the Grow plan ($623/12 = $51.92/mo).'
+  - plan: Flow
+    base_monthly_usd: 99
+    seat_label: student
+    billing: monthly
+    provenance:
+      source_url: https://punchpass.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Marked "Most Popular." "Elevate your offerings with memberships, series, family accounts and more." "$99 USD Billed monthly."'
+  - plan: Flow (annual billing)
+    compare: false
+    base_monthly_usd: 87.08
+    seat_label: student
+    billing: annual
+    provenance:
+      source_url: https://punchpass.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$1,045 USD Billed annually (12% discount)" for the Flow plan ($1,045/12 = $87.08/mo).'
+  - plan: Pro
+    base_monthly_usd: 149
+    seat_label: student
+    billing: monthly
+    provenance:
+      source_url: https://punchpass.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"The ultimate package to deliver an enhanced customer experience." "$149 USD Billed monthly."'
+  - plan: Pro (annual billing)
+    compare: false
+    base_monthly_usd: 131.17
+    seat_label: student
+    billing: annual
+    provenance:
+      source_url: https://punchpass.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$1,574 USD Billed annually (12% discount)" for the Pro plan ($1,574/12 = $131.17/mo).'
+
+findings:
+  - id: punchpass-free-trial
+    claim: >-
+      Punchpass offers a 14-day free trial with no credit card required,
+      per its own pricing page (2026-09-04).
+    provenance:
+      source_url: https://punchpass.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: punchpass-first-two-months-half-price
+    claim: >-
+      Punchpass states "New clients receive their first two months at
+      half price" as a standing offer on its pricing page (2026-09-04).
+    provenance:
+      source_url: https://punchpass.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

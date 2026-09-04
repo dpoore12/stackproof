@@ -1,0 +1,47 @@
+slug: jackrabbit-class
+vendor: Jackrabbit Technologies
+product: Jackrabbit Class
+category: martial_arts_dance_studio_management
+url: https://www.jackrabbitclass.com/pricing/
+pricing_note: 'Jackrabbit Class states its own pricing is "tiered... based on the total student count at the end of each month," but the actual per-band boundaries and rates are not present as static text anywhere on its pricing page — only the "$49/month" starting figure is stated in plain text, with the full scaling table apparently rendered by an interactive calculator this fetch did not capture. Rather than guess at the tier breakpoints from third-party aggregator summaries, only the confirmed starting figure is recorded, as `compare: false`, with the formula captured as a Finding.'
+
+tiers:
+  - plan: Jackrabbit Class
+    compare: false
+    base_monthly_usd: 49
+    seat_label: student
+    billing: monthly
+    provenance:
+      source_url: https://www.jackrabbitclass.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"All class management core software features are available for every program location. Tiered pricing starts at $49/month and is based on the total student count at the end of each month."'
+
+findings:
+  - id: jackrabbit-class-student-count-tiering
+    claim: >-
+      Jackrabbit Class states its pricing "is based on the total student
+      count at the end of each month," starting at $49/month, though the
+      exact tier boundaries beyond that starting figure are not published
+      as static text on its own pricing page (2026-09-04).
+    provenance:
+      source_url: https://www.jackrabbitclass.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: jackrabbit-plus-setup-fee
+    claim: >-
+      Jackrabbit Plus, the custom-branded mobile app bundle, starts at
+      $93/month and carries "a one-time, non-refundable setup fee of
+      $169.00 plus app store fees" (2026-09-04).
+    provenance:
+      source_url: https://www.jackrabbitclass.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: jackrabbit-90-day-guarantee
+    claim: >-
+      Jackrabbit Class advertises "free data imports" and a "90-day,
+      money-back guarantee" on every subscription option (2026-09-04).
+    provenance:
+      source_url: https://www.jackrabbitclass.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

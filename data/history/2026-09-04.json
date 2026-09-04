@@ -3548,6 +3548,24 @@
    ],
    "vendor": "iSpring Solutions"
   },
+  "jackrabbit-class": {
+   "category": "martial_arts_dance_studio_management",
+   "fees": [],
+   "product": "Jackrabbit Class",
+   "tiers": [
+    {
+     "base_monthly_usd": 49.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Jackrabbit Class",
+     "source_url": "https://www.jackrabbitclass.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Jackrabbit Technologies"
+  },
   "jazzhr": {
    "category": "recruiting",
    "fees": [],
@@ -3893,6 +3911,41 @@
     }
    ],
    "vendor": "Kickserv"
+  },
+  "kicksite": {
+   "category": "martial_arts_dance_studio_management",
+   "fees": [],
+   "product": "Kicksite",
+   "tiers": [
+    {
+     "base_monthly_usd": null,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Kicksite",
+     "source_url": "https://kicksite.com/pricing/",
+     "steps": [
+      {
+       "monthly_usd": 49.0,
+       "up_to": 25
+      },
+      {
+       "monthly_usd": 99.0,
+       "up_to": 50
+      },
+      {
+       "monthly_usd": 149.0,
+       "up_to": 100
+      },
+      {
+       "monthly_usd": 199.0,
+       "up_to": 100000
+      }
+     ]
+    }
+   ],
+   "vendor": "Kicksite"
   },
   "kit": {
    "category": "email_marketing",
@@ -5820,6 +5873,74 @@
     }
    ],
    "vendor": "Publer"
+  },
+  "punchpass": {
+   "category": "martial_arts_dance_studio_management",
+   "fees": [],
+   "product": "Punchpass",
+   "tiers": [
+    {
+     "base_monthly_usd": 59.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Grow",
+     "source_url": "https://punchpass.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 51.92,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Grow (annual billing)",
+     "source_url": "https://punchpass.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 99.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Flow",
+     "source_url": "https://punchpass.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 87.08,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Flow (annual billing)",
+     "source_url": "https://punchpass.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 149.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Pro",
+     "source_url": "https://punchpass.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 131.17,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Pro (annual billing)",
+     "source_url": "https://punchpass.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Punchpass"
   },
   "pushpress": {
    "category": "gym_management",
