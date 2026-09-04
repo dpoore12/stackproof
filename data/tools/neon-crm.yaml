@@ -1,0 +1,55 @@
+slug: neon-crm
+vendor: Neon One
+product: Neon CRM
+category: nonprofit_donor_management
+url: https://neonone.com/pricing/
+pricing_note: 'Neon CRM prices by organizational revenue, not by donor record count — its own page reportedly states "no donor record limits" and that pricing "scales based on how much money your organization raises." Direct fetches were blocked (HTTP 403, bot-blocked) twice, so these figures come from a search-engine synthesis of the vendor''s own page rather than a directly re-verified quote. Because there is no record-count cap on any tier, each tier''s price is identical at every seat point in this category''s comparison table. Add-on modules (Memberships, Events, Volunteers) carry a percentage surcharge on the CRM subscription fee.'
+
+tiers:
+  - plan: Essentials
+    base_monthly_usd: 99
+    seat_label: donor record
+    billing: monthly
+    provenance:
+      source_url: https://neonone.com/pricing/
+      fetched_at: 2026-09-04
+      method: vendor_page_via_search
+      note: 'Search synthesis of the vendor''s own pricing page: "Neon CRM offers the Essentials, Impact and Empower plans with prices starting at $99/month, $209/month and $409/month respectively." Direct fetch returned HTTP 403.'
+  - plan: Impact
+    base_monthly_usd: 209
+    seat_label: donor record
+    billing: monthly
+    provenance:
+      source_url: https://neonone.com/pricing/
+      fetched_at: 2026-09-04
+      method: vendor_page_via_search
+      note: 'Same source as Essentials; Impact plan starts at $209/month.'
+  - plan: Empower
+    base_monthly_usd: 409
+    seat_label: donor record
+    billing: monthly
+    provenance:
+      source_url: https://neonone.com/pricing/
+      fetched_at: 2026-09-04
+      method: vendor_page_via_search
+      note: 'Same source as Essentials; Empower plan starts at $409/month.'
+
+findings:
+  - id: neon-crm-revenue-based-pricing
+    claim: >-
+      Neon CRM prices by organizational revenue rather than donor
+      record count, with "no donor record limits" on any tier, per a
+      search synthesis of its own pricing page (2026-09-04).
+    provenance:
+      source_url: https://neonone.com/pricing/
+      fetched_at: 2026-09-04
+      method: vendor_page_via_search
+  - id: neon-crm-addon-surcharges
+    claim: >-
+      Neon CRM add-on modules carry a percentage surcharge on the CRM
+      subscription fee: +10% for Memberships and Volunteers, +20% for
+      Events, per a search synthesis of its own pricing page (2026-09-04).
+    provenance:
+      source_url: https://neonone.com/pricing/
+      fetched_at: 2026-09-04
+      method: vendor_page_via_search

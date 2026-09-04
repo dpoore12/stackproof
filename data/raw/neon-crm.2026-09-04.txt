@@ -1,0 +1,17 @@
+source: https://neonone.com/pricing/
+fetched_at: 2026-09-04
+method: vendor_page_via_search (direct fetch returned HTTP 403, twice)
+
+Direct fetches via DataForSEO instant_pages both returned HTTP 403
+(bot-blocked). Pricing captured via web search synthesis of neonone.com/pricing:
+
+"Neon CRM charges are based on revenue, not record counts... no donor
+record limits... pricing scales based on how much money your
+organization raises." "For CRM, Neon CRM offers the Essentials, Impact
+and Empower plans with prices starting at $99/month, $209/month and
+$409/month respectively." Add-on modules (Memberships, Events,
+Volunteers) each carry a percentage surcharge on the CRM subscription
+fee: +10% for Memberships and Volunteers, +20% for Events.
+
+This is a search-engine synthesis of the vendor's own page, not an
+independently re-verified raw-text quote — flagged accordingly.

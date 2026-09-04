@@ -1,0 +1,52 @@
+slug: little-green-light
+vendor: Little Green Light
+product: Little Green Light
+category: nonprofit_donor_management
+url: https://www.littlegreenlight.com/pricing/
+pricing_note: 'Little Green Light sells "one simple plan" that scales purely by constituent (donor) record count, with unlimited users and every feature at every tier. Beyond 50,000 records the vendor adds $15/month per additional 10,000-record tier (accounts can hold up to 200,000 records) — not modeled as additional steps since this site''s seat points top out well below that range.'
+
+tiers:
+  - plan: Little Green Light
+    seat_label: donor record
+    billing: monthly
+    steps:
+      - up_to: 2500
+        monthly_usd: 45
+      - up_to: 5000
+        monthly_usd: 60
+      - up_to: 10000
+        monthly_usd: 75
+      - up_to: 20000
+        monthly_usd: 90
+      - up_to: 30000
+        monthly_usd: 105
+      - up_to: 40000
+        monthly_usd: 120
+      - up_to: 50000
+        monthly_usd: 135
+    provenance:
+      source_url: https://www.littlegreenlight.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Full pricing table, "Number of Constituents / Monthly": up to 2,500 = $45, up to 5,000 = $60, up to 10,000 = $75, up to 20,000 = $90, up to 30,000 = $105, up to 40,000 = $120, up to 50,000 = $135.'
+
+findings:
+  - id: little-green-light-annual-discount
+    claim: >-
+      Little Green Light's annual billing toggle shows "Save 10%" versus
+      monthly billing, though exact per-tier annual dollar figures are
+      computed by a client-side slider rather than printed as static
+      text (2026-09-04).
+    provenance:
+      source_url: https://www.littlegreenlight.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: little-green-light-overage-rate
+    claim: >-
+      Little Green Light charges "$15/mo for each additional 10k tier"
+      beyond 50,000 constituent records, with accounts able to hold up
+      to 200,000 constituent records total (2026-09-04).
+    provenance:
+      source_url: https://www.littlegreenlight.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

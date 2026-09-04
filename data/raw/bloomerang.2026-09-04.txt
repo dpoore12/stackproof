@@ -1,0 +1,25 @@
+source: https://bloomerang.com/pricing
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+Page meta description: "Bloomerang pricing is based on the amount of
+records, or contacts, you track in the database. Every plan comes with
+unlimited users."
+
+Bloomerang now sells three separate products from one pricing page:
+Bloomerang CRM, Bloomerang Fundraising, and Bloomerang Volunteer.
+
+Bloomerang CRM — "Increase retention, major gifts, and all-around
+impact." "Starting at: $125/month, billed annually." No record-count
+band breakdown appears anywhere in the page's static text (unlike the
+meta description's claim that pricing scales with record count) — the
+actual scaling appears to live behind a "Get Personalized Pricing" /
+"Get Started" quote flow this fetch did not capture.
+
+Bloomerang Fundraising — "Maximize impact with integrated fundraising
+tools & automatic insights." "Starting at: $40/month, billed
+annually*." Footnote: "*Must be purchased as part of bundle with
+Bloomerang CRM" — i.e. not a standalone product/price.
+
+Bloomerang Volunteer — "$119" appears in the page's raw dollar scan
+(own card, not fully captured in this fetch's text slices).
