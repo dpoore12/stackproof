@@ -1,0 +1,60 @@
+slug: mangomint
+vendor: Mangomint
+product: Mangomint
+category: salon_management
+url: https://www.mangomint.com/pricing/
+
+tiers:
+  - plan: Mangomint
+    base_monthly_usd: 120
+    per_seat_monthly_usd: 10
+    seat_label: staff member
+    billing: monthly
+    provenance:
+      source_url: https://www.mangomint.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Mangomint starts at $120 per month plus $10 per user. No setup fees. No contracts. Free data import." Single plan, full feature access at every headcount.'
+
+fees:
+  - name: Phone line add-on
+    amount_usd: 70
+    unit: per month, per line
+    provenance:
+      source_url: https://www.mangomint.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - name: Payroll add-on
+    amount_usd: 50
+    unit: per month base, plus $8 per worker
+    provenance:
+      source_url: https://www.mangomint.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - name: Additional location
+    amount_usd: 120
+    unit: per month, per location beyond the first
+    provenance:
+      source_url: https://www.mangomint.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: mangomint-marketing-addon-starting-price
+    claim: >-
+      Mangomint's optional marketing add-on starts at $30/month and scales
+      by SMS-credit tier up to 60,000 credits/month; the page does not
+      render a full per-tier price table in static text (2026-09-04).
+    provenance:
+      source_url: https://www.mangomint.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: mangomint-payroll-worked-example
+    claim: >-
+      Mangomint's own pricing page shows a worked payroll example of "your
+      price $130/mo," consistent with its stated $50 base plus $8 per
+      worker formula for a 10-person team (2026-09-04).
+    provenance:
+      source_url: https://www.mangomint.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

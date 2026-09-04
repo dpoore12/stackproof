@@ -1,0 +1,15 @@
+URL: https://glossgenius.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 18:23:31 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "Grow revenue with plans" anchor).
+
+Beauty & Wellness vertical (a separate "Medspa & Aesthetics" vertical with its own Practice Essentials/Practice Advanced plans is out of scope for this category):
+Standard -- "$28 / monthly. $24 / monthly, Billed annually, you save 14%." "Essential tools for businesses just starting out." Custom Booking Website, Unlimited Client Notifications, Email & Text Marketing, Inventory & Retail Management, Packages & Memberships.
+Gold (marked "Most popular") -- "$56 / monthly. $48 / monthly, Billed annually, you save 14%." "Revenue-boosting features for businesses up to 9 staff." Everything in Standard, plus Forms & Waivers, Google Booking & Reviews, Automated waitlist, Time Tracking, Room & Resource Management.
+Platinum -- "$168 / monthly. $148 / monthly, Billed annually, you save 12%." "Full power for established businesses and teams 10+." Everything in Gold & Standard, plus Team Goal Setting & Analytics, Customizable commissions, Google Marketing Analytics.
+
+Compare-plans table, Staff Management row: Standard and Gold both listed as "Teams of less than 10"; Platinum listed as "Teams of 10+" -- confirming the staff-count cap sits at 9 for Standard/Gold and is uncapped on Platinum.
+
+Plan add-on: Payroll -- "Automatically and reliably pay your team with built-in Payroll. $40/month + $6/seat."
+
+Included in every plan: flat 2.6% payment processing rate; free same-business-day payouts (instant payouts anytime for an additional 1.8% fee); 24/7 online booking; free data transfer; 14-day free trial, no credit card required.

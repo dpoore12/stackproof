@@ -1,0 +1,16 @@
+URL: https://www.joinblvd.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 18:20:32 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText (sliced around the "Compare plans" anchor to stay under the response truncation limit).
+
+Salon & Spa vertical toggle, rendered card prices (a "Limited-time offer: Take advantage of our summer pricing. New customers only. Terms apply." promo was active at fetch time):
+Essentials -- "$140*/mo per location (Normally $176)." "For small teams with simple operations." Up to 5 professionals, 100 free texts, 500 free email blasts, 25 GB storage.
+Premier -- "$234*/mo per location (Normally $293)." "For growing self-care businesses." Unlimited professionals, 250 free texts, 1,000 free email blasts, 50 GB storage.
+Prestige -- "$328*/mo per location (Normally $410)." "More value for sophisticated businesses." Forms add-on included, 2,500 free texts, 10,000 free email blasts, 100 GB storage.
+Enterprise -- "A bespoke plan for self-care businesses" -- "Book your consultation," no published figure.
+
+A "(Save 10%)" annual-billing toggle is present next to the plan grid, but the rendered snapshot only captured the state shown above (unclear whether that is the Monthly or Annual state); the regular (non-promotional) prices ($176/$293/$410) are recorded as this record's tiers, with the promo captured as a finding instead of a tier.
+
+Add-ons (all "per month per location" except ePrescribe): Forms "$65 per month per location" (bundled into Prestige). QuickBooks sync "$45 per month per location." ePrescribe "$45 per prescriber, unlimited support staff."
+
+Messaging: "No setup cost. Pay based on the number of texts you send and receive each month" (SMS). Email: "Start with free emails in your plan, then pay $0.01 per email."

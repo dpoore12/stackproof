@@ -634,6 +634,35 @@ since the true scaling formula was never observed.
 
 Database is now 166 tools across 35 categories.
 
+### Salon / spa management software (2026-09-04)
+
+Three vendors: Boulevard, Mangomint, GlossGenius. Seat axis is "staff
+seats" (1, 3, 5, 10, 25). Fresha's pricing URLs (both `/for-business/pricing`
+and `/business-software/pricing`) 404/410, Zenoti's pricing page renders
+no dollar figures at all (a "Find the right plan for your business"
+contact-sales page, confirmed by regex-scanning the rendered text for
+`$` patterns and finding none above $50), and a guessed SalonBiz/Salon
+Iris pricing domain did not resolve — all three dropped.
+
+Mangomint is the cleanest record: one plan, "$120 per month plus $10 per
+user," confirmed by its own meta description, with a worked example on
+the page itself ($50 + $8/worker payroll add-on shown pricing out to
+"$130/mo" for a 10-person team). Boulevard prices per location rather
+than strictly per staff seat, but each tier gates on a published
+staff-count cap (Essentials caps at 5 professionals, Premier and
+Prestige are uncapped) that maps directly onto this category's axis, so
+it is recorded as a flat fee with a seat cap rather than excluded as an
+axis mismatch; a "summer pricing" promo active at fetch time is captured
+as a finding, with the regular non-promotional prices recorded as
+tiers. GlossGenius's own compare-plans table states its Standard and
+Gold tiers both serve "Teams of less than 10" and Platinum serves "Teams
+of 10+," so Standard and Gold are recorded with `max_seats: 9` and
+Platinum uncapped; regular annual prices are the primary tiers, with the
+higher month-to-month prices recorded as `compare: false` per this
+site's standing monthly/annual convention.
+
+Database is now 169 tools across 36 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

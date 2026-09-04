@@ -1,0 +1,82 @@
+slug: boulevard
+vendor: Boulevard
+product: Boulevard
+category: salon_management
+url: https://www.joinblvd.com/pricing
+pricing_note: 'Boulevard prices per location rather than strictly per seat, but each tier gates on a staff-count cap ("Up to 5 professionals" on Essentials, "Unlimited professionals" on Premier and Prestige), which is the closest published equivalent to this category''s staff-seat axis. A "Limited-time offer" summer promo was active at fetch time (Essentials $140, Premier $234, Prestige $328); the regular, non-promotional prices are recorded as tiers and the promo is captured as a finding instead.'
+
+tiers:
+  - plan: Essentials
+    base_monthly_usd: 176
+    per_seat_monthly_usd: 0
+    max_seats: 5
+    seat_label: staff member
+    billing: monthly
+    provenance:
+      source_url: https://www.joinblvd.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$140*/mo per location (Normally $176)." "For small teams with simple operations." Up to 5 professionals; 100 free texts, 500 free email blasts, 25 GB storage.'
+  - plan: Premier
+    base_monthly_usd: 293
+    per_seat_monthly_usd: 0
+    seat_label: staff member
+    billing: monthly
+    provenance:
+      source_url: https://www.joinblvd.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$234*/mo per location (Normally $293)." "For growing self-care businesses." Unlimited professionals; 250 free texts, 1,000 free email blasts, 50 GB storage.'
+  - plan: Prestige
+    base_monthly_usd: 410
+    per_seat_monthly_usd: 0
+    seat_label: staff member
+    billing: monthly
+    provenance:
+      source_url: https://www.joinblvd.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$328*/mo per location (Normally $410)." "More value for sophisticated businesses." Unlimited professionals plus Forms add-on bundled in; 2,500 free texts, 10,000 free email blasts, 100 GB storage.'
+
+fees:
+  - name: Forms add-on
+    amount_usd: 65
+    unit: per month, per location (bundled free into Prestige)
+    provenance:
+      source_url: https://www.joinblvd.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - name: QuickBooks sync add-on
+    amount_usd: 45
+    unit: per month, per location
+    provenance:
+      source_url: https://www.joinblvd.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - name: ePrescribe add-on
+    amount_usd: 45
+    unit: per month, per prescriber (unlimited support staff)
+    provenance:
+      source_url: https://www.joinblvd.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: boulevard-summer-promo
+    claim: >-
+      Boulevard was running a "summer pricing" promotion for new customers
+      only at time of fetch, discounting Essentials to $140/mo, Premier to
+      $234/mo, and Prestige to $328/mo per location (2026-09-04).
+    provenance:
+      source_url: https://www.joinblvd.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: boulevard-messaging-pricing
+    claim: >-
+      Boulevard's text marketing has no setup cost and bills per text sent
+      or received each month, while email blasts beyond the plan's free
+      allotment cost $0.01 per email (2026-09-04).
+    provenance:
+      source_url: https://www.joinblvd.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
