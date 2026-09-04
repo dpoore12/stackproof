@@ -1,0 +1,9 @@
+URL: https://www.novisign.com/pricing-usca/
+STATUS: 200
+FETCHED: 2026-09-04 17:39:13 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText directly.
+
+Billing cycle toggle defaults to "Annualy (Save 10%)"; only the annual per-screen figures render statically (no separate monthly number captured). Three self-serve plans, all "screen/mo," "Total per month" confirmed as the per-screen rate: Business $14 ("For any business," 1 user). Business Plus $17 ("For growing teams," 5 users) -- marked "Best value." Premium $25 ("For organizations," unlimited users) -- "Minimum of 20 screens required," stated directly beneath the Premium card.
+Partners plan ("For Resellers") is fully quote-gated: "Сall us," white-label reseller program, not priced on this page.
+"NoviSign provides a Software-as-a-Service (SaaS) application that carries a monthly fee as outlined in the table above. Pricing is based on volumes of up to 50 players. Please contact us to obtain pricing if you require more than 50 players." -- self-serve tiers capped at 50 screens.
+Cancellation/refund FAQ: "If you've paid for a yearly subscription in the last 30-days, and need to cancel your account, you are entitled to a prorated refund... Simply cancel the account from the Admin section, and your account will be automatically refunded."

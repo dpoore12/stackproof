@@ -1,0 +1,8 @@
+URL: https://www.screenly.io/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 17:39:38 +00:00 (US gateway, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading document.body.innerText directly.
+
+Three plans, "per screen/month billed annually" with a separate month-to-month figure also shown: Starter $15 annual / $17 monthly, "Up to 5 screens" (a cap, not a minimum -- "the Starter plan has no minimum and supports up to 5 screens"). Business $24 annual / $27 monthly, "Billed from 5 screens" (a minimum floor: FAQ confirms "You are still billed for the plan's minimum... a Business plan with 2 active screens is still billed for 5 screens," unlimited screens above that). Enterprise $38/screen/month, "Available only on the yearly plan" (no month-to-month option), "Billed from 25 screens" (same minimum-floor billing as Business).
+FAQ explicitly defines a "billable screen" as any display powered by a Screenly player, Screenly Anywhere instance, or app instance -- one player required per screen.
+Cancellation clause, stated in FAQ: "You can cancel your plan at any time on the billing page inside your online Screenly account... you will be able to use your account as normal until your plan expires. We will not bill you again after your cancellation."

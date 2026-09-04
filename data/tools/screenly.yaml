@@ -1,0 +1,91 @@
+slug: screenly
+vendor: Screenly
+product: Screenly
+category: digital_signage
+url: https://www.screenly.io/pricing/
+pricing_note: 'Screenly bills Business and Enterprise for a minimum screen count even if fewer screens are active ("You are still billed for the plan''s minimum... a Business plan with 2 active screens is still billed for 5 screens"). Modeled here as a flat monthly floor (minimum screens x rate) plus the per-screen rate for each screen beyond that minimum -- mathematically identical to the vendor''s own per-screen billing above the floor.'
+
+tiers:
+  - plan: Starter
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 15
+    included_seats: 0
+    max_seats: 5
+    seat_label: screen
+    billing: annual
+    provenance:
+      source_url: https://www.screenly.io/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$15 per screen/month billed annually" ("SAVE 11%" off the $17 monthly rate), "Up to 5 screens." No minimum: "the Starter plan has no minimum and supports up to 5 screens."'
+  - plan: Starter (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 17
+    included_seats: 0
+    max_seats: 5
+    seat_label: screen
+    billing: monthly
+    provenance:
+      source_url: https://www.screenly.io/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$17 per screen/month" month-to-month, up to 5 screens.'
+  - plan: Business
+    base_monthly_usd: 120
+    per_seat_monthly_usd: 24
+    included_seats: 5
+    seat_label: screen
+    billing: annual
+    provenance:
+      source_url: https://www.screenly.io/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$24 per screen/month billed annually" ("SAVE 11%" off $27), "Billed from 5 screens" -- modeled as a $120/month floor (5 x $24) plus $24 per screen beyond 5. Unlimited screens, unlimited users, 4K resolution over Starter.'
+  - plan: Business (monthly billing)
+    compare: false
+    base_monthly_usd: 135
+    per_seat_monthly_usd: 27
+    included_seats: 5
+    seat_label: screen
+    billing: monthly
+    provenance:
+      source_url: https://www.screenly.io/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$27 per screen/month" month-to-month, "Billed from 5 screens" -- modeled as a $135/month floor (5 x $27).'
+  - plan: Enterprise
+    base_monthly_usd: 950
+    per_seat_monthly_usd: 38
+    included_seats: 25
+    seat_label: screen
+    billing: annual
+    provenance:
+      source_url: https://www.screenly.io/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$38 per screen/month billed annually," "Available only on the yearly plan" (no month-to-month option exists), "Billed from 25 screens" -- modeled as a $950/month floor (25 x $38) plus $38 per screen beyond 25. Adds priority support SLA, SSO/SAML, consolidated billing over Business.'
+
+findings:
+  - id: screenly-billable-screen-definition
+    claim: >-
+      Screenly defines a "billable screen" as any external display
+      powered by a Screenly player, Screenly Anywhere instance, or app
+      instance -- one player is required per screen (2026-09-04).
+    provenance:
+      source_url: https://www.screenly.io/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: cancellation
+    status: stated
+    quote: "You can cancel your plan at any time on the billing page inside your online Screenly account. Once you cancel, you will be able to use your account as normal until your plan expires. We will not bill you again after your cancellation."
+    finding: >-
+      Screenly allows self-service cancellation at any time, with access
+      continuing through the end of the current billing period and no
+      further charges afterward (2026-09-04).
+    provenance:
+      source_url: https://www.screenly.io/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
