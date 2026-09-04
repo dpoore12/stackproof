@@ -332,6 +332,40 @@ up past the first seat point. All five vendors' cancellation, billing,
 and seat-definition FAQ answers were captured with direct quotes.
 Database is now 123 tools across 26 categories.
 
+### Employee shift scheduling / workforce management (2026-09-04)
+
+Five vendors: Deputy, When I Work, Homebase, Sling (by Toast), 7shifts.
+Distinct from the existing "scheduling" category (meeting/calendar
+booking): this is shift-based workforce scheduling for hourly and
+frontline teams. Seat axis is "employees on the schedule" (10, 25, 50,
+100, 250) — larger than most categories, since a business that needs
+shift-scheduling software rarely has fewer than a handful of hourly
+staff. Three genuinely different billing shapes show up:
+
+- **Deputy**, **When I Work**, and **Sling** charge a flat rate per
+  employee with no location fee. Deputy additionally enforces a stated
+  $30/month minimum spend per invoice (irrelevant at this category's
+  comparison range, but worth knowing below ~6 employees), and Sling's
+  free tier is unusually generous at up to 30 users before any charge
+  applies.
+- **7shifts** charges per location but caps each named tier at a
+  specific employee count (15 / 30 / 60 / unlimited) rather than
+  scaling per employee within a tier — the closest thing to a stepped
+  price ladder in this batch, modeled the same way as a flat-fee tier
+  with a capacity cap.
+- **Homebase** charges per location with *unlimited* employees on every
+  paid tier, so its price never scales with headcount at all above the
+  free plan; its tiers are recorded with real numbers but marked
+  `compare: false`, the same treatment given to Pingdom in the uptime
+  category and Sentry's pricing model that this category was picked
+  over.
+
+Sling's "fair billing policy" (prorated credit for any seat deactivated
+mid-cycle) and Deputy's explicit "no refunds" clause on cancelled
+annual plans are both captured as direct-quote clauses — the kind of
+buyer-protective-or-not fine print this dataset exists to surface.
+Database is now 128 tools across 27 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

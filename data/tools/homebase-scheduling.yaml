@@ -1,0 +1,129 @@
+slug: homebase-scheduling
+vendor: Homebase (Pioneer Works)
+product: Homebase
+category: shift_scheduling
+url: https://www.joinhomebase.com/pricing
+free_trial: "Free 14-day trial of the All-in-One plan; if no plan is chosen at the end, the account reverts to the free Basic plan (2026-09-04)."
+pricing_note: "Homebase prices per location with unlimited employees on every paid tier, not per employee: \"$30/location/month unlimited employees\" (Essentials) and so on through All-in-One. Because this category's comparison axis is employee headcount, Homebase's price does not scale with it at all above the free Basic tier, so all tiers here are marked non-comparable (compare: false) even though the dollar figures are real, dated, and self-serve. Basic is free but capped at 1 location and 10 employees. Also tracked separately in this dataset under the payroll category as \"homebase\" (Homebase Payroll), since that record prices a different product (the payroll add-on) fetched on a different date."
+
+tiers:
+  - plan: Basic
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 10
+    seat_label: employee (per location; Homebase prices per location, not per employee)
+    billing: monthly
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Basic. $0 / location / month for 1 location, up to 10 employees." Basic scheduling, basic time tracking, POS integration, payroll add-on available.'
+  - plan: Essentials (annual)
+    compare: false
+    base_monthly_usd: 24
+    per_seat_monthly_usd: 0
+    seat_label: employee (per location; unlimited employees per location)
+    billing: annual
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Essentials. $30 $24 / location / month unlimited employees. Save $72/year." Advanced scheduling, advanced time tracking, team communication.'
+  - plan: Plus (annual)
+    compare: false
+    base_monthly_usd: 56
+    per_seat_monthly_usd: 0
+    seat_label: employee (per location; unlimited employees per location)
+    billing: annual
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Plus. $70 $56 / location / month unlimited employees. Save $168/year." Everything in Essentials, plus AI-powered scheduling, PTO & time-off controls, departments & permissions.'
+  - plan: All-in-One (annual)
+    compare: false
+    base_monthly_usd: 96
+    per_seat_monthly_usd: 0
+    seat_label: employee (per location; unlimited employees per location)
+    billing: annual
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"All-in-One. $120 $96 / location / month unlimited employees. Save $288/year." Everything in Plus, plus employee onboarding, labor cost management, HR & compliance.'
+
+fees:
+  - name: Payroll add-on
+    amount_usd: 39
+    unit: monthly base fee plus $6 per employee paid per month, available on every plan
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - name: Tip Manager add-on
+    amount_usd: 25
+    unit: per month, per location
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - name: Background check
+    amount_usd: 30
+    unit: each
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: cancellation
+    status: stated
+    quote: "You can change your Homebase plan at any time – and the newly chosen plan will get activated at the start of the next billing cycle."
+    finding: >-
+      Homebase lets customers change plans at any time, with the new
+      plan taking effect at the start of the next billing cycle
+      (2026-09-04).
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Homebase's pricing FAQ states no money-back-guarantee or refund
+      terms (2026-09-04).
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    quote: "If you don't have any plan selected at the end of your 14-day free All-in-One trial, you will automatically be switched to the free Basic Plan."
+    finding: >-
+      Homebase automatically downgrades an unselected trial to the free
+      Basic plan rather than charging a default paid plan (2026-09-04).
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: homebase-per-location-not-per-employee
+    claim: >-
+      Homebase's paid plans charge per location with unlimited employees
+      included, from $24/month (Essentials, billed annually) to
+      $96/month (All-in-One, billed annually) per location (2026-09-04).
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: homebase-basic-plan-cap
+    claim: >-
+      Homebase's free Basic plan is capped at exactly 1 location and 10
+      employees; teams above either limit must upgrade to a paid,
+      per-location plan (2026-09-04).
+    provenance:
+      source_url: https://www.joinhomebase.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

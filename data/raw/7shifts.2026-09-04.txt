@@ -1,0 +1,13 @@
+URL: https://www.7shifts.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 14:34:33 +00:00 (US gateway 68.183.60.80; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+---
+Toggle: "Monthly / Annual, Save 10%." Comp — "Get started with basic scheduling. Free. For single locations. Up to 15 employees." Basic scheduling, one-way announcements, availability and time off requests.
+Essentials — "Unlock advanced scheduling and team communication tools. $44.99 $39.99. Per month/location. Up to 30 employees." Advanced scheduling, team messaging, basic time clocking, customizable permission settings.
+Pro (Best value) — "Combine advanced scheduling, time clocking, and compliance in one platform. $89.99 $79.99. Per month/location. Up to 60 employees." PTO accrual tracking, labor compliance and labor cost tools, advanced time clocking, Manager Log Book.
+Premium — "Your complete plan—scheduling, payroll, plus tip and task management. $149.99 $134.99 Per month/location + $6 per month/employee paid*. Unlimited employees. *Only applies if you pay your team via 7shifts Payroll." Includes 7shifts Payroll (Valued at $39.99), Tip Management (Valued at $49.99), Task Management (Valued at $12.99), Employee Training (Valued at $99.00).
+Add-ons: 7shifts Payroll "$39.99 Per month/location. $0 on our Premium plan! + $6/month per employee paid." Tip Management "$49.99 Per month/location." Manager Log Book "$14.99 Per month Per location." Task Management "$12.99 Per month Per location." Employee Onboarding (US only) "$2.99 Per onboarding package sent."
+FAQ: "How does the 14-day free trial work?" — "you'll immediately get access to all features of 7shifts Pro plan for 14 days... There is no credit card needed to start the trial." "Do I have to sign a contract?" — "Term agreements are available for customers looking for an Enterprise discount model... If you cancel, we'll bill you for the current month, but won't bill you again if you're not under a contract." "What form of payment do you accept?" — "We take payment by credit card as well as ACH (automatic bank withdrawals), by request." "What happens at the end of the trial?" — "you can choose to continue on our free 'Comp' plan, or subscribe."
+No refund/money-back-guarantee language found.
+Page title: "Plans & Pricing" (7shifts).

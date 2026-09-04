@@ -1,0 +1,78 @@
+slug: when-i-work
+vendor: When I Work
+product: When I Work
+category: shift_scheduling
+url: https://wheniwork.com/pricing
+free_trial: "14-day free trial with full feature access, no credit card required (2026-09-04)."
+pricing_note: "When I Work sells only two plans, split by number of locations rather than a named feature tier: a cheaper rate for a single location/schedule and a flat higher per-user rate once you need multiple locations. Every plan includes the full feature set (scheduling, time and attendance, messaging) with no feature-gated upsells."
+
+tiers:
+  - plan: Single location
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 2.50
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://wheniwork.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Single location or schedule. $2.50 /user/month. Built for smaller teams that need efficiency without complexity." Employee scheduling, time tracking & attendance, team messaging, auto scheduling, standard labor reports, payroll/POS integrations.'
+  - plan: Multiple locations
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 5
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://wheniwork.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Multiple locations or schedules. $5 /user/month. Built for growing teams that need complete workforce visibility." Unlimited job sites/schedules/locations, labor sharing across locations, custom reporting and role permissions, multiple time-zone management.'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    quote: "Yes. When I Work is completely flexible. You can switch between plans, add or reduce seats, or cancel at any time, with no contracts or hidden fees."
+    finding: >-
+      When I Work allows plan switches, seat changes, and cancellation
+      at any time with no contract lock-in (2026-09-04).
+    provenance:
+      source_url: https://wheniwork.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      When I Work's pricing FAQ states no money-back-guarantee or refund
+      terms (2026-09-04).
+    provenance:
+      source_url: https://wheniwork.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      When I Work's pricing FAQ states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://wheniwork.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: when-i-work-two-plan-structure
+    claim: >-
+      When I Work sells exactly two plans gated purely by location count,
+      not features: $2.50/user/month for a single location and
+      $5/user/month for multiple locations, with identical functionality
+      otherwise (2026-09-04).
+    provenance:
+      source_url: https://wheniwork.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: when-i-work-rippling-payroll-offer
+    claim: >-
+      When I Work offers new customers six free months of Rippling
+      payroll and HR software as a partner promotion (2026-09-04).
+    provenance:
+      source_url: https://wheniwork.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

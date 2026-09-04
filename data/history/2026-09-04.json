@@ -29,6 +29,103 @@
    ],
    "vendor": "1Password (AgileBits)"
   },
+  "7shifts": {
+   "category": "shift_scheduling",
+   "fees": [
+    {
+     "amount_usd": 6.0,
+     "fetched_at": "2026-09-04",
+     "name": "7shifts Payroll (per-employee surcharge on Premium)",
+     "unit": "per employee paid, per month (only applies if using 7shifts Payroll on the Premium plan; free on Premium otherwise, $39.99/month/location as a standalone add-on on lower tiers)"
+    },
+    {
+     "amount_usd": 49.99,
+     "fetched_at": "2026-09-04",
+     "name": "Tip Management add-on",
+     "unit": "per month, per location"
+    },
+    {
+     "amount_usd": 2.99,
+     "fetched_at": "2026-09-04",
+     "name": "Employee Onboarding (US only)",
+     "unit": "per onboarding package sent"
+    }
+   ],
+   "product": "7shifts",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 15,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Comp",
+     "source_url": "https://www.7shifts.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 39.99,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 30,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Essentials (annual)",
+     "source_url": "https://www.7shifts.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 44.99,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 30,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Essentials (monthly)",
+     "source_url": "https://www.7shifts.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 79.99,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 60,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro (annual)",
+     "source_url": "https://www.7shifts.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 89.99,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 60,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro (monthly)",
+     "source_url": "https://www.7shifts.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 134.99,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Premium (annual)",
+     "source_url": "https://www.7shifts.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 149.99,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Premium (monthly)",
+     "source_url": "https://www.7shifts.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "7shifts"
+  },
   "acuity": {
    "category": "scheduling",
    "fees": [],
@@ -891,6 +988,63 @@
     }
    ],
    "vendor": "Demio"
+  },
+  "deputy": {
+   "category": "shift_scheduling",
+   "fees": [
+    {
+     "amount_usd": 49.0,
+     "fetched_at": "2026-09-04",
+     "name": "Deputy Payroll (enabled by Paycor)",
+     "unit": "monthly base fee plus $8 per user per month, billed monthly; available on annual Core/Pro plans in the US"
+    },
+    {
+     "amount_usd": 2.0,
+     "fetched_at": "2026-09-04",
+     "name": "Deputy HR add-on",
+     "unit": "per user, per month"
+    },
+    {
+     "amount_usd": 0.01,
+     "fetched_at": "2026-09-04",
+     "name": "Outbound SMS (US)",
+     "unit": "per 160 characters sent via the Deputy platform (receiving SMS is free)"
+    }
+   ],
+   "product": "Deputy",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 5.0,
+     "plan": "Lite",
+     "source_url": "https://www.deputy.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.5,
+     "plan": "Core",
+     "source_url": "https://www.deputy.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 9.0,
+     "plan": "Pro",
+     "source_url": "https://www.deputy.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Deputy"
   },
   "dialpad": {
    "category": "business_phone",
@@ -2067,6 +2221,73 @@
     }
    ],
    "vendor": "Homebase"
+  },
+  "homebase-scheduling": {
+   "category": "shift_scheduling",
+   "fees": [
+    {
+     "amount_usd": 39.0,
+     "fetched_at": "2026-09-04",
+     "name": "Payroll add-on",
+     "unit": "monthly base fee plus $6 per employee paid per month, available on every plan"
+    },
+    {
+     "amount_usd": 25.0,
+     "fetched_at": "2026-09-04",
+     "name": "Tip Manager add-on",
+     "unit": "per month, per location"
+    },
+    {
+     "amount_usd": 30.0,
+     "fetched_at": "2026-09-04",
+     "name": "Background check",
+     "unit": "each"
+    }
+   ],
+   "product": "Homebase",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 10,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Basic",
+     "source_url": "https://www.joinhomebase.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 24.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Essentials (annual)",
+     "source_url": "https://www.joinhomebase.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 56.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Plus (annual)",
+     "source_url": "https://www.joinhomebase.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 96.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "All-in-One (annual)",
+     "source_url": "https://www.joinhomebase.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Homebase (Pioneer Works)"
   },
   "hootsuite": {
    "category": "social_scheduling",
@@ -3943,6 +4164,64 @@
    ],
    "vendor": "airSlate"
   },
+  "sling": {
+   "category": "shift_scheduling",
+   "fees": [],
+   "product": "Sling",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 30,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Free",
+     "source_url": "https://getsling.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 1.7,
+     "plan": "Premium (annual)",
+     "source_url": "https://getsling.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 2.0,
+     "plan": "Premium (monthly)",
+     "source_url": "https://getsling.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 3.4,
+     "plan": "Business (annual)",
+     "source_url": "https://getsling.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 4.0,
+     "plan": "Business (monthly)",
+     "source_url": "https://getsling.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Sling (by Toast)"
+  },
   "slite": {
    "category": "wiki",
    "fees": [],
@@ -4856,6 +5135,34 @@
     }
    ],
    "vendor": "ProProfs"
+  },
+  "when-i-work": {
+   "category": "shift_scheduling",
+   "fees": [],
+   "product": "When I Work",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 2.5,
+     "plan": "Single location",
+     "source_url": "https://wheniwork.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 5.0,
+     "plan": "Multiple locations",
+     "source_url": "https://wheniwork.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "When I Work"
   },
   "whereby": {
    "category": "video_conferencing",

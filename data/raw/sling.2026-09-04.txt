@@ -1,0 +1,12 @@
+URL: https://getsling.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 14:33:51 +00:00 (US gateway 68.183.157.22; rendered USD, page states "All prices displayed are USD")
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js reading a cloned document.body with script/style/noscript stripped before innerText.
+---
+"Sling is now Sling by Toast!" Toggle: "Bill monthly / Bill annually, Save 15%." Free — "For up to 30 users. Shift scheduling with Sling is free for up to 30 users." Shift scheduling, time-off requests, available shifts, news sharing, long-term scheduling, private messaging.
+Premium — "Take it to the next level by adding tools for tracking time and optimizing labor costs. $2.00 $1.70 per user per month." Mobile time tracking, labor cost management, overtime tracking, private and group messaging, calendar sync.
+Business (Recommended) — "Understand your labor data, pull reports for payroll, and run your business efficiently! $4.00 $3.40 per user per month." Kiosk time tracking, reports, no-shows, sick call-outs, PTO management.
+"Fair billing policy: With Sling's Premium and Business plans, you only pay for the people who use the platform. If a team member leaves or is deactivated, we'll prorate your account for the unused spot."
+FAQ: "How does annual billing work?" — "Customers using Premium or Business plans have the option to save 15% by paying annually." "What happens if an employee leaves my business?" — "If an employee leaves your business, you can deactivate or remove them from your Sling account. We'll prorate you for the unused time in both cases."
+Sling comes with a 15-day free trial. No refund/money-back-guarantee language found beyond the fair billing/proration policy.
+Page title: "Sling Scheduling Software Pricing - Free, Premium, And Business Plans".
