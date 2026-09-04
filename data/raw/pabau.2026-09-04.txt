@@ -1,0 +1,21 @@
+source: https://pabau.com/pricing/
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+h1: "One platform. Priced by team size." Page's own meta/OG description
+(vendor-authored SEO copy, kept in sync with actual pricing): "Pabau
+pricing starts at $62/month for one user with full platform access —
+scheduling, records, payments, marketing, and reporting. No feature
+gating. Save 20% annually." Twitter title tag independently repeats the
+same figure: "Pabau Pricing | Practice Management Software from
+$62/mo."
+
+Confirmed via static page text: "Full access on every plan. Based only
+on users," and a tier structure of Solo (1 user) / Team (2-3 users) /
+Medium / Group / Enterprise, with a region toggle (UK/US/CA/AU/EU)
+since pricing varies by country. The actual per-region dollar figures
+for the Team/Medium/Group/Enterprise tiers are rendered by client-side
+JavaScript keyed to the selected region and were not present in this
+fetch's captured DOM text — only the Solo tier's $62/month-for-one-user
+claim, sourced from the page's own meta description, could be
+confirmed. Team/Medium/Group/Enterprise are not recorded.

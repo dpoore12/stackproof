@@ -1,0 +1,29 @@
+slug: vagaro
+vendor: Vagaro
+product: Vagaro
+category: medical_spa_management
+url: https://www.vagaro.com/pro/pricing
+pricing_note: 'Vagaro is a multi-vertical booking/business-management platform for salons, spas, and fitness businesses generally — not medspa-specific — but it explicitly serves med spas as one of its named business types. Pricing scales by "bookable calendar" count via an interactive selector (1 / 2 / 3 / 4 / 5 / 6 / 7+); only the default 1-seat ("Just Me") standing rate rendered as static text, so only that step is recorded. The page''s headline "$23.99/mo" is a time-limited 6-month promotional rate; the struck-through $30.00/mo standing rate is recorded instead, per this site''s policy against publishing promotional prices as the standing rate.'
+
+tiers:
+  - plan: Vagaro (1 bookable calendar)
+    base_monthly_usd: 30
+    max_seats: 1
+    seat_label: provider
+    provenance:
+      source_url: https://www.vagaro.com/pro/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$30.00 $23.99 / mo. Exclusive rate for the first 6 months." at the default "1 – Just Me" bookable-calendar selection. $30.00 is the standing (pre-discount) rate.'
+
+findings:
+  - id: vagaro-bookable-calendar-definition
+    claim: >-
+      Vagaro defines a "bookable calendar" as an individual performing
+      services who requires their own scheduling, explicitly excluding
+      admin/front-desk staff from the seat count, per its own pricing
+      page as of 2026-09-04.
+    provenance:
+      source_url: https://www.vagaro.com/pro/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
