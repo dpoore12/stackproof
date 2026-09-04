@@ -507,6 +507,38 @@ tiers.
 
 Database is now 148 tools across 31 categories.
 
+### Legal practice management software (2026-09-04)
+
+Four vendors: MyCase, CosmoLex, Rocket Matter, CARET Legal (formerly Zola
+Suite) — case management, billing, and trust accounting for law firms.
+Seat axis is "users (attorneys and staff) with a seat" (1, 3, 5, 10, 25),
+the same headcount convention as accounting and CRM. Clio (403 on every
+fetch attempt across two gateways) and PracticePanther (timed out on
+three separate fetch attempts) were both dropped as dead ends; Smokeball
+publishes no dollar figures anywhere on its pricing page ("Get pricing"
+gates every plan) and Filevine's page is fully quote-gated custom
+packages, so both were dropped too. TimeSolv was dropped after its
+static render surfaced conflicting numbers — a stale schema.org JSON-LD
+block naming "Solo" and "Standard" plans at $49/user/month that don't
+match the "Pro"/"Legal" plan names actually shown in the page's visible
+comparison table, with no headline price recoverable for either.
+
+MyCase is the cleanest record in this batch: three tiers, each with both
+a monthly and a billed-annually rate explicitly stated, plus two
+separately priced add-ons (a $0 payment processor, a $39/user/month
+accounting module) and an explicit non-refundable-fees cancellation
+clause. CosmoLex and Rocket Matter both advertise an annual-billing
+discount without itemizing the resulting per-plan number on the static
+page (CosmoLex: "Save $120 per user with yearly"; Rocket Matter's core
+plans show only the annual price with no monthly figure at all) — in
+each case only the rendered figures are recorded as tiers, and the
+discount claims are captured as findings instead of being computed by
+hand. CARET Legal is Zola Suite under a new name (zolasuite.com now
+redirects to caretlegal.com); all three of its tiers are annual-only on
+the static page as well.
+
+Database is now 152 tools across 32 categories.
+
 ### Digital signage software (2026-09-04)
 
 Four vendors: OptiSigns, ScreenCloud, NoviSign, Screenly — cloud CMS
@@ -533,7 +565,7 @@ minimum price below it. ScreenCloud's Enterprise plan and NoviSign's
 Partners (reseller) plan are both fully quote-gated and were recorded
 only as findings, not tiers.
 
-Database is now 152 tools across 32 categories.
+Database is now 156 tools across 33 categories.
 
 ## Rendered fetches (script-rendered pricing pages)
 

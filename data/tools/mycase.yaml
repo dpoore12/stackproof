@@ -1,0 +1,133 @@
+slug: mycase
+vendor: MyCase
+product: MyCase
+category: legal_practice_management
+url: https://www.mycase.com/pricing/
+
+tiers:
+  - plan: Basic
+    base_monthly_usd: 50
+    per_seat_monthly_usd: 50
+    included_seats: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.mycase.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$50/user/month" billed annually. Entry plan: case management, billing, and client communication.'
+  - plan: Basic (monthly billing)
+    compare: false
+    base_monthly_usd: 60
+    per_seat_monthly_usd: 60
+    included_seats: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.mycase.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$60/user/month" month-to-month.'
+  - plan: Pro
+    base_monthly_usd: 100
+    per_seat_monthly_usd: 100
+    included_seats: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.mycase.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$100/user/month" billed annually. Adds advanced billing and reporting over Basic.'
+  - plan: Pro (monthly billing)
+    compare: false
+    base_monthly_usd: 120
+    per_seat_monthly_usd: 120
+    included_seats: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.mycase.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$120/user/month" month-to-month.'
+  - plan: Advanced
+    base_monthly_usd: 130
+    per_seat_monthly_usd: 130
+    included_seats: 0
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.mycase.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$130/user/month" billed annually. Top tier: adds law firm insights/analytics over Pro.'
+  - plan: Advanced (monthly billing)
+    compare: false
+    base_monthly_usd: 150
+    per_seat_monthly_usd: 150
+    included_seats: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.mycase.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$150/user/month" month-to-month.'
+  - plan: LawPay Payments
+    standalone: false
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.mycase.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Add-on payment processor: "$0, no monthly fee." Priced on top of a Basic/Pro/Advanced plan, not a standalone product.'
+  - plan: MyCase Accounting
+    standalone: false
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 39
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.mycase.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Add-on trust/business accounting module: "$39/user/month," priced on top of a Basic/Pro/Advanced plan.'
+
+findings:
+  - id: mycase-no-contract-no-setup-fee
+    claim: >-
+      MyCase's FAQ states there is no long-term contract and no setup
+      fee on any of its three plans (2026-09-04).
+    provenance:
+      source_url: https://www.mycase.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: cancellation
+    status: stated
+    quote: "You can easily cancel your account within the Settings section at any time. Please note that any previously paid fees are non-refundable."
+    finding: >-
+      MyCase allows self-service cancellation at any time from account
+      settings, but states previously paid fees are non-refundable
+      (2026-09-04).
+    provenance:
+      source_url: https://www.mycase.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: stated
+    quote: "Please note that any previously paid fees are non-refundable."
+    finding: >-
+      MyCase states that previously paid fees are non-refundable upon
+      cancellation (2026-09-04).
+    provenance:
+      source_url: https://www.mycase.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

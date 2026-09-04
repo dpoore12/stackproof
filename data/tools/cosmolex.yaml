@@ -1,0 +1,43 @@
+slug: cosmolex
+vendor: CosmoLex
+product: CosmoLex
+category: legal_practice_management
+url: https://www.cosmolex.com/pricing/
+pricing_note: 'CosmoLex advertises "Save $120 per user with yearly" on its Monthly/Yearly toggle, but the exact per-plan yearly rate is not separately itemized in the static page render -- only the two monthly-billing figures below are recorded as tiers, and the annual discount claim is captured as a finding instead.'
+
+tiers:
+  - plan: Core
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 99
+    included_seats: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.cosmolex.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Core $99 user/mo." Flat per-user rate, no base platform fee stated. Includes trust accounting, billing/invoicing, time tracking.'
+  - plan: Pro
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 129
+    included_seats: 0
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.cosmolex.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pro $129 user/mo." Adds bank feeds and advanced compliance reporting over Core.'
+
+findings:
+  - id: cosmolex-yearly-discount-claim
+    claim: >-
+      CosmoLex advertises "Save $120 per user with yearly" next to its
+      Monthly/Yearly pricing toggle, implying a $10/user/month discount
+      versus the $99 and $129 monthly rates, but does not separately
+      itemize the resulting yearly per-plan price on the page
+      (2026-09-04).
+    provenance:
+      source_url: https://www.cosmolex.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
