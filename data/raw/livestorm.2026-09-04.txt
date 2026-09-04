@@ -1,0 +1,15 @@
+URL: https://livestorm.co/pricing
+STATUS: 200
+FETCHED: 2026-09-04 13:33:40 +00:00 (DE gateway 168.119.141.170) and 13:34:40 +00:00 (US gateway 68.183.54.131, FAQ)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed).
+---
+"Only pay for actual attendees. Purchase a plan with attendee credits and use them flexibly across your webinars. I need 400 attendee credits [slider default] 1 attendee credit is used for each unique participant, per session, over a 12-month period. Team members are not counted."
+Pro — $3.00 / attendee — "Someone who participates in a session whether they join live, watch the replay, or watch it on-demand. Each session they join counts once. Team members aren't counted." Plan highlights: up to 4 hours/session, unlimited events and recording, unlimited team members, standard multilingual support.
+Enterprise — Custom — Contact sales. All Pro features plus up to 12 hours/session, Enterprise integrations, custom analytics, dedicated Customer Success, live event shadowing, VIP multilingual support & SLA.
+FAQ: "How does your pricing work?" — "You buy a yearly pack of attendee credits and you spend 1 credit each time a person actually attends a session, whether it is live, a replay, or on demand. The same person attending two different sessions uses 2 credits. If they attend live and later watch the replay of the same session, they are only counted once for that session."
+FAQ: "Who counts as an attendee?" — "Only real participants are counted: people who join live, watch a replay, or watch on demand. People who register but never show up are not counted, so you never pay for no shows."
+FAQ: "Do team members consume credits?" — "No. Your internal team members do not consume attendee credits when they join sessions, run tests, or attend internal trainings. You only use credits for your external audience."
+FAQ: "How is this different from Zoom's pay per attendee model?" — "It is similar, but with one key difference: Zoom charges for your team members, while Livestorm does not. Your internal collaborators can join freely without consuming credits."
+FAQ: "What happens if I reach my attendee quota?" — "You will receive alerts as you get close to your limit. If you fully reach your quota, new attendees will not be able to join sessions until you upgrade. You can move to a higher yearly tier at any time to unlock more credits and keep running events without interruption."
+No cancellation or refund language found on this page.
+Page title: "Livestorm Plans & Pricing: Video Conferencing for any need".

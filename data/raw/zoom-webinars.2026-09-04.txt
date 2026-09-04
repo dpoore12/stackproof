@@ -1,0 +1,12 @@
+URL: https://zoom.us/pricing/webinar (redirected to https://zoom.us/pricing/events)
+STATUS: 200
+FETCHED: 2026-09-04 13:37:37 +00:00 (US gateway 134.209.42.109)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed).
+---
+"US Dollars $"
+Webinars — "Run reliable, high-quality broadcasts on our standard webinar platform." Attendees: 500 [selector]. Plan: Annual subscription. SAVE 35%. $83.33 per month, billed annually. Buy Now. "* Zoom Workplace Pro Required." Highlights: clear audio/crisp video, chat/reactions/polls/Q&A, custom backgrounds, AI generated smart chapters, performance reports.
+Webinars Plus (Most popular) — "Access both our standard and modern webinar platforms with AI, on-demand video, and pro production tools." Attendees: 500. Annual subscription. $290.83 per month, billed annually. "* Zoom Workplace Pro Required." All of Webinars, plus: pre-record content and run it like live, private backstage space, multiple pro layouts/scenes, AI-generated event pages, Zoom AI transcription, richer analytics.
+Events — "Everything in Webinars Plus, including multi-session virtual events with networking and hybrid features." Attendees: 500. Annual subscription. $415.83 per month, billed annually. "* Zoom Workplace Pro Required." All of Webinars Plus, plus: multiple simultaneous stages, custom ticket types (early bird to VIP), dynamic lobby, sponsor connections, hybrid capability.
+Compare-all-features table: Event Duration 30 hours (all 3 tiers). Number of Attendees "Up to 100,000" (all 3, i.e. the selector goes well beyond the 500 sampled here). Video Panelists "Up to 1,000" (all 3). Event Landing Page: Basic (Webinars) vs Advanced (Plus/Events). Video Resolution: 720p (Webinars) vs 1080p (Plus/Events).
+No cancellation, refund, or data-export language found on this page.
+Page title: "Events and Webinars Pricing - Zoom".

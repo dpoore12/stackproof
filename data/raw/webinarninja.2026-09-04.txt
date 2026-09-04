@@ -1,0 +1,11 @@
+URL: https://www.webinarninja.com/pricing (canonical https://webinarninja.com/pricing/)
+STATUS: 200
+FETCHED: 2026-09-04 13:39:54 +00:00 (US gateway 68.183.149.30)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed).
+---
+Page title: "ProProfs WebinarNinja Pricing". H1: "One Delightfully Simple Price for Everything. Run automated, live, hybrid webinars along with live courses."
+"Start Free Trial. Try us FREE for 14 days. $ $ Monthly ANNUALLY Save up to 50% ANNUAL BILLING $0.6 $0.3 (Buy before September 11 & lock this price) per attendee/month [tooltip:] An attendee is anyone who joins your webinar. You'll get to configure how many attendees you can host per session during purchase. $3.6 billed annually Or pay annually and save up to 50% For 1000+ attendees and Enterprise pricing Talk to us Start Free Trial Buy"
+Ratio check: 0.3 x 12 = 3.6, confirming "$3.6 billed annually" is the annual total per attendee at the promotional rate, i.e. $0.3/attendee/month.
+"What's included in this price? Everything." — includes unlimited webinars, unlimited registrants, unlimited co-presenters, unlimited landing pages & registration forms, unlimited replays, unlimited automated webinars, unlimited series & hybrid webinars, unlimited auto recording & cloud storage, unlimited practice sessions, AI Content Strategist, AI Webinar Co-Host, AI Conversion Writer, AI Sales Coach, screen share, stream videos during live webinars, chat/Q&A/polls, webinar reactions, offers & handouts.
+FAQ headings present (answer text not captured in this slice): "What is an attendee?", "What is a co-presenter?", "How many registrants can I have per webinar?", "What is the maximum duration for my webinar?", "Can I create a paid webinar?...", "Do me or my attendees need to download or install any software?", "Can I change my plan at any time?", "What types of payment do you accept?", "What live video tech does ProProfs WebinarNinja use?", "Is my data safe and secure?"
+No cancellation or refund answer text was captured; only the FAQ question headings above were present in the rendered slice.

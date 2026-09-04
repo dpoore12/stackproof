@@ -1,0 +1,110 @@
+slug: zoom-webinars
+vendor: Zoom
+product: Zoom Webinars, Webinars Plus & Events
+category: webinar_platforms
+url: https://zoom.us/pricing/events
+free_trial: "No free trial found on this page; each tier's CTA is 'Buy Now'."
+pricing_note: "Every tier requires an existing Zoom Workplace Pro subscription as a prerequisite (see this dataset's zoom.yaml record in the video_conferencing category, $14.16/user/month annual), so the figures below understate the real floor cost by that amount. Prices were sampled at the page's own default attendee-count selector (500); the page also lets a buyer choose other attendee-count tiers (up to 100,000) at different prices not captured here. Because only one attendee-count point was sampled and a base Workplace Pro plan is required underneath it, these tiers are marked non-comparable (compare: false) rather than risk a misleading cross-vendor number at other attendee counts."
+
+tiers:
+  - plan: Webinars
+    compare: false
+    standalone: false
+    base_monthly_usd: 83.33
+    per_seat_monthly_usd: 0
+    max_seats: 500
+    seat_label: attendee (sampled at the page's 500-attendee default)
+    billing: annual
+    provenance:
+      source_url: https://zoom.us/pricing/events
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Webinars. Run reliable, high-quality broadcasts on our standard webinar platform. Attendees: 500. Annual subscription. SAVE 35%. $83.33 per month, billed annually. * Zoom Workplace Pro Required." 30-hour event duration, up to 1,000 video panelists, up to 100,000 attendees at higher selector values.'
+  - plan: Webinars Plus
+    compare: false
+    standalone: false
+    base_monthly_usd: 290.83
+    per_seat_monthly_usd: 0
+    max_seats: 500
+    seat_label: attendee (sampled at the page's 500-attendee default)
+    billing: annual
+    provenance:
+      source_url: https://zoom.us/pricing/events
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Webinars Plus. Access both our standard and modern webinar platforms with AI, on-demand video, and pro production tools. Attendees: 500. Annual subscription. $290.83 per month, billed annually. * Zoom Workplace Pro Required." Pre-recorded content run live, private backstage, pro layouts/scenes, AI event pages, richer analytics.'
+  - plan: Events
+    compare: false
+    standalone: false
+    base_monthly_usd: 415.83
+    per_seat_monthly_usd: 0
+    max_seats: 500
+    seat_label: attendee (sampled at the page's 500-attendee default)
+    billing: annual
+    provenance:
+      source_url: https://zoom.us/pricing/events
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Events. Everything in Webinars Plus, including multi-session virtual events with networking and hybrid features. Attendees: 500. Annual subscription. $415.83 per month, billed annually. * Zoom Workplace Pro Required." Multiple simultaneous stages, custom ticket types, dynamic lobby, sponsor connections, hybrid capability.'
+
+clauses:
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Zoom's Events and Webinars pricing page states no cancellation
+      terms (2026-09-04).
+    provenance:
+      source_url: https://zoom.us/pricing/events
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Zoom's Events and Webinars pricing page states no refund terms
+      (2026-09-04).
+    provenance:
+      source_url: https://zoom.us/pricing/events
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Zoom's Events and Webinars pricing page states no data-export terms
+      (2026-09-04).
+    provenance:
+      source_url: https://zoom.us/pricing/events
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: zoom-webinars-requires-workplace-pro
+    claim: >-
+      Zoom's Webinars, Webinars Plus and Events add-ons each carry a "*
+      Zoom Workplace Pro Required" footnote, so a buyer without an
+      existing $14.16/user/month Pro subscription pays that on top of the
+      $83.33-$415.83 add-on price to actually use any of them
+      (2026-09-04).
+    provenance:
+      source_url: https://zoom.us/pricing/events
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: zoom-webinars-price-ladder
+    claim: >-
+      At the same 500-attendee capacity, Zoom prices Webinars at $83.33,
+      Webinars Plus at $290.83 and Events at $415.83 per month billed
+      annually, so Events costs exactly 5x the base Webinars tier
+      (2026-09-04).
+    provenance:
+      source_url: https://zoom.us/pricing/events
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: zoom-webinars-shared-limits
+    claim: >-
+      All three tiers share the same event duration (30 hours) and video
+      panelist limit (up to 1,000), scaling only in production and
+      engagement features, not in these base capacity limits
+      (2026-09-04).
+    provenance:
+      source_url: https://zoom.us/pricing/events
+      fetched_at: 2026-09-04
+      method: live_fetch

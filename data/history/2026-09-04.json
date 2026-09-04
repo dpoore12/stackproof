@@ -625,6 +625,64 @@
    ],
    "vendor": "Dashlane"
   },
+  "demio": {
+   "category": "webinar_platforms",
+   "fees": [],
+   "product": "Demio",
+   "tiers": [
+    {
+     "base_monthly_usd": 45.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 50,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter",
+     "source_url": "https://www.demio.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 63.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 50,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Starter (monthly)",
+     "source_url": "https://www.demio.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 80.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 150,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Growth",
+     "source_url": "https://www.demio.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 117.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 150,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Growth (monthly)",
+     "source_url": "https://www.demio.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 196.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 150,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Premium",
+     "source_url": "https://www.demio.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Demio"
+  },
   "dialpad": {
    "category": "business_phone",
    "fees": [],
@@ -854,6 +912,64 @@
     }
    ],
    "vendor": "Egnyte"
+  },
+  "ewebinar": {
+   "category": "webinar_platforms",
+   "fees": [],
+   "product": "eWebinar",
+   "tiers": [
+    {
+     "base_monthly_usd": 84.17,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Level 1",
+     "source_url": "https://www.ewebinar.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 99.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Level 1 (monthly)",
+     "source_url": "https://www.ewebinar.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 169.17,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Level 2",
+     "source_url": "https://www.ewebinar.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 254.17,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Level 3",
+     "source_url": "https://www.ewebinar.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Enterprise",
+     "source_url": "https://www.ewebinar.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "eWebinar"
   },
   "expensify": {
    "category": "expense_management",
@@ -2210,6 +2326,34 @@
     }
    ],
    "vendor": "Text"
+  },
+  "livestorm": {
+   "category": "webinar_platforms",
+   "fees": [],
+   "product": "Livestorm",
+   "tiers": [
+    {
+     "base_monthly_usd": 100.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 400,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Pro",
+     "source_url": "https://livestorm.co/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Enterprise",
+     "source_url": "https://livestorm.co/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Livestorm"
   },
   "mailchimp": {
    "category": "email_marketing",
@@ -4128,6 +4272,34 @@
    ],
    "vendor": "Webflow"
   },
+  "webinarninja": {
+   "category": "webinar_platforms",
+   "fees": [],
+   "product": "ProProfs WebinarNinja",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": 999,
+     "per_seat_monthly_usd": 0.6,
+     "plan": "WebinarNinja",
+     "source_url": "https://webinarninja.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 999,
+     "per_seat_monthly_usd": 0.3,
+     "plan": "WebinarNinja (annual promo)",
+     "source_url": "https://webinarninja.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "ProProfs"
+  },
   "whereby": {
    "category": "video_conferencing",
    "fees": [],
@@ -4666,6 +4838,44 @@
      "per_seat_monthly_usd": 18.33,
      "plan": "Business",
      "source_url": "https://zoom.us/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Zoom"
+  },
+  "zoom-webinars": {
+   "category": "webinar_platforms",
+   "fees": [],
+   "product": "Zoom Webinars, Webinars Plus & Events",
+   "tiers": [
+    {
+     "base_monthly_usd": 83.33,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 500,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Webinars",
+     "source_url": "https://zoom.us/pricing/events",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 290.83,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 500,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Webinars Plus",
+     "source_url": "https://zoom.us/pricing/events",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 415.83,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 500,
+     "per_seat_monthly_usd": 0.0,
+     "plan": "Events",
+     "source_url": "https://zoom.us/pricing/events",
      "steps": null
     }
    ],

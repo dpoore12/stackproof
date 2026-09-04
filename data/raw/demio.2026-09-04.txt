@@ -1,0 +1,12 @@
+URL: https://www.demio.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 13:36:11 +00:00 (DE gateway 168.119.141.170; rendered USD despite the gateway)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed).
+---
+"Flexible Pricing Plans for Any Business. Monthly | Annual Save 30%."
+Starter — "Perfect for small businesses and solo entrepreneurs getting started with webinars. A host has the ability to start and stop events. You'll need to purchase multiple hosts if you plan to run more than one event simultaneously. Our starter plan is limited to one host." Attendee Room 50. $45/mo Single Host / Paid Yearly (annual view); $63/mo Single Host / Paid Monthly (monthly view).
+Growth — "Ideal for growing companies that need more brand control, bigger rooms, and multiple Hosts." Attendee Room 150 / 500 / 1,000 / 3,000. $80/mo Per Host / Paid Yearly (annual view); $117/mo Per Host / Paid Monthly (monthly view).
+Premium (Best Value) — "For any business looking to host and analyze engaging webinars with dedicated account support. Dedicated CSM and priority support, premium integrations, custom domains, up to 10 people on stage at one time, front-of-line for beta features, Demio AI." Attendee Room 150 / 500 / 1,000 / 3,000. $196/mo Per Host / Paid Yearly (both annual and monthly views showed $196, suggesting Premium's monthly-vs-annual split, if any, was not captured distinctly). "There is no limit to the number of hosts per account with our premium plan."
+Compare Plans table confirms per-tier gating (FREE/STANDARD/PREMIUM feature levels): Session Limit 3-Hour/8-Hour/10-Hour; Stage Capacity 4/6/10 people; Event Admins 15/25/50; Support Standard/Priority/Dedicated CSM; Integrations (Hubspot, Salesforce, Marketo, Pardot, OpenReel included on Premium; Zapier + professional services purchasable add-on elsewhere).
+No cancellation, refund, or data-export language found on this page.
+Page title: "Pricing | Demio".

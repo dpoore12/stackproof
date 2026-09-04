@@ -1,0 +1,96 @@
+slug: webinarninja
+vendor: ProProfs
+product: ProProfs WebinarNinja
+category: webinar_platforms
+url: https://webinarninja.com/pricing/
+free_trial: "14-day free trial, no credit card required to start (stated 2026-09-04)."
+pricing_note: "The only vendor in this category with a genuine linear per-attendee rate (Livestorm's is a volume-tiered annual credit pack, sampled at one point only). The buyer configures how many attendees they can host per session during purchase; the rate applies up to 1,000 attendees, above which it becomes custom Enterprise pricing. Everything (unlimited webinars, registrants, co-presenters, replays, automated/hybrid webinars, cloud storage) is included at every attendee level, so this is a single price dimension, not a feature-gated tier ladder like every other vendor in this category."
+
+tiers:
+  - plan: WebinarNinja
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0.6
+    max_seats: 999
+    seat_label: attendee
+    billing: monthly
+    provenance:
+      source_url: https://webinarninja.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"One Delightfully Simple Price for Everything... $0.6 per attendee/month" (Monthly billing toggle). "An attendee is anyone who joins your webinar. You''ll get to configure how many attendees you can host per session during purchase." "For 1000+ attendees and Enterprise pricing, talk to us."'
+  - plan: WebinarNinja (annual promo)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0.3
+    max_seats: 999
+    seat_label: attendee
+    billing: annual
+    promo: "Page showed \"$0.3 (Buy before September 11 & lock this price)\" per attendee/month billed annually as of 2026-09-04, explicitly flagged as a limited-time locked rate rather than the standard annual price; the standard (post-deadline) annual rate is not captured."
+    provenance:
+      source_url: https://webinarninja.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$ $ Monthly ANNUALLY Save up to 50% ANNUAL BILLING $0.6 $0.3 (Buy before September 11 & lock this price) per attendee/month... $3.6 billed annually" (0.3 x 12 = 3.6, confirming the figure is a monthly-equivalent rate).'
+
+clauses:
+  - topic: cancellation
+    status: needs_account
+    finding: >-
+      ProProfs WebinarNinja's FAQ has a heading "Can I change my plan at
+      any time?" but the answer text was not present in the rendered
+      page, so the actual cancellation/change policy is unverified
+      (2026-09-04).
+    provenance:
+      source_url: https://webinarninja.com/pricing/
+      fetched_at: 2026-09-04
+      method: not_available
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      ProProfs WebinarNinja's pricing page states no data-export terms
+      (2026-09-04).
+    provenance:
+      source_url: https://webinarninja.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      ProProfs WebinarNinja's pricing page states no refund terms
+      (2026-09-04).
+    provenance:
+      source_url: https://webinarninja.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: webinarninja-single-price-dimension
+    claim: >-
+      Unlike every other vendor in this category, ProProfs WebinarNinja
+      gates nothing by feature tier: unlimited webinars, registrants,
+      co-presenters, replays, and AI tools are included at every
+      attendee level, so price varies only by configured attendee
+      capacity (2026-09-04).
+    provenance:
+      source_url: https://webinarninja.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: webinarninja-enterprise-threshold
+    claim: >-
+      ProProfs WebinarNinja's linear per-attendee rate applies only up to
+      1,000 attendees; beyond that the page states "Enterprise pricing"
+      applies and directs buyers to "talk to us" (2026-09-04).
+    provenance:
+      source_url: https://webinarninja.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: webinarninja-annual-discount-size
+    claim: >-
+      ProProfs WebinarNinja advertises "Save up to 50%" for annual
+      billing, and its own promotional figures show exactly that: $0.6
+      monthly vs. $0.3 annual per attendee, a full 50% reduction
+      (2026-09-04).
+    provenance:
+      source_url: https://webinarninja.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -1,0 +1,124 @@
+slug: demio
+vendor: Demio
+product: Demio
+category: webinar_platforms
+url: https://www.demio.com/pricing
+free_trial: "Start for Free (self-serve signup mentioned in the page header)."
+pricing_note: "Prices are flat per host, per month, gated by an attendee room size; Growth and Premium also offer larger 500/1,000/3,000-attendee rooms at additional cost not shown in static text (selecting a larger room requires an interactive calculator), so the recorded price and seat count reflect only the smallest room size for each plan. Starter is limited to exactly 1 host; Growth and Premium require buying an additional host license to run more than one event simultaneously."
+
+tiers:
+  - plan: Starter
+    base_monthly_usd: 45
+    per_seat_monthly_usd: 0
+    max_seats: 50
+    seat_label: attendee (single host only)
+    billing: annual
+    provenance:
+      source_url: https://www.demio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Starter. Perfect for small businesses and solo entrepreneurs getting started with webinars. Attendee Room 50. $45/mo. Single Host / Paid Yearly." Limited to one host.'
+  - plan: Starter (monthly)
+    base_monthly_usd: 63
+    per_seat_monthly_usd: 0
+    max_seats: 50
+    seat_label: attendee (single host only)
+    billing: monthly
+    compare: false
+    provenance:
+      source_url: https://www.demio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$63/mo. Single Host / Paid Monthly."'
+  - plan: Growth
+    base_monthly_usd: 80
+    per_seat_monthly_usd: 0
+    max_seats: 150
+    seat_label: attendee (price shown at the smallest room size; larger rooms cost more)
+    billing: annual
+    provenance:
+      source_url: https://www.demio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Growth. Ideal for growing companies that need more brand control, bigger rooms, and multiple Hosts. Attendee Room 150 / 500 / 1,000 / 3,000. $80/mo. Per Host / Paid Yearly."'
+  - plan: Growth (monthly)
+    base_monthly_usd: 117
+    per_seat_monthly_usd: 0
+    max_seats: 150
+    seat_label: attendee (price shown at the smallest room size)
+    billing: monthly
+    compare: false
+    provenance:
+      source_url: https://www.demio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$117/mo. Per Host / Paid Monthly."'
+  - plan: Premium
+    base_monthly_usd: 196
+    per_seat_monthly_usd: 0
+    max_seats: 150
+    seat_label: attendee (price shown at the smallest room size; larger rooms cost more)
+    billing: annual
+    provenance:
+      source_url: https://www.demio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Premium (Best Value). For any business looking to host and analyze engaging webinars with dedicated account support. Attendee Room 150 / 500 / 1,000 / 3,000. $196/mo. Per Host / Paid Yearly." Dedicated CSM and priority support, premium integrations, custom domains, up to 10 people on stage, Demio AI. "There is no limit to the number of hosts per account with our premium plan."'
+
+clauses:
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Demio's pricing page states no cancellation terms (2026-09-04).
+    provenance:
+      source_url: https://www.demio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Demio's pricing page states no refund terms (2026-09-04).
+    provenance:
+      source_url: https://www.demio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Demio's pricing page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://www.demio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: demio-annual-discount
+    claim: >-
+      Demio's page banner states "Save 30%" for annual billing, and its
+      own printed figures confirm this closely: Starter $45 vs $63/month
+      (29% off), Growth $80 vs $117 (32% off), Premium $196 unchanged
+      between the two captures (2026-09-04).
+    provenance:
+      source_url: https://www.demio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: demio-starter-single-host-cap
+    claim: >-
+      Demio's Starter plan is hard-capped at exactly 1 host: "You'll need
+      to purchase multiple hosts if you plan to run more than one event
+      simultaneously. Our starter plan is limited to one host"
+      (2026-09-04).
+    provenance:
+      source_url: https://www.demio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: demio-premium-unlimited-hosts
+    claim: >-
+      Demio states "there is no limit to the number of hosts per account
+      with our premium plan," unlike Growth's "Per Host" pricing model
+      where each simultaneous-event host must be purchased separately
+      (2026-09-04).
+    provenance:
+      source_url: https://www.demio.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

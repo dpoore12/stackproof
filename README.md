@@ -252,6 +252,26 @@ Seat points are 1, 5, 25, 50, 100 employees needing remote access,
 chosen to land on the 5-user minimums common across this category and
 Cloudflare's 50-user free-tier boundary.
 
+### Webinar platforms (2026-09-04)
+
+Five vendors: Livestorm, Demio, Zoom (Webinars/Webinars Plus/Events
+add-ons), eWebinar, ProProfs WebinarNinja. Picked after SOC 2 compliance
+automation (Sprinto, Vanta) turned out to be entirely demo-gated with no
+published price at all, the same dead end as endpoint security earlier.
+This category is the most pricing-model-heterogeneous in the dataset:
+no two vendors here bill on the same axis. Livestorm sells an annual
+pack of attendee credits (team members free); eWebinar prices by the
+count of published automated webinars regardless of their traffic, and
+explicitly has "a free trial but not a free plan" — an idle account is
+still billed; Demio and Zoom charge a flat fee gated by attendee-room
+capacity, with Zoom additionally requiring a separate Zoom Workplace Pro
+subscription underneath it; only WebinarNinja prices with a true linear
+per-attendee rate. Because of this, most tiers here are marked
+non-comparable (`compare: false`) rather than forced into a cross-vendor
+table that would compare unlike things — only Demio and WebinarNinja
+populate the live cost table. Seat points are 50, 100, 500, 1,000, 3,000
+attendees per session, matching Demio's own room-size menu.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
