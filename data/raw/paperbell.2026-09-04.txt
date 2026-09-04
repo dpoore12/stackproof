@@ -1,0 +1,7 @@
+Source: https://paperbell.com/pricing/
+Fetched: 2026-09-04
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+JSON-LD offers:
+Monthly: $57.00/mo. "All features included. Unlimited clients, sessions, packages, and traffic. No transaction fees. Cancel anytime."
+Annual: $570.00/yr ($47.50/mo). "Billed annually at $570/year ($47.50/month). Save 2 months vs monthly billing."

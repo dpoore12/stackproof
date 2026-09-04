@@ -1,0 +1,15 @@
+Source: https://www.satoriapp.com/pricing/
+Fetched: 2026-09-04
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Billing toggle: Monthly | Annual (Annual carries the "current" CSS class in
+server-rendered markup). "Get 2 Months Free" annual promo banner shown.
+
+Essentials  $33/m  10 Active Clients, 3 Coaching Programs, 60 Session
+            Bookings, 10 Google Calendars. "Start Free Trial."
+
+Pro (Best Value)  $49/m  50 Active Clients, 10 Coaching Programs,
+            120 Session Bookings, 20 Google Calendars. "Start Free Trial."
+
+Leader  $124/m  150 Active Clients, 50 Coaching Programs, Unlimited
+            Session Bookings, Unlimited Google Calendars. "Contact Us."

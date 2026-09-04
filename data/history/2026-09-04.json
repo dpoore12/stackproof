@@ -1395,6 +1395,113 @@
    ],
    "vendor": "Cloudflare"
   },
+  "coachaccountable": {
+   "category": "coaching_practice_management",
+   "fees": [],
+   "product": "CoachAccountable",
+   "tiers": [
+    {
+     "base_monthly_usd": null,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "CoachAccountable",
+     "source_url": "https://www.coachaccountable.com/pricing",
+     "steps": [
+      {
+       "monthly_usd": 20.0,
+       "up_to": 2
+      },
+      {
+       "monthly_usd": 40.0,
+       "up_to": 5
+      },
+      {
+       "monthly_usd": 70.0,
+       "up_to": 10
+      },
+      {
+       "monthly_usd": 120.0,
+       "up_to": 20
+      },
+      {
+       "monthly_usd": 200.0,
+       "up_to": 35
+      },
+      {
+       "monthly_usd": 250.0,
+       "up_to": 50
+      },
+      {
+       "monthly_usd": 340.0,
+       "up_to": 75
+      },
+      {
+       "monthly_usd": 400.0,
+       "up_to": 100
+      },
+      {
+       "monthly_usd": 600.0,
+       "up_to": 150
+      },
+      {
+       "monthly_usd": 800.0,
+       "up_to": 200
+      },
+      {
+       "monthly_usd": 1000.0,
+       "up_to": 250
+      },
+      {
+       "monthly_usd": 1200.0,
+       "up_to": 300
+      },
+      {
+       "monthly_usd": 1400.0,
+       "up_to": 350
+      },
+      {
+       "monthly_usd": 1600.0,
+       "up_to": 400
+      },
+      {
+       "monthly_usd": 1800.0,
+       "up_to": 450
+      },
+      {
+       "monthly_usd": 2000.0,
+       "up_to": 500
+      },
+      {
+       "monthly_usd": 2200.0,
+       "up_to": 550
+      },
+      {
+       "monthly_usd": 2400.0,
+       "up_to": 600
+      },
+      {
+       "monthly_usd": 2600.0,
+       "up_to": 650
+      },
+      {
+       "monthly_usd": 2800.0,
+       "up_to": 700
+      },
+      {
+       "monthly_usd": 3000.0,
+       "up_to": 750
+      },
+      {
+       "monthly_usd": 4000.0,
+       "up_to": 1000
+      }
+     ]
+    }
+   ],
+   "vendor": "CoachAccountable"
+  },
   "coda": {
    "category": "wiki",
    "fees": [],
@@ -6487,6 +6594,34 @@
    "tiers": [],
    "vendor": "PandaDoc"
   },
+  "paperbell": {
+   "category": "coaching_practice_management",
+   "fees": [],
+   "product": "Paperbell",
+   "tiers": [
+    {
+     "base_monthly_usd": 47.5,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Paperbell (annual)",
+     "source_url": "https://paperbell.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 57.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Paperbell (monthly)",
+     "source_url": "https://paperbell.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Paperbell"
+  },
   "patriot": {
    "category": "payroll",
    "fees": [
@@ -7414,6 +7549,44 @@
     }
    ],
    "vendor": "Rocket Matter"
+  },
+  "satori": {
+   "category": "coaching_practice_management",
+   "fees": [],
+   "product": "Satori",
+   "tiers": [
+    {
+     "base_monthly_usd": 33.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 10,
+     "per_seat_monthly_usd": null,
+     "plan": "Essentials (annual)",
+     "source_url": "https://www.satoriapp.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 49.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 50,
+     "per_seat_monthly_usd": null,
+     "plan": "Pro (annual)",
+     "source_url": "https://www.satoriapp.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 124.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": 150,
+     "per_seat_monthly_usd": null,
+     "plan": "Leader (annual)",
+     "source_url": "https://www.satoriapp.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Satori"
   },
   "savvycal": {
    "category": "scheduling",
