@@ -124,6 +124,16 @@ and are absent from the DOM. Seat points are 1, 5, 10, 25, 50 people who
 track time; Hubstaff's 2-seat minimum is modelled as a base fee covering
 2 seats.
 
+### Social media scheduling (2026-09-04)
+
+Buffer returns 403 to the renderer; SocialBee was behind a maintenance
+page. Hootsuite and Agorapulse rendered EUR on every German gateway
+(Hootsuite's FAQ states the USD figures in prose, which the record uses;
+Agorapulse has no USD text and is findings-only). Later and Sprout Social
+rendered USD everywhere; Sprout's FAQ answers live only in FAQPage JSON-LD,
+which is where the monthly rates came from. Publer redirects to a locale
+path by IP. Seat points are 1, 2, 5, 10, 25 users who post or schedule.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

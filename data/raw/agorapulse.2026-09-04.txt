@@ -1,0 +1,12 @@
+URL: https://www.agorapulse.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 00:35:54 +00:00 (German gateway 168.119.99.194), 00:36:22 (168.119.99.191) and 00:36:40 (168.119.141.170) — all three rendered EUR
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main> (whitespace-collapsed). Switch "Pay monthly / Pay annually (Save up to 20%)"; each card prints the annual figure immediately followed by the monthly figure ("79€99€ per user /month, Save 240€/year").
+---
+Agorapulse https://www.agorapulse.com/pricing/ — fetch 1, 2026-09-04 00:35:54 +00:00, German gateway 168.119.99.194 — EUR. "Free For 30 Days, No Credit Card Required." Pay monthly / Pay annually (Save up to 20%). Cards print annual then monthly figure:
+Standard — 79€ / 99€ per user/month — Save 240€/year — unlimited posts, one inbox, basic reports.
+Professional — 119€ / 149€ per user/month — Save 360€/year — link in bio, IG product tagging, ad comments, assignments, team reports.
+Advanced (most popular) — 149€ / 199€ per user/month — Save 600€/year — labels, saved replies, moderation rules, bulk actions, shared calendars, advanced/ads/ROI/competitor reports.
+Custom — tailored pricing — unlimited social profiles, SSO, custom roles, multi-step approvals, API, CSM.
+Social profiles: 10 / 10 / 10 / Unlimited. "If you need more than your plan's limit, you can add extra profiles for 10€ / 15€ /month each" (annual/monthly). Shared calendars: 5 on Advanced. Bulk scheduling up to 200 posts via CSV.
+FAQ (fetch 2) — 1. What happens after the trial? "You'll pick a paid plan if you're ready, or keep using the free plan for as long as you need. No pressure, no automatic charges." 2. Can I change plans later on? "You can switch plans anytime." 3. Credit card? "Nope! Just sign up and start your 30-day trial, no card required." 4. User vs profile: "A user is someone on your team. A profile is one of your connected social accounts." 6. Nonprofits: "We do. Reach out and we'll help you get set up with the right plan at the right price." 7. Support: "every plan includes access to our award-winning support team. Most questions get answered in under an hour".

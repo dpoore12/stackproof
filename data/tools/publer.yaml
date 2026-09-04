@@ -1,0 +1,162 @@
+slug: publer
+vendor: Publer
+product: Publer
+category: social_scheduling
+url: https://publer.com/plans
+free_trial: "7-day trial on Professional and 14-day on Business without a card, plus a Free plan with 3 social accounts (stated 2026-09-04)."
+pricing_note: "Priced per social account plus per additional member via sliders; the render reflects the defaults of 1 social account and 0 additional members, so the tiers are the 1-account price with the plan owner as the only user. Cards print EUR with a 'Price in US Dollars' line for yearly billing only; the monthly USD rate is derived from the EUR monthly-to-yearly ratio (1.25) and recorded as non-compared. Every 10th account or member is free."
+
+tiers:
+  - plan: Free
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    max_seats: 1
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://publer.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Free forever 0,00 € — 1 user, 1 workspace, 3 social accounts (except X), 10 scheduled posts per account, 25 saved drafts, 24-hour post history".'
+  - plan: Professional (1 social account)
+    base_monthly_usd: 4
+    per_seat_monthly_usd: 0
+    included_seats: 1
+    max_seats: 1
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://publer.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch at slider defaults. "Professional 4,31 €/month 3,44 € Price in US Dollars: $4.00/month billed yearly". Additional members are priced by a slider that was not moved.'
+  - plan: Professional (1 social account, monthly)
+    compare: false
+    base_monthly_usd: 5
+    per_seat_monthly_usd: 0
+    included_seats: 1
+    max_seats: 1
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://publer.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Derived: EUR monthly 4,31 is 1.25 × EUR yearly 3,44 ("2 months free"), so $4.00 × 1.25 = $5.00.'
+  - plan: Business (1 social account)
+    base_monthly_usd: 8
+    per_seat_monthly_usd: 0
+    included_seats: 1
+    max_seats: 1
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://publer.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"business 8,61 €/month 6,89 € Price in US Dollars: $8.00/month billed yearly".'
+  - plan: Business (1 social account, monthly)
+    compare: false
+    base_monthly_usd: 10
+    per_seat_monthly_usd: 0
+    included_seats: 1
+    max_seats: 1
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://publer.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Derived: $8.00 × 1.25 = $10.00 from the EUR monthly-to-yearly ratio.'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Publer lets a subscription be cancelled anytime in Settings with paid
+      access continuing to the end of the term, and auto-cancels after 3
+      failed payments retried every 3 days (2026-09-04).
+    quote: "You can continue to use the paid version until the end of the subscription / trial date, unless you request a refund."
+    provenance:
+      source_url: https://publer.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: stated
+    finding: >-
+      Publer refunds any payment in full within 14 days and pro-rata after
+      that, with the yearly discount waived on late refunds; refunds are
+      issued manually on request (2026-09-04).
+    quote: "For each payment that you make, you have 14 days to request a full refund. After the 14 days, you're still eligible for a refund, but a pro-rated refund and the discount for paying yearly will be waived."
+    provenance:
+      source_url: https://publer.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: price_change
+    status: stated
+    finding: >-
+      Publer grandfathers existing subscribers at their signup price and
+      applies increases only to new customers (2026-09-04).
+    quote: "As long as you have a subscription with us, we will never charge more than what you signed up for."
+    provenance:
+      source_url: https://publer.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_retention
+    status: stated
+    finding: >-
+      Publer's Free plan keeps published posts on its servers for only 24
+      hours, against unlimited history on paid plans (2026-09-04).
+    quote: "In the free version, we will store the published posts on our servers for only 24 hours."
+    provenance:
+      source_url: https://publer.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Publer's plans page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://publer.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: publer-per-account-pricing
+    claim: >-
+      Publer prices Professional at $4 and Business at $8 per social account
+      a month on yearly billing, with every 10th social account and every
+      10th additional member free (2026-09-04).
+    provenance:
+      source_url: https://publer.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: publer-eur-cards-usd-line
+    claim: >-
+      Publer's English plans page on 2026-09-04 printed EUR card prices
+      (3,44 € and 6,89 € yearly) with a separate "Price in US Dollars" line
+      for yearly billing only, and redirected 2 of 3 fetches to a German
+      locale by IP.
+    provenance:
+      source_url: https://publer.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: publer-free-plan-limits
+    claim: >-
+      Publer's Free plan allows 3 social accounts excluding X, 10 scheduled
+      posts per account and 25 saved drafts, and cannot connect X because of
+      X's enterprise API cost (2026-09-04).
+    provenance:
+      source_url: https://publer.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: publer-payment-failure-cancel
+    claim: >-
+      Publer cancels a subscription automatically after 3 consecutive failed
+      payments, retried every 3 days, and downgrades the account to Free
+      (2026-09-04).
+    provenance:
+      source_url: https://publer.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch

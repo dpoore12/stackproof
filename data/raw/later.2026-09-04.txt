@@ -1,0 +1,14 @@
+URL: https://later.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 00:31:48 +00:00 (US gateway 68.183.60.34)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText of <main> (whitespace-collapsed). Switch "Bill Monthly / Bill Yearly — 3 months free | 25% off"; the page rendered the yearly figures ("Billed yearly"). "*Prices are billed in USD, applicable taxes are extra".
+---
+"Manage your entire social media strategy. Free for 14 days." Bill Monthly / Bill Yearly (3 months free | 25% off).
+Starter — For casual scheduling — $18.75 USD/month* Billed yearly — 1 social set (8 profiles total, 1 of each), 1 user, schedule up to 30 posts per profile, AI content tools (5 AI credits/month), platform analytics up to 3 months, Link in Bio, basic support. "Extra Social Sets, users and AI credits not available."
+Growth (Most popular) — $37.50 USD/month* Billed yearly — 2 social sets (16 profiles), 2 users, multi-profile best times to post, collaboration and approvals, social inbox, up to 180 posts per profile, 50 AI credits/month, analytics up to 1 year, custom roles. Extra Social Sets ($11.25 USD/month each), Extra users ($3.75 USD/month each), Extra AI credits ($3.75 USD/month for 100 credits/month).
+Scale — For Enterprise-level analytics — $82.50 USD/month* Billed yearly — 6 social sets (48 profiles), 4 users, Meta Ads analytics, custom analytics, competitive benchmarking, brand health, unlimited posts, 100 AI credits/month, analytics up to 2 years, priority support. Same extra Social Set / user / AI credit prices.
+Compare table: Social Sets 1 (8 profiles) / 2 (16) / 6 (48). Social posts 30 per profile per month / 180 / Unlimited. AI credits 5 / 50 / 100 per month. Unlimited media storage (max 20MB/photo, 512MB/video).
+FAQ (second fetch 00:32:10 +00:00, German gateway 168.119.99.191, still USD) — What is a Social Set? "A Social Set includes one of each profile we support: Instagram, Facebook, TikTok, Pinterest, LinkedIn, YouTube, Threads and Snapchat."
+FAQ — How many users come with a plan? "Each plan comes with a set number of users. You can add additional users to each paid plan for $5 per additional user. Note: Starter plans are limited to 1 user." (The Growth and Scale cards on the yearly toggle say "Extra users ($3.75 USD/month each)"; $3.75 is 25% off $5.)
+FAQ — How do the annual plans work? "Save 25% when you choose an annual subscription instead of a monthly subscription. Annual plans are billed once per year and renewed automatically."
+FAQ — Non-profit pricing: "qualified non-profit organizations can receive 50% off our annual Growth plan."

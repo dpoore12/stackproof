@@ -1,0 +1,173 @@
+slug: sprout-social
+vendor: Sprout Social
+product: Sprout Social
+category: social_scheduling
+url: https://sproutsocial.com/pricing/
+free_trial: "30-day free trial, no credit card (stated 2026-09-04)."
+pricing_note: "Per-seat pricing with no base fee. Cards show annual-billing rates; the FAQ lists the monthly-billing rates, which are recorded as non-compared tiers. Premium Analytics, Listening and Employee Advocacy add-ons carry no published price."
+
+tiers:
+  - plan: Essentials
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 79
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://sproutsocial.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch. "Essentials $79 per seat/month — $99 per seat/month billed monthly." Up to 5 social profiles; marked NEW.'
+  - plan: Essentials (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 99
+    seat_label: seat
+    billing: monthly
+    provenance:
+      source_url: https://sproutsocial.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$99 per seat/month billed monthly."'
+  - plan: Standard
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 199
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://sproutsocial.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Standard $199 per seat/month" under the header "No credit card required. Annual billing." 5 social profiles.'
+  - plan: Standard (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 249
+    seat_label: seat
+    billing: monthly
+    provenance:
+      source_url: https://sproutsocial.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'FAQ JSON-LD: "Monthly billing pricing: … Standard: $249 per seat/month".'
+  - plan: Professional
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 299
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://sproutsocial.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Professional $299 per seat/month". Unlimited social profiles; marked Most popular.'
+  - plan: Professional (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 399
+    seat_label: seat
+    billing: monthly
+    provenance:
+      source_url: https://sproutsocial.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'FAQ JSON-LD: "Professional: $399 per seat/month".'
+  - plan: Advanced
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 399
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://sproutsocial.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Advanced $399 per seat/month".'
+  - plan: Advanced (monthly)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 499
+    seat_label: seat
+    billing: monthly
+    provenance:
+      source_url: https://sproutsocial.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'FAQ JSON-LD: "Advanced: $499 per seat/month".'
+
+fees:
+  - name: Trellis Plus AI add-on
+    amount_usd: 28
+    unit: per user per month, annual billing ($35 on monthly billing)
+    applies_to: All plans, above the 100 included monthly credits
+    provenance:
+      source_url: https://sproutsocial.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'FAQ JSON-LD: "Trellis Plus pricing depends on your subscription term: Annual billing: $28 per user/month; Monthly billing: $35 per user/month".'
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      Sprout Social's annual billing is a single upfront payment for the
+      whole term; plans with multiple payments in a term do not get the
+      discount, and monthly billing runs $20 to $100 more per seat
+      (2026-09-04).
+    quote: "Annual billing requires a one-time upfront payment for the entire subscription term"
+    provenance:
+      source_url: https://sproutsocial.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Sprout Social's pricing page states no cancellation or refund terms;
+      the FAQ says only that a plan can be changed (2026-09-04).
+    provenance:
+      source_url: https://sproutsocial.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Sprout Social's pricing page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://sproutsocial.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: sprout-monthly-premium
+    claim: >-
+      Sprout Social's monthly billing costs $99, $249, $399 and $499 per
+      seat against $79, $199, $299 and $399 on annual billing, a premium of
+      25% on Standard and Essentials and 33% on Professional (2026-09-04).
+    provenance:
+      source_url: https://sproutsocial.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: sprout-ai-credits
+    claim: >-
+      Every Sprout Social seat includes 100 Trellis AI credits a month;
+      Trellis Plus costs $28 per user a month on annual billing or $35
+      monthly (2026-09-04).
+    provenance:
+      source_url: https://sproutsocial.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: sprout-profile-caps
+    claim: >-
+      Sprout Social caps Essentials and Standard at 5 social profiles per
+      account, with Professional and Advanced unlimited; brand keywords per
+      group run 0, 10, 10 and 20 (2026-09-04).
+    provenance:
+      source_url: https://sproutsocial.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: sprout-unpriced-addons
+    claim: >-
+      Sprout Social lists 3 add-ons (Premium Analytics, Listening, Employee
+      Advocacy) available from Standard up with no published price
+      (2026-09-04).
+    provenance:
+      source_url: https://sproutsocial.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch

@@ -1,0 +1,107 @@
+slug: hootsuite
+vendor: Hootsuite
+product: Hootsuite
+category: social_scheduling
+url: https://www.hootsuite.com/plans
+free_trial: "14-day free trial, no credit card, with daily posting limits of 10 to 20 posts per organization (stated 2026-09-04)."
+pricing_note: "Per-user pricing with no base fee; the cards show annual-billing rates only. Both automated fetches rendered the cards in euros, so the USD tiers are taken from the FAQ sentence that states the dollar prices and from the page metadata. Monthly billing exists at a higher, unpublished rate."
+
+tiers:
+  - plan: Standard
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 99
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.hootsuite.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'FAQ "How much does Hootsuite cost?": "Paid plans start at $99 for a Standard plan". Card (EUR render): "€99 per user/month, billed annually". Up to 10 social accounts.'
+  - plan: Professional
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 199
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.hootsuite.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'FAQ: "$199 for a Professional plan". Card: "€199 per user/month, billed annually". Unlimited social accounts. Marked Most popular.'
+  - plan: Advanced
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 399
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.hootsuite.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'FAQ: "range up to $399 for an Advanced plan". Card: "€399 per user/month, billed annually".'
+
+clauses:
+  - topic: cancellation
+    status: stated
+    finding: >-
+      Hootsuite's plan header promises "Cancel anytime" and "No commitment"
+      but the page gives no refund or end-of-term terms (2026-09-04).
+    quote: "No credit card required. Cancel anytime. No commitment."
+    provenance:
+      source_url: https://www.hootsuite.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: auto_renew
+    status: stated
+    finding: >-
+      Hootsuite does not charge automatically when the 14-day trial ends
+      because no card is taken at signup (2026-09-04).
+    quote: "you won't be charged automatically when it ends"
+    provenance:
+      source_url: https://www.hootsuite.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Hootsuite's plans page states no data-export terms (2026-09-04).
+    provenance:
+      source_url: https://www.hootsuite.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: hootsuite-per-user-pricing
+    claim: >-
+      Hootsuite sells every plan per user with no seat included beyond the
+      first, so a 5-person team on Standard pays $495 a month on annual
+      billing, 5 times the headline $99 (2026-09-04).
+    provenance:
+      source_url: https://www.hootsuite.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: hootsuite-eur-render
+    claim: >-
+      On 2026-09-04, 2 of 2 automated fetches of hootsuite.com/plans rendered
+      the cards in euros (€99, €199, €399 per user on annual billing) while
+      the FAQ on the same page quoted $99, $199 and $399.
+    provenance:
+      source_url: https://www.hootsuite.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: hootsuite-monthly-rate-unpublished
+    claim: >-
+      Hootsuite's cards show annual-billing prices only; the FAQ confirms
+      monthly billing exists for the 3 self-serve plans at a higher per-user
+      rate that the page does not print (2026-09-04).
+    provenance:
+      source_url: https://www.hootsuite.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: hootsuite-trial-limits
+    claim: >-
+      Hootsuite trial accounts are limited to 10 to 20 posts a day per
+      organization and cannot bulk-schedule; Standard caps social accounts
+      at 10 (2026-09-04).
+    provenance:
+      source_url: https://www.hootsuite.com/plans
+      fetched_at: 2026-09-04
+      method: live_fetch

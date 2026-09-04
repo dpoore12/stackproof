@@ -1,0 +1,167 @@
+slug: later
+vendor: Later
+product: Later Social
+category: social_scheduling
+url: https://later.com/pricing/
+free_trial: "14-day free trial (stated 2026-09-04)."
+pricing_note: "Flat plan fee with a user allowance, then a per-user add-on on Growth and Scale; Starter is capped at 1 user. The page rendered yearly billing (25% off); the monthly rates are derived from the FAQ's 25% statement and the $5 monthly extra-user price and are recorded as non-compared tiers. Prices are billed in USD on every gateway."
+
+tiers:
+  - plan: Starter
+    base_monthly_usd: 18.75
+    per_seat_monthly_usd: 0
+    included_seats: 1
+    max_seats: 1
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://later.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch. "Starter $18.75 USD/month* Billed yearly — 1 social set (8 profiles total), 1 user … Extra Social Sets, users and AI credits not available".'
+  - plan: Starter (monthly)
+    compare: false
+    base_monthly_usd: 25
+    per_seat_monthly_usd: 0
+    included_seats: 1
+    max_seats: 1
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://later.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Derived: FAQ "Save 25% when you choose an annual subscription"; $18.75 / 0.75 = $25.'
+  - plan: Growth
+    base_monthly_usd: 37.5
+    per_seat_monthly_usd: 3.75
+    included_seats: 2
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://later.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Growth $37.50 USD/month* Billed yearly — 2 social sets (16 profiles total), 2 users … Extra users ($3.75 USD/month each)". Marked Most popular.'
+  - plan: Growth (monthly)
+    compare: false
+    base_monthly_usd: 50
+    per_seat_monthly_usd: 5
+    included_seats: 2
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://later.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Derived: $37.50 / 0.75 = $50; FAQ "You can add additional users to each paid plan for $5 per additional user".'
+  - plan: Scale
+    base_monthly_usd: 82.5
+    per_seat_monthly_usd: 3.75
+    included_seats: 4
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://later.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Scale $82.50 USD/month* Billed yearly — 6 social sets (48 profiles total), 4 users … Extra users ($3.75 USD/month each)".'
+  - plan: Scale (monthly)
+    compare: false
+    base_monthly_usd: 110
+    per_seat_monthly_usd: 5
+    included_seats: 4
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://later.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Derived: $82.50 / 0.75 = $110; extra users $5 monthly per the FAQ.'
+
+fees:
+  - name: Extra Social Set
+    amount_usd: 11.25
+    unit: per social set per month, yearly billing
+    applies_to: Growth and Scale (not available on Starter)
+    provenance:
+      source_url: https://later.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Extra Social Sets ($11.25 USD/month each)" on the yearly toggle.'
+  - name: Extra AI credits
+    amount_usd: 3.75
+    unit: per 100 credits per month, yearly billing
+    applies_to: Growth and Scale
+    provenance:
+      source_url: https://later.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Extra AI credits ($3.75 USD/month for 100 credits/month)".'
+
+clauses:
+  - topic: auto_renew
+    status: stated
+    finding: >-
+      Later bills annual plans once a year and renews them automatically
+      (2026-09-04).
+    quote: "Annual plans are billed once per year and renewed automatically."
+    provenance:
+      source_url: https://later.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Later's pricing page states no cancellation or refund terms
+      (2026-09-04).
+    provenance:
+      source_url: https://later.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Later's pricing page states no data-export terms; analytics history is
+      capped at 3 months, 1 year and 2 years by plan (2026-09-04).
+    provenance:
+      source_url: https://later.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: later-extra-user-price-mismatch
+    claim: >-
+      Later's Growth and Scale cards price extra users at $3.75 a month on
+      yearly billing while the FAQ on the same page says $5 per additional
+      user, a 25% gap that matches the annual discount (2026-09-04).
+    provenance:
+      source_url: https://later.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: later-post-caps
+    claim: >-
+      Later caps scheduled posts at 30 per profile a month on Starter and
+      180 on Growth, with Scale unlimited, and AI credits at 5, 50 and 100
+      a month (2026-09-04).
+    provenance:
+      source_url: https://later.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: later-social-set-definition
+    claim: >-
+      A Later Social Set is 1 profile on each of 8 networks, so Starter's 1
+      set covers 8 profiles, Growth's 2 cover 16 and Scale's 6 cover 48;
+      extra sets cost $11.25 a month on yearly billing (2026-09-04).
+    provenance:
+      source_url: https://later.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: later-nonprofit-discount
+    claim: >-
+      Later gives qualified non-profits 50% off the annual Growth plan only
+      (2026-09-04).
+    provenance:
+      source_url: https://later.com/pricing/
+      fetched_at: 2026-09-04
+      method: live_fetch
