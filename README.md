@@ -825,6 +825,28 @@ teams larger than 10, please contact our Sales team"), recorded as
 
 Database is now 187 tools across 42 categories.
 
+### Auto repair shop management software (2026-09-04)
+
+Three vendors: Tekmetric, AutoLeap, Shopmonkey. Seat axis is "users"
+(1, 3, 5, 10, 25), but all three vendors are flat, tiered by feature
+bundle rather than by any seat count, so each tool's price is
+identical at every seat point in this category's comparison table —
+the same pattern already established for Launch27, Zenbooker, and
+Rock Paper Coin's paid tiers.
+
+Tekmetric states this explicitly in its own FAQ: "Does Tekmetric
+charge based on the number of users? No, Tekmetric subscriptions are
+priced per shop, not per user... Unlimited users, unlimited ROs,
+unlimited support." AutoLeap and Shopmonkey never mention a seat cap
+or an "unlimited users" claim either way — their tier ladders
+(Essentials/Pro/Elite and Basic/Clever/Genius) differentiate purely by
+feature bundle (digital vehicle inspections, labor guides, reporting,
+and so on), not team size. All three publish clean annual and monthly
+rates for every tier; the fourth, top tier on each vendor
+(Enterprise / Multi-Shop) is fully quote-gated and not recorded.
+
+Database is now 190 tools across 43 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

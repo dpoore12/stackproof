@@ -400,6 +400,74 @@
    ],
    "vendor": "Atlassian"
   },
+  "autoleap": {
+   "category": "auto_repair_shop_management",
+   "fees": [],
+   "product": "AutoLeap",
+   "tiers": [
+    {
+     "base_monthly_usd": 179.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Essentials",
+     "source_url": "https://autoleap.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 199.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Essentials (monthly billing)",
+     "source_url": "https://autoleap.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 309.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Pro",
+     "source_url": "https://autoleap.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 349.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Pro (monthly billing)",
+     "source_url": "https://autoleap.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 409.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Elite",
+     "source_url": "https://autoleap.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 449.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Elite (monthly billing)",
+     "source_url": "https://autoleap.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "AutoLeap"
+  },
   "azuga": {
    "category": "fleet_management",
    "fees": [],
@@ -6274,6 +6342,74 @@
    ],
    "vendor": "Citrix (Progress Software)"
   },
+  "shopmonkey": {
+   "category": "auto_repair_shop_management",
+   "fees": [],
+   "product": "Shopmonkey",
+   "tiers": [
+    {
+     "base_monthly_usd": 215.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Basic",
+     "source_url": "https://www.shopmonkey.io/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 239.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Basic (monthly billing)",
+     "source_url": "https://www.shopmonkey.io/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 359.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Clever",
+     "source_url": "https://www.shopmonkey.io/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 399.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Clever (monthly billing)",
+     "source_url": "https://www.shopmonkey.io/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 449.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Genius",
+     "source_url": "https://www.shopmonkey.io/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 499.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Genius (monthly billing)",
+     "source_url": "https://www.shopmonkey.io/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Shopmonkey"
+  },
   "signnow": {
    "category": "esignature",
    "fees": [
@@ -7001,6 +7137,74 @@
    "product": "Tally",
    "tiers": [],
    "vendor": "Tally"
+  },
+  "tekmetric": {
+   "category": "auto_repair_shop_management",
+   "fees": [],
+   "product": "Tekmetric",
+   "tiers": [
+    {
+     "base_monthly_usd": 179.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Start",
+     "source_url": "https://www.tekmetric.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 199.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Start (monthly billing)",
+     "source_url": "https://www.tekmetric.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 309.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Grow",
+     "source_url": "https://www.tekmetric.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 349.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Grow (monthly billing)",
+     "source_url": "https://www.tekmetric.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 409.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Scale",
+     "source_url": "https://www.tekmetric.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 439.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-04",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Scale (monthly billing)",
+     "source_url": "https://www.tekmetric.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Tekmetric"
   },
   "tenantcloud": {
    "category": "property_management",

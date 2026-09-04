@@ -1,0 +1,22 @@
+source: https://www.tekmetric.com/pricing
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+Page h2: "Unlimited Users, Unlimited RO's."
+
+JSON-LD offers block: Start Plan $179.00 USD, Grow Plan $309.00 USD, Scale
+Plan $409.00 USD, Enterprise Plan "custom pricing" — these are the annual
+per-month figures (page meta description: "plans starting from just
+$179/month with annual pricing discounts").
+
+FAQ: "Does Tekmetric charge based on the number of users? No, Tekmetric
+subscriptions are priced per shop, not per user. Adding a new shop simply
+requires purchasing an additional subscription. Unlimited users, unlimited
+ROs, unlimited support. No hidden fees."
+
+Monthly (non-annual) figures found in the raw dollar scan: $199 (Start),
+$349 (Grow), $439 (Scale) — matching the annual->monthly spread pattern of
+the other two vendors in this category (Shopmonkey, AutoLeap).
+
+Add-ons: Multi-Shop Management $70/month per shop, Tire Suite $39/month
+per shop, Marketing $345/month per shop.
