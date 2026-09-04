@@ -825,6 +825,52 @@ teams larger than 10, please contact our Sales team"), recorded as
 
 Database is now 187 tools across 42 categories.
 
+### Wedding / event planning software (2026-09-04)
+
+Three vendors: HoneyBook, Dubsado, Rock Paper Coin. Seat axis is
+"users" (1, 3, 5, 10, 25).
+
+This category surfaced a real axis question. Aisle Planner and
+Planning Pod are the two most wedding-specific tools in the space, and
+both price by active-project/event volume rather than team seats — but
+Planning Pod's own site no longer has a dedicated pricing page (it now
+frames itself as venue-management software and only states a fuzzy
+"$199-$319/month" range in an FAQ), and Curate (a rebrand of
+"Curately") turned out to be fully quote-gated on every tier ("Let's
+Chat" with no dollar figure anywhere on the page, confirmed by
+scanning its rendered text for `$` and finding none). That left only
+one vendor — Aisle Planner — with a real, project-volume-based tier
+table, short of this site's usual three-vendor bar for a category.
+
+The three vendors that do have clean, current, real-dollar tiers —
+HoneyBook, Dubsado, and Rock Paper Coin — are all general
+small-business CRMs (also used by photographers, coaches, and other
+service pros) that price by team seats and each explicitly disclaim
+any cap on clients/projects ("Unlimited clients and projects" /
+"Unlimited projects & clients"). Rather than force a three-vendor
+minimum out of a single-vendor axis, this category uses "users" as
+its axis to match the vendors with real, current, per-seat pricing;
+Aisle Planner and Planning Pod are excluded entirely as an axis
+mismatch, the same treatment given to ServiceM8, Mindbody, Wodify,
+Homebase, Pingdom, and Swept in earlier categories.
+
+HoneyBook's Starter tier never mentions team members in its own
+feature list, while Essentials adds "Up to 2 team members" and Premium
+"Unlimited team members" as their headline new capability, so Starter
+is recorded as `max_seats: 1` by that omission rather than a stated
+digit. Dubsado includes 3 additional users free on either plan (4
+seats total) and then charges a flat fee per user bracket ("4-10
+users: $25/mo. 11-20 users: $45/mo...") but its own page does not say
+whether that bracket count is additional or total seats, so `max_seats`
+is capped at 4 (the free-tier ceiling) and the bracket pricing is
+captured only as a Finding rather than guessed into a formula. Rock
+Paper Coin's two paid tiers both explicitly state "Unlimited team
+members," so no cap applies; its free Basic tier is invoicing-only (no
+proposals, contracts, or lead management) and is `compare: false` as a
+different, lesser product.
+
+Database is now 190 tools across 43 categories.
+
 ### Auto repair shop management software (2026-09-04)
 
 Three vendors: Tekmetric, AutoLeap, Shopmonkey. Seat axis is "users"
@@ -845,7 +891,7 @@ and so on), not team size. All three publish clean annual and monthly
 rates for every tier; the fourth, top tier on each vendor
 (Enterprise / Multi-Shop) is fully quote-gated and not recorded.
 
-Database is now 190 tools across 43 categories.
+Database is now 193 tools across 44 categories.
 
 ## Rendered fetches (script-rendered pricing pages)
 

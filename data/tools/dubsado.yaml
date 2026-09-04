@@ -1,0 +1,70 @@
+slug: dubsado
+vendor: Dubsado
+product: Dubsado
+category: wedding_event_planning
+url: https://www.dubsado.com/pricing
+pricing_note: 'Dubsado is a general small-business client-management CRM (also used by photographers, coaches, and consultants), not wedding-specific, but is widely used by wedding and event planners. Both plans state "Unlimited projects & clients," so pricing gates on team seats rather than event volume. Dubsado includes 3 additional users free (4 seats total) on either plan, then charges a flat additional fee per user bracket (4-10/11-20/21-30 additional or total users — the page does not say which). Because that bracket count is ambiguous, `max_seats` is set to 4 (the free-tier ceiling) rather than guessed at, and the bracket pricing is captured only as a Finding.'
+
+tiers:
+  - plan: Starter
+    base_monthly_usd: 35
+    max_seats: 4
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.dubsado.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"The all-you-need basics for organized client management." "$35". "Unlimited projects & clients. Invoicing & payment plans. Form & email templates."'
+  - plan: Starter (annual billing)
+    compare: false
+    base_monthly_usd: 27.92
+    max_seats: 4
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.dubsado.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$335" per year for the Starter plan ($335/12 = $27.92/mo).'
+  - plan: Premier
+    base_monthly_usd: 55
+    max_seats: 4
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.dubsado.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Automation for growth and to enhance your client experience." "$55". "Everything in the Starter plan, plus: Scheduling, Automated workflows, Public proposals, Multiple lead captures at once, Zapier integration."'
+  - plan: Premier (annual billing)
+    compare: false
+    base_monthly_usd: 43.75
+    max_seats: 4
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.dubsado.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"$525" per year for the Premier plan ($525/12 = $43.75/mo).'
+
+findings:
+  - id: dubsado-additional-user-brackets
+    claim: >-
+      Dubsado includes 3 additional users free on either plan, then charges
+      "4–10 users: $25/mo. 11–20 users: $45/mo. 21–30 users: $60/mo. For
+      30+ users, send us an email" per its own pricing page, though it does
+      not state whether that count is additional or total seats (2026-09-04).
+    provenance:
+      source_url: https://www.dubsado.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: dubsado-120k-businesses
+    claim: >-
+      Dubsado states "120,000 business owners worldwide trust Dubsado" on
+      its own pricing page (2026-09-04).
+    provenance:
+      source_url: https://www.dubsado.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

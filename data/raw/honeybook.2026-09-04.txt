@@ -1,0 +1,23 @@
+source: https://www.honeybook.com/pricing
+fetched_at: 2026-09-04
+method: live_fetch (DataForSEO instant_pages, browser rendering)
+
+Starter — What's included: Unlimited clients and projects, Invoices and payments,
+Proposals and contracts, Calendar, All professional templates, Client portal,
+Basic reports, Up to 2 live lead forms, HoneyBook AI.
+"$29/month (billed yearly)". No monthly (non-annual) figure was found in the
+page text for this tier. No "team member" line appears anywhere in Starter's
+own feature list — "team member" appears 8 times on the page total, all
+within the Essentials and Premium sections, never Starter's.
+
+Essentials (Most Popular) — What's included: Scheduler, Automations, QuickBooks
+Online integration, Up to 2 team members, Up to 10 live lead forms, SMS
+reminders, Remove "Powered by HoneyBook", Standard reports, HoneyBook AI.
+"$49/month (billed yearly)". A nearby badge reads "$59", "25% off", "$49",
+consistent with $59/month being the month-to-month rate and annual billing
+saving ~25% (an evergreen annual-discount framing, not a limited-time sale).
+
+Premium — What's included: Unlimited team members, Priority support, Multiple
+companies, Advanced reports, Unlimited live lead forms, HoneyBook AI.
+"$109/month (billed yearly)". Nearby badge reads "$129", "25% off", "$109",
+same annual-discount framing as Essentials.
