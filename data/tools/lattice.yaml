@@ -1,0 +1,124 @@
+slug: lattice
+vendor: Lattice
+product: Lattice Foundations
+category: performance_management
+url: https://lattice.com/pricing
+free_trial: "No self-serve free trial; Lattice sells only through a demo/sales conversation, though the Foundations bundle has a published self-serve list price (2026-09-04)."
+pricing_note: "Lattice enforces a stated minimum annual agreement of $4,000 (= $333.33/month) across the whole contract, regardless of which specific products or seat count make up that spend. The Foundations bundle ($13/seat/month: Performance, Goals & OKRs, Analytics, AI Agent, Integrations, plus 1:1s/Updates/Feedback/Q&A Boards) is used as the primary comparable tier here, with the $4,000/year floor encoded directly into its cost formula (below 26 seats, the floor binds rather than the per-seat rate). Performance, Goals & OKRs, and Engagement can also be bought individually or in other combinations; those are recorded as fees/findings rather than separate tiers, since re-deriving the same minimum-spend floor at each of their different per-seat rates would multiply approximation error. Lattice's own FAQ is internally inconsistent about the unbundled Goals & OKRs price: one answer states \"$8/month,\" but the product card two paragraphs above prints Goals & OKRs at $8/seat/month and Performance separately at $10/seat/month -- the FAQ answer conflates the two."
+
+tiers:
+  - plan: Foundations
+    base_monthly_usd: 333.33
+    per_seat_monthly_usd: 13
+    included_seats: 25
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://lattice.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Foundations. Most Popular. Our most popular package for aligning teams, driving performance, and scaling high-impact work across your business. 1:1s, Weekly Updates, Feedback, Q&A Boards, Performance, Goals & OKRs, Analytics, AI Agent, Integrations. $13 seat/month." Minimum annual agreement of $4,000 encoded via included_seats = floor(4000/12/13); above 25 seats the price is exactly $13/seat/month, matching the printed rate.'
+  - plan: Performance (standalone, reference)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 10
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://lattice.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Performance. Cultivate a culture of high performance. $10 seat/month." Sold standalone or combined with other base products; the $4,000/year minimum still applies contract-wide and is not encoded on this reference-only tier.'
+  - plan: Enterprise
+    compare: false
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 0
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://lattice.com/pricing
+      fetched_at: 2026-09-04
+      method: not_available
+      note: '"Enterprise. Enterprise pricing varies based on seats, complexity, and scale." No price published.'
+
+fees:
+  - name: Compensation add-on
+    amount_usd: 6
+    unit: per seat, per month, on top of a base product
+    provenance:
+      source_url: https://lattice.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - name: Grow add-on
+    amount_usd: 4
+    unit: per seat, per month, on top of a base product
+    provenance:
+      source_url: https://lattice.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - name: Engagement (standalone base product)
+    amount_usd: 4
+    unit: per seat, per month
+    provenance:
+      source_url: https://lattice.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+clauses:
+  - topic: billing_timing
+    status: stated
+    quote: "Is the contract billed monthly, quarterly, or annually? Lattice bills all contracts annually."
+    finding: >-
+      Lattice bills every contract annually with no monthly or quarterly
+      option (2026-09-04).
+    provenance:
+      source_url: https://lattice.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Lattice's pricing FAQ states no cancellation terms (2026-09-04).
+    provenance:
+      source_url: https://lattice.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: refund
+    status: not_stated
+    finding: >-
+      Lattice's pricing FAQ states no refund terms (2026-09-04).
+    provenance:
+      source_url: https://lattice.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: lattice-minimum-annual-agreement
+    claim: >-
+      Lattice's FAQ states, "Yes. The minimum annual agreement is
+      $4,000," which can bind on small teams below roughly 25 seats on
+      the Foundations bundle (2026-09-04).
+    provenance:
+      source_url: https://lattice.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: lattice-usd-only-billing
+    claim: >-
+      Lattice's FAQ states, "Lattice bills in United States Dollars
+      (USD) only. This applies across all products and services"
+      (2026-09-04).
+    provenance:
+      source_url: https://lattice.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: lattice-faq-price-inconsistency
+    claim: >-
+      Lattice's own FAQ states Performance and Goals & OKRs "can be
+      unbundled and purchased individually for $8/month," but its
+      product cards print Performance at $10/seat/month and only Goals
+      & OKRs at $8/seat/month (2026-09-04).
+    provenance:
+      source_url: https://lattice.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

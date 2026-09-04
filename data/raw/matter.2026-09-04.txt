@@ -1,0 +1,14 @@
+URL: https://www.matterapp.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 14:48:55 +00:00 (US gateway 68.183.49.222; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText.
+---
+Free — "Seriously free forever. $0 USD." Kudos recognition, Kudos template library, Feedback Friday.
+Basic — "$1 USD per user/month, billed annually." Everything in Free, plus Celebrations, Custom kudos (e.g., company values), Analytics and reporting.
+Pro (Most Popular) — "$3 USD per user/month, billed annually." Everything in Basic, plus Rewards (10,000+ eGift cards, premium gifts across 200+ countries), Company Swag (1,900+ items, global shipping), Challenges and incentives.
+Enterprise — "Let's talk." Everything in Pro, plus Enterprise Grid setup for multi-channel usage, manager management and custom reporting, HRIS platform integration, shared channel support with dedicated team.
+Surveys add-on — "+$2 per user/month, billed annually." Pulse and eNPS surveys, onboarding surveys, custom employee surveys, rewards platform integration.
+"Pricing and Rewards Calculator" — seat/plan selector with "Yearly (Save 25%) / Monthly plans available" toggle; specific monthly-billing dollar figures not captured by this static fetch.
+FAQ: "How does pricing/billing work?" — "We only charge for team members that are in a Matter-connected Slack/Teams channel, not the entire workspace... Billing is pro-rated daily based on the number of channel users." "How does the free trial work?" — "With our free 14-day trial... After the free trial, unless you upgrade, you'll automatically move to our Free plan." "For HRIS integrations we require an annual plan and additional annual fee."
+No plan-cancellation or refund clause found beyond the trial/reward policies.
+Page title: "Matter Pricing | Employee Recognition Software for Slack & Teams".

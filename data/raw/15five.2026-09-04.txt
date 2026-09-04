@@ -1,0 +1,12 @@
+URL: https://www.15five.com/pricing/
+STATUS: 200
+FETCHED: 2026-09-04 14:45:42 +00:00 (US gateway 68.183.60.34, forced via ip_pool_for_scan: us; rendered USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText.
+---
+Engage — "$4 per user per month (billed annually). Identify and eliminate the drivers of disengagement that have the biggest impact on your business." Employee Engagement Surveys, Targeted Assessments, Action Planning, Heat Maps & Data Breakdowns, Benchmarking.
+Perform — "$11 per user per month (billed annually). Performance management that fosters continuous feedback and strengthens manager effectiveness." AMAYA, Insights Dashboard, AI-Assisted Performance Reviews, 15Five Agents, OKRs & Goals, 360 Feedback, Talent Matrix, Career Paths & Plans.
+Total Platform (Most Popular) — "$16 per user per month (billed annually). Engage and Perform plus the HR Dashboard, select microlearnings, and more to empower manager effectiveness."
+Coaching packages mentioned starting at $49/month (on-demand and live packages), not itemized further on this page.
+FAQ: "Is there a minimum spend?" — "Our standard packages are designed to be flexible for organizations of all sizes. Some optional add-ons may include minimum requirements, and your account executive can walk you through what applies to your plan." "Is the contract billed monthly, quarterly, or annually?" — "15Five's contract is billed annually." "Can I scale my package as my organization grows?" — "Yes. 15Five is designed to grow with your organization. You can add seats, expand modules, or upgrade your package as your needs evolve."
+No cancellation or refund language found.
+Page title: "Pricing | 15Five" (og:title).
