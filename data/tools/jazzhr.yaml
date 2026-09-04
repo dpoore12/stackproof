@@ -1,0 +1,100 @@
+slug: jazzhr
+vendor: Employ Inc.
+product: JazzHR
+category: recruiting
+url: https://www.jazzhr.com/pricing
+free_trial: "No trial is stated on the pricing page (2026-09-04)."
+pricing_note: "Flat plan fee per company with no user or employee count on the page; the yearly totals are divided by 12 for the monthly-equivalent figure. The page rendered yearly billing and says monthly billing costs up to 24% more, but the monthly figures were not captured. Some add-ons are consumption-billed."
+
+tiers:
+  - plan: Hero
+    base_monthly_usd: 83.33
+    per_seat_monthly_usd: 0
+    seat_label: employee
+    billing: annual
+    provenance:
+      source_url: https://www.jazzhr.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: 'Browser-rendered fetch. "Hero — For Getting Started — $1,000/yr billed annually"; $1,000 / 12 = $83.33. Job postings starting at 3 a month.'
+  - plan: Plus
+    base_monthly_usd: 290
+    per_seat_monthly_usd: 0
+    seat_label: employee
+    billing: annual
+    provenance:
+      source_url: https://www.jazzhr.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Plus — For Growing Teams — $3,480/yr billed annually"; $3,480 / 12 = $290. Up to 200 active jobs. Marked Most Popular.'
+  - plan: Pro
+    base_monthly_usd: 459
+    per_seat_monthly_usd: 0
+    seat_label: employee
+    billing: annual
+    provenance:
+      source_url: https://www.jazzhr.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+      note: '"Pro — For Serious Hiring — $5,508/yr billed annually"; $5,508 / 12 = $459.'
+
+clauses:
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      JazzHR's pricing page says plans can be upgraded at any time by
+      contacting its team and states no cancellation or refund terms
+      (2026-09-04).
+    provenance:
+      source_url: https://www.jazzhr.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      JazzHR's pricing page states no data-export terms; migration into
+      JazzHR is included in select plans (2026-09-04).
+    provenance:
+      source_url: https://www.jazzhr.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: billing_timing
+    status: stated
+    finding: >-
+      JazzHR bills certain add-ons on consumption rather than a flat fee and
+      points users to in-platform usage tracking to avoid unexpected
+      charges (2026-09-04).
+    quote: "certain add-on features or functionalities within JazzHR are billed based on how much you use them, rather than a flat monthly fee"
+    provenance:
+      source_url: https://www.jazzhr.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: jazzhr-annual-totals
+    claim: >-
+      JazzHR lists Hero at $1,000, Plus at $3,480 and Pro at $5,508 a year on
+      annual billing, and says monthly billing costs up to 24% more without
+      printing the monthly figures on the rendered page (2026-09-04).
+    provenance:
+      source_url: https://www.jazzhr.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: jazzhr-job-posting-eligibility
+    claim: >-
+      JazzHR's Hero plan starts at 3 job postings a month and Plus allows up
+      to 200 active jobs, with syndication "subject to eligibility criteria
+      at JazzHR's sole discretion" (2026-09-04).
+    provenance:
+      source_url: https://www.jazzhr.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: jazzhr-plus-addons
+    claim: >-
+      JazzHR's Plus plan lists advanced visual reporting and offers with
+      eSignatures as add-ons with no published price; both are included in
+      Pro at $2,028 a year more (2026-09-04).
+    provenance:
+      source_url: https://www.jazzhr.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

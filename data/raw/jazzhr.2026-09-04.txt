@@ -1,0 +1,16 @@
+URL: https://www.jazzhr.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 00:40:50 +00:00 (US gateway 68.183.54.131)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed). Switch "Yearly / Monthly — Save up to 24% by paying yearly"; the page rendered yearly totals ("$1,000/yr billed annually"). Monthly-billing figures were not captured.
+---
+"Hire Smarter. Stress Less. Grow Faster. Choose the plan that works the way your team does." Yearly / Monthly — Save up to 24% by paying yearly.
+Hero — For Getting Started — $1,000/yr billed annually — Job postings (starting at 3/month)*, applicant tracking system, email templates, LinkedIn Recruiter integration, premium job listings.
+Plus (Most Popular) — For Growing Teams — $3,480/yr billed annually — Everything in Hero plus up to 200 active jobs*, AI-powered candidate matching, structured interviews & assessments, task automation, standard reporting.
+Pro — For Serious Hiring — $5,508/yr billed annually — Everything in Plus plus offers & eSignatures, advanced visual reporting, custom reports builder, workflow reports, all-access support.
+"*Job posting and syndication availability is subject to eligibility criteria at JazzHR's sole discretion and may be limited by third-party job board partner restrictions, feed eligibility requirements, and applicable usage limits."
+Compare table: Advanced Visual Reporting and Offers & eSignatures are "Add-on" on Plus.
+FAQ — Can I change my plan at any time? "Yes, you can upgrade your service at any time. Contact our team".
+FAQ — Data migration from your current ATS "is included in select plans".
+FAQ — What does "consumption-based pricing" mean? "certain add-on features or functionalities within JazzHR are billed based on how much you use them, rather than a flat monthly fee."
+FAQ — How can I monitor my usage and avoid unexpected charges? "JazzHR provides tools to track your consumption directly within the platform."
+Footer: © 2026 Employ Inc.

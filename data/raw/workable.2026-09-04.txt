@@ -1,0 +1,12 @@
+URL: https://www.workable.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 00:39:59 +00:00 (German gateway 168.119.141.170; prices in USD)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed) from the "Pick your plan" heading. Prices depend on a company-size dropdown that rendered at its default "1 - 20 employees"; other bands were not selected. Billing switch MONTHLY / ANNUALLY - SAVE 20%; each card prints a monthly figure and a yearly total.
+---
+Workable https://www.workable.com/pricing — fetch 2, 2026-09-04 00:39:59 +00:00, German gateway 168.119.141.170 — USD. "Pick your plan. Fair, transparent, pricing for your complete Recruiting and HR solution." Company-size dropdown (default "1 - 20 employees"; bands 21-50, 51-100, 101-200, 201-400, 401-600, 601-800, 801-1000, 1000+). Billing switch MONTHLY / ANNUALLY - SAVE 20%.
+Standard — "BUNDLE RECRUITING AND HR TO SAVE UP TO 20%" — $299/month, $3,588/year (1-20 employees). Recruiting: sourcing suite, ATS, unlimited active jobs (fair usage), hiring plan, 9 languages, custom reports. Addons: Texting +$89/mo, Video interviews +$109/mo, Assessments +$59/mo. HR addon: Performance & Engagement +$39/mo. Workable Agent: 3,000 free AI credits.
+Premier — $599/month, $7,188/year, "Pay annually" (1-20 employees). Texting, video interviews, assessments, referrals included; Performance & Engagement included.
+Enterprise — $719/month, $8,628/year, "Pay annually" (1-20 employees). Same inclusions plus SSO, priority support.
+"The 15-day trial includes the complete feature set of the Standard plan. No credit card required."
+Workable Agent AI credits: Evaluate 1 credit per screen; Source 2 credits per passive candidate; Chat 10 credits per candidate chat. Every paid account starts with 3,000 free AI credits. Bundles: 5,000 credits $0.12/credit $600; 10,000 credits $0.10/credit $1,000; 50,000 credits $0.095/credit $4,750. "AI credits expire 1 year from purchase. Non-refundable. Free trial does not include Workable Agent."
+Core features in all plans include API access, data export capabilities, candidate data retention rules, GDPR automation.

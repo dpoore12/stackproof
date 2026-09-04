@@ -1,0 +1,68 @@
+slug: recruitee
+vendor: Tellent
+product: Tellent Recruitee
+category: recruiting
+url: https://recruitee.com/pricing
+free_trial: "Free trial without a credit card is offered; no trial length is stated (2026-09-04)."
+pricing_note: "No prices are published; every plan is demo-gated. The FAQ says subscriptions are tiered by plan, number of employees and billing period, with 20% off for annual payment and a 1-year minimum commitment. Recorded as needs-quote with the commitment and discount terms."
+
+tiers: []
+
+clauses:
+  - topic: auto_renew
+    status: stated
+    finding: >-
+      Tellent Recruitee contracts carry a minimum commitment of 1 year even
+      when paid monthly, so there is no month-to-month option (2026-09-04).
+    quote: "No, our contracts have a minimum commitment of one year. It is possible to pay monthly however."
+    provenance:
+      source_url: https://recruitee.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: cancellation
+    status: not_stated
+    finding: >-
+      Tellent Recruitee's pricing page states no cancellation or refund
+      terms beyond the 1-year minimum commitment (2026-09-04).
+    provenance:
+      source_url: https://recruitee.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - topic: data_export
+    status: not_stated
+    finding: >-
+      Tellent Recruitee's pricing page lists unlimited data storage and API
+      access on all plans but states no export terms (2026-09-04).
+    provenance:
+      source_url: https://recruitee.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+
+findings:
+  - id: recruitee-no-published-prices
+    claim: >-
+      Tellent Recruitee's pricing page on 2026-09-04 published 0 prices for
+      its 3 plans; each card ends in "Get a demo" and the FAQ says price
+      depends on plan, employee count and billing period.
+    provenance:
+      source_url: https://recruitee.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: recruitee-one-year-minimum
+    claim: >-
+      Tellent Recruitee requires a 1-year minimum contract with optional
+      monthly payment, and gives 20% off for paying the year upfront
+      (2026-09-04).
+    provenance:
+      source_url: https://recruitee.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch
+  - id: recruitee-job-and-ai-limits
+    claim: >-
+      Tellent Recruitee's Start plan caps active job posts at 5; Advance
+      includes 100 AI screening credits and 3 AI matching searches a month,
+      rising to 65 searches on Optimize (2026-09-04).
+    provenance:
+      source_url: https://recruitee.com/pricing
+      fetched_at: 2026-09-04
+      method: live_fetch

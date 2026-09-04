@@ -134,6 +134,15 @@ rendered USD everywhere; Sprout's FAQ answers live only in FAQPage JSON-LD,
 which is where the monthly rates came from. Publer redirects to a locale
 path by IP. Seat points are 1, 2, 5, 10, 25 users who post or schedule.
 
+### Recruiting (2026-09-04)
+
+Seat points are 10, 25, 50, 100, 250 employees at the company, because
+applicant-tracking vendors price by company size or a flat company fee
+rather than per user. Workable prices by a 9-band employee dropdown that
+rendered at its 1-20 default; JazzHR prints yearly totals only; Breezy HR
+returns 403 to the renderer. Add-ons priced on the page are recorded as
+fees.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

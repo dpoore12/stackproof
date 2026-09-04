@@ -1,0 +1,13 @@
+URL: https://recruitee.com/pricing
+STATUS: 200
+FETCHED: 2026-09-04 00:41:10 +00:00 and 00:42:24 +00:00 (German gateway 168.119.141.170)
+METHOD: dataforseo instant_pages enable_browser_rendering + custom_js innerText (whitespace-collapsed). No prices are printed anywhere on the page; every plan card ends in "Get a demo". The compare table marks paid add-ons with a "€" glyph.
+---
+"Plans that grow with you. If you're an agency, contact us for a custom quote."
+Start — For early-stage teams building their hiring foundation — Get a demo — 5 active job posts, single-page CareersHub, multi-job board posting, team collaboration, pipeline automation, AI email/feedback writing, email and calendar sync, standard reporting, mobile app, 200+ integrations, unlimited data storage, live chat support, API access. Optional add-ons: SSO, Texting, Journeys, AgencyHub, WhatsApp Hiring, Tellent HR.
+Advance — For growing teams — Get a demo — all Start features plus unlimited job posts, multi-page CareersHub, multi-location/multi-language, ReferralsHub, AI Screening Assistant (100 credits/month), AI Matching Assistant (3 searches/month), knockout questions, workflow automations, candidate self-scheduling, structured evaluation forms, offer letters, up to 3 custom job fields, advanced reporting.
+Optimize — For HR teams needing advanced analytics, compliance & integrations — Get a demo — everything in Advance plus SSO, onboarding support, dedicated CSM, AI Screening (full), AI Matching (65 searches/month), conditional automations, fairness tools, requisition approvals, unlimited custom fields, API support, testing environment, BI integrations.
+Compare table: "Up to 5 job posts" on Start; Texting and Journeys marked "€" (paid add-on) on all three plans.
+FAQ — How does Tellent Recruitee's pricing work? "Our subscriptions are tiered based on the plan you choose, the number of employees at your organization, and your billing period. Paying annually will give you a 20% discount on your subscription!"
+FAQ — Do you offer monthly contracts? "No, our contracts have a minimum commitment of one year. It is possible to pay monthly however."
+"Try for free — No credit card required." "Create an account in just 3 minutes and try our software for free."
