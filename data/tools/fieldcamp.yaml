@@ -1,0 +1,107 @@
+slug: fieldcamp
+vendor: FieldCamp
+product: FieldCamp
+category: window_cleaning_business_management
+url: https://fieldcamp.ai/pricing/
+pricing_note: >-
+  FieldCamp is a horizontal field-service tool (also marketed to HVAC,
+  plumbing, electrical, landscaping, pest control and other trades),
+  included here under this site's "generic tool with a genuine
+  dedicated niche landing page" exception — its
+  /window-cleaning-software/ page is a real, extensive window-cleaning
+  marketing page. Enterprise's "$2,000+/mo" floor with "additional
+  users negotiated" is not modeled as a PriceTier since the actual
+  cost beyond 25 users is open-ended, not a fixed formula; see the
+  finding below.
+
+tiers:
+  - plan: Pro (annual)
+    base_monthly_usd: 199
+    included_seats: 3
+    per_seat_monthly_usd: 66
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://fieldcamp.ai/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Solo operators & small crews of 1-3." "Includes 3 Users." "$199/mo" (annual). "Additional users at $66/mo" (annual).'
+  - plan: Pro (monthly billing)
+    compare: false
+    base_monthly_usd: 249
+    included_seats: 3
+    per_seat_monthly_usd: 83
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://fieldcamp.ai/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$249/mo" (monthly). "Additional users at $83/mo" (monthly).'
+  - plan: Growth (annual)
+    base_monthly_usd: 559
+    included_seats: 10
+    per_seat_monthly_usd: 56
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://fieldcamp.ai/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Includes 10 Users." "$559/mo" (annual). "Additional users at $56/mo" (annual).'
+  - plan: Growth (monthly billing)
+    compare: false
+    base_monthly_usd: 699
+    included_seats: 10
+    per_seat_monthly_usd: 70
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://fieldcamp.ai/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$699/mo" (monthly). "Additional users at $70/mo" (monthly).'
+  - plan: Scale (annual)
+    base_monthly_usd: 1199
+    included_seats: 20
+    per_seat_monthly_usd: 60
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://fieldcamp.ai/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Mid-size operations, 11-20 person teams." "Includes 20 Users." "$1,199/mo" (annual). "Additional users at $60/mo" (annual).'
+  - plan: Scale (monthly billing)
+    compare: false
+    base_monthly_usd: 1499
+    included_seats: 20
+    per_seat_monthly_usd: 75
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://fieldcamp.ai/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$1,499/mo" (monthly). "Additional users at $75/mo" (monthly).'
+
+findings:
+  - id: fieldcamp-enterprise-negotiated
+    claim: >-
+      FieldCamp's Enterprise plan starts "$2,000+/mo" for "25+ Users"
+      with "Additional users negotiated" beyond that floor, per its
+      pricing page as of 2026-09-05 — an open-ended rate, not a fixed
+      per-seat formula.
+    provenance:
+      source_url: https://fieldcamp.ai/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+  - id: fieldcamp-window-cleaning-page
+    claim: >-
+      FieldCamp markets a dedicated window-cleaning software page
+      covering per-property zone tracking, recurring route scheduling,
+      and van-side invoicing, per its site as of 2026-09-05.
+    provenance:
+      source_url: https://fieldcamp.ai/window-cleaning-software/
+      fetched_at: 2026-09-05
+      method: live_fetch

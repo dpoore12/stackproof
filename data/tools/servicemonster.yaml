@@ -1,0 +1,95 @@
+slug: servicemonster
+vendor: ServiceMonster
+product: ServiceMonster
+category: window_cleaning_business_management
+url: https://www.servicemonster.com/pricing
+
+tiers:
+  - plan: Basic (annual)
+    base_monthly_usd: 79.99
+    max_seats: 1
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.servicemonster.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$79.99/month" "Billed annually" "1 User License." No additional-user overage stated for this tier.'
+  - plan: Basic (monthly billing)
+    compare: false
+    base_monthly_usd: 99.99
+    max_seats: 1
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.servicemonster.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$99.99/month" "Billed monthly" "1 User License."'
+  - plan: Grow (annual)
+    base_monthly_usd: 149.99
+    included_seats: 5
+    per_seat_monthly_usd: 15
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.servicemonster.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$149.99/month" "Billed annually" "5 User Licenses." "Additional user is $15/month per user billed annually."'
+  - plan: Grow (monthly billing)
+    compare: false
+    base_monthly_usd: 199.99
+    included_seats: 5
+    per_seat_monthly_usd: 15
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.servicemonster.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$199.99/month" "Billed monthly" "5 User Licenses." "Additional user is $15/month per user."'
+  - plan: Premier (annual)
+    base_monthly_usd: 229.99
+    included_seats: 10
+    per_seat_monthly_usd: 25
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.servicemonster.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$229.99/month" "Billed annually" "10 User Licenses." "Additional user is $25/month per user billed annually."'
+  - plan: Premier (monthly billing)
+    compare: false
+    base_monthly_usd: 279.99
+    included_seats: 10
+    per_seat_monthly_usd: 25
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.servicemonster.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$279.99/month" "Billed monthly" "10 User Licenses." "Additional user is $25/month per user."'
+
+findings:
+  - id: servicemonster-window-cleaning-page
+    claim: >-
+      ServiceMonster maintains a dedicated "Window Cleaning Software &
+      App" page covering route optimization, online booking, and
+      on-site estimates for the trade, per its site as of 2026-09-05.
+    provenance:
+      source_url: https://www.servicemonster.com/industries/window-cleaning
+      fetched_at: 2026-09-05
+      method: live_fetch
+  - id: servicemonster-annual-commitment-required
+    claim: >-
+      ServiceMonster's FAQ states that "each ServiceMonster
+      subscription level requires an annual commitment," regardless of
+      whether the customer chooses monthly or annual billing, per its
+      pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://www.servicemonster.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
