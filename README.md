@@ -1600,6 +1600,29 @@ later.
 
 Database is unchanged at 263 tools across 67 categories.
 
+### Dumpster/roll-off rental software (2026-09-05, abandoned — wrong axis)
+
+Researched as a category distinct from `event_rental_business_management`
+and from the abandoned junk-removal attempt. This one is a structural
+dead end rather than a vendor-availability one: the whole dumpster/
+roll-off rental software market has converged on pricing axes other
+than team size. Vendors checked with genuinely public pricing — Bin
+Boss (flat $99/mo, unlimited admin users, +$50/mo per driver beyond 2),
+DSQ Hauler (flat $99/mo, unlimited users), iCans (flat $99/mo per
+business, unlimited users), Dumpster Rental Systems/Randall Data
+Systems (tiered by container count: $79.95/$195.95/$279.95/mo), HaulHQ
+($0/mo base + $1.50 per completed job) — are all flat-fee, per-driver,
+per-container, or per-job, never per-seat. The larger players (Rubicon,
+Trux, WasteWORKS, TrashLab, CurbWaste, ServiceCore, Docket, CRO
+Software) are entirely quote-gated. No purpose-built dumpster-rental
+vendor with a genuine per-seat/user axis exists to build this category
+around; QuoteIQ (already elsewhere in this database under
+`moving_company_management`) is the only per-seat-priced tool that even
+markets a dumpster-rental landing page, and it's a generic multi-trade
+CRM, not purpose-built software.
+
+Database is unchanged at 263 tools across 67 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
