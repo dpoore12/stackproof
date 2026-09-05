@@ -1684,6 +1684,29 @@ and Ruana elsewhere in this database).
 
 Database is now 269 tools across 69 categories.
 
+### Locksmith business management software (2026-09-05, abandoned)
+
+Researched as a category distinct from the general
+`field_service_management` and `handyman_contractor_management`
+categories. No viable third-party vendor set survived direct
+verification: Kickserv has a real dedicated locksmith landing page and
+publishes real tiered pricing (Start $60/mo/5 users, Run $119/mo/10
+users, Scale $199/mo/20 users), but it's already in this database under
+`field_service_management`. Unlokt markets itself as "The Locksmith
+Operating System" — the most focused product found — but its live
+pricing page (getunlokt.com/for-locksmiths/pricing) publishes no
+dollar figures at all, just "Book a Demo" and "Contact Sales"; a
+cached "$59/mo + $15/mo per seat" figure from secondary sources does
+not match the current page. Orcatec has a dedicated
+orcatec.com/industries/locksmith page, but its pricing page redirects
+to a plain "Contact Us" form with no numbers. mHelpDesk's only
+locksmith-related content is an invoice-template blog post, not a
+product landing page. FieldEdge's locksmith page exists but its
+pricing is quote-gated behind a flat-rate job-pricing calculator, not
+software pricing. Abandoned per this site's 3-vendor minimum.
+
+Database is unchanged at 269 tools across 69 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
