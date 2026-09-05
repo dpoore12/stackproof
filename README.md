@@ -1797,6 +1797,23 @@ seat. Abandoned per this site's 3-vendor minimum.
 
 Database is unchanged at 275 tools across 71 categories.
 
+### Garage door repair business management software (2026-09-05, abandoned)
+
+Researched as a category distinct from `field_service_management`.
+Only one credible vendor surfaced: FieldPromax has two dedicated
+garage-door pages (fieldpromax.com/garage-door-business-software and
+/garage-door-services/) and confirmed real USD tiers via its own
+page's JSON-LD (Light $99, Standard $239, Premium $319 per month —
+resolving conflicting secondary-source figures), but that's a single
+vendor. Successware and Titan Pro Technologies both have dedicated
+garage-door pages but are quote-only with no published numbers.
+Fixlify has a garage-door page but flat-rate (non-per-seat) pricing.
+Sera, mHelpDesk, and RazorSync all mention garage doors only in
+passing (a generic vertical list or a single blog post), not a real
+dedicated page. Abandoned per this site's 3-vendor minimum.
+
+Database is unchanged at 275 tools across 71 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
