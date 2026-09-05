@@ -1551,6 +1551,27 @@ its own "Additional cleaners, just $5/mo!" note.
 
 Database is now 260 tools across 66 categories.
 
+### Handyman contractor business management software (2026-09-05)
+
+Three vendors: Werx, Contractor+, Fieldd. Seat axis is "users"
+(1, 3, 5, 10, 25). QuoteIQ, another strong candidate, was skipped here
+since it's already in this database under `moving_company_management`
+with identical pricing.
+
+Werx's three tiers differ only by active-project count, with every
+feature on every plan; team size is a separate flat per-user add-on
+($6/mo standard, $4/mo time-only) layered on top, with each tier's base
+read as including 1 user (Essential is explicitly "for solo
+contractors"). Contractor+ defaults its pricing page to an annual-billed
+view ($29/mo PRO, $58/mo PRO TEAM with the first 2 users included and
+$20/mo per additional user beyond that) while its own meta description
+states the higher standing monthly rates ($49/$98); both are recorded
+per this site's annual-primary convention. Fieldd is a flat fee per
+plan capped by included-user count (10/30/30 across its three tiers).
+All three maintain a dedicated handyman-software landing page.
+
+Database is now 263 tools across 67 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

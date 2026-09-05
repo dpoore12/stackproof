@@ -1,0 +1,74 @@
+slug: contractor-plus
+vendor: Contractor+
+product: Contractor+
+category: handyman_contractor_management
+url: https://contractorplus.app/pricing
+pricing_note: 'Contractor+ has a dedicated handyman landing page and was self-reportedly "Named Category Leader 2022 For Handyman Software Category." Its pricing page defaults to an annual-billed view ($29/mo PRO, $58/mo PRO TEAM) while its own meta description states the standing month-to-month rates ($49/mo PRO, $98/mo PRO TEAM); per this site''s standing convention, the annual rate is recorded as primary and the monthly rate as a compare:false secondary tier. FREEDOM is a free single-user plan with no team-size relevance and is excluded from the per-seat comparison (compare: false). MAX is effectively a custom/enterprise tier (its own page renders "$NaN/mo," a script bug indicating no fixed public price) and is excluded.'
+
+tiers:
+  - plan: FREEDOM
+    compare: false
+    base_monthly_usd: 0
+    max_seats: 1
+    seat_label: user
+    provenance:
+      source_url: https://contractorplus.app/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"FREEDOM — Free forever — $0/mo — Just Starting." Basic CRM (up to 250 leads & clients), up to 5 estimates or invoices per month.'
+  - plan: PRO (annual)
+    base_monthly_usd: 29
+    max_seats: 1
+    billing: annual
+    seat_label: user
+    provenance:
+      source_url: https://contractorplus.app/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"PRO — 1 user — $29/mo — For Solopreneurs."'
+  - plan: PRO (monthly billing)
+    compare: false
+    base_monthly_usd: 49
+    max_seats: 1
+    billing: monthly
+    seat_label: user
+    provenance:
+      source_url: https://contractorplus.app/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: 'Meta description: "$49/month for PRO."'
+  - plan: PRO TEAM (annual)
+    base_monthly_usd: 58
+    per_seat_monthly_usd: 20
+    included_seats: 2
+    billing: annual
+    seat_label: user
+    provenance:
+      source_url: https://contractorplus.app/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"PRO TEAM — First 2 users included — $58/mo — For growing Pro''s" — "$20/month per additional user."'
+  - plan: PRO TEAM (monthly billing)
+    compare: false
+    base_monthly_usd: 98
+    per_seat_monthly_usd: 20
+    included_seats: 2
+    billing: monthly
+    seat_label: user
+    provenance:
+      source_url: https://contractorplus.app/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: 'Meta description: "$98 for pro team."'
+
+findings:
+  - id: contractor-plus-handyman-category-leader
+    claim: >-
+      Contractor+ describes itself as having been "Named Category
+      Leader 2022 For Handyman Software Category" on its own blog, and
+      maintains a dedicated handyman-software landing page, as of
+      2026-09-05.
+    provenance:
+      source_url: https://contractorplus.app/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch

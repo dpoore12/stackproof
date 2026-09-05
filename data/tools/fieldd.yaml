@@ -1,0 +1,46 @@
+slug: fieldd
+vendor: Fieldd
+product: Fieldd
+category: handyman_contractor_management
+url: https://fieldd.co/pricing
+pricing_note: 'Fieldd is a flat monthly fee per plan capped by included-user count, billed month-to-month by default (an annual toggle advertises "3 months free" but no separate per-month annual figure is displayed, so only the monthly rate is recorded). Has a dedicated handyman landing page (fieldd.co/industries/handyman-software) explicitly marketing to handyman businesses.'
+
+tiers:
+  - plan: Start
+    base_monthly_usd: 199
+    max_seats: 10
+    seat_label: user
+    provenance:
+      source_url: https://fieldd.co/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Start — Includes 10 users — $199/mo — The core tools to run and grow."'
+  - plan: Scale
+    base_monthly_usd: 299
+    max_seats: 30
+    seat_label: user
+    provenance:
+      source_url: https://fieldd.co/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Scale — Includes 30 users — $299/mo — More control over your operation."'
+  - plan: Pro
+    base_monthly_usd: 999
+    max_seats: 30
+    seat_label: user
+    provenance:
+      source_url: https://fieldd.co/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Pro — Includes 30 users — $999/mo — Built for complexity" — adds no Fieldd branding, branded team app, multi-locations over Scale (same 30-user inclusion).'
+
+findings:
+  - id: fieldd-annual-discount
+    claim: >-
+      Fieldd's pricing page offers an annual billing option advertised
+      as "3 months free" compared to its monthly rate, as of
+      2026-09-05.
+    provenance:
+      source_url: https://fieldd.co/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch

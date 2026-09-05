@@ -1,0 +1,31 @@
+Source: https://fieldd.co/pricing
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Title: "fieldd Pricing | Field Service Software Plans from $199."
+Description: "Field service management software from $199 a month
+with no contracts."
+
+Has a dedicated handyman landing page: "Handyman | Fieldd | Software
+for Services" at fieldd.co/industries/handyman-software — "Fieldd's
+handyman software gives full control of the calendar without manual
+work... keeps your handyman calendar full, your team in sync, and
+your clients coming back."
+
+Billing toggle: "Monthly | Annual — 3 months free" (figures below are
+the default Monthly view).
+
+Start — "Includes 10 users" — "$199/mo" — "The core tools to run and
+grow" — online bookings and payments, CRM built for service
+businesses, automated SMS & email job updates.
+
+Scale — "Includes 30 users" — "$299/mo" — "More control over your
+operation" — everything in Start, plus branded customer app, 2-way
+Zapier sync, marketing campaigns.
+
+Pro — "Includes 30 users" — "$999/mo" — "Built for complexity" —
+everything in Scale, plus no Fieldd branding, branded team app,
+multi-locations.
+
+Footer: "Thousands of service businesses, 37 countries, 50+
+industries, $0 contracts or lock-in."

@@ -1,0 +1,49 @@
+slug: werx
+vendor: Werx
+product: Werx
+category: handyman_contractor_management
+url: https://www.werxapp.com/pricing
+pricing_note: 'Werx''s three tiers differ only by active-project count, with every feature on every plan; team size is a separate flat per-user add-on ($6/mo standard, $4/mo time-only) layered on top of any tier. Each tier''s base price is read as including 1 user (Essential is explicitly "For solo contractors"), with the $6/mo standard-user rate applying to each additional seat. Werx has a dedicated handyman landing page (werxapp.com/industries/handyman/handyman-app/) explicitly marketing to handyman businesses.'
+
+tiers:
+  - plan: Essential
+    base_monthly_usd: 49
+    per_seat_monthly_usd: 6
+    included_seats: 1
+    seat_label: user
+    provenance:
+      source_url: https://www.werxapp.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Essential — Includes 10 Active Projects — $49/mo — For solo contractors getting organized." "Add more users... $6/mo Standard Users."'
+  - plan: Plus
+    base_monthly_usd: 89
+    per_seat_monthly_usd: 6
+    included_seats: 1
+    seat_label: user
+    provenance:
+      source_url: https://www.werxapp.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: 'Marked "Most Popular." "Plus — Includes 20 Active Projects — $89/mo — The favorite for growing contractors."'
+  - plan: Unlimited
+    base_monthly_usd: 119
+    per_seat_monthly_usd: 6
+    included_seats: 1
+    seat_label: user
+    provenance:
+      source_url: https://www.werxapp.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Unlimited — Unlimited Active Projects — $119/mo — For high-volume shops who never want a cap."'
+
+findings:
+  - id: werx-time-only-user-discount
+    claim: >-
+      Werx charges $4/month for a "time only" additional user versus
+      $6/month for a standard additional user, on every plan, per its
+      own pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://www.werxapp.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
