@@ -1,0 +1,24 @@
+Source: https://current-rms.com/pricing/
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+H1: "Simple pricing. Easy setup." H3: "The Package" (a single plan, priced
+by user count via an interactive slider rather than named tiers).
+
+Price card (USD tab, the default for non-UK/EU/AU/ZA visitors per the
+page's own geoip-based currency-tab script):
+"First User — $79 — Per Month"
+"Additional Users — $49 — Per Month/Per User"
+
+DOM values read directly from the page's own pricing-calculator elements
+(id="main-fee-usd" / id="additional-fee-usd"): main=79, additional=49.
+(GBP tab: 59 / 39. EUR tab: 69 / 49. AUD tab: 119 / ... — USD is used here
+per this site's USD-first convention.)
+
+The page's own slider JS: "var month = main + ((count - 1) * additional);
+var year = month * 11;" — confirming the headline $79/$49 figures are the
+month-to-month rate, with an annual-prepay discount of 1 free month
+(11x monthly instead of 12x) available via the billing toggle.
+
+No separate named plans, free tier, or published maximum user count — one
+package scales by user count with no stated ceiling.

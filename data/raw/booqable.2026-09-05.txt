@@ -1,0 +1,42 @@
+Source: https://booqable.com/pricing/
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Meta description: "Find the perfect Booqable plan for your rental business.
+Starting from $29 per month. Every pricing plan comes with a free 14-day
+trial."
+
+Billing toggle: "Yearly" / "Monthly" — "Save 20% on all yearly plans"
+
+Plan card: "Start" — "For starters and solo operators focused on generating
+revenue." Price block: "35" (monthly) / "29" (yearly, per month).
+Key Features: Order and inventory management, Quotes/contracts/invoices,
+Real-time availability tracking, Bo: AI Rental Assistant.
+
+Plan card: "Grow" (marked "Best Value") — "For growing rental businesses
+optimizing their workflow." Price block: "87" (monthly) / "69" (yearly, per
+month). Plan Highlights: "All features in Start", "5 extra users +
+permissions", E-signatures, Advanced pricing rules, Advanced revenue
+reports, API access.
+
+Plan card: "Scale" — "For large teams and multi-location rental
+operations." Price block: "187" (monthly) / "149" (yearly, per month).
+Plan Highlights: "All features in Grow", "10 extra users + permissions",
+Activity logs, Extra locations from $29/$37, Allow overbooking, Enforce
+2FA for all users.
+
+FAQ "What is a team member, and how are users counted?": "A team member is
+anyone who logs into your Booqable account. Each user counts toward your
+plan's user limit. We recommend giving each person their own login for
+better tracking and access control." (No exact per-plan headcount is
+stated on this page or in the Help Center article "How to choose a
+pricing plan" — only the incremental deltas above.)
+
+FAQ "What payment methods can I use for my subscription?": "You can pay
+with a credit card. Subscriptions are billed automatically each month or
+year, depending on your selected billing cycle."
+
+Help Center (https://help.booqable.com/en/articles/2508419-how-to-choose-a-pricing-plan):
+"Each plan offers a different feature set, and a different quantity of
+seats (user accounts for team members) to suit the stage and size your
+business is currently at." No exact seat counts given.

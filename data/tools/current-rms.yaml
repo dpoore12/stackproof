@@ -1,0 +1,29 @@
+slug: current-rms
+vendor: Current RMS
+product: Current RMS
+category: event_rental_business_management
+url: https://current-rms.com/pricing/
+pricing_note: 'Current RMS sells a single plan ("The Package") priced by a first-user rate plus a flat per-additional-user rate via an interactive slider, rather than named tiers. The page geo-detects a currency; USD is used here per this site''s USD-first convention (GBP 59/39, EUR 69/49, AUD 119/... are also shown). The slider''s own price formula gives a full month of free service on annual prepay (11x the monthly rate instead of 12x); the monthly, month-to-month rate is recorded here.'
+
+tiers:
+  - plan: The Package
+    base_monthly_usd: 79
+    per_seat_monthly_usd: 49
+    included_seats: 1
+    seat_label: user
+    provenance:
+      source_url: https://current-rms.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: 'Price card: "First User — $79 — Per Month" and "Additional Users — $49 — Per Month/Per User," confirmed by the page''s own pricing-slider DOM values (id="main-fee-usd"=79, id="additional-fee-usd"=49) and slider formula "month = main + ((count - 1) * additional)."'
+
+findings:
+  - id: current-rms-annual-discount-formula
+    claim: >-
+      Current RMS's own pricing-page script computes an annual price as
+      11 times the monthly rate rather than 12, giving one free month on
+      annual prepay, as measured on 2026-09-05.
+    provenance:
+      source_url: https://current-rms.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch

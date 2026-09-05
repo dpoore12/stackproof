@@ -1,0 +1,35 @@
+Source: https://www.rentmy.co/pricing
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+H2 headings: "Nano", "Growth", "Enterprise"
+
+"Nano for Side-Hustlers — $39/mo + $249 one-time setup & training —
+Start Nano. What's included: Booking website for easy, online rentals &
+payments; Management portal with live order updates; Up to 20 sale/rental
+products; 3 User accounts; Merchant processing provided by Fortis
+Payments."
+
+"Most Popular — Growth for Full-Timers — $199/mo + $249 one-time setup &
+training — Get Growth. What's included: 500 Products; Unlimited User
+Accounts; Booking website; Online payments; Order application fee: use
+your processor (no other fees); Delivery; Packages; Digital Signature on
+Waivers; Automated Customer Alerts & Reminders; Point of Sale; Employee
+roles & permissions; Track assets and utilization / ROI; Email, Live
+US-Based Chat & Phone Support."
+
+"Enterprise for Scale & Breadth — Talk to Sales — Custom onboarding plan
+— Contact Sales. What's included: Unlimited Products; Unlimited User
+Accounts; ... Memberships & Subscriptions; Customer portal; Shipping;
+APIs; Email, Live Chat, Phone & Ad Hoc Meeting Support."
+
+Comparison table row "User accounts": Nano "3", Growth "Unlimited",
+Enterprise "Unlimited".
+Comparison table row "Monthly price": Nano "$39/mo", Growth "$199/mo",
+Enterprise "Talk to Sales".
+
+Fine print: "Nano Plan: Billed at $39/mo and includes up to 20 sale/rental
+products and 3 user accounts. ... +$249 Startup fee activates the account
+for paid bookings and enables other features not available on trial
+accounts." No annual billing toggle is present on this page — the
+month-to-month prices above are the only listed rate.
