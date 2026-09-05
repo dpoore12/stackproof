@@ -1,0 +1,38 @@
+slug: ruana
+vendor: Ruana
+product: Ruana
+category: physical_therapy_allied_health_practice_management
+url: https://getruana.com/massage-therapy-pricing-and-features/
+pricing_note: 'Ruana''s Professional plan lists "$55.99/month" plus "+$19.99 per Practitioner per month" without stating whether the base already includes one practitioner; its own plan-comparison table describes Professional as covering "Single or Multiple Massage Therapists" (vs. Solo''s explicit "1 Massage Therapist"), so the base is read as including 1 practitioner with the $19.99 rate applying to each one beyond that — the same "assume 1 when a base-plan-plus-additional-practitioner structure doesn''t explicitly state it" convention used for SingleOps and Booqable elsewhere on this site.'
+
+tiers:
+  - plan: Solo
+    base_monthly_usd: 35.99
+    max_seats: 1
+    seat_label: practitioner
+    provenance:
+      source_url: https://getruana.com/massage-therapy-pricing-and-features/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Designed for solo practitioners to manage their practice with ease and value." "$35.99/Month." Comparison table: "Practitioners Included: 1 Massage Therapist."'
+  - plan: Professional
+    base_monthly_usd: 55.99
+    per_seat_monthly_usd: 19.99
+    included_seats: 1
+    seat_label: practitioner
+    provenance:
+      source_url: https://getruana.com/massage-therapy-pricing-and-features/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Advanced tools to streamline and enhance practice management." "$55.99/Month" + "+$19.99 per Practitioner per month." Comparison table: "Practitioners Included: Single or Multiple Massage Therapists."'
+
+findings:
+  - id: ruana-unlimited-appointments-both-plans
+    claim: >-
+      Ruana includes unlimited appointments on both its Solo and
+      Professional plans regardless of practitioner count, per its own
+      pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://getruana.com/massage-therapy-pricing-and-features/
+      fetched_at: 2026-09-05
+      method: live_fetch
