@@ -1771,6 +1771,32 @@ additional teammate.
 
 Database is now 275 tools across 71 categories.
 
+### Chimney sweep business management software (2026-09-05, abandoned)
+
+Researched as a category distinct from `field_service_management`.
+Only one vendor survived direct verification: Bella FSM has a
+genuinely extensive dedicated chimney-sweep page
+(bellafsm.com/industries/chimney-sweep-software/ — level 1/2/3
+inspection reports, flue/liner/creosote records, reline job costing)
+and real per-seat pricing ($35/mo base for 1 user, $10/mo per
+additional user, currently under a "LIMITED-TIME DISCOUNT" banner).
+Tradify has a real dedicated chimney landing page too, but it's
+already in this database under `field_service_management`. Sweep
+Certificates is a genuinely chimney-dedicated UK product, but its
+pricing is GBP-only (£18.50-£34/mo) and its pricing page 404s on
+re-fetch. Deelo's chimney "CRM software" page is the same templated,
+search-and-replace pattern across 50+ industries — generic CRM feature
+copy with the word "chimney" swapped in, not the kind of genuinely
+trade-specific content that qualified Fieldified, KaamCam, Menutize,
+OctopusPro, or Servgrow elsewhere in this database — so it doesn't
+clear this site's "generic tool with a genuine dedicated niche page"
+bar. A vendor called "ChimneyPro" surfaced in initial research but no
+real domain could be confirmed — likely a hallucinated or
+since-shuttered product. We Sweep charges 2% per booking, not per
+seat. Abandoned per this site's 3-vendor minimum.
+
+Database is unchanged at 275 tools across 71 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
