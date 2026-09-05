@@ -1572,6 +1572,34 @@ All three maintain a dedicated handyman-software landing page.
 
 Database is now 263 tools across 67 categories.
 
+### Lawn treatment / chemical applicator software (2026-09-05, abandoned)
+
+Researched as a category distinct from the existing `landscaping_management`
+(general mowing/landscape crews): specifically lawn chemical treatment and
+irrigation contractor software. Two purpose-built vendors check out
+cleanly — Spraye (spraye.io/pricing/): Starter $79.99/mo/1 user/100
+properties, Essentials $169.99/mo/2 users/1,000 properties/+$39.99 per
+additional user, Premium $399.99/mo/4 users/5,000 properties/+$49.99 per
+additional user, Elite $999.99/mo/8 users/10,000 properties/+$59.99 per
+additional user; and TurfHop (turfhop.com/page/pricing, explicitly
+"perfect for biological lawn care companies and chemical applicators"):
+Truck $49/mo/2 users, Office $79/mo/up to 4 users, Headquarters $129/mo/up
+to 10 users (all with unlimited employees beyond the counted "users").
+
+No third vendor could be confirmed: LawnPro's pricing page returns an
+HTTP 403 from an AWS WAF on every fetch attempt; HindSite/FieldCentral
+has no discoverable dedicated pricing-page URL despite extensive search
+(its own site's "Pricing" nav link redirects to the homepage); Service
+Autopilot has real public tiers ($49/$199/$499/mo) but is a generic
+multi-vertical field-service tool (lawn care is one of seven listed
+industries) whose lower two tiers don't state a seat cap at all — too
+close to `landscaping_management`'s existing coverage and too ambiguous
+on the seat axis to use. Abandoned per this site's 3-vendor minimum;
+Spraye and TurfHop are recorded here in case a third vendor surfaces
+later.
+
+Database is unchanged at 263 tools across 67 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
