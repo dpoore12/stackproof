@@ -1,0 +1,57 @@
+slug: powerwashoffice
+vendor: PowerWashOffice
+product: PowerWashOffice
+category: pressure_washing_business_management
+url: https://powerwash.software/pricing/
+pricing_note: >-
+  PowerWashOffice's Teams plan states "$5/mo per additional team
+  member" on top of the $30 base but does not separately spell out how
+  many seats the base itself includes; per this site's "assume 1
+  included seat when a base-plus-additional-user structure doesn't
+  state it" convention (same as used for SingleOps, Booqable, and
+  Ruana elsewhere in this database), included_seats is recorded as 1.
+
+tiers:
+  - plan: Owner Operator
+    compare: false
+    base_monthly_usd: 0
+    max_seats: 1
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://powerwash.software/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Owner Operator — $0 per mo. — Job management for 1 user."'
+  - plan: Teams
+    base_monthly_usd: 30
+    included_seats: 1
+    per_seat_monthly_usd: 5
+    seat_label: team member
+    billing: monthly
+    provenance:
+      source_url: https://powerwash.software/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Teams — $30 per mo. — Job and Employee management — $5/mo per additional team member." The page''s own "Workers" add-on section confirms multi-employee management is "$0 per mo. Included only in the TEAMS plan."'
+
+findings:
+  - id: powerwashoffice-single-vertical-product
+    claim: >-
+      PowerWashOffice's entire product — home page, features, and
+      pricing — is built specifically for pressure washing businesses,
+      distinct from a generic field-service tool with a bolted-on
+      landing page, per its site as of 2026-09-05.
+    provenance:
+      source_url: https://powerwash.software/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+  - id: powerwashoffice-free-tier-cap
+    claim: >-
+      PowerWashOffice's free "Owner Operator" plan is capped at "1
+      user" — multi-employee management requires upgrading to the $30
+      Teams plan, per its pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://powerwash.software/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch

@@ -1,0 +1,33 @@
+Source: https://powerwash.software/pricing/
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true, custom_js innerText extraction)
+
+Title: "Pricing - PowerWashOffice"
+
+PowerWashOffice's entire product is pressure-washing-specific (home
+page, features page, and pricing page are all power-wash-focused,
+distinct from a generic field-service tool with a bolted-on landing
+page) — this is the "PowerwashOffice" brand of the same company family
+that also runs InflatableOffice.com and EventOffice.io for other
+verticals (shared nav links found in the page's own JS).
+
+"Pick Your Plan — We give you access to all of our award-winning
+features no matter what plan you go with."
+
+Owner Operator — "$0 per mo." — "Job management for 1 user."
+
+Teams — "$30 per mo." — "Job and Employee management" — "$5/mo per
+additional team member." The page's own "Workers" add-on section
+states "$0 per mo. Included only in the TEAMS plan," i.e. the
+multi-employee scheduling/payroll feature itself is bundled free into
+the $30 Teams base — only headcount beyond the plan's own included
+seat costs extra. The exact included-seat count in the $30 base is
+not separately spelled out; read as 1 (the operator), per this site's
+"assume 1 included seat when a base-plus-additional-user structure
+doesn't state it" convention (same as SingleOps, Booqable, and
+Ruana elsewhere in this database).
+
+Advanced add-ons also listed (not part of the core plans, so not
+recorded as tiers here): IO Phone $65/mo, CRM Tools $65/mo (now
+"included free" per an on-page banner as of this fetch),
+Multi-Locations $50/mo, Payment Processing "rates vary."

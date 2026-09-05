@@ -1652,6 +1652,38 @@ pricing is recorded, with a finding noting the gap.
 
 Database is now 266 tools across 68 categories.
 
+### Pressure washing business management software (2026-09-05)
+
+Three vendors: Fieldified, KaamCam, PowerWashOffice. Seat axis is
+"users" (1, 3, 5, 10, 25). Several strong-looking candidates failed
+direct verification and were excluded: Vonigo only has a blog post
+about pressure washing, not a real product landing page, and its
+pricing page carries no public numbers; Workiz has a genuine dedicated
+pressure-washing industry page, but its current live pricing page
+(workiz.com/pricing-plans/) shows "Request pricing" on every tier —
+fully quote-gated now, despite older cached figures suggesting
+otherwise; Zuper's pricing page 404s.
+
+Fieldified and KaamCam are both horizontal field-service tools
+included under this site's "generic tool with a genuine dedicated
+niche landing page" exception (same exception used for Werx,
+Contractor+, and Fieldd in the handyman category) — both maintain
+extensive, trade-specific pressure-washing pages, not passing
+mentions. Fieldified prices a base-plus-included-seats structure
+across three tiers (Basic $49/5 users, Standard $119/10 users, Premium
+$199/15 users), each with the same flat $5/mo per-additional-user
+add-on. KaamCam has no tiers at all — a single flat $12/seat/month
+rate ($9.60/seat/month billed annually) with every feature included
+regardless of team size. PowerWashOffice is pressure-washing-specific
+as its entire product (not a bolted-on niche page): a free
+"Owner Operator" plan capped at 1 user, and a "Teams" plan at $30/mo
+base plus $5/mo per additional team member — the included-seat count
+in the Teams base isn't separately stated, so it's read as 1 per this
+site's standing assume-1-seat convention (same as SingleOps, Booqable,
+and Ruana elsewhere in this database).
+
+Database is now 269 tools across 69 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
