@@ -1,0 +1,37 @@
+Source: https://www.arbornote.com/pricing/
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true, custom_js innerText extraction targeting the pricing calculator widget)
+
+Title: "ArborNote Pricing - Tree Care Business Software - ArborNote"
+Description: "Scale your tree care business with ArborNote's
+industry-leading software and plans that grow with your business
+requirements. Get CRM, GPS mapping, scheduling & more... Plans start
+from $50/month."
+
+Page is built as an interactive price calculator ("Calculate your
+price upfront" / "Find the right plan"). Base plan JS config captured
+directly from the page's own calculator script:
+  const plans = {
+      essential: { base: 240, additional: 130 },
+      enterprise: { base: 350, additional: 150 }
+  };
+
+Calculator copy confirms the same structure in prose:
+- Essential — "Essential Plan (1 user)" — "$240" per month.
+- Enterprise — base $350/month (from the same JS config; not
+  independently re-stated in the captured prose block, but is the
+  plan's row in the same calculator).
+- "Each plan already includes 1 user. Do you need additional users?
+  (Admins, Estimators, Sales)" — additional users are $130/mo
+  (Essential) or $150/mo (Enterprise) per the JS config above.
+- "Crew App Users" add-on: "$75/month per user for ArborNote Works
+  crew app for the completion of work orders."
+- A separate "ArborNote for Landscape" add-on line ("$240/month + $130
+  per additional user") prices a different, landscaping-specific
+  product line, not the core tree-service tool — not recorded here.
+
+Calculator also shows a "10% off" line item for annual billing, but
+the exact annual monthly-equivalent dollar figure is only computed
+client-side after interacting with the toggle; the crawl captured the
+tool in its default (monthly, 0-additional-user) state, so no annual
+number is quoted here as fact — see finding below.

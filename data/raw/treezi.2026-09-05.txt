@@ -1,0 +1,24 @@
+Source: https://treeziapp.com/pricing/
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true, custom_js innerText extraction)
+
+Title: "Pricing | Treezi"
+H1: "Super simple, affordable pricing." — "No feature limitations. Pay
+as you grow."
+
+Single public plan, "Boost-In":
+- "$49.99" "Per User / Month"
+- "Boost-In Annual" — "$503.88" "Per User / Year ($41.99 Monthly)"
+
+"For companies with 9 crews or more, please contact us." (threshold is
+stated in crews, not users — Treezi does not publish a numeric
+per-user seat cap, only this crew-count contact-us threshold.)
+
+"All customers get the whole treezi package:" Unlimited clients,
+unlimited tree inventory, estimates & proposals, scheduling, track job
+progress, invoicing, QB Desktop sync, client Treezi portal, 500+
+preloaded tree species list, preloaded treatments list, email
+templates, custom URL for web access.
+
+Footer/company: "A Product of A Plus Tree, Inc — Powered by
+Arborplus." Note on page: "Treezi is not available in CA, WA, or OR."

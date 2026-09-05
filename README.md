@@ -1623,6 +1623,35 @@ CRM, not purpose-built software.
 
 Database is unchanged at 263 tools across 67 categories.
 
+### Tree service / arborist business management software (2026-09-05)
+
+Three vendors, all with genuine tree-service focus and published
+per-seat pricing: ArboristDesk, Treezi, ArborNote. Seat axis is "users"
+(1, 3, 5, 10, 25). Vendors already in this database were excluded
+outright rather than re-checked for a tree-service angle: SingleOps
+(landscaping_management), Service Autopilot, Aspire, Jobber, Housecall
+Pro, ServiceTitan, QuoteIQ, Werx, Contractor+, Fieldd.
+
+ArboristDesk publishes a clean base-plus-per-seat structure across all
+three tiers (Starter $79/mo base, Growth $149/mo, Pro $249/mo — each
+with 1 included user and a flat per-additional-user add-on of
+$12/$15/$18 respectively), plus explicit seat caps on the upper two
+tiers (Growth 5 users, Pro 15 users) and a stated 12-month price lock.
+Treezi has no base fee at all — a single plan priced purely at
+$49.99/user/month ($41.99/mo billed annually) — capped at "9 crews or
+more" (a crew, not user, threshold, so no max_seats is recorded).
+ArborNote's pricing page is an interactive calculator; its own
+client-side JS config (`{ base: 240, additional: 130 }` for Essential,
+`{ base: 350, additional: 150 }` for Enterprise) gave a clean base/seat
+read despite the page not printing a static price table, and its
+"ArborNote Works" mobile crew app is a separate $75/mo-per-user add-on
+recorded as a non-`compare`, non-`standalone` tier. ArborNote's 10%
+annual-billing discount is mentioned but never resolves to a static
+number without interacting with the page's toggle, so only its monthly
+pricing is recorded, with a finding noting the gap.
+
+Database is now 266 tools across 68 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
