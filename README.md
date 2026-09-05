@@ -1393,6 +1393,36 @@ the rest of this category.
 
 Database is now 247 tools across 62 categories.
 
+### Event/party equipment rental business management software (2026-09-05)
+
+Three vendors: Booqable, RentMy, Current RMS. Seat axis is "users"
+(1, 3, 5, 10, 25).
+
+RentMy and Current RMS both publish exact, unambiguous seat pricing:
+RentMy's Nano is a flat $39/mo capped at 3 user accounts, Growth a flat
+$199/mo with unlimited accounts (plus a $249 one-time setup fee on both,
+Enterprise excluded as quote-gated). Current RMS sells one plan priced
+$79/mo for the first user plus $49/mo per additional user, read straight
+off its own pricing-slider DOM values. Booqable publishes whole-plan
+price jumps (Start/Grow/Scale) and states the user-count *deltas* between
+them ("5 extra users" for Grow over Start, "10 extra users" for Scale
+over Grow) but never the absolute headcount included in Start itself;
+Start's own copy ("for starters and solo operators") is read as a
+single-seat baseline, the same convention already used for SingleOps
+elsewhere in this database, giving inferred seat caps of 1/6/16.
+
+Two vendors were researched and excluded for this category: HireHop
+prices cleanly by user (a first-user rate plus a flat additional-user
+rate) but only in GBP, with no USD price the site renders directly —
+excluded from the cost table under this site's standing non-USD
+treatment, the same one applied to Smoobu. EZRentOut publishes headline
+prices ($399/mo, $499/mo, custom Enterprise) but its per-tier included-
+user counts are rendered in a way that repeated fetch attempts could not
+extract; Goodshuffle Pro's pricing page blocks fetches outright with a
+Cloudflare 403. Both are left out rather than guessed at.
+
+Database is now 250 tools across 63 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

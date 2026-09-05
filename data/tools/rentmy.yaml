@@ -1,0 +1,44 @@
+slug: rentmy
+vendor: RentMy
+product: RentMy
+category: event_rental_business_management
+url: https://www.rentmy.co/pricing
+pricing_note: 'RentMy''s Nano and Growth plans are flat monthly fees capped by user-account count, not per-seat pricing; both also carry a one-time $249 setup/training fee not reflected in the recurring monthly figure recorded here. Enterprise is quote-gated ("Talk to Sales") and excluded from cost comparison.'
+
+tiers:
+  - plan: Nano
+    base_monthly_usd: 39
+    max_seats: 3
+    seat_label: user account
+    provenance:
+      source_url: https://www.rentmy.co/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Nano for Side-Hustlers — $39/mo + $249 one-time setup & training." Comparison table: "User accounts" row lists "3" for Nano, "Up to 20 sale / rental products."'
+  - plan: Growth
+    base_monthly_usd: 199
+    seat_label: user account
+    provenance:
+      source_url: https://www.rentmy.co/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: 'Marked "Most Popular." "Growth for Full-Timers — $199/mo + $249 one-time setup & training." Comparison table: "User accounts" row lists "Unlimited" for Growth, "500 Products."'
+findings:
+  - id: rentmy-nano-setup-fee
+    claim: >-
+      RentMy charges a $249 one-time setup and training fee on top of its
+      recurring monthly price for both the Nano ($39/mo) and Growth
+      ($199/mo) plans, per its own pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://www.rentmy.co/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+  - id: rentmy-enterprise-quote-gated
+    claim: >-
+      RentMy's top Enterprise tier offers unlimited products and user
+      accounts but requires talking to sales with no published price,
+      per its own pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://www.rentmy.co/pricing
+      fetched_at: 2026-09-05
+      method: not_available

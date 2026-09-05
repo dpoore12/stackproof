@@ -910,6 +910,74 @@
    ],
    "vendor": "Bonusly (Smartly, Inc)"
   },
+  "booqable": {
+   "category": "event_rental_business_management",
+   "fees": [],
+   "product": "Booqable",
+   "tiers": [
+    {
+     "base_monthly_usd": 29.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-05",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Start (annual)",
+     "source_url": "https://booqable.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 35.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Start (monthly billing)",
+     "source_url": "https://booqable.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 69.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-05",
+     "max_seats": 6,
+     "per_seat_monthly_usd": null,
+     "plan": "Grow (annual)",
+     "source_url": "https://booqable.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 87.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": 6,
+     "per_seat_monthly_usd": null,
+     "plan": "Grow (monthly billing)",
+     "source_url": "https://booqable.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 149.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-05",
+     "max_seats": 16,
+     "per_seat_monthly_usd": null,
+     "plan": "Scale (annual)",
+     "source_url": "https://booqable.com/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 187.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": 16,
+     "per_seat_monthly_usd": null,
+     "plan": "Scale (monthly billing)",
+     "source_url": "https://booqable.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Booqable"
+  },
   "boulevard": {
    "category": "salon_management",
    "fees": [
@@ -2001,6 +2069,24 @@
     }
    ],
    "vendor": "CROSStrax"
+  },
+  "current-rms": {
+   "category": "event_rental_business_management",
+   "fees": [],
+   "product": "Current RMS",
+   "tiers": [
+    {
+     "base_monthly_usd": 79.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": 49.0,
+     "plan": "The Package",
+     "source_url": "https://current-rms.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Current RMS"
   },
   "dashlane": {
    "category": "password_manager",
@@ -7807,6 +7893,34 @@
     }
    ],
    "vendor": "Rentec Direct"
+  },
+  "rentmy": {
+   "category": "event_rental_business_management",
+   "fees": [],
+   "product": "RentMy",
+   "tiers": [
+    {
+     "base_monthly_usd": 39.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": 3,
+     "per_seat_monthly_usd": null,
+     "plan": "Nano",
+     "source_url": "https://www.rentmy.co/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 199.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Growth",
+     "source_url": "https://www.rentmy.co/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "RentMy"
   },
   "repairdesk": {
    "category": "electronics_repair_shop_management",
