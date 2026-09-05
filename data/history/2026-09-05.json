@@ -7141,6 +7141,24 @@
    ],
    "vendor": "PayHOA"
   },
+  "paythepoolman": {
+   "category": "pool_service_business_management",
+   "fees": [],
+   "product": "Paythepoolman",
+   "tiers": [
+    {
+     "base_monthly_usd": 50.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": 15.0,
+     "plan": "Paythepoolman",
+     "source_url": "https://www.paythepoolman.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Paythepoolman"
+  },
   "pcloud-business": {
    "category": "cloud_storage",
    "fees": [],
@@ -7359,6 +7377,42 @@
     }
    ],
    "vendor": "Pixifi"
+  },
+  "pool-office-manager": {
+   "category": "pool_service_business_management",
+   "fees": [],
+   "product": "Pool Office Manager",
+   "tiers": [
+    {
+     "base_monthly_usd": 125.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": 25.0,
+     "plan": "Pool Office Manager",
+     "source_url": "https://poolofficemanager.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Pool Office Manager"
+  },
+  "poolbrain": {
+   "category": "pool_service_business_management",
+   "fees": [],
+   "product": "Pool Brain",
+   "tiers": [
+    {
+     "base_monthly_usd": 50.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": 65.0,
+     "plan": "Pool Brain",
+     "source_url": "https://www.poolbrain.com/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "Pool Brain"
   },
   "practice-better": {
    "category": "nutrition_dietitian_coaching_practice_management",

@@ -1,0 +1,20 @@
+Source: https://www.poolbrain.com/pricing/
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+ALL FEATURES + FREE SETUP. No hidden costs. Built by industry experts.
+
+$50 /Month
+Provides Access For Unlimited Office Users
+
++
+
+$325 /Month
+($65 per tech) 5 Active Field Technicians
+
+=
+
+Your monthly plan
+$375/Month
+
+How Many Technicians do you have? [interactive slider, default 5]

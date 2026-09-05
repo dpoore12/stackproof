@@ -1,0 +1,29 @@
+slug: poolbrain
+vendor: Pool Brain
+product: Pool Brain
+category: pool_service_business_management
+url: https://www.poolbrain.com/pricing/
+pricing_note: 'Pool Brain has a genuine base-plus-per-seat formula: a flat base fee covers unlimited office users, and every active field technician is billed separately with no included seats.'
+
+tiers:
+  - plan: Pool Brain
+    base_monthly_usd: 50
+    per_seat_monthly_usd: 65
+    included_seats: 0
+    seat_label: technician
+    provenance:
+      source_url: https://www.poolbrain.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$50/Month — Provides Access For Unlimited Office Users" + "$65 per tech — Active Field Technicians." Page''s own calculator shows 5 technicians = $325/mo tech cost + $50 base = $375/mo total.'
+
+findings:
+  - id: poolbrain-unlimited-office-users
+    claim: >-
+      Pool Brain's $50/mo base fee covers an unlimited number of office
+      (non-field) users, with only active field technicians billed
+      per-seat, per its own pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://www.poolbrain.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch

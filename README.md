@@ -1375,6 +1375,24 @@ captcha — Passare is separately confirmed quote-gated).
 
 Database is now 244 tools across 61 categories.
 
+### Pool service business management software (2026-09-05)
+
+Three vendors: Pool Brain, Pool Office Manager, Paythepoolman — all three
+with a genuine base-plus-per-seat formula. Seat axis is "technicians"
+(1, 3, 5, 10, 25).
+
+Pool Brain: $50/mo covers unlimited office users, +$65/mo per active
+field technician with no included seats. Pool Office Manager: $125/mo
+for the first user, +$25/mo per additional user. Paythepoolman: $50/mo
+base +$15/mo per technician from the first seat, recorded over its
+"80% OFF for 3 Months" promo per this site's policy against publishing
+promotional prices as the standing rate. Skimmer was researched but
+excluded: it explicitly offers "Unlimited Technicians & Admins" and
+prices purely by serviced-pool-location count, an axis mismatch with
+the rest of this category.
+
+Database is now 247 tools across 62 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

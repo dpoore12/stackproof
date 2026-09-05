@@ -1,0 +1,15 @@
+Source: https://poolofficemanager.com/pricing
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Meta description: "Pool service software pricing: $125/mo + $25/user.
+Includes scheduling, chemistry, GPS & invoicing. No contracts. Free 30
+day trial, no card required."
+
+H3: "$125" — "For the first user/month"
+H3: "$25" — "per additional user/month"
+
+Simple and Flexible for Seasonal and Growing Businesses.
+Full Platform Access, Free Training & Onboarding, Unlimited Quotes,
+Jobs & Invoices, Secure & Reliable, Seasonal-Smart Scheduling,
+Inventory & Chemical Intelligence, End-to-End Workflow.

@@ -1,0 +1,21 @@
+Source: https://www.paythepoolman.com/pricing
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+og:meta: product:price:amount "50.00", product:price:currency "USD"
+
+Better Software. Better Price. No Hidden Fees.
+
+How many Technicians? [1 Techs, interactive slider]
+
+Paythepoolman — $50.00/mo
+Per Tech — $15.00/mo
+
+Total Monthly Cost: $65 (at 1 technician)
+* plus any optional add-ons
+
+Avg. Competitor Cost: $160
+Estimated Monthly Savings: $95!
+
+(Page also shows a "80% OFF for 3 Months!" promo code banner — not used
+as the standing rate.)
