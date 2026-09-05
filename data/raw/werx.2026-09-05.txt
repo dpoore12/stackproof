@@ -1,0 +1,35 @@
+Source: https://www.werxapp.com/pricing
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Title: "Werx Pricing: Every Feature on Every Plan From $49/mo."
+Description: "Flat pricing from $49/mo with every feature on every
+plan: AIA-style billing, job costing, QuickBooks sync, and the field
+app. Users are $6, no contracts."
+
+Has a dedicated handyman landing page: "Handyman App for Estimates,
+Invoicing & Payments | Werx" at
+werxapp.com/industries/handyman/handyman-app/ — "Werx gets handyman
+pros out of spreadsheets by allowing them to quote, invoice every job,
+take payment, and track time in one app," also noting "users at $6,
+which for a handyman business is less than one hour of billed work a
+month to run the entire office side."
+
+Essential — "Includes 10 Active Projects" — "$49/mo" — "For solo
+contractors getting organized."
+Plus (Most Popular) — "Includes 20 Active Projects" — "$89/mo" — "The
+favorite for growing contractors."
+Unlimited — "Unlimited Active Projects" — "$119/mo" — "For high-volume
+shops who never want a cap."
+
+"Add more users — Werx scales with you. Add or remove users anytime." —
+"$6/mo Standard Users" — "$4/mo Time Only Users."
+
+All plans include the same full feature set (itemized/proposal
+estimates, customer management, time & material and contract projects,
+change order management, progress & AIA-style invoicing, budget & cost
+tracking, product/service catalog, vendor management, time tracking,
+online payment with Stripe, QuickBooks Online sync, RFIs, submittals) —
+plans differ only by active-project count and (via the separate
+per-user add-on) team size. No contract or annual commitment; free
+setup help, mobile apps, unlimited email support on every plan.

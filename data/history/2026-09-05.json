@@ -1939,6 +1939,64 @@
    ],
    "vendor": "Contractor Foreman"
   },
+  "contractor-plus": {
+   "category": "handyman_contractor_management",
+   "fees": [],
+   "product": "Contractor+",
+   "tiers": [
+    {
+     "base_monthly_usd": 0.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "FREEDOM",
+     "source_url": "https://contractorplus.app/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 29.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-05",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "PRO (annual)",
+     "source_url": "https://contractorplus.app/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 49.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "PRO (monthly billing)",
+     "source_url": "https://contractorplus.app/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 58.0,
+     "billing": "annual",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": 20.0,
+     "plan": "PRO TEAM (annual)",
+     "source_url": "https://contractorplus.app/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 98.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": 20.0,
+     "plan": "PRO TEAM (monthly billing)",
+     "source_url": "https://contractorplus.app/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Contractor+"
+  },
   "cosmolex": {
    "category": "legal_practice_management",
    "fees": [],
@@ -3067,6 +3125,44 @@
     }
    ],
    "vendor": "Fastmail"
+  },
+  "fieldd": {
+   "category": "handyman_contractor_management",
+   "fees": [],
+   "product": "Fieldd",
+   "tiers": [
+    {
+     "base_monthly_usd": 199.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": 10,
+     "per_seat_monthly_usd": null,
+     "plan": "Start",
+     "source_url": "https://fieldd.co/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 299.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": 30,
+     "per_seat_monthly_usd": null,
+     "plan": "Scale",
+     "source_url": "https://fieldd.co/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 999.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": 30,
+     "per_seat_monthly_usd": null,
+     "plan": "Pro",
+     "source_url": "https://fieldd.co/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Fieldd"
   },
   "fieldwire": {
    "category": "construction_management",
@@ -11006,6 +11102,44 @@
     }
    ],
    "vendor": "WellnessLiving"
+  },
+  "werx": {
+   "category": "handyman_contractor_management",
+   "fees": [],
+   "product": "Werx",
+   "tiers": [
+    {
+     "base_monthly_usd": 49.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Essential",
+     "source_url": "https://www.werxapp.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 89.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Plus",
+     "source_url": "https://www.werxapp.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 119.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Unlimited",
+     "source_url": "https://www.werxapp.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Werx"
   },
   "when-i-work": {
    "category": "shift_scheduling",

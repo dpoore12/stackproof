@@ -1,0 +1,42 @@
+Source: https://contractorplus.app/pricing
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Title: "Plans & Pricing | Start With Contractor+ Free." Description:
+"$0 forever for free plan. $49/month for PRO. $98 for pro team."
+(monthly figures; the page's default/annual view shows lower
+per-month numerals — see below.)
+
+Has a dedicated handyman landing page (contractorplus.app/industries/
+handyman-software) and was "Named Category Leader 2022 For Handyman
+Software Category," per its own blog.
+
+FREEDOM — "Free forever" — "$0/mo" — "Just Starting" — Basic CRM
+(up to 250 leads & clients), up to 5 estimates or invoices per month.
+
+PRO — "1 user" — "$29/mo" (annual view; meta description states
+"$49/month for PRO" as the monthly rate) — "For Solopreneurs" —
+Everything in FREEDOM, plus unlimited leads/clients, unlimited
+estimates & invoices, scheduling & calendar sync, automated contracts,
+Estimatic AI (10 credits/mo), PRO website included, card & ACH
+payments.
+
+PRO TEAM (Most Popular) — "First 2 users included" — "$58/mo" (annual
+view; meta description states "$98 for pro team" as the monthly rate)
+— "For growing Pro's" — "$20/month per additional user" — Everything
+in PRO, plus advanced CRM features, unlimited Estimatic AI, automated
+job costing & profitability tracking, business phone system, self-
+hosted client portal, custom URL & branding, QuickBooks Online
+connection, Zapier integration & developer API.
+
+MAX — "Unlimited users" — page shows "$NaN/mo" (a rendering bug; this
+tier is effectively a custom/enterprise plan) — "For $1m+ contractors
+who need it all" — all-inclusive, includes $600/yr in voice credits,
+$600/yr in AI credits, Contractor+ Local ($249/mo value), lowest
+card-processing rates, priority support & onboarding. (quote-gated,
+excluded)
+
+Footer note: "Annual contracts are billed upfront in one invoice" —
+confirming the $29/$58 figures are the annual-billed monthly-equivalent
+rate, and $49/$98 (per the meta description) are the standing
+month-to-month rates.
