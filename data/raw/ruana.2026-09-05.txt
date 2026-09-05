@@ -1,0 +1,25 @@
+Source: https://getruana.com/massage-therapy-pricing-and-features/
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Solo Plan: "Designed for solo practitioners to manage their practice
+with ease and value" — "$35.99/ Month" — Top Features: Online Booking,
+Email Reminders, Paperless Intake Forms, Charts & Basic SOAP Notes,
+Invoicing & Billing, "Maximum Appointments: Unlimited."
+
+Professional Plan: "Advanced tools to streamline and enhance practice
+management" — "$55.99/ Month" + "+$19.99 per Practitioner per month" —
+Top Features: Everything in Solo, plus Advanced SOAP Notes, Online
+Appointment Requests, Memberships & Packages, "Maximum Appointments:
+Unlimited."
+
+Plan comparison table: "Practitioners Included" row — Solo: "1 Massage
+Therapist"; Professional: "Single or Multiple Massage Therapists."
+
+Both plans: unlimited appointments, online booking, email reminders,
+paperless intake forms, forms creation, charting templates, treatment
+plans, invoicing & billing, analytics & reports, file uploads. Solo lacks
+online appointment requests, advanced/automatic SOAP notes, memberships &
+packages, and multi-location support, which Professional adds.
+
+14-day free trial. Listed on Capterra, GetApp, and Software Advice.

@@ -1481,6 +1481,53 @@ removal buyer couldn't already see there.
 
 Database is now 256 tools across 65 categories.
 
+### A round of dead ends, and one real addition (2026-09-05)
+
+Five candidate categories were researched this round and none of them
+shipped as new categories — worth recording so the next pass doesn't
+repeat the same dead ends:
+
+- **Veterinary practice management software**: all three researched
+  vendors failed direct verification. Shepherd's own `/pricing` page
+  404s and its homepage carries no pricing at all — third-party-quoted
+  figures for it have no vendor-page source. ezyVet's own page states a
+  single flat "starting at $260.50 per month... whether you're a single
+  veterinarian practice or you have hundreds of staff members," i.e.
+  explicitly not scaled by team size, with "additional pricing details
+  available upon request" for anything else. DaySmart Vet's page states
+  only a vague "starting at $123/month" headline; its actual tier
+  pricing routes through a "Contact our team to discuss custom pricing"
+  form, not a published table.
+- **Driving school management software**: two vendors check out cleanly
+  (Drive Scout — $50/user/month, 5-user minimum, no tiers; Software for
+  Driving School — Solo $49/mo/1 user, Team $79/mo/up to 10 users,
+  Growth $399/mo/unlimited users/25 locations) but no third vendor with
+  a genuine per-seat axis could be confirmed; the rest of the market is
+  per-student, flat-rate, or unpublished.
+- **Optometry / eye-care practice management software**: dominated by
+  quote-gated pricing. RevolutionEHR's page shows flat feature tiers
+  (Core/Advanced/Premium) with no stated provider-count scaling. Crystal
+  Practice Management's own page gates the base price behind "Contact
+  Us for Pricing" on every tier — only the marginal "additional
+  doctor(s)" rate is public, which isn't enough to price a 1-doctor
+  practice.
+- **Junk removal business management software**: the only vendors with
+  public per-seat pricing and dedicated niche marketing (Jobber,
+  Housecall Pro, Workiz) are already in this database under
+  `field_service_management` with identical pricing — a second category
+  would just duplicate those records.
+- **A dedicated "massage therapy / wellness" category**: two of the
+  three vendors found with clean pricing (Jane App, ClinicSense) turned
+  out to already be in this database under
+  `physical_therapy_allied_health_practice_management`. Rather than ship
+  a mostly-duplicate category, the one genuinely new vendor found —
+  **Ruana** — was added to that existing category instead: Solo $35.99/mo
+  (1 practitioner), Professional $55.99/mo + $19.99/mo per practitioner
+  (base read as including 1, the same "assume 1" convention used for
+  SingleOps and Booqable).
+
+Database is now 257 tools across 65 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

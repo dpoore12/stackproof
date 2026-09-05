@@ -8462,6 +8462,34 @@
    ],
    "vendor": "Rocket Matter"
   },
+  "ruana": {
+   "category": "physical_therapy_allied_health_practice_management",
+   "fees": [],
+   "product": "Ruana",
+   "tiers": [
+    {
+     "base_monthly_usd": 35.99,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Solo",
+     "source_url": "https://getruana.com/massage-therapy-pricing-and-features/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 55.99,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": 19.99,
+     "plan": "Professional",
+     "source_url": "https://getruana.com/massage-therapy-pricing-and-features/",
+     "steps": null
+    }
+   ],
+   "vendor": "Ruana"
+  },
   "satori": {
    "category": "coaching_practice_management",
    "fees": [],
