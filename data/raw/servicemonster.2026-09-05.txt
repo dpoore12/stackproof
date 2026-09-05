@@ -1,0 +1,33 @@
+Source: https://www.servicemonster.com/pricing
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true, custom_js innerText extraction)
+
+Title: "Field Service Business Software Pricing | ServiceMonster"
+Description: "ServiceMonster has plans for every business size from
+$89 to $249 per month."
+
+Has a dedicated window-cleaning landing page: "Window Cleaning
+Software & App" at servicemonster.com/industries/window-cleaning —
+genuine trade-specific content (route optimization, online booking,
+on-site estimates, easier upsells, window-cleaning mobile app).
+
+Billing toggle: "Monthly | Yearly."
+
+Monthly billing:
+Basic — "$99.99/month" — "Billed monthly" — "1 User License." No
+additional-user overage stated.
+Grow — "$199.99/month" — "Billed monthly" — "5 User Licenses" —
+"Additional user is $15/month per user."
+Premier — "$279.99/month" — "Billed monthly" — "10 User Licenses" —
+"Additional user is $25/month per user."
+
+Annual billing:
+Basic — "$79.99/month" — "Billed annually" — "1 User License."
+Grow — "$149.99/month" — "Billed annually" — "5 User Licenses" —
+"Additional user is $15/month per user billed annually."
+Premier — "$229.99/month" — "Billed annually" — "10 User Licenses" —
+"Additional user is $25/month per user billed annually."
+
+FAQ: "Each ServiceMonster subscription level requires an annual
+commitment" — despite offering a monthly-billing price point, the
+underlying contract term is annual either way.

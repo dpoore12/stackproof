@@ -1,0 +1,38 @@
+Source: https://fieldcamp.ai/pricing/
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true, custom_js innerText extraction of the page's embedded React props)
+
+Title: "FieldCamp Pricing - AI Field Service Software Plans & Costs"
+Description: "Field service software pricing from $249/mo for 3
+users. Compare Pro, Growth, Scale and Enterprise plans, extra-user
+rates, and 20% off annual billing."
+
+Has a dedicated window-cleaning landing page: "Window Cleaning
+Software — Routes & Invoicing" at fieldcamp.ai/window-cleaning-software/
+— genuine, extensive trade-specific content (per-property/per-zone
+tracking, recurring route scheduling, service-plan billing, quotes
+approved on-site, invoicing from the van).
+
+Billing toggle: "Monthly | Annually (SAVE 20%)." Promo banner: "20%
+annual discount applies to base price and extra user rates."
+
+Pro — "Solo operators & small crews of 1-3" — "Includes 3 Users" —
+"Additional users at $83/mo" (monthly) / $66/mo (annual) — "$249/mo"
+(monthly) / "$199/mo" (annual).
+
+Growth — "Includes 10 Users" — "Additional users at $70/mo" (monthly)
+/ $56/mo (annual) — "$699/mo" (monthly) / "$559/mo" (annual).
+
+Scale — "Mid-size operations, 11-20 person teams" — "Includes 20
+Users" — "Additional users at $75/mo" (monthly) / $60/mo (annual) —
+"$1,499/mo" (monthly) / "$1,199/mo" (annual).
+
+Enterprise — "Large operations with 20+ person teams" — "Includes 25+
+Users" — "Additional users negotiated" — "$2,000+/mo" — CTA "Talk to
+Sales." Open-ended/negotiated pricing beyond the stated floor; not
+recorded as a priced tier here (per this site's convention of
+excluding quote-gated/negotiated tiers from PriceTier records).
+
+All plans' CTA is "Book a Demo" (via Calendly) rather than a
+self-serve signup, but the dollar figures themselves are published
+directly on the page, not gated behind a quote.

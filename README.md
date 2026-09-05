@@ -1707,6 +1707,41 @@ software pricing. Abandoned per this site's 3-vendor minimum.
 
 Database is unchanged at 269 tools across 69 categories.
 
+### Window cleaning business management software (2026-09-05)
+
+Three vendors: FieldCamp, ServiceMonster, ProValet. Seat axis is
+"users" (1, 3, 5, 10, 25). Orderry was the original plan for a third
+vendor but turned out to already be in this database under
+`electronics_repair_shop_management` — excluded per this site's
+no-vendor-reuse rule. Squeegee has a genuine dedicated window-cleaning
+page but its pricing is GBP-only (£19/£25/£33/mo), so it was excluded
+rather than invent a currency conversion. Aworka's pricing URL
+redirected to a bare login page with no numbers.
+
+FieldCamp and ServiceMonster are both horizontal field-service tools
+included under this site's "generic tool with a genuine dedicated
+niche landing page" exception (same exception used for Werx/
+Contractor+/Fieldd in handyman, Fieldified/KaamCam in pressure
+washing) — both maintain extensive, trade-specific window-cleaning
+pages. FieldCamp prices a base-plus-included-seats structure across
+three tiers with a real annual/monthly split (Pro $249/199 mo, Growth
+$699/559, Scale $1,499/1,199, each with a flat per-additional-user
+rate that also drops under annual billing); its Enterprise tier
+("$2,000+/mo," "additional users negotiated") is excluded as a
+PriceTier since the cost beyond 25 users is open-ended, not a fixed
+formula — a Finding records it instead. ServiceMonster prices Basic/
+Grow/Premier with the now-familiar annual-primary/monthly-secondary
+split and flat per-additional-user add-ons on its upper two tiers.
+ProValet — whose core identity is pool-service software, included
+under the same niche-page exception via its genuine "Window Cleaning
+& Pressure Washing" solutions page — runs an interactive
+technician-count calculator; only the default 1-technician state
+($149/mo, unlimited admins included) renders a static number, so
+that's the only tier recorded, with Findings noting the uncaptured
+per-technician scaling and the "two months free" annual toggle.
+
+Database is now 272 tools across 70 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

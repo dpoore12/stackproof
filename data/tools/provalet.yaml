@@ -1,0 +1,63 @@
+slug: provalet
+vendor: ProValet
+product: ProValet
+category: window_cleaning_business_management
+url: https://www.provalet.io/pricing
+pricing_note: >-
+  ProValet's pricing page is an interactive calculator ("How many
+  technicians do you have?" with buttons for 1/10/20/30/40/50+); only
+  the default 1-technician state renders a static price. The
+  per-additional-technician rate at higher counts is computed
+  client-side and was not captured, so it is not recorded as a number
+  here — max_seats is set to 1 rather than extrapolated. ProValet's
+  core identity is pool-service software (its primary marketing is
+  "streamline your pool service business"), included here under this
+  site's "generic tool with a genuine dedicated niche landing page"
+  exception — its /solutions/window-cleaners-pressure-washing page is
+  a real, substantial window-cleaning-and-pressure-washing marketing
+  page, not a passing mention.
+
+tiers:
+  - plan: Base (1 technician)
+    base_monthly_usd: 149
+    max_seats: 1
+    seat_label: technician
+    billing: monthly
+    provenance:
+      source_url: https://www.provalet.io/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Monthly Base Fee — Includes UNLIMITED admins PLUS 1 Technician License — $149.00." "Your Total Monthly Plan — $149.00."'
+
+findings:
+  - id: provalet-window-cleaning-page
+    claim: >-
+      ProValet markets a dedicated page for "route-based pressure
+      washing and window cleaning companies" covering route
+      automation, before/after documentation, and hands-free
+      invoicing, per its site as of 2026-09-05.
+    provenance:
+      source_url: https://www.provalet.io/solutions/window-cleaners-pressure-washing
+      fetched_at: 2026-09-05
+      method: live_fetch
+  - id: provalet-annual-discount-uncaptured
+    claim: >-
+      ProValet's pricing calculator offers an annual-billing option
+      described as "get two months FREE! Save 17%," but the resulting
+      per-technician-count dollar figures are only produced by
+      interacting with the page's own slider, not published as static
+      numbers, as of 2026-09-05.
+    provenance:
+      source_url: https://www.provalet.io/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+  - id: provalet-per-tech-scaling-uncaptured
+    claim: >-
+      ProValet's pricing scales by technician count via slider buttons
+      for 1/10/20/30/40/50+ technicians, but the per-additional-
+      technician dollar rate at counts above 1 is computed client-side
+      and was not present as static page text as of 2026-09-05.
+    provenance:
+      source_url: https://www.provalet.io/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
