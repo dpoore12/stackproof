@@ -1,0 +1,71 @@
+slug: arbornote
+vendor: ArborNote
+product: ArborNote
+category: tree_service_arborist_management
+url: https://www.arbornote.com/pricing/
+pricing_note: >-
+  ArborNote's pricing page is an interactive calculator; the monthly
+  base and per-additional-user figures below were read directly from
+  the calculator's own JS config and confirmed in its prose. The page
+  also offers a 10%-off annual-billing toggle, but the resulting
+  annual monthly-equivalent is only computed client-side after
+  interacting with the toggle — no fixed annual dollar figure is
+  published as static text, so only monthly billing is recorded here.
+
+tiers:
+  - plan: Essential
+    base_monthly_usd: 240
+    included_seats: 1
+    per_seat_monthly_usd: 130
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.arbornote.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: 'Calculator JS config: "essential: { base: 240, additional: 130 }." Prose: "Essential Plan (1 user) — $240."'
+  - plan: Enterprise
+    base_monthly_usd: 350
+    included_seats: 1
+    per_seat_monthly_usd: 150
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://www.arbornote.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: 'Calculator JS config: "enterprise: { base: 350, additional: 150 }."'
+  - plan: ArborNote Works (crew app add-on)
+    compare: false
+    standalone: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 75
+    seat_label: crew app user
+    billing: monthly
+    provenance:
+      source_url: https://www.arbornote.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Crew App Users — $75/month per user for ArborNote Works crew app for the completion of work orders."'
+
+findings:
+  - id: arbornote-annual-discount-uncaptured
+    claim: >-
+      ArborNote's pricing calculator offers a 10% discount for annual
+      billing, but as of 2026-09-05 the resulting per-month figure is
+      only produced by interacting with the page's own toggle, not
+      published as a static number.
+    provenance:
+      source_url: https://www.arbornote.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+  - id: arbornote-crew-app-addon
+    claim: >-
+      ArborNote sells its "ArborNote Works" mobile crew app as a
+      separate per-user add-on at $75/month per user, on top of the
+      Essential or Enterprise base plan, per its pricing page as of
+      2026-09-05.
+    provenance:
+      source_url: https://www.arbornote.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch

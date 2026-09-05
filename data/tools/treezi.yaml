@@ -1,0 +1,53 @@
+slug: treezi
+vendor: Treezi
+product: Treezi
+category: tree_service_arborist_management
+url: https://treeziapp.com/pricing/
+pricing_note: >-
+  Treezi sells a single plan, priced purely per user with no base fee,
+  up to "9 crews or more" — a crew-count threshold, not a stated
+  per-user seat count, so no max_seats is recorded here (the unit
+  mismatch means the actual user cap at 9 crews is unknown).
+
+tiers:
+  - plan: Boost-In (annual)
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 41.99
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://treeziapp.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Boost-In Annual — $503.88 Per User / Year ($41.99 Monthly)."'
+  - plan: Boost-In (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 49.99
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://treeziapp.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Boost-In — $49.99 Per User / Month."'
+
+findings:
+  - id: treezi-crew-threshold
+    claim: >-
+      Treezi's published per-user pricing applies up to "9 crews or
+      more," beyond which the vendor requires contacting sales, per
+      its pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://treeziapp.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+  - id: treezi-no-base-fee
+    claim: >-
+      Treezi's Boost-In plan has no separate base/platform fee — the
+      entire cost is $49.99 per user per month (or $41.99/mo billed
+      annually), per its pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://treeziapp.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch

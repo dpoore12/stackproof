@@ -1,0 +1,39 @@
+Source: https://arboristdesk.com/pricing/
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true, custom_js innerText extraction)
+
+Title: "Tree Service Software Pricing | ArboristDesk"
+Description: "Flat, public pricing for tree service software: Starter
+$79/mo, Growth $149/mo, Pro $249/mo. 12-month price lock, no demo
+calls, no custom quotes."
+
+H1: "Honest flat pricing for tree service software" — "Every plan
+includes estimating, scheduling, invoicing and a mobile app. Pick a
+plan by crew size, not by which features get held back — and lock
+your rate for 12 months in writing."
+
+Starter — "$79/mo" — "$69/mo billed yearly" — "Solo operator or
+2-person crew" — "1 user, up to 2 active routes/day" — Unlimited
+estimates & invoices, estimate builder with tree species & pricing
+library, scheduling calendar, invoicing with automatic reminders,
+basic client CRM — "Extra user: $12/mo".
+
+Growth — "$149/mo" — "$129/mo billed yearly" — "3-8 people, 1-3
+crews" — "Up to 5 users, 5 active routes/day" — Everything in
+Starter, two-way QuickBooks sync, client portal, tree & job
+inventory, customer SMS notifications — "Extra user: $15/mo".
+
+Pro — "$249/mo" — "$219/mo billed yearly" — "8-15 people, multiple
+crews" — "Up to 15 users, unlimited routes" — Everything in Growth,
+route optimization, team timesheets, job costing & profitability
+dashboard, priority support — "Extra user: $18/mo".
+
+"12-MONTH PRICE LOCK: the rate you sign at is your rate for at least
+a year. If list prices ever change, existing customers keep theirs
+for 12 months from that day."
+
+Site copy explicitly contrasts itself with competitors: "SingleOps
+publishes its tiers directly on its site. ArboStar doesn't publish a
+dollar figure anywhere — every plan goes through a custom quote..."
+confirming ArboristDesk's own claim to be one of few tree-service
+vendors with fully public per-seat pricing.

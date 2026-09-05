@@ -1,0 +1,102 @@
+slug: arboristdesk
+vendor: ArboristDesk
+product: ArboristDesk
+category: tree_service_arborist_management
+url: https://arboristdesk.com/pricing/
+
+tiers:
+  - plan: Starter (annual)
+    base_monthly_usd: 69
+    included_seats: 1
+    per_seat_monthly_usd: 12
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://arboristdesk.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Solo operator or 2-person crew." Yearly price shown: "$69/mo billed yearly." Extra user: $12/mo.'
+  - plan: Starter (monthly billing)
+    compare: false
+    base_monthly_usd: 79
+    included_seats: 1
+    per_seat_monthly_usd: 12
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://arboristdesk.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: 'Monthly price shown: "$79/mo."'
+  - plan: Growth (annual)
+    base_monthly_usd: 129
+    included_seats: 1
+    per_seat_monthly_usd: 15
+    max_seats: 5
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://arboristdesk.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"3-8 people, 1-3 crews." "Up to 5 users, 5 active routes/day." Yearly price shown: "$129/mo billed yearly." Extra user: $15/mo.'
+  - plan: Growth (monthly billing)
+    compare: false
+    base_monthly_usd: 149
+    included_seats: 1
+    per_seat_monthly_usd: 15
+    max_seats: 5
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://arboristdesk.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: 'Monthly price shown: "$149/mo."'
+  - plan: Pro (annual)
+    base_monthly_usd: 219
+    included_seats: 1
+    per_seat_monthly_usd: 18
+    max_seats: 15
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://arboristdesk.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"8-15 people, multiple crews." "Up to 15 users, unlimited routes." Yearly price shown: "$219/mo billed yearly." Extra user: $18/mo.'
+  - plan: Pro (monthly billing)
+    compare: false
+    base_monthly_usd: 249
+    included_seats: 1
+    per_seat_monthly_usd: 18
+    max_seats: 15
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://arboristdesk.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: 'Monthly price shown: "$249/mo."'
+
+findings:
+  - id: arboristdesk-price-lock
+    claim: >-
+      ArboristDesk states a "12-MONTH PRICE LOCK": the rate a customer
+      signs at holds for at least a year, and if list prices change,
+      existing customers keep their rate for 12 months from that day,
+      per its pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://arboristdesk.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+  - id: arboristdesk-per-seat-add-on
+    claim: >-
+      ArboristDesk publishes a flat per-additional-user add-on price
+      on every tier — $12/mo (Starter), $15/mo (Growth), $18/mo (Pro)
+      — on top of each plan's included single seat, per its pricing
+      page as of 2026-09-05.
+    provenance:
+      source_url: https://arboristdesk.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
