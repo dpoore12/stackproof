@@ -1,0 +1,103 @@
+slug: track-pod
+vendor: Track-POD
+product: Track-POD
+category: courier_delivery_dispatch_management
+url: https://www.track-pod.com/pricing-delivery-app/
+pricing_note: >-
+  All three tiers require a minimum of 3 drivers ("*min 3 drivers").
+  Modeled here as a fixed 3-driver base cost (included_seats: 3) plus
+  the same per-driver rate for each driver beyond that, since the
+  schema has no separate "minimum seats" concept — this correctly
+  produces the real minimum monthly spend at any team size from 1 to 3
+  drivers, and the true marginal cost beyond it.
+
+tiers:
+  - plan: Advanced
+    base_monthly_usd: 147
+    included_seats: 3
+    per_seat_monthly_usd: 49
+    seat_label: driver
+    billing: annual
+    provenance:
+      source_url: https://www.track-pod.com/pricing-delivery-app/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$49 a month per driver/vehicle billed annually." "*min 3 drivers." 7 dashboard web-users, 6,000 orders/month included.'
+  - plan: Advanced (monthly billing)
+    compare: false
+    base_monthly_usd: 177
+    included_seats: 3
+    per_seat_monthly_usd: 59
+    seat_label: driver
+    billing: monthly
+    provenance:
+      source_url: https://www.track-pod.com/pricing-delivery-app/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"or $59 month-to-month, *min 3 drivers."'
+  - plan: Advanced Plus
+    base_monthly_usd: 207
+    included_seats: 3
+    per_seat_monthly_usd: 69
+    seat_label: driver
+    billing: annual
+    provenance:
+      source_url: https://www.track-pod.com/pricing-delivery-app/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Most Popular." "$69 a month per driver/vehicle billed annually." "*min 3 drivers." 50 dashboard web-users, unlimited orders.'
+  - plan: Advanced Plus (monthly billing)
+    compare: false
+    base_monthly_usd: 237
+    included_seats: 3
+    per_seat_monthly_usd: 79
+    seat_label: driver
+    billing: monthly
+    provenance:
+      source_url: https://www.track-pod.com/pricing-delivery-app/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"or $79 month-to-month, *min 3 drivers."'
+  - plan: Ultimate
+    base_monthly_usd: 267
+    included_seats: 3
+    per_seat_monthly_usd: 89
+    seat_label: driver
+    billing: annual
+    provenance:
+      source_url: https://www.track-pod.com/pricing-delivery-app/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"More Value." "$89 a month per driver/vehicle billed annually." "*min 3 drivers."'
+  - plan: Ultimate (monthly billing)
+    compare: false
+    base_monthly_usd: 297
+    included_seats: 3
+    per_seat_monthly_usd: 99
+    seat_label: driver
+    billing: monthly
+    provenance:
+      source_url: https://www.track-pod.com/pricing-delivery-app/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"or $99 month-to-month, *min 3 drivers."'
+
+findings:
+  - id: trackpod-courier-page
+    claim: >-
+      Track-POD maintains a dedicated "Courier Software" page
+      covering automated scheduling, instant dispatching, and
+      courier-specific FAQs, per its site as of 2026-09-05.
+    provenance:
+      source_url: https://www.track-pod.com/courier-software/
+      fetched_at: 2026-09-05
+      method: live_fetch
+  - id: trackpod-minimum-drivers
+    claim: >-
+      All of Track-POD's per-driver plans (Advanced, Advanced Plus,
+      Ultimate) require a minimum of 3 drivers on the subscription,
+      per its pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://www.track-pod.com/pricing-delivery-app/
+      fetched_at: 2026-09-05
+      method: live_fetch

@@ -1,0 +1,59 @@
+slug: optimoroute
+vendor: OptimoRoute
+product: OptimoRoute
+category: courier_delivery_dispatch_management
+url: https://optimoroute.com/pricing/
+pricing_note: >-
+  OptimoRoute is a horizontal route-optimization tool serving several
+  business types (e-commerce, field service, couriers), included here
+  under this site's "generic tool with a genuine dedicated niche
+  landing page" exception — its /business-type/post-couriers/ page is
+  genuinely substantive (driver/vehicle constraints, proof of delivery
+  for sensitive mail, real-time tracking), not a thin templated stub.
+  The pricing page's default view is annual billing; its "Save 10%"
+  monthly-vs-annual toggle did not resolve a monthly dollar figure as
+  static text, so only annual billing is recorded here (see finding).
+
+tiers:
+  - plan: Lite
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 35.10
+    seat_label: driver
+    billing: annual
+    provenance:
+      source_url: https://optimoroute.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Bare essentials for great planning." "$35.10 per driver per month (BILLED ANNUALLY)." Up to 700 orders at once; no proof of delivery or analytics.'
+  - plan: Pro
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 44.10
+    seat_label: driver
+    billing: annual
+    provenance:
+      source_url: https://optimoroute.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Automated route planning for a 5-star business." "$44.10 per driver per month (BILLED ANNUALLY)." Up to 1,000 orders at once; adds analytics, proof of delivery, customer feedback, weekly planning.'
+
+findings:
+  - id: optimoroute-courier-page
+    claim: >-
+      OptimoRoute maintains a dedicated "Route Optimization Software
+      for Post & Courier Services" page covering driver constraints,
+      proof of delivery for sensitive mail, and real-time order
+      tracking, per its site as of 2026-09-05.
+    provenance:
+      source_url: https://optimoroute.com/business-type/post-couriers/
+      fetched_at: 2026-09-05
+      method: live_fetch
+  - id: optimoroute-monthly-billing-uncaptured
+    claim: >-
+      OptimoRoute's pricing FAQ states a 10% discount for paying a
+      full year upfront, but the resulting standard monthly (non-
+      annual) per-driver dollar figures were not present as static
+      text in a fetch on 2026-09-05.
+    provenance:
+      source_url: https://optimoroute.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
