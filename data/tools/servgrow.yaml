@@ -1,0 +1,68 @@
+slug: servgrow
+vendor: Servgrow
+product: Servgrow
+category: gutter_cleaning_business_management
+url: https://www.servgrow.com/pricing
+pricing_note: >-
+  Servgrow's pricing page has an Annual/Monthly toggle; only the
+  default annual view rendered statically in this fetch, so monthly
+  billing is not recorded (see finding). GROW's $32/mo price is an
+  active "Limited Licenses Left!" promotion off a $139/mo list price,
+  per the page's own struck-through pricing and headline ("Get our
+  GROW plan for PLUS pricing") — the current promotional price is
+  recorded as the tier's cost, with the list price noted in `promo`.
+
+tiers:
+  - plan: PRO
+    base_monthly_usd: 19
+    max_seats: 1
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.servgrow.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$19/month" "billed annually" "1 User."'
+  - plan: PLUS
+    base_monthly_usd: 32
+    max_seats: 3
+    seat_label: user
+    billing: annual
+    provenance:
+      source_url: https://www.servgrow.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$32/month" "billed annually" "1 to 3 Users."'
+  - plan: GROW
+    base_monthly_usd: 32
+    max_seats: 5
+    seat_label: user
+    billing: annual
+    promo: 'Limited Licenses Left! Struck-through list price "$139," current price "$32/month," per the page headline "Get our GROW plan for PLUS pricing."'
+    provenance:
+      source_url: https://www.servgrow.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Limited Licenses Left!" "$139" (struck through) "$32/month" "billed annually" "1 to 5 Users."'
+
+findings:
+  - id: servgrow-gutter-cleaning-page
+    claim: >-
+      Servgrow maintains a dedicated "Gutter Cleaning Software" page
+      describing "automated workflows that fill both seasons" and a
+      breakdown of a gutter-cleaning business's typical day, per its
+      site as of 2026-09-05.
+    provenance:
+      source_url: https://www.servgrow.com/gutter-cleaning-software
+      fetched_at: 2026-09-05
+      method: live_fetch
+  - id: servgrow-monthly-billing-uncaptured
+    claim: >-
+      Servgrow's pricing page offers a monthly-billing toggle
+      alongside its default annual view, but the resulting
+      monthly-billing dollar figures were not present as static text
+      in a fetch on 2026-09-05.
+    provenance:
+      source_url: https://www.servgrow.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch

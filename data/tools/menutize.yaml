@@ -1,0 +1,40 @@
+slug: menutize
+vendor: Menutize
+product: Menutize
+category: gutter_cleaning_business_management
+url: https://menutize.ai/use-case/gutter-cleaning
+
+tiers:
+  - plan: Menutize
+    base_monthly_usd: 29
+    included_seats: 1
+    per_seat_monthly_usd: 15
+    seat_label: teammate
+    billing: monthly
+    provenance:
+      source_url: https://menutize.ai/use-case/gutter-cleaning
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$29/mo flat for gutter cleaning businesses — one flat price that includes one seat, with additional teammates at $15/seat and no per-job fee."'
+
+findings:
+  - id: menutize-gutter-cleaning-page
+    claim: >-
+      Menutize maintains a dedicated gutter-cleaning landing page
+      covering linear-foot estimating, recurring spring and fall
+      biannual billing, and a before/after-photo gutter-guard upsell
+      workflow, per its site as of 2026-09-05.
+    provenance:
+      source_url: https://menutize.ai/use-case/gutter-cleaning
+      fetched_at: 2026-09-05
+      method: live_fetch
+  - id: menutize-payment-processing-fee
+    claim: >-
+      On top of its $29/mo flat subscription, Menutize charges
+      standard payment processing fees of "roughly 2.9% + 30¢ on
+      cards and 0.8% (capped at $5) on ACH," per its pricing FAQ as of
+      2026-09-05.
+    provenance:
+      source_url: https://menutize.ai/use-case/gutter-cleaning
+      fetched_at: 2026-09-05
+      method: live_fetch

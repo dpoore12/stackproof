@@ -1,0 +1,34 @@
+Source: https://www.servgrow.com/pricing
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true, custom_js innerText extraction)
+
+Title: "Pricing | Servgrow"
+Description: "Simple Servgrow pricing from $19 a month."
+
+Has a dedicated gutter-cleaning landing page: "Gutter Cleaning
+Software for Gutter Cleaners" at
+servgrow.com/gutter-cleaning-software — genuine, trade-specific
+content ("Gutter cleaning software with automated workflows that fill
+both seasons," workflow breakdown of a gutter-cleaning day, common
+failure points specific to the trade).
+
+Billing toggle: "ANNUAL | MONTHLY" — this fetch's static render shows
+only the default ANNUAL view; the MONTHLY-toggle figures were not
+captured as static text.
+
+PRO plan — "$19/month" — "billed annually" — "1 User" — "Everything
+you need to go paperless... scheduling, jobs, estimates, invoicing and
+payments."
+
+PLUS plan — "$32/month" — "billed annually" — "1 to 3 Users" —
+"Everything on PRO... plus the customer portal, forms and job
+photos."
+
+GROW plan — "Limited Licenses Left!" promo banner — struck-through
+"$139" regular price, current promotional price "$32/month" — "billed
+annually" — "1 to 5 Users" — "Every feature we have built, and every
+feature we ever build."
+
+Page headline itself: "Get our GROW plan for PLUS pricing" — confirms
+the $32/mo GROW figure is an active, named promotion off a $139/mo
+list price, not the standing rate.

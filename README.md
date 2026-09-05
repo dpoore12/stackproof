@@ -1742,6 +1742,35 @@ per-technician scaling and the "two months free" annual toggle.
 
 Database is now 272 tools across 70 categories.
 
+### Gutter cleaning business management software (2026-09-05)
+
+Three vendors: OctopusPro, Servgrow, Menutize. Seat axis is "users"
+(1, 3, 5, 10, 25). Markate was checked and excluded — its nav lists
+Pressure Washing, Carpet/Tile Cleaning, Window Cleaning, and
+Maid/Janitorial under "Cleaning," but no Gutter Cleaning at all.
+
+OctopusPro is a horizontal field-service tool (dozens of near-identical
+per-trade landing pages) included under this site's "generic tool with
+a genuine dedicated niche landing page" exception — its
+/gutter-cleaning-software/ page is unusually extensive and genuinely
+trade-specific. Its Established tier prices admin seats and fieldworker
+seats on two independent rates with no bundled free seat of either
+kind ($60/admin-seat + $6/fieldworker-seat monthly, or $50+$5 annual);
+modeled here as a fixed 1-admin base cost plus a per-fieldworker rate,
+matching this site's "seats = working crew" convention. Its Unlimited
+tier is a flat $99/mo platform fee with unlimited seats, plus a
+usage-based add-on (a per-job fee or a revenue-percentage commission,
+the customer's choice) recorded only as a Finding since it isn't
+per-seat. Servgrow has its own genuine dedicated gutter page; its GROW
+tier's $32/mo is an active "Limited Licenses Left!" promotion off a
+$139/mo list price — the current promotional price is recorded as the
+cost, with the standing price noted in the tier's `promo` field.
+Menutize — a single-plan tool with a dedicated page per trade — prices
+a clean $29/mo flat base with one included seat and $15/mo per
+additional teammate.
+
+Database is now 275 tools across 71 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
