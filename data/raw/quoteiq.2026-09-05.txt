@@ -1,0 +1,35 @@
+Source: https://myquoteiq.com/pricing/
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+QuoteIQ is a horizontal field-service CRM (not moving-specific by
+default), but it explicitly markets itself to moving companies via
+dedicated landing pages, e.g. myquoteiq.com/crm-for-moving-companies/
+("#1 CRM For Moving Companies In 2026") and
+myquoteiq.com/top-8-softwares-for-moving-companies-in-2026/, naming the
+niche the same way this site's other "generic tool with a named
+solution" inclusions do.
+
+Title: "QuoteIQ Pricing Plans | Affordable Field Service Software."
+Description: "Compare QuoteIQ pricing plans starting at $29.99/mo."
+
+Essentials — "For solo operators getting started" — $29.99/mo (monthly)
+/ $25/mo ("Billed annually at $299.99/year") — "1 User included", "500
+AI Credits/mo".
+
+Beginner — "For growing businesses with AI power" — $74.99/mo / $62.50/mo
+("Billed annually at $749.99/year") — "2 Users included", "1,500 AI
+Credits/mo".
+
+Pro (Most Popular) — "For professionals scaling operations" — $149.99/mo
+/ $125/mo ("Billed annually at $1,499.99/year") — "4 Users included",
+"3,000 AI Credits/mo".
+
+Elite — "For teams that need everything" — $299/mo / $249/mo ("Billed
+annually at $2,990/year") — "10 Users included", "5,000 AI Credits/mo".
+
+Max — "For enterprises with unlimited needs" — $699/mo / $582.50/mo
+("Billed annually at $6,990/year") — "Unlimited Users", "8,000 AI
+Credits/mo".
+
+14-day free trial, no card required, per meta description.
