@@ -1,0 +1,56 @@
+slug: kaamcam
+vendor: KaamCam
+product: KaamCam
+category: pressure_washing_business_management
+url: https://kaamcam.com/pricing
+pricing_note: >-
+  KaamCam is a horizontal field-service tool (also marketed to HVAC,
+  roofing, plumbing, and restoration teams), included here under this
+  site's "generic tool with a genuine dedicated niche landing page"
+  exception — its /industries/pressure-washing page is a real,
+  extensive pressure-washing-specific marketing page.
+
+tiers:
+  - plan: Per-seat (annual)
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 9.60
+    seat_label: seat
+    billing: annual
+    provenance:
+      source_url: https://kaamcam.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$9.60/seat/mo" billed annually — a stated 20% discount off the $12/seat monthly rate.'
+  - plan: Per-seat (monthly billing)
+    compare: false
+    base_monthly_usd: 0
+    per_seat_monthly_usd: 12
+    seat_label: seat
+    billing: monthly
+    provenance:
+      source_url: https://kaamcam.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$12.00/mo" per seat. Calculator example: "5 seats × $12.00/mo = $60.00/mo."'
+
+findings:
+  - id: kaamcam-flat-rate-no-tiers
+    claim: >-
+      KaamCam has no plan tiers — every feature is included at a
+      single flat per-seat rate ($12/seat/month, or $9.60/seat/month
+      billed annually) regardless of team size, per its pricing page
+      as of 2026-09-05.
+    provenance:
+      source_url: https://kaamcam.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+  - id: kaamcam-pressure-washing-page
+    claim: >-
+      KaamCam markets a dedicated pressure-washing industry page
+      covering before-and-after photo documentation, equipment/PSI
+      tracking, and per-surface square-footage quoting, per its site
+      as of 2026-09-05.
+    provenance:
+      source_url: https://kaamcam.com/industries/pressure-washing
+      fetched_at: 2026-09-05
+      method: live_fetch

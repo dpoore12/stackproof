@@ -1,0 +1,37 @@
+Source: https://fieldified.com/pricing
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true, custom_js innerText extraction)
+
+Title: "Fieldified Pricing: Field Service Software Plans for Growing Teams"
+H1: "Invest in outcomes, not words."
+
+Has a dedicated pressure-washing landing page: "Pressure Washing
+Business Hub for Estimates, Routes, Photos, and Payments" at
+fieldified.com/trade-hubs/pressure-washing — extensive trade-specific
+content (driveway/patio cleaning, house wash/soft wash, deck/fence
+cleaning, commercial repeat service, square-footage quoting, chemical
+notes, before-and-after photos, route scheduling).
+
+Pricing tiers (captured directly from the pricing page's own text,
+also confirmed via a forever-free plan not counted here since it has
+no stated user cap for a business team):
+
+Basic — "$49 for 5 users" — "Add more users for $5/user" — "Optimal
+choice for personal use" — book/schedule jobs online, send
+professional quotes & invoices, track time and expenses, client hub,
+custom fields, automated reminders and quote/invoice follow-ups.
+
+Standard — "$119 for 10 users" — "Add more users for $5/user" —
+"Optimal choice for small teams" (marked "popular") — everything in
+Basic, plus job costing, automatic time tracking, advanced quote
+customizations, two-way SMS & calling, a professional website,
+complete reporting suite.
+
+Premium — "$199 for 15 users" — "Add more users for $5/user" —
+"Optimal choice for companies" (marked "highest roi") — everything in
+Standard, plus Fieldified Marketing Suite ($49 value), dedicated
+onboarding specialist, AI receptionist, guided API walkthrough,
+custom workflow automations, Zapier integration.
+
+No monthly/annual billing toggle or distinction is stated on the
+pricing page — the figures above are the only published prices.

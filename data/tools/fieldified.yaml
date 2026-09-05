@@ -1,0 +1,67 @@
+slug: fieldified
+vendor: Fieldified
+product: Fieldified
+category: pressure_washing_business_management
+url: https://fieldified.com/pricing
+pricing_note: >-
+  Fieldified is a horizontal field-service tool, included here under
+  this site's "generic tool with a genuine dedicated niche landing
+  page" exception — its /trade-hubs/pressure-washing page is a real,
+  extensive pressure-washing-specific marketing page, not a passing
+  mention.
+
+tiers:
+  - plan: Basic
+    base_monthly_usd: 49
+    included_seats: 5
+    per_seat_monthly_usd: 5
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://fieldified.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$49 for 5 users." "Add more users for $5/user." "Optimal choice for personal use."'
+  - plan: Standard
+    base_monthly_usd: 119
+    included_seats: 10
+    per_seat_monthly_usd: 5
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://fieldified.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$119 for 10 users." "Add more users for $5/user." Marked "popular." "Optimal choice for small teams."'
+  - plan: Premium
+    base_monthly_usd: 199
+    included_seats: 15
+    per_seat_monthly_usd: 5
+    seat_label: user
+    billing: monthly
+    provenance:
+      source_url: https://fieldified.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$199 for 15 users." "Add more users for $5/user." Marked "highest roi." "Optimal choice for companies."'
+
+findings:
+  - id: fieldified-pressure-washing-hub
+    claim: >-
+      Fieldified maintains a dedicated "Pressure Washing Business Hub"
+      page covering surface-specific quoting, route scheduling, and
+      before-and-after photo documentation for the trade, per its site
+      as of 2026-09-05.
+    provenance:
+      source_url: https://fieldified.com/trade-hubs/pressure-washing
+      fetched_at: 2026-09-05
+      method: live_fetch
+  - id: fieldified-flat-per-user-addon
+    claim: >-
+      Fieldified charges a flat $5/month for each additional user
+      beyond a tier's included count, the same rate across all three
+      of its plans, per its pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://fieldified.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch

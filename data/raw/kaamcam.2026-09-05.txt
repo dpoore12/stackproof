@@ -1,0 +1,26 @@
+Source: https://kaamcam.com/pricing
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true, custom_js innerText extraction)
+
+Title: "Field Service Software Pricing | KaamCam - $12/seat/month | 80% Cheaper"
+H1: "Affordable Field Service Software Pricing"
+Description: "$12/seat/month. 7-day free trial. Add team members
+anytime. Save 20% with annual billing. 80% cheaper than CompanyCam,
+Jobber, and ServiceTitan."
+
+Has a dedicated pressure-washing landing page: "Pressure Washing
+Software & App (2026) | KaamCam" at
+kaamcam.com/industries/pressure-washing — a genuine industry-specific
+marketing page (before-and-after photos, equipment/PSI/pump-hour
+tracking, on-site invoicing, per-surface square-footage pricing,
+chemistry/soft-wash documentation, recurring commercial service),
+not just a passing mention; KaamCam is a horizontal field-service tool
+(also markets to HVAC, roofing, plumbing, restoration) with a genuine
+dedicated page for this trade.
+
+Single flat rate, no tiers: "$12.00/mo" per seat, calculator shown as
+"5 seats × $12.00/mo = $60.00/mo." Every feature included at every
+seat count — no plan gating. Annual billing: "$9.60/seat/mo" ("save
+$144.00/year" shown on the 5-seat example), a stated 20% discount.
+No stated seat cap; the price calculator slider runs "1 user" to
+"50+ users."
