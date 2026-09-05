@@ -1843,6 +1843,40 @@ third vendor surfaces later.
 
 Database is unchanged at 275 tools across 71 categories.
 
+### Courier / delivery dispatch business management software (2026-09-05)
+
+Three vendors: Detrack, Track-POD, OptimoRoute. Seat axis is
+"drivers" (1, 3, 5, 10, 25). Locate2u looked promising from earlier
+research but its pricing model has since changed entirely — its page
+now reads "One platform fee. Every delivery, under control." with a
+flat "$1,100/mo AUD" platform fee explicitly "priced on the
+functionality you need, not per seat" — excluded. Onfleet, Route4Me,
+Shipday, Routific, DispatchTrack, and Tookan were all checked and
+rejected (task/stop-based pricing, quote-only, or no per-driver axis).
+
+Detrack and Track-POD are both pure-play courier/delivery dispatch
+products — not niche pages bolted onto a horizontal tool, but the
+core product itself. Detrack's own headline is "Pay per driver. Not
+per user." — office/dispatcher seats are unlimited and free, only
+active drivers are billed ($29/mo Pro, $39/mo Advanced). Track-POD's
+three tiers ($49/$69/$89 per driver/vehicle, billed annually) all
+carry a stated 3-driver minimum; since the schema has no separate
+"minimum seats" concept, this is modeled as a fixed 3-driver base cost
+plus the same per-driver rate beyond it, which reproduces the real
+minimum spend correctly at any team size from 1 to 3 drivers.
+OptimoRoute is a horizontal route-optimization tool (also serving
+e-commerce and general field service) included under this site's
+"generic tool with a genuine dedicated niche page" exception — its
+/business-type/post-couriers/ page is genuinely substantive (driver
+constraints, proof of delivery for sensitive mail, real-time
+tracking), pricing $35.10/mo (Lite) and $44.10/mo (Pro) per driver,
+billed annually. Both Detrack's and OptimoRoute's stated
+monthly-vs-annual discount toggles didn't resolve a second static
+number in this fetch, so only one billing cadence is recorded for
+each, with a Finding noting the gap.
+
+Database is now 278 tools across 72 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

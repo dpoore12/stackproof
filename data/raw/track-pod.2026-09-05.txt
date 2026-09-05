@@ -1,0 +1,32 @@
+Source: https://www.track-pod.com/pricing-delivery-app/
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true, custom_js innerText extraction)
+
+Title: "Pricing - Free Delivery App for Android / iOS | Track-POD"
+H1: "Best pricing for teams and enterprises"
+
+Track-POD's core product is courier/delivery dispatch. It also
+maintains a dedicated, extensive "Courier Software" page at
+track-pod.com/courier-software/ — "Synchronize all courier dispatch
+with a single drag-and-drop management dashboard" — covering
+automated scheduling, instant dispatching, courier tracking,
+performance insights, dispatch-on-the-go, and courier-specific FAQs
+("What is courier management software?", "How does the courier
+system work?").
+
+Billing toggle: "PER DRIVER | PER ORDER" (per-driver figures used
+here). All tiers state "*min 3 drivers."
+
+Advanced — "$49 a month per driver/vehicle billed annually" — "or $59
+month-to-month" — min 3 drivers, 7 dashboard web-users, 6,000 orders
+per month.
+
+Advanced Plus (Most Popular) — "$69 a month per driver/vehicle billed
+annually" — "or $79 month-to-month" — min 3 drivers, 50 dashboard
+web-users, unlimited orders per month.
+
+Ultimate (More Value) — "$89 a month per driver/vehicle billed
+annually" — "or $99 month-to-month" — min 3 drivers.
+
+Enterprise — "Customized Support & Services Plan" — quote-gated; not
+modeled as a PriceTier here.

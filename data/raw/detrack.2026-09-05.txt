@@ -1,0 +1,37 @@
+Source: https://www.detrack.com/pricing/
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true, custom_js innerText extraction)
+
+Title: "Affordable Delivery Management Software"
+H1: "Pay per driver. Not per user."
+Description: "Simple, transparent per-driver pricing from $29/month.
+No hidden add-ons, no job limits."
+
+Detrack's entire product IS courier/delivery dispatch software (not a
+niche page on a horizontal tool) — proof of delivery, live driver
+tracking, route optimisation, customer notifications, built
+specifically around delivery drivers and dispatch.
+
+Billing toggle: "Annually (SAVE 10%) | Monthly" — this fetch's static
+render shows only the default view; both toggle states did not both
+resolve to static text (see finding).
+
+Pro — "$29 per driver app, billed monthly in USD" — "Everything you
+need for proof of delivery, driver tracking, and customer
+notifications." Unlimited sub-users (office/admin seats are free;
+only drivers are billed). Live driver tracking, Proof of Delivery
+(signature, up to 10 photos, location, time stamps), branded customer
+notifications, custom field mapping, 5-year data retention, daily
+analytics, manager + scanner apps, API/integrations.
+
+Advanced (Most Popular) — "$39 per driver app, billed monthly in
+USD" — "Everything you need to optimise routes, analyse performance,
+integrate AI, and more." Everything in Pro, plus route optimisation,
+recurring jobs, vehicle safety checks, rate cards, scheduling
+calendar view, real-time capacity utilization tools, milestone
+reports, advanced analytics (past 30 days), Detrack MCP server
+access.
+
+Enterprise — "Custom" — "For large fleets looking for dedicated,
+hands-on support, and custom pricing." Quote-gated; not modeled as a
+PriceTier here.
