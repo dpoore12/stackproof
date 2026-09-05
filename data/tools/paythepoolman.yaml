@@ -1,0 +1,30 @@
+slug: paythepoolman
+vendor: Paythepoolman
+product: Paythepoolman
+category: pool_service_business_management
+url: https://www.paythepoolman.com/pricing
+pricing_note: 'Paythepoolman has a genuine base-plus-per-seat formula: a flat platform fee plus a per-technician rate applied from the first technician (no included seats). The page''s "80% OFF for 3 Months" promo code is not used as the standing rate, per this site''s policy against publishing promotional prices as the standing rate.'
+
+tiers:
+  - plan: Paythepoolman
+    base_monthly_usd: 50
+    per_seat_monthly_usd: 15
+    included_seats: 0
+    seat_label: technician
+    provenance:
+      source_url: https://www.paythepoolman.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: 'Page''s own pricing calculator: "Paythepoolman — $50.00/mo" + "Per Tech — $15.00/mo," shown totaling "$65" at the default 1-technician selection.'
+
+findings:
+  - id: paythepoolman-promo-code-not-used
+    claim: >-
+      Paythepoolman advertises an "80% OFF for 3 Months" promotional
+      discount code on its pricing page; the standing (non-promotional)
+      $50/mo base plus $15/mo per technician is recorded instead, as of
+      2026-09-05.
+    provenance:
+      source_url: https://www.paythepoolman.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
