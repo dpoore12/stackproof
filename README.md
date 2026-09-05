@@ -1343,6 +1343,38 @@ but weren't captured in this fetch).
 
 Database is now 241 tools across 60 categories.
 
+### Electronics/computer repair shop management software (2026-09-05)
+
+Three vendors: RepairShopr, RepairDesk, Orderry. Seat axis is
+"technicians" (1, 3, 5, 10, 25).
+
+RepairShopr and RepairDesk both price flat tiers capped at a stated
+user-account count rather than a genuine per-seat increment. RepairShopr
+scales 1 → 10 → 10 users across Starter/Repair Shop/Big Chain ($59.99 →
+$129.99 → $139.99/mo annual; Big Chain adds a 2+ locations requirement
+rather than more seats), and RepairDesk scales 5 → 8 users across
+Essential/Growth ($79 → $119/mo annual; its top Advanced tier is
+unlimited-user but quote-gated and excluded). Orderry has a genuine
+base-plus-per-seat formula on its Startup and Business tiers (3 employees
+included, additional billed per-seat up to a stated cap — $69/mo +
+$6/additional up to 15 on Startup, $99/mo + $9/additional up to 150 on
+Business), plus a flat two-employee Hobby tier at $39/mo with no
+disclosed overage rate. Orderry is a multi-industry field-service
+platform rather than repair-shop-exclusive, but it explicitly names
+"Electronics Repair Shop Software" among its solutions.
+
+Two other categories were researched and abandoned this session before
+landing on this one: debt collection agency management software (only
+Collect!/Comtech Systems had genuine self-serve base-plus-per-seat
+pricing across six vendors attempted — Debtrak, Lariat, Simplicity,
+DebtView, and Case Master Pro are all quote-gated or unverifiable from
+the vendor's own page) and funeral home management software (Halcyon
+publishes no dollar figure at all despite third-party estimates
+claiming one, and Osiris's pricing page is blocked by a bot-challenge
+captcha — Passare is separately confirmed quote-gated).
+
+Database is now 244 tools across 61 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

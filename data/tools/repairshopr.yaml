@@ -1,0 +1,82 @@
+slug: repairshopr
+vendor: RepairShopr
+product: RepairShopr
+category: electronics_repair_shop_management
+url: https://www.repairshopr.com/pricing
+pricing_note: 'RepairShopr prices flat tiers capped at a stated number of user accounts (plus a monthly ticket-volume cap on Starter and a location count on Big Chain) rather than a genuine per-seat increment. Annual billing is recorded as primary per this site''s policy of treating a headlined prepaid-discount rate as primary; monthly is recorded separately.'
+
+tiers:
+  - plan: Starter (annual)
+    base_monthly_usd: 59.99
+    max_seats: 1
+    billing: annual
+    seat_label: technician
+    provenance:
+      source_url: https://www.repairshopr.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Starter Annual — $59.99/USD. 75 Tickets & Invoices / Month. One Location. 1 User Account."'
+  - plan: Starter (monthly)
+    base_monthly_usd: 69.99
+    max_seats: 1
+    billing: monthly
+    seat_label: technician
+    compare: false
+    provenance:
+      source_url: https://www.repairshopr.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Starter — $69.99/USD. 75 Tickets & Invoices / Month. One Location. 1 User Account."'
+  - plan: Repair Shop (annual)
+    base_monthly_usd: 129.99
+    max_seats: 10
+    billing: annual
+    seat_label: technician
+    provenance:
+      source_url: https://www.repairshopr.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Repair Shop Annual — $129.99/USD — our most popular plan. Unlimited Tickets & Invoices / Month. One Location. 10 User Account."'
+  - plan: Repair Shop (monthly)
+    base_monthly_usd: 139.99
+    max_seats: 10
+    billing: monthly
+    seat_label: technician
+    compare: false
+    provenance:
+      source_url: https://www.repairshopr.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Repair Shop — $139.99/USD. Unlimited Tickets & Invoices / Month. One Location. 10 User Account."'
+  - plan: Big Chain (annual)
+    base_monthly_usd: 139.99
+    max_seats: 10
+    billing: annual
+    seat_label: technician
+    provenance:
+      source_url: https://www.repairshopr.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Big Chain Annual — $139.99/USD. Unlimited Tickets & Invoices / Month. 2+ Locations. 10 User Account."'
+  - plan: Big Chain (monthly)
+    base_monthly_usd: 149.99
+    max_seats: 10
+    billing: monthly
+    seat_label: technician
+    compare: false
+    provenance:
+      source_url: https://www.repairshopr.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Big Chain — $149.99/USD. Unlimited Tickets & Invoices / Month. 2+ Locations. 10 User Account."'
+
+findings:
+  - id: repairshopr-starter-ticket-cap
+    claim: >-
+      RepairShopr's Starter plan caps monthly tickets and invoices at 75,
+      while Repair Shop and Big Chain both allow unlimited tickets and
+      invoices per month, per its own pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://www.repairshopr.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch

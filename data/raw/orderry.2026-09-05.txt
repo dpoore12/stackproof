@@ -1,0 +1,27 @@
+Source: https://orderry.com/pricing/
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+JSON-LD offers: Hobby $39.00, Startup $69.00, Business $99.00,
+Enterprise $199.00 (USD).
+
+Hobby — $39/month
+2 employees
+
+Startup — from $69/mo
+3 employees included
+Extra employees at $6/mo, extra location at $49/mo
+Maximum 15 employees
+
+Business — from $99/mo
+3 employees, tailored onboarding included
+Extra employees at $9/mo, extra location at $79/mo
+Maximum 150 employees
+
+(Enterprise at $199/mo per JSON-LD; per-seat/location terms not present
+in this fetch's captured text.)
+
+Named solution on site nav: "Electronics Repair Shop Software" /
+"Computer Repair Shop" (Tickets, Parts Tracking, Scheduling, Device
+History, Estimating, Online Approvals, Invoicing, Payments) — one of
+several industries Orderry serves.
