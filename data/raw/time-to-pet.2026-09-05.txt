@@ -1,0 +1,35 @@
+Source: https://timetopet.com/pricing
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+"Select Software" toggle: In-Home | Facility | Bundle.
+
+Lite: "$25/month" / "$250/year" — "One person companies" — "For those
+just starting their pet care business journey or looking for a basic
+tool to help them manage scheduling and invoicing."
+
+Solo: "$50/month" / "$500/year" — "One person companies" — "For a
+growing, one person-business looking for advanced functionality like
+videos, integrations, and email marketing."
+
+Team: "$40/month" + "+$16/month per active staff" — "For a pet care
+business that has staff members and needs additional tools like time
+off, permissions, pay reports, and more." Worked example shown on the
+page: "$120/month for 5 staff" (checks out: 40 + 16*5 = 120, confirming
+per-seat is charged from the first staff member, not on top of an
+included allotment).
+
+Large Team: "Teams over 25" — "Contact our team for custom pricing and
+additional onboarding support." (quote-gated, excluded)
+
+Facility: "$79/month" — "For a pet care facility offering daycare,
+boarding, or other types of facility-based services." No staff count or
+per-seat rate is shown for this plan on the page or in its feature
+comparison table (which only lists Lite/Solo/Team columns) — it is
+priced as one flat fee regardless of staff count.
+
+In-Home + Facility (Bundle): "If your business operates a pet care
+facility and also offers in-home services... please contact our team."
+(quote-gated, excluded)
+
+Footer: "All prices are in USD."

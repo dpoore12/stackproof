@@ -1,0 +1,34 @@
+Source: https://www.daysmart.com/pet/pricing/
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+H1: "Flexible Plans That Grow With Your Business." "Whether you're a
+solo groomer or managing a full team, we've got a solution."
+
+Basic — "$29*/Month" — "Includes 1 User" — Scheduling & Automated
+Reminders, Credit Card Processing, Mobile App, Online Booking, Reporting
+& Dashboard. Footnote: "*$29/month with payments *$39/month without
+payments."
+
+Deluxe — "$69*/Month" — "Everything in Basic, plus: Includes 3 Users" —
+Digital Forms, Payroll, Client Loyalty System, Employee Reminders, Email
+Marketing. Footnote: "*$69/month with payments *$89/month without
+payments."
+
+Deluxe Growth — "$149*/Month" — "Everything in Deluxe, plus:" Text
+Marketing, Two-Way Texting, Reputation Management (same 3-user
+inclusion as Deluxe; adds marketing features only). Footnote:
+"*$149/month with payments *$169/month without payments."
+
+Premium — "$199*/Month" — "Everything in Deluxe Growth, plus: Includes 6
+Users" — QuickBooks Online, Additional Text/Email Messages. Footnote:
+"*$199/month with payments *$219/month without payments."
+
+Premium Growth — "Contact for pricing" — "Everything in Premium, plus:
+Unlimited Users" — Expense Tracking, Sliding Scale Commission,
+Commission Exceptions, Overtime Rules. (quote-gated, excluded)
+
+"With payments" pricing requires using DaySmart's built-in payment
+processing; "without payments" is a higher flat add-on for businesses
+using a different processor. The "with payments" figure is the
+page's own headlined price and is recorded as the standing rate.

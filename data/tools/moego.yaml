@@ -1,0 +1,45 @@
+slug: moego
+vendor: MoeGo
+product: MoeGo
+category: pet_grooming_boarding_management
+url: https://moego.pet/pricing
+pricing_note: 'Figures recorded are MoeGo''s "Mobile grooming" pricing view, the default shown on its pricing page; a "Grooming salon" tab also exists on the same page with reportedly higher prices that this fetch could not switch to and confirm, so only the mobile-grooming tiers are recorded. Basic is genuinely capped at 1 team member per MoeGo''s own comparison table; Growth and Ultimate both list "Unlimited" team members and differ only by features, so at any team size above 1 this site''s cost table will always show Growth as MoeGo''s cheapest usable tier. Enterprise is quote-gated and excluded.'
+
+tiers:
+  - plan: Basic
+    base_monthly_usd: 49
+    max_seats: 1
+    seat_label: team member
+    provenance:
+      source_url: https://moego.pet/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$49 / month — The all-in-one solution for solo groomers with simple operations." Comparison table: "Team: up to 1 member."'
+  - plan: Growth
+    base_monthly_usd: 99
+    seat_label: team member
+    provenance:
+      source_url: https://moego.pet/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: 'Marked "MOST POPULAR." "$99 / month per van — The growth-oriented solution for small to mid-sized businesses with complex operations." Comparison table: "Team: Unlimited."'
+  - plan: Ultimate
+    base_monthly_usd: 159
+    seat_label: team member
+    provenance:
+      source_url: https://moego.pet/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$159 / month per van — The most complete MoeGo Platform for brand conscious businesses." Comparison table: "Team: Unlimited."'
+
+findings:
+  - id: moego-per-van-pricing
+    claim: >-
+      MoeGo's Growth and Ultimate mobile-grooming plans are priced "per
+      van" ($99 and $159 per month per van, respectively), so a
+      multi-van mobile grooming business pays that rate for each van,
+      per its own pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://moego.pet/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch

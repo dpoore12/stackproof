@@ -1,0 +1,55 @@
+slug: daysmart-pet
+vendor: DaySmart
+product: DaySmart Pet
+category: pet_grooming_boarding_management
+url: https://www.daysmart.com/pet/pricing/
+pricing_note: 'DaySmart Pet is a flat monthly fee per plan capped by included-user count. Each price has two footnoted variants depending on whether the business uses DaySmart''s built-in payment processing ("with payments," the lower, headlined figure recorded here) or a different processor ("without payments," $10-$20/mo higher on every tier). Premium Growth is quote-gated (unlimited users) and excluded.'
+
+tiers:
+  - plan: Basic
+    base_monthly_usd: 29
+    max_seats: 1
+    seat_label: user
+    provenance:
+      source_url: https://www.daysmart.com/pet/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$29*/Month — Includes 1 User." Footnote: "*$29/month with payments *$39/month without payments."'
+  - plan: Deluxe
+    base_monthly_usd: 69
+    max_seats: 3
+    seat_label: user
+    provenance:
+      source_url: https://www.daysmart.com/pet/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$69*/Month — Everything in Basic, plus: Includes 3 Users." Footnote: "*$69/month with payments *$89/month without payments."'
+  - plan: Deluxe Growth
+    base_monthly_usd: 149
+    max_seats: 3
+    seat_label: user
+    provenance:
+      source_url: https://www.daysmart.com/pet/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$149*/Month — Everything in Deluxe, plus" (adds Text Marketing, Two-Way Texting, Reputation Management; same 3-user inclusion as Deluxe). Footnote: "*$149/month with payments *$169/month without payments."'
+  - plan: Premium
+    base_monthly_usd: 199
+    max_seats: 6
+    seat_label: user
+    provenance:
+      source_url: https://www.daysmart.com/pet/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$199*/Month — Everything in Deluxe Growth, plus: Includes 6 Users." Footnote: "*$199/month with payments *$219/month without payments."'
+
+findings:
+  - id: daysmart-pet-premium-growth-quote-gated
+    claim: >-
+      DaySmart Pet's top Premium Growth tier offers unlimited users but
+      requires contacting sales with no published price, per its own
+      pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://www.daysmart.com/pet/pricing/
+      fetched_at: 2026-09-05
+      method: not_available
