@@ -1,0 +1,37 @@
+Source: https://octopuspro.com/pricing/
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true, custom_js innerText extraction)
+
+Title: "OctopusPro Pricing - Field Service Management Software"
+
+Has a dedicated gutter-cleaning landing page: "Gutter Cleaning
+Software | Scheduling, Quotes & Invoices" at
+octopuspro.com/gutter-cleaning-software/ — extremely extensive,
+genuinely gutter-cleaning-specific content (gutter cleaner-to-job
+matching, digital intake forms/checklists/property profiles, gutter
+supplies and equipment stock control, quote-to-booking workflow,
+distance-based travel fees). OctopusPro maintains near-identical
+dedicated pages for dozens of trades.
+
+Starter — "For owner-operators" — "$36.25 per month" — "Or $348 per
+year (save 20%)" [=$29/mo] — "Includes 1 Admin + 1 Fieldworker." No
+additional-seat overage disclosed for this tier.
+
+Established — "Most popular" — "For growing teams" — Monthly billing:
+"$60 USD per admin seat/month" + "$6 USD per fieldworker seat/month."
+Annual billing: "$600 USD per admin/year (-17%)" [=$50/mo] + "$60 USD
+per fieldworker/year (-17%)" [=$5/mo]. "Included Seats: Unlimited
+users" — i.e., no seat cap, but every admin and every fieldworker
+seat is billed individually; there is no bundled free seat of either
+type.
+
+Unlimited (Users plan) — Per the pricing FAQ: "Unlimited Users Plan –
+Platform Licence $99.00" per month, no cap on user seats. Usage-based
+fee on top, customer's choice of either "Booked Jobs ($1 per job with
+at least one fieldworker assigned)" or "Revenue Commission (2% of
+invoiced value per month)" — switchable in Settings. Sample invoice
+line shown: "Unlimited Users Plan – Platform Licence $99.00" plus
+either "Booked Jobs (245 x $1) $245.00" or "Revenue Commission (2% of
+$47,850 invoiced) $957.00." The $99 platform fee itself is a flat,
+unlimited-seat number; the usage-based add-on is not a per-seat charge
+and is not captured as a number here.

@@ -1,0 +1,31 @@
+Source: https://menutize.ai/use-case/gutter-cleaning
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true, custom_js innerText extraction)
+
+Title: "Gutter Cleaning Software, $29/mo Flat | Menutize"
+H1: "Gutter Cleaning Software, $29/mo Flat."
+
+Genuinely dedicated gutter-cleaning landing page (not a generic tool
+with a passing mention) — extensive trade-specific content: linear-
+foot or single/two-story flat-rate estimates, recurring spring + fall
+biannual billing, before/after photos with a gutter-guard upsell,
+automated Google review requests. Menutize runs a near-identical
+dedicated page per trade (lawn care, roofing, tree service, window
+cleaning, etc.), each with trade-specific copy and figures.
+
+FAQ: "Is Menutize really $29/mo flat for gutter cleaners? ... Menutize
+is $29/mo flat for gutter cleaning businesses — one flat price that
+includes one seat, with additional teammates at $15/seat and no
+per-job fee... The only thing on top is standard payment processing —
+roughly 2.9% + 30¢ on cards and 0.8% (capped at $5) on ACH."
+
+Page section "Per-seat cost on a 2-person crew": "Menutize's extra
+seats are $15/mo on the flat $29 base — adding a helper is a small,
+predictable bump, not a tier jump." (The same section cites Jobber,
+Housecall Pro, and Markate per-seat figures as competitive context;
+those are Menutize's own marketing claims about competitors, not used
+here — this database already carries independently verified records
+for those vendors elsewhere.)
+
+No annual-billing discount is mentioned on this page; $29/mo appears
+to be the only billing cadence offered.
