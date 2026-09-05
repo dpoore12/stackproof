@@ -1877,6 +1877,27 @@ each, with a Finding noting the gap.
 
 Database is now 278 tools across 72 categories.
 
+### Holiday lighting installation business management software (2026-09-05, abandoned)
+
+Researched as a category distinct from `landscaping_management` and
+`pressure_washing_business_management`. No vendor found combines genuine
+holiday-lighting-specific product depth with publicly stated per-seat
+pricing. Strandr (formerly LightingElf) is a real, pure-play Christmas
+lighting design tool, but it's a flat $197/year single-tier license with
+no seat dimension and no crew/route/quoting suite. Holiday Home Concepts
+is likewise a genuine niche design/quoting tool but prices flat per
+account (~$129-169/mo), not per seat. ShineCRM has a real
+`/for/holiday-lighting/` page with genuine niche content (install/takedown
+scheduling, storage tracking), but it's a single flat $49/mo plan and
+fundamentally an exterior-cleaning horizontal tool with holiday lighting
+as one of several bolt-on verticals. ArborGold, Aspire, and RealGreen
+(WorkWave) all have some holiday-lighting presence but are quote-gated
+with no published per-seat numbers. "Hang & Wreath," "HoldMyTicket," and
+"Christmas Light Source/Lightscapes" could not be confirmed as real
+products. Abandoned per this site's 3-vendor minimum.
+
+Database is unchanged at 278 tools across 72 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
