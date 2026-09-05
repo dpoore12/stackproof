@@ -1,0 +1,43 @@
+Source: https://www.elromco.com/pricing
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Meta/title: "Moving Software Pricing — From $289/mo, No Setup Fees |
+Elromco." Description: "Transparent Elromco pricing. Professional plan
+$289/mo, Enterprise plan $399/mo. No setup fees, free training, free
+onboarding, unlimited support included."
+
+JSON-LD offers: Professional price=289 USD, Enterprise price=399 USD
+(priceValidUntil 2027-12-31).
+
+Comparison table ("How Do the Professional and Enterprise Plans
+Compare?"):
+Feature | Professional | Enterprise
+Office Users | 3 | Unlimited
+Crew Members | Unlimited | Unlimited
+Free Monthly SMS | 500 | 1,000
+Branch Locations | Not included | Included
+Multi-Branch Management | Not included | Included
+Custom Integrations | Not included | Included
+Dedicated Account Manager | Not included | Included
+API Access | Not included | Included
+Priority Support | Not included | Included
+Free Onboarding & Setup | Included | Custom Plan
+
+"What Extra Costs Should You Expect Beyond the Plan?": "Website Building
+$99/mo — Optional professional website with integrated quote forms,
+booking, and client portal." "SMS Credits — At Cost — Each plan includes
+free monthly SMS. Beyond that, messages cost $0.025 each."
+
+FAQ: "Is there a long-term contract? No. Elromco is month-to-month with
+no long-term contracts." "Are there any setup fees? None." "Do you offer
+discounts for annual billing? Yes. Contact our sales team for annual
+billing options that can save you up to 15% compared to monthly billing."
+(No fixed annual rate is published — only an unspecified "up to 15%"
+range — so only the standing monthly rate is recorded here.)
+
+Competitor comparison table on the same page: "SmartMoving — Hidden —
+Must call for pricing. Supermove — Hidden — Must call for pricing.
+MoveitPro — Hidden — Must call for pricing." (Elromco's own claim,
+dated "as of 2025"; MoveitPro's own site does publish pricing as of this
+fetch — see moveitpro.com raw file.)

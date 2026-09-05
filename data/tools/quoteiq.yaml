@@ -1,0 +1,122 @@
+slug: quoteiq
+vendor: QuoteIQ
+product: QuoteIQ
+category: moving_company_management
+url: https://myquoteiq.com/pricing/
+pricing_note: 'QuoteIQ is a horizontal field-service CRM rather than a moving-only product, but it explicitly names and markets to the moving-company niche via dedicated pages (e.g. "#1 CRM For Moving Companies In 2026"), the same "generic tool with a named solution" exception used elsewhere on this site. Each of its five plans is a flat monthly fee capped by included-user count. Regular annual prices are recorded as primary tiers; monthly prices are `compare: false` secondary tiers, per this site''s standing convention.'
+
+tiers:
+  - plan: Essentials (annual)
+    base_monthly_usd: 25
+    max_seats: 1
+    billing: annual
+    seat_label: user
+    provenance:
+      source_url: https://myquoteiq.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"For solo operators getting started." "$25/mo — Billed annually at $299.99/year." "1 User included."'
+  - plan: Essentials (monthly billing)
+    compare: false
+    base_monthly_usd: 29.99
+    max_seats: 1
+    billing: monthly
+    seat_label: user
+    provenance:
+      source_url: https://myquoteiq.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$29.99/mo."'
+  - plan: Beginner (annual)
+    base_monthly_usd: 62.50
+    max_seats: 2
+    billing: annual
+    seat_label: user
+    provenance:
+      source_url: https://myquoteiq.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"For growing businesses with AI power." "$62.50/mo — Billed annually at $749.99/year." "2 Users included."'
+  - plan: Beginner (monthly billing)
+    compare: false
+    base_monthly_usd: 74.99
+    max_seats: 2
+    billing: monthly
+    seat_label: user
+    provenance:
+      source_url: https://myquoteiq.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$74.99/mo."'
+  - plan: Pro (annual)
+    base_monthly_usd: 125
+    max_seats: 4
+    billing: annual
+    seat_label: user
+    provenance:
+      source_url: https://myquoteiq.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: 'Marked "Most Popular." "For professionals scaling operations." "$125/mo — Billed annually at $1,499.99/year." "4 Users included."'
+  - plan: Pro (monthly billing)
+    compare: false
+    base_monthly_usd: 149.99
+    max_seats: 4
+    billing: monthly
+    seat_label: user
+    provenance:
+      source_url: https://myquoteiq.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$149.99/mo."'
+  - plan: Elite (annual)
+    base_monthly_usd: 249
+    max_seats: 10
+    billing: annual
+    seat_label: user
+    provenance:
+      source_url: https://myquoteiq.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"For teams that need everything." "$249/mo — Billed annually at $2,990/year." "10 Users included."'
+  - plan: Elite (monthly billing)
+    compare: false
+    base_monthly_usd: 299
+    max_seats: 10
+    billing: monthly
+    seat_label: user
+    provenance:
+      source_url: https://myquoteiq.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$299/mo."'
+  - plan: Max (annual)
+    base_monthly_usd: 582.50
+    billing: annual
+    seat_label: user
+    provenance:
+      source_url: https://myquoteiq.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"For enterprises with unlimited needs." "$582.50/mo — Billed annually at $6,990/year." "Unlimited Users."'
+  - plan: Max (monthly billing)
+    compare: false
+    base_monthly_usd: 699
+    billing: monthly
+    seat_label: user
+    provenance:
+      source_url: https://myquoteiq.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$699/mo."'
+
+findings:
+  - id: quoteiq-ai-credits-scale-with-tier
+    claim: >-
+      QuoteIQ bundles increasing monthly AI-credit allowances with each
+      tier, from 500/mo on Essentials up to 8,000/mo on Max, per its own
+      pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://myquoteiq.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch

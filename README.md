@@ -1423,6 +1423,35 @@ Cloudflare 403. Both are left out rather than guessed at.
 
 Database is now 250 tools across 63 categories.
 
+### Moving company management software (2026-09-05)
+
+Three vendors: Elromco, MoveitPro+, QuoteIQ. Seat axis is "office users"
+(1, 3, 5, 10, 25).
+
+Elromco is a flat monthly fee capped by office-user count — Professional
+$289/mo for 3 office users, Enterprise $399/mo for unlimited office users
+(crew members are unlimited on both, since they don't need office seats).
+MoveitPro+ sells one uncapped feature set priced by a genuine base-plus-
+per-office-user formula, with the base rate set by commitment length
+rather than plan name: the 12-month agreement ($359/mo prepaid, 2 users
+included, +$80/mo per additional office user) is recorded as the primary
+rate, since 24-month and 36-month agreements unlock cheaper per-user
+rates this site's schema has no billing period to name (only "annual" and
+"biennial" exist) — those are recorded as a finding instead. QuoteIQ is a
+horizontal field-service CRM, not a moving-specific product, but it
+explicitly markets itself to movers via a dedicated "#1 CRM For Moving
+Companies" landing page, the same "generic tool with a named solution"
+exception used elsewhere in this database; its five tiers (Essentials
+through Max) are flat fees capped by included-user count from 1 up to
+unlimited.
+
+Vonigo was researched and excluded: despite third-party aggregators
+quoting per-user prices ($98–139/user/mo), vonigo.com has no live public
+pricing page of its own — /pricing and /pricing/ both redirect to the
+homepage — so no vendor-page provenance exists for those figures.
+
+Database is now 253 tools across 64 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

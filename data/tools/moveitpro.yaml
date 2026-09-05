@@ -1,0 +1,54 @@
+slug: moveitpro
+vendor: MoveitPro
+product: MoveitPro+
+category: moving_company_management
+url: https://www.moveitpro.com/pricing
+pricing_note: 'MoveitPro+ sells one feature set ("no tier gating") priced by a base-plus-per-office-user formula, with the base rate set by a chosen commitment length (12/24/36-month agreement) rather than a plan name. The 12-month agreement is recorded as the primary comparable rate, matching this site''s standing annual-vs-monthly convention; the 24-month and 36-month agreements unlock progressively cheaper per-user rates ($75 and $70/mo respectively, vs. $80/mo on the 12-month term) and are recorded as findings rather than additional tiers, since this site''s schema has no billing period beyond "biennial." Crew accounts are free (view-only); a $20/mo per-user "Crew Pro App" add-on is optional and not part of the base cost.'
+
+tiers:
+  - plan: 12-Month Agreement (prepaid)
+    base_monthly_usd: 359
+    per_seat_monthly_usd: 80
+    included_seats: 2
+    billing: annual
+    seat_label: office user
+    provenance:
+      source_url: https://www.moveitpro.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"12-Month Agreement — $359/mo — Save 20% when you pay up front — 2 Office Admin Users Included — 1 Branch/Location Included — Unlimited Crew (view-only) — Free — $80/mo per additional office user."'
+  - plan: 12-Month Agreement (monthly billing)
+    compare: false
+    base_monthly_usd: 449
+    per_seat_monthly_usd: 80
+    included_seats: 2
+    billing: monthly
+    seat_label: office user
+    provenance:
+      source_url: https://www.moveitpro.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"12-Month Agreement — $449/mo billed monthly."'
+
+findings:
+  - id: moveitpro-longer-commitment-discounts
+    claim: >-
+      MoveitPro+ offers cheaper prepaid rates for longer commitments than
+      its standard 12-month agreement: $323/mo with a $75/mo
+      per-additional-user rate on a 24-month agreement, and $292/mo with
+      a $70/mo per-additional-user rate on a 36-month agreement, per its
+      own pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://www.moveitpro.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+  - id: moveitpro-crew-accounts-free
+    claim: >-
+      MoveitPro+ includes unlimited free view-only crew accounts on every
+      plan, charging only for office-admin users and an optional $20/mo
+      per-user "Crew Pro App" add-on with GPS tracking and offline mode,
+      per its own pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://www.moveitpro.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch

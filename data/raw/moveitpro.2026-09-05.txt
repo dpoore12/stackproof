@@ -1,0 +1,35 @@
+Source: https://www.moveitpro.com/pricing
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+H1: "No hidden fees. No mystery quotes. Just real pricing." Description:
+"Transparent MoveitPro+ pricing: 12-month from $449/mo, 24-month from
+$404/mo, 36-month from $365/mo."
+
+"Every plan includes 2 office admins and 1 branch. Your crew is free —
+you only pay for office users, extra branches, and the optional Pro
+Mobile App for foremen and drivers."
+
+12-Month Agreement: "$359/mo" (prepay full term) / "$449/mo billed
+monthly" — "Save 20% when you pay up front" — "2 Office Admin Users
+Included", "1 Branch / Location Included", "Unlimited Crew (view-only) —
+Free", "$80/mo per additional office user".
+
+24-Month Agreement (Most Popular): "$323/mo" (prepay) / "$404/mo billed
+monthly" — same inclusions — "$75/mo per additional office user".
+
+36-Month Agreement: "$292/mo" (prepay) / "$365/mo billed monthly" — same
+inclusions — "$70/mo per additional office user".
+
+"Build Your Quote" calculator: "Extra Office Users — Beyond the 2
+included — $75/user on the 24-month agreement." "Extra Branches — Beyond
+the 1 included — $50/branch." "Crew Pro App Users — Crew only — GPS
+tracking, offline mode, full BOL — $20/user. Office users are free."
+
+"No Tier Gating — Every feature is included. No upsells, no tiers. Every
+plan gets the entire platform from day one — the only extras are
+usage-based costs that run on our dime: AI tokens and the wall board."
+Included on every plan: Full CRM & Estimating, Dispatch & Scheduling, AI
+Call Intelligence, Profitability Reporting, Automation & Workflows,
+Digital BOL & Signatures, Storage Management, Multi-Branch Support,
+Customer Portal, Complimentary Migration.

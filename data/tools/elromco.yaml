@@ -1,0 +1,45 @@
+slug: elromco
+vendor: Elromco
+product: Elromco
+category: moving_company_management
+url: https://www.elromco.com/pricing
+pricing_note: 'Elromco is a flat monthly fee per plan capped by office-user count (crew members, who do not need office seats, are unlimited on both plans). No setup fees. Elromco states annual billing can save "up to 15%" but does not publish a fixed annual rate, so only the standing monthly price is recorded.'
+
+tiers:
+  - plan: Professional
+    base_monthly_usd: 289
+    max_seats: 3
+    seat_label: office user
+    provenance:
+      source_url: https://www.elromco.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: 'JSON-LD offer: Professional $289/mo. Comparison table: "Office Users: 3", "Crew Members: Unlimited", "Free Monthly SMS: 500".'
+  - plan: Enterprise
+    base_monthly_usd: 399
+    seat_label: office user
+    provenance:
+      source_url: https://www.elromco.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: 'JSON-LD offer: Enterprise $399/mo. Comparison table: "Office Users: Unlimited", "Crew Members: Unlimited", "Free Monthly SMS: 1,000", plus multi-branch management, custom integrations, dedicated account manager, API access, and priority support.'
+
+findings:
+  - id: elromco-no-setup-fees
+    claim: >-
+      Elromco charges no setup fees on either plan, with free onboarding,
+      data migration, and training included, per its own pricing FAQ as
+      of 2026-09-05.
+    provenance:
+      source_url: https://www.elromco.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+  - id: elromco-sms-overage-at-cost
+    claim: >-
+      Elromco includes 500 free monthly SMS on Professional and 1,000 on
+      Enterprise, charging $0.025 per SMS beyond that "at cost," per its
+      own pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://www.elromco.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
