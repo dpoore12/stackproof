@@ -1814,6 +1814,35 @@ dedicated page. Abandoned per this site's 3-vendor minimum.
 
 Database is unchanged at 275 tools across 71 categories.
 
+### Appliance repair business management software (2026-09-05, abandoned)
+
+Researched as a category distinct from `electronics_repair_shop_management`
+(already in this database, computer/phone-repair-focused, using
+RepairShopr and RepairDesk — neither appliance-repair-specific).
+Two vendors clear both bars — a genuine dedicated appliance-repair
+page and real USD pricing that varies by team size — but that's one
+short of the minimum: ReachOut Suite (reachoutsuite.com/appliance-
+repair-software — names specific appliance types down to exhaust
+hoods and garbage compactors, OEM-parts and asset-service-history
+language; per-seat pricing Free $0, Standard $9/user/mo, Premium
+$15/user/mo, Ultimate $25/user/mo, annual billing) and Repair-CRM
+(repair-crm.com/appliance-repair-software/ — "a timeline per machine,"
+"fewer repeat diagnostics"; tiered-by-crew-size flat pricing $19/mo
+solo, $89/5 users, $119/10 users, $179/20 users). ServiceWorks had a
+dedicated page and previously-cited numbers, but its pricing page is
+now fully quote-gated ("pricing snapshot," no numbers at all).
+FIELDBOSS has per-seat figures cited by aggregators but its own
+pricing page is quote-only and it's elevator/HVAC-focused, not
+appliance repair. OptimizeIt.ai varies price by seat but runs
+programmatic city+trade landing pages, not a genuine appliance-repair-
+specific page. Fieldproxy, Synchroteam, Fergus, Wintac, MobiWork, and
+Total Office Manager were all checked and rejected (flat/unlimited
+pricing or no dedicated page). Abandoned per this site's 3-vendor
+minimum; ReachOut Suite and Repair-CRM are recorded here in case a
+third vendor surfaces later.
+
+Database is unchanged at 275 tools across 71 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container
