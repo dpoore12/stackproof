@@ -1,0 +1,50 @@
+slug: orderry
+vendor: Orderry
+product: Orderry
+category: electronics_repair_shop_management
+url: https://orderry.com/pricing/
+pricing_note: 'Orderry is a multi-industry field-service/repair management platform used across several trades — not repair-shop-exclusive — but it explicitly names "Electronics Repair Shop Software" and "Computer Repair Shop" among its solutions. Startup and Business both have a genuine base-plus-per-seat formula (a fixed number of employees included, additional employees billed per-seat up to a stated cap); Hobby is a flat two-employee tier with no per-seat overage disclosed. Enterprise is not modeled (its per-seat terms were not captured in this fetch).'
+
+tiers:
+  - plan: Hobby
+    base_monthly_usd: 39
+    max_seats: 2
+    seat_label: employee
+    provenance:
+      source_url: https://orderry.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Hobby — $39/month — 2 employees." No additional-employee price disclosed for this tier.'
+  - plan: Startup
+    base_monthly_usd: 69
+    per_seat_monthly_usd: 6
+    included_seats: 3
+    max_seats: 15
+    seat_label: employee
+    provenance:
+      source_url: https://orderry.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Startup — from $69/mo — 3 employees included. Extra employees at $6/mo, extra location at $49/mo. Maximum 15 employees."'
+  - plan: Business
+    base_monthly_usd: 99
+    per_seat_monthly_usd: 9
+    included_seats: 3
+    max_seats: 150
+    seat_label: employee
+    provenance:
+      source_url: https://orderry.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Business — from $99/mo — 3 employees, tailored onboarding included. Extra employees at $9/mo, extra location at $79/mo. Maximum 150 employees."'
+
+findings:
+  - id: orderry-extra-location-fee
+    claim: >-
+      Orderry charges a separate per-location add-on fee on top of its
+      per-employee pricing — $49/mo per extra location on Startup, $79/mo
+      on Business — per its own pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://orderry.com/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch

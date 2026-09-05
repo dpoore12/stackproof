@@ -1,0 +1,29 @@
+Source: https://www.repairdesk.co/pricing/
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Quarterly | Annually (-20%)
+
+Essential — Starting from $99/store per month (billed quarterly)
+Essential — Starting from $79/store per month (billed annually)
+Perfectly suited for automating and managing operations in single-store
+repair businesses.
+
+Growth — Starting from $149/store per month (billed quarterly)
+Growth — Starting from $119/store per month (billed annually)
+Designed for growing repair businesses with high volume sales. Built for
+multi-stores and franchises.
+
+Advanced — Get a Custom Quote
+Custom-built for mail-in repair, refurbishment & warranty centers, and
+manufacturer repair depots.
+
+Included in All Plans: Point of Sale & Easy Checkout System, Cash
+Registers & Reconciliation Support, Appointment Scheduling, Repair Job
+Management & Tracking, Lead and Customer Management, SMS and Email
+Notification, Inventory Control & Management, Purchase & Returns
+Management, Basic Business Reports, Printing Automation and Label
+Support, Customer Facing Display and Signatures, Employee Management.
+
+User Management (feature comparison table): Essential 5 Users, Growth
+8 Users, Advanced Unlimited.

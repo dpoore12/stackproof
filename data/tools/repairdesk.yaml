@@ -1,0 +1,61 @@
+slug: repairdesk
+vendor: RepairDesk
+product: RepairDesk
+category: electronics_repair_shop_management
+url: https://www.repairdesk.co/pricing/
+pricing_note: 'RepairDesk prices per store/location with a flat user cap per tier rather than a genuine per-seat increment. Annual billing is recorded as primary per this site''s policy of treating a headlined prepaid-discount rate as primary; quarterly is recorded separately. Advanced is quote-gated (unlimited users) and excluded.'
+
+tiers:
+  - plan: Essential (annual)
+    base_monthly_usd: 79
+    max_seats: 5
+    billing: annual
+    seat_label: technician
+    provenance:
+      source_url: https://www.repairdesk.co/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Essential — Starting from $79/store per month (billed annually). Perfectly suited for automating and managing operations in single-store repair businesses." User Management: 5 Users.'
+  - plan: Essential (quarterly)
+    base_monthly_usd: 99
+    max_seats: 5
+    billing: monthly
+    seat_label: technician
+    compare: false
+    provenance:
+      source_url: https://www.repairdesk.co/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Essential — Starting from $99/store per month (billed quarterly)." User Management: 5 Users.'
+  - plan: Growth (annual)
+    base_monthly_usd: 119
+    max_seats: 8
+    billing: annual
+    seat_label: technician
+    provenance:
+      source_url: https://www.repairdesk.co/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Growth — Starting from $119/store per month (billed annually). Designed for growing repair businesses with high volume sales." User Management: 8 Users.'
+  - plan: Growth (quarterly)
+    base_monthly_usd: 149
+    max_seats: 8
+    billing: monthly
+    seat_label: technician
+    compare: false
+    provenance:
+      source_url: https://www.repairdesk.co/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Growth — Starting from $149/store per month (billed quarterly)." User Management: 8 Users.'
+
+findings:
+  - id: repairdesk-advanced-unlimited-users-quote-gated
+    claim: >-
+      RepairDesk's top Advanced tier offers unlimited user accounts but
+      requires a custom quote with no published price, per its own
+      pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://www.repairdesk.co/pricing/
+      fetched_at: 2026-09-05
+      method: live_fetch
