@@ -1,0 +1,37 @@
+slug: time-to-pet
+vendor: Time To Pet
+product: Time To Pet
+category: pet_grooming_boarding_management
+url: https://timetopet.com/pricing
+pricing_note: 'Time To Pet sells two distinct pricing paths on the same platform: "Team" is a genuine base-plus-per-staff formula (worked example on the page, "$120/month for 5 staff," confirms $40 + $16 x 5 = $120, charged from the first staff member with no included seats) aimed at in-home pet sitting/dog walking; "Facility" is a flat $79/month fee for daycare/boarding operations with no stated staff cap or per-seat rate anywhere on the page. Both are recorded as real, purchasable plans for this category''s buyers rather than picking one; a business large enough that Facility beats Team''s per-seat cost would simply buy Facility. Solo/Lite (single-operator plans) and the >25-staff/bundle tiers are quote-gated or out of scope and excluded.'
+
+tiers:
+  - plan: Team
+    base_monthly_usd: 40
+    per_seat_monthly_usd: 16
+    included_seats: 0
+    seat_label: staff member
+    provenance:
+      source_url: https://timetopet.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$40/month" + "+$16/month per active staff." Worked example: "$120/month for 5 staff."'
+  - plan: Facility
+    base_monthly_usd: 79
+    seat_label: staff member
+    provenance:
+      source_url: https://timetopet.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$79/month — For a pet care facility offering daycare, boarding, or other types of facility-based services." No staff count or per-seat rate is published for this plan.'
+
+findings:
+  - id: time-to-pet-large-team-quote-gated
+    claim: >-
+      Time To Pet requires contacting sales for custom pricing once a
+      pet care business has more than 25 active staff members on its
+      Team plan, per its own pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://timetopet.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch

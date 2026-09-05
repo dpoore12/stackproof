@@ -2116,6 +2116,54 @@
    ],
    "vendor": "Dashlane"
   },
+  "daysmart-pet": {
+   "category": "pet_grooming_boarding_management",
+   "fees": [],
+   "product": "DaySmart Pet",
+   "tiers": [
+    {
+     "base_monthly_usd": 29.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Basic",
+     "source_url": "https://www.daysmart.com/pet/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 69.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": 3,
+     "per_seat_monthly_usd": null,
+     "plan": "Deluxe",
+     "source_url": "https://www.daysmart.com/pet/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 149.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": 3,
+     "per_seat_monthly_usd": null,
+     "plan": "Deluxe Growth",
+     "source_url": "https://www.daysmart.com/pet/pricing/",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 199.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": 6,
+     "per_seat_monthly_usd": null,
+     "plan": "Premium",
+     "source_url": "https://www.daysmart.com/pet/pricing/",
+     "steps": null
+    }
+   ],
+   "vendor": "DaySmart"
+  },
   "demio": {
    "category": "webinar_platforms",
    "fees": [],
@@ -6109,6 +6157,44 @@
    ],
    "vendor": "Miro"
   },
+  "moego": {
+   "category": "pet_grooming_boarding_management",
+   "fees": [],
+   "product": "MoeGo",
+   "tiers": [
+    {
+     "base_monthly_usd": 49.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": 1,
+     "per_seat_monthly_usd": null,
+     "plan": "Basic",
+     "source_url": "https://moego.pet/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 99.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Growth",
+     "source_url": "https://moego.pet/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 159.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Ultimate",
+     "source_url": "https://moego.pet/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "MoeGo"
+  },
   "monday": {
    "category": "project_management",
    "fees": [
@@ -9876,6 +9962,34 @@
     }
    ],
    "vendor": "Tidio"
+  },
+  "time-to-pet": {
+   "category": "pet_grooming_boarding_management",
+   "fees": [],
+   "product": "Time To Pet",
+   "tiers": [
+    {
+     "base_monthly_usd": 40.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": 16.0,
+     "plan": "Team",
+     "source_url": "https://timetopet.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 79.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": null,
+     "plan": "Facility",
+     "source_url": "https://timetopet.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Time To Pet"
   },
   "timecamp": {
    "category": "time_tracking",

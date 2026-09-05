@@ -1452,6 +1452,35 @@ homepage — so no vendor-page provenance exists for those figures.
 
 Database is now 253 tools across 64 categories.
 
+### Pet grooming and boarding management software (2026-09-05)
+
+Three vendors: Time To Pet, DaySmart Pet, MoeGo. Seat axis is "staff"
+(1, 3, 5, 10, 25).
+
+Time To Pet is a genuine base-plus-per-staff formula on its "Team" plan
+($40/mo + $16/mo per staff member, charged from the first seat — its own
+page even shows the worked example "$120/month for 5 staff"), but the
+same platform also sells a flat, uncapped $79/mo "Facility" plan for
+daycare/boarding operations with no staff count published at all; both
+are recorded, since a boarding business large enough to make Facility
+the better deal would simply buy Facility. DaySmart Pet is a flat fee
+per plan capped by included-user count (1/3/3/6 across its four
+publicly-priced tiers). MoeGo's cheapest "Basic" tier is genuinely capped
+at 1 team member, but Growth and Ultimate both list unlimited team
+members and differ only by features — mobile-grooming pricing is
+recorded since a same-page "Grooming salon" tab (reportedly pricier)
+could not be switched to and confirmed in this fetch.
+
+Junk removal business management software was researched as a separate
+category and abandoned: the only vendors with public per-seat pricing
+and a dedicated junk-removal marketing page (Jobber, Housecall Pro,
+Workiz) are already fully represented in this database under
+`field_service_management` with identical pricing, so a second category
+would just duplicate those records rather than add anything a junk
+removal buyer couldn't already see there.
+
+Database is now 256 tools across 65 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

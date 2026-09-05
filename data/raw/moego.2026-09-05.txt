@@ -1,0 +1,35 @@
+Source: https://moego.pet/pricing
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Page defaults to the "Mobile grooming" pricing view (a "USD / month"
+toggle also exists; a "Grooming salon" tab is present but this fetch's
+custom_js could not switch to it, so only the mobile-grooming figures
+below are recorded — MoeGo's salon-specific tiers are priced higher per
+third-party sources and are not recorded here without a direct fetch).
+
+Basic — "$49" "/ month" — "The all-in-one solution for solo groomers
+with simple operations." Smart Schedule route optimization, two-way
+communication, online booking, integrated payment, automated reminders,
+digital agreement, mass text, no-show protection.
+
+Growth — "$99" "/ month" (comparison table: "$99 / month per van") —
+"The growth-oriented solution for small to mid-sized businesses with
+complex operations." Everything in Basic, plus multi-van scheduling,
+route optimization, intelligent waitlist, advanced CRM, marketing &
+promotions, leads & abandon tracking, custom price model, multi-location
+sync. Marked "MOST POPULAR."
+
+Ultimate — "$159" "/ month" (comparison table: "$159 / month per van") —
+"The most complete MoeGo Platform for brand conscious businesses."
+Everything in Growth, plus unlimited auto messages, branded phone
+number, business insights, custom CSS/JS, live video call support.
+
+Enterprise — "Custom" — franchise management, MoeGo API platform,
+custom-built pet parent portal, enterprise BI & analytics, tailored
+onboarding. (quote-gated, excluded)
+
+Comparison table row "Team": Basic "up to 1 member", Growth "Unlimited",
+Ultimate "Unlimited", Enterprise "Unlimited." Row "SMS included": Basic
+"200 SMS / van", Growth "900 SMS / van", Ultimate "900 SMS / van +
+Unlimited auto message".
