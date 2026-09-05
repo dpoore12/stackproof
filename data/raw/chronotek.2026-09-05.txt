@@ -1,0 +1,38 @@
+Source: https://www.chronotek.com/pricing
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Title: "Simple, Honest Pricing | Chronotek Pro." Description: "One
+simple price: $19/month base fee plus $6 per employee — every feature
+included. Free 30-day trial, no contracts, volume pricing for 250+
+employees."
+
+H1: "Simple, Transparent Pricing." H2: "Just $6 per employee." H3: "Pay
+per employee. Cancel anytime. Start free."
+
+"Simple, Transparent Pricing — How many employees do you have? [slider]
+— Just $6 per employee (plus $19 base fee) — Annual -15% / Monthly
+toggle."
+
+"No tiers — just options. One flat rate covers the whole platform: the
+same system our most successful customers of every size run on... Add-
+ons like Advanced Analytics are there when you want them, never required
+to unlock what you already have."
+
+What Your Price Includes (every plan/employee count): Time Tracking &
+GPS, Scheduling & Alerts, Team Communication, Job Costing & Budgets,
+Supply Management, HR & Payroll.
+
+Add-on: "Advanced Analytics + AI Connector (Beta)" — "+$1.50/employee" —
+deep-dive dashboards plus an MCP connector for ChatGPT/Claude to query
+workforce data.
+
+Explicitly marketed to janitorial contractors: "Who It's For... Purpose-
+built for mobile crews in every industry — Janitorial: GPS proof every
+crew is on site" (also serves property management, construction,
+lifeguards, security guards, human & social services, student programs,
+staffing).
+
+Volume pricing kicks in above 250 employees (custom, not modeled here).
+Annual billing gives a 15% discount off the monthly total per the page's
+own toggle.

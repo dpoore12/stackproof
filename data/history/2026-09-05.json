@@ -1376,6 +1376,62 @@
    ],
    "vendor": "Case Jacket"
   },
+  "chronotek": {
+   "category": "commercial_cleaning_janitorial_management",
+   "fees": [],
+   "product": "Chronotek Pro",
+   "tiers": [
+    {
+     "base_monthly_usd": 19.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": 6.0,
+     "plan": "Chronotek Pro",
+     "source_url": "https://www.chronotek.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Chronotek"
+  },
+  "cleanguru": {
+   "category": "commercial_cleaning_janitorial_management",
+   "fees": [],
+   "product": "CleanGuru",
+   "tiers": [
+    {
+     "base_monthly_usd": 79.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": 5.0,
+     "plan": "Basic",
+     "source_url": "https://www.cleanguru.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 129.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": 5.0,
+     "plan": "Guru!",
+     "source_url": "https://www.cleanguru.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 159.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": 5.0,
+     "plan": "Guru Plus",
+     "source_url": "https://www.cleanguru.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "CleanGuru"
+  },
   "clickup": {
    "category": "project_management",
    "fees": [
@@ -7146,6 +7202,44 @@
     }
    ],
    "vendor": "Orderry"
+  },
+  "otuvy": {
+   "category": "commercial_cleaning_janitorial_management",
+   "fees": [],
+   "product": "Otuvy QM",
+   "tiers": [
+    {
+     "base_monthly_usd": 150.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": 5,
+     "per_seat_monthly_usd": null,
+     "plan": "QM Inspect",
+     "source_url": "https://www.otuvy.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 250.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": 5,
+     "per_seat_monthly_usd": null,
+     "plan": "QM Pro",
+     "source_url": "https://www.otuvy.com/pricing",
+     "steps": null
+    },
+    {
+     "base_monthly_usd": 50.0,
+     "billing": "monthly",
+     "fetched_at": "2026-09-05",
+     "max_seats": null,
+     "per_seat_monthly_usd": 7.0,
+     "plan": "Otuvy Frontline",
+     "source_url": "https://www.otuvy.com/pricing",
+     "steps": null
+    }
+   ],
+   "vendor": "Otuvy"
   },
   "pabau": {
    "category": "medical_spa_management",

@@ -1,0 +1,32 @@
+Source: https://www.otuvy.com/pricing
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Title: "Otuvy | Transparent Pricing, Scalable Plans." Description:
+"Otuvy offers flexible, scalable pricing designed for commercial
+cleaning companies ready to grow." (Otuvy is the current name of the
+product formerly called CleanTelligent, a quality-management/inspection
+platform for building service contractors.)
+
+QM Inspect — "$150 / month" — Key Features: "5 users, unlimited service
+locations," Unlimited Inspections, Inspection Reports, Inspection
+Templates, Client Report Access. Footnote: "*One-time implementation
+investment required. Contact us today for more information."
+
+QM Pro — "$250 / month" — "Everything in QM Inspect, plus: Work orders,
+Work order reports, Job Scheduling for Recurring Projects, QR Code Form
+Capture, Client Portal Access."
+
+QM Enterprise — "Custom Quote" — "Everything in QM Pro, plus: Tailored
+Plan, SLAs, Volume Discounts, Admin Assist Services." (quote-gated,
+excluded)
+
+Otuvy Add-ons:
+"Operational Intelligence Core" — "$99 / month" — pre-built dashboards,
+1 year of historical data refreshed daily.
+"Operational Intelligence Platinum" — "$249 / month" — AI-powered
+tools, customizable dashboards, 3 years of historical data refreshed
+every 4 hours.
+"Otuvy Frontline" — "$50 / month base" + "$7 / user / month" —
+"Streamline your day-to-day operations for consistent quality
+delivery."

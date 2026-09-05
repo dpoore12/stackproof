@@ -1528,6 +1528,29 @@ repeat the same dead ends:
 
 Database is now 257 tools across 65 categories.
 
+### Commercial cleaning / janitorial contractor management software (2026-09-05)
+
+Three vendors: Chronotek Pro, Otuvy, CleanGuru. Seat axis is "cleaners"
+(1, 3, 5, 10, 25). Distinct from the existing `cleaning_management`
+category, which covers residential maid-service booking apps (Launch27,
+Zenbooker, ZenMaid) rather than commercial building-services
+contractors.
+
+Chronotek Pro is a genuine base-plus-per-employee formula with no tiers
+at all ("no tiers, just options"): $19/mo base + $6/mo per employee,
+explicitly marketed to janitorial contractors alongside other
+mobile-workforce verticals. Otuvy (formerly CleanTelligent) sells a
+quality-management/inspection suite: QM Inspect ($150/mo, 5 users) and
+QM Pro ($250/mo, same 5-user cap, adds work orders) are flat tiers
+capped by user count; a separate "Otuvy Frontline" product on the same
+pricing page has a genuine base-plus-per-user formula ($50/mo + $7/mo
+per user). CleanGuru is a bidding/estimating platform for cleaning
+contractors with three tiers ($79/$129/$159/mo) that include 10
+cleaners each and charge $5/mo per additional cleaner beyond that per
+its own "Additional cleaners, just $5/mo!" note.
+
+Database is now 260 tools across 66 categories.
+
 ## Rendered fetches (script-rendered pricing pages)
 
 CRM and helpdesk vendors render prices client-side, and the build container

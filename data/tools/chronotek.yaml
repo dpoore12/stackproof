@@ -1,0 +1,29 @@
+slug: chronotek
+vendor: Chronotek
+product: Chronotek Pro
+category: commercial_cleaning_janitorial_management
+url: https://www.chronotek.com/pricing
+pricing_note: 'Chronotek Pro is a single, uncapped base-plus-per-employee plan — "no tiers, just options" per its own page. Explicitly marketed to janitorial contractors ("Purpose-built for mobile crews... Janitorial: GPS proof every crew is on site") alongside other mobile-workforce verticals. Volume pricing applies above 250 employees and is not modeled here (quote-gated beyond that point). Annual billing gives a 15% discount per the page''s own toggle; the standing monthly rate is recorded.'
+
+tiers:
+  - plan: Chronotek Pro
+    base_monthly_usd: 19
+    per_seat_monthly_usd: 6
+    included_seats: 0
+    seat_label: employee
+    provenance:
+      source_url: https://www.chronotek.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: 'Meta description: "$19/month base fee plus $6 per employee — every feature included." H2: "Just $6 per employee."'
+
+findings:
+  - id: chronotek-volume-pricing-threshold
+    claim: >-
+      Chronotek Pro offers custom volume pricing for organizations with
+      more than 250 employees, per its own pricing page as of
+      2026-09-05.
+    provenance:
+      source_url: https://www.chronotek.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
