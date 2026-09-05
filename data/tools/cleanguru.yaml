@@ -1,0 +1,50 @@
+slug: cleanguru
+vendor: CleanGuru
+product: CleanGuru
+category: commercial_cleaning_janitorial_management
+url: https://www.cleanguru.com/pricing
+pricing_note: 'CleanGuru is a bidding/estimating platform for janitorial and commercial cleaning contractors. Its page states "Additional cleaners, just $5/mo!" as a standing note following the plan comparisons, with a "10" cleaner-count figure shown directly under the Guru! plan''s feature list; that figure is applied to all three paid tiers as the most directly observed included-cleaner count, since a separate per-tier figure could not be isolated. Basic is limited to choosing 1 of 8 cleaning-type modules (Janitorial, Construction, Disinfecting, Move In/Out, Maid, Tile, Carpet, Window); Guru! and Guru Plus include all 8.'
+
+tiers:
+  - plan: Basic
+    base_monthly_usd: 79
+    per_seat_monthly_usd: 5
+    included_seats: 10
+    seat_label: cleaner
+    provenance:
+      source_url: https://www.cleanguru.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Basic — $79/mo — Choose 1 Module."'
+  - plan: Guru!
+    base_monthly_usd: 129
+    per_seat_monthly_usd: 5
+    included_seats: 10
+    seat_label: cleaner
+    provenance:
+      source_url: https://www.cleanguru.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Guru! — $129/mo — You''ll Get ALL Modules!" — all 8 cleaning-type modules; a "10" cleaner-count figure is shown directly beneath the module list.'
+  - plan: Guru Plus
+    base_monthly_usd: 159
+    per_seat_monthly_usd: 5
+    included_seats: 10
+    seat_label: cleaner
+    provenance:
+      source_url: https://www.cleanguru.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Guru Plus — $159/mo" — all modules, plus BOOKS Connect, Mobile CHECKLISTS, COACHING Videos, and the INSPECTING App.'
+
+findings:
+  - id: cleanguru-eight-service-modules
+    claim: >-
+      CleanGuru's bidding platform covers 8 distinct cleaning-service
+      modules (Janitorial, Construction, Disinfecting, Move In/Out,
+      Maid, Tile, Carpet, and Window), with its Basic plan limited to
+      choosing just 1, per its own pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://www.cleanguru.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch

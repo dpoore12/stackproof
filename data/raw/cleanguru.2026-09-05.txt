@@ -1,0 +1,30 @@
+Source: https://www.cleanguru.com/pricing
+Fetched: 2026-09-05
+Method: live_fetch (DataForSEO on_page/instant_pages, enable_javascript=true)
+
+Title: "Janitorial Cleaning Business Bidding Software | CleanGuru."
+Description: "Plans and prices for mobile janitorial bidding software
+cleaning business owners use to calculate cleaning times and prices as
+well as create cleaning proposals."
+
+Three plan cards found via price-string search:
+"Basic — $79/mo" — "Choose 1 Module" (of the 8 available cleaning-type
+modules: Janitorial, Construction, Disinfecting, Move In/Out, Maid,
+Tile, Carpet, Window).
+"Guru! — $129/mo" — "You'll Get ALL Modules!" — includes all 8 modules
+plus a "10" (cleaner-count) figure shown directly beneath the module
+list.
+"Guru Plus — $159/mo" — all modules, plus BOOKS Connect, Mobile
+CHECKLISTS, COACHING Videos, and the INSPECTING App.
+
+"Additional cleaners, just $5/mo!" appears as a standing note following
+the plan feature comparisons (applies across the paid tiers; the exact
+per-tier included-cleaner count beyond the "10" figure shown under Guru!
+could not be independently isolated per-tier in this fetch, so 10 is
+used for all three paid tiers as the most directly observed figure).
+
+Modules cover both commercial janitorial/office cleaning and adjacent
+service types (disinfecting, carpet, window, tile, move in/out,
+residential maid, post-construction) — sold as one bidding/estimating
+platform used by janitorial and commercial cleaning contractors to
+build cleaning proposals and calculate labor costs and pricing.

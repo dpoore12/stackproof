@@ -1,0 +1,47 @@
+slug: otuvy
+vendor: Otuvy
+product: Otuvy QM
+category: commercial_cleaning_janitorial_management
+url: https://www.otuvy.com/pricing
+pricing_note: 'Otuvy (formerly CleanTelligent) is a quality-management/inspection platform for building service contractors. QM Inspect explicitly states "5 users, unlimited service locations"; QM Pro adds work-order features on top with no restated user count, so the same 5-user cap is carried forward. QM Enterprise is quote-gated and excluded. A separate day-to-day operations product on the same pricing page, Otuvy Frontline, has a genuine base-plus-per-user formula and is recorded as its own tier.'
+
+tiers:
+  - plan: QM Inspect
+    base_monthly_usd: 150
+    max_seats: 5
+    seat_label: user
+    provenance:
+      source_url: https://www.otuvy.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$150/month." Key Features: "5 users, unlimited service locations," Unlimited Inspections, Inspection Reports, Inspection Templates, Client Report Access.'
+  - plan: QM Pro
+    base_monthly_usd: 250
+    max_seats: 5
+    seat_label: user
+    provenance:
+      source_url: https://www.otuvy.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"$250/month." "Everything in QM Inspect, plus: Work orders, Work order reports, Job Scheduling for Recurring Projects, QR Code Form Capture, Client Portal Access."'
+  - plan: Otuvy Frontline
+    base_monthly_usd: 50
+    per_seat_monthly_usd: 7
+    included_seats: 0
+    seat_label: user
+    provenance:
+      source_url: https://www.otuvy.com/pricing
+      fetched_at: 2026-09-05
+      method: live_fetch
+      note: '"Otuvy Frontline — $50/month base — +$7/user/month — Streamline your day-to-day operations for consistent quality delivery."'
+
+findings:
+  - id: otuvy-enterprise-quote-gated
+    claim: >-
+      Otuvy's top QM Enterprise tier adds tailored SLAs and volume
+      discounts but requires a custom quote with no published price,
+      per its own pricing page as of 2026-09-05.
+    provenance:
+      source_url: https://www.otuvy.com/pricing
+      fetched_at: 2026-09-05
+      method: not_available
