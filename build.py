@@ -242,6 +242,8 @@ ul.fees li,ul.clauses li{background:#fff;border:1px solid var(--rule);padding:10
 .clause .topic{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-right:8px}.clause .status{font-size:12px;padding:1px 8px;border-radius:999px;background:var(--rule)}
 .clause.not_stated .status{background:#fef3c7;color:var(--warn)}.clause.stated .status{background:#dcfce7;color:var(--accent)}
 blockquote{margin:8px 0;padding-left:12px;border-left:2px solid var(--rule);color:var(--muted);font-size:14px}.muted{color:var(--muted)}
+details.additions{margin:18px 0;border-top:1px solid var(--rule);padding-top:12px}
+details.additions>summary{cursor:pointer;color:var(--muted);font-size:14px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px}.card{background:#fff;border:1px solid var(--rule);padding:16px}.card a{color:var(--ink);font-weight:600;text-decoration:none}
 .cta{margin:0 0 8px}.cta .go{display:inline-block;background:var(--accent);color:#fff;padding:9px 14px;text-decoration:none;font-weight:600;border-radius:3px}
 footer{margin-top:60px;border-top:1px solid var(--rule);padding-top:14px;font-size:13px;color:var(--muted)}
@@ -353,26 +355,54 @@ def changes_page() -> str:
     events = price_changes()
     since = snaps[0]["date"] if snaps else "—"
     latest = snaps[-1]["date"] if snaps else "—"
-    if events:
-        rows = "".join(
+    # A tool appearing for the first time is dataset growth, not a vendor
+    # moving its price. Both belong on this page, but merging them lets 222
+    # rows of "we added a tool" read as 222 price movements — which is the
+    # one impression a price tracker must never give when the real count is
+    # zero. Separated, and the real count stated even when it is zero.
+    def _is_addition(ev: dict) -> bool:
+        return ev["what"] == "added to the dataset" or ev["what"].startswith("new ")
+
+    moves = [ev for ev in events if not _is_addition(ev)]
+    additions = [ev for ev in events if _is_addition(ev)]
+
+    def _rows(evs: list[dict]) -> str:
+        return "".join(
             f'<tr><td class="n">{e(ev["date"])}</td><td><a href="/tools/{e(ev["slug"])}/">{e(ev["vendor"])}</a></td>'
             f'<td>{e(ev["what"])}</td><td class="n">{money(ev["from"]) if isinstance(ev["from"], (int, float)) else e(ev["from"] or "—")}</td>'
             f'<td class="n">{money(ev["to"]) if isinstance(ev["to"], (int, float)) else e(ev["to"] or "—")}</td></tr>'
-            for ev in sorted(events, key=lambda x: x["date"], reverse=True)
+            for ev in sorted(evs, key=lambda x: x["date"], reverse=True)
         )
+
+    if moves:
         table = (
-            '<div class="scroll"><table><caption>Every change between consecutive snapshots. A vendor\'s own page shows only today\'s price; this shows what it used to be.</caption>'
+            '<div class="scroll"><table><caption>Every price or fee that changed between consecutive '
+            "snapshots. A vendor's own page shows only today's price; this shows what it used to be.</caption>"
             "<thead><tr><th>Date</th><th>Vendor</th><th>What changed</th><th>From</th><th>To</th></tr></thead>"
-            f"<tbody>{rows}</tbody></table></div>"
+            f"<tbody>{_rows(moves)}</tbody></table></div>"
         )
     else:
         table = (
-            f'<p class="muted">Tracking since {e(since)}. {len(snaps)} snapshot{"s" if len(snaps) != 1 else ""} recorded; '
-            "no price or fee has changed between snapshots yet. Changes appear here as soon as one does.</p>"
+            f'<p class="muted">Tracking since {e(since)}, across {len(snaps)} '
+            f'snapshot{"s" if len(snaps) != 1 else ""}: <strong>no price or fee has changed yet</strong>. '
+            "That is the honest state of a young record, not an empty page — the value of tracking "
+            "daily is that a change shows up here the day it happens.</p>"
         )
+
+    if additions:
+        table += (
+            f'<details class="additions"><summary>{len(additions)} '
+            f'tool{"s" if len(additions) != 1 else ""} added to the dataset since {e(since)}</summary>'
+            '<div class="scroll"><table><caption>Coverage growing is not a vendor changing its '
+            "price; these are listed separately so the table above stays a record of real movement.</caption>"
+            "<thead><tr><th>Date</th><th>Vendor</th><th>What changed</th><th>From</th><th>To</th></tr></thead>"
+            f"<tbody>{_rows(additions)}</tbody></table></div></details>"
+        )
+
     body = (
         "<h1>Price changes over time</h1>"
-        f'<p class="lede">Prices are re-recorded from each vendor\'s page and kept as dated snapshots. Latest snapshot {e(latest)}; tracking since {e(since)}.</p>'
+        f'<p class="lede">Each recorded price is kept as a dated snapshot, and consecutive snapshots '
+        f"are diffed here. Latest snapshot {e(latest)}; tracking since {e(since)}.</p>"
         f"{table}"
         '<p>The raw snapshots are in the <a href="/dataset/">dataset download</a>.</p>'
     )

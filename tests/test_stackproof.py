@@ -230,3 +230,59 @@ def test_free_tiers_never_rank_as_cheapest_in_a_category():
         for n in seat_points_for(t.category):
             c = t.cheapest_tier_cost_at(n)
             assert c is None or c[1] > 0, f"{t.slug} ranks a $0 plan ({c}) at {n} seats"
+
+
+def test_new_tools_never_render_as_price_movement(tmp_path, monkeypatch):
+    """Coverage growth must not read as vendors changing their prices.
+
+    The dataset went 41 -> 241 -> 263 tools over its first three snapshots.
+    Merged into one table that is 222 rows on a page titled "Price changes"
+    while the real count of price movements was zero — the single impression
+    a price tracker must never give.
+    """
+    import json as _json
+    monkeypatch.setattr(B, "HISTORY", tmp_path / "history")
+    (tmp_path / "history").mkdir()
+
+    def tool(slug, base):
+        return {"vendor": slug.upper(), "product": slug, "category": "payroll",
+                "tiers": [{"plan": "Core", "base_monthly_usd": base, "per_seat_monthly_usd": 6,
+                           "steps": None, "billing": "monthly", "max_seats": None,
+                           "fetched_at": "2026-08-01", "source_url": "https://x.test"}],
+                "fees": []}
+
+    a = {"date": "2026-08-01", "tools": {"x": tool("x", 40)}}
+    # 'y' is new (growth); 'x' actually moved 40 -> 49 (real).
+    b = {"date": "2026-09-01", "tools": {"x": tool("x", 49), "y": tool("y", 10)}}
+    (tmp_path / "history" / "2026-08-01.json").write_text(_json.dumps(a))
+    (tmp_path / "history" / "2026-09-01.json").write_text(_json.dumps(b))
+
+    html = B.changes_page()
+    # The real movement is in the headline table...
+    assert "Core base" in html
+    # ...and the addition is filed under the collapsed additions block.
+    assert '<details class="additions">' in html
+    assert "1 tool added to the dataset" in html
+    head = html.split('<details class="additions">')[0]
+    assert "added to the dataset" not in head, (
+        "a newly added tool is being presented as a price change"
+    )
+
+
+def test_zero_price_changes_states_zero_rather_than_showing_additions(tmp_path, monkeypatch):
+    import json as _json
+    monkeypatch.setattr(B, "HISTORY", tmp_path / "history")
+    (tmp_path / "history").mkdir()
+    t = {"vendor": "X", "product": "x", "category": "payroll",
+         "tiers": [{"plan": "Core", "base_monthly_usd": 40, "per_seat_monthly_usd": 6,
+                    "steps": None, "billing": "monthly", "max_seats": None,
+                    "fetched_at": "2026-08-01", "source_url": "https://x.test"}],
+         "fees": []}
+    (tmp_path / "history" / "2026-08-01.json").write_text(
+        _json.dumps({"date": "2026-08-01", "tools": {"x": t}}))
+    (tmp_path / "history" / "2026-09-01.json").write_text(
+        _json.dumps({"date": "2026-09-01", "tools": {"x": t, "y": dict(t, vendor="Y")}}))
+
+    html = B.changes_page()
+    assert "no price or fee has changed yet" in html
+    assert "1 tool added to the dataset" in html
