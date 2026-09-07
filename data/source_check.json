@@ -1,0 +1,2826 @@
+{
+ "run_at": "2026-09-06",
+ "urls_checked": 281,
+ "tools_affected": 282,
+ "records_resting_on_these_urls": 2110,
+ "counts": {
+  "dead": 0,
+  "redirected": 9,
+  "error": 3,
+  "blocked": 7,
+  "ok": 262
+ },
+ "results": [
+  {
+   "url": "https://cacoo.com/pricing",
+   "status": "redirected",
+   "http_status": 200,
+   "final_url": "https://nulab.com/pricing/cacoo/",
+   "cited_by": [
+    "cacoo"
+   ],
+   "detail": "resolves to https://nulab.com/pricing/cacoo/"
+  },
+  {
+   "url": "https://golmn.com/pricing/",
+   "status": "redirected",
+   "http_status": 200,
+   "final_url": "https://granum.com/lmn/pricing/",
+   "cited_by": [
+    "lmn"
+   ],
+   "detail": "resolves to https://granum.com/lmn/pricing/"
+  },
+  {
+   "url": "https://www.gethealthie.com/pricing",
+   "status": "redirected",
+   "http_status": 200,
+   "final_url": "https://www.gethealthie.com/healthie-pricing",
+   "cited_by": [
+    "healthie"
+   ],
+   "detail": "resolves to https://www.gethealthie.com/healthie-pricing"
+  },
+  {
+   "url": "https://www.ispringsolutions.com/ispring-learn/pricing",
+   "status": "redirected",
+   "http_status": 200,
+   "final_url": "https://www.ispring.com/pricing",
+   "cited_by": [
+    "ispring-learn"
+   ],
+   "detail": "resolves to https://www.ispring.com/pricing"
+  },
+  {
+   "url": "https://www.singleops.com/pricing/",
+   "status": "redirected",
+   "http_status": 200,
+   "final_url": "https://granum.com/singleops/pricing/",
+   "cited_by": [
+    "singleops"
+   ],
+   "detail": "resolves to https://granum.com/singleops/pricing/"
+  },
+  {
+   "url": "https://www.talentlms.com/pricing",
+   "status": "redirected",
+   "http_status": 200,
+   "final_url": "https://www.talentlms.com/prices",
+   "cited_by": [
+    "talentlms"
+   ],
+   "detail": "resolves to https://www.talentlms.com/prices"
+  },
+  {
+   "url": "https://www.tovutilms.com/pricing/",
+   "status": "redirected",
+   "http_status": 200,
+   "final_url": "https://www.tovutilms.com/lms-pricing",
+   "cited_by": [
+    "tovuti"
+   ],
+   "detail": "resolves to https://www.tovutilms.com/lms-pricing"
+  },
+  {
+   "url": "https://www.zenmaid.com/pricing/",
+   "status": "redirected",
+   "http_status": 200,
+   "final_url": "https://get.zenmaid.com/pricing",
+   "cited_by": [
+    "zenmaid"
+   ],
+   "detail": "resolves to https://get.zenmaid.com/pricing"
+  },
+  {
+   "url": "https://www.zolasuite.com/pricing/",
+   "status": "redirected",
+   "http_status": 200,
+   "final_url": "http://caretlegal.com/pricing/",
+   "cited_by": [
+    "caret-legal"
+   ],
+   "detail": "resolves to http://caretlegal.com/pricing/"
+  },
+  {
+   "url": "https://quickbooks.intuit.com/payroll/pricing/",
+   "status": "error",
+   "http_status": null,
+   "final_url": null,
+   "cited_by": [
+    "quickbooks-payroll"
+   ],
+   "detail": "TimeoutError: The read operation timed out"
+  },
+  {
+   "url": "https://quickbooks.intuit.com/pricing/",
+   "status": "error",
+   "http_status": null,
+   "final_url": null,
+   "cited_by": [
+    "quickbooks-online"
+   ],
+   "detail": "TimeoutError: The read operation timed out"
+  },
+  {
+   "url": "https://www.arbornote.com/pricing/",
+   "status": "error",
+   "http_status": null,
+   "final_url": null,
+   "cited_by": [
+    "arbornote"
+   ],
+   "detail": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+   "url": "https://contractorforeman.com/pricing/",
+   "status": "blocked",
+   "http_status": 403,
+   "final_url": null,
+   "cited_by": [
+    "contractor-foreman"
+   ],
+   "detail": "bot protection; needs a browser session or an account"
+  },
+  {
+   "url": "https://gusto.com/product/compare/gusto-vs-quickbooks-payroll",
+   "status": "blocked",
+   "http_status": 403,
+   "final_url": null,
+   "cited_by": [
+    "gusto"
+   ],
+   "detail": "bot protection; needs a browser session or an account"
+  },
+  {
+   "url": "https://neonone.com/pricing/",
+   "status": "blocked",
+   "http_status": 403,
+   "final_url": null,
+   "cited_by": [
+    "neon-crm"
+   ],
+   "detail": "bot protection; needs a browser session or an account"
+  },
+  {
+   "url": "https://www.goto.com/pricing/meeting",
+   "status": "blocked",
+   "http_status": 403,
+   "final_url": null,
+   "cited_by": [
+    "goto-meeting"
+   ],
+   "detail": "bot protection; needs a browser session or an account"
+  },
+  {
+   "url": "https://www.mydomastudio.com/pricing",
+   "status": "blocked",
+   "http_status": 429,
+   "final_url": null,
+   "cited_by": [
+    "mydoma-studio"
+   ],
+   "detail": "bot protection; needs a browser session or an account"
+  },
+  {
+   "url": "https://www.officernd.com/pricing/flex/",
+   "status": "blocked",
+   "http_status": 403,
+   "final_url": null,
+   "cited_by": [
+    "officernd-flex"
+   ],
+   "detail": "bot protection; needs a browser session or an account"
+  },
+  {
+   "url": "https://www.pipedrive.com/en/pricing",
+   "status": "blocked",
+   "http_status": 403,
+   "final_url": null,
+   "cited_by": [
+    "pipedrive"
+   ],
+   "detail": "bot protection; needs a browser session or an account"
+  },
+  {
+   "url": "https://1password.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://1password.com/pricing",
+   "cited_by": [
+    "1password"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://1password.com/pricing/business",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://1password.com/pricing/business",
+   "cited_by": [
+    "1password"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://360learning.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://360learning.com/pricing/",
+   "cited_by": [
+    "360learning"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://arboristdesk.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://arboristdesk.com/pricing/",
+   "cited_by": [
+    "arboristdesk"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://asana.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://asana.com/pricing",
+   "cited_by": [
+    "asana"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://autoleap.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://autoleap.com/pricing/",
+   "cited_by": [
+    "autoleap"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://azuga.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://azuga.com/pricing",
+   "cited_by": [
+    "azuga"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://bailtec.com/pricing.html",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://bailtec.com/pricing.html",
+   "cited_by": [
+    "bailtec"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://basecamp.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://basecamp.com/pricing",
+   "cited_by": [
+    "basecamp"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://betterstack.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://betterstack.com/pricing",
+   "cited_by": [
+    "better-stack"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://bitwarden.com/pricing/business/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://bitwarden.com/pricing/business/",
+   "cited_by": [
+    "bitwarden"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://bloomerang.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://bloomerang.com/pricing",
+   "cited_by": [
+    "bloomerang"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://booqable.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://booqable.com/pricing/",
+   "cited_by": [
+    "booqable"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://cal.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://cal.com/pricing",
+   "cited_by": [
+    "calcom"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://calendly.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://calendly.com/pricing",
+   "cited_by": [
+    "calendly"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://casejacket.com/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://casejacket.com/",
+   "cited_by": [
+    "casejacket"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://clickup.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://clickup.com/pricing",
+   "cited_by": [
+    "clickup"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://clinicsense.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://clinicsense.com/pricing",
+   "cited_by": [
+    "clinicsense"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://clockify.me/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://clockify.me/pricing",
+   "cited_by": [
+    "clockify"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://contractorplus.app/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://contractorplus.app/pricing",
+   "cited_by": [
+    "contractor-plus"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://crisp.chat/en/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://crisp.chat/en/pricing/",
+   "cited_by": [
+    "crisp"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://cronometer.com/pro/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://cronometer.com/pro/",
+   "cited_by": [
+    "cronometer-pro"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://current-rms.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.current-rms.com/pricing",
+   "cited_by": [
+    "current-rms"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://designmanager.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.designmanager.com/pricing",
+   "cited_by": [
+    "design-manager"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://duo.com/editions-and-pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://duo.com/editions-and-pricing",
+   "cited_by": [
+    "duo-security"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://ecom.docusign.com/plans-and-pricing/esignature",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://ecom.docusign.com/plans-and-pricing/esignature",
+   "cited_by": [
+    "docusign"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://ensorahealth.com/pricing/theranest-mental-health/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://ensorahealth.com/pricing/theranest-mental-health/",
+   "cited_by": [
+    "theranest"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://everfit.io/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://everfit.io/pricing/",
+   "cited_by": [
+    "everfit"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://fieldcamp.ai/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://fieldcamp.ai/pricing/",
+   "cited_by": [
+    "fieldcamp"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://fieldcamp.ai/window-cleaning-software/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://fieldcamp.ai/window-cleaning-software/",
+   "cited_by": [
+    "fieldcamp"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://fieldd.co/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://fieldd.co/pricing",
+   "cited_by": [
+    "fieldd"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://fieldified.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://fieldified.com/pricing",
+   "cited_by": [
+    "fieldified"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://fieldified.com/trade-hubs/pressure-washing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://fieldified.com/trade-hubs/pressure-washing",
+   "cited_by": [
+    "fieldified"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://financial-cents.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://financial-cents.com/pricing/",
+   "cited_by": [
+    "financial-cents"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://getruana.com/massage-therapy-pricing-and-features/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://getruana.com/massage-therapy-pricing-and-features/",
+   "cited_by": [
+    "ruana"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://getsling.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://getsling.com/pricing/",
+   "cited_by": [
+    "sling"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://glossgenius.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://glossgenius.com/pricing",
+   "cited_by": [
+    "glossgenius"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://grasshopper.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://grasshopper.com/pricing",
+   "cited_by": [
+    "grasshopper"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://gymdesk.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://gymdesk.com/pricing",
+   "cited_by": [
+    "gymdesk"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://homeinspectorpro.com/home-inspection-software-pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://homeinspectorpro.com/home-inspection-software-pricing/",
+   "cited_by": [
+    "home-inspector-pro"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://hospitable.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://hospitable.com/pricing",
+   "cited_by": [
+    "hospitable"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://hubstaff.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://hubstaff.com/pricing",
+   "cited_by": [
+    "hubstaff"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://jane.app/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://jane.app/pricing",
+   "cited_by": [
+    "jane-app"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://jumpcloud.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://jumpcloud.com/pricing",
+   "cited_by": [
+    "jumpcloud"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://kaamcam.com/industries/pressure-washing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://kaamcam.com/industries/pressure-washing",
+   "cited_by": [
+    "kaamcam"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://kaamcam.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://kaamcam.com/pricing",
+   "cited_by": [
+    "kaamcam"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://karbonhq.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://karbonhq.com/pricing/",
+   "cited_by": [
+    "karbon"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://kicksite.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://kicksite.com/pricing/",
+   "cited_by": [
+    "kicksite"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://kindhoa.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://kindhoa.com/pricing",
+   "cited_by": [
+    "kindhoa"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://later.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://later.com/pricing/",
+   "cited_by": [
+    "later"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://lattice.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://lattice.com/pricing",
+   "cited_by": [
+    "lattice"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://livestorm.co/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://livestorm.co/pricing",
+   "cited_by": [
+    "livestorm"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://mailchimp.com/pricing/marketing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://mailchimp.com/pricing/marketing/",
+   "cited_by": [
+    "mailchimp"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://menutize.ai/use-case/gutter-cleaning",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://menutize.ai/use-case/gutter-cleaning",
+   "cited_by": [
+    "menutize"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://miro.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://miro.com/pricing/",
+   "cited_by": [
+    "miro"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://moego.pet/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.moego.pet/pricing",
+   "cited_by": [
+    "moego"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://monday.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://monday.com/pricing",
+   "cited_by": [
+    "monday"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://myquoteiq.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://myquoteiq.com/pricing/",
+   "cited_by": [
+    "quoteiq"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://nexudus.com/coworking-pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://nexudus.com/coworking-pricing/",
+   "cited_by": [
+    "nexudus"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://nordlayer.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://nordlayer.com/pricing/",
+   "cited_by": [
+    "nordlayer"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://nordpass.com/plans/business/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://nordpass.com/plans/business/",
+   "cited_by": [
+    "nordpass"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://notaryassist.com/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://notaryassist.com/",
+   "cited_by": [
+    "notaryassist"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://octopuspro.com/gutter-cleaning-software/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://octopuspro.com/gutter-cleaning-software/",
+   "cited_by": [
+    "octopuspro"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://octopuspro.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://octopuspro.com/pricing/",
+   "cited_by": [
+    "octopuspro"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://onpay.com/payroll/software/costs-pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://onpay.com/payroll/software/costs-pricing/",
+   "cited_by": [
+    "onpay"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://onpay.com/terms-of-service/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://onpay.com/terms-of-service/",
+   "cited_by": [
+    "onpay"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://optimoroute.com/business-type/post-couriers/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://optimoroute.com/business-type/post-couriers/",
+   "cited_by": [
+    "optimoroute"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://optimoroute.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://optimoroute.com/pricing/",
+   "cited_by": [
+    "optimoroute"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://orderry.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://orderry.com/pricing/",
+   "cited_by": [
+    "orderry"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://pabau.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://pabau.com/pricing/",
+   "cited_by": [
+    "pabau"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://paperbell.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://paperbell.com/pricing/",
+   "cited_by": [
+    "paperbell"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://poolofficemanager.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://poolofficemanager.com/pricing",
+   "cited_by": [
+    "pool-office-manager"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://powerwash.software/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://powerwash.software/pricing/",
+   "cited_by": [
+    "powerwashoffice"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://practicebetter.io/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://practicebetter.io/pricing",
+   "cited_by": [
+    "practice-better"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://pricing.webex.com/us/en/hybrid-work/meetings/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://pricing.webex.com/us/en/hybrid-work/meetings/",
+   "cited_by": [
+    "webex"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://proton.me/business/plans",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://proton.me/business/plans",
+   "cited_by": [
+    "proton-business"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://publer.com/plans",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://publer.com/plans",
+   "cited_by": [
+    "publer"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://punchpass.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://punchpass.com/pricing/",
+   "cited_by": [
+    "punchpass"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://ramp.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://ramp.com/pricing",
+   "cited_by": [
+    "ramp"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://recruitee.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://recruitee.com/pricing",
+   "cited_by": [
+    "recruitee"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://rockpapercoin.com/price-tag/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://rockpapercoin.com/price-tag/",
+   "cited_by": [
+    "rock-paper-coin"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://savvycal.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://savvycal.com/pricing",
+   "cited_by": [
+    "savvycal"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://screencloud.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://screencloud.com/pricing",
+   "cited_by": [
+    "screencloud"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://slite.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://slite.com/pricing",
+   "cited_by": [
+    "slite"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://snseats.signnow.com/purchase/business_plans/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://snseats.signnow.com/purchase/business_plans/pricing",
+   "cited_by": [
+    "signnow"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://sproutsocial.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://sproutsocial.com/pricing/",
+   "cited_by": [
+    "sprout-social"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://squareup.com/us/en/payroll/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://squareup.com/us/en/payroll/pricing",
+   "cited_by": [
+    "square-payroll"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://superhuman.com/plans/docs",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://superhuman.com/plans/docs",
+   "cited_by": [
+    "coda"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://tailscale.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://tailscale.com/pricing",
+   "cited_by": [
+    "tailscale"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://tally.so/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://tally.so/pricing",
+   "cited_by": [
+    "tally"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://timetopet.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.timetopet.com/pricing",
+   "cited_by": [
+    "time-to-pet"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://toggl.com/track/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://toggl.com/track/pricing/",
+   "cited_by": [
+    "toggl-track"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://treeziapp.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://treeziapp.com/pricing/",
+   "cited_by": [
+    "treezi"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://trello.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://trello.com/pricing",
+   "cited_by": [
+    "trello"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://truecoach.co/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://truecoach.co/pricing/",
+   "cited_by": [
+    "truecoach"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://tutorcruncher.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://tutorcruncher.com/pricing",
+   "cited_by": [
+    "tutorcruncher"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://uptimerobot.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://uptimerobot.com/pricing/",
+   "cited_by": [
+    "uptimerobot"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://webflow.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://webflow.com/pricing",
+   "cited_by": [
+    "webflow"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://webinarninja.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://webinarninja.com/pricing/",
+   "cited_by": [
+    "webinarninja"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://wheniwork.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://wheniwork.com/pricing",
+   "cited_by": [
+    "when-i-work"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://whereby.com/information/meetings/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://whereby.com/information/meetings/pricing",
+   "cited_by": [
+    "whereby"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://whimsical.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://whimsical.com/pricing",
+   "cited_by": [
+    "whimsical"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://workspace.google.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://workspace.google.com/pricing",
+   "cited_by": [
+    "google-workspace"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.15five.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.15five.com/pricing",
+   "cited_by": [
+    "15five"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.17hats.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.17hats.com/pricing",
+   "cited_by": [
+    "17hats"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.7shifts.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.7shifts.com/pricing/",
+   "cited_by": [
+    "7shifts"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.acuityscheduling.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.acuityscheduling.com/pricing",
+   "cited_by": [
+    "acuity"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.aestheticrecord.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.aestheticrecord.com/pricing/",
+   "cited_by": [
+    "aesthetic-record"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.agorapulse.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.agorapulse.com/pricing/",
+   "cited_by": [
+    "agorapulse"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.atlassian.com/software/confluence/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.atlassian.com/software/confluence/pricing",
+   "cited_by": [
+    "confluence"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.atlassian.com/software/statuspage/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.atlassian.com/software/statuspage/pricing",
+   "cited_by": [
+    "atlassian-statuspage"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.bailbooks.com/pricing.aspx",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.bailbooks.com/pricing.aspx",
+   "cited_by": [
+    "bailbooks"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.bill.com/product/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.bill.com/product/pricing",
+   "cited_by": [
+    "bill-spend-expense"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.bonusly.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://bonusly.com/pricing",
+   "cited_by": [
+    "bonusly"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.brevo.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.brevo.com/pricing/",
+   "cited_by": [
+    "brevo"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.buildium.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.buildium.com/pricing/",
+   "cited_by": [
+    "buildium"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.captira.com/pages/pricing-bail-management",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.captira.com/pages/pricing-bail-management",
+   "cited_by": [
+    "captira"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.chronotek.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.chronotek.com/pricing",
+   "cited_by": [
+    "chronotek"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.cleanguru.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.cleanguru.com/pricing",
+   "cited_by": [
+    "cleanguru"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.cliniko.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.cliniko.com/pricing/",
+   "cited_by": [
+    "cliniko"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.closewise.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.closewise.com/pricing",
+   "cited_by": [
+    "closewise"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.cloudflare.com/plans/zero-trust-services/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.cloudflare.com/plans/zero-trust-services/",
+   "cited_by": [
+    "cloudflare-zero-trust"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.coachaccountable.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.coachaccountable.com/pricing",
+   "cited_by": [
+    "coachaccountable"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.cosmolex.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.cosmolex.com/pricing/",
+   "cited_by": [
+    "cosmolex"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.coworks.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.coworks.com/pricing",
+   "cited_by": [
+    "coworks"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.crosstrax.co/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.crosstrax.co/pricing/",
+   "cited_by": [
+    "crosstrax"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.dashlane.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.dashlane.com/pricing",
+   "cited_by": [
+    "dashlane"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.daysmart.com/pet/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.daysmart.com/pet/pricing/",
+   "cited_by": [
+    "daysmart-pet"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.demio.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.demio.com/pricing",
+   "cited_by": [
+    "demio"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.deputy.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.deputy.com/pricing",
+   "cited_by": [
+    "deputy"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.detrack.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.detrack.com/pricing/",
+   "cited_by": [
+    "detrack"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.dropbox.com/business/plans-comparison",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.dropbox.com/business/plans-comparison",
+   "cited_by": [
+    "dropbox-business"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.dubsado.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.dubsado.com/pricing",
+   "cited_by": [
+    "dubsado"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.duda.co/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.duda.co/pricing",
+   "cited_by": [
+    "duda"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.egnyte.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.egnyte.com/pricing",
+   "cited_by": [
+    "egnyte"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.elromco.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.elromco.com/pricing",
+   "cited_by": [
+    "elromco"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.ewebinar.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://ewebinar.com/pricing",
+   "cited_by": [
+    "ewebinar"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.expensify.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.expensify.com/pricing",
+   "cited_by": [
+    "expensify"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.fastmail.com/pricing/us/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.fastmail.com/pricing/us/",
+   "cited_by": [
+    "fastmail"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.fieldwire.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.fieldwire.com/pricing/",
+   "cited_by": [
+    "fieldwire"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.figma.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.figma.com/pricing/",
+   "cited_by": [
+    "figma"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.fillout.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.fillout.com/pricing",
+   "cited_by": [
+    "fillout"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.fleetio.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.fleetio.com/pricing",
+   "cited_by": [
+    "fleetio"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.formstack.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.formstack.com/pricing",
+   "cited_by": [
+    "formstack"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.framer.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.framer.com/pricing",
+   "cited_by": [
+    "framer"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.freshworks.com/crm/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.freshworks.com/crm/pricing/",
+   "cited_by": [
+    "freshsales"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.freshworks.com/freshdesk/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.freshworks.com/freshdesk/pricing/",
+   "cited_by": [
+    "freshdesk"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.fylehq.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.fylehq.com/pricing",
+   "cited_by": [
+    "fyle"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.getcanopy.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.getcanopy.com/pricing/",
+   "cited_by": [
+    "canopy"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.getharvest.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.getharvest.com/pricing",
+   "cited_by": [
+    "harvest"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.getjobber.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.getjobber.com/pricing/",
+   "cited_by": [
+    "jobber"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.getresponse.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.getresponse.com/pricing",
+   "cited_by": [
+    "getresponse"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.goodaccess.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.goodaccess.com/pricing/",
+   "cited_by": [
+    "goodaccess"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.helpscout.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.helpscout.com/pricing/",
+   "cited_by": [
+    "helpscout"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.hemlane.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.hemlane.com/pricing/",
+   "cited_by": [
+    "hemlane"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.honeybook.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.honeybook.com/pricing",
+   "cited_by": [
+    "honeybook"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.hootsuite.com/plans",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.hootsuite.com/plans",
+   "cited_by": [
+    "hootsuite"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.housecallpro.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.housecallpro.com/pricing/",
+   "cited_by": [
+    "housecall-pro"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.innago.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://innago.com:443/pricing/",
+   "cited_by": [
+    "innago"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.intercom.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.intercom.com/pricing",
+   "cited_by": [
+    "intercom"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.jackrabbitclass.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.jackrabbitclass.com/pricing/",
+   "cited_by": [
+    "jackrabbit-class"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.jazzhr.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.jazzhr.com/pricing",
+   "cited_by": [
+    "jazzhr"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.jobtread.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.jobtread.com/pricing",
+   "cited_by": [
+    "jobtread"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.joinblvd.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.joinblvd.com/pricing",
+   "cited_by": [
+    "boulevard"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.joinhomebase.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.joinhomebase.com/pricing",
+   "cited_by": [
+    "homebase",
+    "homebase-scheduling"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.jotform.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.jotform.com/pricing/",
+   "cited_by": [
+    "jotform"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.keepersecurity.com/pricing/business-and-enterprise.html",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.keepersecurity.com/pricing/business-and-enterprise.html",
+   "cited_by": [
+    "keeper"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.kickserv.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.kickserv.com/pricing",
+   "cited_by": [
+    "kickserv"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.launch27.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.launch27.com/pricing/",
+   "cited_by": [
+    "launch27"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.learnworlds.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.learnworlds.com/pricing/",
+   "cited_by": [
+    "learnworlds"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.linxup.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.linxup.com/pricing",
+   "cited_by": [
+    "linxup"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.littlegreenlight.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.littlegreenlight.com/pricing/",
+   "cited_by": [
+    "little-green-light"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.livechat.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.livechat.com/pricing/",
+   "cited_by": [
+    "livechat"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.lodgify.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.lodgify.com/pricing/",
+   "cited_by": [
+    "lodgify"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.mailerlite.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.mailerlite.com/pricing",
+   "cited_by": [
+    "mailerlite"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.manatal.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.manatal.com/pricing",
+   "cited_by": [
+    "manatal"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.mangomint.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.mangomint.com/pricing/",
+   "cited_by": [
+    "mangomint"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.matterapp.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://matterapp.com/pricing",
+   "cited_by": [
+    "matter"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.microsoft.com/en-us/microsoft-365/business/microsoft-365-plans-and-pricing",
+   "cited_by": [
+    "microsoft-365"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-business-options",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-business-options",
+   "cited_by": [
+    "microsoft-teams-essentials"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.microsoft.com/en-us/security/business/microsoft-entra-pricing",
+   "cited_by": [
+    "microsoft-entra"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.moveitpro.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.moveitpro.com/pricing",
+   "cited_by": [
+    "moveitpro"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.mural.co/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.mural.co/pricing",
+   "cited_by": [
+    "mural"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.mycase.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.mycase.com/pricing/",
+   "cited_by": [
+    "mycase"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.mymusicstaff.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.mymusicstaff.com/pricing/",
+   "cited_by": [
+    "mymusicstaff"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.notarygadget.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.notarygadget.com/pricing",
+   "cited_by": [
+    "notarygadget"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.notion.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.notion.com/pricing",
+   "cited_by": [
+    "notion"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.novisign.com/pricing-usca/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.novisign.com/pricing-usca/",
+   "cited_by": [
+    "novisign"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.nuclino.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.nuclino.com/pricing",
+   "cited_by": [
+    "nuclino"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.okta.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.okta.com/pricing/",
+   "cited_by": [
+    "okta-workforce"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.olark.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.olark.com/pricing",
+   "cited_by": [
+    "olark"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.optisigns.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.optisigns.com/pricing",
+   "cited_by": [
+    "optisigns"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.otuvy.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.otuvy.com/pricing",
+   "cited_by": [
+    "otuvy"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.palmtech.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.palmtech.com/pricing/",
+   "cited_by": [
+    "palmtech"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.patriotsoftware.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.patriotsoftware.com/pricing/",
+   "cited_by": [
+    "patriot"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.payhoa.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.payhoa.com/pricing/",
+   "cited_by": [
+    "payhoa"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.paythepoolman.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.paythepoolman.com/pricing",
+   "cited_by": [
+    "paythepoolman"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.pcloud.com/business.html",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.pcloud.com/business.html",
+   "cited_by": [
+    "pcloud-business"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.performyard.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.performyard.com/pricing",
+   "cited_by": [
+    "performyard"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.pingdom.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.pingdom.com/pricing/",
+   "cited_by": [
+    "pingdom"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.pingidentity.com/en/platform/pricing.html",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.pingidentity.com/en/platform/pricing.html",
+   "cited_by": [
+    "ping-identity"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.pixifi.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.pixifi.com/pricing",
+   "cited_by": [
+    "pixifi"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.poolbrain.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.poolbrain.com/pricing/",
+   "cited_by": [
+    "poolbrain"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.provalet.io/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.provalet.io/pricing",
+   "cited_by": [
+    "provalet"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.provalet.io/solutions/window-cleaners-pressure-washing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.provalet.io/solutions/window-cleaners-pressure-washing",
+   "cited_by": [
+    "provalet"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.pushpress.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.pushpress.com/pricing",
+   "cited_by": [
+    "pushpress"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.quo.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.quo.com/pricing",
+   "cited_by": [
+    "openphone"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.rentecdirect.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.rentecdirect.com/pricing",
+   "cited_by": [
+    "rentec-direct"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.rentmy.co/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://rentmy.co/pricing",
+   "cited_by": [
+    "rentmy"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.repairdesk.co/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.repairdesk.co/pricing/",
+   "cited_by": [
+    "repairdesk"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.repairshopr.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.repairshopr.com/pricing",
+   "cited_by": [
+    "repairshopr"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.ringcentral.com/office/plansandpricing.html",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.ringcentral.com/office/plansandpricing.html",
+   "cited_by": [
+    "ringcentral"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.rocketmatter.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.rocketmatter.com/pricing/",
+   "cited_by": [
+    "rocket-matter"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.satoriapp.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.satoriapp.com/pricing/",
+   "cited_by": [
+    "satori"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.screenly.io/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.screenly.io/pricing/",
+   "cited_by": [
+    "screenly"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.servgrow.com/gutter-cleaning-software",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.servgrow.com/gutter-cleaning-software",
+   "cited_by": [
+    "servgrow"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.servgrow.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.servgrow.com/pricing",
+   "cited_by": [
+    "servgrow"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.serviceautopilot.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.serviceautopilot.com/pricing/",
+   "cited_by": [
+    "service-autopilot"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.servicefusion.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.servicefusion.com/pricing",
+   "cited_by": [
+    "service-fusion"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.servicemonster.com/industries/window-cleaning",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.servicemonster.com/industries/window-cleaning",
+   "cited_by": [
+    "servicemonster"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.servicemonster.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.servicemonster.com/pricing",
+   "cited_by": [
+    "servicemonster"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.sharefile.com/plans",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.sharefile.com/plans",
+   "cited_by": [
+    "sharefile"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.shopmonkey.io/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.shopmonkey.io/pricing",
+   "cited_by": [
+    "shopmonkey"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.simplepractice.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.simplepractice.com/pricing/",
+   "cited_by": [
+    "simplepractice"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.smoobu.com/en/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.smoobu.com/en/pricing/",
+   "cited_by": [
+    "smoobu"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.spectora.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.spectora.com/pricing/",
+   "cited_by": [
+    "spectora"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.squarespace.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.squarespace.com/pricing",
+   "cited_by": [
+    "squarespace"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.statuscake.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.statuscake.com/pricing/",
+   "cited_by": [
+    "statuscake"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.studiodesigner.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.studiodesigner.com/pricing/",
+   "cited_by": [
+    "studio-designer"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.studioninja.co/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.studioninja.co/pricing/",
+   "cited_by": [
+    "studio-ninja"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.sync.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.sync.com/pricing/",
+   "cited_by": [
+    "sync-teams"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.tekmetric.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.tekmetric.com/pricing",
+   "cited_by": [
+    "tekmetric"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.tenantcloud.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.tenantcloud.com/pricing",
+   "cited_by": [
+    "tenantcloud"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.therapynotes.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.therapynotes.com/pricing/",
+   "cited_by": [
+    "therapynotes"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.tidio.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.tidio.com/pricing/",
+   "cited_by": [
+    "tidio"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.timecamp.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.timecamp.com/pricing/",
+   "cited_by": [
+    "timecamp"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.townsq.io/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.townsq.io/pricing",
+   "cited_by": [
+    "townsq"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.track-pod.com/courier-software/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.track-pod.com/courier-software/",
+   "cited_by": [
+    "track-pod"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.track-pod.com/pricing-delivery-app/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.track-pod.com/pricing-delivery-app/",
+   "cited_by": [
+    "track-pod"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.trackops.com/pricing.html",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.trackops.com/pricing.html",
+   "cited_by": [
+    "trackops"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.tradifyhq.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.tradifyhq.com/pricing",
+   "cited_by": [
+    "tradify"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.trainerize.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.trainerize.com/pricing/",
+   "cited_by": [
+    "trainerize"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.tutorbird.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.tutorbird.com/pricing/",
+   "cited_by": [
+    "tutorbird"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.twingate.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.twingate.com/pricing",
+   "cited_by": [
+    "twingate"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.typeform.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.typeform.com/pricing",
+   "cited_by": [
+    "typeform"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.vagaro.com/pro/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.vagaro.com/pro/pricing",
+   "cited_by": [
+    "vagaro"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.waveapps.com/payroll",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.waveapps.com/payroll",
+   "cited_by": [
+    "wave-payroll"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.wellnessliving.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.wellnessliving.com/pricing/",
+   "cited_by": [
+    "wellnessliving"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.werxapp.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.werxapp.com/pricing/",
+   "cited_by": [
+    "werx"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.wix.com/plans",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.wix.com/plans",
+   "cited_by": [
+    "wix"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.workable.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.workable.com/pricing",
+   "cited_by": [
+    "workable"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.xero.com/us/pricing-plans/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.xero.com/us/pricing-plans/",
+   "cited_by": [
+    "xero"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.zoho.com/crm/zohocrm-pricing.html",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.zoho.com/en-us/crm/zohocrm-pricing.html",
+   "cited_by": [
+    "zoho-crm"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.zoho.com/recruit/pricing.html",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.zoho.com/recruit/pricing.html",
+   "cited_by": [
+    "zoho-recruit"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.zoho.com/us/books/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.zoho.com/us/books/pricing/",
+   "cited_by": [
+    "zoho-books"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.zoho.com/us/expense/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.zoho.com/us/expense/pricing/",
+   "cited_by": [
+    "zoho-expense"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://www.zoho.com/workplace/pricing.html",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://www.zoho.com/workplace/pricing.html",
+   "cited_by": [
+    "zoho-workplace"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://youcanbook.me/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://youcanbook.me/pricing",
+   "cited_by": [
+    "youcanbookme"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://zenbooker.com/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://zenbooker.com/pricing",
+   "cited_by": [
+    "zenbooker"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://zenplanner.com/pricing/",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://zenplanner.com/pricing/",
+   "cited_by": [
+    "zen-planner"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://zoom.us/pricing",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://zoom.us/pricing",
+   "cited_by": [
+    "zoom"
+   ],
+   "detail": null
+  },
+  {
+   "url": "https://zoom.us/pricing/events",
+   "status": "ok",
+   "http_status": 200,
+   "final_url": "https://zoom.us/pricing/events",
+   "cited_by": [
+    "zoom-webinars"
+   ],
+   "detail": null
+  }
+ ]
+}
